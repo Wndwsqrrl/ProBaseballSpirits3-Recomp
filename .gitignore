@@ -1,0 +1,18 @@
+local/
+Pro Yakyuu Spirits 3 (Japan)/
+prospi3-recomp/out/
+prospi3-recomp/generated/
+!prospi3-recomp/generated/
+prospi3-recomp/generated/*
+!prospi3-recomp/generated/rexglue.cmake
+__pycache__/
+*.iso
+*.xex
+*.fbd
+*.CHK
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.zip

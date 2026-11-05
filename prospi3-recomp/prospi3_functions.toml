@@ -1,0 +1,76 @@
+[functions]
+# Leaf method, all conditional exits remain within [0x82691B70, 0x82691C38).
+# Tail-called by the this-adjusting thunk at 0x826A5930. Last instruction is
+# blr at 0x82691C34; the next independent method starts at 0x82691C38.
+"0x82691B70" = { size = 0xC8 }
+# The early return at 0x822875DC is shared by the second condition at
+# 0x822875EC. Keep both paths in one leaf function, ending before 0x82287658.
+"0x822875D0" = { size = 0x88 }
+# Adjacent functions have distinct .pdata entries. Automatic merging dropped
+# the continuation after 0x82561248 and emitted a goto without its label.
+# Sizes match the packed .pdata lengths and the observed epilogues.
+"0x82560E20" = { size = 0x228 }
+"0x82561048" = { size = 0x324 }
+# Static initializer referenced by the CRT table at 0x826E001C. This leaf
+# tail-call wrapper has no .pdata entry and was absent from indirect dispatch.
+"0x826D1AE0" = { size = 0x14 }
+# Leaf initializer reached from unattended title/attract-mode startup.
+"0x825D84F8" = { size = 0x1C }
+# Additional leaf methods / this-adjustment thunks referenced by .rdata vtables.
+# Each body was disassembled through its return or tail branch; no guest logic
+# is stubbed. These have no .pdata entry and were missing from dispatch.
+"0x821AE288" = { size = 0x10 }
+"0x821BC830" = { size = 0x4 }
+# Additional vtable leaves identified during the first-pitch test. The thunks
+# end in bctr; both leaf-method extents include every conditional return.
+"0x821BC818" = { size = 0x18 }
+"0x821D7D00" = { size = 0x18 }
+"0x82214978" = { size = 0x98 }
+"0x82446258" = { size = 0x114 }
+# Gameplay leaf reached after pitching begins. Includes all nine switch arms
+# and both conditional returns; the next independent prologue is 0x8229A5E8.
+"0x8229A4A0" = { size = 0x148 }
+"0x825CAE00" = { size = 0x8 }
+"0x825CB310" = { size = 0x8 }
+"0x82690F18" = { size = 0x1C }
+"0x826A17A0" = { size = 0x8 }
+"0x826A5BD0" = { size = 0x8 }
+"0x826A5BD8" = { size = 0x8 }
+"0x826A5BE0" = { size = 0x8 }
+"0x826A5BE8" = { size = 0x8 }
+"0x826A5BF0" = { size = 0x8 }
+"0x826A5BF8" = { size = 0x8 }
+"0x826A5C18" = { size = 0x8 }
+"0x826A5C20" = { size = 0x8 }
+"0x826A5C30" = { size = 0x8 }
+"0x826A5C40" = { size = 0x8 }
+
+# The byte-offset switch table at 0x82059928 has 25 entries, followed by
+# alignment zeros and a different table. Automatic discovery consumed that
+# following data and incorrectly pulled the next function into this one.
+[[switch_tables]]
+address = 0x8229A4F4
+register = 11
+labels = [0x8229A4AC, 0x8229A4F8, 0x8229A504, 0x8229A510, 0x8229A51C,
+          0x8229A528, 0x8229A534, 0x8229A540, 0x8229A54C]
+
+[[switch_tables]]
+address = 0x82560E54
+register = 4
+labels = [
+    0x82560E58, 0x82560E74, 0x82560E88, 0x82560E9C, 0x82560EB0,
+    0x82560EC4, 0x82560ED8, 0x82560EF0, 0x82560F04, 0x82560F18,
+    0x82560F2C, 0x82560F40, 0x82560F48, 0x82560F5C, 0x82560F70,
+    0x82560F84, 0x82560F8C, 0x82560FA0, 0x82560FB4, 0x82560FC8,
+    0x82560FDC, 0x82560FE4, 0x82560FEC, 0x82560FF4, 0x82561020,
+]
+
+# Second byte-offset switch: 13 entries at 0x8205E500, then 3 padding bytes.
+[[switch_tables]]
+address = 0x82561D18
+register = 4
+labels = [
+    0x82561D1C, 0x82561D28, 0x82561D3C, 0x82561D48, 0x82561DC4,
+    0x82561D1C, 0x82561DD0, 0x82561E14, 0x82561E80, 0x82561E80,
+    0x82561E78, 0x82561E78, 0x82561E80,
+]

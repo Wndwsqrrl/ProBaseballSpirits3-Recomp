@@ -1,0 +1,573 @@
+{
+  "MAINMENU.CHK": {
+    "MENU_EXmm_mode.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          256,
+          45
+        ],
+        "text": "Pennant"
+      },
+      {
+        "rect": [
+          0,
+          45,
+          256,
+          45
+        ],
+        "text": "MVP Pennant"
+      },
+      {
+        "rect": [
+          0,
+          90,
+          256,
+          45
+        ],
+        "text": "Manager"
+      },
+      {
+        "rect": [
+          0,
+          135,
+          256,
+          45
+        ],
+        "text": "Free Pennant"
+      },
+      {
+        "rect": [
+          0,
+          180,
+          256,
+          45
+        ],
+        "text": "Full Menu"
+      },
+      {
+        "rect": [
+          256,
+          0,
+          256,
+          45
+        ],
+        "text": "Exhibition"
+      },
+      {
+        "rect": [
+          256,
+          45,
+          256,
+          45
+        ],
+        "text": "Trial"
+      },
+      {
+        "rect": [
+          256,
+          90,
+          256,
+          45
+        ],
+        "text": "Strike Pitch"
+      },
+      {
+        "rect": [
+          256,
+          135,
+          256,
+          45
+        ],
+        "text": "Home Run Derby"
+      },
+      {
+        "rect": [
+          256,
+          180,
+          256,
+          45
+        ],
+        "text": "Quick Match"
+      },
+      {
+        "rect": [
+          512,
+          0,
+          256,
+          45
+        ],
+        "text": "Spirits"
+      },
+      {
+        "rect": [
+          512,
+          45,
+          256,
+          45
+        ],
+        "text": "Training"
+      },
+      {
+        "rect": [
+          512,
+          90,
+          256,
+          45
+        ],
+        "text": "VP Shop"
+      },
+      {
+        "rect": [
+          512,
+          135,
+          256,
+          45
+        ],
+        "text": "Utility"
+      }
+    ]
+  },
+  "MENU2D.CHK": {
+    "UNION_COM_00posi.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          41,
+          42
+        ],
+        "text": "1B",
+        "padding": 4
+      },
+      {
+        "rect": [
+          41,
+          0,
+          41,
+          42
+        ],
+        "text": "2B",
+        "padding": 4
+      },
+      {
+        "rect": [
+          82,
+          0,
+          41,
+          42
+        ],
+        "text": "3B",
+        "padding": 4
+      },
+      {
+        "rect": [
+          123,
+          0,
+          41,
+          42
+        ],
+        "text": "SS",
+        "padding": 4
+      },
+      {
+        "rect": [
+          164,
+          0,
+          41,
+          42
+        ],
+        "text": "P",
+        "padding": 4
+      },
+      {
+        "rect": [
+          205,
+          0,
+          41,
+          42
+        ],
+        "text": "C",
+        "padding": 4
+      },
+      {
+        "rect": [
+          246,
+          0,
+          41,
+          42
+        ],
+        "text": "RF",
+        "padding": 4
+      },
+      {
+        "rect": [
+          287,
+          0,
+          41,
+          42
+        ],
+        "text": "CF",
+        "padding": 4
+      },
+      {
+        "rect": [
+          328,
+          0,
+          41,
+          42
+        ],
+        "text": "LF",
+        "padding": 4
+      },
+      {
+        "rect": [
+          0,
+          42,
+          41,
+          42
+        ],
+        "text": "DH",
+        "padding": 4
+      },
+      {
+        "rect": [
+          41,
+          42,
+          41,
+          42
+        ],
+        "text": "R",
+        "padding": 4
+      },
+      {
+        "rect": [
+          82,
+          42,
+          41,
+          42
+        ],
+        "text": "L",
+        "padding": 4
+      },
+      {
+        "rect": [
+          123,
+          42,
+          41,
+          42
+        ],
+        "text": "S",
+        "padding": 4
+      },
+      {
+        "rect": [
+          164,
+          42,
+          41,
+          42
+        ],
+        "text": "PH",
+        "padding": 4
+      },
+      {
+        "rect": [
+          205,
+          42,
+          41,
+          42
+        ],
+        "text": "PR",
+        "padding": 4
+      },
+      {
+        "rect": [
+          246,
+          42,
+          41,
+          42
+        ],
+        "text": "SP",
+        "padding": 4
+      },
+      {
+        "rect": [
+          287,
+          42,
+          41,
+          42
+        ],
+        "text": "RP",
+        "padding": 4
+      }
+    ]
+  },
+  "ORDERD.CHK": {
+    "MENU_ORhelp.tsr": [
+      {
+        "rect": [
+          4,
+          7,
+          44,
+          17
+        ],
+        "text": "Best",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          109,
+          7,
+          44,
+          17
+        ],
+        "text": "Worst",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          5,
+          52,
+          34,
+          16
+        ],
+        "text": "Minor",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          43,
+          52,
+          32,
+          16
+        ],
+        "text": "Major",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          80,
+          52,
+          32,
+          16
+        ],
+        "text": "Tired",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          117,
+          52,
+          35,
+          16
+        ],
+        "text": "Hide",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          51,
+          99,
+          90,
+          17
+        ],
+        "text": "Control",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          7,
+          120,
+          33,
+          17
+        ],
+        "text": "Stuff",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          107,
+          136,
+          43,
+          17
+        ],
+        "text": "Break",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          5,
+          155,
+          71,
+          17
+        ],
+        "text": "Stamina",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      },
+      {
+        "rect": [
+          80,
+          155,
+          73,
+          17
+        ],
+        "text": "Starter",
+        "padding": 2,
+        "background": [
+          74,
+          74,
+          74,
+          255
+        ]
+      }
+    ]
+  },
+  "BBMENU.CHK": {
+    "MENU_ETC_nblock_deco2.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          36,
+          16
+        ],
+        "text": "vs L",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          0,
+          16,
+          36,
+          16
+        ],
+        "text": "vs R",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ]
+  },
+  "TMSEL.CHK": {
+    "MENU_EXtesele.tsr": [
+      {
+        "rect": [
+          298,
+          16,
+          70,
+          28
+        ],
+        "text": "Away",
+        "padding": 2,
+        "foreground": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          370,
+          16,
+          70,
+          28
+        ],
+        "text": "Home",
+        "padding": 2,
+        "foreground": [
+          68,
+          68,
+          68,
+          255
+        ]
+      }
+    ]
+  },
+  "SELECT.CHK": {
+    "MENU_MAT_pw03.tsr": [
+      {
+        "rect": [
+          0,
+          64,
+          64,
+          24
+        ],
+        "text": "Back",
+        "padding": 2,
+        "outline_width": 1
+      }
+    ]
+  }
+}

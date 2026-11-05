@@ -1,0 +1,2296 @@
+{
+  "exclude_ranges": [
+    {
+      "start": "0x82000000",
+      "end": "0x8205F504",
+      "reason": "Numeric data and kana input codebooks before the game UI string region"
+    },
+    {
+      "start": "0x82074880",
+      "end": "0x82074C18",
+      "reason": "Character equivalence/search tables, not display prose"
+    },
+    {
+      "start": "0x820A7E00",
+      "end": "0x820AB20C",
+      "reason": "Numeric data following the save-system strings"
+    },
+    {
+      "start": "0x8207F350",
+      "end": "0x8207F438",
+      "reason": "Variant kanji equivalence table used for player names"
+    },
+    {
+      "start": "0x820A6AC8",
+      "end": "0x820A6BA0",
+      "reason": "Font glyph conversion table, not display labels"
+    }
+  ],
+  "exclude_addresses": [
+    "0x8207F308",
+    "0x8209EFD8",
+    "0x820A2620",
+    "0x820A2660",
+    "0x8207F3E0",
+    "0x8207F3E8",
+    "0x820A6AC8",
+    "0x820A6AD0",
+    "0x820A6ADC",
+    "0x820A6AEC",
+    "0x820A6B00",
+    "0x820A6B48"
+  ],
+  "source_corrections": {
+    "0x820634DF": {
+      "address": "0x820634E0",
+      "source": "ゲームを始めます。",
+      "english": "Start the game."
+    }
+  },
+  "word_overrides": {
+    "選択": "Move",
+    "決定": "OK",
+    "戻る": "Back",
+    "変更": "Change",
+    "終了": "Exit",
+    "確認": "Check",
+    "対　戦": "Exhibition",
+    "対戦": "Exhibition",
+    "フィールドプレイ": "Field Play",
+    "試合観戦": "Watch Match",
+    "ＣＯＭ対戦": "CPU Match",
+    "COM対戦": "CPU Match",
+    "２人対戦": "Local VS",
+    "協力プレイ": "Co-op",
+    "マジペナント": "Pennant",
+    "ホームラン競争": "Home Run Derby",
+    "金": "Gold",
+    "茶": "Brown",
+    "球": "Ball",
+    "走": "Run",
+    "勝": "W",
+    "敗": "L",
+    "割": "",
+    "分": "",
+    "厘": "",
+    "王": "Oh",
+    "コールド": "Mercy Rule",
+    "コールドなし": "Off",
+    "規定イニング": "Innings",
+    "延長": "Extra Innings",
+    "おまかせ": "Auto",
+    "デモ": "Cutscenes",
+    "失策": "Errors",
+    "エラー": "Errors",
+    "初心者向け": "Beginner",
+    "プロ仕様": "Pro",
+    "パワプロライク": "Power Pro",
+    "シンプルリアル": "Simple Real",
+    "カスタマイズ": "Custom",
+    "マイ設定": "My Settings",
+    "ベンチ入り": "Bench",
+    "二軍野手": "Reserve Batters",
+    "再オーダー": "Edit Lineup",
+    "守備交代": "Substitutions",
+    "セーブ": "Saves",
+    "ストレート": "Fastball",
+    "ツーシームファスト": "Two-Seam Fastball",
+    "本": "HR",
+    "指": "DH",
+    "休": "Rest",
+    "ケガ人は使用できません": "Injured players cannot play.",
+    "最多失策": "Most Errors",
+    "連無安": "Hitless Streak",
+    "年間ＭＶＰ": "Season MVP",
+    "投手球種": "Pitch Repertoire",
+    "実況": "Commentary",
+    "実　況": "Commentary",
+    "打者解説": "Batting Analyst",
+    "投手解説": "Pitching Analyst",
+    "実況者": "Announcer",
+    "総合守備": "Fielding",
+    "ＨＲ": "HR",
+    "作戦": "Strategy",
+    "個別役割": "Player Roles",
+    "守備シフト（ディテール）": "Defensive Shifts",
+    "決定する": "Confirm",
+    "決定します": "Confirm.",
+    "やり直し": "Reset",
+    "リセット": "Reset",
+    "試合へ進む": "Start Match",
+    "選手登録": "Roster",
+    "野手登録": "Batters",
+    "投手登録": "Pitchers",
+    "ＤＨ制あり": "DH On",
+    "ＤＨ制なし": "DH Off",
+    "DH制あり": "DH On",
+    "DH制なし": "DH Off",
+    "標準": "Standard",
+    "スタンダード": "Standard",
+    "オーダー": "Lineup",
+    "決　定": "Confirm",
+    "使用球": "Ball Type",
+    "右上投：": "R Overhand:",
+    "左上投：": "L Overhand:",
+    "右横投：": "R Sidearm:",
+    "左横投：": "L Sidearm:",
+    "右ス投：": "R Three-quarter:",
+    "左ス投：": "L Three-quarter:",
+    "右下投：": "R Underhand:",
+    "左下投：": "L Underhand:",
+    "リリーフ調整中": "Warming Up (Relief)",
+    "先発準備完了": "Starter Ready",
+    "走塁無視": "Ignore Baserunners",
+    "汎用16フォント": "Standard 16 Font",
+    "球種名10文字": "Pitch Name (10 chars)",
+    "ＳＦＦ": "Splitter",
+    "加藤": "Kato",
+    "高木": "Takagi",
+    "川井": "Kawai",
+    "ベニー": "Benny",
+    "中村": "Nakamura",
+    "鈴木": "Suzuki",
+    "コンバート：先発": "Convert to Starter",
+    "コンバート：リリーフ": "Convert to Reliever",
+    "コンバート : 先発": "Convert to Starter",
+    "コンバート : リリーフ": "Convert to Reliever",
+    "対象": "Target",
+    "期間": "Duration",
+    "エクストラ": "Extra",
+    "負": "L",
+    "表": "Top",
+    "裏": "Bot",
+    "神": "T",
+    "ロ": "M",
+    "昨シーズン": "Last Season",
+    "昨年成績": "Last Season",
+    "防御率": "ERA",
+    "試合": "Games",
+    "試合数": "Games",
+    "打率": "AVG",
+    "本塁打": "HR",
+    "打点": "RBI",
+    "安打": "Hits",
+    "盗塁": "SB",
+    "出塁率": "OBP",
+    "長打率": "SLG",
+    "被打率": "Opp. AVG",
+    "奪三振": "SO",
+    "勝率": "Win %",
+    "ホールド": "Holds",
+    "四球": "BB",
+    "死球": "HBP",
+    "失点": "Runs",
+    "自責点": "ER",
+    "先発": "Starter",
+    "リリーフ": "Reliever",
+    "投球回": "IP",
+    "ライト": "RF",
+    "センター": "CF",
+    "レフト": "LF",
+    "ファースト": "1B",
+    "セカンド": "2B",
+    "サード": "3B",
+    "ショート": "SS",
+    "キャッチャー": "C",
+    "ピッチャー": "P",
+    "指名打者": "DH",
+    "右": "R",
+    "左": "L",
+    "両": "S",
+    "先　攻": "Away",
+    "後　攻": "Home",
+    "投　手": "Pitcher",
+    "打　者": "Batter",
+    "先攻": "Away",
+    "後攻": "Home",
+    "試合時間": "Game Time",
+    "飛距離": "Distance",
+    "パネル": "Panel",
+    "球団名": "Team",
+    "球団名称": "Team",
+    "チーム名": "Team",
+    "開催地": "Venue",
+    "所持金": "Funds",
+    "名前": "Name",
+    "年俸": "Salary",
+    "立場": "Role",
+    "要求活躍": "Performance Target",
+    "基本VP": "Base VP",
+    "COM難易度レート": "CPU Difficulty Multiplier",
+    "最初から": "New Game",
+    "続きから": "Continue",
+    "フリープレイ": "Free Play",
+    "VPチャレンジ": "VP Challenge",
+    "ＶＰを稼ぐチャンス！": "Earn more VP!",
+    "シーズン公式戦": "Regular Season",
+    "真剣ペナント": "Real Pennant",
+    "球団切替": "Switch Team",
+    "左右切替": "Switch Side",
+    "獲得": "Earned",
+    "獲得VP": "VP Earned",
+    "見出し": "Heading",
+    "盗塁企図": "SB Attempts",
+    "定位置(標準)": "Normal Alignment",
+    "一塁走者": "Runner on 1st",
+    "二塁走者": "Runner on 2nd",
+    "三塁走者": "Runner on 3rd",
+    "右打者": "Right-handed Batter",
+    "左打者": "Left-handed Batter",
+    "指示できる作戦はありません": "No strategies available.",
+    "%svs%sの試合は、": "%s vs %s:",
+    "逆転に次ぐ逆転の激しいシーソーゲームの末、": "After a back-and-forth battle,",
+    "両チームなかなか引き離せない苦しい展開の末、": "After a close contest,",
+    "爆発的な破壊力を見せた%sが%d対%dで圧倒した。": "%s dominated with explosive hitting (final: %d-%d).",
+    "わずかなリードを守り抜いた%sが%d対%dで逃げきった。": "%s held on to a narrow lead (final: %d-%d).",
+    "終始リードを保った%sが%d対%dで完勝した。": "%s led throughout for a convincing win (final: %d-%d).",
+    "豪快な打撃戦のすえ、": "After a high-scoring battle,",
+    "引き締まった投手戦のすえ、": "After a pitchers' duel,",
+    "%sが%d対%d": "%s (final: %d-%d)",
+    "とか勝利をものにした。": "held on for the win.",
+    "表、": "top,",
+    "裏、": "bottom,",
+    "ノーアウト": "no outs",
+    "1アウト": "1 out",
+    "2アウト": "2 outs",
+    "から%sの": "%s hit a",
+    "であげた得点を最後まで守り抜いた。": "provided the lead they held to the end.",
+    "で豪快に試合を決めた。": "sealed the win.",
+    "で熱い戦いに終止符をうった。": "ended the hard-fought contest.",
+    "の間に得点し、からくも勝利をもぎ取った。": "brought home the decisive run.",
+    "で試合を決めた。": "decided the game.",
+    "の間に得点し勝利した。": "brought home the winning run.",
+    "で貴重な勝ち越し点をあげた。": "drove in the go-ahead run.",
+    "であげた得点が効果的だった。": "produced a crucial run.",
+    "であげた得点が効いた。": "made the difference.",
+    "で決勝点をあげた。": "drove in the winning run.",
+    "であげた得点が最後まで効いた。": "provided the lead they held to the end.",
+    "%sは": "%s:",
+    "%d安打": "%d hits",
+    "%d本塁打": "%d HR",
+    "%d打点": "%d RBI",
+    "の大活躍": "in an outstanding performance",
+    "の活躍": "in a strong performance",
+    "で勝利に貢献。": "helped secure the win.",
+    "で存在感を示した。": "made an impact.",
+    "投げては、": "On the mound,",
+    "%sが%d回": "%s pitched %d innings",
+    "%d回": "%d innings",
+    "を投げて": "pitched",
+    "1アウトも取れずに": "without recording an out",
+    "%d失点と散々だった。": "struggled, allowing %d runs.",
+    "投手陣は乱調で、大量%d点を失った。": "The pitching staff struggled, allowing %d runs.",
+    "力投を見せ、セーブをあげた。": "earned the save with a strong outing.",
+    "リリース時にもう一度": "At release, press",
+    "を押そう！": "again!",
+    "スピリッツモードを最初からプレーします。": "Start a new Spirits game.",
+    "スピリッツモードの中断データを読み込んで": "Load your Spirits save",
+    "続きからプレーします。": "and continue playing.",
+    "ユーティリティで“選手削除”を行ってください": "Use Delete Player in Utility.",
+    "あと": "Remaining:",
+    "人作成可能": "player slots",
+    "ペナントレースの最初からプレーを行います。": "Start a new Pennant season.",
+    "ペナントレースの中断セーブデータを読み込んで": "Load your Pennant save",
+    "公式戦を短くまとめた日程でプレイします。": "Play a shortened regular season.",
+    "ペナントを気軽に楽しみたい方はこちら。": "A quicker, more casual Pennant season.",
+    "１シーズンの推定プレイ時間：　　４０時間": "Estimated season length: 40 hours",
+    "１シーズンの推定プレイ時間：　　１０時間": "Estimated season length: 10 hours",
+    "・データはセーブされません。": "Data will not be saved.",
+    "X回戦　X勝　X敗　X分": "Game X: X W / X L / X T",
+    "Ｘ勝": "X W",
+    "Ｘ敗": "X L",
+    "Ｘセーブ": "X SV",
+    "Ｘ号": "HR X",
+    "山﨑　健": "Yamazaki Ken",
+    "後藤光": "Gotoh",
+    "アレックス": "Alex",
+    "セントラルリーグ開幕！": "Central League Opening Day!",
+    "球威": "Stuff",
+    "球速": "Velocity",
+    "制球": "Control",
+    "変化球": "Breaking Pitches",
+    "走力": "Speed",
+    "パワー": "Power",
+    "ミート": "Contact",
+    "スタミナ": "Stamina",
+    "守備力": "Fielding",
+    "守備適性": "Positions",
+    "捕球": "Catching",
+    "スローイング": "Throwing",
+    "肩力": "Arm Strength",
+    "走塁力": "Baserunning",
+    "盗塁力": "Stealing",
+    "長打力": "Power",
+    "疲労回復力": "Recovery",
+    "守備フォーメーション": "Defensive Alignment",
+    "外野前進守備": "Shallow Outfield",
+    "外野後退守備": "Deep Outfield",
+    "中間守備": "Halfway In",
+    "前進守備": "Infield In",
+    "通常守備": "Normal Alignment",
+    "中継にボールを投げる": "Throw to the Cutoff Man",
+    "守備カーソルの固定": "Lock Fielder Cursor",
+    "球速レベル": "Pitch Speed",
+    "キャッチャー返球": "Catcher Return Throw",
+    "起用設定": "Player Roles",
+    "全力ピッチシステム": "Power Pitch System",
+    "強振とミート打ち": "Power and Contact Swings",
+    "全力ピッチング！": "Power Pitching!",
+    "上投：": "Overhand:",
+    "ス投：": "Three-quarter:",
+    "横投：": "Sidearm:",
+    "下投：": "Underhand:",
+    "両投": "Ambidextrous",
+    "オーバースロー": "Overhand",
+    "サイドスロー": "Sidearm",
+    "アンダースロー": "Underhand",
+    "高速スライダー": "Hard Slider",
+    "カットボール": "Cutter",
+    "高速シンカー": "Hard Sinker",
+    "高速スクリュー": "Hard Screwball",
+    "超高速スクリュー": "Extra-hard Screwball",
+    "高速シュート": "Hard Shuuto",
+    "変化球主体配球": "Breaking Ball Focus",
+    "直球主体配球": "Fastball Focus",
+    "変化球中心": "Breaking Ball Focus",
+    "速球中心": "Fastball Focus",
+    "決め球": "Out Pitch",
+    "積極起用": "Aggressive Usage",
+    "ベテラン起用": "Favor Veterans",
+    "若手起用": "Favor Young Players",
+    "慎重守備": "Conservative Fielding",
+    "積極守備": "Aggressive Fielding",
+    "積極走塁": "Aggressive Baserunning",
+    "慎重スイング": "Patient Approach",
+    "積極スイング": "Aggressive Approach",
+    "シュート回転": "Arm-side Run",
+    "球速安定": "Consistent Velocity",
+    "逃げ球": "Keep It Down",
+    "ジャイロボール": "Gyroball",
+    "打球反応": "Pitcher Reflexes",
+    "目切り背走": "Track Fly Balls",
+    "バックハンドトス": "Backhand Toss",
+    "座り送球": "Seated Throw",
+    "パワーヒッター": "Power Hitter",
+    "調子安定": "Consistent Form",
+    "走塁": "Baserunning",
+    "グリーンライト": "Green Light",
+    "次の一球は待ちます": "Take the Next Pitch",
+    "守備練習": "Fielding Practice",
+    "右投げ": "Throws R",
+    "左投げ": "Throws L",
+    "グラウンド": "Surface",
+    "人工芝": "Artificial Turf",
+    "天然芝": "Natural Grass",
+    "両翼": "LF/RF",
+    "フェンス": "Fence",
+    "デーゲーム": "Day Game",
+    "ナイトゲーム": "Night Game",
+    "決定しました": "Confirmed",
+    "きめる": "Confirm",
+    "%d回表": "Top %d",
+    "%d回ウラ": "Bottom %d",
+    "%d回表攻撃終了": "End of Top %d",
+    "%d回裏攻撃終了": "End of Bottom %d",
+    "オリジナル選手一覧": "Created Players",
+    "実在ドラフト選手一覧": "Real Draft Prospects",
+    "自由に指名": "Free Draft",
+    "指名を再現": "Historical Draft",
+    "先発タイプ": "Starter",
+    "中継ぎタイプ": "Reliever",
+    "抑えタイプ": "Closer",
+    "本拠地": "Home Stadium",
+    "本拠地球場": "Home Stadium",
+    "前年成績": "Previous Season",
+    "%d勝、%d敗、%d分": "%d W / %d L / %d T",
+    "%d勝%d敗%d分": "%d W / %d L / %d T",
+    "%d勝 %d敗 %d分": "%d W / %d L / %d T"
+  },
+  "overrides": {
+    "0x82096CE8": "Condition: After %d games, start %s and win the game.",
+    "0x820889B0": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> help determine whether a pitcher suits <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>Pitchers with high <RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> regain full starting stamina sooner when using <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
+    "0x8208BD58": "[<RGB 0x00785f>MCP Missions<RGB 0x7f7f7f>]<BR>Earn MCP through <RGB 0x7d5300>MCP Missions<RGB 0x7f7f7f> and <RGB 0x7d5300>Chain Missions<RGB 0x7f7f7f>.<BR>Complete each player's timed objective to earn MCP.<BR><BR>[<RGB 0x00785f>Chain Missions<RGB 0x7f7f7f>]<BR>After each success, <RGB 0x7d5300>a new mission immediately follows<RGB 0x7f7f7f>.<BR><BR>The reward grows with your streak, but <RGB 0x7d5300>one failure ends the chain<RGB 0x7f7f7f>. Keep clearing missions!<BOTTOM><+LR>Pages<○>Close        4/4",
+    "0x8208C7C8": "[<RGB 0x00785f>MCP Missions<RGB 0x7f7f7f>]<BR>Earn MCP through <RGB 0x7d5300>MCP Missions<RGB 0x7f7f7f> and <RGB 0x7d5300>Chain Missions<RGB 0x7f7f7f>.<BR>Complete each player's timed objective to earn MCP.<BR><BR>[<RGB 0x00785f>Chain Missions<RGB 0x7f7f7f>]<BR>After each success, <RGB 0x7d5300>a new mission immediately follows<RGB 0x7f7f7f>.<BR><BR>The reward grows with your streak, but <RGB 0x7d5300>one failure ends the chain<RGB 0x7f7f7f>. Keep clearing missions!<BOTTOM><+LR>Pages<○>Close        5/6",
+    "0x8208D610": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Condition<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
+    "0x8208D900": "[<RGB 0x00785f>Spring Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Action Points<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
+    "0x8207E7D4": "An aggressive manager who makes substitutions early.",
+    "0x8207EAD0": "Trust when creating or extending a rally. Levels 1-4: higher means more trust.",
+    "0x8207EBD8": "Position Player Roles<RIGHT><+>Move<□>Roster<○>Change<×>Back",
+    "0x8207EC64": "Closer: prefer entering in the final inning.",
+    "0x8207ECB0": "Reliever: prefer tied games or leads.",
+    "0x8207ED04": "Reliever: prefer the middle innings or later.",
+    "0x8207ED2C": "Reliever: planned innings of work.",
+    "0x8207F0D4": "Pitcher Roles<RIGHT><+>Move<○>OK<×>Back",
+    "0x8207F110": "Assign roles to active-roster pitchers. Rank starters and relievers from 1st to 7th, and closers from 1st to 2nd. The CPU generally prioritizes higher-ranked pitchers.",
+    "0x8207F1D0": "Exhibition<RIGHT><+>Move <○>OK <×>Back",
+    "0x8207F23C": "Stadium<RIGHT><+>Move <○>OK <×>Back",
+    "0x8207F268": "Teams<RIGHT><+>Move <○>OK <×>Back",
+    "0x8207F4E4": "Confirm Lineup<RIGHT><○>OK <×>Back",
+    "0x8207F510": "Edit Lineup<RIGHT><START>Rotation<□>Fatigue<+>Move <○>OK <×>Back",
+    "0x8207F55C": "Edit Lineup<RIGHT><+>Move <○>OK",
+    "0x8207F5B0": "Roster<RIGHT> <+>Move <○>OK",
+    "0x8207F5D4": "Lineup<RIGHT><+UD>Move <○>OK <×>Back",
+    "0x8208B348": "O'Brien",
+    "0x8208B36C": "Begley",
+    "0x820A4374": "Fighters / Manager Hillman",
+    "0x82093A70": "- Perfect-game pitcher",
+    "0x82093A80": "- No-hitter pitcher",
+    "0x82093BC0": "- League leader in walks allowed",
+    "0x82093BD4": "- League leader in strikeouts",
+    "0x82093BE8": "- League leader in winning percentage",
+    "0x82093BFC": "- League leader in saves",
+    "0x82093C14": "- League leader in wins",
+    "0x82093C24": "- League leader in ERA",
+    "0x82093C34": "- Most strikeouts as a batter",
+    "0x82093C48": "- .300 average / 30 HR / 30 SB",
+    "0x82093C5C": "- Batting average vs left-handed pitchers",
+    "0x82093C6C": "- Batting average with runners in scoring position",
+    "0x82093C84": "- League leader in stolen bases",
+    "0x82093C94": "- League leader in on-base percentage",
+    "0x82093CA4": "- Sacrifice bunts",
+    "0x82093CB0": "- League leader in triples",
+    "0x82093CC4": "- League leader in doubles",
+    "0x82093CD8": "- League leader in hits",
+    "0x82093CEC": "- League leader in home runs",
+    "0x82093D00": "- League leader in RBI",
+    "0x82093D14": "- League leader in batting average",
+    "0x8209A81C": "I was encouraged.",
+    "0x8209A9FC": "I was praised.",
+    "0x8209AA5C": "I received high praise.",
+    "0x8209AB9C": "That was the assessment I received.",
+    "0x8209AD3C": "I was encouraged.",
+    "0x8208032C": "Pinch Hit",
+    "0x8207C6E8": "\\c7Fielding: Fielder Cursor<BR>Choose how to display the fielder cursor.<BR><BR>[Cursor colors]<BR>Yellow: Normal  Blue: Touching a base  Purple: Can catch a fly ball",
+    "0x82081320": "\\c2Other\\c7  [Field Play Progress] Except in Quick Match, choose which situations to play. Set a situation to \\C7D5300Highlights\\c7 to simulate it.  [<R-STICK>Camera Controls] Invert the vertical and horizontal axes of <R-STICK> in User Settings > Camera > Camera Controls.  [Playing Manager] Make substitutions during play or from the bench. Bench substitutions require setting Bench to \\C7D5300Live\\c7 in the progress settings.<BOTTOM><+LR>Pages<○>Close 9/9",
+    "0x82080C20": "against the CPU in Co-op mode!",
+    "0x82080C48": "or team up with another player",
+    "0x82080C70": "Control one player in Field Play,",
+    "0x82080EB8": "Compete for the pennant!",
+    "0x82080E90": "Use your skills and build",
+    "0x82080E6C": "a well-balanced lineup.",
+    "0x82080E4C": "Adjust the settings to suit you!",
+    "0x82080E24": "Be a cleanup hitter, pinch hitter,",
+    "0x82080DFC": "starter, or closer, and compete",
+    "0x82080DE4": "for the pennant as one player!",
+    "0x82080DAC": "Manage your team to a title!",
+    "0x82080D84": "Choose your lineup and tactics",
+    "0x82080D68": "without controlling the action.",
+    "0x82080D40": "An original player can manage!",
+    "0x82080D18": "Play a season with custom rules.",
+    "0x82080CF0": "Use all 12 teams as configured",
+    "0x82080CD8": "in the Utility menu.",
+    "0x82082DF0": "Use My Settings from Utility mode.<BR>Choose a preset from the left<BR>or select Custom for more options.",
+    "0x82082EB8": "User Settings",
+    "0x82082990": "Choose your preferred settings.",
+    "0x8207EC3C": "Closer: prioritize save situations.",
+    "0x820789F4": "Extra Innings",
+    "0x820789D8": "Commentator",
+    "0x820789E0": "Baseball",
+    "0x82078A14": "Replays",
+    "0x82078A20": "Injuries",
+    "0x82078A30": "CPU Condition",
+    "0x82078A44": "2P Condition",
+    "0x82078A54": "1P Condition",
+    "0x820789B0": "CPU 2 Condition",
+    "0x820789C4": "CPU 1 Condition",
+    "0x82078990": "Very Poor",
+    "0x82078998": "Poor",
+    "0x820789A0": "Good",
+    "0x820789A8": "Excellent",
+    "0x82078950": "15",
+    "0x82078958": "12",
+    "0x82078960": "9",
+    "0x82078968": "5",
+    "0x82078970": "3",
+    "0x82078978": "1",
+    "0x820788F0": "10 Runs",
+    "0x820788F8": "9 Runs",
+    "0x82078900": "8 Runs",
+    "0x82078908": "7 Runs",
+    "0x82078910": "6 Runs",
+    "0x82078918": "5 Runs",
+    "0x82078920": "4 Runs",
+    "0x82078928": "3 Runs",
+    "0x82078930": "2 Runs",
+    "0x82078938": "1 Run",
+    "0x8208A974": "Hori"
+  },
+  "additional_strings": [
+    {
+      "address": "0x82082990",
+      "source": "お好みの設定をえらべます",
+      "english": "Choose your preferred settings.",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "戻る",
+      "english": "Back",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "対　戦",
+      "english": "Exhibition",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "総合守備",
+      "english": "Fielding",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ＨＲ",
+      "english": "HR",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ベンチ入り",
+      "english": "Bench",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "再オーダー",
+      "english": "Edit Lineup",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "作戦",
+      "english": "Strategy",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "個別役割",
+      "english": "Player Roles",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "守備シフト（ディテール）",
+      "english": "Defensive Shifts",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "実　況",
+      "english": "Commentary",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "打者解説",
+      "english": "Batting Analyst",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "投手解説",
+      "english": "Pitching Analyst",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "実況者",
+      "english": "Announcer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "項目%d",
+      "english": "Item %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "内容%d",
+      "english": "Details %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "選択肢%d",
+      "english": "Option %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "シフト%d",
+      "english": "Shift %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "デ%d",
+      "english": "Data %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝%d敗%dＳ",
+      "english": "%d W / %d L / %d SV",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝%d敗",
+      "english": "%d W / %d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝",
+      "english": "%d W",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d敗",
+      "english": "%d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：",
+      "english": "R Overhand:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：",
+      "english": "L Overhand:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：",
+      "english": "R Sidearm:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：",
+      "english": "L Sidearm:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：",
+      "english": "R Three-quarter:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：",
+      "english": "L Three-quarter:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：",
+      "english": "R Underhand:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：",
+      "english": "L Underhand:",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "リリーフ調整中",
+      "english": "Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "先発準備完了",
+      "english": "Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "走塁無視",
+      "english": "Ignore Baserunners",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "汎用16フォント",
+      "english": "Standard 16 Font",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "球種名10文字",
+      "english": "Pitch Name (10 chars)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ＳＦＦ",
+      "english": "Splitter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "加藤",
+      "english": "Kato",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "高木",
+      "english": "Takagi",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "川井",
+      "english": "Kawai",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ベニー",
+      "english": "Benny",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：リリーフ調整中",
+      "english": "R Overhand: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：先発準備完了",
+      "english": "R Overhand: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：リリーフ調整中",
+      "english": "R Sidearm: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：先発準備完了",
+      "english": "R Sidearm: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：リリーフ調整中",
+      "english": "R Three-quarter: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：先発準備完了",
+      "english": "R Three-quarter: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：リリーフ調整中",
+      "english": "R Underhand: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：先発準備完了",
+      "english": "R Underhand: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：リリーフ調整中",
+      "english": "L Overhand: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：先発準備完了",
+      "english": "L Overhand: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：リリーフ調整中",
+      "english": "L Sidearm: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：先発準備完了",
+      "english": "L Sidearm: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：リリーフ調整中",
+      "english": "L Three-quarter: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：先発準備完了",
+      "english": "L Three-quarter: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：リリーフ調整中",
+      "english": "L Underhand: Warming Up (Relief)",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：先発準備完了",
+      "english": "L Underhand: Starter Ready",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "中村",
+      "english": "Nakamura",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "鈴木",
+      "english": "Suzuki",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "コンバート：先発",
+      "english": "Convert to Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "コンバート：リリーフ",
+      "english": "Convert to Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "コンバート : 先発",
+      "english": "Convert to Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "コンバート : リリーフ",
+      "english": "Convert to Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "対象",
+      "english": "Target",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "期間",
+      "english": "Duration",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "エクストラ",
+      "english": "Extra",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "勝",
+      "english": "W",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "負",
+      "english": "L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "表",
+      "english": "Top",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "裏",
+      "english": "Bot",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "神",
+      "english": "T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ロ",
+      "english": "M",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "昨シーズン",
+      "english": "Last Season",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "昨年成績",
+      "english": "Last Season",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "防御率",
+      "english": "ERA",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "試合",
+      "english": "Games",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "試合数",
+      "english": "Games",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "打率",
+      "english": "AVG",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "本塁打",
+      "english": "HR",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "打点",
+      "english": "RBI",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "安打",
+      "english": "Hits",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "盗塁",
+      "english": "SB",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "出塁率",
+      "english": "OBP",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "長打率",
+      "english": "SLG",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "被打率",
+      "english": "Opp. AVG",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "奪三振",
+      "english": "SO",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "勝率",
+      "english": "Win %",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "セーブ",
+      "english": "Saves",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ホールド",
+      "english": "Holds",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "四球",
+      "english": "BB",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "死球",
+      "english": "HBP",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "失点",
+      "english": "Runs",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "自責点",
+      "english": "ER",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "先発",
+      "english": "Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "リリーフ",
+      "english": "Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "投球回",
+      "english": "IP",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ライト",
+      "english": "RF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "センター",
+      "english": "CF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "レフト",
+      "english": "LF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ファースト",
+      "english": "1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "セカンド",
+      "english": "2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "サード",
+      "english": "3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ショート",
+      "english": "SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "キャッチャー",
+      "english": "C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ピッチャー",
+      "english": "P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "指名打者",
+      "english": "DH",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右",
+      "english": "R",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左",
+      "english": "L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "両",
+      "english": "S",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%s投%s打",
+      "english": "Throws %s / Bats %s",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "先　攻",
+      "english": "Away",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "後　攻",
+      "english": "Home",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "投　手",
+      "english": "Pitcher",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "打　者",
+      "english": "Batter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "先攻",
+      "english": "Away",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "後攻",
+      "english": "Home",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "試合時間",
+      "english": "Game Time",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "飛距離",
+      "english": "Distance",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "パネル",
+      "english": "Panel",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "球団名",
+      "english": "Team",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "球団名称",
+      "english": "Team",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "チーム名",
+      "english": "Team",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "開催地",
+      "english": "Venue",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "所持金",
+      "english": "Funds",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "名前",
+      "english": "Name",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "年俸",
+      "english": "Salary",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "立場",
+      "english": "Role",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "要求活躍",
+      "english": "Performance Target",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "基本VP",
+      "english": "Base VP",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "COM難易度レート",
+      "english": "CPU Difficulty Multiplier",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "最初から",
+      "english": "New Game",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "続きから",
+      "english": "Continue",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "フリープレイ",
+      "english": "Free Play",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "VPチャレンジ",
+      "english": "VP Challenge",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ＶＰを稼ぐチャンス！",
+      "english": "Earn more VP!",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "シーズン公式戦",
+      "english": "Regular Season",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "真剣ペナント",
+      "english": "Real Pennant",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "球団切替",
+      "english": "Switch Team",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左右切替",
+      "english": "Switch Side",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "獲得",
+      "english": "Earned",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "獲得VP",
+      "english": "VP Earned",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "見出し",
+      "english": "Heading",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "盗塁企図",
+      "english": "SB Attempts",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "定位置(標準)",
+      "english": "Normal Alignment",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "一塁走者",
+      "english": "Runner on 1st",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "二塁走者",
+      "english": "Runner on 2nd",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "三塁走者",
+      "english": "Runner on 3rd",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右打者",
+      "english": "Right-handed Batter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左打者",
+      "english": "Left-handed Batter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "指示できる作戦はありません",
+      "english": "No strategies available.",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "コマンド%d",
+      "english": "Command %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "ヘルプ説明%d行目",
+      "english": "Help Line %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "個別役割説明%d行目",
+      "english": "Role Description %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d時間 %d分",
+      "english": "%dh %dm",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d勝 %d敗 %d分",
+      "english": "Game %d: %d W / %d L / %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d敗 ",
+      "english": "Game %d: %d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "対戦成績%d勝",
+      "english": "Head-to-head: %d W",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d万",
+      "english": "%d x 10,000 yen",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d月",
+      "english": "Month %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d日",
+      "english": "Day %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%s勝利を呼ぶ%d発！",
+      "english": "%s powers the win with %d HR!",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "本塁打含む%d発%d打点の大当たり　　　　　　",
+      "english": "%d HR and %d RBI!",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "　　　　　　　　%sを助ける見事な活躍",
+      "english": "Great support for %s!",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 ",
+      "english": "Throws R / Bats R",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　外野手",
+      "english": "Throws R / Bats R / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　外野手",
+      "english": "Throws R / Bats R / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　一塁手",
+      "english": "Throws R / Bats R / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　一塁手",
+      "english": "Throws R / Bats R / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　二塁手",
+      "english": "Throws R / Bats R / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　二塁手",
+      "english": "Throws R / Bats R / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　三塁手",
+      "english": "Throws R / Bats R / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　三塁手",
+      "english": "Throws R / Bats R / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　遊撃手",
+      "english": "Throws R / Bats R / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　遊撃手",
+      "english": "Throws R / Bats R / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　捕手",
+      "english": "Throws R / Bats R / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　捕手",
+      "english": "Throws R / Bats R / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　投手",
+      "english": "Throws R / Bats R / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投右打 　　　投手",
+      "english": "Throws R / Bats R / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 ",
+      "english": "Throws R / Bats L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　外野手",
+      "english": "Throws R / Bats L / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　外野手",
+      "english": "Throws R / Bats L / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　一塁手",
+      "english": "Throws R / Bats L / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　一塁手",
+      "english": "Throws R / Bats L / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　二塁手",
+      "english": "Throws R / Bats L / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　二塁手",
+      "english": "Throws R / Bats L / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　三塁手",
+      "english": "Throws R / Bats L / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　三塁手",
+      "english": "Throws R / Bats L / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　遊撃手",
+      "english": "Throws R / Bats L / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　遊撃手",
+      "english": "Throws R / Bats L / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　捕手",
+      "english": "Throws R / Bats L / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　捕手",
+      "english": "Throws R / Bats L / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　投手",
+      "english": "Throws R / Bats L / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投左打 　　　投手",
+      "english": "Throws R / Bats L / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 ",
+      "english": "Throws R / Bats S",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　外野手",
+      "english": "Throws R / Bats S / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　外野手",
+      "english": "Throws R / Bats S / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　一塁手",
+      "english": "Throws R / Bats S / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　一塁手",
+      "english": "Throws R / Bats S / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　二塁手",
+      "english": "Throws R / Bats S / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　二塁手",
+      "english": "Throws R / Bats S / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　三塁手",
+      "english": "Throws R / Bats S / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　三塁手",
+      "english": "Throws R / Bats S / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　遊撃手",
+      "english": "Throws R / Bats S / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　遊撃手",
+      "english": "Throws R / Bats S / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　捕手",
+      "english": "Throws R / Bats S / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　捕手",
+      "english": "Throws R / Bats S / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　投手",
+      "english": "Throws R / Bats S / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右投両打 　　　投手",
+      "english": "Throws R / Bats S / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 ",
+      "english": "Throws L / Bats R",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　外野手",
+      "english": "Throws L / Bats R / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　外野手",
+      "english": "Throws L / Bats R / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　一塁手",
+      "english": "Throws L / Bats R / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　一塁手",
+      "english": "Throws L / Bats R / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　二塁手",
+      "english": "Throws L / Bats R / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　二塁手",
+      "english": "Throws L / Bats R / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　三塁手",
+      "english": "Throws L / Bats R / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　三塁手",
+      "english": "Throws L / Bats R / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　遊撃手",
+      "english": "Throws L / Bats R / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　遊撃手",
+      "english": "Throws L / Bats R / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　捕手",
+      "english": "Throws L / Bats R / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　捕手",
+      "english": "Throws L / Bats R / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　投手",
+      "english": "Throws L / Bats R / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投右打 　　　投手",
+      "english": "Throws L / Bats R / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 ",
+      "english": "Throws L / Bats L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　外野手",
+      "english": "Throws L / Bats L / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　外野手",
+      "english": "Throws L / Bats L / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　一塁手",
+      "english": "Throws L / Bats L / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　一塁手",
+      "english": "Throws L / Bats L / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　二塁手",
+      "english": "Throws L / Bats L / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　二塁手",
+      "english": "Throws L / Bats L / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　三塁手",
+      "english": "Throws L / Bats L / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　三塁手",
+      "english": "Throws L / Bats L / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　遊撃手",
+      "english": "Throws L / Bats L / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　遊撃手",
+      "english": "Throws L / Bats L / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　捕手",
+      "english": "Throws L / Bats L / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　捕手",
+      "english": "Throws L / Bats L / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　投手",
+      "english": "Throws L / Bats L / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投左打 　　　投手",
+      "english": "Throws L / Bats L / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 ",
+      "english": "Throws L / Bats S",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　外野手",
+      "english": "Throws L / Bats S / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　外野手",
+      "english": "Throws L / Bats S / OF",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　一塁手",
+      "english": "Throws L / Bats S / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　一塁手",
+      "english": "Throws L / Bats S / 1B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　二塁手",
+      "english": "Throws L / Bats S / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　二塁手",
+      "english": "Throws L / Bats S / 2B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　三塁手",
+      "english": "Throws L / Bats S / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　三塁手",
+      "english": "Throws L / Bats S / 3B",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　遊撃手",
+      "english": "Throws L / Bats S / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　遊撃手",
+      "english": "Throws L / Bats S / SS",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　捕手",
+      "english": "Throws L / Bats S / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　捕手",
+      "english": "Throws L / Bats S / C",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　投手",
+      "english": "Throws L / Bats S / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左投両打 　　　投手",
+      "english": "Throws L / Bats S / P",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "休息中",
+      "english": "Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：休息中",
+      "english": "R Overhand: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：休息中",
+      "english": "R Sidearm: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：休息中",
+      "english": "R Three-quarter: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：休息中",
+      "english": "R Underhand: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：休息中",
+      "english": "L Overhand: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：休息中",
+      "english": "L Sidearm: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：休息中",
+      "english": "L Three-quarter: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：休息中",
+      "english": "L Underhand: Resting",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "テキスト%d段目",
+      "english": "Text Row %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "１シーズンの推定プレイ時間：　%d時間",
+      "english": "Estimated season: %d hours",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "１シーズンの推定プレイ時間：　　%d時間",
+      "english": "Estimated season: %d hours",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "オリジナル選手一覧",
+      "english": "Created Players",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "実在ドラフト選手一覧",
+      "english": "Real Draft Prospects",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "自由に指名",
+      "english": "Free Draft",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "指名を再現",
+      "english": "Historical Draft",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "先発タイプ",
+      "english": "Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "中継ぎタイプ",
+      "english": "Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "抑えタイプ",
+      "english": "Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：先発タイプ",
+      "english": "R Overhand: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：中継ぎタイプ",
+      "english": "R Overhand: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右上投：抑えタイプ",
+      "english": "R Overhand: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：先発タイプ",
+      "english": "R Sidearm: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：中継ぎタイプ",
+      "english": "R Sidearm: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右横投：抑えタイプ",
+      "english": "R Sidearm: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：先発タイプ",
+      "english": "R Three-quarter: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：中継ぎタイプ",
+      "english": "R Three-quarter: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右ス投：抑えタイプ",
+      "english": "R Three-quarter: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：先発タイプ",
+      "english": "R Underhand: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：中継ぎタイプ",
+      "english": "R Underhand: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：抑えタイプ",
+      "english": "R Underhand: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：先発タイプ",
+      "english": "L Overhand: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：中継ぎタイプ",
+      "english": "L Overhand: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左上投：抑えタイプ",
+      "english": "L Overhand: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：先発タイプ",
+      "english": "L Sidearm: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：中継ぎタイプ",
+      "english": "L Sidearm: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左横投：抑えタイプ",
+      "english": "L Sidearm: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：先発タイプ",
+      "english": "L Three-quarter: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：中継ぎタイプ",
+      "english": "L Three-quarter: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左ス投：抑えタイプ",
+      "english": "L Three-quarter: Closer",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：先発タイプ",
+      "english": "L Underhand: Starter",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：中継ぎタイプ",
+      "english": "L Underhand: Reliever",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：抑えタイプ",
+      "english": "L Underhand: Closer",
+      "status": "reviewed"
+    }
+  ]
+}

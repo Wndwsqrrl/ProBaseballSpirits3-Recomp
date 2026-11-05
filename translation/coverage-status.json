@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-05",
+  "catalogue_records": 14004,
+  "unique_fingerprints": 13741,
+  "roster_records": 648,
+  "roster_aliases": 5650,
+  "reviewed_hanshin_fields": 110,
+  "other_bounded_roster_fields": 939,
+  "additional_given_names_from_unambiguous_dictionary_readings": 325,
+  "texture_labels": 47,
+  "localized_archive_members": 6,
+  "validation": [
+    "native Windows build passed",
+    "format safety checks passed",
+    "NVIDIA startup confirmed",
+    "all bounded roster fields accepted at startup",
+    "new menu text visually inspected",
+    "unchanged archive members and bytes outside edited regions verified"
+  ],
+  "pending_validation": [
+    "new HUD short labels and home/away texture labels in gameplay",
+    "bounded report formatting in a completed match report",
+    "full-match stability",
+    "higher-resolution gameplay performance"
+  ],
+  "remaining": [
+    "unvisited mode text and packed UI scripts",
+    "remaining Japanese HUD and graphics",
+    "given-name reading review",
+    "translation accuracy and layout review",
+    "some missing gameplay geometry"
+  ],
+  "entire_game_english": false
+}

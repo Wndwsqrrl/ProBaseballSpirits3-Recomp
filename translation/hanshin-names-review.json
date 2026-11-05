@@ -1,0 +1,545 @@
+[
+  {
+    "record_address": "0x8274eadc",
+    "family": "Igawa",
+    "given": "Kei",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274eba4",
+    "family": "Fukuhara",
+    "given": "Shinobu",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274ec6c",
+    "family": "Andoh",
+    "given": "Yuya",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41145115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274ed34",
+    "family": "Shimoyanagi",
+    "given": "Tsuyoshi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81283883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274edfc",
+    "family": "Sugiyama",
+    "given": "Naohisa",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/51055117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274eec4",
+    "family": "Oxspring",
+    "given": "Chris",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/53155112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274ef8c",
+    "family": "Egusa",
+    "given": "Hirotaka",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01305117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f054",
+    "family": "Hashimoto",
+    "given": "Kentaro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/11215110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f11c",
+    "family": "Sajikihara",
+    "given": "Masashi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f1e4",
+    "family": "Fujikawa",
+    "given": "Kyuji",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/71073888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f2ac",
+    "family": "Williams",
+    "given": "Jeff",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/31835117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f374",
+    "family": "Kubota",
+    "given": "Tomoyuki",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f43c",
+    "family": "Nohmi",
+    "given": "Atsushi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/61065110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f504",
+    "family": "Iwata",
+    "given": "Minoru",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/51355112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f5cc",
+    "family": "Aiki",
+    "given": "Takashi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f694",
+    "family": "Tsutsui",
+    "given": "Kazuya",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91995119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f75c",
+    "family": "Fujita",
+    "given": "Taiyo",
+    "display": "Taiyo",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f824",
+    "family": "Santoh",
+    "given": "Hiroshi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81985117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f8ec",
+    "family": "Watanabe",
+    "given": "Ryo",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/33135112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274f9b4",
+    "family": "Kanazawa",
+    "given": "Takehito",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274fa7c",
+    "family": "Kanemura",
+    "given": "Daiyu",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01505112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274fb44",
+    "family": "Yoshino",
+    "given": "Makoto",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01405111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274fc0c",
+    "family": "Tsuru",
+    "given": "Naoto",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41045112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274fcd4",
+    "family": "Tsujimoto",
+    "given": "Kento",
+    "display": "",
+    "source_urls": [
+      "https://www.milb.com/player/kent-tsujimoto-526701"
+    ],
+    "review_status": "historical-reading-review",
+    "note": "Japanese given-name rendering Kento retained; MiLB registered spelling Kent differs and remains for review."
+  },
+  {
+    "record_address": "0x8274fd9c",
+    "family": "Yano",
+    "given": "Akihiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343883.html"
+    ],
+    "review_status": "reading-checked",
+    "note": "Use the registered-name reading in NPB records, rather than assuming a reading from the 2006 kanji spelling."
+  },
+  {
+    "record_address": "0x8274fe64",
+    "family": "Asai",
+    "given": "Ryo",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274ff2c",
+    "family": "Noguchi",
+    "given": "Toshihiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8274fff4",
+    "family": "Imaoka",
+    "given": "Makoto",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827500bc",
+    "family": "Sheets",
+    "given": "Andy",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/21825117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750184",
+    "family": "Fujimoto",
+    "given": "Atsushi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/21225113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8275024c",
+    "family": "Toritani",
+    "given": "Takashi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/21925119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750314",
+    "family": "Kataoka",
+    "given": "Atsushi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827503dc",
+    "family": "Sekimoto",
+    "given": "Kentaro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81783884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827504a4",
+    "family": "Tanaka",
+    "given": "Shuta",
+    "display": "Shuta",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8275056c",
+    "family": "Hamanaka",
+    "given": "Osamu",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750634",
+    "family": "Hiyama",
+    "given": "Shinjiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827506fc",
+    "family": "Kanemoto",
+    "given": "Tomoaki",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827507c4",
+    "family": "Akahoshi",
+    "given": "Norihiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8275088c",
+    "family": "Spencer",
+    "given": "Shane",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/41645110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750954",
+    "family": "Nakamura",
+    "given": "Yutaka",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/11913882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750a1c",
+    "family": "Okazaki",
+    "given": "Taichi",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91395110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750ae4",
+    "family": "Kanoh",
+    "given": "Keisuke",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/11715113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750bac",
+    "family": "Maeda",
+    "given": "Tadatoki",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750c74",
+    "family": "Machida",
+    "given": "Kojiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91493885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750d3c",
+    "family": "Kida",
+    "given": "Go",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/61565115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750e04",
+    "family": "Kamisaka",
+    "given": "Taichiro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/91395111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750ecc",
+    "family": "Akamatsu",
+    "given": "Masato",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82750f94",
+    "family": "Lin",
+    "given": "Wei-Chu",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/81685117.html",
+      "https://pacificleague.com/news/2026/8/85239"
+    ],
+    "review_status": "romanization-checked"
+  },
+  {
+    "record_address": "0x8275105c",
+    "family": "Katsuragi",
+    "given": "Ikuro",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/71375111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82751124",
+    "family": "Sakurai",
+    "given": "Kodai",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/01705115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827511ec",
+    "family": "Yoshitake",
+    "given": "Haruki",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/21423863.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x827512b4",
+    "family": "Fukuhara",
+    "given": "Mineo",
+    "display": "",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923865.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x8275137c",
+    "family": "Okada",
+    "given": "Akinobu",
+    "display": "",
+    "source_urls": [
+      "https://www.waseda.jp/inst/athletic/news/2024/04/10/41870/"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "record_address": "0x82751444",
+    "family": "Kubo",
+    "given": "Yasuo",
+    "display": "",
+    "source_urls": [
+      "https://hanshintigers.jp/data/staff/2011/84.html"
+    ],
+    "review_status": "reading-checked"
+  }
+]

@@ -1,0 +1,67 @@
+"""Verify unchanged archive members and bytes outside localized atlas regions."""
+import argparse
+import importlib.util
+import json
+import struct
+from pathlib import Path
+from bndr import read_index
+
+spec=importlib.util.spec_from_file_location('cmp',Path(__file__).with_name('konami-cmp.py'))
+cmp=importlib.util.module_from_spec(spec);spec.loader.exec_module(cmp)
+
+def verify_member(original,patched,atlases):
+    if original.startswith(b'CMP\0'):original=cmp.decompress(original)
+    if len(original)!=len(patched):raise ValueError('Decoded member size changed')
+    allowed=bytearray(len(original));at=16;found=set()
+    while at+16<=len(original) and original[at:at+8]!=b'CHUNKEND':
+        kind,flags,allocated,actual=struct.unpack_from('>4sIII',original,at)
+        if allocated<16 or at+allocated>len(original):raise ValueError('Invalid chunk')
+        payload=at+16
+        if original[payload:payload+8]==b'X360SUR ':
+            name=original[payload+16:payload+48].split(b'\0')[0].decode('ascii')
+            if name in atlases:
+                found.add(name);w,h=struct.unpack_from('>II',original,payload+48);fmt=original[payload+68:payload+72].hex();raw=payload+100
+                for label in atlases[name]:
+                    x,y,width,height=label['rect']
+                    if not 0<=x<x+width<=w or not 0<=y<y+height<=h:raise ValueError('Invalid label bounds')
+                    if fmt=='1a200152':
+                        for by in range(y//4,(y+height+3)//4):
+                            for bx in range(x//4,(x+width+3)//4):
+                                start=raw+(by*(w//4)+bx)*8;allowed[start:start+8]=b'\1'*8
+                    elif fmt in ('1828014f','18280143'):
+                        for row in range(y,y+height):
+                            start=raw+(row*w+x)*2;allowed[start:start+width*2]=b'\1'*(width*2)
+                    else:raise ValueError('Unsupported verification format')
+        at+=allocated
+    if found!=set(atlases):raise ValueError('Missing localized atlas')
+    for i,(a,b) in enumerate(zip(original,patched)):
+        if a!=b and not allowed[i]:raise ValueError(f'Unexpected change at decoded byte {i:#x}')
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('original',type=Path);p.add_argument('english',type=Path)
+    p.add_argument('--labels',required=True,type=Path);p.add_argument('--report',required=True,type=Path)
+    a=p.parse_args();labels=json.loads(a.labels.read_text(encoding='utf-8'))
+    old=read_index(a.original);new={x['name']:x for x in read_index(a.english)}
+    if set(new)!={x['name'] for x in old}:raise ValueError('Archive membership changed')
+    preserved=0
+    with a.original.open('rb') as source,a.english.open('rb') as target:
+        for i,entry in enumerate(old):
+            other=new[entry['name']];source.seek(entry['offset']);target.seek(other['offset'])
+            if entry['name'] in labels:
+                verify_member(source.read(entry['size']),target.read(other['size']),labels[entry['name']])
+            else:
+                if entry['size']!=other['size']:raise ValueError('Unchanged member size differs')
+                remaining=entry['size']
+                while remaining:
+                    count=min(remaining,1024*1024)
+                    if source.read(count)!=target.read(count):raise ValueError('Unchanged member bytes differ')
+                    remaining-=count
+                preserved+=1
+            if (i+1)%400==0:print(f'{i+1}/{len(old)} members verified',flush=True)
+    result=dict(archive_members=len(old),unchanged_members_verified=preserved,localized_members=sorted(labels),
+        atlases=sum(len(x) for x in labels.values()),labels=sum(len(v) for x in labels.values() for v in x.values()),
+        outside_localized_regions_unchanged=True)
+    a.report.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result),flush=True)
+
+if __name__=='__main__':main()

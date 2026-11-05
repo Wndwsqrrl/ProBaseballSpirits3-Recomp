@@ -1,0 +1,662 @@
+[
+  {
+    "address": "0x8274eadc",
+    "slot_size": 15,
+    "source_hash": "10C445F0A5670227",
+    "english": "Igawa"
+  },
+  {
+    "address": "0x8274eaeb",
+    "slot_size": 15,
+    "source_hash": "D2BE33BCEA00E908",
+    "english": "Kei"
+  },
+  {
+    "address": "0x8274eba4",
+    "slot_size": 15,
+    "source_hash": "08F12C683976A087",
+    "english": "Fukuhara"
+  },
+  {
+    "address": "0x8274ebb3",
+    "slot_size": 15,
+    "source_hash": "6000BC143A863596",
+    "english": "Shinobu"
+  },
+  {
+    "address": "0x8274ec6c",
+    "slot_size": 15,
+    "source_hash": "A0D2007DA306E283",
+    "english": "Andoh"
+  },
+  {
+    "address": "0x8274ec7b",
+    "slot_size": 15,
+    "source_hash": "1F6B4A84F3B3CF97",
+    "english": "Yuya"
+  },
+  {
+    "address": "0x8274ed34",
+    "slot_size": 15,
+    "source_hash": "554B58B649F20AF2",
+    "english": "Shimoyanagi"
+  },
+  {
+    "address": "0x8274ed43",
+    "slot_size": 15,
+    "source_hash": "4583CD2FE84F619C",
+    "english": "Tsuyoshi"
+  },
+  {
+    "address": "0x8274edfc",
+    "slot_size": 15,
+    "source_hash": "B8B6635C77F64776",
+    "english": "Sugiyama"
+  },
+  {
+    "address": "0x8274ee0b",
+    "slot_size": 15,
+    "source_hash": "619644D32CFECE16",
+    "english": "Naohisa"
+  },
+  {
+    "address": "0x8274eec4",
+    "slot_size": 15,
+    "source_hash": "1D86B3F089977E99",
+    "english": "Oxspring"
+  },
+  {
+    "address": "0x8274eed3",
+    "slot_size": 15,
+    "source_hash": "FCD197E7518A6AC2",
+    "english": "Chris"
+  },
+  {
+    "address": "0x8274ef8c",
+    "slot_size": 15,
+    "source_hash": "39F2C933EBB465FA",
+    "english": "Egusa"
+  },
+  {
+    "address": "0x8274ef9b",
+    "slot_size": 15,
+    "source_hash": "D0604328EB4FD1BA",
+    "english": "Hirotaka"
+  },
+  {
+    "address": "0x8274f054",
+    "slot_size": 15,
+    "source_hash": "87DA5B9E0BC8B54F",
+    "english": "Hashimoto"
+  },
+  {
+    "address": "0x8274f063",
+    "slot_size": 15,
+    "source_hash": "041C554B6AB55359",
+    "english": "Kentaro"
+  },
+  {
+    "address": "0x8274f11c",
+    "slot_size": 15,
+    "source_hash": "95A8881BFEB1FDEF",
+    "english": "Sajikihara"
+  },
+  {
+    "address": "0x8274f12b",
+    "slot_size": 15,
+    "source_hash": "16E10E88B9F2D2FA",
+    "english": "Masashi"
+  },
+  {
+    "address": "0x8274f1e4",
+    "slot_size": 15,
+    "source_hash": "83C643C59BA32F17",
+    "english": "Fujikawa"
+  },
+  {
+    "address": "0x8274f1f3",
+    "slot_size": 15,
+    "source_hash": "5F537ED8E2AB2D90",
+    "english": "Kyuji"
+  },
+  {
+    "address": "0x8274f2ac",
+    "slot_size": 15,
+    "source_hash": "EF92792051CD8D0F",
+    "english": "Williams"
+  },
+  {
+    "address": "0x8274f2bb",
+    "slot_size": 15,
+    "source_hash": "1FEFE322E804E653",
+    "english": "Jeff"
+  },
+  {
+    "address": "0x8274f374",
+    "slot_size": 15,
+    "source_hash": "A13336AE89C28542",
+    "english": "Kubota"
+  },
+  {
+    "address": "0x8274f383",
+    "slot_size": 15,
+    "source_hash": "FCFDA1ABA0E106FE",
+    "english": "Tomoyuki"
+  },
+  {
+    "address": "0x8274f43c",
+    "slot_size": 15,
+    "source_hash": "78FA8D0B7201A01A",
+    "english": "Nohmi"
+  },
+  {
+    "address": "0x8274f44b",
+    "slot_size": 15,
+    "source_hash": "05BEDB749E7E393E",
+    "english": "Atsushi"
+  },
+  {
+    "address": "0x8274f504",
+    "slot_size": 15,
+    "source_hash": "A97A2E07E4F191C9",
+    "english": "Iwata"
+  },
+  {
+    "address": "0x8274f513",
+    "slot_size": 15,
+    "source_hash": "7C4CAA378FEB7C32",
+    "english": "Minoru"
+  },
+  {
+    "address": "0x8274f5cc",
+    "slot_size": 15,
+    "source_hash": "830139C9F6AE13C4",
+    "english": "Aiki"
+  },
+  {
+    "address": "0x8274f5db",
+    "slot_size": 15,
+    "source_hash": "9B15F9C11D58A115",
+    "english": "Takashi"
+  },
+  {
+    "address": "0x8274f694",
+    "slot_size": 15,
+    "source_hash": "9EFE2C7C5E9B513D",
+    "english": "Tsutsui"
+  },
+  {
+    "address": "0x8274f6a3",
+    "slot_size": 15,
+    "source_hash": "1352E11E2363D49B",
+    "english": "Kazuya"
+  },
+  {
+    "address": "0x8274f75c",
+    "slot_size": 15,
+    "source_hash": "44631137AC065A2D",
+    "english": "Fujita"
+  },
+  {
+    "address": "0x8274f76b",
+    "slot_size": 15,
+    "source_hash": "BED252D5FBFCC9C9",
+    "english": "Taiyo"
+  },
+  {
+    "address": "0x8274f77a",
+    "slot_size": 15,
+    "source_hash": "BED252D5FBFCC9C9",
+    "english": "Taiyo"
+  },
+  {
+    "address": "0x8274f824",
+    "slot_size": 15,
+    "source_hash": "922ACBC3080D7877",
+    "english": "Santoh"
+  },
+  {
+    "address": "0x8274f833",
+    "slot_size": 15,
+    "source_hash": "5698DDE605D7D563",
+    "english": "Hiroshi"
+  },
+  {
+    "address": "0x8274f8ec",
+    "slot_size": 15,
+    "source_hash": "BBE6A0BDC0C06270",
+    "english": "Watanabe"
+  },
+  {
+    "address": "0x8274f8fb",
+    "slot_size": 15,
+    "source_hash": "5612ED9AD62AE9EC",
+    "english": "Ryo"
+  },
+  {
+    "address": "0x8274f9b4",
+    "slot_size": 15,
+    "source_hash": "B47A38971FFF092C",
+    "english": "Kanazawa"
+  },
+  {
+    "address": "0x8274f9c3",
+    "slot_size": 15,
+    "source_hash": "F548745F31ACA28D",
+    "english": "Takehito"
+  },
+  {
+    "address": "0x8274fa7c",
+    "slot_size": 15,
+    "source_hash": "52DC3AE781244537",
+    "english": "Kanemura"
+  },
+  {
+    "address": "0x8274fa8b",
+    "slot_size": 15,
+    "source_hash": "9AB0A115BA263870",
+    "english": "Daiyu"
+  },
+  {
+    "address": "0x8274fb44",
+    "slot_size": 15,
+    "source_hash": "02E7D1565DE5A86F",
+    "english": "Yoshino"
+  },
+  {
+    "address": "0x8274fb53",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto"
+  },
+  {
+    "address": "0x8274fc0c",
+    "slot_size": 15,
+    "source_hash": "5E6AA5D928450B9A",
+    "english": "Tsuru"
+  },
+  {
+    "address": "0x8274fc1b",
+    "slot_size": 15,
+    "source_hash": "08C4F331957D02FD",
+    "english": "Naoto"
+  },
+  {
+    "address": "0x8274fcd4",
+    "slot_size": 15,
+    "source_hash": "CAA750053FCB3A52",
+    "english": "Tsujimoto"
+  },
+  {
+    "address": "0x8274fce3",
+    "slot_size": 15,
+    "source_hash": "51956B427CFF2D9C",
+    "english": "Kento"
+  },
+  {
+    "address": "0x8274fd9c",
+    "slot_size": 15,
+    "source_hash": "2CE8C7CAAF790735",
+    "english": "Yano"
+  },
+  {
+    "address": "0x8274fdab",
+    "slot_size": 15,
+    "source_hash": "6D1D6CA7C187F0B6",
+    "english": "Akihiro"
+  },
+  {
+    "address": "0x8274fe64",
+    "slot_size": 15,
+    "source_hash": "3AF122BDD46B2210",
+    "english": "Asai"
+  },
+  {
+    "address": "0x8274fe73",
+    "slot_size": 15,
+    "source_hash": "2F1A57AEFBD02389",
+    "english": "Ryo"
+  },
+  {
+    "address": "0x8274ff2c",
+    "slot_size": 15,
+    "source_hash": "CB122A3C9F3BC9B2",
+    "english": "Noguchi"
+  },
+  {
+    "address": "0x8274ff3b",
+    "slot_size": 15,
+    "source_hash": "7DF3CA21FA3202CC",
+    "english": "Toshihiro"
+  },
+  {
+    "address": "0x8274fff4",
+    "slot_size": 15,
+    "source_hash": "803896DBC38EE99C",
+    "english": "Imaoka"
+  },
+  {
+    "address": "0x82750003",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto"
+  },
+  {
+    "address": "0x827500bc",
+    "slot_size": 15,
+    "source_hash": "DC7A965517016356",
+    "english": "Sheets"
+  },
+  {
+    "address": "0x827500cb",
+    "slot_size": 15,
+    "source_hash": "4BB3F277AC2FDAE9",
+    "english": "Andy"
+  },
+  {
+    "address": "0x82750184",
+    "slot_size": 15,
+    "source_hash": "004C85D35C6122C6",
+    "english": "Fujimoto"
+  },
+  {
+    "address": "0x82750193",
+    "slot_size": 15,
+    "source_hash": "A3E38D9C8B1E00EB",
+    "english": "Atsushi"
+  },
+  {
+    "address": "0x8275024c",
+    "slot_size": 15,
+    "source_hash": "15D788DEF14D8488",
+    "english": "Toritani"
+  },
+  {
+    "address": "0x8275025b",
+    "slot_size": 15,
+    "source_hash": "CB86AFADAE9AC44B",
+    "english": "Takashi"
+  },
+  {
+    "address": "0x82750314",
+    "slot_size": 15,
+    "source_hash": "0E64AD5FEF7069D1",
+    "english": "Kataoka"
+  },
+  {
+    "address": "0x82750323",
+    "slot_size": 15,
+    "source_hash": "05BEDB749E7E393E",
+    "english": "Atsushi"
+  },
+  {
+    "address": "0x827503dc",
+    "slot_size": 15,
+    "source_hash": "5B0E39962935D45E",
+    "english": "Sekimoto"
+  },
+  {
+    "address": "0x827503eb",
+    "slot_size": 15,
+    "source_hash": "041C554B6AB55359",
+    "english": "Kentaro"
+  },
+  {
+    "address": "0x827504a4",
+    "slot_size": 15,
+    "source_hash": "97E2ADACCE88A625",
+    "english": "Tanaka"
+  },
+  {
+    "address": "0x827504b3",
+    "slot_size": 15,
+    "source_hash": "6BC4B681FB975CA0",
+    "english": "Shuta"
+  },
+  {
+    "address": "0x827504c2",
+    "slot_size": 15,
+    "source_hash": "6BC4B681FB975CA0",
+    "english": "Shuta"
+  },
+  {
+    "address": "0x8275056c",
+    "slot_size": 15,
+    "source_hash": "528ACD71270C8470",
+    "english": "Hamanaka"
+  },
+  {
+    "address": "0x8275057b",
+    "slot_size": 15,
+    "source_hash": "60AB41CAA3C643B0",
+    "english": "Osamu"
+  },
+  {
+    "address": "0x82750634",
+    "slot_size": 15,
+    "source_hash": "489D5D427F45E27B",
+    "english": "Hiyama"
+  },
+  {
+    "address": "0x82750643",
+    "slot_size": 15,
+    "source_hash": "071632835F8AF642",
+    "english": "Shinjiro"
+  },
+  {
+    "address": "0x827506fc",
+    "slot_size": 15,
+    "source_hash": "5886452FC50A2C93",
+    "english": "Kanemoto"
+  },
+  {
+    "address": "0x8275070b",
+    "slot_size": 15,
+    "source_hash": "E1C04A7694860A67",
+    "english": "Tomoaki"
+  },
+  {
+    "address": "0x827507c4",
+    "slot_size": 15,
+    "source_hash": "E48D7B721B1CC02C",
+    "english": "Akahoshi"
+  },
+  {
+    "address": "0x827507d3",
+    "slot_size": 15,
+    "source_hash": "34F683F3BEEF4B1B",
+    "english": "Norihiro"
+  },
+  {
+    "address": "0x8275088c",
+    "slot_size": 15,
+    "source_hash": "A82F27903004CF09",
+    "english": "Spencer"
+  },
+  {
+    "address": "0x8275089b",
+    "slot_size": 15,
+    "source_hash": "D4C4995F54F010B5",
+    "english": "Shane"
+  },
+  {
+    "address": "0x82750954",
+    "slot_size": 15,
+    "source_hash": "BD8E6BD43AADF632",
+    "english": "Nakamura"
+  },
+  {
+    "address": "0x82750963",
+    "slot_size": 15,
+    "source_hash": "527112AC0434A71D",
+    "english": "Yutaka"
+  },
+  {
+    "address": "0x82750a1c",
+    "slot_size": 15,
+    "source_hash": "B89E484815CE3DB1",
+    "english": "Okazaki"
+  },
+  {
+    "address": "0x82750a2b",
+    "slot_size": 15,
+    "source_hash": "15ACE74509688920",
+    "english": "Taichi"
+  },
+  {
+    "address": "0x82750ae4",
+    "slot_size": 15,
+    "source_hash": "299A619A809ECCA4",
+    "english": "Kanoh"
+  },
+  {
+    "address": "0x82750af3",
+    "slot_size": 15,
+    "source_hash": "2EF39931A2B679C9",
+    "english": "Keisuke"
+  },
+  {
+    "address": "0x82750bac",
+    "slot_size": 15,
+    "source_hash": "5C2346141743167D",
+    "english": "Maeda"
+  },
+  {
+    "address": "0x82750bbb",
+    "slot_size": 15,
+    "source_hash": "847E55482A81CA03",
+    "english": "Tadatoki"
+  },
+  {
+    "address": "0x82750c74",
+    "slot_size": 15,
+    "source_hash": "D27E00D37C93E3AB",
+    "english": "Machida"
+  },
+  {
+    "address": "0x82750c83",
+    "slot_size": 15,
+    "source_hash": "4BD81727D1F338C4",
+    "english": "Kojiro"
+  },
+  {
+    "address": "0x82750d3c",
+    "slot_size": 15,
+    "source_hash": "2A8DC74244FCBAA3",
+    "english": "Kida"
+  },
+  {
+    "address": "0x82750d4b",
+    "slot_size": 15,
+    "source_hash": "4583CD2FE84F619C",
+    "english": "Go"
+  },
+  {
+    "address": "0x82750e04",
+    "slot_size": 15,
+    "source_hash": "A856FAD1505B5EFC",
+    "english": "Kamisaka"
+  },
+  {
+    "address": "0x82750e13",
+    "slot_size": 15,
+    "source_hash": "B844FAD7844861F9",
+    "english": "Taichiro"
+  },
+  {
+    "address": "0x82750ecc",
+    "slot_size": 15,
+    "source_hash": "C3A30ECD92BA3FB6",
+    "english": "Akamatsu"
+  },
+  {
+    "address": "0x82750edb",
+    "slot_size": 15,
+    "source_hash": "6A09D63A6213ACB5",
+    "english": "Masato"
+  },
+  {
+    "address": "0x82750f94",
+    "slot_size": 15,
+    "source_hash": "20AB4F908503DA0F",
+    "english": "Lin"
+  },
+  {
+    "address": "0x82750fa3",
+    "slot_size": 15,
+    "source_hash": "3A61E8D66CCA393B",
+    "english": "Wei-Chu"
+  },
+  {
+    "address": "0x8275105c",
+    "slot_size": 15,
+    "source_hash": "B6E28F06CFA45C3E",
+    "english": "Katsuragi"
+  },
+  {
+    "address": "0x8275106b",
+    "slot_size": 15,
+    "source_hash": "023CF72E8DDDDAD1",
+    "english": "Ikuro"
+  },
+  {
+    "address": "0x82751124",
+    "slot_size": 15,
+    "source_hash": "10B790FDE19CE7BB",
+    "english": "Sakurai"
+  },
+  {
+    "address": "0x82751133",
+    "slot_size": 15,
+    "source_hash": "DD5FE4CAA2973512",
+    "english": "Kodai"
+  },
+  {
+    "address": "0x827511ec",
+    "slot_size": 15,
+    "source_hash": "33A44A8C2D8ED0D3",
+    "english": "Yoshitake"
+  },
+  {
+    "address": "0x827511fb",
+    "slot_size": 15,
+    "source_hash": "6D66AF5D81FA74D7",
+    "english": "Haruki"
+  },
+  {
+    "address": "0x827512b4",
+    "slot_size": 15,
+    "source_hash": "08F12C683976A087",
+    "english": "Fukuhara"
+  },
+  {
+    "address": "0x827512c3",
+    "slot_size": 15,
+    "source_hash": "9FB4DE464904675D",
+    "english": "Mineo"
+  },
+  {
+    "address": "0x8275137c",
+    "slot_size": 15,
+    "source_hash": "854A30507D4E5AF8",
+    "english": "Okada"
+  },
+  {
+    "address": "0x8275138b",
+    "slot_size": 15,
+    "source_hash": "974CC8857D20D3C9",
+    "english": "Akinobu"
+  },
+  {
+    "address": "0x82751444",
+    "slot_size": 15,
+    "source_hash": "B9EB33A48A7B0128",
+    "english": "Kubo"
+  },
+  {
+    "address": "0x82751453",
+    "slot_size": 15,
+    "source_hash": "64878B5DD65B2CE0",
+    "english": "Yasuo"
+  }
+]
