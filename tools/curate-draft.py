@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 
-TAG = re.compile(r'<[^>]*>')
+TAG = re.compile(r'<[^>]*>|\\(?:c[0-9a-fA-F]|C[0-9a-fA-F]{6})')
 FORMAT = re.compile(r'%(?:\d+\$)?[-+# 0]*(?:\d+|\*)?(?:\.(?:\d+|\*))?[hlL]*[diuoxXfFeEgGcsSpn%]')
 JAPANESE = re.compile(r'[\u3041-\u30fa\u3400-\u9fff]')
 
@@ -30,16 +30,17 @@ def main():
         if row['address'] in config['exclude_addresses'] or any(int(r['start'],0)<=address<int(r['end'],0) for r in config['exclude_ranges']):
             excluded.append(row['address'])
             continue
-        if row['address'] in config['overrides']:
+        address_review=row['address'] in config['overrides']
+        if address_review:
             row['english'] = config['overrides'][row['address']]
             row['status'] = 'reviewed'
-        if normalize(row['source']) in words:
+        if not address_review and normalize(row['source']) in words:
             row['english'] = words[normalize(row['source'])]
             row['status'] = 'reviewed'
         parts = re.split(r'(<[^>]*>)', row['english'])
         source_parts = re.split(r'(<[^>]*>)', row['source'])
         for i in range(0,len(parts),2):
-            if len(parts)==len(source_parts) and normalize(source_parts[i]) in words:
+            if not address_review and len(parts)==len(source_parts) and normalize(source_parts[i]) in words:
                 parts[i]=words[normalize(source_parts[i])]
                 if source_parts[i].endswith(' '):parts[i]+=' '
             parts[i] = parts[i].replace('・','-').replace('【','[').replace('】',']')
@@ -47,7 +48,13 @@ def main():
             parts[i] = re.sub('Master Pennant', 'Manager Pennant', parts[i], flags=re.I)
             parts[i] = re.sub('home run competition', 'Home Run Derby', parts[i], flags=re.I)
         row['english'] = ''.join(parts)
-        if TAG.findall(row['source']) != TAG.findall(row['english']):
+        source_tags=TAG.findall(row['source']);english_tags=TAG.findall(row['english'])
+        if row.get('status')=='reviewed':
+            # Reviewed English may reflow line breaks. Button/color/layout
+            # controls still retain their exact order and count.
+            source_tags=[t for t in source_tags if t.upper() not in ('<BR>','<BR/>','<BR />')]
+            english_tags=[t for t in english_tags if t.upper() not in ('<BR>','<BR/>','<BR />')]
+        if source_tags != english_tags:
             # Token order can carry color/alignment state, so order matters.
             raise ValueError(f'Control markup changed at {row["address"]}')
         if FORMAT.findall(row['source']) != FORMAT.findall(row['english']):

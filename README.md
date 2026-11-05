@@ -9,10 +9,11 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **14,004 records / 13,741 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage.
+- Current catalogue: **14,000 records / 13,735 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
+- The latest offline wording pass improves 1,137 existing translations, including tutorials, player abilities, unlock requirements, statistics, and 119 newspaper lines/patterns. On-screen validation of this pass is pending.
 
 Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, stadium signage, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
 
@@ -75,6 +76,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `catalogue-runtime-text.py`: export unmatched renderer text from a local coverage audit.
 - `draft-translation.py`: create cached translation drafts. Only extracted game text is submitted to Google Translate's public endpoint. Control tags and format arguments are protected; results require review.
 - `curate-draft.py`: apply wording corrections and validate control-tag and printf-argument order.
+- `apply-reviewed-ui.py`: merge the maintained `reviewed-ui.json`, `reviewed-abilities.json`, and `reviewed-headlines.json` corrections into the curation table before regenerating local drafts. Reviewed paragraphs may reflow line breaks; button prompts, color controls, and printf arguments remain protected.
 - `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required.
 - `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed Hanshin names, and unambiguous dictionary readings.
 - `catalogue-menu-assets.py`: inventory textures and create local contact sheets.
@@ -87,6 +89,8 @@ Normal play keeps experimental pointer relocation disabled. English messages are
 ## Validation and performance
 
 `tools/test-format-translation.cpp` checks format matching, malformed-input rejection, fullwidth numerals, name captures, and limits. `tools/audit-runtime-text.cpp` compares actual traces with the catalogue and loaded image. The coverage audit requires a locally generated translation header and a local loaded executable image.
+
+The latest offline audit matched 463 captured strings; its only unmatched item was a square marker. This is a limited recorded trace, not full-game coverage. See [review validation](translation/review-validation.json) for the scope and deferred checks.
 
 Frame profiles are buffered and flushed during a run so samples survive the runtime's hard-exit shutdown path. Summarize a matching gameplay interval with:
 

@@ -27,6 +27,12 @@ def main():
     rows, hashes = [], {}
     priorities = {}
     fragments = {}
+    def add_fragment(original, translated, status):
+        fingerprint = fnv64(original.encode('cp932'))
+        rank = lambda value: 3 if value == 'reviewed' else 2 if value == 'game-roster-family' else 1
+        previous = fragments.get(fingerprint)
+        if previous is None or rank(status) > rank(previous[2]):
+            fragments[fingerprint] = (original, translated, status)
     for item in source:
         if item.get('english') is None:
             continue
@@ -86,10 +92,22 @@ def main():
                 for original, translated in zip(originals,english):
                     original,translated=original.strip(),translated.strip()
                     if original and translated and any(ord(c)>127 for c in original):
-                        fragments.setdefault(fnv64(original.encode('cp932')),
-                            (original,translated,item.get('status','draft')))
+                        add_fragment(original,translated,item.get('status','draft'))
+            # Ability tooltips also expose title and description as separate
+            # newline-delimited runs, without markup tags.
+            originals=item['source'].split('\n');english=item['english'].split('\n')
+            if len(originals)==len(english) and len(originals)>1:
+                for original,translated in zip(originals,english):
+                    original,translated=original.strip(),translated.strip()
+                    if original and translated and any(ord(c)>127 for c in original):
+                        add_fragment(original,translated,item.get('status','draft'))
     for fingerprint,(original,english,status) in fragments.items():
         if fingerprint in hashes:
+            priority=3 if status=='reviewed' else 2 if status=='game-roster-family' else 1
+            if priority>priorities.get(fingerprint,0):
+                hashes[fingerprint]=english;priorities[fingerprint]=priority
+                for row in rows:
+                    if int(row['source_hash'],16)==fingerprint:row['english']=english;row['status']=status
             continue
         hashes[fingerprint]=english
         rows.append(dict(address='0x00000000',source_size=len(original.encode('cp932')),

@@ -1,0 +1,30 @@
+"""Apply the maintained English UI review to the translation curation table."""
+import json
+from pathlib import Path
+root=Path(__file__).resolve().parent.parent
+p=root/'translation/curation.json'
+config=json.loads(p.read_text(encoding='utf-8'))
+review=json.loads((root/'translation/reviewed-ui.json').read_text(encoding='utf-8'))
+config['overrides'].update(review)
+skills=json.loads((root/'translation/reviewed-abilities.json').read_text(encoding='utf-8'))
+config['overrides'].update(skills['descriptions'])
+config['word_overrides'].update(skills['labels'])
+headlines=json.loads((root/'translation/reviewed-headlines.json').read_text(encoding='utf-8'))
+config['overrides'].update(headlines['overrides'])
+config['word_overrides'].update(headlines['patterns'])
+graded_labels={'球速安定','打たれ強さ','対ピンチ','クイック','対左打者',
+               'ショートバウンド','バントダッシュ','打球反応','ベースカバー',
+               '走塁','盗塁','ケガしにくさ','バント','チャンス'}
+for source,english in skills['labels'].items():
+    for level in range(1,6):
+        for digit in (str(level),chr(0xff10+level)):
+            key=source+digit
+            if source in graded_labels:
+                config['word_overrides'][key]=english+' '+str(level)
+            elif config['word_overrides'].get(key)==english+' '+str(level):
+                config['word_overrides'].pop(key)
+additional=config['additional_strings']
+if not any(int(r['address'],0)==0x8205F504 for r in additional):
+    additional.append(dict(address='0x8205F504',source='清原選手に対して警戒します。',english='Guard against Kiyohara.',status='reviewed'))
+p.write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(f'Applied {len(review)} UI, {len(skills["descriptions"])} ability, and {len(headlines["overrides"])+len(headlines["patterns"])} newspaper reviews with {len(skills["labels"])} consistent labels.')

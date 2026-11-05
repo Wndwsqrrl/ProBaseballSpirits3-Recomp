@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
-  "catalogue_records": 14004,
-  "unique_fingerprints": 13741,
+  "catalogue_records": 14000,
+  "unique_fingerprints": 13735,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -15,9 +15,12 @@
     "NVIDIA startup confirmed",
     "all bounded roster fields accepted at startup",
     "new menu text visually inspected",
-    "unchanged archive members and bytes outside edited regions verified"
+    "unchanged archive members and bytes outside edited regions verified",
+    "offline translation review and protected-control checks passed",
+    "recorded trace audit matched 463 strings plus an untranslated square marker"
   ],
   "pending_validation": [
+    "latest offline translation wording and paragraph reflow in game",
     "new HUD short labels and home/away texture labels in gameplay",
     "bounded report formatting in a completed match report",
     "full-match stability",
@@ -30,5 +33,6 @@
     "translation accuracy and layout review",
     "some missing gameplay geometry"
   ],
-  "entire_game_english": false
+  "entire_game_english": false,
+  "latest_offline_review": "review-validation.json"
 }
