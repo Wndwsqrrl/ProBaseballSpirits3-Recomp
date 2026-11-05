@@ -2,6 +2,7 @@
 #include "latin_font.h"
 #include "performance.h"
 #include "format_translation.h"
+#include "text_layout.h"
 #include "generated/translation/full_text.h"
 #include <cstdlib>
 #include <bit>
@@ -233,12 +234,13 @@ void RenderLocalized(PPCContext& ctx, uint8_t* base, PPCFunc* original) {
     const auto* text=memory->TranslateVirtual(ctx.r5.u32);
     for(unsigned attempt=0;attempt<4 && width_limit>0;++attempt) {
       const auto height=Read32(cache+24),stride=(Read32(cache+20)/2)*height+1;
-      uint32_t width=0;
-      for(size_t i=0;i<8192 && text[i] && text[i]!='\n';++i) {
-        auto index=mapping[text[i]==' '?unsigned('I'):text[i]];
+      const auto width=localization::MaxLineWidth(
+          std::string_view(reinterpret_cast<const char*>(text),strnlen(reinterpret_cast<const char*>(text),8192)),
+          [&](unsigned char c) {
+        auto index=mapping[c==' '?unsigned('I'):c];
         if(index==255)index=0;
-        width+=memory->TranslateVirtual(cache+28+index*stride)[0];
-      }
+        return memory->TranslateVirtual(cache+28+index*stride)[0];
+      });
       if(width<=uint32_t(width_limit) || height<=6)break;
       const auto smaller=GetLatinFontCache(*memory,std::max(6u,uint32_t(uint64_t(height)*width_limit/width)));
       if(!smaller)break;

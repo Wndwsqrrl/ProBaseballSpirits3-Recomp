@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
-  "catalogue_records": 14000,
-  "unique_fingerprints": 13735,
+  "catalogue_records": 13581,
+  "unique_fingerprints": 13314,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -27,6 +27,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
+    "remaining catalogued draft wording",
     "unvisited mode text and packed UI scripts",
     "remaining Japanese HUD and graphics",
     "given-name reading review",
@@ -34,5 +35,8 @@
     "some missing gameplay geometry"
   ],
   "entire_game_english": false,
-  "latest_offline_review": "review-validation.json"
+  "latest_offline_review": "review-validation.json",
+  "reviewed_newspaper_lines": 308,
+  "reviewed_settings_descriptions": 207,
+  "reviewed_mode_and_menu_entries": 653
 }

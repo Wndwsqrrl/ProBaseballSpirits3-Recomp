@@ -12,6 +12,12 @@ config['word_overrides'].update(skills['labels'])
 headlines=json.loads((root/'translation/reviewed-headlines.json').read_text(encoding='utf-8'))
 config['overrides'].update(headlines['overrides'])
 config['word_overrides'].update(headlines['patterns'])
+settings=json.loads((root/'translation/reviewed-settings.json').read_text(encoding='utf-8'))
+config['overrides'].update(settings['overrides'])
+config['word_overrides'].update(settings['labels'])
+modes=json.loads((root/'translation/reviewed-modes.json').read_text(encoding='utf-8'))
+config['overrides'].update(modes['overrides'])
+config['word_overrides'].update(modes['labels'])
 graded_labels={'球速安定','打たれ強さ','対ピンチ','クイック','対左打者',
                'ショートバウンド','バントダッシュ','打球反応','ベースカバー',
                '走塁','盗塁','ケガしにくさ','バント','チャンス'}
@@ -27,4 +33,4 @@ additional=config['additional_strings']
 if not any(int(r['address'],0)==0x8205F504 for r in additional):
     additional.append(dict(address='0x8205F504',source='清原選手に対して警戒します。',english='Guard against Kiyohara.',status='reviewed'))
 p.write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(f'Applied {len(review)} UI, {len(skills["descriptions"])} ability, and {len(headlines["overrides"])+len(headlines["patterns"])} newspaper reviews with {len(skills["labels"])} consistent labels.')
+print(f'Applied {len(review)} UI, {len(skills["descriptions"])} ability, {len(headlines["overrides"])+len(headlines["patterns"])} newspaper, {len(settings["overrides"])} settings, and {len(modes["overrides"])} mode/menu reviews.')

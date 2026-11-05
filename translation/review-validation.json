@@ -1,38 +1,48 @@
 {
   "date": "2026-11-05",
-  "catalogue_records": 14000,
-  "unique_fingerprints": 13735,
-  "changed_existing_translations": 1137,
-  "added_fingerprints": 190,
-  "removed_fragment_fingerprints": 196,
+  "catalogue_records": 13581,
+  "unique_fingerprints": 13314,
+  "comparison_commit": "0d0bb1438c8bf6739345cacbbb94f54c3b666f63",
+  "changed_existing_translations": 1858,
+  "added_fingerprints": 48,
+  "removed_fragment_or_codebook_fingerprints": 469,
   "review_entries": {
     "ui": 231,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
-    "newspaper_lines_and_patterns": 119
+    "newspaper_lines_and_patterns": 308,
+    "settings_descriptions": 207,
+    "settings_labels": 48,
+    "mode_and_menu_entries": 653,
+    "mode_and_menu_labels": 412
   },
+  "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
     "control-tag and printf argument validation passed for all curated catalogues",
-    "reviewed paragraph reflow accepted while color, button, and printf changes were rejected",
-    "reviewed fragments take priority over earlier drafts",
-    "formatted translation safety checks passed",
-    "no Japanese prose remains in English fields of the generated catalogue"
+    "all 308 extracted newspaper lines reviewed",
+    "all 52 additional newspaper aliases accepted by the runtime matcher",
+    "formatted translation checks include six-field summaries, slot limits, padded names, and malformed inputs",
+    "widest-line fitting covers later lines and CRLF",
+    "207 settings descriptions fit the offline estimated width and line budgets"
   ],
+  "interactive_test_this_round": false,
+  "layout_report": "layout-validation.json",
+  "pending": [
+    "Visual placement, font sizes, and icon diagrams in game",
+    "Remaining draft wording and name readings",
+    "Unvisited modes and packed UI text",
+    "Full-match stability",
+    "Higher-resolution performance"
+  ],
+  "entire_game_english": false,
   "recorded_trace_audit": {
     "unique_inputs": 464,
     "exact": 328,
     "formatted": 135,
     "unmatched_square_marker": 1,
+    "ambiguous": 0,
     "scope": "Previously recorded renderer trace only; unvisited screens are not covered."
-  },
-  "interactive_test_this_round": false,
-  "pending": [
-    "Visual fit and wording in game",
-    "Unvisited modes and packed UI text",
-    "Full-match stability",
-    "Higher-resolution performance"
-  ],
-  "entire_game_english": false
+  }
 }

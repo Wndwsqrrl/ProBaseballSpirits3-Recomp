@@ -1,0 +1,11 @@
+{
+  "checked_entries": 207,
+  "font": "Arial",
+  "font_size": 16,
+  "width_budget": 360,
+  "line_budget": 7,
+  "widest_line": 360.0,
+  "maximum_lines": 6,
+  "failures": [],
+  "scope": "Offline estimate for reviewed settings help only. Actual game rectangles, native scaling, and placement still require visual testing."
+}

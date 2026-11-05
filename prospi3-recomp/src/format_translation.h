@@ -55,7 +55,7 @@ inline std::optional<FormatParts> ParseFormat(std::string_view text) {
       ++i;while(i<text.size() && std::isdigit(static_cast<unsigned char>(text[i])))++i;
     }
     if(i==text.size() || std::string_view("diuoxXfFeEgGs").find(text[i])==std::string_view::npos)return {};
-    if(result.types.size()==4)return {};
+    if(result.types.size()==8)return {};
     result.types.push_back(text[i++]);result.literals.emplace_back();
   }
   return result;
@@ -76,6 +76,19 @@ inline bool ValidCapture(std::string_view value,char type) {
     return false;
   }
   return digit;
+}
+inline std::string_view TrimDisplayPadding(std::string_view value) {
+  while(!value.empty()) {
+    if(value.front()==' '){value.remove_prefix(1);continue;}
+    if(value.starts_with("\x81\x40")){value.remove_prefix(2);continue;}
+    break;
+  }
+  while(!value.empty()) {
+    if(value.back()==' '){value.remove_suffix(1);continue;}
+    if(value.ends_with("\x81\x40")){value.remove_suffix(2);continue;}
+    break;
+  }
+  return value;
 }
 inline bool MatchSlots(const FormatParts& format,std::string_view input,size_t slot,size_t position,
                        std::vector<std::string_view>& captures,unsigned& budget) {
@@ -135,7 +148,7 @@ struct FormatTranslation {
     if(!MatchSlots(source,input,0,0,captures,budget))return {};
     std::string result=english.literals[0];
     for(size_t i=0;i<captures.size();++i) {
-      if(source.types[i]=='s')result+=translate(captures[i]);
+      if(source.types[i]=='s')result+=translate(TrimDisplayPadding(captures[i]));
       else if(auto normalized=NormalizeFullwidthAscii(captures[i]))result+=*normalized;
       else result+=captures[i];
       result+=english.literals[i+1];

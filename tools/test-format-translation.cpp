@@ -1,4 +1,5 @@
 #include "../prospi3-recomp/src/format_translation.h"
+#include "../prospi3-recomp/src/text_layout.h"
 #include <cassert>
 #include <iostream>
 
@@ -20,7 +21,10 @@ int main() {
   assert(!stats->Apply("5"+wins+"4"+losses+"27"+saves+"x",identity));
   auto name=FormatTranslation::Create("%s"+wins+losses,"Player: %s");
   assert(name && name->Apply("Igawa"+wins+losses,identity)=="Player: Igawa");
+  assert(name->Apply("\x81\x40 Igawa Kei \x81\x40"+wins+losses,identity)=="Player: Igawa Kei");
   assert(name->Apply(wins+wins+losses,[&](std::string_view s){return s==wins?"Igawa":std::string(s);})=="Player: Igawa");
+  assert(name->Apply("\x81\x40"+wins+" \x81\x40"+wins+losses,
+      [&](std::string_view s){return s==wins?"Igawa":std::string(s);})=="Player: Igawa");
   assert(!FormatTranslation::Create("%s"+wins,"%s")); // Too broad: one particle.
   auto contextual=FormatTranslation::Create("%s"+wins,"%s:",true);
   assert(contextual && contextual->Apply("Igawa"+wins,identity)=="Igawa:");
@@ -33,5 +37,16 @@ int main() {
   assert(!name->Apply(std::string(1025,'a'),identity));
   auto repeated=FormatTranslation::Create("%s"+wins+"%s"+losses,"%s / %s");
   assert(repeated && !repeated->Apply(std::string(1024,'a'),identity));
+  // Six changing fields occur in mission stat summaries.
+  auto summary=FormatTranslation::Create(wins+losses+"%d G %d PA %d H %s AVG %d RBI %d HR",
+                                        "%d G, %d PA, %d H, %s AVG, %d RBI, %d HR");
+  assert(summary && summary->Apply(wins+losses+"3 G 12 PA 4 H .333 AVG 2 RBI 1 HR",identity)==
+      "3 G, 12 PA, 4 H, .333 AVG, 2 RBI, 1 HR");
+  assert(!FormatTranslation::Create(wins+"%d|%d|%d|%d|%d|%d|%d|%d|%d",
+                                       "%d|%d|%d|%d|%d|%d|%d|%d|%d"));
+  auto advance=[](unsigned char c){return c=='W'?3u:1u;};
+  assert(localization::MaxLineWidth("Title\nWWWW",advance)==12);
+  assert(localization::MaxLineWidth("WWWW\r\nx",advance)==12);
+  assert(localization::MaxLineWidth("",advance)==0);
   std::cout<<"Formatted translation safety checks passed\n";
 }
