@@ -1,5 +1,6 @@
 #include "../prospi3-recomp/src/format_translation.h"
 #include "../prospi3-recomp/src/text_layout.h"
+#include "../prospi3-recomp/src/report_translation.h"
 #include <cassert>
 #include <iostream>
 
@@ -48,5 +49,17 @@ int main() {
   assert(localization::MaxLineWidth("Title\nWWWW",advance)==12);
   assert(localization::MaxLineWidth("WWWW\r\nx",advance)==12);
   assert(localization::MaxLineWidth("",advance)==0);
+  localization::ReportTranslation report;
+  report.Add(wins,"This season, ");
+  report.Add(wins,"This season, ",true);
+  report.Add(losses,"as a starter, ");
+  report.Add(saves,"he pitched well. ");
+  assert(report.Apply(wins+losses+saves)=="This season, as a starter, he pitched well.");
+  assert(!report.Apply(losses+saves)); // No recognized report prefix.
+  assert(!report.Apply(wins+"unknown")); // Never translate a partial match.
+  assert(!report.Apply(wins+std::string(1024,' ')));
+  assert(!report.Apply(wins+losses+saves,1));
+  report.Add(wins+losses,"A conflicting interpretation. ");
+  assert(!report.Apply(wins+losses+saves));
   std::cout<<"Formatted translation safety checks passed\n";
 }

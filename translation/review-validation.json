@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-05",
-  "catalogue_records": 13581,
-  "unique_fingerprints": 13314,
-  "comparison_commit": "0d0bb1438c8bf6739345cacbbb94f54c3b666f63",
-  "changed_existing_translations": 1858,
-  "added_fingerprints": 48,
-  "removed_fragment_or_codebook_fingerprints": 469,
+  "date": "2026-11-08",
+  "catalogue_records": 13525,
+  "unique_fingerprints": 13258,
+  "comparison_commit": "c45e73e53e95a2a0ebcc4959fc90d42b63495929",
+  "changed_existing_translations": 691,
+  "added_fingerprints": 3,
+  "removed_fragment_or_codebook_fingerprints": 59,
   "review_entries": {
     "ui": 231,
     "ability_descriptions_and_requirements": 337,
@@ -14,22 +14,26 @@
     "settings_descriptions": 207,
     "settings_labels": 48,
     "mode_and_menu_entries": 653,
-    "mode_and_menu_labels": 412
+    "mode_and_menu_labels": 412,
+    "management_entries": 417,
+    "management_labels": 195,
+    "management_runtime_patterns": 3
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
     "control-tag and printf argument validation passed for all curated catalogues",
-    "all 308 extracted newspaper lines reviewed",
-    "all 52 additional newspaper aliases accepted by the runtime matcher",
-    "formatted translation checks include six-field summaries, slot limits, padded names, and malformed inputs",
-    "widest-line fitting covers later lines and CRLF",
-    "207 settings descriptions fit the offline estimated width and line budgets"
+    "formatted translation, padding, and size-limit checks passed",
+    "constructed native-table pitcher, batter, and coach reports passed composition checks",
+    "report matcher rejected incomplete, ambiguous, unprefixed, and over-budget input",
+    "74 fixed-row manager descriptions passed the source-derived offline width estimate",
+    "207 settings descriptions still pass the existing offline layout estimate"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "composed assessment wording and placement in the live game",
     "Visual placement, font sizes, and icon diagrams in game",
     "Remaining draft wording and name readings",
     "Unvisited modes and packed UI text",
@@ -44,5 +48,11 @@
     "unmatched_square_marker": 1,
     "ambiguous": 0,
     "scope": "Previously recorded renderer trace only; unvisited screens are not covered."
-  }
+  },
+  "management_layout_report": "management-layout-validation.json",
+  "unconfirmed_stat_definitions": [
+    "0x8209174C",
+    "0x82091844",
+    "0x82091854"
+  ]
 }

@@ -18,6 +18,9 @@ config['word_overrides'].update(settings['labels'])
 modes=json.loads((root/'translation/reviewed-modes.json').read_text(encoding='utf-8'))
 config['overrides'].update(modes['overrides'])
 config['word_overrides'].update(modes['labels'])
+management=json.loads((root/'translation/reviewed-management.json').read_text(encoding='utf-8'))
+config['overrides'].update(management['overrides'])
+config['word_overrides'].update(management['labels'])
 graded_labels={'球速安定','打たれ強さ','対ピンチ','クイック','対左打者',
                'ショートバウンド','バントダッシュ','打球反応','ベースカバー',
                '走塁','盗塁','ケガしにくさ','バント','チャンス'}
@@ -30,7 +33,13 @@ for source,english in skills['labels'].items():
             elif config['word_overrides'].get(key)==english+' '+str(level):
                 config['word_overrides'].pop(key)
 additional=config['additional_strings']
+for row in management.get('runtime_patterns',[]):
+    previous=next((r for r in additional if r.get('address')==row['address'] and r.get('source')==row['source']),None)
+    if previous is None:
+        additional.append(row)
+    else:
+        previous.update(row)
 if not any(int(r['address'],0)==0x8205F504 for r in additional):
     additional.append(dict(address='0x8205F504',source='清原選手に対して警戒します。',english='Guard against Kiyohara.',status='reviewed'))
 p.write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(f'Applied {len(review)} UI, {len(skills["descriptions"])} ability, {len(headlines["overrides"])+len(headlines["patterns"])} newspaper, {len(settings["overrides"])} settings, and {len(modes["overrides"])} mode/menu reviews.')
+print(f'Applied {len(review)} UI, {len(skills["descriptions"])} ability, {len(headlines["overrides"])+len(headlines["patterns"])} newspaper, {len(settings["overrides"])} settings, {len(modes["overrides"])} mode/menu, and {len(management["overrides"])} management reviews.')

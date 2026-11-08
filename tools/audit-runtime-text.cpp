@@ -1,5 +1,6 @@
 // Offline coverage audit using real renderer traces and the original loaded image.
 #include "../prospi3-recomp/src/format_translation.h"
+#include "../prospi3-recomp/src/report_translation.h"
 #include "../prospi3-recomp/generated/translation/full_text.h"
 #include <fstream>
 #include <iostream>
@@ -19,6 +20,7 @@ int main(int argc,char** argv) {
   std::string image((std::istreambuf_iterator<char>(input)),{});
   std::unordered_map<uint64_t,std::string> exact;
   std::vector<localization::FormatTranslation> formats;
+  localization::ReportTranslation reports;
   for(const auto& row:kFullTranslations) {
     exact.emplace(row.fingerprint,row.english);
     std::string_view source=row.format_source;
@@ -27,6 +29,8 @@ int main(int argc,char** argv) {
       if(offset+row.source_size>=image.size())return 3;
       source=std::string_view(image).substr(offset,row.source_size);
       if(Hash(source)!=row.fingerprint)return 4;
+      if(localization::IsReportPhraseAddress(row.address))
+        reports.Add(source,row.english,localization::IsReportPrefixAddress(row.address));
     }
     if(auto format=localization::FormatTranslation::Create(source,row.english))formats.push_back(*format);
   }
@@ -45,6 +49,7 @@ int main(int argc,char** argv) {
     if(auto it=exact.find(Hash(trimmed));it!=exact.end()){result=it->second;status="exact";}
     else {
       result=localization::NormalizeFullwidthAscii(source);
+      if(!result)result=reports.Apply(source);
       for(const auto& format:formats) {
         auto candidate=format.Apply(source,[&](std::string_view s){
           auto found=exact.find(Hash(s));return found==exact.end()?std::string(s):found->second;

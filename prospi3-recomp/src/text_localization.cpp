@@ -3,6 +3,7 @@
 #include "performance.h"
 #include "format_translation.h"
 #include "text_layout.h"
+#include "report_translation.h"
 #include "generated/translation/full_text.h"
 #include <cstdlib>
 #include <bit>
@@ -41,6 +42,7 @@ std::unordered_set<uint64_t> short_labels;
 bool trace_text=false;
 bool latin_font_enabled=true;
 std::vector<localization::FormatTranslation> format_translations;
+localization::ReportTranslation report_translations;
 std::unordered_map<uint32_t,localization::FormatTranslation> contextual_formats;
 std::mutex dynamic_mutex;
 std::unordered_map<std::string,uint32_t> dynamic_cache;
@@ -97,6 +99,7 @@ uint32_t TranslateFormatted(std::string_view source) {
   }
   if(dynamic_cache.size()>=65536 || !dynamic_pool)return 0;
   std::optional<std::string> result=localization::NormalizeFullwidthAscii(source);
+  if(!result)result=report_translations.Apply(source);
   for(const auto& format:format_translations) {
     auto candidate=format.Apply(source,[](std::string_view capture) {
       if(auto it=translations.find(Fingerprint(capture));it!=translations.end())
@@ -298,6 +301,9 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
       const auto* original=reinterpret_cast<const char*>(memory->TranslateVirtual(entry.address));
       if (original[entry.source_size] || Fingerprint(std::string_view(original,entry.source_size))!=entry.fingerprint)
         throw std::runtime_error("Full translation rejected: original fingerprint differs");
+      if(localization::IsReportPhraseAddress(entry.address))
+        report_translations.Add(std::string_view(original,entry.source_size),entry.english,
+                                localization::IsReportPrefixAddress(entry.address));
       if(auto format=localization::FormatTranslation::Create(std::string_view(original,entry.source_size),entry.english))
         format_translations.push_back(std::move(*format));
       if(auto format=localization::FormatTranslation::Create(std::string_view(original,entry.source_size),entry.english,true))

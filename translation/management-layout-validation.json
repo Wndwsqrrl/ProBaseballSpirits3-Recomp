@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-08",
+  "checked_entries": 74,
+  "font": "Arial",
+  "font_size": 16,
+  "width_budget": 560,
+  "widest_line": 449.0,
+  "failures": [],
+  "scope": "Offline estimate for the fixed 35-column manager-command descriptions. The original source rows are 70 CP932 bytes plus alignment. Actual game rectangles and font placement require visual testing."
+}
