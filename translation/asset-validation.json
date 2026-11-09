@@ -1,15 +1,17 @@
 {
   "archive_members": 2223,
-  "unchanged_members_verified": 2217,
+  "unchanged_members_verified": 2216,
   "localized_members": [
     "BBMENU.CHK",
     "MAINMENU.CHK",
     "MENU2D.CHK",
     "ORDERD.CHK",
+    "PEMDFIX.CHK",
     "SELECT.CHK",
     "TMSEL.CHK"
   ],
   "atlases": 6,
   "labels": 47,
-  "outside_localized_regions_unchanged": true
+  "outside_localized_regions_unchanged": true,
+  "pennant_event_titles": 187
 }

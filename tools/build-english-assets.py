@@ -1,4 +1,4 @@
-"""Build a separate extracted-disc tree with localized menu texture atlases.
+"""Build a separate extracted-disc tree with localized interface assets.
 
 The original extracted disc is read only. Unchanged files are hard links;
 baseball.fbd is rebuilt as a separate file, with updated sector offsets.
@@ -13,6 +13,7 @@ import struct
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from bndr import read_index
+from pennant_events import MEMBER as PENNANT_MEMBER, patch_titles
 
 spec = importlib.util.spec_from_file_location('konami_cmp', Path(__file__).with_name('konami-cmp.py'))
 cmp = importlib.util.module_from_spec(spec)
@@ -118,6 +119,7 @@ def main():
     parser.add_argument('game_root', type=Path)
     parser.add_argument('output', type=Path)
     parser.add_argument('--labels', required=True, type=Path)
+    parser.add_argument('--pennant-events', type=Path, help='Reviewed Pennant event titles')
     parser.add_argument('--font', type=Path, default=Path('C:/Windows/Fonts/ARIALNB.TTF'))
     parser.add_argument('--preview', required=True, type=Path)
     args = parser.parse_args()
@@ -127,15 +129,32 @@ def main():
     archive = source / 'cdvdroot/baseball.fbd'
     entries = read_index(archive)
     labels = json.loads(args.labels.read_text(encoding='utf-8'))
-    missing = labels.keys() - {entry['name'] for entry in entries}
+    members = set(labels)
+    titles = None
+    if args.pennant_events:
+        if PENNANT_MEMBER in members:
+            parser.error(f'{PENNANT_MEMBER} is reserved for event titles')
+        members.add(PENNANT_MEMBER)
+        titles = json.loads(args.pennant_events.read_text(encoding='utf-8'))
+        if not isinstance(titles, list):
+            parser.error('Pennant titles must be a list')
+    missing = members - {entry['name'] for entry in entries}
     if missing:
         raise ValueError(f'Archive members missing: {missing}')
     patches = {}
     with archive.open('rb') as stream:
         for entry in entries:
-            if entry['name'] in labels:
-                stream.seek(entry['offset'])
-                patches[entry['name']] = patch_chk(stream.read(entry['size']), labels[entry['name']], args.font, args.preview)
+            name = entry['name']
+            if name not in members:
+                continue
+            stream.seek(entry['offset'])
+            data = stream.read(entry['size'])
+            if name in labels:
+                patches[name] = patch_chk(data, labels[name], args.font, args.preview)
+            else:
+                if data.startswith(b'CMP\0'):
+                    data = cmp.decompress(data)
+                patches[name] = patch_titles(data, titles)
     output.mkdir(parents=True, exist_ok=True)
     target = output / 'cdvdroot/baseball.fbd'
     if target.exists() and os.path.samefile(archive, target):

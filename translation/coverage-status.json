@@ -8,7 +8,7 @@
   "other_bounded_roster_fields": 939,
   "additional_given_names_from_unambiguous_dictionary_readings": 325,
   "texture_labels": 47,
-  "localized_archive_members": 6,
+  "localized_archive_members": 7,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -20,6 +20,7 @@
     "recorded trace audit matched 463 strings plus an untranslated square marker"
   ],
   "pending_validation": [
+    "Pennant event title placement in game",
     "composed player assessments in live menus",
     "latest offline translation wording and paragraph reflow in game",
     "new HUD short labels and home/away texture labels in gameplay",
@@ -29,6 +30,7 @@
   ],
   "remaining": [
     "remaining catalogued draft wording",
+    "Pennant event goals, rewards, outcomes, and story text",
     "Unvisited mode branches and text embedded in packed UI resources",
     "remaining Japanese HUD and interface graphics",
     "Japanese voice and commentary banks",
@@ -62,5 +64,17 @@
   },
   "preserved_original_assets": [
     "Ballpark artwork, including in-stadium signage and sponsor advertisements"
-  ]
+  ],
+  "pennant_events": {
+    "resource": "PEMDFIX.CHK",
+    "event_records": 187,
+    "titles_translated": 187,
+    "distinct_other_text_extracted": 520,
+    "next_fields": [
+      "goals",
+      "rewards",
+      "outcomes",
+      "event prose"
+    ]
+  }
 }
