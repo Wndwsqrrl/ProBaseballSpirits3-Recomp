@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-08",
-  "catalogue_records": 13525,
-  "unique_fingerprints": 13258,
+  "date": "2026-11-09",
+  "catalogue_records": 13519,
+  "unique_fingerprints": 13252,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -29,8 +29,9 @@
   ],
   "remaining": [
     "remaining catalogued draft wording",
-    "unvisited mode text and packed UI scripts",
+    "Unvisited mode branches and text embedded in packed UI resources",
     "remaining Japanese HUD and graphics",
+    "Japanese voice and commentary banks",
     "given-name reading review",
     "translation accuracy and layout review",
     "some missing gameplay geometry"
@@ -40,5 +41,23 @@
   "reviewed_newspaper_lines": 308,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 653,
-  "reviewed_management_entries": 417
+  "reviewed_management_entries": 417,
+  "main_extracted_text": {
+    "entries": 6177,
+    "reviewed": 3657,
+    "draft": 2520
+  },
+  "reviewed_ui_addresses": 638,
+  "packed_ui_inventory": {
+    "archive_members": 2223,
+    "resources_scanned": 227,
+    "chunks_scanned": 5247,
+    "sbib_chunks": 220,
+    "members_with_sbib_chunks": 96,
+    "status": "Container and chunk inventory. Text extraction and script interpretation are incomplete."
+  },
+  "voice_banks": {
+    "located": 16,
+    "localized": 0
+  }
 }
