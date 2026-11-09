@@ -15,7 +15,9 @@ This repository contains port source, executable analysis metadata, English tran
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The latest offline pass adds **407 UI address reviews** and improves **447 existing translations** across team signs, training, Trial, lineup notices, and match prompts. The main extracted text list has 3,657 reviewed entries and 2,520 drafts. On-screen validation of the latest changes is pending.
 
-Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, stadium signage, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
+Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
+
+The English patch covers the game interface. In-stadium signage, sponsor ads, and other ballpark artwork retain their original Japanese presentation.
 
 ## Supported executable
 
