@@ -1,0 +1,704 @@
+[
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "C3B385FBDE66256F",
+    "english": "Choose a breaking pitch to rename.",
+    "status": "reviewed",
+    "member": "ABSHOP.CHK",
+    "file_offset": "0x35024"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "778239D109A0E9C7",
+    "english": "Conditions",
+    "status": "reviewed",
+    "member": "ABSHOP.CHK",
+    "file_offset": "0x356a4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "77CE16CF4838353E",
+    "english": "Effects",
+    "status": "reviewed",
+    "member": "ABSHOP.CHK",
+    "file_offset": "0x356c8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "65AFE849864E6ABD",
+    "english": "2nd Pitch Type",
+    "status": "reviewed",
+    "member": "ABSHOP.CHK",
+    "file_offset": "0x36a6c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "69F82AE03C39BB0D",
+    "english": "Register to First Team",
+    "status": "reviewed",
+    "member": "ARRANGE.CHK",
+    "file_offset": "0x188ec"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "F0EE799868E6B21E",
+    "english": "Current Jersey Number",
+    "status": "reviewed",
+    "member": "ARR_BK.CHK",
+    "file_offset": "0x14738"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "849AF03DF8A5EE7C",
+    "english": "New Jersey Number",
+    "status": "reviewed",
+    "member": "ARR_BK.CHK",
+    "file_offset": "0x14764"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "69AD258B83874265",
+    "english": "Swap",
+    "status": "reviewed",
+    "member": "ARR_CHAN.CHK",
+    "file_offset": "0x508c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "966E28C245011CBC",
+    "english": "Bench",
+    "status": "reviewed",
+    "member": "ARR_ODR.CHK",
+    "file_offset": "0x10410"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "0F9566DC3EC740AA",
+    "english": "Equipment",
+    "status": "reviewed",
+    "member": "EDIT.CHK",
+    "file_offset": "0x118cd4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "0C0D5000A4C517E6",
+    "english": "Kanji",
+    "status": "reviewed",
+    "member": "EDIT.CHK",
+    "file_offset": "0x11934c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "189AA2D7650D231D",
+    "english": "Start Game",
+    "status": "reviewed",
+    "member": "EMAINM.CHK",
+    "file_offset": "0x29954"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "00A987D9912FFB58",
+    "english": "Attribute Details",
+    "status": "reviewed",
+    "member": "EMAINM.CHK",
+    "file_offset": "0x29984"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "25FBAF3E4C4A8685",
+    "english": "Suspend",
+    "status": "reviewed",
+    "member": "EMAINM.CHK",
+    "file_offset": "0x299b4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "4E8BFF1AC34460F0",
+    "english": "Game 2",
+    "status": "reviewed",
+    "member": "EMAINM.CHK",
+    "file_offset": "0x29c40"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "CD24B028F99393A3",
+    "english": "Game 3",
+    "status": "reviewed",
+    "member": "EMAINM.CHK",
+    "file_offset": "0x29d28"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "842673F56E7587CF",
+    "english": "vs. RHP",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x235b78"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "F1BAF710529C4E0E",
+    "english": "vs. LHP",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x235c20"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "255D80D9D82AF304",
+    "english": "Appearance Date",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x2366a0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "BEF379F36377DED9",
+    "english": "Pitch Count",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x236d0c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "3D169A1032EFF50B",
+    "english": "Strikes",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x236d30"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FC8C1C3828F4CECD",
+    "english": "Balls",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x236d58"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "9A33A4708D120846",
+    "english": "Swing and Miss",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x237fc0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "4DF5393B80CCC427",
+    "english": "Foul",
+    "status": "reviewed",
+    "member": "GAME2D.CHK",
+    "file_offset": "0x237fe4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "20593A9D212D9EBA",
+    "english": "By VP Earned",
+    "status": "reviewed",
+    "member": "HRDERBY.CHK",
+    "file_offset": "0xe388"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "2DC2F1B817AA3FA2",
+    "english": "Stadium",
+    "status": "reviewed",
+    "member": "HRDERBY.CHK",
+    "file_offset": "0xe4f0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "A87B9E6E061C9A4A",
+    "english": "Choose a player for the challenge.",
+    "status": "reviewed",
+    "member": "HRDERBY.CHK",
+    "file_offset": "0xe818"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "D4B40D5AC8F42C66",
+    "english": "Time Left",
+    "status": "reviewed",
+    "member": "MENU2D.CHK",
+    "file_offset": "0x1c6fc8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "35FB77E6F2DD1D1C",
+    "english": "Retry",
+    "status": "reviewed",
+    "member": "MTMENU.CHK",
+    "file_offset": "0x135a0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "25B7C73E4C10E281",
+    "english": "End",
+    "status": "reviewed",
+    "member": "MTMENU.CHK",
+    "file_offset": "0x135c8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "BB578A2978841E7D",
+    "english": "Options",
+    "status": "reviewed",
+    "member": "MTMENU.CHK",
+    "file_offset": "0x137bc"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "39FB5B8A3BC4AD2D",
+    "english": "Offseason",
+    "status": "reviewed",
+    "member": "OFFSEASON.CHK",
+    "file_offset": "0x16b78"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "6C08B1BFF3E8FE87",
+    "english": "Draft",
+    "status": "reviewed",
+    "member": "OFFSEASON.CHK",
+    "file_offset": "0x16ba4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "3778ACCDAEE192FB",
+    "english": "Draft Pool",
+    "status": "reviewed",
+    "member": "OFFSEASON.CHK",
+    "file_offset": "0x17ba4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BAD322A909C5BD28",
+    "english": "End Draft",
+    "status": "reviewed",
+    "member": "OFFSEASON.CHK",
+    "file_offset": "0x17c98"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "6AFFE4C90B8BC2E5",
+    "english": "Simple",
+    "status": "reviewed",
+    "member": "OPTPLT.CHK",
+    "file_offset": "0x88dc0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FB0A462DC19CE340",
+    "english": "Camera",
+    "status": "reviewed",
+    "member": "OPTPLT.CHK",
+    "file_offset": "0x88e0c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "543EA9DE9B40F75C",
+    "english": "Remaining",
+    "status": "reviewed",
+    "member": "PARSEL.CHK",
+    "file_offset": "0x1149c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "311B3932CE246E35",
+    "english": "Cost",
+    "status": "reviewed",
+    "member": "PARSEL.CHK",
+    "file_offset": "0x114c0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8B4131D6D26F0B91",
+    "english": "Career Stats",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x68574"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "72255EE8F9510116",
+    "english": "Ties",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x69e98"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "FCED5FE5EF1BDCD7",
+    "english": "Games Left",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x69f08"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "C5AE0DA1AFEAA6B3",
+    "english": "Best Nine",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6a69c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "20924B56B5A775E8",
+    "english": "Golden Glove",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6a6c8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2ED8EB479D0D58CA",
+    "english": "Pitchers",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6aae0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "210448529665463E",
+    "english": "MVP",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6bbf8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "49EB6D47DDFED0EC",
+    "english": "Rookie of the Year",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6bc8c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "B18BD7436648A5E2",
+    "english": "Sawamura Award",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6bd20"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "CA34459F4508C282",
+    "english": "Team Stats",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6cb50"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "CFF687CD402F87F0",
+    "english": "Player Stats",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6cb78"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "F0364CF6E56739A0",
+    "english": "Records",
+    "status": "reviewed",
+    "member": "PENASTATS.CHK",
+    "file_offset": "0x6cba0"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "58FC8DCB50FE3FF0",
+    "english": "Custom Player",
+    "status": "reviewed",
+    "member": "PLRCPY.CHK",
+    "file_offset": "0x1cd3c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F611EE1CC32E0055",
+    "english": "Next Month",
+    "status": "reviewed",
+    "member": "PNCALENDAR.CHK",
+    "file_offset": "0x999b8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "00F3581649ECFE95",
+    "english": "Starting Rotation",
+    "status": "reviewed",
+    "member": "PNRTLST.CHK",
+    "file_offset": "0x207c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "BA31A4218E1D126F",
+    "english": "Game Results",
+    "status": "reviewed",
+    "member": "PNTDYIST.CHK",
+    "file_offset": "0x4063c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BFFD8C13A88F3161",
+    "english": "Change Pitch",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x46e4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "241701255F6E01A1",
+    "english": "Random",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x48e8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "4CB12E1725A9B074",
+    "english": "In Order",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x4918"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "CABC893E210DF0D8",
+    "english": "Batting Practice Settings",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x4e98"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BEF5F35039234D6E",
+    "english": "BP Pitcher",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x4ec4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "99FCA765D062451E",
+    "english": "Pitch Location",
+    "status": "reviewed",
+    "member": "PRCSEL.CHK",
+    "file_offset": "0x4f40"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "38CC66FA974DDE26",
+    "english": "All Pitchers",
+    "status": "reviewed",
+    "member": "RESULT.CHK",
+    "file_offset": "0x75b70"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "A73AD665375FB926",
+    "english": "Pitcher's View",
+    "status": "reviewed",
+    "member": "RESULT.CHK",
+    "file_offset": "0x75ba4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "A271AE0F53339B20",
+    "english": "Pitch Type / Location",
+    "status": "reviewed",
+    "member": "RESULT.CHK",
+    "file_offset": "0x75c8c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "14F469148F902B07",
+    "english": "Breaking Balls",
+    "status": "reviewed",
+    "member": "RESULT.CHK",
+    "file_offset": "0x75ce4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "C798929734BC1C6E",
+    "english": "Best Pitch Rate",
+    "status": "reviewed",
+    "member": "RESULT.CHK",
+    "file_offset": "0x75d0c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "B6035936518C8CDC",
+    "english": "Volume Settings",
+    "status": "reviewed",
+    "member": "SNDSET.CHK",
+    "file_offset": "0x229c4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "5A04D6AC247F38EC",
+    "english": "Commentary",
+    "status": "reviewed",
+    "member": "SNDSET.CHK",
+    "file_offset": "0x229f8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "CA38DFA94ED989CD",
+    "english": "Fight Songs",
+    "status": "reviewed",
+    "member": "SNDSET.CHK",
+    "file_offset": "0x22a60"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "F7831E009838FC5E",
+    "english": "Crowd Noise",
+    "status": "reviewed",
+    "member": "SNDSET.CHK",
+    "file_offset": "0x22a8c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "B133A8A305865843",
+    "english": "Batter",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2bfc4"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "D2DC5223E56C4238",
+    "english": "vs. Right",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2bfec"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "D2CDF523E55F66D5",
+    "english": "vs. Left",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2c010"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "5C21D724C5295F23",
+    "english": "Pinch Hitter",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2c058"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2509C2B87498DF80",
+    "english": "Bench Fielders",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2c07c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "E14388DDF33E560B",
+    "english": "Bench Pitchers",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2c7c8"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "41942C779AC50051",
+    "english": "BB + HBP",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2d63c"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "C055920BE8CC2F3C",
+    "english": "HR Allowed",
+    "status": "reviewed",
+    "member": "TIMEMENU.CHK",
+    "file_offset": "0x2d684"
+  }
+]

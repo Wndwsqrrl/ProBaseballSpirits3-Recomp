@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "catalogue_records": 13521,
-  "unique_fingerprints": 13254,
+  "catalogue_records": 13599,
+  "unique_fingerprints": 13332,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -21,6 +21,7 @@
   ],
   "pending_validation": [
     "Pennant event title placement in game",
+    "New packed UI labels across offseason, practice, results, and awards",
     "composed player assessments in live menus",
     "latest offline translation wording and paragraph reflow in game",
     "new HUD short labels and home/away texture labels in gameplay",
@@ -46,10 +47,10 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 3924,
-    "draft": 2253
+    "reviewed": 4072,
+    "draft": 2105
   },
-  "reviewed_ui_addresses": 905,
+  "reviewed_ui_addresses": 1054,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -60,7 +61,8 @@
     "txcpack_text": {
       "parsed_chunks": 325,
       "distinct_japanese": 645,
-      "distinct_absent_from_main_list_by_exact_match": 426
+      "distinct_absent_from_main_list_by_exact_match": 426,
+      "reviewed_lookups_added": 78
     }
   },
   "voice_banks": {
@@ -89,5 +91,13 @@
     "official_wording_adopted": 192,
     "wording_adapted_for_older_game": 75,
     "differences_deferred": 48
+  },
+  "contextual_and_packed_ui_review": {
+    "multiple_wording_draft_differences_reviewed": 131,
+    "multiple_wording_matches_resolved": 98,
+    "multiple_wording_matches_deferred": 33,
+    "adjacent_entries_reviewed": 51,
+    "packed_ui_lookups_added": 78,
+    "packed_ui_source_members": 23
   }
 }

@@ -1865,8 +1865,8 @@
     "address": "0x82063B30",
     "source_size": 10,
     "source_hash": "3CA297E7285DFE33",
-    "english": "last 5 games",
-    "status": "draft"
+    "english": "Last 5 Games",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B3C",
@@ -1886,22 +1886,22 @@
     "address": "0x82063B50",
     "source_size": 10,
     "source_hash": "2E9D74D15112EE16",
-    "english": "vs. left/right record",
-    "status": "draft"
+    "english": "vs. Left / Right",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B5C",
     "source_size": 8,
     "source_hash": "A06658EEC284DD24",
-    "english": "Pinch hit record",
-    "status": "draft"
+    "english": "Pinch-Hitting Stats",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B68",
     "source_size": 10,
     "source_hash": "320B6382E6B6ADBC",
-    "english": "Pitcher record",
-    "status": "draft"
+    "english": "Stats vs. Pitcher",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B74",
@@ -1914,22 +1914,22 @@
     "address": "0x82063B80",
     "source_size": 12,
     "source_hash": "2EF1B9DD90419B3F",
-    "english": "1st base runner",
-    "status": "draft"
+    "english": "Runner on First",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B90",
     "source_size": 12,
     "source_hash": "04E1C44268BE9150",
-    "english": "2nd base runner",
-    "status": "draft"
+    "english": "Runner on Second",
+    "status": "reviewed"
   },
   {
     "address": "0x82063BA0",
     "source_size": 12,
     "source_hash": "21C4E3308B996221",
-    "english": "3rd base runner",
-    "status": "draft"
+    "english": "Runner on Third",
+    "status": "reviewed"
   },
   {
     "address": "0x82063BB0",
@@ -1977,22 +1977,22 @@
     "address": "0x82063BE0",
     "source_size": 6,
     "source_hash": "67FC97170199634A",
-    "english": "left fielder",
-    "status": "draft"
+    "english": "Left Fielder",
+    "status": "reviewed"
   },
   {
     "address": "0x82063BE8",
     "source_size": 6,
     "source_hash": "38E7DE7DFCF6DB5B",
-    "english": "center fielder",
-    "status": "draft"
+    "english": "Center Fielder",
+    "status": "reviewed"
   },
   {
     "address": "0x82063BF0",
     "source_size": 6,
     "source_hash": "ECB31411345B8ED3",
-    "english": "right fielder",
-    "status": "draft"
+    "english": "Right Fielder",
+    "status": "reviewed"
   },
   {
     "address": "0x82063BF8",
@@ -2026,8 +2026,8 @@
     "address": "0x82063C34",
     "source_size": 30,
     "source_hash": "C8BA21EADD814BBE",
-    "english": "Treatment for injury caused by dead ball",
-    "status": "draft"
+    "english": "Recovering after being hit by a pitch",
+    "status": "reviewed"
   },
   {
     "address": "0x82063C54",
@@ -4658,8 +4658,8 @@
     "address": "0x82067BEC",
     "source_size": 8,
     "source_hash": "7EC83BE1A41F4A52",
-    "english": "2 seams",
-    "status": "draft"
+    "english": "Two-Seamer",
+    "status": "reviewed"
   },
   {
     "address": "0x82067BF8",
@@ -4672,29 +4672,29 @@
     "address": "0x82067C04",
     "source_size": 10,
     "source_hash": "59F76B6BC005B7EE",
-    "english": "slider",
-    "status": "draft"
+    "english": "Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C10",
     "source_size": 10,
     "source_hash": "1708F93A27CB44F1",
-    "english": "H slider",
-    "status": "draft"
+    "english": "Hard Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C1C",
     "source_size": 6,
     "source_hash": "7EEBEF30E14CCDFB",
-    "english": "Skip",
+    "english": "Cutter",
     "status": "reviewed"
   },
   {
     "address": "0x82067C24",
     "source_size": 10,
     "source_hash": "333BC6D9251BACCA",
-    "english": "S slider",
-    "status": "draft"
+    "english": "Slow Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C30",
@@ -4707,8 +4707,8 @@
     "address": "0x82067C3C",
     "source_size": 6,
     "source_hash": "1CD24C1E6F83C254",
-    "english": "curve",
-    "status": "draft"
+    "english": "Curveball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C44",
@@ -4728,8 +4728,8 @@
     "address": "0x82067C5C",
     "source_size": 8,
     "source_hash": "D57C4577F9D13C56",
-    "english": "slab",
-    "status": "draft"
+    "english": "Slurve",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C68",
@@ -4742,8 +4742,8 @@
     "address": "0x82067C74",
     "source_size": 8,
     "source_hash": "30274E274DFF882F",
-    "english": "knuckle",
-    "status": "draft"
+    "english": "Knuckleball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C80",
@@ -4756,57 +4756,57 @@
     "address": "0x82067C8C",
     "source_size": 8,
     "source_hash": "0F543726086D1C08",
-    "english": "fork",
-    "status": "draft"
+    "english": "Forkball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C98",
     "source_size": 6,
     "source_hash": "45717CC7B3CF9CC1",
-    "english": "palm",
-    "status": "draft"
+    "english": "Palm Ball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CA0",
     "source_size": 10,
     "source_hash": "6709541EF5FCFC9B",
-    "english": "V slider",
-    "status": "draft"
+    "english": "Vertical Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CAC",
     "source_size": 8,
     "source_hash": "2F5C8E0E090D2C59",
-    "english": "C up",
-    "status": "draft"
+    "english": "Changeup",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CC0",
     "source_size": 8,
     "source_hash": "45BE31C04E403946",
-    "english": "V cut",
-    "status": "draft"
+    "english": "Vertical Cutter",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CCC",
     "source_size": 8,
     "source_hash": "EC1EA3BE171C9E11",
-    "english": "S palm",
-    "status": "draft"
+    "english": "Slide Palm",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CD8",
     "source_size": 10,
     "source_hash": "6712451D2E9D26C9",
-    "english": "SC up",
-    "status": "draft"
+    "english": "Slow Changeup",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CE4",
     "source_size": 8,
     "source_hash": "956BF026D01B9EEE",
-    "english": "shake",
-    "status": "draft"
+    "english": "Shake",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CF0",
@@ -4819,71 +4819,71 @@
     "address": "0x82067CFC",
     "source_size": 8,
     "source_hash": "8DAD58C91F32C357",
-    "english": "sinker",
-    "status": "draft"
+    "english": "Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D08",
     "source_size": 10,
     "source_hash": "B3A3CEA10AF26422",
-    "english": "screw",
-    "status": "draft"
+    "english": "Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D14",
     "source_size": 10,
     "source_hash": "A42B3AB55A70C5DC",
-    "english": "H sinker",
-    "status": "draft"
+    "english": "Hard Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D20",
     "source_size": 10,
     "source_hash": "C50F58D7709265FD",
-    "english": "H screw",
-    "status": "draft"
+    "english": "Hard Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D2C",
     "source_size": 10,
     "source_hash": "4D1F6EB97EE61447",
-    "english": "S sinker",
-    "status": "draft"
+    "english": "Slow Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D38",
     "source_size": 10,
     "source_hash": "43F4D3D32A0B72EE",
-    "english": "S screw",
-    "status": "draft"
+    "english": "Slow Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D44",
     "source_size": 10,
     "source_hash": "92B59C4878AEBE77",
-    "english": "HH Shinka",
-    "status": "draft"
+    "english": "Extra-Hard Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D50",
     "source_size": 10,
     "source_hash": "9A20DB27A178B09A",
-    "english": "HH Scree",
-    "status": "draft"
+    "english": "Extra-Hard Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D5C",
     "source_size": 10,
     "source_hash": "97F4B83B03502BF3",
-    "english": "C change",
-    "status": "draft"
+    "english": "Circle Change",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D68",
     "source_size": 10,
     "source_hash": "FB51598F39292C81",
-    "english": "SC Chen",
-    "status": "draft"
+    "english": "Slow Circle Change",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D74",
@@ -4903,22 +4903,22 @@
     "address": "0x82067D8C",
     "source_size": 8,
     "source_hash": "D1D90B82FD3E7AAA",
-    "english": "shoot",
-    "status": "draft"
+    "english": "Shuuto",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D98",
     "source_size": 10,
     "source_hash": "C874A84AFB58A84D",
-    "english": "H shoot",
-    "status": "draft"
+    "english": "Hard Shuuto",
+    "status": "reviewed"
   },
   {
     "address": "0x82067DA4",
     "source_size": 10,
     "source_hash": "7CA4C0BEEC03BD6C",
-    "english": "S fast",
-    "status": "draft"
+    "english": "Sinking Fastball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067DB0",
@@ -4931,8 +4931,8 @@
     "address": "0x82067DBC",
     "source_size": 10,
     "source_hash": "F3A0ED9540D33418",
-    "english": "original",
-    "status": "draft"
+    "english": "Custom",
+    "status": "reviewed"
   },
   {
     "address": "0x82067F50",
@@ -6261,8 +6261,8 @@
     "address": "0x8206C228",
     "source_size": 18,
     "source_hash": "CF7F8E779E40A7C8",
-    "english": "change of pace",
-    "status": "draft"
+    "english": "Change of Pace",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C23C",
@@ -6296,29 +6296,29 @@
     "address": "0x8206C280",
     "source_size": 12,
     "source_hash": "65C29014A89C7963",
-    "english": "slow curve",
-    "status": "draft"
+    "english": "Slow Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C290",
     "source_size": 14,
     "source_hash": "AB8FEC319D63A065",
-    "english": "super slow curve",
-    "status": "draft"
+    "english": "Super Slow Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2A0",
     "source_size": 14,
     "source_hash": "97EC52A859353F36",
-    "english": "knuckle curve",
-    "status": "draft"
+    "english": "Knuckle Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2B0",
     "source_size": 12,
     "source_hash": "C6FD432E11FA15A4",
-    "english": "vertical slider",
-    "status": "draft"
+    "english": "Vertical Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2C0",
@@ -6331,8 +6331,8 @@
     "address": "0x8206C2D0",
     "source_size": 8,
     "source_hash": "4B4C465BFDCADD75",
-    "english": "vertical cut",
-    "status": "draft"
+    "english": "Vertical Cutter",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2DC",
@@ -6373,15 +6373,15 @@
     "address": "0x8206C334",
     "source_size": 16,
     "source_hash": "B43D55E884893B29",
-    "english": "slow screw",
-    "status": "draft"
+    "english": "Slow Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C348",
     "source_size": 14,
     "source_hash": "4BAAD1FA65945167",
-    "english": "super fast sinker",
-    "status": "draft"
+    "english": "Extra-Hard Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C358",
@@ -6394,15 +6394,15 @@
     "address": "0x8206C36C",
     "source_size": 16,
     "source_hash": "E31C15D370B5E17F",
-    "english": "circle change",
-    "status": "draft"
+    "english": "Circle Change",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C380",
     "source_size": 22,
     "source_hash": "965875A75EB5A4A0",
-    "english": "slow circle change",
-    "status": "draft"
+    "english": "Slow Circle Change",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C398",
@@ -6429,8 +6429,8 @@
     "address": "0x8206C3C4",
     "source_size": 18,
     "source_hash": "1A2C9B14FCC97A54",
-    "english": "thinking fast",
-    "status": "draft"
+    "english": "Sinking Fastball",
+    "status": "reviewed"
   },
   {
     "address": "0x8206CC34",
@@ -7003,15 +7003,15 @@
     "address": "0x82072F0C",
     "source_size": 2,
     "source_hash": "0A1C4507B68BD504",
-    "english": "core",
-    "status": "draft"
+    "english": "Sweet Spot",
+    "status": "reviewed"
   },
   {
     "address": "0x82072F10",
     "source_size": 4,
     "source_hash": "87C172316177CCBE",
-    "english": "true core",
-    "status": "draft"
+    "english": "Perfect Contact",
+    "status": "reviewed"
   },
   {
     "address": "0x82072F5C",
@@ -7913,8 +7913,8 @@
     "address": "0x8207407C",
     "source_size": 6,
     "source_hash": "3A3B3E76BA3D8884",
-    "english": "bat",
-    "status": "draft"
+    "english": "Bat",
+    "status": "reviewed"
   },
   {
     "address": "0x82074084",
@@ -8060,8 +8060,8 @@
     "address": "0x82074130",
     "source_size": 2,
     "source_hash": "0A03BC07B6765A58",
-    "english": "silver",
-    "status": "draft"
+    "english": "Silver",
+    "status": "reviewed"
   },
   {
     "address": "0x82074134",
@@ -8179,29 +8179,29 @@
     "address": "0x82074224",
     "source_size": 2,
     "source_hash": "09F02207B6665EA0",
-    "english": "waist",
-    "status": "draft"
+    "english": "Waist",
+    "status": "reviewed"
   },
   {
     "address": "0x82074228",
     "source_size": 6,
     "source_hash": "5B86F954B70BB1E4",
-    "english": "Buttocks",
-    "status": "draft"
+    "english": "Hips",
+    "status": "reviewed"
   },
   {
     "address": "0x82074230",
     "source_size": 6,
     "source_hash": "080D48F3413E8D6D",
-    "english": "chest abdomen",
-    "status": "draft"
+    "english": "Torso",
+    "status": "reviewed"
   },
   {
     "address": "0x82074238",
     "source_size": 2,
     "source_hash": "09F37807B6692699",
-    "english": "shoulder",
-    "status": "draft"
+    "english": "Shoulders",
+    "status": "reviewed"
   },
   {
     "address": "0x8207423C",
@@ -8256,22 +8256,22 @@
     "address": "0x82074280",
     "source_size": 4,
     "source_hash": "8EC29BC637A64D95",
-    "english": "height",
-    "status": "draft"
+    "english": "Height",
+    "status": "reviewed"
   },
   {
     "address": "0x82074288",
     "source_size": 2,
     "source_hash": "0A07E107B67A820E",
-    "english": "face",
-    "status": "draft"
+    "english": "Face",
+    "status": "reviewed"
   },
   {
     "address": "0x8207428C",
     "source_size": 4,
     "source_hash": "C4F90923DE87355E",
-    "english": "body shape",
-    "status": "draft"
+    "english": "Body Type",
+    "status": "reviewed"
   },
   {
     "address": "0x82074294",
@@ -8333,8 +8333,8 @@
     "address": "0x820742E0",
     "source_size": 2,
     "source_hash": "09FDFB07B67259B7",
-    "english": "yellow",
-    "status": "draft"
+    "english": "Yellow",
+    "status": "reviewed"
   },
   {
     "address": "0x820742E4",
@@ -8543,8 +8543,8 @@
     "address": "0x82074400",
     "source_size": 10,
     "source_hash": "8B03D8DAE0786BF0",
-    "english": "There is slack",
-    "status": "draft"
+    "english": "Some Sag",
+    "status": "reviewed"
   },
   {
     "address": "0x8207440C",
@@ -8557,8 +8557,8 @@
     "address": "0x82074418",
     "source_size": 14,
     "source_hash": "DF99CE01BF4B0E03",
-    "english": "Pretty neat",
-    "status": "draft"
+    "english": "Very Slim",
+    "status": "reviewed"
   },
   {
     "address": "0x82074428",
@@ -8767,8 +8767,8 @@
     "address": "0x82074550",
     "source_size": 2,
     "source_hash": "0A1BA607B68AC6D7",
-    "english": "blue",
-    "status": "draft"
+    "english": "Blue",
+    "status": "reviewed"
   },
   {
     "address": "0x82074554",
@@ -9019,8 +9019,8 @@
     "address": "0x820746B8",
     "source_size": 4,
     "source_hash": "7533B1FFBE671402",
-    "english": "basic",
-    "status": "draft"
+    "english": "Basic",
+    "status": "reviewed"
   },
   {
     "address": "0x820746C0",
@@ -9047,15 +9047,15 @@
     "address": "0x820746D0",
     "source_size": 2,
     "source_hash": "0A1BB407B68ADEA1",
-    "english": "red",
-    "status": "draft"
+    "english": "Red",
+    "status": "reviewed"
   },
   {
     "address": "0x820746D4",
     "source_size": 2,
     "source_hash": "0A0DDE07B67EE8A3",
-    "english": "white",
-    "status": "draft"
+    "english": "White",
+    "status": "reviewed"
   },
   {
     "address": "0x820746D8",
@@ -11112,8 +11112,8 @@
     "address": "0x82077B8C",
     "source_size": 6,
     "source_hash": "46B1CA413FB03EF2",
-    "english": "infielder",
-    "status": "draft"
+    "english": "Infielder",
+    "status": "reviewed"
   },
   {
     "address": "0x82077B94",
@@ -13114,8 +13114,8 @@
     "address": "0x8207D830",
     "source_size": 4,
     "source_hash": "AF1631B49FC7D130",
-    "english": "professional",
-    "status": "draft"
+    "english": "Pro",
+    "status": "reviewed"
   },
   {
     "address": "0x8207D838",
@@ -13793,22 +13793,22 @@
     "address": "0x8207E134",
     "source_size": 4,
     "source_hash": "1F0CB6DC383F7095",
-    "english": "defense",
-    "status": "draft"
+    "english": "Fielding",
+    "status": "reviewed"
   },
   {
     "address": "0x8207E13C",
     "source_size": 4,
     "source_hash": "128FC6240A5F48FB",
-    "english": "Turn at bat",
-    "status": "draft"
+    "english": "At Bat",
+    "status": "reviewed"
   },
   {
     "address": "0x8207E144",
     "source_size": 8,
     "source_hash": "739FA73E0410323B",
-    "english": "runner",
-    "status": "draft"
+    "english": "Runner",
+    "status": "reviewed"
   },
   {
     "address": "0x8207E150",
@@ -14829,8 +14829,8 @@
     "address": "0x8207FB04",
     "source_size": 10,
     "source_hash": "52158C333AE83939",
-    "english": "day game",
-    "status": "draft"
+    "english": "Day Game",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FC34",
@@ -14878,8 +14878,8 @@
     "address": "0x8207FE7C",
     "source_size": 16,
     "source_hash": "A8CDBD8F46E15314",
-    "english": "2005 results",
-    "status": "draft"
+    "english": "2005 Results",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FE90",
@@ -14892,15 +14892,15 @@
     "address": "0x8207FE9C",
     "source_size": 10,
     "source_hash": "593A4865BBCF638B",
-    "english": "Full stadium name",
-    "status": "draft"
+    "english": "Full Stadium Name",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FEA8",
     "source_size": 4,
     "source_hash": "EBEC79D1DC8D73B9",
-    "english": "rank",
-    "status": "draft"
+    "english": "Rank",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FEB0",
@@ -15207,8 +15207,8 @@
     "address": "0x82080324",
     "source_size": 6,
     "source_hash": "7A288C7FC35E8643",
-    "english": "Substitute runner",
-    "status": "draft"
+    "english": "Pinch Runner",
+    "status": "reviewed"
   },
   {
     "address": "0x8208032C",
@@ -15221,36 +15221,36 @@
     "address": "0x82080334",
     "source_size": 6,
     "source_hash": "33E00B2B6B4C4339",
-    "english": "play",
-    "status": "draft"
+    "english": "Play",
+    "status": "reviewed"
   },
   {
     "address": "0x82080350",
     "source_size": 6,
     "source_hash": "DC475552CB6CC18A",
-    "english": "Thank you",
-    "status": "draft"
+    "english": "Forfeit",
+    "status": "reviewed"
   },
   {
     "address": "0x82080408",
     "source_size": 24,
     "source_hash": "0FE5D94BABBD143B",
-    "english": "There are no pitchers available to replace",
-    "status": "draft"
+    "english": "No pitchers available for substitution.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080424",
     "source_size": 38,
     "source_hash": "0246B144AA87A564",
-    "english": "You cannot substitute unless you are facing one batter.",
-    "status": "draft"
+    "english": "The pitcher must face one batter before being replaced.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208044C",
     "source_size": 34,
     "source_hash": "480EA1229E9489A5",
-    "english": "There is no substitute fielder, so he cannot be substituted.",
-    "status": "draft"
+    "english": "No bench fielders available.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080484",
@@ -15298,22 +15298,22 @@
     "address": "0x820806C8",
     "source_size": 12,
     "source_hash": "9EB3ED4A5DA88022",
-    "english": "Last name only/fixed",
-    "status": "draft"
+    "english": "Last Name Only (Fixed)",
+    "status": "reviewed"
   },
   {
     "address": "0x820806D8",
     "source_size": 12,
     "source_hash": "3838A713C8F6994B",
-    "english": "Last name + first name/fixed",
-    "status": "draft"
+    "english": "Full Name (Fixed)",
+    "status": "reviewed"
   },
   {
     "address": "0x820806E8",
     "source_size": 12,
     "source_hash": "5350EC7F43FA8EC3",
-    "english": "Name only/Fixed",
-    "status": "draft"
+    "english": "First Name Only (Fixed)",
+    "status": "reviewed"
   },
   {
     "address": "0x820806F8",
@@ -15781,8 +15781,8 @@
     "address": "0x820810B8",
     "source_size": 10,
     "source_hash": "CB03863C7A2B014C",
-    "english": "mission",
-    "status": "draft"
+    "english": "Missions",
+    "status": "reviewed"
   },
   {
     "address": "0x820810E0",
@@ -16180,15 +16180,15 @@
     "address": "0x820830E0",
     "source_size": 2,
     "source_hash": "0A223207B6902069",
-    "english": "Medium",
-    "status": "draft"
+    "english": "CF",
+    "status": "reviewed"
   },
   {
     "address": "0x820830E4",
     "source_size": 2,
     "source_hash": "0A116007B681FB60",
-    "english": "play",
-    "status": "draft"
+    "english": "SS",
+    "status": "reviewed"
   },
   {
     "address": "0x820830E8",
@@ -16250,22 +16250,22 @@
     "address": "0x8208327C",
     "source_size": 4,
     "source_hash": "5C218824C528D8E6",
-    "english": "Pinch runner",
-    "status": "draft"
+    "english": "Pinch Runner",
+    "status": "reviewed"
   },
   {
     "address": "0x820832A0",
     "source_size": 10,
     "source_hash": "3F976AAC08E09CE6",
-    "english": "pitcher data",
-    "status": "draft"
+    "english": "Pitching Stats",
+    "status": "reviewed"
   },
   {
     "address": "0x82083354",
     "source_size": 10,
     "source_hash": "AAA0A35750A30037",
-    "english": "batter data",
-    "status": "draft"
+    "english": "Batting Stats",
+    "status": "reviewed"
   },
   {
     "address": "0x820833BC",
@@ -16733,15 +16733,15 @@
     "address": "0x82086328",
     "source_size": 3,
     "source_hash": "89C3C4183E906042",
-    "english": "9 times",
-    "status": "draft"
+    "english": "9 Innings",
+    "status": "reviewed"
   },
   {
     "address": "0x8208632C",
     "source_size": 3,
     "source_hash": "5930C21824035AE0",
-    "english": "3 times",
-    "status": "draft"
+    "english": "3 Innings",
+    "status": "reviewed"
   },
   {
     "address": "0x82086330",
@@ -18343,8 +18343,8 @@
     "address": "0x82088984",
     "source_size": 4,
     "source_hash": "7BA86CE73D47D2C0",
-    "english": "round",
-    "status": "draft"
+    "english": "Round",
+    "status": "reviewed"
   },
   {
     "address": "0x8208898C",
@@ -18539,8 +18539,8 @@
     "address": "0x820899D0",
     "source_size": 18,
     "source_hash": "129725D8F803ECCE",
-    "english": "all star game",
-    "status": "draft"
+    "english": "All-Star Game",
+    "status": "reviewed"
   },
   {
     "address": "0x820899E4",
@@ -18553,8 +18553,8 @@
     "address": "0x820899F4",
     "source_size": 12,
     "source_hash": "DE10ED0D0F3CAD65",
-    "english": "Central/Pacific interleague match",
-    "status": "draft"
+    "english": "Interleague Play",
+    "status": "reviewed"
   },
   {
     "address": "0x82089A04",
@@ -18588,8 +18588,8 @@
     "address": "0x82089A40",
     "source_size": 12,
     "source_hash": "3AB43BDA6357EDED",
-    "english": "draft meeting",
-    "status": "draft"
+    "english": "Draft",
+    "status": "reviewed"
   },
   {
     "address": "0x82089B2C",
@@ -21766,8 +21766,8 @@
     "address": "0x8208B090",
     "source_size": 8,
     "source_hash": "ECC28C2461FEC108",
-    "english": "prince",
-    "status": "draft"
+    "english": "Prince",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B0A4",
@@ -22578,8 +22578,8 @@
     "address": "0x8208B734",
     "source_size": 6,
     "source_hash": "C2BA89E48AA4AAC8",
-    "english": "ace",
-    "status": "draft"
+    "english": "Ace",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B73C",
@@ -24790,29 +24790,29 @@
     "address": "0x8208FA8C",
     "source_size": 14,
     "source_hash": "46F26DC8F4B402F2",
-    "english": "team arrangement",
-    "status": "draft"
+    "english": "Edit Team",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FA9C",
     "source_size": 8,
     "source_hash": "8D7E04ED68BE12A5",
-    "english": "free contract",
-    "status": "draft"
+    "english": "Free Agents",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FAA8",
     "source_size": 8,
     "source_hash": "196A674B4F062FC3",
-    "english": "trade",
-    "status": "draft"
+    "english": "Trades",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FAB4",
     "source_size": 20,
     "source_hash": "B659FB94FADBF3FA",
-    "english": "Acquiring original foreigners",
-    "status": "draft"
+    "english": "Sign a Custom Foreign Player",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FACC",
@@ -24825,8 +24825,8 @@
     "address": "0x8208FAE0",
     "source_size": 10,
     "source_hash": "B51BB386F2323CB2",
-    "english": "Uniform number setting",
-    "status": "draft"
+    "english": "Jersey Numbers",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FAEC",
@@ -24874,8 +24874,8 @@
     "address": "0x8208FB34",
     "source_size": 10,
     "source_hash": "80BCA618B74CC857",
-    "english": "personal",
-    "status": "draft"
+    "english": "Personal",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FB40",
@@ -24895,8 +24895,8 @@
     "address": "0x8208FB58",
     "source_size": 4,
     "source_hash": "D4D36BC4AD6158B5",
-    "english": "in charge",
-    "status": "draft"
+    "english": "Manager Orders",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FB60",
@@ -24909,8 +24909,8 @@
     "address": "0x8208FB68",
     "source_size": 14,
     "source_hash": "C866C14FB6780A53",
-    "english": "Go to match (next)",
-    "status": "draft"
+    "english": "Play / Advance",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FBA0",
@@ -31755,15 +31755,15 @@
     "address": "0x82099A6C",
     "source_size": 6,
     "source_hash": "CCE6044AF36CF1E6",
-    "english": "hit",
-    "status": "draft"
+    "english": "Single",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A74",
     "source_size": 8,
     "source_hash": "C8A8FC6352DD8FF6",
-    "english": "infield hit",
-    "status": "draft"
+    "english": "Infield Hit",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A80",
@@ -31804,36 +31804,36 @@
     "address": "0x82099AF8",
     "source_size": 4,
     "source_hash": "F0790FB433CE2272",
-    "english": "solo",
-    "status": "draft"
+    "english": "Solo",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B00",
     "source_size": 8,
     "source_hash": "6FA4D39A81EF6C25",
-    "english": "Touran",
-    "status": "draft"
+    "english": "Two-Run",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B0C",
     "source_size": 10,
     "source_hash": "BA57785470F37379",
-    "english": "three runs",
-    "status": "draft"
+    "english": "Three-Run",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B18",
     "source_size": 4,
     "source_hash": "D63F622226A33907",
-    "english": "bases loaded",
-    "status": "draft"
+    "english": "Bases Loaded",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B20",
     "source_size": 10,
     "source_hash": "09A5B47378BA9639",
-    "english": "home run",
-    "status": "draft"
+    "english": "Home Run",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B2C",
@@ -31846,22 +31846,22 @@
     "address": "0x82099B44",
     "source_size": 4,
     "source_hash": "833C16B3F6E20207",
-    "english": "ground ball",
-    "status": "draft"
+    "english": "Ground Ball",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B4C",
     "source_size": 6,
     "source_hash": "161510BA880D048C",
-    "english": "fly",
-    "status": "draft"
+    "english": "Fly Ball",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B54",
     "source_size": 8,
     "source_hash": "529949F5A13E38AB",
-    "english": "liner",
-    "status": "draft"
+    "english": "Line Drive",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B60",
@@ -31937,36 +31937,36 @@
     "address": "0x82099BF8",
     "source_size": 12,
     "source_hash": "1E95C0CE1D7CDCBA",
-    "english": "dead ball",
-    "status": "draft"
+    "english": "Hit by Pitch",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C08",
     "source_size": 8,
     "source_hash": "7FE95D28935B9C93",
-    "english": "swing away",
-    "status": "draft"
+    "english": "Uncaught Third Strike",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C14",
     "source_size": 8,
     "source_hash": "CE2B7D3A93E4AA83",
-    "english": "Strike interference",
-    "status": "draft"
+    "english": "Catcher's Interference",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C20",
     "source_size": 8,
     "source_hash": "3EB824C37B5F075A",
-    "english": "base running obstruction",
-    "status": "draft"
+    "english": "Baserunning Obstruction",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C2C",
     "source_size": 8,
     "source_hash": "2D6790E6A74974A3",
-    "english": "defensive interference",
-    "status": "draft"
+    "english": "Runner Interference",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C38",
@@ -31986,15 +31986,15 @@
     "address": "0x82099C50",
     "source_size": 10,
     "source_hash": "5432D3859E833A30",
-    "english": "During the turn at bat",
-    "status": "draft"
+    "english": "Mid-At-Bat",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C5C",
     "source_size": 6,
     "source_hash": "A35043A8F97942A3",
-    "english": "control ball",
-    "status": "draft"
+    "english": "Pickoff Throw",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C64",
@@ -32007,36 +32007,36 @@
     "address": "0x82099C6C",
     "source_size": 6,
     "source_hash": "BA1701564F3CE70E",
-    "english": "Base running death",
-    "status": "draft"
+    "english": "Out on the Bases",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C74",
     "source_size": 14,
     "source_hash": "A6F67E3B3DF9E154",
-    "english": "wild pitch",
-    "status": "draft"
+    "english": "Wild Pitch",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C84",
     "source_size": 10,
     "source_hash": "170754151D27D9AD",
-    "english": "passed ball",
-    "status": "draft"
+    "english": "Passed Ball",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C90",
     "source_size": 8,
     "source_hash": "F2110C38FE7459B5",
-    "english": "Control ball death",
-    "status": "draft"
+    "english": "Picked Off",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C9C",
     "source_size": 12,
     "source_hash": "13C5DEE15E9160CD",
-    "english": "No runner",
-    "status": "draft"
+    "english": "Bases Empty",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CAC",
@@ -33911,8 +33911,8 @@
     "address": "0x8209BA64",
     "source_size": 8,
     "source_hash": "D07CCC095D491EB1",
-    "english": "starting lineup",
-    "status": "draft"
+    "english": "Starting Lineup",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BA70",
@@ -34051,8 +34051,8 @@
     "address": "0x8209BC7C",
     "source_size": 8,
     "source_hash": "79F91B0B88578430",
-    "english": "starting pitcher",
-    "status": "draft"
+    "english": "Starting Pitcher",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BC88",
@@ -40029,15 +40029,15 @@
     "address": "0x820A6750",
     "source_size": 2,
     "source_hash": "0A07AC07B67A27FF",
-    "english": "Korea",
-    "status": "draft"
+    "english": "KOR",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6754",
     "source_size": 2,
     "source_hash": "09E93307B6605CD5",
-    "english": "C",
-    "status": "draft"
+    "english": "WL",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6758",
@@ -40057,29 +40057,29 @@
     "address": "0x820A6760",
     "source_size": 2,
     "source_hash": "09E93E07B6606F86",
-    "english": "pa",
-    "status": "draft"
+    "english": "PL",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6764",
     "source_size": 2,
     "source_hash": "09E92407B6604358",
-    "english": "Se",
-    "status": "draft"
+    "english": "CL",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6768",
     "source_size": 2,
     "source_hash": "0A1B8C07B68A9AA9",
-    "english": "west",
-    "status": "draft"
+    "english": "L",
+    "status": "reviewed"
   },
   {
     "address": "0x820A676C",
     "source_size": 2,
     "source_hash": "0A074B07B679832C",
-    "english": "Easy",
-    "status": "draft"
+    "english": "E",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6770",
@@ -40442,8 +40442,8 @@
     "address": "0x820A699C",
     "source_size": 4,
     "source_hash": "25ADB03E4C0866E7",
-    "english": "china",
-    "status": "draft"
+    "english": "China",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69A4",
@@ -40512,8 +40512,8 @@
     "address": "0x820A69FC",
     "source_size": 10,
     "source_hash": "ABBC2BCA882C6FB7",
-    "english": "Oryx",
-    "status": "draft"
+    "english": "Orix",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A08",
@@ -40575,8 +40575,8 @@
     "address": "0x820A6A50",
     "source_size": 4,
     "source_hash": "1EA8B2F399CC86E2",
-    "english": "giant",
-    "status": "draft"
+    "english": "Giants",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A58",
@@ -40981,8 +40981,8 @@
     "address": "0x82089954",
     "source_size": 8,
     "source_hash": "F8511068D2AD3CAD",
-    "english": "Contract renewal",
-    "status": "draft"
+    "english": "Contract Renewal",
+    "status": "reviewed"
   },
   {
     "address": "0x82089B20",
@@ -86102,6 +86102,552 @@
     "english": "Feeling Tired, %s?",
     "status": "reviewed",
     "format_source": "お疲れ？%s"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "C3B385FBDE66256F",
+    "english": "Choose a breaking pitch to rename.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "778239D109A0E9C7",
+    "english": "Conditions",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "77CE16CF4838353E",
+    "english": "Effects",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "65AFE849864E6ABD",
+    "english": "2nd Pitch Type",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "69F82AE03C39BB0D",
+    "english": "Register to First Team",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "F0EE799868E6B21E",
+    "english": "Current Jersey Number",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "849AF03DF8A5EE7C",
+    "english": "New Jersey Number",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "69AD258B83874265",
+    "english": "Swap",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "966E28C245011CBC",
+    "english": "Bench",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "0F9566DC3EC740AA",
+    "english": "Equipment",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "0C0D5000A4C517E6",
+    "english": "Kanji",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "189AA2D7650D231D",
+    "english": "Start Game",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "00A987D9912FFB58",
+    "english": "Attribute Details",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "25FBAF3E4C4A8685",
+    "english": "Suspend",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "4E8BFF1AC34460F0",
+    "english": "Game 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "CD24B028F99393A3",
+    "english": "Game 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "842673F56E7587CF",
+    "english": "vs. RHP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "F1BAF710529C4E0E",
+    "english": "vs. LHP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "255D80D9D82AF304",
+    "english": "Appearance Date",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "BEF379F36377DED9",
+    "english": "Pitch Count",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "3D169A1032EFF50B",
+    "english": "Strikes",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FC8C1C3828F4CECD",
+    "english": "Balls",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "9A33A4708D120846",
+    "english": "Swing and Miss",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "4DF5393B80CCC427",
+    "english": "Foul",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "20593A9D212D9EBA",
+    "english": "By VP Earned",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "2DC2F1B817AA3FA2",
+    "english": "Stadium",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "A87B9E6E061C9A4A",
+    "english": "Choose a player for the challenge.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "D4B40D5AC8F42C66",
+    "english": "Time Left",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "35FB77E6F2DD1D1C",
+    "english": "Retry",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "25B7C73E4C10E281",
+    "english": "End",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "BB578A2978841E7D",
+    "english": "Options",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "39FB5B8A3BC4AD2D",
+    "english": "Offseason",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "6C08B1BFF3E8FE87",
+    "english": "Draft",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "3778ACCDAEE192FB",
+    "english": "Draft Pool",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BAD322A909C5BD28",
+    "english": "End Draft",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "6AFFE4C90B8BC2E5",
+    "english": "Simple",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FB0A462DC19CE340",
+    "english": "Camera",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "543EA9DE9B40F75C",
+    "english": "Remaining",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "311B3932CE246E35",
+    "english": "Cost",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8B4131D6D26F0B91",
+    "english": "Career Stats",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "72255EE8F9510116",
+    "english": "Ties",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "FCED5FE5EF1BDCD7",
+    "english": "Games Left",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "C5AE0DA1AFEAA6B3",
+    "english": "Best Nine",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "20924B56B5A775E8",
+    "english": "Golden Glove",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2ED8EB479D0D58CA",
+    "english": "Pitchers",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "210448529665463E",
+    "english": "MVP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "49EB6D47DDFED0EC",
+    "english": "Rookie of the Year",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "B18BD7436648A5E2",
+    "english": "Sawamura Award",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "CA34459F4508C282",
+    "english": "Team Stats",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "CFF687CD402F87F0",
+    "english": "Player Stats",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "F0364CF6E56739A0",
+    "english": "Records",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "58FC8DCB50FE3FF0",
+    "english": "Custom Player",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F611EE1CC32E0055",
+    "english": "Next Month",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "00F3581649ECFE95",
+    "english": "Starting Rotation",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "BA31A4218E1D126F",
+    "english": "Game Results",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BFFD8C13A88F3161",
+    "english": "Change Pitch",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "241701255F6E01A1",
+    "english": "Random",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "4CB12E1725A9B074",
+    "english": "In Order",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "CABC893E210DF0D8",
+    "english": "Batting Practice Settings",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BEF5F35039234D6E",
+    "english": "BP Pitcher",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "99FCA765D062451E",
+    "english": "Pitch Location",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "38CC66FA974DDE26",
+    "english": "All Pitchers",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "A73AD665375FB926",
+    "english": "Pitcher's View",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "A271AE0F53339B20",
+    "english": "Pitch Type / Location",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "14F469148F902B07",
+    "english": "Breaking Balls",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "C798929734BC1C6E",
+    "english": "Best Pitch Rate",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "B6035936518C8CDC",
+    "english": "Volume Settings",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "5A04D6AC247F38EC",
+    "english": "Commentary",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "CA38DFA94ED989CD",
+    "english": "Fight Songs",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "F7831E009838FC5E",
+    "english": "Crowd Noise",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "B133A8A305865843",
+    "english": "Batter",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "D2DC5223E56C4238",
+    "english": "vs. Right",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "D2CDF523E55F66D5",
+    "english": "vs. Left",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "5C21D724C5295F23",
+    "english": "Pinch Hitter",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2509C2B87498DF80",
+    "english": "Bench Fielders",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "E14388DDF33E560B",
+    "english": "Bench Pitchers",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "41942C779AC50051",
+    "english": "BB + HBP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "C055920BE8CC2F3C",
+    "english": "HR Allowed",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",

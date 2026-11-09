@@ -9,11 +9,11 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,521 records / 13,254 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
+- Current catalogue: **13,599 records / 13,332 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest executable text pass uses the 2026 localization to review **267 UI entries** across the player editor, pitch help, results, and league menus. The main extracted text list has 3,924 reviewed entries and 2,253 drafts. On-screen validation of the latest changes is pending.
+- The latest text pass reviews **149 executable entries** and adds **78 packed menu lookups** using the 2006 game context and the 2026 localization. The main extracted text list has 4,072 reviewed entries and 2,105 drafts. On-screen validation of the latest changes is pending.
 - The asset patch includes all **187 Pennant event titles**. Event goals, stories, and outcome messages have been extracted for review.
 
 Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
@@ -80,7 +80,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `draft-translation.py`: create cached translation drafts. Only extracted game text is submitted to Google Translate's public endpoint. Control tags and format arguments are protected; results require review.
 - `curate-draft.py`: apply wording corrections and validate control-tag and printf-argument order.
 - `apply-reviewed-ui.py`: merge the maintained `reviewed-ui.json`, `reviewed-abilities.json`, `reviewed-headlines.json`, `reviewed-settings.json`, `reviewed-modes.json`, and `reviewed-management.json` corrections into the curation table before regenerating local drafts. Reviewed paragraphs may reflow line breaks; button prompts, color controls, and printf arguments remain protected.
-- `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required.
+- `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for the reviewed packed UI lookups.
 - `generate-headline-patterns.py`: create bounded name/number aliases for filled newspaper headlines, preserving the original field order.
 - `check-text-layout.py`: check reviewed settings text against an approximate Arial width and line budget. Requires Pillow; this is an offline estimate, not a measurement of game rectangles.
 - `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed Hanshin names, and unambiguous dictionary readings.

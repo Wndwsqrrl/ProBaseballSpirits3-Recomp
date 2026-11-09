@@ -1,13 +1,13 @@
 {
   "date": "2026-11-09",
-  "catalogue_records": 13521,
-  "unique_fingerprints": 13254,
-  "comparison_commit": "d4bffbc4bbf0f801db94564c6c5e097f71194eaf",
-  "changed_existing_translations": 262,
-  "added_fingerprints": 2,
+  "catalogue_records": 13599,
+  "unique_fingerprints": 13332,
+  "comparison_commit": "c0577995827005ed40c2afcf12b86c26cfd8ce5e",
+  "changed_existing_translations": 144,
+  "added_fingerprints": 78,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 905,
+    "ui": 1054,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -26,13 +26,14 @@
     "control-tag and printf argument validation passed for all curated catalogues",
     "formatted translation, padding, and size-limit checks passed",
     "native pitcher, batter, and coach report composition and rejection checks passed",
-    "all previous static source fingerprints retained"
+    "all previous static source fingerprints retained",
+    "78 packed UI lookups matched original extracted bytes in the offline audit"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
     "composed assessment wording and placement in the live game",
-    "Live placement of the latest tactics, player-editor, pitch help, and results labels",
+    "Live placement of the latest pitch, lineup, results, and packed UI labels",
     "Remaining draft wording and name readings",
     "Unvisited modes and packed UI text",
     "Full-match stability",
@@ -53,7 +54,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 267,
+  "added_ui_address_reviews": 149,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -61,5 +62,13 @@
     "official_wording_adopted": 192,
     "wording_adapted_for_older_game": 75,
     "differences_deferred": 48
+  },
+  "contextual_and_packed_ui_review": {
+    "multiple_wording_draft_differences_reviewed": 131,
+    "multiple_wording_matches_resolved": 98,
+    "multiple_wording_matches_deferred": 33,
+    "adjacent_entries_reviewed": 51,
+    "packed_ui_lookups_added": 78,
+    "packed_ui_source_members": 23
   }
 }
