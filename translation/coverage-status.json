@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "catalogue_records": 13519,
-  "unique_fingerprints": 13252,
+  "catalogue_records": 13521,
+  "unique_fingerprints": 13254,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -46,17 +46,22 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 3657,
-    "draft": 2520
+    "reviewed": 3924,
+    "draft": 2253
   },
-  "reviewed_ui_addresses": 638,
+  "reviewed_ui_addresses": 905,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
     "chunks_scanned": 5247,
     "sbib_chunks": 220,
     "members_with_sbib_chunks": 96,
-    "status": "Container and chunk inventory. Text extraction and script interpretation are incomplete."
+    "status": "Container and chunk inventory. Text extraction and script interpretation are incomplete.",
+    "txcpack_text": {
+      "parsed_chunks": 325,
+      "distinct_japanese": 645,
+      "distinct_absent_from_main_list_by_exact_match": 426
+    }
   },
   "voice_banks": {
     "located": 16,
@@ -76,5 +81,13 @@
       "outcomes",
       "event prose"
     ]
+  },
+  "official_2026_reference_review": {
+    "exact_japanese_matches": 1275,
+    "single_wording_draft_differences_reviewed": 315,
+    "address_reviews_added": 267,
+    "official_wording_adopted": 192,
+    "wording_adapted_for_older_game": 75,
+    "differences_deferred": 48
   }
 }

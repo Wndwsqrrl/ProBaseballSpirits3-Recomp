@@ -1,13 +1,13 @@
 {
   "date": "2026-11-09",
-  "catalogue_records": 13519,
-  "unique_fingerprints": 13252,
-  "comparison_commit": "6858df1bb335e5447921e33ce1b16e9c36b8c406",
-  "changed_existing_translations": 447,
-  "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 6,
+  "catalogue_records": 13521,
+  "unique_fingerprints": 13254,
+  "comparison_commit": "d4bffbc4bbf0f801db94564c6c5e097f71194eaf",
+  "changed_existing_translations": 262,
+  "added_fingerprints": 2,
+  "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 638,
+    "ui": 905,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -32,7 +32,7 @@
   "layout_report": "layout-validation.json",
   "pending": [
     "composed assessment wording and placement in the live game",
-    "Live placement of tactics, drill, lineup, substitution, and other newly reviewed text",
+    "Live placement of the latest tactics, player-editor, pitch help, and results labels",
     "Remaining draft wording and name readings",
     "Unvisited modes and packed UI text",
     "Full-match stability",
@@ -53,5 +53,13 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 407
+  "added_ui_address_reviews": 267,
+  "official_2026_reference_review": {
+    "exact_japanese_matches": 1275,
+    "single_wording_draft_differences_reviewed": 315,
+    "address_reviews_added": 267,
+    "official_wording_adopted": 192,
+    "wording_adapted_for_older_game": 75,
+    "differences_deferred": 48
+  }
 }

@@ -1312,8 +1312,8 @@
     "address": "0x82062F48",
     "source_size": 6,
     "source_hash": "231C8BD79B1CB03D",
-    "english": "rules",
-    "status": "draft"
+    "english": "Rules",
+    "status": "reviewed"
   },
   {
     "address": "0x82062F50",
@@ -1725,8 +1725,8 @@
     "address": "0x82063518",
     "source_size": 32,
     "source_hash": "6E202755974028B5",
-    "english": "Select your favorite operation type.",
-    "status": "draft"
+    "english": "Select the control type you prefer.",
+    "status": "reviewed"
   },
   {
     "address": "0x8206353C",
@@ -1746,8 +1746,8 @@
     "address": "0x82063598",
     "source_size": 36,
     "source_hash": "3A4A7890CC044FDC",
-    "english": "Return to the strike pitch menu.",
-    "status": "draft"
+    "english": "Return to the Strike Pitch menu.",
+    "status": "reviewed"
   },
   {
     "address": "0x820635C0",
@@ -1858,8 +1858,8 @@
     "address": "0x82063B24",
     "source_size": 10,
     "source_hash": "C785B1E2F1717608",
-    "english": "this season",
-    "status": "draft"
+    "english": "Current Season",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B30",
@@ -1879,8 +1879,8 @@
     "address": "0x82063B44",
     "source_size": 8,
     "source_hash": "5F2E6B112D8F47AA",
-    "english": "Grade comparison",
-    "status": "draft"
+    "english": "Stat Comparison",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B50",
@@ -1907,8 +1907,8 @@
     "address": "0x82063B74",
     "source_size": 10,
     "source_hash": "75958B01DF7C6267",
-    "english": "Today's results",
-    "status": "draft"
+    "english": "Today's Stats",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B80",
@@ -2012,15 +2012,15 @@
     "address": "0x82063C14",
     "source_size": 16,
     "source_hash": "F1B09A777DB523FF",
-    "english": "Under treatment for injury",
-    "status": "draft"
+    "english": "Recovering from injury",
+    "status": "reviewed"
   },
   {
     "address": "0x82063C28",
     "source_size": 8,
     "source_hash": "26C5572303BDF22D",
-    "english": "player substitution",
-    "status": "draft"
+    "english": "Substitutions",
+    "status": "reviewed"
   },
   {
     "address": "0x82063C34",
@@ -6282,8 +6282,8 @@
     "address": "0x8206C25C",
     "source_size": 16,
     "source_hash": "EF5864603FA11A15",
-    "english": "slow slider",
-    "status": "draft"
+    "english": "Slow Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C270",
@@ -6324,8 +6324,8 @@
     "address": "0x8206C2C0",
     "source_size": 14,
     "source_hash": "6EBD929F8C43494B",
-    "english": "change up",
-    "status": "draft"
+    "english": "Changeup",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2D0",
@@ -6338,15 +6338,15 @@
     "address": "0x8206C2DC",
     "source_size": 14,
     "source_hash": "FA50587018C2D15B",
-    "english": "slide palm",
-    "status": "draft"
+    "english": "Slide Palm",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C2EC",
     "source_size": 20,
     "source_hash": "0289679FDE8C5A90",
-    "english": "slow change up",
-    "status": "draft"
+    "english": "Slow Changeup",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C304",
@@ -6366,8 +6366,8 @@
     "address": "0x8206C324",
     "source_size": 14,
     "source_hash": "1DD984B3682EF4B0",
-    "english": "slow sinker",
-    "status": "draft"
+    "english": "Slow Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C334",
@@ -6744,8 +6744,8 @@
     "address": "0x8206D174",
     "source_size": 8,
     "source_hash": "7CB9AF8FE25E7332",
-    "english": "season",
-    "status": "draft"
+    "english": "Season",
+    "status": "reviewed"
   },
   {
     "address": "0x8206D180",
@@ -6800,8 +6800,8 @@
     "address": "0x8206D280",
     "source_size": 4,
     "source_hash": "33BCB2CDFFBE704E",
-    "english": "Currently",
-    "status": "draft"
+    "english": "Current",
+    "status": "reviewed"
   },
   {
     "address": "0x8206D288",
@@ -6954,8 +6954,8 @@
     "address": "0x8206DB38",
     "source_size": 8,
     "source_hash": "23FD6987BAC77766",
-    "english": "Match results",
-    "status": "draft"
+    "english": "Game Results",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB44",
@@ -7017,8 +7017,8 @@
     "address": "0x82072F5C",
     "source_size": 10,
     "source_hash": "8DE60529C5915B73",
-    "english": "Continue playing",
-    "status": "draft"
+    "english": "Resume",
+    "status": "reviewed"
   },
   {
     "address": "0x82072F68",
@@ -7843,22 +7843,22 @@
     "address": "0x82074000",
     "source_size": 4,
     "source_hash": "7D468D3D5BA7FA69",
-    "english": "Longish",
-    "status": "draft"
+    "english": "Long",
+    "status": "reviewed"
   },
   {
     "address": "0x82074008",
     "source_size": 4,
     "source_hash": "2D7D023F727A18F6",
-    "english": "Shortish",
-    "status": "draft"
+    "english": "Short",
+    "status": "reviewed"
   },
   {
     "address": "0x82074010",
     "source_size": 12,
     "source_hash": "29FDE88116C8E33E",
-    "english": "leather (cork)",
-    "status": "draft"
+    "english": "Leather (Cork)",
+    "status": "reviewed"
   },
   {
     "address": "0x82074020",
@@ -7871,8 +7871,8 @@
     "address": "0x82074028",
     "source_size": 4,
     "source_hash": "603785E84F982AAA",
-    "english": "yellow green",
-    "status": "draft"
+    "english": "Yellow-Green",
+    "status": "reviewed"
   },
   {
     "address": "0x82074030",
@@ -7885,29 +7885,29 @@
     "address": "0x82074058",
     "source_size": 8,
     "source_hash": "D3088C5DB35FE0AB",
-    "english": "glove",
-    "status": "draft"
+    "english": "Glove",
+    "status": "reviewed"
   },
   {
     "address": "0x82074064",
     "source_size": 8,
     "source_hash": "4E4FA8C1B839DA37",
-    "english": "silver (white)",
-    "status": "draft"
+    "english": "Silver (White)",
+    "status": "reviewed"
   },
   {
     "address": "0x82074070",
     "source_size": 2,
     "source_hash": "09F01807B6664DA2",
-    "english": "Navy blue",
-    "status": "draft"
+    "english": "Dark Blue",
+    "status": "reviewed"
   },
   {
     "address": "0x82074074",
     "source_size": 4,
     "source_hash": "DAA90EFD22B9CECF",
-    "english": "leather color",
-    "status": "draft"
+    "english": "Leather Color",
+    "status": "reviewed"
   },
   {
     "address": "0x8207407C",
@@ -7920,36 +7920,36 @@
     "address": "0x82074084",
     "source_size": 6,
     "source_hash": "BAB86AC9F9593A59",
-    "english": "red/black",
-    "status": "draft"
+    "english": "Red/Black",
+    "status": "reviewed"
   },
   {
     "address": "0x8207408C",
     "source_size": 10,
     "source_hash": "3B2D24CD835F4D1F",
-    "english": "dark brown/dark brown",
-    "status": "draft"
+    "english": "Dark Brown/Dark Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x82074098",
     "source_size": 6,
     "source_hash": "84C36ADA0BF754AB",
-    "english": "green/green",
-    "status": "draft"
+    "english": "Green/Green",
+    "status": "reviewed"
   },
   {
     "address": "0x820740A0",
     "source_size": 6,
     "source_hash": "BAAE77C9F950FBEB",
-    "english": "red/red",
-    "status": "draft"
+    "english": "Red/Red",
+    "status": "reviewed"
   },
   {
     "address": "0x820740A8",
     "source_size": 6,
     "source_hash": "EA49E840A0AE9143",
-    "english": "black/wood",
-    "status": "draft"
+    "english": "Black/Wood",
+    "status": "reviewed"
   },
   {
     "address": "0x820740B0",
@@ -7962,22 +7962,22 @@
     "address": "0x820740B8",
     "source_size": 6,
     "source_hash": "F01334ADCC8567F7",
-    "english": "yellow/yellow",
-    "status": "draft"
+    "english": "Yellow/Yellow",
+    "status": "reviewed"
   },
   {
     "address": "0x820740C0",
     "source_size": 6,
     "source_hash": "436B33D03873D183",
-    "english": "Tea/Tea",
-    "status": "draft"
+    "english": "Brown/Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x820740C8",
     "source_size": 6,
     "source_hash": "EA25B340A090CDF7",
-    "english": "black/black",
-    "status": "draft"
+    "english": "Black/Black",
+    "status": "reviewed"
   },
   {
     "address": "0x820740D0",
@@ -7990,29 +7990,29 @@
     "address": "0x820740D8",
     "source_size": 8,
     "source_hash": "50864593541D1A82",
-    "english": "Wood/dark brown",
-    "status": "draft"
+    "english": "Wood/Dark Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x820740E4",
     "source_size": 6,
     "source_hash": "3BD40137534B0AAC",
-    "english": "wood/green",
-    "status": "draft"
+    "english": "Wood/Green",
+    "status": "reviewed"
   },
   {
     "address": "0x820740EC",
     "source_size": 6,
     "source_hash": "3BC21D37533B140D",
-    "english": "wood/red",
-    "status": "draft"
+    "english": "Wood/Red",
+    "status": "reviewed"
   },
   {
     "address": "0x820740F4",
     "source_size": 6,
     "source_hash": "3BC20737533AEEAB",
-    "english": "wood/blue",
-    "status": "draft"
+    "english": "Wood/Blue",
+    "status": "reviewed"
   },
   {
     "address": "0x820740FC",
@@ -8025,36 +8025,36 @@
     "address": "0x82074104",
     "source_size": 6,
     "source_hash": "3BDA3C37534FDA9B",
-    "english": "wood/yellow",
-    "status": "draft"
+    "english": "Wood/Yellow",
+    "status": "reviewed"
   },
   {
     "address": "0x8207410C",
     "source_size": 6,
     "source_hash": "3BCA16375342D9D6",
-    "english": "wood/brown",
-    "status": "draft"
+    "english": "Wood/Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x82074114",
     "source_size": 6,
     "source_hash": "3BE79837535B014B",
-    "english": "wood/black",
-    "status": "draft"
+    "english": "Wood/Black",
+    "status": "reviewed"
   },
   {
     "address": "0x8207411C",
     "source_size": 6,
     "source_hash": "3BD7D537534EA8BF",
-    "english": "wood/tree",
-    "status": "draft"
+    "english": "Wood/Wood",
+    "status": "reviewed"
   },
   {
     "address": "0x82074124",
     "source_size": 10,
     "source_hash": "D06EF3B67B20EBC6",
-    "english": "necklace",
-    "status": "draft"
+    "english": "Necklace",
+    "status": "reviewed"
   },
   {
     "address": "0x82074130",
@@ -8067,8 +8067,8 @@
     "address": "0x82074134",
     "source_size": 6,
     "source_hash": "E484F9EB800F42D8",
-    "english": "glasses",
-    "status": "draft"
+    "english": "Glasses",
+    "status": "reviewed"
   },
   {
     "address": "0x8207413C",
@@ -8081,15 +8081,15 @@
     "address": "0x82074148",
     "source_size": 16,
     "source_hash": "139A83D215ED31D1",
-    "english": "Goggles B type 2",
-    "status": "draft"
+    "english": "B Goggles 2",
+    "status": "reviewed"
   },
   {
     "address": "0x8207415C",
     "source_size": 16,
     "source_hash": "139A80D215ED2CB8",
-    "english": "Goggles B type 1",
-    "status": "draft"
+    "english": "B Goggles 1",
+    "status": "reviewed"
   },
   {
     "address": "0x82074170",
@@ -8109,22 +8109,22 @@
     "address": "0x82074198",
     "source_size": 16,
     "source_hash": "5CAE5A01F25CA92D",
-    "english": "goggles A type 3",
-    "status": "draft"
+    "english": "A Goggles 3",
+    "status": "reviewed"
   },
   {
     "address": "0x820741AC",
     "source_size": 16,
     "source_hash": "5CAE5901F25CA77A",
-    "english": "Goggles A type 2",
-    "status": "draft"
+    "english": "A Goggles 2",
+    "status": "reviewed"
   },
   {
     "address": "0x820741C0",
     "source_size": 16,
     "source_hash": "5CAE5801F25CA5C7",
-    "english": "Goggles A type 1",
-    "status": "draft"
+    "english": "A Goggles 1",
+    "status": "reviewed"
   },
   {
     "address": "0x820741D4",
@@ -8137,15 +8137,15 @@
     "address": "0x820741E0",
     "source_size": 10,
     "source_hash": "151AA0301891984A",
-    "english": "oval glasses",
-    "status": "draft"
+    "english": "Oval Glasses",
+    "status": "reviewed"
   },
   {
     "address": "0x820741EC",
     "source_size": 12,
     "source_hash": "8DA4DB66A7E88A40",
-    "english": "black spot glasses",
-    "status": "draft"
+    "english": "Black-rimmed Glasses",
+    "status": "reviewed"
   },
   {
     "address": "0x820741FC",
@@ -8165,15 +8165,15 @@
     "address": "0x8207421C",
     "source_size": 2,
     "source_hash": "0A044C07B6774F08",
-    "english": "legs",
-    "status": "draft"
+    "english": "Legs",
+    "status": "reviewed"
   },
   {
     "address": "0x82074220",
     "source_size": 2,
     "source_hash": "0A374607B6A29E6F",
-    "english": "arm",
-    "status": "draft"
+    "english": "Arms",
+    "status": "reviewed"
   },
   {
     "address": "0x82074224",
@@ -8207,50 +8207,50 @@
     "address": "0x8207423C",
     "source_size": 2,
     "source_hash": "0A0B6707B67D9B97",
-    "english": "width",
-    "status": "draft"
+    "english": "Width",
+    "status": "reviewed"
   },
   {
     "address": "0x82074240",
     "source_size": 10,
     "source_hash": "0DBA37ADD1F76EA5",
-    "english": "Quite wide",
-    "status": "draft"
+    "english": "Very Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x8207424C",
     "source_size": 4,
     "source_hash": "DF20FCC26F25E748",
-    "english": "wide",
-    "status": "draft"
+    "english": "Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x82074254",
     "source_size": 8,
     "source_hash": "383EF46E27418A48",
-    "english": "Slightly wide",
-    "status": "draft"
+    "english": "Slightly Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x82074260",
     "source_size": 8,
     "source_hash": "7FBC519EC64F1747",
-    "english": "somewhat narrow",
-    "status": "draft"
+    "english": "Slightly Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x8207426C",
     "source_size": 4,
     "source_hash": "269E59F30E337447",
-    "english": "narrow",
-    "status": "draft"
+    "english": "Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x82074274",
     "source_size": 10,
     "source_hash": "E518D2DC7F7C7F42",
-    "english": "quite narrow",
-    "status": "draft"
+    "english": "Very Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x82074280",
@@ -8277,57 +8277,57 @@
     "address": "0x82074294",
     "source_size": 6,
     "source_hash": "B2AB61F91AC161B9",
-    "english": "Heavy type",
-    "status": "draft"
+    "english": "Heavy",
+    "status": "reviewed"
   },
   {
     "address": "0x8207429C",
     "source_size": 8,
     "source_hash": "7C1FA451A6E56E3D",
-    "english": "muscular type",
-    "status": "draft"
+    "english": "Muscular",
+    "status": "reviewed"
   },
   {
     "address": "0x820742A8",
     "source_size": 6,
     "source_hash": "D0124CC351877094",
-    "english": "Standard type",
-    "status": "draft"
+    "english": "Average",
+    "status": "reviewed"
   },
   {
     "address": "0x820742B0",
     "source_size": 6,
     "source_hash": "69CC1C57CFC4FD81",
-    "english": "Yase type",
-    "status": "draft"
+    "english": "Slender",
+    "status": "reviewed"
   },
   {
     "address": "0x820742B8",
     "source_size": 4,
     "source_hash": "4E94F531D1F8106B",
-    "english": "height",
-    "status": "draft"
+    "english": "Height",
+    "status": "reviewed"
   },
   {
     "address": "0x820742C0",
     "source_size": 4,
     "source_hash": "A9CCC8B49DBEAE6D",
-    "english": "beard",
-    "status": "draft"
+    "english": "Facial Hair",
+    "status": "reviewed"
   },
   {
     "address": "0x820742C8",
     "source_size": 12,
     "source_hash": "8F0265087CF4D09D",
-    "english": "hairstyle",
-    "status": "draft"
+    "english": "Hair Style",
+    "status": "reviewed"
   },
   {
     "address": "0x820742D8",
     "source_size": 6,
     "source_hash": "43B5202DEBB9E650",
-    "english": "color",
-    "status": "draft"
+    "english": "Color",
+    "status": "reviewed"
   },
   {
     "address": "0x820742E0",
@@ -8340,57 +8340,57 @@
     "address": "0x820742E4",
     "source_size": 8,
     "source_hash": "76A3CE239EDB520E",
-    "english": "orange",
-    "status": "draft"
+    "english": "Orange",
+    "status": "reviewed"
   },
   {
     "address": "0x820742F0",
     "source_size": 4,
     "source_hash": "C82FB62D8DE0A644",
-    "english": "light blue",
-    "status": "draft"
+    "english": "Light Blue",
+    "status": "reviewed"
   },
   {
     "address": "0x820742F8",
     "source_size": 2,
     "source_hash": "09F97107B66D8662",
-    "english": "purple",
-    "status": "draft"
+    "english": "Purple",
+    "status": "reviewed"
   },
   {
     "address": "0x820742FC",
     "source_size": 2,
     "source_hash": "0A11F807B682FDA8",
-    "english": "green",
-    "status": "draft"
+    "english": "Green",
+    "status": "reviewed"
   },
   {
     "address": "0x82074300",
     "source_size": 8,
     "source_hash": "159DD52A24CD9BC1",
-    "english": "bright green",
-    "status": "draft"
+    "english": "Light Green",
+    "status": "reviewed"
   },
   {
     "address": "0x8207430C",
     "source_size": 8,
     "source_hash": "1585872A24B88556",
-    "english": "bright blue",
-    "status": "draft"
+    "english": "Bright Blue",
+    "status": "reviewed"
   },
   {
     "address": "0x82074318",
     "source_size": 8,
     "source_hash": "1585792A24B86D8C",
-    "english": "bright red",
-    "status": "draft"
+    "english": "Light Red",
+    "status": "reviewed"
   },
   {
     "address": "0x82074324",
     "source_size": 6,
     "source_hash": "C2D1DF2B1986EF78",
-    "english": "gray",
-    "status": "draft"
+    "english": "Gray",
+    "status": "reviewed"
   },
   {
     "address": "0x8207432C",
@@ -8403,8 +8403,8 @@
     "address": "0x82074330",
     "source_size": 8,
     "source_hash": "1575A72A24ABFB83",
-    "english": "bright gold",
-    "status": "draft"
+    "english": "Light Blond",
+    "status": "reviewed"
   },
   {
     "address": "0x8207433C",
@@ -8417,29 +8417,29 @@
     "address": "0x82074340",
     "source_size": 8,
     "source_hash": "158C102A24BDD9CF",
-    "english": "light brown",
-    "status": "draft"
+    "english": "Light Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x8207434C",
     "source_size": 8,
     "source_hash": "62C12E05B925CA67",
-    "english": "style",
-    "status": "draft"
+    "english": "Style",
+    "status": "reviewed"
   },
   {
     "address": "0x82074358",
     "source_size": 8,
     "source_hash": "DFFCAF515C5E9B0F",
-    "english": "dreads",
-    "status": "draft"
+    "english": "Dreads",
+    "status": "reviewed"
   },
   {
     "address": "0x82074364",
     "source_size": 8,
     "source_hash": "DF6ECB42D24D945D",
-    "english": "curly hair",
-    "status": "draft"
+    "english": "Curly Hair",
+    "status": "reviewed"
   },
   {
     "address": "0x82074370",
@@ -8480,64 +8480,64 @@
     "address": "0x820743A8",
     "source_size": 12,
     "source_hash": "E56AAA8C79760877",
-    "english": "skin head",
-    "status": "draft"
+    "english": "Bald",
+    "status": "reviewed"
   },
   {
     "address": "0x820743B8",
     "source_size": 4,
     "source_hash": "AE3C24B812E45339",
-    "english": "Mimi",
-    "status": "draft"
+    "english": "Ears",
+    "status": "reviewed"
   },
   {
     "address": "0x820743C0",
     "source_size": 6,
     "source_hash": "E8ECED7B67E27C48",
-    "english": "earrings",
-    "status": "draft"
+    "english": "Piercing",
+    "status": "reviewed"
   },
   {
     "address": "0x820743C8",
     "source_size": 4,
     "source_hash": "492994B98CA2224F",
-    "english": "chin",
-    "status": "draft"
+    "english": "Chin",
+    "status": "reviewed"
   },
   {
     "address": "0x820743D0",
     "source_size": 4,
     "source_hash": "3B48EDB985BEAB92",
-    "english": "Gills",
-    "status": "draft"
+    "english": "Jaw",
+    "status": "reviewed"
   },
   {
     "address": "0x820743D8",
     "source_size": 10,
     "source_hash": "DD773317305FBD71",
-    "english": "Quite tense",
-    "status": "draft"
+    "english": "Very Firm",
+    "status": "reviewed"
   },
   {
     "address": "0x820743E4",
     "source_size": 4,
     "source_hash": "2A838A3DBDC6D198",
-    "english": "tension",
-    "status": "draft"
+    "english": "Firm",
+    "status": "reviewed"
   },
   {
     "address": "0x820743EC",
     "source_size": 8,
     "source_hash": "83A181E975E27498",
-    "english": "Slightly tense",
-    "status": "draft"
+    "english": "Slightly Firm",
+    "status": "reviewed"
   },
   {
     "address": "0x820743F8",
     "source_size": 6,
     "source_hash": "A44620F90649B278",
-    "english": "sagging",
-    "status": "draft"
+    "english": "Sagging",
+    "status": "reviewed"
   },
   {
     "address": "0x82074400",
@@ -8550,8 +8550,8 @@
     "address": "0x8207440C",
     "source_size": 8,
     "source_hash": "431FE7A40588BFB6",
-    "english": "Neat",
-    "status": "draft"
+    "english": "Slim",
+    "status": "reviewed"
   },
   {
     "address": "0x82074418",
@@ -8564,36 +8564,36 @@
     "address": "0x82074428",
     "source_size": 4,
     "source_hash": "7D46393D5BA76BAD",
-    "english": "length",
-    "status": "draft"
+    "english": "Length",
+    "status": "reviewed"
   },
   {
     "address": "0x82074430",
     "source_size": 2,
     "source_hash": "09F3C507B669A970",
-    "english": "mouth",
-    "status": "draft"
+    "english": "Mouth",
+    "status": "reviewed"
   },
   {
     "address": "0x82074434",
     "source_size": 4,
     "source_hash": "69F7ADCF415D7C60",
-    "english": "thickness",
-    "status": "draft"
+    "english": "Thickness",
+    "status": "reviewed"
   },
   {
     "address": "0x8207443C",
     "source_size": 4,
     "source_hash": "69F7BECF415D9943",
-    "english": "thick",
-    "status": "draft"
+    "english": "Thick",
+    "status": "reviewed"
   },
   {
     "address": "0x82074444",
     "source_size": 8,
     "source_hash": "C315B67AF9793C43",
-    "english": "somewhat thick",
-    "status": "draft"
+    "english": "Slightly Thick",
+    "status": "reviewed"
   },
   {
     "address": "0x82074450",
@@ -8606,8 +8606,8 @@
     "address": "0x82074458",
     "source_size": 4,
     "source_hash": "FDAA7BE9D882C64E",
-    "english": "position",
-    "status": "draft"
+    "english": "Position",
+    "status": "reviewed"
   },
   {
     "address": "0x82074460",
@@ -8620,36 +8620,36 @@
     "address": "0x82074468",
     "source_size": 8,
     "source_hash": "B355B70449E32BA9",
-    "english": "bulge",
-    "status": "draft"
+    "english": "Fullness",
+    "status": "reviewed"
   },
   {
     "address": "0x82074474",
     "source_size": 14,
     "source_hash": "6FBDF891ABF499AC",
-    "english": "Quite plump",
-    "status": "draft"
+    "english": "Very Full",
+    "status": "reviewed"
   },
   {
     "address": "0x82074484",
     "source_size": 8,
     "source_hash": "AA10A899687D758D",
-    "english": "Plump",
-    "status": "draft"
+    "english": "Full",
+    "status": "reviewed"
   },
   {
     "address": "0x82074490",
     "source_size": 12,
     "source_hash": "9CB38A8BBAD8C88D",
-    "english": "Slightly plump",
-    "status": "draft"
+    "english": "Slightly Full",
+    "status": "reviewed"
   },
   {
     "address": "0x820744A0",
     "source_size": 2,
     "source_hash": "0A0B2A07B67D33F0",
-    "english": "nose",
-    "status": "draft"
+    "english": "Nose",
+    "status": "reviewed"
   },
   {
     "address": "0x820744A4",
@@ -8662,85 +8662,85 @@
     "address": "0x820744AC",
     "source_size": 10,
     "source_hash": "00F4AE13D0E1DD23",
-    "english": "quite thick",
-    "status": "draft"
+    "english": "Very Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x820744B8",
     "source_size": 4,
     "source_hash": "87ACC7256DCB10EA",
-    "english": "thick",
-    "status": "draft"
+    "english": "Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x820744C0",
     "source_size": 8,
     "source_hash": "E0CABED125E6B3EA",
-    "english": "Slightly thick",
-    "status": "draft"
+    "english": "Slightly Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x820744CC",
     "source_size": 8,
     "source_hash": "61AC117082B73A3D",
-    "english": "Slightly thin",
-    "status": "draft"
+    "english": "Slightly Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x820744D8",
     "source_size": 10,
     "source_hash": "6EE40AABC5006320",
-    "english": "quite thin",
-    "status": "draft"
+    "english": "Very Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x820744E4",
     "source_size": 12,
     "source_hash": "2656D6B1564C047B",
-    "english": "length (position)",
-    "status": "draft"
+    "english": "Length (Position)",
+    "status": "reviewed"
   },
   {
     "address": "0x820744F4",
     "source_size": 10,
     "source_hash": "BD54EE1841275F14",
-    "english": "quite short",
-    "status": "draft"
+    "english": "Very Short",
+    "status": "reviewed"
   },
   {
     "address": "0x82074500",
     "source_size": 4,
     "source_hash": "2D7D1F3F727A4A3D",
-    "english": "short",
-    "status": "draft"
+    "english": "Short",
+    "status": "reviewed"
   },
   {
     "address": "0x82074508",
     "source_size": 8,
     "source_hash": "869B16EB2A95ED3D",
-    "english": "somewhat short",
-    "status": "draft"
+    "english": "Slightly Short",
+    "status": "reviewed"
   },
   {
     "address": "0x82074514",
     "source_size": 8,
     "source_hash": "D6641FE913C2F1CA",
-    "english": "somewhat long",
-    "status": "draft"
+    "english": "Slightly Long",
+    "status": "reviewed"
   },
   {
     "address": "0x82074520",
     "source_size": 4,
     "source_hash": "7D46283D5BA74ECA",
-    "english": "long",
-    "status": "draft"
+    "english": "Long",
+    "status": "reviewed"
   },
   {
     "address": "0x82074528",
     "source_size": 10,
     "source_hash": "8AB4C517927F91CF",
-    "english": "quite long",
-    "status": "draft"
+    "english": "Very Long",
+    "status": "reviewed"
   },
   {
     "address": "0x82074534",
@@ -8760,8 +8760,8 @@
     "address": "0x82074544",
     "source_size": 10,
     "source_hash": "B12ADA79BE52F6C2",
-    "english": "eye color",
-    "status": "draft"
+    "english": "Eye Color",
+    "status": "reviewed"
   },
   {
     "address": "0x82074550",
@@ -8774,246 +8774,246 @@
     "address": "0x82074554",
     "source_size": 2,
     "source_hash": "0A15E607B686C7E9",
-    "english": "eyes",
-    "status": "draft"
+    "english": "Eyes",
+    "status": "reviewed"
   },
   {
     "address": "0x82074558",
     "source_size": 4,
     "source_hash": "4E60D2D3C7635551",
-    "english": "Vertical width",
-    "status": "draft"
+    "english": "Eye Height",
+    "status": "reviewed"
   },
   {
     "address": "0x82074560",
     "source_size": 8,
     "source_hash": "477C47204B77BB9D",
-    "english": "Patchy",
-    "status": "draft"
+    "english": "Wide",
+    "status": "reviewed"
   },
   {
     "address": "0x8207456C",
     "source_size": 4,
     "source_hash": "088E19C4CA9B973D",
-    "english": "thin",
-    "status": "draft"
+    "english": "Narrow",
+    "status": "reviewed"
   },
   {
     "address": "0x82074574",
     "source_size": 6,
     "source_hash": "9DD9E725226B403F",
-    "english": "size",
-    "status": "draft"
+    "english": "Size",
+    "status": "reviewed"
   },
   {
     "address": "0x8207457C",
     "source_size": 12,
     "source_hash": "D560C89AEF76606D",
-    "english": "quite large",
-    "status": "draft"
+    "english": "Very Large",
+    "status": "reviewed"
   },
   {
     "address": "0x8207458C",
     "source_size": 6,
     "source_hash": "9DD9F625226B59BC",
-    "english": "big",
-    "status": "draft"
+    "english": "Large",
+    "status": "reviewed"
   },
   {
     "address": "0x82074594",
     "source_size": 10,
     "source_hash": "518D551D666174BC",
-    "english": "somewhat large",
-    "status": "draft"
+    "english": "Slightly Large",
+    "status": "reviewed"
   },
   {
     "address": "0x820745A0",
     "source_size": 10,
     "source_hash": "89B307423A1421FD",
-    "english": "somewhat small",
-    "status": "draft"
+    "english": "Slightly Small",
+    "status": "reviewed"
   },
   {
     "address": "0x820745AC",
     "source_size": 6,
     "source_hash": "D5FFA849F61E06FD",
-    "english": "small",
-    "status": "draft"
+    "english": "Small",
+    "status": "reviewed"
   },
   {
     "address": "0x820745B4",
     "source_size": 12,
     "source_hash": "83AFC42B2CFB7730",
-    "english": "quite small",
-    "status": "draft"
+    "english": "Very Small",
+    "status": "reviewed"
   },
   {
     "address": "0x820745C4",
     "source_size": 4,
     "source_hash": "EBF138FD2C801CFC",
-    "english": "angle",
-    "status": "draft"
+    "english": "Angle",
+    "status": "reviewed"
   },
   {
     "address": "0x820745CC",
     "source_size": 6,
     "source_hash": "C12A1C64887E04B0",
-    "english": "Vertical position",
-    "status": "draft"
+    "english": "Vertical Position",
+    "status": "reviewed"
   },
   {
     "address": "0x820745D4",
     "source_size": 6,
     "source_hash": "CCF8D9699BB59FD0",
-    "english": "eyebrows",
-    "status": "draft"
+    "english": "Eyebrows",
+    "status": "reviewed"
   },
   {
     "address": "0x820745DC",
     "source_size": 6,
     "source_hash": "50E17A75D4F4F728",
-    "english": "horizontal position",
-    "status": "draft"
+    "english": "Horizontal Position",
+    "status": "reviewed"
   },
   {
     "address": "0x820745E4",
     "source_size": 12,
     "source_hash": "FF543A657B3CE640",
-    "english": "quite outsider",
-    "status": "draft"
+    "english": "Far Outward",
+    "status": "reviewed"
   },
   {
     "address": "0x820745F4",
     "source_size": 6,
     "source_hash": "336D7E01BA03D85D",
-    "english": "outsider",
-    "status": "draft"
+    "english": "Outward",
+    "status": "reviewed"
   },
   {
     "address": "0x820745FC",
     "source_size": 10,
     "source_hash": "E720DCF9FDF9F35D",
-    "english": "A little outsider",
-    "status": "draft"
+    "english": "Slightly Outward",
+    "status": "reviewed"
   },
   {
     "address": "0x82074608",
     "source_size": 10,
     "source_hash": "50F14015CF410D6D",
-    "english": "A little introverted",
-    "status": "draft"
+    "english": "Slightly Inward",
+    "status": "reviewed"
   },
   {
     "address": "0x82074614",
     "source_size": 6,
     "source_hash": "9D3DE11D8B4AF26D",
-    "english": "Introvert",
-    "status": "draft"
+    "english": "Inward",
+    "status": "reviewed"
   },
   {
     "address": "0x8207461C",
     "source_size": 12,
     "source_hash": "CEC3330DE815D530",
-    "english": "Quite an introvert",
-    "status": "draft"
+    "english": "Far Inward",
+    "status": "reviewed"
   },
   {
     "address": "0x8207462C",
     "source_size": 4,
     "source_hash": "7513040E935F9F9A",
-    "english": "arrangement",
-    "status": "draft"
+    "english": "Placement",
+    "status": "reviewed"
   },
   {
     "address": "0x82074634",
     "source_size": 10,
     "source_hash": "EA5FEF92652757BA",
-    "english": "Quite a bit of fishing",
-    "status": "draft"
+    "english": "Very Upturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074640",
     "source_size": 4,
     "source_hash": "1AFC3CB7BF7E8EB7",
-    "english": "Fishing",
-    "status": "draft"
+    "english": "Upturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074648",
     "source_size": 8,
     "source_hash": "741A3463779A31B7",
-    "english": "Yayatsuri",
-    "status": "draft"
+    "english": "Slightly Upturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074654",
     "source_size": 8,
     "source_hash": "46E96D65A2017C9C",
-    "english": "Slightly sagging",
-    "status": "draft"
+    "english": "Slightly Downturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074660",
     "source_size": 4,
     "source_hash": "EDCB75B9E9E5D99C",
-    "english": "Sauce",
-    "status": "draft"
+    "english": "Downturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074668",
     "source_size": 10,
     "source_hash": "CC878691C3404565",
-    "english": "Quite sagging",
-    "status": "draft"
+    "english": "Very Downturned",
+    "status": "reviewed"
   },
   {
     "address": "0x82074674",
     "source_size": 10,
     "source_hash": "9FE351AA2DBCD84B",
-    "english": "quite expensive",
-    "status": "draft"
+    "english": "Very High",
+    "status": "reviewed"
   },
   {
     "address": "0x82074680",
     "source_size": 4,
     "source_hash": "8EC28AC637A630B2",
-    "english": "expensive",
-    "status": "draft"
+    "english": "High",
+    "status": "reviewed"
   },
   {
     "address": "0x82074688",
     "source_size": 8,
     "source_hash": "E7E08271EFC1D3B2",
-    "english": "somewhat expensive",
-    "status": "draft"
+    "english": "Slightly High",
+    "status": "reviewed"
   },
   {
     "address": "0x82074694",
     "source_size": 8,
     "source_hash": "4498D9E82F3DABA8",
-    "english": "somewhat low",
-    "status": "draft"
+    "english": "Slightly Low",
+    "status": "reviewed"
   },
   {
     "address": "0x820746A0",
     "source_size": 4,
     "source_hash": "EB7AE23C772208A8",
-    "english": "low",
-    "status": "draft"
+    "english": "Low",
+    "status": "reviewed"
   },
   {
     "address": "0x820746A8",
     "source_size": 10,
     "source_hash": "C7DEFB16031EBB79",
-    "english": "quite low",
-    "status": "draft"
+    "english": "Very Low",
+    "status": "reviewed"
   },
   {
     "address": "0x820746B4",
     "source_size": 2,
     "source_hash": "09F34007B668C771",
-    "english": "shape",
-    "status": "draft"
+    "english": "Shape",
+    "status": "reviewed"
   },
   {
     "address": "0x820746B8",
@@ -9026,22 +9026,22 @@
     "address": "0x820746C0",
     "source_size": 6,
     "source_hash": "992741875B63B10F",
-    "english": "type",
-    "status": "draft"
+    "english": "Type",
+    "status": "reviewed"
   },
   {
     "address": "0x820746C8",
     "source_size": 2,
     "source_hash": "0A1C2207B68B998B",
-    "english": "color",
-    "status": "draft"
+    "english": "Color",
+    "status": "reviewed"
   },
   {
     "address": "0x820746CC",
     "source_size": 2,
     "source_hash": "09F02F07B66674B7",
-    "english": "black",
-    "status": "draft"
+    "english": "Black",
+    "status": "reviewed"
   },
   {
     "address": "0x820746D0",
@@ -9061,15 +9061,15 @@
     "address": "0x820746D8",
     "source_size": 6,
     "source_hash": "48BD6579EC2232C0",
-    "english": "pink",
-    "status": "draft"
+    "english": "Pink",
+    "status": "reviewed"
   },
   {
     "address": "0x820746E0",
     "source_size": 6,
     "source_hash": "0DC4743668E0A684",
-    "english": "sunburn",
-    "status": "draft"
+    "english": "Tan",
+    "status": "reviewed"
   },
   {
     "address": "0x820746E8",
@@ -9103,15 +9103,15 @@
     "address": "0x82074DB4",
     "source_size": 30,
     "source_hash": "600AFE850AA773F2",
-    "english": "Please select the player to copy",
-    "status": "draft"
+    "english": "Select the player to copy.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074DD4",
     "source_size": 24,
     "source_hash": "61428B4296D5C816",
-    "english": "Please select copy destination",
-    "status": "draft"
+    "english": "Select where to copy the player.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074DF0",
@@ -9166,8 +9166,8 @@
     "address": "0x82074EB0",
     "source_size": 4,
     "source_hash": "2E5864F4349534D0",
-    "english": "vacant",
-    "status": "draft"
+    "english": "Available",
+    "status": "reviewed"
   },
   {
     "address": "0x82074ED4",
@@ -9180,8 +9180,8 @@
     "address": "0x82074F00",
     "source_size": 38,
     "source_hash": "C1F8A948206BE2F0",
-    "english": "Cannot add because the registration space is full.",
-    "status": "draft"
+    "english": "No slots left. Unable to add a player.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074F30",
@@ -9643,7 +9643,7 @@
     "source_size": 10,
     "source_hash": "60BBC7A0199AF33F",
     "english": "Kawakami Kenshin",
-    "status": "game-roster-family"
+    "status": "reviewed"
   },
   {
     "address": "0x820755CC",
@@ -10217,7 +10217,7 @@
     "source_size": 10,
     "source_hash": "F5E0F6DC8BCB8ADD",
     "english": "Nishi Toshihisa",
-    "status": "game-roster-family"
+    "status": "reviewed"
   },
   {
     "address": "0x820759B8",
@@ -13821,8 +13821,8 @@
     "address": "0x8207E164",
     "source_size": 6,
     "source_hash": "D35C3A5FB2C7C337",
-    "english": "bench",
-    "status": "draft"
+    "english": "Bench",
+    "status": "reviewed"
   },
   {
     "address": "0x8207E1BC",
@@ -14787,8 +14787,8 @@
     "address": "0x8207FAAC",
     "source_size": 10,
     "source_hash": "DBCC788F1CFF27DE",
-    "english": "field",
-    "status": "draft"
+    "english": "Field",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FAD4",
@@ -14801,8 +14801,8 @@
     "address": "0x8207FAE0",
     "source_size": 2,
     "source_hash": "0A0B6107B67D9165",
-    "english": "wind",
-    "status": "draft"
+    "english": "Wind",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FAE4",
@@ -14843,8 +14843,8 @@
     "address": "0x8207FC3C",
     "source_size": 10,
     "source_hash": "437DDF042D7845F1",
-    "english": "Natural grass/soil",
-    "status": "draft"
+    "english": "Natural Grass / Dirt",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FC48",
@@ -14885,8 +14885,8 @@
     "address": "0x8207FE90",
     "source_size": 10,
     "source_hash": "1B158735E9CAB73E",
-    "english": "home stadium",
-    "status": "draft"
+    "english": "Home Ballpark",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FE9C",
@@ -15137,8 +15137,8 @@
     "address": "0x82080160",
     "source_size": 6,
     "source_hash": "77F72EF3E9CAEE31",
-    "english": "No. 1 in Japan",
-    "status": "draft"
+    "english": "Japan Series Champion",
+    "status": "reviewed"
   },
   {
     "address": "0x82080168",
@@ -15165,8 +15165,8 @@
     "address": "0x82080248",
     "source_size": 26,
     "source_hash": "849D25AD31511A3A",
-    "english": "Are you sure you want to surrender?",
-    "status": "draft"
+    "english": "Are you sure you want to forfeit?",
+    "status": "reviewed"
   },
   {
     "address": "0x820802EC",
@@ -15179,29 +15179,29 @@
     "address": "0x820802F8",
     "source_size": 8,
     "source_hash": "B6B0C71DD55F6121",
-    "english": "Match canceled",
-    "status": "draft"
+    "english": "End Game",
+    "status": "reviewed"
   },
   {
     "address": "0x82080304",
     "source_size": 8,
     "source_hash": "AA43AB1D6FF3DAF3",
-    "english": "sound",
-    "status": "draft"
+    "english": "Sound",
+    "status": "reviewed"
   },
   {
     "address": "0x82080310",
     "source_size": 8,
     "source_hash": "22B89809934F550C",
-    "english": "Match settings",
-    "status": "draft"
+    "english": "Game Settings",
+    "status": "reviewed"
   },
   {
     "address": "0x8208031C",
     "source_size": 6,
     "source_hash": "0536E01AA86FE5F1",
-    "english": "data",
-    "status": "draft"
+    "english": "Data",
+    "status": "reviewed"
   },
   {
     "address": "0x82080324",
@@ -15319,8 +15319,8 @@
     "address": "0x820806F8",
     "source_size": 12,
     "source_hash": "8F275BD27FFD0130",
-    "english": "nickname",
-    "status": "draft"
+    "english": "Nickname",
+    "status": "reviewed"
   },
   {
     "address": "0x820807B4",
@@ -16194,15 +16194,15 @@
     "address": "0x820830E8",
     "source_size": 2,
     "source_hash": "0A0BA907B67E0BBD",
-    "english": "Captivity",
-    "status": "draft"
+    "english": "C",
+    "status": "reviewed"
   },
   {
     "address": "0x820830EC",
     "source_size": 2,
     "source_hash": "0A1FD407B68EFDD8",
-    "english": "throw",
-    "status": "draft"
+    "english": "P",
+    "status": "reviewed"
   },
   {
     "address": "0x8208317C",
@@ -16285,8 +16285,8 @@
     "address": "0x820833F4",
     "source_size": 50,
     "source_hash": "B1663290A623BCCC",
-    "english": "You can adjust the volume balance of commentary, commentary, cheers, etc.",
-    "status": "draft"
+    "english": "Adjust the volume of play-by-play, color commentary, and crowd noise.",
+    "status": "reviewed"
   },
   {
     "address": "0x82083428",
@@ -16320,8 +16320,8 @@
     "address": "0x820834EC",
     "source_size": 52,
     "source_hash": "82A04EDBB0863573",
-    "english": "You can save your favorite user settings.",
-    "status": "draft"
+    "english": "Save your preferred user settings.",
+    "status": "reviewed"
   },
   {
     "address": "0x82083524",
@@ -16509,8 +16509,8 @@
     "address": "0x82085B90",
     "source_size": 45,
     "source_hash": "5A8C902E38671E31",
-    "english": "became an invalid match because the connection was lost.",
-    "status": "draft"
+    "english": "Connection lost.\nThe game was voided.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085BC0",
@@ -16523,8 +16523,8 @@
     "address": "0x82085BF0",
     "source_size": 14,
     "source_hash": "D25316FEA5AC69C7",
-    "english": "I surrendered.",
-    "status": "draft"
+    "english": "Forfeited.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085C00",
@@ -16719,8 +16719,8 @@
     "address": "0x820862EC",
     "source_size": 10,
     "source_hash": "7C4E5E2CD4316C82",
-    "english": "Number of innings",
-    "status": "draft"
+    "english": "Innings",
+    "status": "reviewed"
   },
   {
     "address": "0x820862F8",
@@ -16747,8 +16747,8 @@
     "address": "0x82086330",
     "source_size": 4,
     "source_hash": "0D8498264A9DB44B",
-    "english": "everything",
-    "status": "draft"
+    "english": "All",
+    "status": "reviewed"
   },
   {
     "address": "0x82086338",
@@ -16782,8 +16782,8 @@
     "address": "0x82086420",
     "source_size": 6,
     "source_hash": "E08C2E1195DDDBD0",
-    "english": "Number of wins",
-    "status": "draft"
+    "english": "Wins",
+    "status": "reviewed"
   },
   {
     "address": "0x82086428",
@@ -16803,22 +16803,22 @@
     "address": "0x82086438",
     "source_size": 6,
     "source_hash": "3EEA0597500611FE",
-    "english": "rank",
-    "status": "draft"
+    "english": "Rank",
+    "status": "reviewed"
   },
   {
     "address": "0x82086440",
     "source_size": 4,
     "source_hash": "BEFAFAF3637ED8BA",
-    "english": "baseball team",
-    "status": "draft"
+    "english": "Team",
+    "status": "reviewed"
   },
   {
     "address": "0x82086448",
     "source_size": 8,
     "source_hash": "D71C8A4433B3FA06",
-    "english": "innings",
-    "status": "draft"
+    "english": "Inning",
+    "status": "reviewed"
   },
   {
     "address": "0x82086454",
@@ -18490,22 +18490,22 @@
     "address": "0x82089900",
     "source_size": 4,
     "source_hash": "5C947D2151B3C7E3",
-    "english": "Undecided",
-    "status": "draft"
+    "english": "TBD",
+    "status": "reviewed"
   },
   {
     "address": "0x82089908",
     "source_size": 6,
     "source_hash": "0AF66A100AF0E64F",
-    "english": "moving day",
-    "status": "draft"
+    "english": "Travel Day",
+    "status": "reviewed"
   },
   {
     "address": "0x82089960",
     "source_size": 10,
     "source_hash": "34154EB50B356BA8",
-    "english": "All schedule ends",
-    "status": "draft"
+    "english": "Schedule Complete",
+    "status": "reviewed"
   },
   {
     "address": "0x8208996C",
@@ -18532,8 +18532,8 @@
     "address": "0x820899B8",
     "source_size": 22,
     "source_hash": "6F7F276C594B7779",
-    "english": "fresh all star",
-    "status": "draft"
+    "english": "Fresh All-Star",
+    "status": "reviewed"
   },
   {
     "address": "0x820899D0",
@@ -18546,8 +18546,8 @@
     "address": "0x820899E4",
     "source_size": 14,
     "source_hash": "D7F4F017E84DDF5E",
-    "english": "Farm exchange match",
-    "status": "draft"
+    "english": "Farm Interleague Game",
+    "status": "reviewed"
   },
   {
     "address": "0x820899F4",
@@ -21724,8 +21724,8 @@
     "address": "0x8208B034",
     "source_size": 8,
     "source_hash": "084C27B74341B6E5",
-    "english": "baker",
-    "status": "draft"
+    "english": "Baker",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B048",
@@ -21822,8 +21822,8 @@
     "address": "0x8208B114",
     "source_size": 8,
     "source_hash": "C9CB410AB4200C27",
-    "english": "hoodie",
-    "status": "draft"
+    "english": "Parker",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B128",
@@ -21878,8 +21878,8 @@
     "address": "0x8208B17C",
     "source_size": 10,
     "source_hash": "F29BCD51C584F165",
-    "english": "sanders",
-    "status": "draft"
+    "english": "Sanders",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B190",
@@ -21962,8 +21962,8 @@
     "address": "0x8208B220",
     "source_size": 8,
     "source_hash": "80E29D5F6F9FFFEE",
-    "english": "mason",
-    "status": "draft"
+    "english": "Mason",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B234",
@@ -21990,8 +21990,8 @@
     "address": "0x8208B258",
     "source_size": 6,
     "source_hash": "3DF83F7FB309FD2C",
-    "english": "mirror",
-    "status": "draft"
+    "english": "Miller",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B268",
@@ -22095,8 +22095,8 @@
     "address": "0x8208B33C",
     "source_size": 8,
     "source_hash": "7EEA271F45B2B84B",
-    "english": "joseph",
-    "status": "draft"
+    "english": "Joseph",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B348",
@@ -22158,8 +22158,8 @@
     "address": "0x8208B3C8",
     "source_size": 10,
     "source_hash": "39D9C5CA7B3F114F",
-    "english": "walker",
-    "status": "draft"
+    "english": "Walker",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B3E0",
@@ -22473,8 +22473,8 @@
     "address": "0x8208B670",
     "source_size": 8,
     "source_hash": "B9CAFD87B82272AB",
-    "english": "cooper",
-    "status": "draft"
+    "english": "Cooper",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B680",
@@ -22516,7 +22516,7 @@
     "source_size": 8,
     "source_hash": "E8E71E1ADAD7B010",
     "english": "Garcia",
-    "status": "game-roster-family"
+    "status": "reviewed"
   },
   {
     "address": "0x8208B6CC",
@@ -22543,8 +22543,8 @@
     "address": "0x8208B6F0",
     "source_size": 10,
     "source_hash": "F73BD5ABF90131EA",
-    "english": "cameron",
-    "status": "draft"
+    "english": "Cameron",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B704",
@@ -22599,8 +22599,8 @@
     "address": "0x8208B758",
     "source_size": 10,
     "source_hash": "4ECB343A8473F2F1",
-    "english": "Elliot",
-    "status": "draft"
+    "english": "Elliott",
+    "status": "reviewed"
   },
   {
     "address": "0x8208B76C",
@@ -24783,8 +24783,8 @@
     "address": "0x8208FA80",
     "source_size": 10,
     "source_hash": "A47495B84549A2CF",
-    "english": "Team policy",
-    "status": "draft"
+    "english": "Team Strategy",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FA8C",
@@ -24846,8 +24846,8 @@
     "address": "0x8208FB08",
     "source_size": 4,
     "source_hash": "20093931B6B115B9",
-    "english": "Human resources",
-    "status": "draft"
+    "english": "Personnel",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FB10",
@@ -24860,8 +24860,8 @@
     "address": "0x8208FB20",
     "source_size": 4,
     "source_hash": "3B3A982EF1FF816C",
-    "english": "settings",
-    "status": "draft"
+    "english": "Settings",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FB28",
@@ -24888,8 +24888,8 @@
     "address": "0x8208FB4C",
     "source_size": 10,
     "source_hash": "C881D0B7C7BF0476",
-    "english": "Team composition",
-    "status": "draft"
+    "english": "Team Roster",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FB58",
@@ -24930,8 +24930,8 @@
     "address": "0x8208FBB8",
     "source_size": 6,
     "source_hash": "1B5E7D22021F46A9",
-    "english": "to the match",
-    "status": "draft"
+    "english": "Start Game",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FBC0",
@@ -25014,8 +25014,8 @@
     "address": "0x8208FCB8",
     "source_size": 24,
     "source_hash": "5B8E18D368AC039E",
-    "english": "Please select a player.",
-    "status": "draft"
+    "english": "Select a player.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FCD4",
@@ -25063,7 +25063,7 @@
     "address": "0x8208FD8C",
     "source_size": 14,
     "source_hash": "C6D14CC98AEB11E6",
-    "english": "Proceeding to the next step.",
+    "english": "Continue to the next step.",
     "status": "reviewed"
   },
   {
@@ -30341,8 +30341,8 @@
     "address": "0x82098324",
     "source_size": 2,
     "source_hash": "09F97A07B66D95AD",
-    "english": "trial",
-    "status": "draft"
+    "english": "G",
+    "status": "reviewed"
   },
   {
     "address": "0x82098328",
@@ -30964,8 +30964,8 @@
     "address": "0x82098EBC",
     "source_size": 2,
     "source_hash": "0A0B2507B67D2B71",
-    "english": "vote",
-    "status": "draft"
+    "english": "Votes",
+    "status": "reviewed"
   },
   {
     "address": "0x82098F6C",
@@ -31104,8 +31104,8 @@
     "address": "0x820991F0",
     "source_size": 8,
     "source_hash": "D680C8E94C2555AD",
-    "english": "Fielder section",
-    "status": "draft"
+    "english": "Position Players",
+    "status": "reviewed"
   },
   {
     "address": "0x820991FC",
@@ -31769,15 +31769,15 @@
     "address": "0x82099A80",
     "source_size": 10,
     "source_hash": "7A61295797CB2077",
-    "english": "two base",
-    "status": "draft"
+    "english": "Double",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A8C",
     "source_size": 12,
     "source_hash": "859F37C635BDE56B",
-    "english": "three base",
-    "status": "draft"
+    "english": "Triple",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A9C",
@@ -31839,8 +31839,8 @@
     "address": "0x82099B2C",
     "source_size": 20,
     "source_hash": "DB9B913351760A12",
-    "english": "running home run",
-    "status": "draft"
+    "english": "Inside-the-Park HR",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B44",
@@ -31972,15 +31972,15 @@
     "address": "0x82099C38",
     "source_size": 8,
     "source_hash": "795D74D90CE0D714",
-    "english": "referee interference",
-    "status": "draft"
+    "english": "Umpire Interference",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C44",
     "source_size": 8,
     "source_hash": "843F948036156BD0",
-    "english": "audience disturbance",
-    "status": "draft"
+    "english": "Fan Interference",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C50",
@@ -32000,8 +32000,8 @@
     "address": "0x82099C64",
     "source_size": 6,
     "source_hash": "9B508FE044682FE6",
-    "english": "Death due to stolen base",
-    "status": "draft"
+    "english": "Caught Stealing",
+    "status": "reviewed"
   },
   {
     "address": "0x82099C6C",
@@ -33946,8 +33946,8 @@
     "address": "0x8209BAE0",
     "source_size": 20,
     "source_hash": "070CD5986634D9D3",
-    "english": "Relief: Setup",
-    "status": "draft"
+    "english": "Relief: Setup Man",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BAF8",
@@ -33967,8 +33967,8 @@
     "address": "0x8209BB38",
     "source_size": 18,
     "source_hash": "A9BFE2E28308B7BE",
-    "english": "Rescue: One point",
-    "status": "draft"
+    "english": "Relief: One-Batter",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BB4C",
@@ -34346,14 +34346,14 @@
     "source_size": 16,
     "source_hash": "83C13EF41F582BD2",
     "english": "Japan Series Winner",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209C0A0",
     "source_size": 10,
     "source_hash": "E88A1812084808AF",
-    "english": "league championship",
-    "status": "draft"
+    "english": "League Champion",
+    "status": "reviewed"
   },
   {
     "address": "0x8209C0AC",
@@ -34366,8 +34366,8 @@
     "address": "0x8209C0C0",
     "source_size": 16,
     "source_hash": "8A617D7EEC4186D6",
-    "english": "All-star participation",
-    "status": "draft"
+    "english": "All-Star Appearance",
+    "status": "reviewed"
   },
   {
     "address": "0x8209C0D4",
@@ -34863,8 +34863,8 @@
     "address": "0x8209F2F0",
     "source_size": 8,
     "source_hash": "48A484CAB6C0D491",
-    "english": "fielder defense",
-    "status": "draft"
+    "english": "Fielding",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F2FC",
@@ -34912,8 +34912,8 @@
     "address": "0x8209F3A8",
     "source_size": 44,
     "source_hash": "67FB845A4ADA1E89",
-    "english": "A ball that sinks while rapidly changing sharply in the direction of the dominant arm.",
-    "status": "draft"
+    "english": "A fast pitch with sharp arm-side sink.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F3D8",
@@ -34926,8 +34926,8 @@
     "address": "0x8209F400",
     "source_size": 36,
     "source_hash": "6A06459BCDA84667",
-    "english": "A ball that sharply changes at high speed in the direction of the dominant arm.",
-    "status": "draft"
+    "english": "A fast pitch that breaks sharply to the arm side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F428",
@@ -34940,8 +34940,8 @@
     "address": "0x8209F44C",
     "source_size": 60,
     "source_hash": "BB69F67DADE32D4C",
-    "english": "A ball that falls diagonally to your dominant arm while braking, disrupting your timing.",
-    "status": "draft"
+    "english": "An off-speed pitch that dives to the arm side and disrupts the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F48C",
@@ -34975,15 +34975,15 @@
     "address": "0x8209F544",
     "source_size": 34,
     "source_hash": "457171820196D169",
-    "english": "A ball that sinks at high speed diagonally in the direction of your dominant arm.",
-    "status": "draft"
+    "english": "A fast pitch that sinks diagonally to the arm side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F568",
     "source_size": 42,
     "source_hash": "1ED51A55F38B04C3",
-    "english": "A ball that sinks diagonally in the direction of your dominant arm at a slightly slower speed.",
-    "status": "draft"
+    "english": "A slower pitch that sinks diagonally to the arm side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F598",
@@ -35010,8 +35010,8 @@
     "address": "0x8209F62C",
     "source_size": 42,
     "source_hash": "C6C44A044314997C",
-    "english": "A ball that moves vertically and slightly downward at high speed.",
-    "status": "draft"
+    "english": "A fast pitch with a slight, mostly vertical drop.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F658",
@@ -35024,15 +35024,15 @@
     "address": "0x8209F6A0",
     "source_size": 64,
     "source_hash": "3512FB52573ADDD9",
-    "english": "A ball that changes its vertical direction in a unique way when you throw it while wrapping it in your palm.",
-    "status": "draft"
+    "english": "Grip the ball deep in the palm to give the pitch a distinct downward break.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F6E4",
     "source_size": 60,
     "source_hash": "EBCF7F99E5C4F271",
-    "english": "A ball that is thrown with a finger held up and without rotation, causing the ball to fall swaying due to air resistance.",
-    "status": "draft"
+    "english": "Throw it with the fingertips and little to no spin. The pitch flutters as it drops.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F724",
@@ -35045,22 +35045,22 @@
     "address": "0x8209F744",
     "source_size": 52,
     "source_hash": "F5ECCA9B694A28F2",
-    "english": "A ball that falls downward while braking and throws off the timing.",
-    "status": "draft"
+    "english": "An off-speed pitch that drops and disrupts the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F77C",
     "source_size": 48,
     "source_hash": "E440D8D5614D9BD4",
-    "english": "A ball that falls sharply downward when thrown between the fingers.",
-    "status": "draft"
+    "english": "Grip the ball between the fingers for a sharp downward break.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F7B0",
     "source_size": 54,
     "source_hash": "343941D35DCC34E9",
-    "english": "A ball that changes uniquely when you hold your finger up and rotate it irregularly.",
-    "status": "draft"
+    "english": "Throw it with the fingertips to give it irregular spin and unpredictable movement.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F7E8",
@@ -35094,8 +35094,8 @@
     "address": "0x8209F898",
     "source_size": 48,
     "source_hash": "6B1BBF3C13C2862B",
-    "english": "A ball that moves diagonally at a slow speed in the direction of the cross of the dominant arm.",
-    "status": "draft"
+    "english": "A slow pitch that breaks diagonally to the glove side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F8CC",
@@ -35122,8 +35122,8 @@
     "address": "0x8209F944",
     "source_size": 50,
     "source_hash": "5AEB48CA4D1E7471",
-    "english": "A ball that moves at a slightly faster speed laterally in the cross direction of the dominant arm.",
-    "status": "draft"
+    "english": "A slightly faster pitch that breaks sideways to the glove side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F978",
@@ -39574,8 +39574,8 @@
     "address": "0x820A4EC0",
     "source_size": 16,
     "source_hash": "29B69A9B32D54673",
-    "english": "Giants/Director Tatsunori Hara",
-    "status": "draft"
+    "english": "Giants / Manager Tatsunori Hara",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4ED4",
@@ -39777,8 +39777,8 @@
     "address": "0x820A5194",
     "source_size": 8,
     "source_hash": "6E0EA67BF9541D48",
-    "english": "item",
-    "status": "draft"
+    "english": "Items",
+    "status": "reviewed"
   },
   {
     "address": "0x820A51A0",
@@ -39966,8 +39966,8 @@
     "address": "0x820A65DC",
     "source_size": 10,
     "source_hash": "132158D3CA70A4AF",
-    "english": "tokyo dome",
-    "status": "draft"
+    "english": "TOKYO DOME",
+    "status": "reviewed"
   },
   {
     "address": "0x820A65E8",
@@ -40099,22 +40099,22 @@
     "address": "0x820A6778",
     "source_size": 2,
     "source_hash": "09E97207B660C7E2",
-    "english": "Ya",
-    "status": "draft"
+    "english": "S",
+    "status": "reviewed"
   },
   {
     "address": "0x820A677C",
     "source_size": 2,
     "source_hash": "09EF7607B6653A5C",
-    "english": "Wide",
-    "status": "draft"
+    "english": "C",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6780",
     "source_size": 2,
     "source_hash": "0A03AE07B676428E",
-    "english": "Huge",
-    "status": "draft"
+    "english": "G",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6784",
@@ -40218,43 +40218,43 @@
     "address": "0x820A67F4",
     "source_size": 4,
     "source_hash": "EE01D4DC1D4BC82E",
-    "english": "Wakataka",
-    "status": "draft"
+    "english": "Young Hawks",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67FC",
     "source_size": 4,
     "source_hash": "23A2D42374931069",
-    "english": "fierce bull",
-    "status": "draft"
+    "english": "Raging Bulls",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6804",
     "source_size": 4,
     "source_hash": "C89D5BDA552B8DBC",
-    "english": "lion",
-    "status": "draft"
+    "english": "Lions",
+    "status": "reviewed"
   },
   {
     "address": "0x820A680C",
     "source_size": 6,
     "source_hash": "3B6D3358B42C90FE",
-    "english": "day ham",
-    "status": "draft"
+    "english": "Nippon-Ham",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6814",
     "source_size": 4,
     "source_hash": "C2EBBFF3F6BFF46F",
-    "english": "dog eagle",
-    "status": "draft"
+    "english": "Golden Eagles",
+    "status": "reviewed"
   },
   {
     "address": "0x820A681C",
     "source_size": 4,
     "source_hash": "23AE3C23749DC8A6",
-    "english": "fierce tiger",
-    "status": "draft"
+    "english": "Fierce Tigers",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6824",
@@ -40267,22 +40267,22 @@
     "address": "0x820A682C",
     "source_size": 2,
     "source_hash": "09FDD707B6721C8B",
-    "english": "swallow",
-    "status": "draft"
+    "english": "Swallows",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6830",
     "source_size": 6,
     "source_hash": "43F71EDB604FE071",
-    "english": "red hell",
-    "status": "draft"
+    "english": "Red Helmets",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6838",
     "source_size": 4,
     "source_hash": "64DAB2F29F8B9E7F",
-    "english": "strong dragon",
-    "status": "draft"
+    "english": "Mighty Dragons",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6840",
@@ -40295,8 +40295,8 @@
     "address": "0x820A6850",
     "source_size": 8,
     "source_hash": "980BD6C8A82FC14E",
-    "english": "hawks",
-    "status": "draft"
+    "english": "Hawks",
+    "status": "reviewed"
   },
   {
     "address": "0x820A685C",
@@ -40309,22 +40309,22 @@
     "address": "0x820A6868",
     "source_size": 12,
     "source_hash": "7FF2C8CAEFD4AEE3",
-    "english": "buffaloes",
-    "status": "draft"
+    "english": "Buffaloes",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6878",
     "source_size": 10,
     "source_hash": "FAD2F2BA6E41C2C9",
-    "english": "lions",
-    "status": "draft"
+    "english": "Lions",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6884",
     "source_size": 12,
     "source_hash": "769BBB403C48EF06",
-    "english": "fighters",
-    "status": "draft"
+    "english": "Fighters",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6894",
@@ -40337,43 +40337,43 @@
     "address": "0x820A68AC",
     "source_size": 10,
     "source_hash": "0233E4C222FE0953",
-    "english": "tigers",
-    "status": "draft"
+    "english": "Tigers",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68B8",
     "source_size": 12,
     "source_hash": "7E70462427FC823E",
-    "english": "baystars",
-    "status": "draft"
+    "english": "BayStars",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68C8",
     "source_size": 10,
     "source_hash": "A66874EE80FDF8AC",
-    "english": "swallows",
-    "status": "draft"
+    "english": "Swallows",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68D4",
     "source_size": 6,
     "source_hash": "1CD24F1E6F83C76D",
-    "english": "carp",
-    "status": "draft"
+    "english": "Carp",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68DC",
     "source_size": 10,
     "source_hash": "9672D66C6E9F8022",
-    "english": "dragons",
-    "status": "draft"
+    "english": "Dragons",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68E8",
     "source_size": 12,
     "source_hash": "A83F337C22D5F267",
-    "english": "giants",
-    "status": "draft"
+    "english": "Giants",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68F8",
@@ -40526,8 +40526,8 @@
     "address": "0x820A6A10",
     "source_size": 8,
     "source_hash": "AD2BC8999FD80421",
-    "english": "Nippon Ham",
-    "status": "draft"
+    "english": "Nippon-Ham",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A1C",
@@ -40589,22 +40589,22 @@
     "address": "0x820A6A6C",
     "source_size": 16,
     "source_hash": "A10E6F729A03B0D0",
-    "english": "eastern league",
-    "status": "draft"
+    "english": "Eastern League",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A80",
     "source_size": 18,
     "source_hash": "1DE491B59490A992",
-    "english": "pacific league",
-    "status": "draft"
+    "english": "Pacific League",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A94",
     "source_size": 16,
     "source_hash": "F5D5E174FB4FD4E5",
-    "english": "central league",
-    "status": "draft"
+    "english": "Central League",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6F78",
@@ -40841,8 +40841,8 @@
     "address": "0x8207478C",
     "source_size": 10,
     "source_hash": "FBCEE29959548F33",
-    "english": "special",
-    "status": "draft"
+    "english": "Special",
+    "status": "reviewed"
   },
   {
     "address": "0x8207E3AC",
@@ -41100,8 +41100,8 @@
     "address": "0x82098F64",
     "source_size": 4,
     "source_hash": "2738950E674E43BB",
-    "english": "defeat",
-    "status": "draft"
+    "english": "Loss",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BF24",
@@ -90441,6 +90441,20 @@
     "source_size": 18,
     "source_hash": "5EEF466C5BEE3C62",
     "english": "Gamer Card",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "BE6759CACADEBF7F",
+    "english": "Connection lost.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "8D5BBBF2FBA03AEB",
+    "english": "The game was voided.",
     "status": "reviewed"
   },
   {
