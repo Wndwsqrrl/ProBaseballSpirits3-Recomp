@@ -1,0 +1,1918 @@
+[
+  {
+    "address": "0x82075DB0",
+    "table_pointer": "0x827FB380",
+    "english": "Fukuura Kazuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075DA4",
+    "table_pointer": "0x827FB384",
+    "english": "Imae Toshiaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01305115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D98",
+    "table_pointer": "0x827FB388",
+    "english": "Nishioka Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31435117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D84",
+    "table_pointer": "0x827FB38C",
+    "english": "Benny Agbayani",
+    "source_urls": [
+      "https://npb.jp/bis/players/61465119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D78",
+    "table_pointer": "0x827FB390",
+    "english": "Ohtsuka Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D6C",
+    "table_pointer": "0x827FB394",
+    "english": "Hori Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/73873868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D60",
+    "table_pointer": "0x827FB398",
+    "english": "Matsunaka Nobuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/61063884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D4C",
+    "table_pointer": "0x827FB39C",
+    "english": "Julio Zuleta",
+    "source_urls": [
+      "https://npb.jp/bis/players/13515117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D40",
+    "table_pointer": "0x827FB3A0",
+    "english": "Kawasaki Munenori",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D34",
+    "table_pointer": "0x827FB3A4",
+    "english": "Ohmichi Noriyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/93993868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D28",
+    "table_pointer": "0x827FB3A8",
+    "english": "Wada Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D10",
+    "table_pointer": "0x827FB3AC",
+    "english": "Alex Cabrera",
+    "source_urls": [
+      "https://npb.jp/bis/players/41645113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075D04",
+    "table_pointer": "0x827FB3B0",
+    "english": "Nakajima Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01005113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CF8",
+    "table_pointer": "0x827FB3B4",
+    "english": "Nakamura Takeya",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CEC",
+    "table_pointer": "0x827FB3B8",
+    "english": "Goto Taketoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11915117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CE0",
+    "table_pointer": "0x827FB3BC",
+    "english": "Etoh Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/53253868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CD4",
+    "table_pointer": "0x827FB3C0",
+    "english": "Kaizuka Masahide",
+    "source_urls": [
+      "https://npb.jp/bis/players/31335111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CC8",
+    "table_pointer": "0x827FB3C4",
+    "english": "Kiyohara Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343862.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CBC",
+    "table_pointer": "0x827FB3C8",
+    "english": "Nakamura Norihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21023885.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CB0",
+    "table_pointer": "0x827FB3CC",
+    "english": "Tani Yoshitomo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075CA4",
+    "table_pointer": "0x827FB3D0",
+    "english": "Muramatsu Arihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/11613883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C98",
+    "table_pointer": "0x827FB3D4",
+    "english": "Hirano Keiichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C8C",
+    "table_pointer": "0x827FB3D8",
+    "english": "Shiozaki Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/71773884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C80",
+    "table_pointer": "0x827FB3DC",
+    "english": "Hidaka Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C74",
+    "table_pointer": "0x827FB3E0",
+    "english": "Matoyama Tetsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C68",
+    "table_pointer": "0x827FB3E4",
+    "english": "Mizuguchi Eiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41643883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C58",
+    "table_pointer": "0x827FB3E8",
+    "english": "Ogasawara Michihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C48",
+    "table_pointer": "0x827FB3EC",
+    "english": "SHINJO",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C2C",
+    "table_pointer": "0x827FB3F0",
+    "english": "Fernando Seguignol",
+    "source_urls": [
+      "https://npb.jp/bis/players/91895115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C20",
+    "table_pointer": "0x827FB3F4",
+    "english": "Inaba Atsunori",
+    "source_urls": [
+      "https://npb.jp/bis/players/91193880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C14",
+    "table_pointer": "0x827FB3F8",
+    "english": "Tsuboi Tomochika",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075C08",
+    "table_pointer": "0x827FB3FC",
+    "english": "Kimoto Kuniyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/91795113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BFC",
+    "table_pointer": "0x827FB400",
+    "english": "Furuki Shigeyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BF0",
+    "table_pointer": "0x827FB404",
+    "english": "Tanaka Yukio",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743862.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BE4",
+    "table_pointer": "0x827FB408",
+    "english": "Isobe Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BD8",
+    "table_pointer": "0x827FB40C",
+    "english": "Saitoh Hidemitsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/71573889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BCC",
+    "table_pointer": "0x827FB410",
+    "english": "Takasu Yosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BC0",
+    "table_pointer": "0x827FB414",
+    "english": "Yamasaki Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BAC",
+    "table_pointer": "0x827FB418",
+    "english": "Rick Short",
+    "source_urls": [
+      "https://npb.jp/bis/players/41845117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075BA4",
+    "table_pointer": "0x827FB41C",
+    "english": "Kenshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B98",
+    "table_pointer": "0x827FB420",
+    "english": "Fujii Akihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B8C",
+    "table_pointer": "0x827FB424",
+    "english": "Kanemoto Tomoaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343885.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B80",
+    "table_pointer": "0x827FB428",
+    "english": "Akahoshi Norihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B74",
+    "table_pointer": "0x827FB42C",
+    "english": "Imaoka Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B60",
+    "table_pointer": "0x827FB430",
+    "english": "Andy Sheets",
+    "source_urls": [
+      "https://npb.jp/bis/players/21825117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B54",
+    "table_pointer": "0x827FB434",
+    "english": "Yano Akihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B48",
+    "table_pointer": "0x827FB438",
+    "english": "Toritani Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21925119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B38",
+    "table_pointer": "0x827FB43C",
+    "english": "Hiyama Shinjiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433885.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B2C",
+    "table_pointer": "0x827FB440",
+    "english": "Hamanaka Osamu",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B20",
+    "table_pointer": "0x827FB444",
+    "english": "Fujimoto Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21225113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B14",
+    "table_pointer": "0x827FB448",
+    "english": "Kataoka Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303885.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075B08",
+    "table_pointer": "0x827FB44C",
+    "english": "Fukudome Kosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/61963888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AFC",
+    "table_pointer": "0x827FB450",
+    "english": "Ibata Hirokazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/41143886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AF0",
+    "table_pointer": "0x827FB454",
+    "english": "Tatsunami Kazuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21123866.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AE4",
+    "table_pointer": "0x827FB458",
+    "english": "T. Woods",
+    "source_urls": [
+      "https://npb.jp/bis/players/51855117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AD8",
+    "table_pointer": "0x827FB45C",
+    "english": "Tanishige Motonobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/85583868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075ACC",
+    "table_pointer": "0x827FB460",
+    "english": "Araki Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/71173882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AC0",
+    "table_pointer": "0x827FB464",
+    "english": "Inoue Kazuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AB8",
+    "table_pointer": "0x827FB468",
+    "english": "Hidenori",
+    "source_urls": [
+      "https://npb.jp/bis/players/01503888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AAC",
+    "table_pointer": "0x827FB46C",
+    "english": "Tamura Hitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075AA0",
+    "table_pointer": "0x827FB470",
+    "english": "Kinjoh Tatsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91593888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A94",
+    "table_pointer": "0x827FB474",
+    "english": "Ishii Takuro",
+    "source_urls": [
+      "https://npb.jp/bis/players/65563868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A88",
+    "table_pointer": "0x827FB478",
+    "english": "Taneda Hitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/73373881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A7C",
+    "table_pointer": "0x827FB47C",
+    "english": "Tanaka Kazunori",
+    "source_urls": [
+      "https://npb.jp/bis/players/81785111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A70",
+    "table_pointer": "0x827FB480",
+    "english": "Furuki Katsuaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01003888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A64",
+    "table_pointer": "0x827FB484",
+    "english": "Suzuki Takanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/93193883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A58",
+    "table_pointer": "0x827FB488",
+    "english": "Furuta Atsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11613881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A4C",
+    "table_pointer": "0x827FB48C",
+    "english": "Iwamura Akinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A40",
+    "table_pointer": "0x827FB490",
+    "english": "Aoki Norichika",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A34",
+    "table_pointer": "0x827FB494",
+    "english": "Miyamoto Shinya",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A1C",
+    "table_pointer": "0x827FB498",
+    "english": "Alex Ramirez",
+    "source_urls": [
+      "https://npb.jp/bis/players/63165113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075A08",
+    "table_pointer": "0x827FB49C",
+    "english": "Greg LaRocca",
+    "source_urls": [
+      "https://npb.jp/bis/players/91695119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759FC",
+    "table_pointer": "0x827FB4A0",
+    "english": "Manaka Mitsuru",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293887.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759F0",
+    "table_pointer": "0x827FB4A4",
+    "english": "Suzuki Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/15313868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759E0",
+    "table_pointer": "0x827FB4A8",
+    "english": "Kokubo Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759D4",
+    "table_pointer": "0x827FB4AC",
+    "english": "Takahashi Yoshinobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51953886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759C4",
+    "table_pointer": "0x827FB4B0",
+    "english": "Abe Shinnosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759B8",
+    "table_pointer": "0x827FB4B4",
+    "english": "Nioka Tomohiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759AC",
+    "table_pointer": "0x827FB4B8",
+    "english": "Nishi Toshihisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/31933882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820759A0",
+    "table_pointer": "0x827FB4BC",
+    "english": "Shimizu Takayuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/91593882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075994",
+    "table_pointer": "0x827FB4C0",
+    "english": "Kosaka Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/41543884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075988",
+    "table_pointer": "0x827FB4C4",
+    "english": "Lee Seung-yeop",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455119.html",
+      "https://www.mlb.com/press-release/2017-wbc-mvp-and-all-tournament-team-announced-220520420"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207597C",
+    "table_pointer": "0x827FB4C8",
+    "english": "Maeda Tomonori",
+    "source_urls": [
+      "https://npb.jp/bis/players/31633881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075970",
+    "table_pointer": "0x827FB4CC",
+    "english": "Shima Shigenobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075964",
+    "table_pointer": "0x827FB4D0",
+    "english": "Ogata Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/31335119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075958",
+    "table_pointer": "0x827FB4D4",
+    "english": "Ogata Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81583866.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207594C",
+    "table_pointer": "0x827FB4D8",
+    "english": "Kimura Takuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075940",
+    "table_pointer": "0x827FB4DC",
+    "english": "Asai Itsuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51153881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075934",
+    "table_pointer": "0x827FB4E0",
+    "english": "Open 1",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x82075928",
+    "table_pointer": "0x827FB4E4",
+    "english": "Open 2",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x8207591C",
+    "table_pointer": "0x827FB4E8",
+    "english": "Open 3",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x82075910",
+    "table_pointer": "0x827FB4EC",
+    "english": "Open 4",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x82075904",
+    "table_pointer": "0x827FB4F0",
+    "english": "Open 5",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758F8",
+    "table_pointer": "0x827FB4F4",
+    "english": "Open 6",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758EC",
+    "table_pointer": "0x827FB4F8",
+    "english": "Open 7",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758E0",
+    "table_pointer": "0x827FB4FC",
+    "english": "Open 8",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758D4",
+    "table_pointer": "0x827FB500",
+    "english": "Open 9",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758C8",
+    "table_pointer": "0x827FB504",
+    "english": "Open 10",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758BC",
+    "table_pointer": "0x827FB508",
+    "english": "Open 11",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_05",
+    "reference_2026_english": "Open"
+  },
+  {
+    "address": "0x820758B0",
+    "table_pointer": "0x827FB50C",
+    "english": "Square 1",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x820758A4",
+    "table_pointer": "0x827FB510",
+    "english": "Square 2",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075898",
+    "table_pointer": "0x827FB514",
+    "english": "Square 3",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x8207588C",
+    "table_pointer": "0x827FB518",
+    "english": "Square 4",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075880",
+    "table_pointer": "0x827FB51C",
+    "english": "Square 5",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075874",
+    "table_pointer": "0x827FB520",
+    "english": "Square 6",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075868",
+    "table_pointer": "0x827FB524",
+    "english": "Square 7",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x8207585C",
+    "table_pointer": "0x827FB528",
+    "english": "Square 8",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075850",
+    "table_pointer": "0x827FB52C",
+    "english": "Square 9",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075844",
+    "table_pointer": "0x827FB530",
+    "english": "Square 10",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075838",
+    "table_pointer": "0x827FB534",
+    "english": "Square 11",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x8207582C",
+    "table_pointer": "0x827FB538",
+    "english": "Square 12",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075820",
+    "table_pointer": "0x827FB53C",
+    "english": "Square 13",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075814",
+    "table_pointer": "0x827FB540",
+    "english": "Square 14",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x82075808",
+    "table_pointer": "0x827FB544",
+    "english": "Square 15",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x820757FC",
+    "table_pointer": "0x827FB548",
+    "english": "Square 16",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x820757F0",
+    "table_pointer": "0x827FB54C",
+    "english": "Square 17",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_04",
+    "reference_2026_english": "Square"
+  },
+  {
+    "address": "0x820757E4",
+    "table_pointer": "0x827FB550",
+    "english": "Shimizu Naoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820757D8",
+    "table_pointer": "0x827FB554",
+    "english": "Watanabe Shunsuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/71675113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820757CC",
+    "table_pointer": "0x827FB558",
+    "english": "Kubo Yasutomo",
+    "source_urls": [
+      "https://npb.jp/bis/players/61565110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820757C0",
+    "table_pointer": "0x827FB55C",
+    "english": "Komiyama Satoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/31733881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820757B4",
+    "table_pointer": "0x827FB560",
+    "english": "Kobayashi Masahide",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820757A8",
+    "table_pointer": "0x827FB564",
+    "english": "Yamakita Shigetoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207579C",
+    "table_pointer": "0x827FB568",
+    "english": "Sugiuchi Toshiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31935115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075790",
+    "table_pointer": "0x827FB56C",
+    "english": "Saitoh Kazumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075784",
+    "table_pointer": "0x827FB570",
+    "english": "Wada Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11815117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075778",
+    "table_pointer": "0x827FB574",
+    "english": "Arakaki Nagisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207576C",
+    "table_pointer": "0x827FB578",
+    "english": "Mise Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51255119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075760",
+    "table_pointer": "0x827FB57C",
+    "english": "Terahara Hayato",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075754",
+    "table_pointer": "0x827FB580",
+    "english": "Matsuzaka Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075748",
+    "table_pointer": "0x827FB584",
+    "english": "Nishiguchi Fumiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/51953880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207573C",
+    "table_pointer": "0x827FB588",
+    "english": "Hoashi Kazuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41245113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075730",
+    "table_pointer": "0x827FB58C",
+    "english": "Kawahara Junichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075724",
+    "table_pointer": "0x827FB590",
+    "english": "Onodera Chikara",
+    "source_urls": [
+      "https://npb.jp/bis/players/51555117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075718",
+    "table_pointer": "0x827FB594",
+    "english": "Ishii Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31133889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207570C",
+    "table_pointer": "0x827FB598",
+    "english": "Kawagoe Hidetaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/11513888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075700",
+    "table_pointer": "0x827FB59C",
+    "english": "Mitsuhara Atsuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61465110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756F4",
+    "table_pointer": "0x827FB5A0",
+    "english": "Serafini",
+    "source_urls": [
+      "https://npb.jp/bis/players/41645119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756E8",
+    "table_pointer": "0x827FB5A4",
+    "english": "Maekawa Katsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/21023884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756DC",
+    "table_pointer": "0x827FB5A8",
+    "english": "Kanemura Satoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373880.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756D0",
+    "table_pointer": "0x827FB5AC",
+    "english": "Kamakura Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756BC",
+    "table_pointer": "0x827FB5B4",
+    "english": "Yoshizaki Masaru",
+    "source_urls": [
+      "https://npb.jp/bis/players/91495111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756B0",
+    "table_pointer": "0x827FB5B8",
+    "english": "Tateyama Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/61763888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820756A4",
+    "table_pointer": "0x827FB5BC",
+    "english": "Yokoyama Yukiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293882.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075698",
+    "table_pointer": "0x827FB5C0",
+    "english": "Oshimoto Takehiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91395119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207568C",
+    "table_pointer": "0x827FB5C4",
+    "english": "Itoh Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075680",
+    "table_pointer": "0x827FB5C8",
+    "english": "Iba Tomokazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51355113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075670",
+    "table_pointer": "0x827FB5CC",
+    "english": "Sasaki Kiyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71575111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075664",
+    "table_pointer": "0x827FB5D0",
+    "english": "Iwakuma Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01105111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075658",
+    "table_pointer": "0x827FB5D4",
+    "english": "Arime Kanehisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207564C",
+    "table_pointer": "0x827FB5D8",
+    "english": "Kaneda Masahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393887.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075640",
+    "table_pointer": "0x827FB5DC",
+    "english": "Yoshida Toyohiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/51253866.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075634",
+    "table_pointer": "0x827FB5E0",
+    "english": "Igawa Kei",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075628",
+    "table_pointer": "0x827FB5E4",
+    "english": "Andoh Yuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/41145115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207561C",
+    "table_pointer": "0x827FB5E8",
+    "english": "Shimoyanagi Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81283883.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075610",
+    "table_pointer": "0x827FB5EC",
+    "english": "Sajikihara Masashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075600",
+    "table_pointer": "0x827FB5F0",
+    "english": "Williams",
+    "source_urls": [
+      "https://npb.jp/bis/players/31835117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755F0",
+    "table_pointer": "0x827FB5F4",
+    "english": "Kubota Tomoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755E4",
+    "table_pointer": "0x827FB5F8",
+    "english": "Nohmi Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61065110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755D8",
+    "table_pointer": "0x827FB5FC",
+    "english": "Aiki Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755CC",
+    "table_pointer": "0x827FB600",
+    "english": "Yoshino Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/01405111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755C0",
+    "table_pointer": "0x827FB604",
+    "english": "Kawakami Kenshin",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755B4",
+    "table_pointer": "0x827FB608",
+    "english": "Yamamoto Masa",
+    "source_urls": [
+      "https://npb.jp/bis/players/01403862.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820755A0",
+    "table_pointer": "0x827FB60C",
+    "english": "Domingo Guzman",
+    "source_urls": [
+      "https://npb.jp/bis/players/81685115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075594",
+    "table_pointer": "0x827FB610",
+    "english": "Okamoto Shinya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075588",
+    "table_pointer": "0x827FB614",
+    "english": "Yamai Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207557C",
+    "table_pointer": "0x827FB618",
+    "english": "Iwase Hitoki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81183888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075570",
+    "table_pointer": "0x827FB61C",
+    "english": "Asakura Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075564",
+    "table_pointer": "0x827FB620",
+    "english": "Ishii Yuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/71175110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075558",
+    "table_pointer": "0x827FB624",
+    "english": "Kawagishi Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81385119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207554C",
+    "table_pointer": "0x827FB628",
+    "english": "Doi Yoshihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075540",
+    "table_pointer": "0x827FB62C",
+    "english": "Yoshimi Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075534",
+    "table_pointer": "0x827FB630",
+    "english": "Katoh Takeharu",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075528",
+    "table_pointer": "0x827FB634",
+    "english": "Kizuka Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207551C",
+    "table_pointer": "0x827FB638",
+    "english": "Kroon",
+    "source_urls": [
+      "https://npb.jp/bis/players/21625110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075510",
+    "table_pointer": "0x827FB63C",
+    "english": "Fujii Shugo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075504",
+    "table_pointer": "0x827FB640",
+    "english": "Kawashima Ryo",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754F8",
+    "table_pointer": "0x827FB644",
+    "english": "Ishikawa Masanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/11315115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754EC",
+    "table_pointer": "0x827FB648",
+    "english": "Yoshikawa Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21625117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754DC",
+    "table_pointer": "0x827FB64C",
+    "english": "Igarashi Ryota",
+    "source_urls": [
+      "https://npb.jp/bis/players/91193886.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754D0",
+    "table_pointer": "0x827FB650",
+    "english": "Takai Yuhei",
+    "source_urls": [
+      "https://npb.jp/bis/players/01005117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754C4",
+    "table_pointer": "0x827FB654",
+    "english": "Satoh Masaru",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754B8",
+    "table_pointer": "0x827FB658",
+    "english": "Ishidoh Katsutoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41143888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754AC",
+    "table_pointer": "0x827FB65C",
+    "english": "Uehara Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820754A0",
+    "table_pointer": "0x827FB660",
+    "english": "Powell",
+    "source_urls": [
+      "https://npb.jp/bis/players/43345113.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075494",
+    "table_pointer": "0x827FB664",
+    "english": "Kudoh Kimiyasu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553865.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075488",
+    "table_pointer": "0x827FB668",
+    "english": "Noguchi Shigeki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71073887.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207547C",
+    "table_pointer": "0x827FB66C",
+    "english": "Hayashi Masanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075470",
+    "table_pointer": "0x827FB670",
+    "english": "Maeda Yukinaga",
+    "source_urls": [
+      "https://npb.jp/bis/players/63463868.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075464",
+    "table_pointer": "0x827FB674",
+    "english": "Kisanuki Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71775117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075458",
+    "table_pointer": "0x827FB678",
+    "english": "Okajima Hideki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51353889.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207544C",
+    "table_pointer": "0x827FB67C",
+    "english": "Kuwata Masumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11513862.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x8207543C",
+    "table_pointer": "0x827FB680",
+    "english": "Nomaguchi Takahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075430",
+    "table_pointer": "0x827FB684",
+    "english": "Satoh Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01505111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075424",
+    "table_pointer": "0x827FB688",
+    "english": "Kuroda Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21523884.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075418",
+    "table_pointer": "0x827FB68C",
+    "english": "Ohtake Kan",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x82075408",
+    "table_pointer": "0x827FB690",
+    "english": "Oyamada Yasuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393888.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753FC",
+    "table_pointer": "0x827FB694",
+    "english": "Umetsu Tomohiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185110.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753F0",
+    "table_pointer": "0x827FB698",
+    "english": "Satake Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/91595111.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753E4",
+    "table_pointer": "0x827FB69C",
+    "english": "Amano Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195115.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753D4",
+    "table_pointer": "0x827FB6A0",
+    "english": "Sasaoka Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/21723881.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753C8",
+    "table_pointer": "0x827FB6A4",
+    "english": "Nagakawa Katsuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205117.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753C0",
+    "table_pointer": "0x827FB6A8",
+    "english": "Bale",
+    "source_urls": [
+      "https://npb.jp/bis/players/41445119.html"
+    ],
+    "review_status": "name-reading-checked"
+  },
+  {
+    "address": "0x820753B4",
+    "table_pointer": "0x827FB6AC",
+    "english": "Overhand 1",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_00",
+    "reference_2026_english": "Overhand"
+  },
+  {
+    "address": "0x820753A8",
+    "table_pointer": "0x827FB6B0",
+    "english": "Overhand 2",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_00",
+    "reference_2026_english": "Overhand"
+  },
+  {
+    "address": "0x8207539C",
+    "table_pointer": "0x827FB6B4",
+    "english": "Overhand 3",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_00",
+    "reference_2026_english": "Overhand"
+  },
+  {
+    "address": "0x82075390",
+    "table_pointer": "0x827FB6B8",
+    "english": "Overhand 4",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_00",
+    "reference_2026_english": "Overhand"
+  },
+  {
+    "address": "0x82075384",
+    "table_pointer": "0x827FB6BC",
+    "english": "Overhand 5",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "common_form_util_text_00",
+    "reference_2026_english": "Overhand"
+  },
+  {
+    "address": "0x82075370",
+    "table_pointer": "0x827FB6C0",
+    "english": "Three-quarter 1",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "playerdata_form_edit_pitching06",
+    "reference_2026_english": "Three-quarter Throw"
+  },
+  {
+    "address": "0x8207535C",
+    "table_pointer": "0x827FB6C4",
+    "english": "Three-quarter 2",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "playerdata_form_edit_pitching06",
+    "reference_2026_english": "Three-quarter Throw"
+  },
+  {
+    "address": "0x82075348",
+    "table_pointer": "0x827FB6C8",
+    "english": "Three-quarter 3",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "playerdata_form_edit_pitching06",
+    "reference_2026_english": "Three-quarter Throw"
+  },
+  {
+    "address": "0x82073544",
+    "table_pointer": "0x827FB6CC",
+    "english": "Normal",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked"
+  },
+  {
+    "address": "0x82075338",
+    "table_pointer": "0x827FB6D0",
+    "english": "Special 1",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "pshop_list_page_06",
+    "reference_2026_english": "Special"
+  },
+  {
+    "address": "0x82075328",
+    "table_pointer": "0x827FB6D4",
+    "english": "Special 2",
+    "source_urls": [],
+    "review_status": "official-form-terminology-checked",
+    "reference_2026_key": "pshop_list_page_06",
+    "reference_2026_english": "Special"
+  }
+]

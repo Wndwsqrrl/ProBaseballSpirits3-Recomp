@@ -1,0 +1,5194 @@
+[
+  {
+    "address": "0x827417FB",
+    "record_address": "0x827417EC",
+    "slot_size": 15,
+    "source_hash": "2AF3346B8379FB50",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274198B",
+    "record_address": "0x8274197C",
+    "slot_size": 15,
+    "source_hash": "EEF6824DE44C942C",
+    "english": "Hisanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/21725111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741A53",
+    "record_address": "0x82741A44",
+    "slot_size": 15,
+    "source_hash": "A662E4230C8A86B0",
+    "english": "Kimiyasu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553865.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741B1B",
+    "record_address": "0x82741B0C",
+    "slot_size": 15,
+    "source_hash": "F1D759E9ADB64B66",
+    "english": "Shigeki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71073887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741CAB",
+    "record_address": "0x82741C9C",
+    "slot_size": 15,
+    "source_hash": "B1CA009D39AC1C4E",
+    "english": "Masanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741D73",
+    "record_address": "0x82741D64",
+    "slot_size": 15,
+    "source_hash": "6B56469273B02D81",
+    "english": "Tetsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741E3B",
+    "record_address": "0x82741E2C",
+    "slot_size": 15,
+    "source_hash": "B26CD9D225C94616",
+    "english": "Yukinaga",
+    "source_urls": [
+      "https://npb.jp/bis/players/63463868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741F03",
+    "record_address": "0x82741EF4",
+    "slot_size": 15,
+    "source_hash": "21391C48C0C8E8E7",
+    "english": "Yuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/21725117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741FCB",
+    "record_address": "0x82741FBC",
+    "slot_size": 15,
+    "source_hash": "5698DDE605D7D563",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71775117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742093",
+    "record_address": "0x82742084",
+    "slot_size": 15,
+    "source_hash": "C663121C81BD7D83",
+    "english": "Kiyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61963887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274215B",
+    "record_address": "0x8274214C",
+    "slot_size": 15,
+    "source_hash": "64081EBF97CCC6B8",
+    "english": "Hideki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51353889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742223",
+    "record_address": "0x82742214",
+    "slot_size": 15,
+    "source_hash": "ACD6F002771AB2D6",
+    "english": "Masumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11513862.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827422EB",
+    "record_address": "0x827422DC",
+    "slot_size": 15,
+    "source_hash": "F503EA24C643DA36",
+    "english": "Kentaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827423B3",
+    "record_address": "0x827423A4",
+    "slot_size": 15,
+    "source_hash": "F190148DD61D0496",
+    "english": "Takahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274247B",
+    "record_address": "0x8274246C",
+    "slot_size": 15,
+    "source_hash": "EEC5070DE5F2861D",
+    "english": "Hitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21425110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742543",
+    "record_address": "0x82742534",
+    "slot_size": 15,
+    "source_hash": "6EAC5FBF59107F58",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274260B",
+    "record_address": "0x827425FC",
+    "slot_size": 15,
+    "source_hash": "D4A35F32AA2E26D8",
+    "english": "Masashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91995113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827426D3",
+    "record_address": "0x827426C4",
+    "slot_size": 15,
+    "source_hash": "D45E6F2712DB5610",
+    "english": "Junya",
+    "source_urls": [
+      "https://npb.jp/bis/players/81583888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274279B",
+    "record_address": "0x8274278C",
+    "slot_size": 15,
+    "source_hash": "C15E00DAEBDC6110",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31435112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742863",
+    "record_address": "0x82742854",
+    "slot_size": 15,
+    "source_hash": "E68942913134767A",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274292B",
+    "record_address": "0x8274291C",
+    "slot_size": 15,
+    "source_hash": "12DB151999B3682C",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01505111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742ABB",
+    "record_address": "0x82742AAC",
+    "slot_size": 15,
+    "source_hash": "96EC53B7C76D3E51",
+    "english": "Shinnosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742B83",
+    "record_address": "0x82742B74",
+    "slot_size": 15,
+    "source_hash": "7CFAB1E3BF48004A",
+    "english": "Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742D13",
+    "record_address": "0x82742D04",
+    "slot_size": 15,
+    "source_hash": "EF3928585F4F349E",
+    "english": "Toshihisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/31933882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742DDB",
+    "record_address": "0x82742DCC",
+    "slot_size": 15,
+    "source_hash": "BB9751129C6D593E",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742EA3",
+    "record_address": "0x82742E94",
+    "slot_size": 15,
+    "source_hash": "4E02E459E94C6A74",
+    "english": "Tomohiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82742F6B",
+    "record_address": "0x82742F5C",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/41543884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743033",
+    "record_address": "0x82743024",
+    "slot_size": 15,
+    "source_hash": "D098F88796C83FB4",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827430FB",
+    "record_address": "0x827430EC",
+    "slot_size": 15,
+    "source_hash": "B7DD614D53285F10",
+    "english": "Takayuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01503880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827431C3",
+    "record_address": "0x827431B4",
+    "slot_size": 15,
+    "source_hash": "99E04903A891265B",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61763884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743353",
+    "record_address": "0x82743344",
+    "slot_size": 15,
+    "source_hash": "B7C1AC8168C6072F",
+    "english": "Takayuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21123880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274341B",
+    "record_address": "0x8274340C",
+    "slot_size": 15,
+    "source_hash": "A85C35C4C8E05938",
+    "english": "Kenji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51655117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743673",
+    "record_address": "0x82743664",
+    "slot_size": 15,
+    "source_hash": "DF86706A57707BB8",
+    "english": "Yoshinobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51953886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274373B",
+    "record_address": "0x8274372C",
+    "slot_size": 15,
+    "source_hash": "17139E9204EB482F",
+    "english": "Takanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743803",
+    "record_address": "0x827437F4",
+    "slot_size": 15,
+    "source_hash": "6E9E7C9BE3DC30E9",
+    "english": "Shunsuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827438CB",
+    "record_address": "0x827438BC",
+    "slot_size": 15,
+    "source_hash": "2AA54FD851E5869A",
+    "english": "Manabu",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743993",
+    "record_address": "0x82743984",
+    "slot_size": 15,
+    "source_hash": "CEEB6CC69B60EE17",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41245117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743A5B",
+    "record_address": "0x82743A4C",
+    "slot_size": 15,
+    "source_hash": "D32BC06B48A112BD",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/81385115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743B23",
+    "record_address": "0x82743B14",
+    "slot_size": 15,
+    "source_hash": "C01CF3DCBAD6154E",
+    "english": "Mototsugu",
+    "source_urls": [
+      "https://npb.jp/bis/players/81383886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743BEB",
+    "record_address": "0x82743BDC",
+    "slot_size": 15,
+    "source_hash": "AA687099EE52414F",
+    "english": "Taka",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743CB3",
+    "record_address": "0x82743CA4",
+    "slot_size": 15,
+    "source_hash": "A6B0A9D4DA307035",
+    "english": "Takatomi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743D7B",
+    "record_address": "0x82743D6C",
+    "slot_size": 15,
+    "source_hash": "D1153DD0C0297774",
+    "english": "Ichiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01003884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82743E43",
+    "record_address": "0x82743E34",
+    "slot_size": 15,
+    "source_hash": "ACB0AD6CF1F5BD0B",
+    "english": "Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51955115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274422B",
+    "record_address": "0x8274421C",
+    "slot_size": 15,
+    "source_hash": "327D31495471CF0C",
+    "english": "Kenshin",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274454B",
+    "record_address": "0x8274453C",
+    "slot_size": 15,
+    "source_hash": "426A6E13039E5ED2",
+    "english": "Kenichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51055110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744613",
+    "record_address": "0x82744604",
+    "slot_size": 15,
+    "source_hash": "F1BBDC5509E9D2E4",
+    "english": "Masafumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71973889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827446DB",
+    "record_address": "0x827446CC",
+    "slot_size": 15,
+    "source_hash": "C5AE0C88978972D5",
+    "english": "Yoshihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274486B",
+    "record_address": "0x8274485C",
+    "slot_size": 15,
+    "source_hash": "0E260FBB525D1438",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744933",
+    "record_address": "0x82744924",
+    "slot_size": 15,
+    "source_hash": "5E18C8E3A14A208C",
+    "english": "Eiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827449FB",
+    "record_address": "0x827449EC",
+    "slot_size": 15,
+    "source_hash": "0B082413B5719A02",
+    "english": "Akifumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71975115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744AC3",
+    "record_address": "0x82744AB4",
+    "slot_size": 15,
+    "source_hash": "A56E51AA5688B47E",
+    "english": "Hitoki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81183888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744B8B",
+    "record_address": "0x82744B7C",
+    "slot_size": 15,
+    "source_hash": "1AE639DA1A178580",
+    "english": "Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744C53",
+    "record_address": "0x82744C44",
+    "slot_size": 15,
+    "source_hash": "4A520E1C3980023D",
+    "english": "Mitsuru",
+    "source_urls": [
+      "https://npb.jp/bis/players/71775119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744DE3",
+    "record_address": "0x82744DD4",
+    "slot_size": 15,
+    "source_hash": "05BEDB749E7E393E",
+    "english": "Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71075113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744EAB",
+    "record_address": "0x82744E9C",
+    "slot_size": 15,
+    "source_hash": "CEA9D34A20934CCA",
+    "english": "Kazuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41845112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744F73",
+    "record_address": "0x82744F64",
+    "slot_size": 15,
+    "source_hash": "21391C48C0C8E8E7",
+    "english": "Yuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/71175110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745103",
+    "record_address": "0x827450F4",
+    "slot_size": 15,
+    "source_hash": "F87E1277A289B3C1",
+    "english": "Masataka",
+    "source_urls": [
+      "https://npb.jp/bis/players/21123889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827451CB",
+    "record_address": "0x827451BC",
+    "slot_size": 15,
+    "source_hash": "6717BABC560BD36F",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81385119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745293",
+    "record_address": "0x82745284",
+    "slot_size": 15,
+    "source_hash": "3740B516AF51DF8F",
+    "english": "Yuichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21225115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274535B",
+    "record_address": "0x8274534C",
+    "slot_size": 15,
+    "source_hash": "F79A615E432FA896",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827454EB",
+    "record_address": "0x827454DC",
+    "slot_size": 15,
+    "source_hash": "AF0FB6B13F5664B5",
+    "english": "Motonobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/85583868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827455B3",
+    "record_address": "0x827455A4",
+    "slot_size": 15,
+    "source_hash": "058937CF96A5A779",
+    "english": "Kohei",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274567B",
+    "record_address": "0x8274566C",
+    "slot_size": 15,
+    "source_hash": "6BC7593844B1DE8B",
+    "english": "Kazuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21123866.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274580B",
+    "record_address": "0x827457FC",
+    "slot_size": 15,
+    "source_hash": "557B06FCFB3452F6",
+    "english": "Hirokazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/41143886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827458D3",
+    "record_address": "0x827458C4",
+    "slot_size": 15,
+    "source_hash": "2323A6CC48447927",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323869.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274599B",
+    "record_address": "0x8274598C",
+    "slot_size": 15,
+    "source_hash": "D4A1575BC70D0515",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745A63",
+    "record_address": "0x82745A54",
+    "slot_size": 15,
+    "source_hash": "CA0FB30CB413B0A3",
+    "english": "Mitsunobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/31933886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745B2B",
+    "record_address": "0x82745B1C",
+    "slot_size": 15,
+    "source_hash": "017E67413314B075",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/71173882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745BF3",
+    "record_address": "0x82745BE4",
+    "slot_size": 15,
+    "source_hash": "763CEBECFFD62A08",
+    "english": "Michihisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/21725110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745CBB",
+    "record_address": "0x82745CAC",
+    "slot_size": 15,
+    "source_hash": "5975A960EDA34F28",
+    "english": "Masahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745D83",
+    "record_address": "0x82745D74",
+    "slot_size": 15,
+    "source_hash": "AF6B0F9D14DB7BBC",
+    "english": "Kazuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745E4B",
+    "record_address": "0x82745E3C",
+    "slot_size": 15,
+    "source_hash": "A9627B6F26047637",
+    "english": "Kosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/61963888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827460A3",
+    "record_address": "0x82746094",
+    "slot_size": 15,
+    "source_hash": "25F2651CD10AADCA",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/61965119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274616B",
+    "record_address": "0x8274615C",
+    "slot_size": 15,
+    "source_hash": "AA7D61F23AED0060",
+    "english": "Yuichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01003889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746233",
+    "record_address": "0x82746224",
+    "slot_size": 15,
+    "source_hash": "0C35986720715DBC",
+    "english": "Masaumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01703884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827462FB",
+    "record_address": "0x827462EC",
+    "slot_size": 15,
+    "source_hash": "C30404F9D8F1B750",
+    "english": "Ryosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/11615117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827463C3",
+    "record_address": "0x827463B4",
+    "slot_size": 15,
+    "source_hash": "DF1EF49C15314D9D",
+    "english": "Takehiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01905119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274648B",
+    "record_address": "0x8274647C",
+    "slot_size": 15,
+    "source_hash": "7B525B40D3791728",
+    "english": "Keiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746553",
+    "record_address": "0x82746544",
+    "slot_size": 15,
+    "source_hash": "E68942913134767A",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41945119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827466E3",
+    "record_address": "0x827466D4",
+    "slot_size": 15,
+    "source_hash": "F905BBA4F324E2F3",
+    "english": "Issei",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827467AB",
+    "record_address": "0x8274679C",
+    "slot_size": 15,
+    "source_hash": "35C826F3ED559435",
+    "english": "Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746873",
+    "record_address": "0x82746864",
+    "slot_size": 15,
+    "source_hash": "C30404F9D8F1B750",
+    "english": "Ryosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746C5B",
+    "record_address": "0x82746C4C",
+    "slot_size": 15,
+    "source_hash": "202E136ECE3EF70C",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21523884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746D23",
+    "record_address": "0x82746D14",
+    "slot_size": 15,
+    "source_hash": "441A6E2A5E751F65",
+    "english": "Kan",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746EB3",
+    "record_address": "0x82746EA4",
+    "slot_size": 15,
+    "source_hash": "ABF9173E8071FD26",
+    "english": "Yasuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82746F7B",
+    "record_address": "0x82746F6C",
+    "slot_size": 15,
+    "source_hash": "4E15984ADD0B9663",
+    "english": "Masayuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71973882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747043",
+    "record_address": "0x82747034",
+    "slot_size": 15,
+    "source_hash": "F81F015CBFBE2FFC",
+    "english": "Tomohiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274710B",
+    "record_address": "0x827470FC",
+    "slot_size": 15,
+    "source_hash": "1AE639DA1A178580",
+    "english": "Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/91595111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827471D3",
+    "record_address": "0x827471C4",
+    "slot_size": 15,
+    "source_hash": "4332231D662AE2AD",
+    "english": "Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274729B",
+    "record_address": "0x8274728C",
+    "slot_size": 15,
+    "source_hash": "F2868F131755C73E",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/21723881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747363",
+    "record_address": "0x82747354",
+    "slot_size": 15,
+    "source_hash": "428F133D69A59A35",
+    "english": "Katsuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827475BB",
+    "record_address": "0x827475AC",
+    "slot_size": 15,
+    "source_hash": "2E701458047A8378",
+    "english": "Choji",
+    "source_urls": [
+      "https://npb.jp/bis/players/81485110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747683",
+    "record_address": "0x82747674",
+    "slot_size": 15,
+    "source_hash": "A28BFCBB89D7533D",
+    "english": "Takayuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747813",
+    "record_address": "0x82747804",
+    "slot_size": 15,
+    "source_hash": "E051EEEB5573A0E4",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51055119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827478DB",
+    "record_address": "0x827478CC",
+    "slot_size": 15,
+    "source_hash": "D043708E0BAE05FE",
+    "english": "Takaya",
+    "source_urls": [
+      "https://npb.jp/bis/players/21325111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827479A3",
+    "record_address": "0x82747994",
+    "slot_size": 15,
+    "source_hash": "25F039850D79ED18",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41943888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747A6B",
+    "record_address": "0x82747A5C",
+    "slot_size": 15,
+    "source_hash": "0D43DD720E709273",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01705110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747B33",
+    "record_address": "0x82747B24",
+    "slot_size": 15,
+    "source_hash": "6A4C08FCC961EC89",
+    "english": "Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/71773880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747BFB",
+    "record_address": "0x82747BEC",
+    "slot_size": 15,
+    "source_hash": "F807188354E77637",
+    "english": "Hiroto",
+    "source_urls": [
+      "https://npb.jp/bis/players/01905110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747CC3",
+    "record_address": "0x82747CB4",
+    "slot_size": 15,
+    "source_hash": "558E6BEE13830BCE",
+    "english": "Ryuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/11213880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747D8B",
+    "record_address": "0x82747D7C",
+    "slot_size": 15,
+    "source_hash": "52D5E88F6A2BC075",
+    "english": "Tetsuto",
+    "source_urls": [
+      "https://npb.jp/bis/players/01905111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747E53",
+    "record_address": "0x82747E44",
+    "slot_size": 15,
+    "source_hash": "5DC534676C82E4B0",
+    "english": "Nobuaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01305112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747F1B",
+    "record_address": "0x82747F0C",
+    "slot_size": 15,
+    "source_hash": "E92E7A7FD5F15683",
+    "english": "Yoshikazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82747FE3",
+    "record_address": "0x82747FD4",
+    "slot_size": 15,
+    "source_hash": "40CFD1799F81B064",
+    "english": "Yoshiyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51355115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748173",
+    "record_address": "0x82748164",
+    "slot_size": 15,
+    "source_hash": "1AE639DA1A178580",
+    "english": "Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274823B",
+    "record_address": "0x8274822C",
+    "slot_size": 15,
+    "source_hash": "68F46D534A434697",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748303",
+    "record_address": "0x827482F4",
+    "slot_size": 15,
+    "source_hash": "AE9C6DA2587BD076",
+    "english": "Itsuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51153881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827483CB",
+    "record_address": "0x827483BC",
+    "slot_size": 15,
+    "source_hash": "CE3D62B4888793BF",
+    "english": "Akihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748493",
+    "record_address": "0x82748484",
+    "slot_size": 15,
+    "source_hash": "99A278EAFF37D1AC",
+    "english": "Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/31335119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274855B",
+    "record_address": "0x8274854C",
+    "slot_size": 15,
+    "source_hash": "F514D9EE02E36A21",
+    "english": "Kazuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41943889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748623",
+    "record_address": "0x82748614",
+    "slot_size": 15,
+    "source_hash": "A9A964735854F874",
+    "english": "Takuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827486EB",
+    "record_address": "0x827486DC",
+    "slot_size": 15,
+    "source_hash": "C461DDD078783E34",
+    "english": "Keiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827487B3",
+    "record_address": "0x827487A4",
+    "slot_size": 15,
+    "source_hash": "822C7897EF7ABEA3",
+    "english": "Shigenobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274887B",
+    "record_address": "0x8274886C",
+    "slot_size": 15,
+    "source_hash": "0808310E3BA5F9B2",
+    "english": "Tomonori",
+    "source_urls": [
+      "https://npb.jp/bis/players/31633881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748943",
+    "record_address": "0x82748934",
+    "slot_size": 15,
+    "source_hash": "004E161C3F20879F",
+    "english": "Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81583866.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748A0B",
+    "record_address": "0x827489FC",
+    "slot_size": 15,
+    "source_hash": "AD065767463AA67A",
+    "english": "Shigeru",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748AD3",
+    "record_address": "0x82748AC4",
+    "slot_size": 15,
+    "source_hash": "1095EDA25E4EDC55",
+    "english": "Jun",
+    "source_urls": [
+      "https://npb.jp/bis/players/71275113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748B9B",
+    "record_address": "0x82748B8C",
+    "slot_size": 15,
+    "source_hash": "2A3BD2AE7A8809D7",
+    "english": "Yuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41543882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748C63",
+    "record_address": "0x82748C54",
+    "slot_size": 15,
+    "source_hash": "25F039850D79ED18",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51453888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748D2B",
+    "record_address": "0x82748D1C",
+    "slot_size": 15,
+    "source_hash": "5C78018110C77C45",
+    "english": "Toshimitsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748DF3",
+    "record_address": "0x82748DE4",
+    "slot_size": 15,
+    "source_hash": "CF38518FFE217CCB",
+    "english": "Masahito",
+    "source_urls": [
+      "https://npb.jp/bis/players/71575113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82748EBB",
+    "record_address": "0x82748EAC",
+    "slot_size": 15,
+    "source_hash": "75F5803A41EE89C7",
+    "english": "Eishin",
+    "source_urls": [
+      "https://npb.jp/bis/players/21925112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274904B",
+    "record_address": "0x8274903C",
+    "slot_size": 15,
+    "source_hash": "C407C55C7341D9C4",
+    "english": "Takamitsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/21123888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749113",
+    "record_address": "0x82749104",
+    "slot_size": 15,
+    "source_hash": "59C0EDD3E7E21856",
+    "english": "Takaaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21425117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827491DB",
+    "record_address": "0x827491CC",
+    "slot_size": 15,
+    "source_hash": "A03DD41E1E780DA5",
+    "english": "Soichiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01105115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827492A3",
+    "record_address": "0x82749294",
+    "slot_size": 15,
+    "source_hash": "965100AB4C2E9FB9",
+    "english": "Tomoya",
+    "source_urls": [
+      "https://npb.jp/bis/players/61965117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274968B",
+    "record_address": "0x8274967C",
+    "slot_size": 15,
+    "source_hash": "D0557C419D3DFC32",
+    "english": "Kazuhisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/31133885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749753",
+    "record_address": "0x82749744",
+    "slot_size": 15,
+    "source_hash": "AE9E2960BB2133D0",
+    "english": "Shugo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274981B",
+    "record_address": "0x8274980C",
+    "slot_size": 15,
+    "source_hash": "5612ED9AD62AE9EC",
+    "english": "Ryo",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827498E3",
+    "record_address": "0x827498D4",
+    "slot_size": 15,
+    "source_hash": "B7D066DFCB9E6419",
+    "english": "Masanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/11315115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749A73",
+    "record_address": "0x82749A64",
+    "slot_size": 15,
+    "source_hash": "1D14470E818912FD",
+    "english": "Shohei",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749C03",
+    "record_address": "0x82749BF4",
+    "slot_size": 15,
+    "source_hash": "CD3FC3CF1EB63EAF",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21625117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749CCB",
+    "record_address": "0x82749CBC",
+    "slot_size": 15,
+    "source_hash": "47A3E57C5F5EA072",
+    "english": "Ryu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749D93",
+    "record_address": "0x82749D84",
+    "slot_size": 15,
+    "source_hash": "1274A7E5D9C494A0",
+    "english": "Shingo",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749E5B",
+    "record_address": "0x82749E4C",
+    "slot_size": 15,
+    "source_hash": "2125FE0D2A900961",
+    "english": "Ryota",
+    "source_urls": [
+      "https://npb.jp/bis/players/91193886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749F23",
+    "record_address": "0x82749F14",
+    "slot_size": 15,
+    "source_hash": "0D135A1D8D933734",
+    "english": "Hirotoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749FEB",
+    "record_address": "0x82749FDC",
+    "slot_size": 15,
+    "source_hash": "6A09D63A6213ACB5",
+    "english": "Masato",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A0B3",
+    "record_address": "0x8274A0A4",
+    "slot_size": 15,
+    "source_hash": "C22CC4467D224C55",
+    "english": "Yuhei",
+    "source_urls": [
+      "https://npb.jp/bis/players/01005117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A17B",
+    "record_address": "0x8274A16C",
+    "slot_size": 15,
+    "source_hash": "86F4EF01E60D7873",
+    "english": "Kenichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A243",
+    "record_address": "0x8274A234",
+    "slot_size": 15,
+    "source_hash": "2392613450128480",
+    "english": "Masaru",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A30B",
+    "record_address": "0x8274A2FC",
+    "slot_size": 15,
+    "source_hash": "E401CC206A24B19F",
+    "english": "Masao",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A3D3",
+    "record_address": "0x8274A3C4",
+    "slot_size": 15,
+    "source_hash": "7BC7E06C5A4C2040",
+    "english": "Yataro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41745113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A49B",
+    "record_address": "0x8274A48C",
+    "slot_size": 15,
+    "source_hash": "13FEAE4C09824497",
+    "english": "Kosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/11615112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A563",
+    "record_address": "0x8274A554",
+    "slot_size": 15,
+    "source_hash": "AE64E2FCF8CC4790",
+    "english": "Yuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31735113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A62B",
+    "record_address": "0x8274A61C",
+    "slot_size": 15,
+    "source_hash": "304FA9BAF2D7FF87",
+    "english": "Katsutoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41143888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A6F3",
+    "record_address": "0x8274A6E4",
+    "slot_size": 15,
+    "source_hash": "E649B66017B3DECF",
+    "english": "Kojiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41145110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A7BB",
+    "record_address": "0x8274A7AC",
+    "slot_size": 15,
+    "source_hash": "6DA4B9152831EA12",
+    "english": "Futoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61063889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A883",
+    "record_address": "0x8274A874",
+    "slot_size": 15,
+    "source_hash": "4E76EAA0697B296B",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01405110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274A94B",
+    "record_address": "0x8274A93C",
+    "slot_size": 15,
+    "source_hash": "3ED4AD6FE82EF7A9",
+    "english": "Atsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11613881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AA13",
+    "record_address": "0x8274AA04",
+    "slot_size": 15,
+    "source_hash": "85FB2C48BD30A828",
+    "english": "Kosei",
+    "source_urls": [
+      "https://npb.jp/bis/players/61363884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AADB",
+    "record_address": "0x8274AACC",
+    "slot_size": 15,
+    "source_hash": "04B26E2C62B51B38",
+    "english": "Tomohito",
+    "source_urls": [
+      "https://npb.jp/bis/players/21425111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AC6B",
+    "record_address": "0x8274AC5C",
+    "slot_size": 15,
+    "source_hash": "BB07D245D49B3AFA",
+    "english": "Noriyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/11713880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AD33",
+    "record_address": "0x8274AD24",
+    "slot_size": 15,
+    "source_hash": "D7FC126D38126123",
+    "english": "Katsuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71773864.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274ADFB",
+    "record_address": "0x8274ADEC",
+    "slot_size": 15,
+    "source_hash": "A557564B260D65E0",
+    "english": "Akinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AEC3",
+    "record_address": "0x8274AEB4",
+    "slot_size": 15,
+    "source_hash": "89E0E07C2FF37A72",
+    "english": "Shinya",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274AF8B",
+    "record_address": "0x8274AF7C",
+    "slot_size": 15,
+    "source_hash": "B87E9885AFEA5E52",
+    "english": "Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31235113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B053",
+    "record_address": "0x8274B044",
+    "slot_size": 15,
+    "source_hash": "0E542B206896DB4A",
+    "english": "Shinichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B11B",
+    "record_address": "0x8274B10C",
+    "slot_size": 15,
+    "source_hash": "F8F3F7E5BA1A509F",
+    "english": "Ryuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B1E3",
+    "record_address": "0x8274B1D4",
+    "slot_size": 15,
+    "source_hash": "C6B133B19EDA3AD3",
+    "english": "Norichika",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B373",
+    "record_address": "0x8274B364",
+    "slot_size": 15,
+    "source_hash": "C8CC553F6BF3019F",
+    "english": "Mitsuru",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B43B",
+    "record_address": "0x8274B42C",
+    "slot_size": 15,
+    "source_hash": "B2166E1B0CC91ABF",
+    "english": "Yuichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21823888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B503",
+    "record_address": "0x8274B4F4",
+    "slot_size": 15,
+    "source_hash": "D10C79673B2E1074",
+    "english": "Munehiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/81785115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B5CB",
+    "record_address": "0x8274B5BC",
+    "slot_size": 15,
+    "source_hash": "1C63A01F28328274",
+    "english": "Masakazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B693",
+    "record_address": "0x8274B684",
+    "slot_size": 15,
+    "source_hash": "A74E16E8C93BBAEF",
+    "english": "Ryohei",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B75B",
+    "record_address": "0x8274B74C",
+    "slot_size": 15,
+    "source_hash": "29279D3A10B11E60",
+    "english": "Hajime",
+    "source_urls": [
+      "https://npb.jp/bis/players/81083882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B823",
+    "record_address": "0x8274B814",
+    "slot_size": 15,
+    "source_hash": "7F2CFD7E50C206B6",
+    "english": "Hiroyasu",
+    "source_urls": [
+      "https://npb.jp/bis/players/21925110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B8EB",
+    "record_address": "0x8274B8DC",
+    "slot_size": 15,
+    "source_hash": "75D80F7B8ED22751",
+    "english": "Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/15313868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B9B3",
+    "record_address": "0x8274B9A4",
+    "slot_size": 15,
+    "source_hash": "83352CBFC24F592E",
+    "english": "Yusuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/91595115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BA7B",
+    "record_address": "0x8274BA6C",
+    "slot_size": 15,
+    "source_hash": "9772926CA0B757B7",
+    "english": "Yoshiyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81985111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BC0B",
+    "record_address": "0x8274BBFC",
+    "slot_size": 15,
+    "source_hash": "D435E5041B46B690",
+    "english": "Hirobumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BCD3",
+    "record_address": "0x8274BCC4",
+    "slot_size": 15,
+    "source_hash": "9FB928B4AC9091A3",
+    "english": "Usami",
+    "source_urls": [
+      "https://npb.jp/bis/players/81083888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BE63",
+    "record_address": "0x8274BE54",
+    "slot_size": 15,
+    "source_hash": "034F4D164279F40B",
+    "english": "Shinichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BF2B",
+    "record_address": "0x8274BF1C",
+    "slot_size": 15,
+    "source_hash": "3ED4AD6FE82EF7A9",
+    "english": "Atsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11613881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C0BB",
+    "record_address": "0x8274C0AC",
+    "slot_size": 15,
+    "source_hash": "4CD44AC3A92CBE99",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/41443885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C183",
+    "record_address": "0x8274C174",
+    "slot_size": 15,
+    "source_hash": "75D80F7B8ED22751",
+    "english": "Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C24B",
+    "record_address": "0x8274C23C",
+    "slot_size": 15,
+    "source_hash": "BAF19028F257AB86",
+    "english": "Yoshihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C3DB",
+    "record_address": "0x8274C3CC",
+    "slot_size": 15,
+    "source_hash": "4DB1EE54FDF77362",
+    "english": "Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C56B",
+    "record_address": "0x8274C55C",
+    "slot_size": 15,
+    "source_hash": "E29462896DF328F9",
+    "english": "Teruaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C633",
+    "record_address": "0x8274C624",
+    "slot_size": 15,
+    "source_hash": "DE8F9E09E387073E",
+    "english": "Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/71275115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C6FB",
+    "record_address": "0x8274C6EC",
+    "slot_size": 15,
+    "source_hash": "1A476B64BE89E7FB",
+    "english": "Takeharu",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C7C3",
+    "record_address": "0x8274C7B4",
+    "slot_size": 15,
+    "source_hash": "A58F369407C8B053",
+    "english": "Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C88B",
+    "record_address": "0x8274C87C",
+    "slot_size": 15,
+    "source_hash": "4F219FED2B236467",
+    "english": "Takeo",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CA1B",
+    "record_address": "0x8274CA0C",
+    "slot_size": 15,
+    "source_hash": "2082A85F164F8E09",
+    "english": "Takumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21025110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CAE3",
+    "record_address": "0x8274CAD4",
+    "slot_size": 15,
+    "source_hash": "EA47F714DBF8EE8B",
+    "english": "Kensaku",
+    "source_urls": [
+      "https://npb.jp/bis/players/81785110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CBAB",
+    "record_address": "0x8274CB9C",
+    "slot_size": 15,
+    "source_hash": "64081EBF97CCC6B8",
+    "english": "Hideki",
+    "source_urls": [
+      "https://npb.jp/bis/players/91595110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CC73",
+    "record_address": "0x8274CC64",
+    "slot_size": 15,
+    "source_hash": "4F3565C9031F0DA2",
+    "english": "Shigeki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41145119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CD3B",
+    "record_address": "0x8274CD2C",
+    "slot_size": 15,
+    "source_hash": "0131D6342EAC43A0",
+    "english": "Tetsuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81285111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CE03",
+    "record_address": "0x8274CDF4",
+    "slot_size": 15,
+    "source_hash": "43591BEB37D9CF14",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/51553882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CECB",
+    "record_address": "0x8274CEBC",
+    "slot_size": 15,
+    "source_hash": "2070871629B07388",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/71475110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274CF93",
+    "record_address": "0x8274CF84",
+    "slot_size": 15,
+    "source_hash": "5893721AEDB48466",
+    "english": "Shigeo",
+    "source_urls": [
+      "https://npb.jp/bis/players/31335113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D05B",
+    "record_address": "0x8274D04C",
+    "slot_size": 15,
+    "source_hash": "1352E11E2363D49B",
+    "english": "Kazuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11015112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D123",
+    "record_address": "0x8274D114",
+    "slot_size": 15,
+    "source_hash": "800A5D95330BA188",
+    "english": "Naoki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01605112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D1EB",
+    "record_address": "0x8274D1DC",
+    "slot_size": 15,
+    "source_hash": "829CADC63C0320CC",
+    "english": "Shun",
+    "source_urls": [
+      "https://npb.jp/bis/players/51855112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D37B",
+    "record_address": "0x8274D36C",
+    "slot_size": 15,
+    "source_hash": "6B441DED9EFA2544",
+    "english": "Ryoji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41443880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D443",
+    "record_address": "0x8274D434",
+    "slot_size": 15,
+    "source_hash": "0CD30B6CC0DDC229",
+    "english": "Kazunari",
+    "source_urls": [
+      "https://npb.jp/bis/players/21723882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D50B",
+    "record_address": "0x8274D4FC",
+    "slot_size": 15,
+    "source_hash": "7E70E6BB580711A7",
+    "english": "Shuichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81485117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D5D3",
+    "record_address": "0x8274D5C4",
+    "slot_size": 15,
+    "source_hash": "5D31EC3C5C77320E",
+    "english": "Takuro",
+    "source_urls": [
+      "https://npb.jp/bis/players/65563868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D69B",
+    "record_address": "0x8274D68C",
+    "slot_size": 15,
+    "source_hash": "6EAC5FBF59107F58",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31033889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D763",
+    "record_address": "0x8274D754",
+    "slot_size": 15,
+    "source_hash": "CD6061ADE5F51B84",
+    "english": "Kazuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/21225110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D82B",
+    "record_address": "0x8274D81C",
+    "slot_size": 15,
+    "source_hash": "B814A453DB1C2414",
+    "english": "Seiichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21325113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D8F3",
+    "record_address": "0x8274D8E4",
+    "slot_size": 15,
+    "source_hash": "90CA4BDB04CDA50C",
+    "english": "Masaaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21523888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274D9BB",
+    "record_address": "0x8274D9AC",
+    "slot_size": 15,
+    "source_hash": "BD2CA758F726D1A7",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21523887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DA83",
+    "record_address": "0x8274DA74",
+    "slot_size": 15,
+    "source_hash": "B76E19B2DB444892",
+    "english": "Hitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/73373881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DB4B",
+    "record_address": "0x8274DB3C",
+    "slot_size": 15,
+    "source_hash": "BEEB0C3D2A25CA0F",
+    "english": "Shingo",
+    "source_urls": [
+      "https://npb.jp/bis/players/11215115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DC13",
+    "record_address": "0x8274DC04",
+    "slot_size": 15,
+    "source_hash": "64F65FE93D430D22",
+    "english": "Katsuaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01003888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DCDB",
+    "record_address": "0x8274DCCC",
+    "slot_size": 15,
+    "source_hash": "05630E64D1C4A6FD",
+    "english": "Takanori",
+    "source_urls": [
+      "https://npb.jp/bis/players/93193883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DDA3",
+    "record_address": "0x8274DD94",
+    "slot_size": 15,
+    "source_hash": "AEAE3E64DFFE0D3F",
+    "english": "Tatsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91593888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DE6B",
+    "record_address": "0x8274DE5C",
+    "slot_size": 15,
+    "source_hash": "B76E19B2DB444892",
+    "english": "Hitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DF33",
+    "record_address": "0x8274DF24",
+    "slot_size": 15,
+    "source_hash": "8E3FDC83CFAC226C",
+    "english": "Ryusuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274DFFB",
+    "record_address": "0x8274DFEC",
+    "slot_size": 15,
+    "source_hash": "7E8390EF3E6DDB57",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41043886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E0C3",
+    "record_address": "0x8274E0B4",
+    "slot_size": 15,
+    "source_hash": "CB6173653F5C755B",
+    "english": "Masakuni",
+    "source_urls": [
+      "https://npb.jp/bis/players/71575115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E18B",
+    "record_address": "0x8274E17C",
+    "slot_size": 15,
+    "source_hash": "6D84ABAD87B4BA37",
+    "english": "Nobuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61065113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E253",
+    "record_address": "0x8274E244",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E31B",
+    "record_address": "0x8274E30C",
+    "slot_size": 15,
+    "source_hash": "1506B7ABE245206B",
+    "english": "Shogo",
+    "source_urls": [
+      "https://npb.jp/bis/players/01705117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E3E3",
+    "record_address": "0x8274E3D4",
+    "slot_size": 15,
+    "source_hash": "D1759F4769A666AA",
+    "english": "Yuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61665117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E63B",
+    "record_address": "0x8274E62C",
+    "slot_size": 15,
+    "source_hash": "CF26DC1BC870674E",
+    "english": "Yuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81785117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274E703",
+    "record_address": "0x8274E6F4",
+    "slot_size": 15,
+    "source_hash": "43782ABCDEB42B93",
+    "english": "Kazunori",
+    "source_urls": [
+      "https://npb.jp/bis/players/81785111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275151B",
+    "record_address": "0x8275150C",
+    "slot_size": 15,
+    "source_hash": "7C9F1C65C34F2A2B",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01105111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827516AB",
+    "record_address": "0x8275169C",
+    "slot_size": 15,
+    "source_hash": "7145C93B3DEDF734",
+    "english": "Yasuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751773",
+    "record_address": "0x82751764",
+    "slot_size": 15,
+    "source_hash": "64081EBF97CCC6B8",
+    "english": "Hideki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751903",
+    "record_address": "0x827518F4",
+    "slot_size": 15,
+    "source_hash": "1E0E0CBC69829D5F",
+    "english": "Kanehisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/21125115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827519CB",
+    "record_address": "0x827519BC",
+    "slot_size": 15,
+    "source_hash": "5BA04C2CE833810E",
+    "english": "Hiroki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81083880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751A93",
+    "record_address": "0x82751A84",
+    "slot_size": 15,
+    "source_hash": "0957D6B8D95E329F",
+    "english": "Masahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751B5B",
+    "record_address": "0x82751B4C",
+    "slot_size": 15,
+    "source_hash": "7A6516CC0191D802",
+    "english": "Shigeo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751C23",
+    "record_address": "0x82751C14",
+    "slot_size": 15,
+    "source_hash": "B9EEFDBE891B4B90",
+    "english": "Shinichiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/81583884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751CEB",
+    "record_address": "0x82751CDC",
+    "slot_size": 15,
+    "source_hash": "7A816BA4B5EDD138",
+    "english": "Toyohiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/51253866.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751DB3",
+    "record_address": "0x82751DA4",
+    "slot_size": 15,
+    "source_hash": "A0F7BF73A6CFA22A",
+    "english": "Kazuo",
+    "source_urls": [
+      "https://npb.jp/bis/players/41943880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751E7B",
+    "record_address": "0x82751E6C",
+    "slot_size": 15,
+    "source_hash": "E9F24109E219C863",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275200B",
+    "record_address": "0x82751FFC",
+    "slot_size": 15,
+    "source_hash": "B340A3D4D2729FAE",
+    "english": "Shingo",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827520D3",
+    "record_address": "0x827520C4",
+    "slot_size": 15,
+    "source_hash": "1385211078314BE8",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275219B",
+    "record_address": "0x8275218C",
+    "slot_size": 15,
+    "source_hash": "0BEAF68B62382620",
+    "english": "Hisaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81783880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752263",
+    "record_address": "0x82752254",
+    "slot_size": 15,
+    "source_hash": "17AFFCADA3ED4B50",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275232B",
+    "record_address": "0x8275231C",
+    "slot_size": 15,
+    "source_hash": "86877FD10DB95FE5",
+    "english": "Koki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51655110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827523F3",
+    "record_address": "0x827523E4",
+    "slot_size": 15,
+    "source_hash": "D6FB639FE31F11DA",
+    "english": "Yasuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81383885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827524BB",
+    "record_address": "0x827524AC",
+    "slot_size": 15,
+    "source_hash": "2C027D0F733967F0",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41943887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752583",
+    "record_address": "0x82752574",
+    "slot_size": 15,
+    "source_hash": "22F1D72BB0A2C391",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275264B",
+    "record_address": "0x8275263C",
+    "slot_size": 15,
+    "source_hash": "4F767D042DA46811",
+    "english": "Hironori",
+    "source_urls": [
+      "https://npb.jp/bis/players/91093888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752713",
+    "record_address": "0x82752704",
+    "slot_size": 15,
+    "source_hash": "0B10F5313B57CCB9",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827527DB",
+    "record_address": "0x827527CC",
+    "slot_size": 15,
+    "source_hash": "B4295CA852FC4A90",
+    "english": "Akihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/51053888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827528A3",
+    "record_address": "0x82752894",
+    "slot_size": 15,
+    "source_hash": "32BFD31679F2EE0F",
+    "english": "Kenji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41045115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752A33",
+    "record_address": "0x82752A24",
+    "slot_size": 15,
+    "source_hash": "C10C36789BA64EB3",
+    "english": "Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752AFB",
+    "record_address": "0x82752AEC",
+    "slot_size": 15,
+    "source_hash": "ACB0AD6CF1F5BD0B",
+    "english": "Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/21823881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752BC3",
+    "record_address": "0x82752BB4",
+    "slot_size": 15,
+    "source_hash": "69ACB6B524A41176",
+    "english": "Yosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752C8B",
+    "record_address": "0x82752C7C",
+    "slot_size": 15,
+    "source_hash": "40D2B656881A86E9",
+    "english": "Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752D53",
+    "record_address": "0x82752D44",
+    "slot_size": 15,
+    "source_hash": "2A8C99C94E6C85DC",
+    "english": "Tadaharu",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752FAB",
+    "record_address": "0x82752F9C",
+    "slot_size": 15,
+    "source_hash": "2AA54FD851E5869A",
+    "english": "Manabu",
+    "source_urls": [
+      "https://npb.jp/bis/players/11713884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753073",
+    "record_address": "0x82753064",
+    "slot_size": 15,
+    "source_hash": "F618C4095548C808",
+    "english": "Fumitoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91795111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275313B",
+    "record_address": "0x8275312C",
+    "slot_size": 15,
+    "source_hash": "4332231D662AE2AD",
+    "english": "Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01703883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753203",
+    "record_address": "0x827531F4",
+    "slot_size": 15,
+    "source_hash": "198721AB6E653667",
+    "english": "Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01103884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827532CB",
+    "record_address": "0x827532BC",
+    "slot_size": 15,
+    "source_hash": "A05DEFAA04000D8F",
+    "english": "Teppei",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753393",
+    "record_address": "0x82753384",
+    "slot_size": 15,
+    "source_hash": "6B56469273B02D81",
+    "english": "Tetsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/15213868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275345B",
+    "record_address": "0x8275344C",
+    "slot_size": 15,
+    "source_hash": "AC4FA2DAB463513F",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11715112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753523",
+    "record_address": "0x82753514",
+    "slot_size": 15,
+    "source_hash": "B76E19B2DB444892",
+    "english": "Jin",
+    "source_urls": [
+      "https://npb.jp/bis/players/01003886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827535EB",
+    "record_address": "0x827535DC",
+    "slot_size": 15,
+    "source_hash": "6AAE52554C1045E3",
+    "english": "Katsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/61565119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827536B3",
+    "record_address": "0x827536A4",
+    "slot_size": 15,
+    "source_hash": "4CD44AC3A92CBE99",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/01705112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275377B",
+    "record_address": "0x8275376C",
+    "slot_size": 15,
+    "source_hash": "76E4984E7DB47BBF",
+    "english": "Katsumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753843",
+    "record_address": "0x82753834",
+    "slot_size": 15,
+    "source_hash": "5A65EF5B0E3DA8C0",
+    "english": "Hidemitsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/71573889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275390B",
+    "record_address": "0x827538FC",
+    "slot_size": 15,
+    "source_hash": "B2C6379DBA4B7010",
+    "english": "Kenshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91393880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753A9B",
+    "record_address": "0x82753A8C",
+    "slot_size": 15,
+    "source_hash": "69ACB6B524A41176",
+    "english": "Yosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/91295110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753B63",
+    "record_address": "0x82753B54",
+    "slot_size": 15,
+    "source_hash": "93DAE3FCFC5A2C09",
+    "english": "Akihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/91493886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753F4B",
+    "record_address": "0x82753F3C",
+    "slot_size": 15,
+    "source_hash": "292FBF045F84E382",
+    "english": "Satoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754013",
+    "record_address": "0x82754004",
+    "slot_size": 15,
+    "source_hash": "8357771142EAB92A",
+    "english": "Yu",
+    "source_urls": [
+      "https://npb.jp/bis/players/61965110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827540DB",
+    "record_address": "0x827540CC",
+    "slot_size": 15,
+    "source_hash": "C81E4703B225F3E7",
+    "english": "Shintaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275426B",
+    "record_address": "0x8275425C",
+    "slot_size": 15,
+    "source_hash": "75D80F7B8ED22751",
+    "english": "Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754333",
+    "record_address": "0x82754324",
+    "slot_size": 15,
+    "source_hash": "AE9C6DA2587BD076",
+    "english": "Itsuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61565111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275458B",
+    "record_address": "0x8275457C",
+    "slot_size": 15,
+    "source_hash": "9A87E7AB9ED7F07C",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41045117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754653",
+    "record_address": "0x82754644",
+    "slot_size": 15,
+    "source_hash": "E82BD6E6AB460E99",
+    "english": "Masaru",
+    "source_urls": [
+      "https://npb.jp/bis/players/91495111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275471B",
+    "record_address": "0x8275470C",
+    "slot_size": 15,
+    "source_hash": "1B3F2F5B6A5700E6",
+    "english": "Yoshinori",
+    "source_urls": [
+      "https://npb.jp/bis/players/61763888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827547E3",
+    "record_address": "0x827547D4",
+    "slot_size": 15,
+    "source_hash": "09982DA171AAB002",
+    "english": "Yukiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827548AB",
+    "record_address": "0x8275489C",
+    "slot_size": 15,
+    "source_hash": "7B579461B9321575",
+    "english": "Hideki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31935119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754973",
+    "record_address": "0x82754964",
+    "slot_size": 15,
+    "source_hash": "A18497CCDCFE4AA5",
+    "english": "Tomoya",
+    "source_urls": [
+      "https://npb.jp/bis/players/61665112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754A3B",
+    "record_address": "0x82754A2C",
+    "slot_size": 15,
+    "source_hash": "E1B05DB233983AB4",
+    "english": "Naoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754B03",
+    "record_address": "0x82754AF4",
+    "slot_size": 15,
+    "source_hash": "5AABA3C34BC0D88C",
+    "english": "Takehiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/91395119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754C93",
+    "record_address": "0x82754C84",
+    "slot_size": 15,
+    "source_hash": "E96A365C9E8F0EA5",
+    "english": "Kazumasa",
+    "source_urls": [
+      "https://npb.jp/bis/players/51555110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754D5B",
+    "record_address": "0x82754D4C",
+    "slot_size": 15,
+    "source_hash": "4583CD2FE84F619C",
+    "english": "Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754E23",
+    "record_address": "0x82754E14",
+    "slot_size": 15,
+    "source_hash": "EB453DBC9BC4E329",
+    "english": "Tomokazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51355113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754EEB",
+    "record_address": "0x82754EDC",
+    "slot_size": 15,
+    "source_hash": "E82BD6E6AB460E99",
+    "english": "Masaru",
+    "source_urls": [
+      "https://npb.jp/bis/players/71075112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754FB3",
+    "record_address": "0x82754FA4",
+    "slot_size": 15,
+    "source_hash": "0D70391357A935C9",
+    "english": "Yoshitaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/51255110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275507B",
+    "record_address": "0x8275506C",
+    "slot_size": 15,
+    "source_hash": "DE68451AB5E57E2E",
+    "english": "Kiyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71575111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755143",
+    "record_address": "0x82755134",
+    "slot_size": 15,
+    "source_hash": "7D9173D1E0329BC6",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61263884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275520B",
+    "record_address": "0x827551FC",
+    "slot_size": 15,
+    "source_hash": "F9BCF270D11AE09E",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31933884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827552D3",
+    "record_address": "0x827552C4",
+    "slot_size": 15,
+    "source_hash": "0CD30B6CC0DDC229",
+    "english": "Kazunari",
+    "source_urls": [
+      "https://npb.jp/bis/players/51753888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275539B",
+    "record_address": "0x8275538C",
+    "slot_size": 15,
+    "source_hash": "F7878D0F2C4CD245",
+    "english": "Michihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275552B",
+    "record_address": "0x8275551C",
+    "slot_size": 15,
+    "source_hash": "DA8EFA22A582EA5E",
+    "english": "Kuniyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/91795113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827555F3",
+    "record_address": "0x827555E4",
+    "slot_size": 15,
+    "source_hash": "FCFDA1ABA0E106FE",
+    "english": "Tomoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827556BB",
+    "record_address": "0x827556AC",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755783",
+    "record_address": "0x82755774",
+    "slot_size": 15,
+    "source_hash": "1213A0409F83448F",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755913",
+    "record_address": "0x82755904",
+    "slot_size": 15,
+    "source_hash": "9F931D61FB24EB13",
+    "english": "Yukio",
+    "source_urls": [
+      "https://npb.jp/bis/players/41743862.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827559DB",
+    "record_address": "0x827559CC",
+    "slot_size": 15,
+    "source_hash": "51A136651836C26E",
+    "english": "Eiichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71975117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755B6B",
+    "record_address": "0x82755B5C",
+    "slot_size": 15,
+    "source_hash": "F2322C2D1E988811",
+    "english": "Hichori",
+    "source_urls": [
+      "https://npb.jp/bis/players/41243888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755C33",
+    "record_address": "0x82755C24",
+    "slot_size": 15,
+    "source_hash": "A18497CCDCFE4AA5",
+    "english": "Tomochika",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755DC3",
+    "record_address": "0x82755DB4",
+    "slot_size": 15,
+    "source_hash": "CA587B2A55B81BF2",
+    "english": "Atsunori",
+    "source_urls": [
+      "https://npb.jp/bis/players/91193880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755E8B",
+    "record_address": "0x82755E7C",
+    "slot_size": 15,
+    "source_hash": "57FE2CE775FF7BDB",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793864.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755F53",
+    "record_address": "0x82755F44",
+    "slot_size": 15,
+    "source_hash": "89E0E07C2FF37A72",
+    "english": "Shinya",
+    "source_urls": [
+      "https://npb.jp/bis/players/71275117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275601B",
+    "record_address": "0x8275600C",
+    "slot_size": 15,
+    "source_hash": "4BCAA475AA300FE3",
+    "english": "Shigeyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827560E3",
+    "record_address": "0x827560D4",
+    "slot_size": 15,
+    "source_hash": "741D98BAB7250C15",
+    "english": "Kensuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/11915111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827561AB",
+    "record_address": "0x8275619C",
+    "slot_size": 15,
+    "source_hash": "86504BE920C13CDD",
+    "english": "Keizo",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756273",
+    "record_address": "0x82756264",
+    "slot_size": 15,
+    "source_hash": "5591BF7415A0CB1D",
+    "english": "Yuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/71173886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275633B",
+    "record_address": "0x8275632C",
+    "slot_size": 15,
+    "source_hash": "7D08C99772166DEF",
+    "english": "Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61165110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756403",
+    "record_address": "0x827563F4",
+    "slot_size": 15,
+    "source_hash": "9B70EBFC6EFAEC08",
+    "english": "Shogo",
+    "source_urls": [
+      "https://npb.jp/bis/players/71473886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827564CB",
+    "record_address": "0x827564BC",
+    "slot_size": 15,
+    "source_hash": "BB07FDDEE01D8A4A",
+    "english": "Toshimasa",
+    "source_urls": [
+      "https://npb.jp/bis/players/91995117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756593",
+    "record_address": "0x82756584",
+    "slot_size": 15,
+    "source_hash": "10A9368A851881F8",
+    "english": "Takahito",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275697B",
+    "record_address": "0x8275696C",
+    "slot_size": 15,
+    "source_hash": "4CD44AC3A92CBE99",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756A43",
+    "record_address": "0x82756A34",
+    "slot_size": 15,
+    "source_hash": "8C30D02E5C20903B",
+    "english": "Fumiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/51953880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756B0B",
+    "record_address": "0x82756AFC",
+    "slot_size": 15,
+    "source_hash": "CC649A7AD2A8DFA6",
+    "english": "Kazuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41245113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756C9B",
+    "record_address": "0x82756C8C",
+    "slot_size": 15,
+    "source_hash": "E7A5783B0ED3F781",
+    "english": "Hideaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31635110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756D63",
+    "record_address": "0x82756D54",
+    "slot_size": 15,
+    "source_hash": "1506E574EE86DD85",
+    "english": "Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/31233884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756E2B",
+    "record_address": "0x82756E1C",
+    "slot_size": 15,
+    "source_hash": "2E25BC896184F4E7",
+    "english": "Junichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756EF3",
+    "record_address": "0x82756EE4",
+    "slot_size": 15,
+    "source_hash": "7446B928847AD9B3",
+    "english": "Eiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/11713886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756FBB",
+    "record_address": "0x82756FAC",
+    "slot_size": 15,
+    "source_hash": "E9F24109E219C863",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757083",
+    "record_address": "0x82757074",
+    "slot_size": 15,
+    "source_hash": "CA26EF0C67FDE001",
+    "english": "Tomoki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41043888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275714B",
+    "record_address": "0x8275713C",
+    "slot_size": 15,
+    "source_hash": "3D895FCD729C6D03",
+    "english": "Chikara",
+    "source_urls": [
+      "https://npb.jp/bis/players/51555117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757213",
+    "record_address": "0x82757204",
+    "slot_size": 15,
+    "source_hash": "6EDF7A87EFDA8CFF",
+    "english": "Zuja",
+    "source_urls": [
+      "https://npb.jp/bis/players/63165115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827572DB",
+    "record_address": "0x827572CC",
+    "slot_size": 15,
+    "source_hash": "AA687099EE52414F",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31133889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275746B",
+    "record_address": "0x8275745C",
+    "slot_size": 15,
+    "source_hash": "5ACAB892537B89CF",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757533",
+    "record_address": "0x82757524",
+    "slot_size": 15,
+    "source_hash": "0B10F5313B57CCB9",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827575FB",
+    "record_address": "0x827575EC",
+    "slot_size": 15,
+    "source_hash": "CD767C2C98B4E12E",
+    "english": "Mitsutaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/51555111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827576C3",
+    "record_address": "0x827576B4",
+    "slot_size": 15,
+    "source_hash": "353B58174CAD76BA",
+    "english": "Shuichiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275778B",
+    "record_address": "0x8275777C",
+    "slot_size": 15,
+    "source_hash": "3C24F8D6CC0AAE3A",
+    "english": "Minche",
+    "source_urls": [
+      "https://npb.jp/bis/players/01605111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757853",
+    "record_address": "0x82757844",
+    "slot_size": 15,
+    "source_hash": "2323A6CC48447927",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/01905115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275791B",
+    "record_address": "0x8275790C",
+    "slot_size": 15,
+    "source_hash": "54C712191280D7BB",
+    "english": "Kazumasa",
+    "source_urls": [
+      "https://npb.jp/bis/players/01105113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827579E3",
+    "record_address": "0x827579D4",
+    "slot_size": 15,
+    "source_hash": "3D18F24A5521CD31",
+    "english": "Atsushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51355119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757AAB",
+    "record_address": "0x82757A9C",
+    "slot_size": 15,
+    "source_hash": "C86AC50A0C516CF3",
+    "english": "Minoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/11615110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757B73",
+    "record_address": "0x82757B64",
+    "slot_size": 15,
+    "source_hash": "13EF1023B367E116",
+    "english": "Hironori",
+    "source_urls": [
+      "https://npb.jp/bis/players/71675112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757C3B",
+    "record_address": "0x82757C2C",
+    "slot_size": 15,
+    "source_hash": "AAEE60E51DFF2CC6",
+    "english": "Toru",
+    "source_urls": [
+      "https://npb.jp/bis/players/71475115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757D03",
+    "record_address": "0x82757CF4",
+    "slot_size": 15,
+    "source_hash": "C25ABF9487710AA3",
+    "english": "Kosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/11215113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757E93",
+    "record_address": "0x82757E84",
+    "slot_size": 15,
+    "source_hash": "59B1447F7FB7C7E5",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51753880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82757F5B",
+    "record_address": "0x82757F4C",
+    "slot_size": 15,
+    "source_hash": "4D86D419BFAEB4E6",
+    "english": "Yoshihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/91193884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827580EB",
+    "record_address": "0x827580DC",
+    "slot_size": 15,
+    "source_hash": "4E3877BD054DF451",
+    "english": "Takeya",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827581B3",
+    "record_address": "0x827581A4",
+    "slot_size": 15,
+    "source_hash": "E051EEEB5573A0E4",
+    "english": "Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/53253868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758343",
+    "record_address": "0x82758334",
+    "slot_size": 15,
+    "source_hash": "DF76D84ADC18BA62",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275840B",
+    "record_address": "0x827583FC",
+    "slot_size": 15,
+    "source_hash": "9F98BBD0172FC78C",
+    "english": "Masahide",
+    "source_urls": [
+      "https://npb.jp/bis/players/31335111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275859B",
+    "record_address": "0x8275858C",
+    "slot_size": 15,
+    "source_hash": "268C1F691D8CE311",
+    "english": "Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758663",
+    "record_address": "0x82758654",
+    "slot_size": 15,
+    "source_hash": "3BC6BE63C8C78AB8",
+    "english": "Shogo",
+    "source_urls": [
+      "https://npb.jp/bis/players/51153888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275872B",
+    "record_address": "0x8275871C",
+    "slot_size": 15,
+    "source_hash": "0B681D905F4566AF",
+    "english": "Tomoaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827587F3",
+    "record_address": "0x827587E4",
+    "slot_size": 15,
+    "source_hash": "2082A85F164F8E09",
+    "english": "Takumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827588BB",
+    "record_address": "0x827588AC",
+    "slot_size": 15,
+    "source_hash": "DF769C510FB71260",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758983",
+    "record_address": "0x82758974",
+    "slot_size": 15,
+    "source_hash": "37D42EC3A7D0D0F5",
+    "english": "Tatsuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71375117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758A4B",
+    "record_address": "0x82758A3C",
+    "slot_size": 15,
+    "source_hash": "1553E7AF33D5AB7E",
+    "english": "Taketoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11915117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758BDB",
+    "record_address": "0x82758BCC",
+    "slot_size": 15,
+    "source_hash": "537A51C2D25B8150",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758CA3",
+    "record_address": "0x82758C94",
+    "slot_size": 15,
+    "source_hash": "66E11A3178A35F7A",
+    "english": "Keisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/31435113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758D6B",
+    "record_address": "0x82758D5C",
+    "slot_size": 15,
+    "source_hash": "9A87E7AB9ED7F07C",
+    "english": "Hisashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61765111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758E33",
+    "record_address": "0x82758E24",
+    "slot_size": 15,
+    "source_hash": "F0AEB2BE8EB12EDF",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71773888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758EFB",
+    "record_address": "0x82758EEC",
+    "slot_size": 15,
+    "source_hash": "1AE639DA1A178580",
+    "english": "Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/61065119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82758FC3",
+    "record_address": "0x82758FB4",
+    "slot_size": 15,
+    "source_hash": "58EC3DC9A1595604",
+    "english": "Fumikazu",
+    "source_urls": [
+      "https://npb.jp/bis/players/51753889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827593AB",
+    "record_address": "0x8275939C",
+    "slot_size": 15,
+    "source_hash": "AD3D01C4CC7D4B53",
+    "english": "Hidetaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/11513888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759473",
+    "record_address": "0x82759464",
+    "slot_size": 15,
+    "source_hash": "497C5E44976ADE5F",
+    "english": "Atsuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61465110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827596CB",
+    "record_address": "0x827596BC",
+    "slot_size": 15,
+    "source_hash": "0241EBA9B61848EF",
+    "english": "Masato",
+    "source_urls": [
+      "https://npb.jp/bis/players/51653860.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759793",
+    "record_address": "0x82759784",
+    "slot_size": 15,
+    "source_hash": "1352E11E2363D49B",
+    "english": "Kazuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11615115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275985B",
+    "record_address": "0x8275984C",
+    "slot_size": 15,
+    "source_hash": "1EB2B2F82DBBB776",
+    "english": "Tatsuo",
+    "source_urls": [
+      "https://npb.jp/bis/players/21325119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759923",
+    "record_address": "0x82759914",
+    "slot_size": 15,
+    "source_hash": "861279270A7D0E68",
+    "english": "Ryota",
+    "source_urls": [
+      "https://npb.jp/bis/players/01305119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827599EB",
+    "record_address": "0x827599DC",
+    "slot_size": 15,
+    "source_hash": "714AA40813DAC8A0",
+    "english": "Jun",
+    "source_urls": [
+      "https://npb.jp/bis/players/71273885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759AB3",
+    "record_address": "0x82759AA4",
+    "slot_size": 15,
+    "source_hash": "4CD44AC3A92CBE99",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21525117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759B7B",
+    "record_address": "0x82759B6C",
+    "slot_size": 15,
+    "source_hash": "ABD9F169C70048A8",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21323887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759C43",
+    "record_address": "0x82759C34",
+    "slot_size": 15,
+    "source_hash": "6852C25D075234B4",
+    "english": "Masanobu",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759D0B",
+    "record_address": "0x82759CFC",
+    "slot_size": 15,
+    "source_hash": "A0F7BF73A6CFA22A",
+    "english": "Kazuo",
+    "source_urls": [
+      "https://npb.jp/bis/players/31435111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759E9B",
+    "record_address": "0x82759E8C",
+    "slot_size": 15,
+    "source_hash": "FFCCA68AC4C67C1B",
+    "english": "Shogo",
+    "source_urls": [
+      "https://npb.jp/bis/players/81485113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759F63",
+    "record_address": "0x82759F54",
+    "slot_size": 15,
+    "source_hash": "AF6B0F9D14DB7BBC",
+    "english": "Kazuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/91795115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A02B",
+    "record_address": "0x8275A01C",
+    "slot_size": 15,
+    "source_hash": "1AE639DA1A178580",
+    "english": "Kenta",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A0F3",
+    "record_address": "0x8275A0E4",
+    "slot_size": 15,
+    "source_hash": "2B3D9B0101186754",
+    "english": "Katsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/21023884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A1BB",
+    "record_address": "0x8275A1AC",
+    "slot_size": 15,
+    "source_hash": "C28319ADEDAED285",
+    "english": "Katsunari",
+    "source_urls": [
+      "https://npb.jp/bis/players/71475111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A283",
+    "record_address": "0x8275A274",
+    "slot_size": 15,
+    "source_hash": "4D62E9A70F4CEEDA",
+    "english": "Yasunari",
+    "source_urls": [
+      "https://npb.jp/bis/players/71775111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A34B",
+    "record_address": "0x8275A33C",
+    "slot_size": 15,
+    "source_hash": "361820160F87ED6A",
+    "english": "Toyoji",
+    "source_urls": [
+      "https://npb.jp/bis/players/81085119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A413",
+    "record_address": "0x8275A404",
+    "slot_size": 15,
+    "source_hash": "B74DBF533D1A85B9",
+    "english": "Chihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A4DB",
+    "record_address": "0x8275A4CC",
+    "slot_size": 15,
+    "source_hash": "3F4E8610E1160F63",
+    "english": "Yoshihisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/81285112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A5A3",
+    "record_address": "0x8275A594",
+    "slot_size": 15,
+    "source_hash": "8A0D1AD968568E2F",
+    "english": "Mamoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/51755112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A66B",
+    "record_address": "0x8275A65C",
+    "slot_size": 15,
+    "source_hash": "4583CD2FE84F619C",
+    "english": "Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A733",
+    "record_address": "0x8275A724",
+    "slot_size": 15,
+    "source_hash": "6B56469273B02D81",
+    "english": "Tetsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A7FB",
+    "record_address": "0x8275A7EC",
+    "slot_size": 15,
+    "source_hash": "F9F13A737EA2E11C",
+    "english": "Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41343862.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A8C3",
+    "record_address": "0x8275A8B4",
+    "slot_size": 15,
+    "source_hash": "453C361D573A8A17",
+    "english": "Norihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/21023885.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275A98B",
+    "record_address": "0x8275A97C",
+    "slot_size": 15,
+    "source_hash": "382D964FE35C1727",
+    "english": "Hirotoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81383880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275AA53",
+    "record_address": "0x8275AA44",
+    "slot_size": 15,
+    "source_hash": "0E7CAF4B4B418EE4",
+    "english": "Eiji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41643883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275AB1B",
+    "record_address": "0x8275AB0C",
+    "slot_size": 15,
+    "source_hash": "915B245CB7219959",
+    "english": "Mitsutaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/71775115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275ABE3",
+    "record_address": "0x8275ABD4",
+    "slot_size": 15,
+    "source_hash": "F79C1F44B96AA7DD",
+    "english": "Masahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/41145113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275ACAB",
+    "record_address": "0x8275AC9C",
+    "slot_size": 15,
+    "source_hash": "9EE48BE577B5CBA9",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/71773884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275AE3B",
+    "record_address": "0x8275AE2C",
+    "slot_size": 15,
+    "source_hash": "E54C941319EA4183",
+    "english": "Keiichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275AF03",
+    "record_address": "0x8275AEF4",
+    "slot_size": 15,
+    "source_hash": "4B3E0198F6F02227",
+    "english": "Yoshitomo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275AFCB",
+    "record_address": "0x8275AFBC",
+    "slot_size": 15,
+    "source_hash": "BB6076EC5BD77EB6",
+    "english": "Arihito",
+    "source_urls": [
+      "https://npb.jp/bis/players/11613883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B15B",
+    "record_address": "0x8275B14C",
+    "slot_size": 15,
+    "source_hash": "4CD44AC3A92CBE99",
+    "english": "Daisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/91295115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B223",
+    "record_address": "0x8275B214",
+    "slot_size": 15,
+    "source_hash": "C3D2AC80044EE02F",
+    "english": "Hiroaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B2EB",
+    "record_address": "0x8275B2DC",
+    "slot_size": 15,
+    "source_hash": "BEB1E4D51D0290F3",
+    "english": "Fumihiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B3B3",
+    "record_address": "0x8275B3A4",
+    "slot_size": 15,
+    "source_hash": "A4372A4A27F372EC",
+    "english": "Shogo",
+    "source_urls": [
+      "https://npb.jp/bis/players/21425115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B47B",
+    "record_address": "0x8275B46C",
+    "slot_size": 15,
+    "source_hash": "634CF78DACA183B4",
+    "english": "Ikki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01705119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B543",
+    "record_address": "0x8275B534",
+    "slot_size": 15,
+    "source_hash": "263C79D010814A8C",
+    "english": "Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/91995110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B6D3",
+    "record_address": "0x8275B6C4",
+    "slot_size": 15,
+    "source_hash": "BD2CA758F726D1A7",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B79B",
+    "record_address": "0x8275B78C",
+    "slot_size": 15,
+    "source_hash": "22F1D72BB0A2C391",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B863",
+    "record_address": "0x8275B854",
+    "slot_size": 15,
+    "source_hash": "EF88E8E1B8FE77A6",
+    "english": "Yuichiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/61265111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B92B",
+    "record_address": "0x8275B91C",
+    "slot_size": 15,
+    "source_hash": "861279270A7D0E68",
+    "english": "Ryota",
+    "source_urls": [
+      "https://npb.jp/bis/players/31133888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B9F3",
+    "record_address": "0x8275B9E4",
+    "slot_size": 15,
+    "source_hash": "803416A474AE38A3",
+    "english": "Tomotaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/21925117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275BDDB",
+    "record_address": "0x8275BDCC",
+    "slot_size": 15,
+    "source_hash": "13146E2C6E83FB71",
+    "english": "Naoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/41545111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275BEA3",
+    "record_address": "0x8275BE94",
+    "slot_size": 15,
+    "source_hash": "6E9E7C9BE3DC30E9",
+    "english": "Shunsuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/71675113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275BF6B",
+    "record_address": "0x8275BF5C",
+    "slot_size": 15,
+    "source_hash": "322313C30F25099D",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C033",
+    "record_address": "0x8275C024",
+    "slot_size": 15,
+    "source_hash": "507BC493D01C889D",
+    "english": "Shingo",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C0FB",
+    "record_address": "0x8275C0EC",
+    "slot_size": 15,
+    "source_hash": "CD80A882F40C1B59",
+    "english": "Yasutomo",
+    "source_urls": [
+      "https://npb.jp/bis/players/61565110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C1C3",
+    "record_address": "0x8275C1B4",
+    "slot_size": 15,
+    "source_hash": "50AAC4651D567BEF",
+    "english": "Kosuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21525113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C28B",
+    "record_address": "0x8275C27C",
+    "slot_size": 15,
+    "source_hash": "9BB46024373707B6",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/81583864.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C353",
+    "record_address": "0x8275C344",
+    "slot_size": 15,
+    "source_hash": "9427A0885518C19E",
+    "english": "Satoru",
+    "source_urls": [
+      "https://npb.jp/bis/players/31733881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C4E3",
+    "record_address": "0x8275C4D4",
+    "slot_size": 15,
+    "source_hash": "F15165B7160F381C",
+    "english": "Soichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01203886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C5AB",
+    "record_address": "0x8275C59C",
+    "slot_size": 15,
+    "source_hash": "55ADB7FA5F737006",
+    "english": "Yasuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/71273882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C673",
+    "record_address": "0x8275C664",
+    "slot_size": 15,
+    "source_hash": "E66C6A77B07B8C8C",
+    "english": "Masahide",
+    "source_urls": [
+      "https://npb.jp/bis/players/61563888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C73B",
+    "record_address": "0x8275C72C",
+    "slot_size": 15,
+    "source_hash": "75D80F7B8ED22751",
+    "english": "Ken",
+    "source_urls": [
+      "https://npb.jp/bis/players/91893883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C803",
+    "record_address": "0x8275C7F4",
+    "slot_size": 15,
+    "source_hash": "4566173840F41184",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81383888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C8CB",
+    "record_address": "0x8275C8BC",
+    "slot_size": 15,
+    "source_hash": "18CAEA177B4230AE",
+    "english": "Shigetoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C993",
+    "record_address": "0x8275C984",
+    "slot_size": 15,
+    "source_hash": "F07F8BC17094028C",
+    "english": "Tatsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/61165119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CA5B",
+    "record_address": "0x8275CA4C",
+    "slot_size": 15,
+    "source_hash": "E051EEEB5573A0E4",
+    "english": "Satoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11015110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CB23",
+    "record_address": "0x8275CB14",
+    "slot_size": 15,
+    "source_hash": "E2117B93CAE23678",
+    "english": "Tomohiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CBEB",
+    "record_address": "0x8275CBDC",
+    "slot_size": 15,
+    "source_hash": "9B879C2572FBA77B",
+    "english": "Yoshihisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/11015119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CCB3",
+    "record_address": "0x8275CCA4",
+    "slot_size": 15,
+    "source_hash": "3C1706B4C6A4AEF5",
+    "english": "Yoshihide",
+    "source_urls": [
+      "https://npb.jp/bis/players/31735117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CD7B",
+    "record_address": "0x8275CD6C",
+    "slot_size": 15,
+    "source_hash": "4F45735AC4C43406",
+    "english": "Keita",
+    "source_urls": [
+      "https://npb.jp/bis/players/31135117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D09B",
+    "record_address": "0x8275D08C",
+    "slot_size": 15,
+    "source_hash": "965100AB4C2E9FB9",
+    "english": "Tomoya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31733888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D163",
+    "record_address": "0x8275D154",
+    "slot_size": 15,
+    "source_hash": "333A011EAE9F8CAD",
+    "english": "Tasuku",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D22B",
+    "record_address": "0x8275D21C",
+    "slot_size": 15,
+    "source_hash": "4583CD2FE84F619C",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31435117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D3BB",
+    "record_address": "0x8275D3AC",
+    "slot_size": 15,
+    "source_hash": "1352E11E2363D49B",
+    "english": "Kazuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/21923889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D483",
+    "record_address": "0x8275D474",
+    "slot_size": 15,
+    "source_hash": "05D5DB17C4758429",
+    "english": "Koichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/73873868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D54B",
+    "record_address": "0x8275D53C",
+    "slot_size": 15,
+    "source_hash": "5796267B0F9BEC80",
+    "english": "Masato",
+    "source_urls": [
+      "https://npb.jp/bis/players/81483886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D613",
+    "record_address": "0x8275D604",
+    "slot_size": 15,
+    "source_hash": "CE5AE5A6C4EC3880",
+    "english": "Hisao",
+    "source_urls": [
+      "https://npb.jp/bis/players/21025111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D933",
+    "record_address": "0x8275D924",
+    "slot_size": 15,
+    "source_hash": "9A9C3B445632167F",
+    "english": "Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/61163889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DAC3",
+    "record_address": "0x8275DAB4",
+    "slot_size": 15,
+    "source_hash": "F487995626BA558B",
+    "english": "Kenji",
+    "source_urls": [
+      "https://npb.jp/bis/players/91093889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DB8B",
+    "record_address": "0x8275DB7C",
+    "slot_size": 15,
+    "source_hash": "F35E8FBD772E46C6",
+    "english": "Naotaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/71975110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DC53",
+    "record_address": "0x8275DC44",
+    "slot_size": 15,
+    "source_hash": "5F832F766FBD6055",
+    "english": "Shoitsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/71375110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DD1B",
+    "record_address": "0x8275DD0C",
+    "slot_size": 15,
+    "source_hash": "E4A6CE79F14F6F3D",
+    "english": "Toshiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11015115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DDE3",
+    "record_address": "0x8275DDD4",
+    "slot_size": 15,
+    "source_hash": "41982061DBE3303E",
+    "english": "Masahiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/71975119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275DEAB",
+    "record_address": "0x8275DE9C",
+    "slot_size": 15,
+    "source_hash": "66E11A3178A35F7A",
+    "english": "Keisuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E03B",
+    "record_address": "0x8275E02C",
+    "slot_size": 15,
+    "source_hash": "ABD9F169C70048A8",
+    "english": "Takeshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71175113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E103",
+    "record_address": "0x8275E0F4",
+    "slot_size": 15,
+    "source_hash": "962686E053391CEE",
+    "english": "Shunichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01205112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E1CB",
+    "record_address": "0x8275E1BC",
+    "slot_size": 15,
+    "source_hash": "6B56469273B02D81",
+    "english": "Tetsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/27123868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E293",
+    "record_address": "0x8275E284",
+    "slot_size": 15,
+    "source_hash": "1095EDA25E4EDC55",
+    "english": "Jun",
+    "source_urls": [
+      "https://npb.jp/bis/players/55953868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E35B",
+    "record_address": "0x8275E34C",
+    "slot_size": 15,
+    "source_hash": "DF769C510FB71260",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/11013882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E423",
+    "record_address": "0x8275E414",
+    "slot_size": 15,
+    "source_hash": "1EE2EE7DD8E15FA3",
+    "english": "Takashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/81585115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E80B",
+    "record_address": "0x8275E7FC",
+    "slot_size": 15,
+    "source_hash": "E4A6CE79F14F6F3D",
+    "english": "Toshiya",
+    "source_urls": [
+      "https://npb.jp/bis/players/31935115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E8D3",
+    "record_address": "0x8275E8C4",
+    "slot_size": 15,
+    "source_hash": "84693E53C68756C8",
+    "english": "Kazumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275E99B",
+    "record_address": "0x8275E98C",
+    "slot_size": 15,
+    "source_hash": "ABD9F169C70048A8",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/11815117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EBF3",
+    "record_address": "0x8275EBE4",
+    "slot_size": 15,
+    "source_hash": "0CD0001CA9820A41",
+    "english": "Hideaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31935110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275ECBB",
+    "record_address": "0x8275ECAC",
+    "slot_size": 15,
+    "source_hash": "E71C0CB68ADCDDA1",
+    "english": "Shintaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/11213889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275ED83",
+    "record_address": "0x8275ED74",
+    "slot_size": 15,
+    "source_hash": "FE33F349BD1A117C",
+    "english": "Yasushi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21525115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EE4B",
+    "record_address": "0x8275EE3C",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/41543889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EF13",
+    "record_address": "0x8275EF04",
+    "slot_size": 15,
+    "source_hash": "31E9EF9277E5D5E3",
+    "english": "Akichika",
+    "source_urls": [
+      "https://npb.jp/bis/players/41445113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EFDB",
+    "record_address": "0x8275EFCC",
+    "slot_size": 15,
+    "source_hash": "173DDD3B1B89086C",
+    "english": "Koji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51255119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F0A3",
+    "record_address": "0x8275F094",
+    "slot_size": 15,
+    "source_hash": "A157D0A9CCA6B4EA",
+    "english": "Takahiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/11215119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F16B",
+    "record_address": "0x8275F15C",
+    "slot_size": 15,
+    "source_hash": "19D3FCAAFCBBBE76",
+    "english": "Hayato",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F233",
+    "record_address": "0x8275F224",
+    "slot_size": 15,
+    "source_hash": "5E2B7CB2265041B8",
+    "english": "Yoshiaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71475112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F2FB",
+    "record_address": "0x8275F2EC",
+    "slot_size": 15,
+    "source_hash": "B54028E8FE1FA8CE",
+    "english": "Junji",
+    "source_urls": [
+      "https://npb.jp/bis/players/41243886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F3C3",
+    "record_address": "0x8275F3B4",
+    "slot_size": 15,
+    "source_hash": "04C628EFC549E471",
+    "english": "Michinao",
+    "source_urls": [
+      "https://npb.jp/bis/players/61465113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F48B",
+    "record_address": "0x8275F47C",
+    "slot_size": 15,
+    "source_hash": "C5D50007033CCCEA",
+    "english": "Akira",
+    "source_urls": [
+      "https://npb.jp/bis/players/41043882.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F553",
+    "record_address": "0x8275F544",
+    "slot_size": 15,
+    "source_hash": "A172A8FC3DE1C26A",
+    "english": "Kazuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/51955119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F61B",
+    "record_address": "0x8275F60C",
+    "slot_size": 15,
+    "source_hash": "D347CB660B9DF630",
+    "english": "Shinsuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/71373888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F7AB",
+    "record_address": "0x8275F79C",
+    "slot_size": 15,
+    "source_hash": "C535E9B2BA5F8937",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/91593884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F873",
+    "record_address": "0x8275F864",
+    "slot_size": 15,
+    "source_hash": "B5106F6AC0EB2673",
+    "english": "Akio",
+    "source_urls": [
+      "https://npb.jp/bis/players/91293888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F93B",
+    "record_address": "0x8275F92C",
+    "slot_size": 15,
+    "source_hash": "3B5157C935FC89D4",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FA03",
+    "record_address": "0x8275F9F4",
+    "slot_size": 15,
+    "source_hash": "126BC5DEDB723BA4",
+    "english": "Keisaburo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91093881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FACB",
+    "record_address": "0x8275FABC",
+    "slot_size": 15,
+    "source_hash": "800A5D95330BA188",
+    "english": "Naoki",
+    "source_urls": [
+      "https://npb.jp/bis/players/71275111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FB93",
+    "record_address": "0x8275FB84",
+    "slot_size": 15,
+    "source_hash": "49E3986B8F57574B",
+    "english": "Hidenori",
+    "source_urls": [
+      "https://npb.jp/bis/players/61965115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FDEB",
+    "record_address": "0x8275FDDC",
+    "slot_size": 15,
+    "source_hash": "2D1174B0A201D9E3",
+    "english": "Yusuke",
+    "source_urls": [
+      "https://npb.jp/bis/players/21723889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FEB3",
+    "record_address": "0x8275FEA4",
+    "slot_size": 15,
+    "source_hash": "21ED617DEEBC3CB4",
+    "english": "Munenori",
+    "source_urls": [
+      "https://npb.jp/bis/players/41345111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FF7B",
+    "record_address": "0x8275FF6C",
+    "slot_size": 15,
+    "source_hash": "C8CC553F6BF3019F",
+    "english": "Mitsuru",
+    "source_urls": [
+      "https://npb.jp/bis/players/81983880.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760043",
+    "record_address": "0x82760034",
+    "slot_size": 15,
+    "source_hash": "6ACDE943DF5C3C41",
+    "english": "Homare",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8276010B",
+    "record_address": "0x827600FC",
+    "slot_size": 15,
+    "source_hash": "F9CAAA543C68DF64",
+    "english": "Tomoaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/11315110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827601D3",
+    "record_address": "0x827601C4",
+    "slot_size": 15,
+    "source_hash": "C5D3346D10025812",
+    "english": "Nobuhiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/51655112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8276029B",
+    "record_address": "0x8276028C",
+    "slot_size": 15,
+    "source_hash": "F04858A04622CA3F",
+    "english": "Nobuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/61063884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8276042B",
+    "record_address": "0x8276041C",
+    "slot_size": 15,
+    "source_hash": "5698DDE605D7D563",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827604F3",
+    "record_address": "0x827604E4",
+    "slot_size": 15,
+    "source_hash": "7D43A8943DA6360B",
+    "english": "Naoyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/11313889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827605BB",
+    "record_address": "0x827605AC",
+    "slot_size": 15,
+    "source_hash": "6AAE52554C1045E3",
+    "english": "Katsuhiko",
+    "source_urls": [
+      "https://npb.jp/bis/players/11813881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760683",
+    "record_address": "0x82760674",
+    "slot_size": 15,
+    "source_hash": "CE5AE5A6C4EC3880",
+    "english": "Hisao",
+    "source_urls": [
+      "https://npb.jp/bis/players/81185113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8276074B",
+    "record_address": "0x8276073C",
+    "slot_size": 15,
+    "source_hash": "4ED7DAE2E3A88B17",
+    "english": "Ryuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/61365117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760813",
+    "record_address": "0x82760804",
+    "slot_size": 15,
+    "source_hash": "9F727985D305B97A",
+    "english": "Kenji",
+    "source_urls": [
+      "https://npb.jp/bis/players/51155119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827608DB",
+    "record_address": "0x827608CC",
+    "slot_size": 15,
+    "source_hash": "0F0C2CF228AC3FF5",
+    "english": "Yuichi",
+    "source_urls": [
+      "https://npb.jp/bis/players/41445112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827609A3",
+    "record_address": "0x82760994",
+    "slot_size": 15,
+    "source_hash": "5612ED9AD62AE9EC",
+    "english": "Ryo",
+    "source_urls": [
+      "https://npb.jp/bis/players/91493888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760B33",
+    "record_address": "0x82760B24",
+    "slot_size": 15,
+    "source_hash": "FAB37DABD973FD32",
+    "english": "Tadaatsu",
+    "source_urls": [
+      "https://npb.jp/bis/players/91095113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760BFB",
+    "record_address": "0x82760BEC",
+    "slot_size": 15,
+    "source_hash": "705243ED7FE8E0F2",
+    "english": "Noriyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/93993868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760CC3",
+    "record_address": "0x82760CB4",
+    "slot_size": 15,
+    "source_hash": "41E5E4901A0D6EC1",
+    "english": "Ryuma",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760D8B",
+    "record_address": "0x82760D7C",
+    "slot_size": 15,
+    "source_hash": "CB2843BFBB8C97A8",
+    "english": "Shotaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91395115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760E53",
+    "record_address": "0x82760E44",
+    "slot_size": 15,
+    "source_hash": "F07F8BC17094028C",
+    "english": "Tatsuya",
+    "source_urls": [
+      "https://npb.jp/bis/players/51153889.html"
+    ],
+    "review_status": "reading-checked"
+  }
+]

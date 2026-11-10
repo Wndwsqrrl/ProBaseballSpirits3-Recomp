@@ -15,11 +15,23 @@ full=importlib.util.module_from_spec(spec);spec.loader.exec_module(full)
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('image',type=Path);p.add_argument('output',type=Path)
-    p.add_argument('--reviewed-roster',type=Path,help='Use reviewed given names where available')
+    p.add_argument('--reviewed-roster',type=Path,action='append',default=[],
+                   help='Use reviewed name fields from this file (repeatable)')
     p.add_argument('--name-readings',type=Path,help='Decoded in-game NAMEDIC dictionaries')
     p.add_argument('--patch-output',type=Path,help='Export bounded name-field patches outside reviewed Hanshin slots')
     a=p.parse_args();image=a.image.read_bytes();names=defaultdict(set);records=0
-    reviewed={int(r['address'],0):r['english'] for r in json.loads(a.reviewed_roster.read_text(encoding='utf-8'))} if a.reviewed_roster else {}
+    reviewed={}
+    for path in a.reviewed_roster:
+        for row in json.loads(path.read_text(encoding='utf-8')):
+            address=int(row['address'],0)
+            if 'source_hash' in row:
+                offset=address-0x82000000
+                raw=image[offset:offset+row['slot_size']]
+                if offset<0 or len(raw)!=15 or full.fnv64(raw)!=int(row['source_hash'],16):
+                    raise ValueError(f'Reviewed source name differs at {address:#x}')
+            if address in reviewed and reviewed[address]!=row['english']:
+                raise ValueError(f'Conflicting reviewed name at {address:#x}')
+            reviewed[address]=row['english']
     readings=defaultdict(set)
     if a.name_readings:
         for dictionary in json.loads(a.name_readings.read_text(encoding='utf-8')):

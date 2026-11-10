@@ -1,13 +1,13 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13748,
-  "unique_fingerprints": 13481,
-  "comparison_commit": "1267544bd242856a9df93e64577e4887dbf8d6f5",
-  "changed_existing_translations": 245,
+  "catalogue_records": 13749,
+  "unique_fingerprints": 13479,
+  "comparison_commit": "0f2067026a6c398c9daefaadbb2b3e33350d4301",
+  "changed_existing_translations": 1231,
   "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 0,
+  "removed_fragment_or_codebook_fingerprints": 2,
   "review_entries": {
-    "ui": 1731,
+    "ui": 1942,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -25,13 +25,15 @@
     "all static source fingerprints verified against the supported loaded image",
     "control tags and printf arguments preserved across curated catalogues",
     "formatted translation, padding, and size-limit checks passed",
-    "native report and career speaker role checks passed",
-    "118 dialogue pointers matched intended English and passed the estimated width check",
-    "recorded renderer trace produced the same matches and wording as the previous build"
+    "native recap and career speaker checks passed",
+    "213 delivery and stance labels matched expected English in the offline lookup",
+    "472 reviewed given-name fields matched their original slots and applied cleanly",
+    "all 464 recorded match results retained, with 10 expanded names"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "In-game form labels and the expanded full roster names",
     "In-game career dialogue rendering and placement",
     "Live placement of the packed text edits and mission wording",
     "In-game match recap and manager evaluation layout",
@@ -58,7 +60,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 120,
+  "added_ui_address_reviews": 211,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -120,6 +122,20 @@
     "dialogue_lookup_matches": 118,
     "maximum_estimated_dialogue_width_px": 295,
     "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "forms_and_roster_review": {
+    "native_form_choices": 214,
+    "reviewed_form_labels": 213,
+    "named_form_labels": 174,
+    "generic_form_labels": 39,
+    "native_form_lookup_matches": 213,
+    "maximum_estimated_form_width_px": 163,
+    "estimate_font": "Arial 16 px",
+    "given_names_verified_against_npb_profiles": 472,
+    "new_bounded_given_name_fields": 193,
+    "corrected_bounded_given_name_fields": 3,
+    "remaining_unresolved_given_names": 74,
     "interactive_validation": false
   }
 }

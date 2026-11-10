@@ -9,11 +9,12 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,748 records / 13,481 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
+- Current catalogue: **13,749 records / 13,479 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
-- Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
+- Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings. NPB profiles confirm 472 given names and 46 more use the game's name dictionary. There are 74 given names still to resolve.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest pass reviews **118 career dialogue lines** and updates pregame and roster notices. Career rows reach the proportional Latin font as complete lines. The main extracted list has 4,703 reviewed entries and 1,474 drafts.
+- The latest pass reviews **213 pitching delivery and batting stance labels**. It adds English to 193 given-name fields and corrects three earlier readings. The main extracted list has 4,914 reviewed entries and 1,262 drafts.
+- **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
 - Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
 - **78 packed text slots** in 13 archive members cover the scoreboard, calendar, stats, trade, and contract screens. Each edit fits the original text slot. The archive verifier confirmed 2,204 unmodified members match the original bytes.
@@ -87,7 +88,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for packed UI lookups and `--extra-catalogue translation/manager-report-lookups.json` for assembled manager comments.
 - `generate-headline-patterns.py`: create bounded name/number aliases for filled newspaper headlines, preserving the original field order.
 - `check-text-layout.py`: check reviewed settings text against an approximate Arial width and line budget. Requires Pillow; this is an offline estimate, not a measurement of game rectangles.
-- `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed Hanshin names, and unambiguous dictionary readings.
+- `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed roster names, and unambiguous dictionary readings. Pass `--reviewed-roster` for each reviewed name file.
 - `catalogue-menu-assets.py`: inventory textures and create local contact sheets.
 - `pennant_events.py`: export the ten fields of each event from an extracted, decoded `PEMDFIX.CHK`.
 - `build-english-assets.py`: replace atlas rectangles, packed menu text, and Pennant event text in a separate archive.
