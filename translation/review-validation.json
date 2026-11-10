@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-09",
-  "catalogue_records": 13599,
-  "unique_fingerprints": 13332,
-  "comparison_commit": "c0577995827005ed40c2afcf12b86c26cfd8ce5e",
-  "changed_existing_translations": 144,
-  "added_fingerprints": 78,
+  "date": "2026-11-10",
+  "catalogue_records": 13718,
+  "unique_fingerprints": 13451,
+  "comparison_commit": "089c38fd360499469f71cdd54dcab02f22084efd",
+  "changed_existing_translations": 58,
+  "added_fingerprints": 119,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 1054,
+    "ui": 1117,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -27,13 +27,15 @@
     "formatted translation, padding, and size-limit checks passed",
     "native pitcher, batter, and coach report composition and rejection checks passed",
     "all previous static source fingerprints retained",
-    "78 packed UI lookups matched original extracted bytes in the offline audit"
+    "119 new packed UI lookups matched original extracted bytes in the offline audit",
+    "142 occurrences passed the estimated native rectangle width check",
+    "recorded renderer trace produced the same matches and wording as the previous build"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
     "composed assessment wording and placement in the live game",
-    "Live placement of the latest pitch, lineup, results, and packed UI labels",
+    "Live placement of the latest roster, settings, stats, and practice labels",
     "Remaining draft wording and name readings",
     "Unvisited modes and packed UI text",
     "Full-match stability",
@@ -54,7 +56,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 149,
+  "added_ui_address_reviews": 63,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -70,5 +72,13 @@
     "adjacent_entries_reviewed": 51,
     "packed_ui_lookups_added": 78,
     "packed_ui_source_members": 23
+  },
+  "packed_layout_review": {
+    "packed_lookups_added": 119,
+    "packed_source_members": 31,
+    "rectangle_occurrences_checked": 142,
+    "labels_shortened": 17,
+    "labels_over_estimated_width": 0,
+    "estimate_font": "Arial 16 px"
   }
 }

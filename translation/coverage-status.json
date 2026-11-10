@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-09",
-  "catalogue_records": 13599,
-  "unique_fingerprints": 13332,
+  "date": "2026-11-10",
+  "catalogue_records": 13718,
+  "unique_fingerprints": 13451,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -21,7 +21,7 @@
   ],
   "pending_validation": [
     "Pennant event title placement in game",
-    "New packed UI labels across offseason, practice, results, and awards",
+    "New packed UI labels across roster, offseason, settings, stats, and practice",
     "composed player assessments in live menus",
     "latest offline translation wording and paragraph reflow in game",
     "new HUD short labels and home/away texture labels in gameplay",
@@ -47,10 +47,10 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 4072,
-    "draft": 2105
+    "reviewed": 4135,
+    "draft": 2042
   },
-  "reviewed_ui_addresses": 1054,
+  "reviewed_ui_addresses": 1117,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -62,7 +62,7 @@
       "parsed_chunks": 325,
       "distinct_japanese": 645,
       "distinct_absent_from_main_list_by_exact_match": 426,
-      "reviewed_lookups_added": 78
+      "reviewed_lookups": 197
     }
   },
   "voice_banks": {
@@ -99,5 +99,13 @@
     "adjacent_entries_reviewed": 51,
     "packed_ui_lookups_added": 78,
     "packed_ui_source_members": 23
+  },
+  "packed_layout_review": {
+    "packed_lookups_added": 119,
+    "packed_source_members": 31,
+    "rectangle_occurrences_checked": 142,
+    "labels_shortened": 17,
+    "labels_over_estimated_width": 0,
+    "estimate_font": "Arial 16 px"
   }
 }

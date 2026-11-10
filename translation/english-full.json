@@ -7031,8 +7031,8 @@
     "address": "0x82072F78",
     "source_size": 6,
     "source_hash": "BADAEC96385D12C4",
-    "english": "Canceled",
-    "status": "draft"
+    "english": "Cancel",
+    "status": "reviewed"
   },
   {
     "address": "0x82073074",
@@ -7864,8 +7864,8 @@
     "address": "0x82074020",
     "source_size": 6,
     "source_hash": "CCA621A2A94B4225",
-    "english": "dark brown",
-    "status": "draft"
+    "english": "Dark Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x82074028",
@@ -7878,8 +7878,8 @@
     "address": "0x82074030",
     "source_size": 4,
     "source_hash": "604EBFE84FAB6C19",
-    "english": "yellow",
-    "status": "draft"
+    "english": "Yellow",
+    "status": "reviewed"
   },
   {
     "address": "0x82074058",
@@ -7956,7 +7956,7 @@
     "source_size": 6,
     "source_hash": "76F2C7EC7539FFCF",
     "english": "Indigo/Indigo",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820740B8",
@@ -7983,8 +7983,8 @@
     "address": "0x820740D0",
     "source_size": 6,
     "source_hash": "3BC5A437533E2F49",
-    "english": "wood/peach",
-    "status": "draft"
+    "english": "Wood/Pink",
+    "status": "reviewed"
   },
   {
     "address": "0x820740D8",
@@ -8019,7 +8019,7 @@
     "source_size": 6,
     "source_hash": "3BD45C37534BA54D",
     "english": "Wood/Indigo",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82074104",
@@ -8074,8 +8074,8 @@
     "address": "0x8207413C",
     "source_size": 9,
     "source_hash": "6BE360F6E96DA324",
-    "english": "goggles C",
-    "status": "draft"
+    "english": "C Goggles",
+    "status": "reviewed"
   },
   {
     "address": "0x82074148",
@@ -8095,15 +8095,15 @@
     "address": "0x82074170",
     "source_size": 16,
     "source_hash": "5CAE5401F25C9EFB",
-    "english": "goggles A type 5",
-    "status": "draft"
+    "english": "A Goggles 5",
+    "status": "reviewed"
   },
   {
     "address": "0x82074184",
     "source_size": 16,
     "source_hash": "5CAE5301F25C9D48",
-    "english": "goggles A type 4",
-    "status": "draft"
+    "english": "A Goggles 4",
+    "status": "reviewed"
   },
   {
     "address": "0x82074198",
@@ -8130,8 +8130,8 @@
     "address": "0x820741D4",
     "source_size": 8,
     "source_hash": "84E56BCC5667426A",
-    "english": "Round glasses",
-    "status": "draft"
+    "english": "Round Glasses",
+    "status": "reviewed"
   },
   {
     "address": "0x820741E0",
@@ -8151,15 +8151,15 @@
     "address": "0x820741FC",
     "source_size": 15,
     "source_hash": "348F3B0E0A66C6C1",
-    "english": "Borderless B type",
-    "status": "draft"
+    "english": "Rimless Glasses B",
+    "status": "reviewed"
   },
   {
     "address": "0x8207420C",
     "source_size": 15,
     "source_hash": "493E9FF1BEB11E54",
-    "english": "Borderless A type",
-    "status": "draft"
+    "english": "Rimless Glasses A",
+    "status": "reviewed"
   },
   {
     "address": "0x8207421C",
@@ -8445,36 +8445,36 @@
     "address": "0x82074370",
     "source_size": 10,
     "source_hash": "E839299B827E644E",
-    "english": "quite a bit",
-    "status": "draft"
+    "english": "Flared Out",
+    "status": "reviewed"
   },
   {
     "address": "0x8207437C",
     "source_size": 8,
     "source_hash": "09E226A837A1369D",
-    "english": "long hair",
-    "status": "draft"
+    "english": "Long, Flared Out",
+    "status": "reviewed"
   },
   {
     "address": "0x82074388",
     "source_size": 8,
     "source_hash": "5C4F249D31276D36",
-    "english": "A little splash",
-    "status": "draft"
+    "english": "Slightly Flared Out",
+    "status": "reviewed"
   },
   {
     "address": "0x82074394",
     "source_size": 8,
     "source_hash": "D694B4E913ED12BB",
-    "english": "slightly long hair",
-    "status": "draft"
+    "english": "Medium-Long Hair",
+    "status": "reviewed"
   },
   {
     "address": "0x820743A0",
     "source_size": 4,
     "source_hash": "2D32923F723B222C",
-    "english": "short hair",
-    "status": "draft"
+    "english": "Short Hair",
+    "status": "reviewed"
   },
   {
     "address": "0x820743A8",
@@ -8600,7 +8600,7 @@
     "source_size": 6,
     "source_hash": "D2507AFF8512C6A8",
     "english": "Thin",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82074458",
@@ -8614,7 +8614,7 @@
     "source_size": 4,
     "source_hash": "D0E2C4B826857FC1",
     "english": "Cheeks",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82074468",
@@ -8655,8 +8655,8 @@
     "address": "0x820744A4",
     "source_size": 4,
     "source_hash": "87ACD8256DCB2DCD",
-    "english": "Thickness",
-    "status": "draft"
+    "english": "Width",
+    "status": "reviewed"
   },
   {
     "address": "0x820744AC",
@@ -8746,14 +8746,14 @@
     "address": "0x82074534",
     "source_size": 6,
     "source_hash": "E94DB2CECACDBC8A",
-    "english": "seal",
-    "status": "draft"
+    "english": "Decal",
+    "status": "reviewed"
   },
   {
     "address": "0x8207453C",
     "source_size": 4,
     "source_hash": "49294EB98CA1AB5D",
-    "english": "Replays: On",
+    "english": "On",
     "status": "reviewed"
   },
   {
@@ -9075,7 +9075,7 @@
     "address": "0x820746E8",
     "source_size": 4,
     "source_hash": "898A3408E77C690B",
-    "english": "Normal Cutscenes",
+    "english": "Normal",
     "status": "reviewed"
   },
   {
@@ -18483,8 +18483,8 @@
     "address": "0x820898D8",
     "source_size": 38,
     "source_hash": "8AC053AC37DF218D",
-    "english": "You can instruct \"rest\" to recover from fatigue.",
-    "status": "draft"
+    "english": "Order players to rest and recover from fatigue.",
+    "status": "reviewed"
   },
   {
     "address": "0x82089900",
@@ -18512,21 +18512,21 @@
     "source_size": 26,
     "source_hash": "76AEBE10E440A2B5",
     "english": "Asia Series Final",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82089988",
     "source_size": 22,
     "source_hash": "07B99962EAEBE17B",
-    "english": "Playoff 2nd stage",
-    "status": "draft"
+    "english": "Playoff Stage 2",
+    "status": "reviewed"
   },
   {
     "address": "0x820899A0",
     "source_size": 22,
     "source_hash": "EF1192A231643E94",
-    "english": "Playoff 1st stage",
-    "status": "draft"
+    "english": "Playoff Stage 1",
+    "status": "reviewed"
   },
   {
     "address": "0x820899B8",
@@ -18560,29 +18560,29 @@
     "address": "0x82089A04",
     "source_size": 12,
     "source_hash": "7B8D55EB77B00B41",
-    "english": "season opener",
-    "status": "draft"
+    "english": "Opening Day",
+    "status": "reviewed"
   },
   {
     "address": "0x82089A14",
     "source_size": 8,
     "source_hash": "3E94235417D01F0B",
-    "english": "Spring Camp",
+    "english": "Training Camp",
     "status": "reviewed"
   },
   {
     "address": "0x82089A20",
     "source_size": 12,
     "source_hash": "8CEFC3E18755197B",
-    "english": "tryout",
-    "status": "draft"
+    "english": "Tryouts",
+    "status": "reviewed"
   },
   {
     "address": "0x82089A30",
     "source_size": 12,
     "source_hash": "7EA29A95036EBC6D",
-    "english": "Acquired free agent players",
-    "status": "draft"
+    "english": "Free Agent Signings",
+    "status": "reviewed"
   },
   {
     "address": "0x82089A40",
@@ -31930,8 +31930,8 @@
     "address": "0x82099BE8",
     "source_size": 12,
     "source_hash": "A77E64F3C250FD3D",
-    "english": "four ball",
-    "status": "draft"
+    "english": "Walk",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BF8",
@@ -32042,43 +32042,43 @@
     "address": "0x82099CAC",
     "source_size": 11,
     "source_hash": "A344DEDA15CF9710",
-    "english": "runner 1st base",
-    "status": "draft"
+    "english": "Runner on First",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CB8",
     "source_size": 11,
     "source_hash": "9E817DDA1436B57D",
-    "english": "runner 2nd base",
-    "status": "draft"
+    "english": "Runner on Second",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CC4",
     "source_size": 11,
     "source_hash": "921A94DA0C221012",
-    "english": "runner 3rd base",
-    "status": "draft"
+    "english": "Runner on Third",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CD0",
     "source_size": 13,
     "source_hash": "3404934E0F21A3EE",
-    "english": "runner 1st and 2nd base",
-    "status": "draft"
+    "english": "Runners on First and Second",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CE0",
     "source_size": 13,
     "source_hash": "3C2DBC4E139D4F59",
-    "english": "runner 1st and 3rd base",
-    "status": "draft"
+    "english": "Runners on First and Third",
+    "status": "reviewed"
   },
   {
     "address": "0x82099CF0",
     "source_size": 13,
     "source_hash": "51A9E77C79D02EDC",
-    "english": "runner 2nd and 3rd base",
-    "status": "draft"
+    "english": "Runners on Second and Third",
+    "status": "reviewed"
   },
   {
     "address": "0x82099D00",
@@ -34856,8 +34856,8 @@
     "address": "0x8209F2E0",
     "source_size": 12,
     "source_hash": "B86EBB828B07AE35",
-    "english": "pitcher stamina",
-    "status": "draft"
+    "english": "Pitcher Stamina",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F2F0",
@@ -34870,15 +34870,15 @@
     "address": "0x8209F2FC",
     "source_size": 8,
     "source_hash": "56A5C2CD0C546F66",
-    "english": "Fielder's running ability",
-    "status": "draft"
+    "english": "Fielder Speed",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F308",
     "source_size": 10,
     "source_hash": "C6E21BC016B081EC",
-    "english": "fielder power",
-    "status": "draft"
+    "english": "Fielder Power",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F314",
@@ -34891,15 +34891,15 @@
     "address": "0x8209F320",
     "source_size": 50,
     "source_hash": "6E4734665529ABA5",
-    "english": "Once decided, all acquired abilities will be canceled.",
-    "status": "draft"
+    "english": "Confirm to discard all abilities you acquired.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F354",
     "source_size": 48,
     "source_hash": "ACCBFF2076B8CF53",
-    "english": "Once you have made a decision, confirm the acquired ability and proceed to the next step.",
-    "status": "draft"
+    "english": "Confirm your new abilities and continue.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F388",
@@ -34919,8 +34919,8 @@
     "address": "0x8209F3D8",
     "source_size": 38,
     "source_hash": "25D8E0E3EE9B9961",
-    "english": "A shot with the same speed as a straight shot.",
-    "status": "draft"
+    "english": "A Shuuto thrown as hard as a fastball.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F400",
@@ -34933,8 +34933,8 @@
     "address": "0x8209F428",
     "source_size": 32,
     "source_hash": "A7A52F50BB90D379",
-    "english": "Circle change with slower ball speed.",
-    "status": "draft"
+    "english": "A slower version of the Circle Change.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F44C",
@@ -34947,29 +34947,29 @@
     "address": "0x8209F48C",
     "source_size": 48,
     "source_hash": "5F50FA5C649F2AF1",
-    "english": "A slow screwball, a pitch that throws off the batter's timing.",
-    "status": "draft"
+    "english": "A slow screwball that disrupts the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F4C0",
     "source_size": 40,
     "source_hash": "08629F99CC2F1449",
-    "english": "A straight screw with the same speed.",
-    "status": "draft"
+    "english": "A screwball thrown at fastball speed.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F4EC",
     "source_size": 46,
     "source_hash": "80042B26A7F72860",
-    "english": "A slow sinker, a ball that throws off the batter's timing.",
-    "status": "draft"
+    "english": "A slow sinker that disrupts the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F51C",
     "source_size": 38,
     "source_hash": "BDAE232340E41548",
-    "english": "A sinker with the same speed as a straight line.",
-    "status": "draft"
+    "english": "A sinker thrown at fastball speed.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F544",
@@ -34989,22 +34989,22 @@
     "address": "0x8209F598",
     "source_size": 74,
     "source_hash": "0582FE0C5408D3C7",
-    "english": "A ball that is thrown without rotating with a fork grip, causing it to fall swaying due to air resistance.",
-    "status": "draft"
+    "english": "Use a forkball grip and throw with no spin. The pitch flutters as it drops.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F5E4",
     "source_size": 30,
     "source_hash": "0DC3EE1DE0D95D3D",
-    "english": "A changeup with a slower ball speed.",
-    "status": "draft"
+    "english": "A slower version of the changeup.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F604",
     "source_size": 36,
     "source_hash": "4F822B477F79EE83",
-    "english": "A palm with a trajectory similar to a slider.",
-    "status": "draft"
+    "english": "A palm ball with movement similar to a slider.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F62C",
@@ -35017,8 +35017,8 @@
     "address": "0x8209F658",
     "source_size": 70,
     "source_hash": "1B39C9806284CB99",
-    "english": "By pinching the ball shallower than the fork, the change is smaller, but the ball falls at high speed with good control.",
-    "status": "draft"
+    "english": "A shallower grip than a forkball gives less break, but a fast drop and better command.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F6A0",
@@ -35038,8 +35038,8 @@
     "address": "0x8209F724",
     "source_size": 28,
     "source_hash": "D91E5D60164A1BFD",
-    "english": "A slider that falls vertically.",
-    "status": "draft"
+    "english": "A slider with mostly downward break.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F744",
@@ -35066,29 +35066,29 @@
     "address": "0x8209F7E8",
     "source_size": 36,
     "source_hash": "4C4BDDA15097F291",
-    "english": "A ball that is even slower than a slow slow curve.",
-    "status": "draft"
+    "english": "An even slower version of the Slow Curve.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F810",
     "source_size": 30,
     "source_hash": "703A947F466084EA",
-    "english": "A ball between a slider and a curveball.",
-    "status": "draft"
+    "english": "A pitch with movement between a slider and a curveball.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F830",
     "source_size": 46,
     "source_hash": "628AEE3AA0A715AB",
-    "english": "A ball that changes more vertically than a normal curve.",
-    "status": "draft"
+    "english": "A curveball with more vertical break than usual.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F860",
     "source_size": 52,
     "source_hash": "45DFE355FC78BDEA",
-    "english": "A ball that is slower than a curve ball and can throw off the batter's timing.",
-    "status": "draft"
+    "english": "A slower curveball that disrupts the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F898",
@@ -35101,22 +35101,22 @@
     "address": "0x8209F8CC",
     "source_size": 38,
     "source_hash": "C7A871D9F88B4A92",
-    "english": "A slider that is slow and somewhat curved.",
-    "status": "draft"
+    "english": "A slow slider with a curveball-like break.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F8F4",
     "source_size": 46,
     "source_hash": "FC3FF4BDB083F004",
-    "english": "A ball that quickly changes slightly in the direction of the slider in your hand.",
-    "status": "draft"
+    "english": "A fast pitch with a small, late break to the glove side.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F924",
     "source_size": 28,
     "source_hash": "AA549D4C0CEEFB32",
-    "english": "A slider that turns faster.",
-    "status": "draft"
+    "english": "A faster version of the slider.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F944",
@@ -35129,15 +35129,15 @@
     "address": "0x8209F978",
     "source_size": 60,
     "source_hash": "697A3D3EFA757732",
-    "english": "A ball thrown late with the same arm swing as a fastball, throwing the timing off.",
-    "status": "draft"
+    "english": "Use fastball arm speed to sell a slower pitch and disrupt the hitter's timing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F9B8",
     "source_size": 68,
     "source_hash": "DBE8F7387782EF7D",
-    "english": "Straight hair can be slightly changed by changing the seam where you put your fingers.",
-    "status": "draft"
+    "english": "Change your grip on the seams for a fastball that can move late.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209FA00",
@@ -86647,6 +86647,839 @@
     "source_size": 4,
     "source_hash": "C055920BE8CC2F3C",
     "english": "HR Allowed",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "4275537188C3FC72",
+    "english": "Enter a name for your custom pitch.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "6FCFDCC6272A36B1",
+    "english": "Fix",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "BC42B0E6F0F15335",
+    "english": "1st Pitch",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "9F2AF21010027017",
+    "english": "Speed",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "A84466CA36E78FD1",
+    "english": "Position Totals",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "846D89DE90B7C3DE",
+    "english": "Signed Roster",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "96ADED3F134625D9",
+    "english": "Swap Players",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "79924F5E78D713D8",
+    "english": "Release Player",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "03B18A141AAC73A6",
+    "english": "Acquire Player",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "FC1CB1061CB5F1E0",
+    "english": "Fielder Usage Rules",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "C9F175AF7105A2E9",
+    "english": "Select a team.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "88B4180A98F2A2E4",
+    "english": "Release",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D956BEF54B07E353",
+    "english": "Show Given Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "57E261F34FAAEB3C",
+    "english": "Hide Given Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "7BE099DC4D244AFA",
+    "english": "New Name Style",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "011455B6FEE57760",
+    "english": "Western Players",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "FFE83E5AD8AC1424",
+    "english": "Current Name Style",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "EA158B36F376514E",
+    "english": "Starters",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "82401064463D9F6F",
+    "english": "Pitching Staff",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "6965D871F5362254",
+    "english": "Training Orders",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "028652DD7B6C9C1E",
+    "english": "Hiragana",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "555699BBB7F657A2",
+    "english": "Start Over",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "B14A4E3139636D60",
+    "english": "Katakana",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "B3F4482777A773FB",
+    "english": "Body",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "F3DF18518D771017",
+    "english": "Numbers / Symbols",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "214EF8E4C6F86424",
+    "english": "Latin Letters",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2BE587B8792ABA68",
+    "english": "Game 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "3A22DCCA230876BA",
+    "english": "Planned Lineup",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "E888B53C0BFE77F8",
+    "english": "The injured player is receiving treatment...",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "B02FB2DECE634351",
+    "english": "BB/HBP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F9EE8F5705CEA78E",
+    "english": "Pitch 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F9EE905705CEA941",
+    "english": "Pitch 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F9EE8D5705CEA428",
+    "english": "Pitch 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "F9EE8E5705CEA5DB",
+    "english": "Pitch 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "D8EA25F207923E52",
+    "english": "Cost",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "34ECD840B54AF7A8",
+    "english": "Current",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "E027ABCF5061EFDF",
+    "english": "Manager Charisma",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "B984DF7B98F82A28",
+    "english": "Panel Count",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "CFF4F0709F75848F",
+    "english": "Base VP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 11,
+    "source_hash": "3AD2FA1F1713CA15",
+    "english": "Team / Player Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "7778E865830825A8",
+    "english": "Approval Rating",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "CBE74BF2265EB27F",
+    "english": "Instructions",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "C58F60AC50B43AC2",
+    "english": "Free Agents",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "2B842F3A4ACC2114",
+    "english": "Infield",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "FEA251FCA51E9504",
+    "english": "OF",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "48A7AE3B04F31266",
+    "english": "Edit Looks",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "903CDC8B8C02AC5B",
+    "english": "Rookie List",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "BCCA0304EB3D900D",
+    "english": "Generated Draft Pool",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "4E219F6393BD8BDF",
+    "english": "View Your Team",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "9D8F1B7BA6A6EB60",
+    "english": "Your Roster",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "729F6FE7380E62AB",
+    "english": "Release",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "8D707EE1D6D69BE6",
+    "english": "Strategy",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "C6B96505F5718778",
+    "english": "Fielding",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "498F4F6A9BFFAFCF",
+    "english": "Info",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "9B526A312C3CE0D0",
+    "english": "Batting",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "3B7420EEFE03EB81",
+    "english": "Pitching",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "2CEE4E60A456AA14",
+    "english": "Controls",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FA472457E8D9BD15",
+    "english": "Difficulty",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "D85C5459B73C43D6",
+    "english": "Mission Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "69678A25DE8E12A0",
+    "english": "All-Star Voting",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "B7266B65D249E995",
+    "english": "All-Star MVP (Game 1)",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "9086220B35F6300A",
+    "english": "All-Star MVP (Game 2)",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "5F8A7C3FA6F4F674",
+    "english": "Team Fielding",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "571AEA4723DECE98",
+    "english": "Team Batting",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "1CC4C55DC5F7AB17",
+    "english": "Team Pitching",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "90D6983254DF417A",
+    "english": "Play Stats",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "5E2B92598E602AEA",
+    "english": "Player Fielding",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "C503F1D2188A1122",
+    "english": "Player Batting",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D51DFCC4FE68EA91",
+    "english": "Player Pitching",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "D6BD3D3F414F022D",
+    "english": "Units",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "D3634A4AF9A5FFE1",
+    "english": "Award Winners",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "930A2501EC569A6F",
+    "english": "Japan Series MVP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "F1233338C5AD0895",
+    "english": "Rank / W-L",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "E38A31BA75FE80E6",
+    "english": "Farm",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "EC33ACBA7AE67F91",
+    "english": "1st",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "154943C52F45956C",
+    "english": "Special Games",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "B1EC6121A5391B45",
+    "english": "Start Time",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "91CB2D1F19CE5C10",
+    "english": "Top two by win pct. meet in the final.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "651404A5F7BC8280",
+    "english": "Game Log",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "597486CDEAB6EC26",
+    "english": "Starter Candidates",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "A23D46E1FC908C11",
+    "english": "Watch Game",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "3E1EED5DD6AEB6EA",
+    "english": "Live Scores",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "DD5453C859772D94",
+    "english": "Outgoing Players",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "465BCAAAC953C61E",
+    "english": "Incoming Players",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "10EF27DD15771FE1",
+    "english": "Normal Speed",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8970FA61E679DFCB",
+    "english": "Pitch Selection",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "52DAF35F5A83DFDC",
+    "english": "Stereo Settings",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 19,
+    "source_hash": "BD54FDFEF7A31160",
+    "english": "Stadium Music / PA",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "A9ABEC2E80ED1A2B",
+    "english": "Term (Years)",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "359E8B5D85FB7CE8",
+    "english": "Retire",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "70E83DFDD1D9F296",
+    "english": "Max Bonus",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "2F4584D4640EF18E",
+    "english": "Make an Offer",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "A78B81E09C9D20F6",
+    "english": "Total Monthly Salary",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "010443F84B1306A7",
+    "english": "Monthly Pay",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "29E5545CC191D4A6",
+    "english": "Difficulty Rating",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "2CFB04F318CA27A4",
+    "english": "Costs no turns.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "D615FDAC21B78DE3",
+    "english": "Cancel",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "676043F03B3890B9",
+    "english": "Start Practice",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "0D1B5A4A37FBB1F2",
+    "english": "Boost Attributes",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "1E8F5052BF11E7DB",
+    "english": "Clear Conditions",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "C276D9679442A0D7",
+    "english": "Mission Title",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "11812B8825697719",
+    "english": "Mission Briefing",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 4,
+    "source_hash": "70CAFEC595A43255",
+    "english": "This Season",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "5B22B068FAB39015",
+    "english": "Current MCP",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "6BDE34FB65677898",
+    "english": "First Base",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "93A9849C9F687835",
+    "english": "Third Base",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "97438EB5CBF92E22",
+    "english": "Second Base",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "5DF4B92B2131435C",
+    "english": "RA",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "5E25102B215AFAF3",
+    "english": "Errors",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "C5EE8BE6A4B94ECF",
+    "english": "Runs",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "9B92A7312C732C6C",
+    "english": "RBI",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "658ACE956F1D8F69",
+    "english": "Steals",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 21,
+    "source_hash": "ACE7592285B7E521",
+    "english": "100-Ball Fielding Drill",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "8675920F5C6F5FC7",
+    "english": "Switch Menu",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "FA38A0F3EBE94A17",
+    "english": "Runner on First",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "5223CD80181BC332",
+    "english": "Runner on Third",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "415F1F1FB97BF19D",
+    "english": "Runner on Second",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "355E97551D082B77",
+    "english": "Fielding Trial",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "60E6ADFFD0FE4112",
+    "english": "Baserunning Trial",
     "status": "reviewed"
   },
   {

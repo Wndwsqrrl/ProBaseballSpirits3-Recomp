@@ -9,11 +9,11 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,599 records / 13,332 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
+- Current catalogue: **13,718 records / 13,451 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest text pass reviews **149 executable entries** and adds **78 packed menu lookups** using the 2006 game context and the 2026 localization. The main extracted text list has 4,072 reviewed entries and 2,105 drafts. On-screen validation of the latest changes is pending.
+- The latest text pass reviews **63 executable entries** and adds **119 packed menu lookups**. New packed labels were checked against their original menu rectangles using estimated Arial widths. The main extracted text list has 4,135 reviewed entries and 2,042 drafts. On-screen validation of the latest changes is pending.
 - The asset patch includes all **187 Pennant event titles**. Event goals, stories, and outcome messages have been extracted for review.
 
 Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
