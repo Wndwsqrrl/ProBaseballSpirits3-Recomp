@@ -38,6 +38,28 @@ inline bool RecapPieceAllowsTrailingSpace(uint32_t address) {
   return address != 0x820997EC && address != 0x820997F8;
 }
 
+template <typename TranslateName>
+std::optional<std::string> CareerSpeaker(std::string_view source, TranslateName translate_name) {
+  struct Suffix { std::string_view source, role; };
+  constexpr Suffix suffixes[] = {
+      {"\x93\x8a\x8e\xe8\x82\xaa", "Pitcher"},
+      {"\x8a\xc4\x93\xc2\x82\xc9", "Manager"},
+      {"\x82\xb3\x82\xf1\x82\xc9", ""},
+      {"\x82\xaa", ""},
+  };
+  for (const auto& suffix : suffixes) {
+    if (!source.ends_with(suffix.source)) continue;
+    source.remove_suffix(suffix.source.size());
+    std::string name = source.empty() ? std::string{} : translate_name(source);
+    if (name.empty() && suffix.role.empty()) return {};
+    std::string label(suffix.role);
+    if (!label.empty() && !name.empty()) label += ' ';
+    label += name;
+    return label;
+  }
+  return {};
+}
+
 // The assessment builders concatenate strings from a verified phrase table.
 // Translate only complete, uniquely recognized sequences with a report prefix.
 class ReportTranslation {

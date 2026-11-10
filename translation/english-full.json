@@ -32651,827 +32651,827 @@
     "address": "0x8209A63C",
     "source_size": 30,
     "source_hash": "D59F13B3671D0B42",
-    "english": "A very harsh comment",
-    "status": "draft"
+    "english": "That's a very blunt assessment.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A65C",
     "source_size": 30,
     "source_hash": "91019883836F4F28",
-    "english": "\"Maybe I should reconsider it completely.\"",
-    "status": "draft"
+    "english": "\"We might have to rethink everything.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A67C",
     "source_size": 30,
     "source_hash": "6A844B551EBF8194",
-    "english": "There might not be a next time.''",
-    "status": "draft"
+    "english": "You may be out of chances.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A69C",
     "source_size": 30,
     "source_hash": "9E7118EF50CF8AC8",
-    "english": "``I guess I'm about to reach my limit of patience.''",
-    "status": "draft"
+    "english": "\"I'm running out of patience.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A6BC",
     "source_size": 30,
     "source_hash": "55ABF22DB0F87809",
-    "english": "You have to keep doing this.''",
-    "status": "draft"
+    "english": "Now you have to do it consistently.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A6DC",
     "source_size": 30,
     "source_hash": "FDCF9583D9D31003",
-    "english": "There was a comment:",
-    "status": "draft"
+    "english": "He shared his assessment.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A6FC",
     "source_size": 30,
     "source_hash": "7847E17ACEEDF93E",
-    "english": "I hope this continues.\"",
-    "status": "draft"
+    "english": "I hope you can keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A71C",
     "source_size": 30,
     "source_hash": "170D41CFF656AF4D",
-    "english": "Yes, let's be inspired.",
-    "status": "draft"
+    "english": "Time to bounce back.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A73C",
     "source_size": 30,
     "source_hash": "B653FD496140A50C",
-    "english": "A very harsh comment",
-    "status": "draft"
+    "english": "That's a hard message to hear.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A75C",
     "source_size": 30,
     "source_hash": "4ED0BDB053530FDE",
-    "english": "\"There may not be a next time.\"",
-    "status": "draft"
+    "english": "\"You might be out of chances.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A77C",
     "source_size": 30,
     "source_hash": "AF0648B8D966775A",
-    "english": "There was a harsh comment.",
-    "status": "draft"
+    "english": "He gave you some blunt feedback.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A79C",
     "source_size": 30,
     "source_hash": "92FAAF3EDF201127",
-    "english": "I have to think about it now.''",
-    "status": "draft"
+    "english": "We may have to make a change.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A7BC",
     "source_size": 30,
     "source_hash": "640C2E00C8FDF660",
-    "english": "``Recently things have been in bad shape.",
-    "status": "draft"
+    "english": "\"You've been struggling lately.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A7DC",
     "source_size": 30,
     "source_hash": "27DBFD6B7FEC2CF7",
-    "english": "I want this to continue.\"",
-    "status": "draft"
+    "english": "I want you to keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A7FC",
     "source_size": 30,
     "source_hash": "BCF82D06287D56CF",
-    "english": "\"Today's pitch was a passing score.",
-    "status": "draft"
+    "english": "\"Today's outing was good enough.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A81C",
     "source_size": 30,
     "source_hash": "9A05C324D35C9DBF",
-    "english": "I was encouraged.",
+    "english": "He gave you a boost.",
     "status": "reviewed"
   },
   {
     "address": "0x8209A83C",
     "source_size": 30,
     "source_hash": "6F1BC7FB7A4A4835",
-    "english": "Please do your best in the next match.\"",
-    "status": "draft"
+    "english": "Keep it up in the next one.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A85C",
     "source_size": 30,
     "source_hash": "76BFA85B45C51C6B",
-    "english": "\"Today's pitching was great.",
-    "status": "draft"
+    "english": "\"You pitched a great game today.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A87C",
     "source_size": 30,
     "source_hash": "A4AA0C0316DE539F",
-    "english": "Make up for it next time you pitch.\"",
-    "status": "draft"
+    "english": "and bounce back in your next outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A89C",
     "source_size": 30,
     "source_hash": "D9C509948093B19A",
-    "english": "``Switch your head.",
-    "status": "draft"
+    "english": "\"Clear your head",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A8BC",
     "source_size": 30,
     "source_hash": "06C3D30BFE15484B",
-    "english": "\"Today wasn't great, but...",
-    "status": "draft"
+    "english": "\"Today was a rough one.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A8DC",
     "source_size": 30,
     "source_hash": "08C53289CC522BDF",
-    "english": "I'll ask you to do it like this next time.''",
-    "status": "draft"
+    "english": "Stay on that track next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A8FC",
     "source_size": 30,
     "source_hash": "6D1E67C2CEA5D63E",
-    "english": "\"It was a good pitch,\"",
-    "status": "draft"
+    "english": "\"That was a good outing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A91C",
     "source_size": 30,
     "source_hash": "10C3A6104378F76E",
-    "english": "``Nothing to complain about.",
-    "status": "draft"
+    "english": "\"I couldn't find a thing to fault.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A93C",
     "source_size": 30,
     "source_hash": "7D4E81F31C8A4E74",
-    "english": "I was encouraged.",
-    "status": "draft"
+    "english": "He encouraged you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A95C",
     "source_size": 30,
     "source_hash": "39D504C26A9C2AC6",
-    "english": "Next time, I'll ask you to pitch to recover.\"",
-    "status": "draft"
+    "english": "Go get them in your next outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A97C",
     "source_size": 30,
     "source_hash": "BA7DE4B428B74B4C",
     "english": "\"Forget about today.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209A99C",
     "source_size": 30,
     "source_hash": "7DDC093DE69AD066",
-    "english": ", someone called out to me.",
-    "status": "draft"
+    "english": "He had a word with you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A9BC",
     "source_size": 30,
     "source_hash": "A97E0F5E5792748F",
-    "english": "Please help me next time.''",
-    "status": "draft"
+    "english": "I'm counting on you next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A9DC",
     "source_size": 30,
     "source_hash": "7631C3873435B868",
-    "english": "``There are times when things aren't going well.",
-    "status": "draft"
+    "english": "\"Everyone has a rough outing.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A9FC",
     "source_size": 30,
     "source_hash": "D0B19684FA4D49A2",
-    "english": "I was praised.",
+    "english": "He complimented your performance.",
     "status": "reviewed"
   },
   {
     "address": "0x8209AA1C",
     "source_size": 30,
     "source_hash": "2E88C71F80292314",
-    "english": "Thank you for your help next time.''",
-    "status": "draft"
+    "english": "Give us more of that next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AA3C",
     "source_size": 30,
     "source_hash": "92D389F94BA25A90",
-    "english": "\"Nice pitch!",
-    "status": "draft"
+    "english": "\"Nice work on the mound!",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AA5C",
     "source_size": 30,
     "source_hash": "FFE294DB02FAFD6C",
-    "english": "I received high praise.",
+    "english": "He praised your work on the mound.",
     "status": "reviewed"
   },
   {
     "address": "0x8209AA7C",
     "source_size": 30,
     "source_hash": "1EE9E61C719706EE",
-    "english": "It was a great pitch.\"",
-    "status": "draft"
+    "english": "That was outstanding pitching.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AA9C",
     "source_size": 30,
     "source_hash": "9A9B99A8E19369B4",
-    "english": "``Today can be called perfect.",
-    "status": "draft"
+    "english": "\"You were near-perfect again today.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AABC",
     "source_size": 30,
     "source_hash": "5EFCDBD49EFCBCE6",
-    "english": "The players are useless.''",
-    "status": "draft"
+    "english": "I can't put you in the lineup.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AADC",
     "source_size": 30,
     "source_hash": "58ED32895FB318CA",
-    "english": "\"I can't follow instructions from the bench.",
-    "status": "draft"
+    "english": "\"If you can't follow the signs,",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AAFC",
     "source_size": 30,
     "source_hash": "22FE6D3E9324CAC4",
-    "english": "You'll lose trust.''",
-    "status": "draft"
+    "english": "and you'll lose our trust.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AB1C",
     "source_size": 30,
     "source_hash": "59CA1A2417FF707C",
-    "english": "``If this kind of play continues...",
-    "status": "draft"
+    "english": "\"Keep playing like that",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AB3C",
     "source_size": 30,
     "source_hash": "3C9DECF696B0C99A",
-    "english": "I was reprimanded.",
-    "status": "draft"
+    "english": "He gave you a stern talking-to.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AB5C",
     "source_size": 30,
     "source_hash": "278D80A6765ADE18",
-    "english": "It's no good if you can't play.''",
-    "status": "draft"
+    "english": "You've got to play for the team.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AB7C",
     "source_size": 30,
     "source_hash": "FC224A9807D60B3A",
-    "english": "``No matter how much I hit, it's for the team.",
-    "status": "draft"
+    "english": "\"Hitting well only goes so far.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AB9C",
     "source_size": 30,
     "source_hash": "2A3971B5BC8A152F",
-    "english": "That was the assessment I received.",
+    "english": "He gave you his assessment.",
     "status": "reviewed"
   },
   {
     "address": "0x8209ABBC",
     "source_size": 30,
     "source_hash": "65261930D3DCDD79",
-    "english": "\"But you can't play baseball alone.\"",
-    "status": "draft"
+    "english": "but baseball is a team game.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ABDC",
     "source_size": 30,
     "source_hash": "9BBDFAF91C3B4CDA",
-    "english": "\"As long as the results are out, don't ask any questions.",
-    "status": "draft"
+    "english": "\"The results buy you some leeway,",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ABFC",
     "source_size": 30,
     "source_hash": "2FE931E9015F6B65",
-    "english": "I received harsh words.",
-    "status": "draft"
+    "english": "He had some hard words for you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AC1C",
     "source_size": 30,
     "source_hash": "77F9F18FB787FCEB",
-    "english": "It's getting tough.''",
-    "status": "draft"
+    "english": "to get tough for you.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AC3C",
     "source_size": 30,
     "source_hash": "9CD929959BD605CC",
-    "english": "\"If this situation continues,",
-    "status": "draft"
+    "english": "\"If this keeps up, things are going",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AC5C",
     "source_size": 30,
     "source_hash": "AEDF258FE884807B",
-    "english": "I received this advice.",
-    "status": "draft"
+    "english": "He offered you some advice.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AC7C",
     "source_size": 30,
     "source_hash": "76E4035043E737BA",
-    "english": "Try hitting.''",
-    "status": "draft"
+    "english": "before you take your next swing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AC9C",
     "source_size": 30,
     "source_hash": "C58F9348917BE701",
-    "english": "``Calm down a little more.",
-    "status": "draft"
+    "english": "\"Take a breath and settle in",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ACBC",
     "source_size": 30,
     "source_hash": "FF2D8768053F48FD",
-    "english": "Good luck tomorrow too.''",
-    "status": "draft"
+    "english": "Give us another good game tomorrow.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ACDC",
     "source_size": 30,
     "source_hash": "00E29C6AEC584C3E",
-    "english": "``The condition doesn't seem to be bad.",
-    "status": "draft"
+    "english": "\"You look like you're in decent form.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ACFC",
     "source_size": 30,
     "source_hash": "BCA0EFE7C679F0EB",
-    "english": "I will continue to ask for your help.''",
-    "status": "draft"
+    "english": "I'm counting on you to keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AD1C",
     "source_size": 30,
     "source_hash": "08D6C455F17ACB38",
-    "english": "\"They are doing a good job.",
-    "status": "draft"
+    "english": "\"You've been doing good work.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AD3C",
     "source_size": 30,
     "source_hash": "4E1548A4511D7937",
-    "english": "I was encouraged.",
+    "english": "He encouraged you.",
     "status": "reviewed"
   },
   {
     "address": "0x8209AD5C",
     "source_size": 30,
     "source_hash": "C41F64F1631BAEA2",
-    "english": "Please be able to release it.''",
-    "status": "draft"
+    "english": "Now make them count.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AD7C",
     "source_size": 30,
     "source_hash": "05AAF81843216B5D",
-    "english": "``Then just follow the instructions and see the results.",
-    "status": "draft"
+    "english": "\"Keep following the signs.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AD9C",
     "source_size": 30,
     "source_hash": "07B7E721D740301C",
-    "english": "They understand me very well.''",
-    "status": "draft"
+    "english": "of you out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ADBC",
     "source_size": 30,
     "source_hash": "A42AD69D629C66A1",
-    "english": "``What I'm saying is...",
-    "status": "draft"
+    "english": "\"You understand what we're asking",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ADDC",
     "source_size": 30,
     "source_hash": "BE1D5357C9DE134D",
-    "english": "I received compliments.",
-    "status": "draft"
+    "english": "He praised your work.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209ADFC",
     "source_size": 30,
     "source_hash": "CA76E586FF8AF480",
-    "english": "I will continue to ask for it.''",
-    "status": "draft"
+    "english": "Keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AE1C",
     "source_size": 30,
     "source_hash": "7E0839F4AE786EEF",
-    "english": "\"You are doing a good job.",
-    "status": "draft"
+    "english": "\"You're doing a good job.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AE3C",
     "source_size": 30,
     "source_hash": "DD0F88242D20B15C",
-    "english": "It seems that it has been highly praised.",
-    "status": "draft"
+    "english": "You've earned high praise.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AE5C",
     "source_size": 30,
     "source_hash": "6CEDF51E29DB6B2A",
-    "english": "The play is also standard, nothing to say.\"",
-    "status": "draft"
+    "english": "and you set a fine example out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AE7C",
     "source_size": 30,
     "source_hash": "B777E0D87DE0C96E",
-    "english": "``The bat is swinging...",
-    "status": "draft"
+    "english": "\"You're swinging the bat well,",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AE9C",
     "source_size": 30,
     "source_hash": "360228D297B68B4A",
-    "english": "Let's support you next time.",
-    "status": "draft"
+    "english": "Give him some run support next time.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AEBC",
     "source_size": 26,
     "source_hash": "F0F79614B9B01728",
-    "english": "He left without saying a word.",
-    "status": "draft"
+    "english": "He walked off without a word.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AED8",
     "source_size": 26,
     "source_hash": "7A027B153E12F410",
-    "english": "Let's do our best tomorrow.",
-    "status": "draft"
+    "english": "Tomorrow is another chance.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AEF4",
     "source_size": 32,
     "source_hash": "D2091C7238530893",
-    "english": "He turned his head and left.",
-    "status": "draft"
+    "english": "He shook his head and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AF18",
     "source_size": 26,
     "source_hash": "73594E0574CFEF7B",
-    "english": "Let's do our best tomorrow too.",
-    "status": "draft"
+    "english": "Keep it up tomorrow.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AF34",
     "source_size": 30,
     "source_hash": "F4578EFE2DB65136",
-    "english": "He bowed and left.",
-    "status": "draft"
+    "english": "He nodded and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AF54",
     "source_size": 26,
     "source_hash": "ACCFF5F1F9CDFD63",
-    "english": "He was grateful.",
-    "status": "draft"
+    "english": "Word is he was grateful.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AF70",
     "source_size": 32,
     "source_hash": "CFAACB12BD39754A",
-    "english": "\"It really helped me today.\"",
-    "status": "draft"
+    "english": "\"You really helped me out today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AF94",
     "source_size": 14,
     "source_hash": "BDBB5399B61E38F2",
-    "english": "I went.",
-    "status": "draft"
+    "english": "and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AFA4",
     "source_size": 30,
     "source_hash": "9437B21C963A2E82",
-    "english": "He gave an awkward nod and left.",
-    "status": "draft"
+    "english": "He gave an awkward nod",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AFC4",
     "source_size": 30,
     "source_hash": "A03957A694C43F61",
-    "english": "I said hello and left.",
-    "status": "draft"
+    "english": "He greeted you and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AFE4",
     "source_size": 22,
     "source_hash": "2F7EEC8095CB5AB9",
-    "english": "\"Thank you for your hard work.\"",
-    "status": "draft"
+    "english": "\"Good work out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209AFFC",
     "source_size": 16,
     "source_hash": "7DC162BCBED26F89",
-    "english": "It seems that there was.",
-    "status": "draft"
+    "english": "throughout the game.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B010",
     "source_size": 28,
     "source_hash": "2D597CB160F375BA",
-    "english": "Stare at me intently during the match",
-    "status": "draft"
+    "english": "Word is he watched you closely",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B030",
     "source_size": 22,
     "source_hash": "6D0889483A17D0B9",
-    "english": "\"It's still amazing...\"",
-    "status": "draft"
+    "english": "\"Still as good as ever...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B048",
     "source_size": 26,
     "source_hash": "BA1D437A405C9B2C",
-    "english": "\"Forget everything and start over.\"",
-    "status": "draft"
+    "english": "\"Put it behind you and start fresh.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B064",
     "source_size": 20,
     "source_hash": "59B53E6987E25841",
-    "english": "It was said that",
-    "status": "draft"
+    "english": "He offered you a reminder.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B07C",
     "source_size": 30,
     "source_hash": "86B35C1A052E66B6",
-    "english": "\"I have to help the pitcher.\"",
-    "status": "draft"
+    "english": "\"We've got to help our pitchers.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B09C",
     "source_size": 28,
     "source_hash": "61335A685AAEEACE",
-    "english": "\"You look like you're doing well, don't you?\"",
-    "status": "draft"
+    "english": "\"Looks like you're in good form.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B0BC",
     "source_size": 30,
     "source_hash": "9B886ADBC0364583",
-    "english": "\"I can't lose either.\"",
-    "status": "draft"
+    "english": "\"I'd better step up my game, too.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B0DC",
     "source_size": 18,
     "source_hash": "8EDE44C181F60EAC",
-    "english": "He went...",
-    "status": "draft"
+    "english": "without saying a word.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B0F0",
     "source_size": 28,
     "source_hash": "CF33D7201B57E336",
-    "english": "I met him, but he left without saying a word.",
-    "status": "draft"
+    "english": "You saw him, but he walked off",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B110",
     "source_size": 26,
     "source_hash": "1805B8AE445B5AAB",
-    "english": "\"I hope you recover next time.\"",
-    "status": "draft"
+    "english": "\"Let's see you bounce back next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B12C",
     "source_size": 26,
     "source_hash": "20190F15E688C69D",
-    "english": "\"You're doing a good job\"",
-    "status": "draft"
+    "english": "\"You've been doing a good job.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B148",
     "source_size": 26,
     "source_hash": "432C4A59C554DEE0",
-    "english": "\"It was a great performance.\"",
-    "status": "draft"
+    "english": "\"That was a terrific performance.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B164",
     "source_size": 32,
     "source_hash": "44BA5E41B4C33D8A",
-    "english": "Are you being careful?",
-    "status": "draft"
+    "english": "Maybe he was giving you space.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B188",
     "source_size": 30,
     "source_hash": "67D65CFA0D1D59CC",
-    "english": "He left as if to avoid me.",
-    "status": "draft"
+    "english": "He walked off without approaching you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B1A8",
     "source_size": 30,
     "source_hash": "CAF9A5EBFE9863AE",
-    "english": "He was tilting his head.",
-    "status": "draft"
+    "english": "Word is he shook his head in puzzlement.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B1C8",
     "source_size": 28,
     "source_hash": "35F7C4C7EE4402FC",
-    "english": "\"I wonder what happened today?\"",
-    "status": "draft"
+    "english": "\"What happened out there today?\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B1E8",
     "source_size": 28,
     "source_hash": "E0C7F56A247D78C5",
-    "english": "He was nodding his head.",
-    "status": "draft"
+    "english": "Word is he nodded in agreement.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B208",
     "source_size": 32,
     "source_hash": "EE3518FA10E4DFD2",
-    "english": "\"It will help me with my pitching.\"",
-    "status": "draft"
+    "english": "\"I can learn from the way you pitch.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B22C",
     "source_size": 26,
     "source_hash": "CA346A2DA334EBD1",
-    "english": "It seems that he was impressed.",
-    "status": "draft"
+    "english": "Word is he was impressed.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B248",
     "source_size": 30,
     "source_hash": "C04980EAB240DD8F",
-    "english": "\"That's amazing pitching...\"",
-    "status": "draft"
+    "english": "\"What an outing...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B268",
     "source_size": 26,
     "source_hash": "A6D7A168FC867EEA",
-    "english": "\"It's better to make up for it next time.\"",
-    "status": "draft"
+    "english": "\"You'll get them next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B284",
     "source_size": 18,
     "source_hash": "ED43B20901817F12",
-    "english": "I was encouraged.",
-    "status": "draft"
+    "english": "He gave you some encouragement.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B298",
     "source_size": 30,
     "source_hash": "F5128D388699795D",
-    "english": "\"I have to earn the trust of the fielders.\"",
-    "status": "draft"
+    "english": "\"Give your fielders a reason to trust you.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B2B8",
     "source_size": 20,
     "source_hash": "3017AFEDB3C72C55",
-    "english": "I was praised.",
-    "status": "draft"
+    "english": "He complimented your pitching.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B2D0",
     "source_size": 32,
     "source_hash": "EC7501216152E2C8",
-    "english": "\"The ball was running well today.\"",
-    "status": "draft"
+    "english": "\"Your fastball had life today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B2F4",
     "source_size": 24,
     "source_hash": "B97F792F01B5E7EC",
-    "english": ", someone called out to me.",
-    "status": "draft"
+    "english": "He stopped to talk to you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B310",
     "source_size": 28,
     "source_hash": "7DE0DEA02D8B3175",
-    "english": "\"I can't lose either.\"",
-    "status": "draft"
+    "english": "\"I'd better step up my game, too.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B330",
     "source_size": 18,
     "source_hash": "BD135CBBA361140A",
-    "english": "I was told.",
-    "status": "draft"
+    "english": "He was direct with you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B344",
     "source_size": 24,
     "source_hash": "50582832BBDB473C",
-    "english": "\"This is too harsh...\"",
-    "status": "draft"
+    "english": "\"This isn't going to cut it...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B360",
     "source_size": 20,
     "source_hash": "A34DF138C7FBC04A",
-    "english": "I was encouraged.",
-    "status": "draft"
+    "english": "He encouraged you.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B378",
     "source_size": 24,
     "source_hash": "954DCA3D86215ABF",
-    "english": "\"Next time, I'll ask you more carefully.\"",
-    "status": "draft"
+    "english": "\"I'm counting on you next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B394",
     "source_size": 26,
     "source_hash": "F6B64A67F1403C33",
-    "english": "\"It was good pitching.\"",
-    "status": "draft"
+    "english": "\"You pitched well today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B3B0",
     "source_size": 20,
     "source_hash": "DE37F696B9269001",
-    "english": "was praised.",
-    "status": "draft"
+    "english": "He praised your performance.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B3C8",
     "source_size": 32,
     "source_hash": "8B488B2D3E1AB150",
-    "english": "\"It was great pitching.\"",
-    "status": "draft"
+    "english": "\"That was a great outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B3EC",
     "source_size": 8,
     "source_hash": "B457CCD45AA53BC8",
-    "english": "Coach talk",
-    "status": "draft"
+    "english": "Coach's Comments",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B3F8",
     "source_size": 6,
     "source_hash": "C5A3A8991CEFB737",
-    "english": "to the director",
-    "status": "draft"
+    "english": "Manager",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B400",
     "source_size": 6,
     "source_hash": "DAD32E832887874E",
-    "english": "To Mr.",
-    "status": "draft"
+    "english": "Teammate",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B408",
     "source_size": 6,
     "source_hash": "E0389FD7F982483A",
-    "english": "The pitcher",
-    "status": "draft"
+    "english": "Pitcher",
+    "status": "reviewed"
   },
   {
     "address": "0x8209B414",
@@ -33953,14 +33953,14 @@
     "address": "0x8209BAF8",
     "source_size": 32,
     "source_hash": "0587209379FA7998",
-    "english": "so time your warmup accordingly.",
+    "english": "Time your warmup accordingly.",
     "status": "reviewed"
   },
   {
     "address": "0x8209BB1C",
     "source_size": 24,
     "source_hash": "395AA1B2EA1E1ACD",
-    "english": "I'll need you in the middle innings or later,",
+    "english": "I'll need you from the middle innings on.",
     "status": "reviewed"
   },
   {
@@ -33974,7 +33974,7 @@
     "address": "0x8209BB4C",
     "source_size": 30,
     "source_hash": "32340958D3CFF38A",
-    "english": "Stay loose and be ready to pitch.",
+    "english": "Keep your arm warm.",
     "status": "reviewed"
   },
   {
@@ -34058,14 +34058,14 @@
     "address": "0x8209BC88",
     "source_size": 32,
     "source_hash": "584A9A5A229FDE62",
-    "english": "so you can go in at any time.",
+    "english": "You could get the call at any time.",
     "status": "reviewed"
   },
   {
     "address": "0x8209BCAC",
     "source_size": 22,
     "source_hash": "A340296741E23A62",
-    "english": "Get warmed up",
+    "english": "Stay ready to pitch.",
     "status": "reviewed"
   },
   {
@@ -34149,36 +34149,36 @@
     "address": "0x8209BDD0",
     "source_size": 30,
     "source_hash": "15BB927D47342F93",
-    "english": "Starting Tomorrow",
+    "english": "Starting tomorrow,",
     "status": "reviewed"
   },
   {
     "address": "0x8209BDF0",
     "source_size": 30,
     "source_hash": "F2D3577F95528077",
-    "english": "\"Report to the top team.\"",
+    "english": "you'll report to the top team.",
     "status": "reviewed"
   },
   {
     "address": "0x8209BE10",
     "source_size": 30,
     "source_hash": "F6596E6D21C613E1",
-    "english": "I received the instructions!",
-    "status": "draft"
+    "english": "You've been called up!",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BE30",
     "source_size": 30,
     "source_hash": "5C209DEB34F056C7",
-    "english": "\"Join and travel with the reserves.\"",
+    "english": "you'll report to the farm team.",
     "status": "reviewed"
   },
   {
     "address": "0x8209BE50",
     "source_size": 30,
     "source_hash": "F659846D21C63943",
-    "english": "I received the instructions...",
-    "status": "draft"
+    "english": "You've been sent down.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209BE70",
@@ -93996,778 +93996,778 @@
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "F589C59338E355BA",
-    "english": "A very harsh comment",
-    "status": "draft"
+    "english": "That's a very blunt assessment.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "8199BFD411DB8129",
-    "english": "\"Maybe I should reconsider it completely.\"",
-    "status": "draft"
+    "english": "\"We might have to rethink everything.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "6AE45FAE56AAE501",
-    "english": "There might not be a next time.''",
-    "status": "draft"
+    "english": "You may be out of chances.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "FEB99991CC9E3321",
-    "english": "``I guess I'm about to reach my limit of patience.''",
-    "status": "draft"
+    "english": "\"I'm running out of patience.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "F1A95808CCA71318",
-    "english": "You have to keep doing this.''",
-    "status": "draft"
+    "english": "Now you have to do it consistently.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "39620A600701720B",
-    "english": "There was a comment:",
-    "status": "draft"
+    "english": "He shared his assessment.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "45677C413E50D2CF",
-    "english": "I hope this continues.\"",
-    "status": "draft"
+    "english": "I hope you can keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "40B97BEEC5EB3FB8",
-    "english": "Yes, let's be inspired.",
-    "status": "draft"
+    "english": "Time to bounce back.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "A4998CF884B7A0E4",
-    "english": "A very harsh comment",
-    "status": "draft"
+    "english": "That's a hard message to hear.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "C0D02DD9EAFD1016",
-    "english": "\"There may not be a next time.\"",
-    "status": "draft"
+    "english": "\"You might be out of chances.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "001D84903A6A81B7",
-    "english": "I have to think about it now.''",
-    "status": "draft"
+    "english": "We may have to make a change.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "9B9D27067441D778",
-    "english": "``Recently things have been in bad shape.",
-    "status": "draft"
+    "english": "\"You've been struggling lately.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "A7689B914F248922",
-    "english": "I want this to continue.\"",
-    "status": "draft"
+    "english": "I want you to keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "50D147A35B30D3BF",
-    "english": "\"Today's pitch was a passing score.",
-    "status": "draft"
+    "english": "\"Today's outing was good enough.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "2334D1FF889C6096",
-    "english": "I was encouraged.",
+    "english": "He gave you a boost.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "AB172B485A64311D",
-    "english": "Please do your best in the next match.\"",
-    "status": "draft"
+    "english": "Keep it up in the next one.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "761B82C3C6264A32",
-    "english": "\"Today's pitching was great.",
-    "status": "draft"
+    "english": "\"You pitched a great game today.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "2B699FE052ACB142",
-    "english": "Make up for it next time you pitch.\"",
-    "status": "draft"
+    "english": "and bounce back in your next outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "07C679463867C3F3",
-    "english": "``Switch your head.",
-    "status": "draft"
+    "english": "\"Clear your head",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "B80722AE1631C18A",
-    "english": "\"Today wasn't great, but...",
-    "status": "draft"
+    "english": "\"Today was a rough one.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "1314C930BD574FAF",
-    "english": "I'll ask you to do it like this next time.''",
-    "status": "draft"
+    "english": "Stay on that track next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "353663B3495E2266",
-    "english": "\"It was a good pitch,\"",
-    "status": "draft"
+    "english": "\"That was a good outing.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "6F6BFAE341CBBE5E",
-    "english": "``Nothing to complain about.",
-    "status": "draft"
+    "english": "\"I couldn't find a thing to fault.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "1938077AA3525ACD",
-    "english": "I was encouraged.",
-    "status": "draft"
+    "english": "He encouraged you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "C6FC712746CE90DE",
-    "english": "Next time, I'll ask you to pitch to recover.\"",
-    "status": "draft"
+    "english": "Go get them in your next outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "6A156801644AE6DD",
     "english": "\"Forget about today.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "0BECB3D997AD1D6F",
-    "english": ", someone called out to me.",
-    "status": "draft"
+    "english": "He had a word with you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "65B7F51D649ADE72",
-    "english": "Please help me next time.''",
-    "status": "draft"
+    "english": "I'm counting on you next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "1E529855F3CC9C80",
-    "english": "``There are times when things aren't going well.",
-    "status": "draft"
+    "english": "\"Everyone has a rough outing.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "0A146FB78331B01F",
-    "english": "I was praised.",
+    "english": "He complimented your performance.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "2749A1F53273271D",
-    "english": "Thank you for your help next time.''",
-    "status": "draft"
+    "english": "Give us more of that next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "5F5374A5A0567158",
-    "english": "\"Nice pitch!",
-    "status": "draft"
+    "english": "\"Nice work on the mound!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "FEF9412E174814D1",
-    "english": "I received high praise.",
+    "english": "He praised your work on the mound.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "5540EE82D03D055E",
-    "english": "It was a great pitch.\"",
-    "status": "draft"
+    "english": "That was outstanding pitching.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "1CDB31D604C17BED",
-    "english": "``Today can be called perfect.",
-    "status": "draft"
+    "english": "\"You were near-perfect again today.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "48A5645742A56C87",
-    "english": "The players are useless.''",
-    "status": "draft"
+    "english": "I can't put you in the lineup.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "D905E3A0440EC133",
-    "english": "\"I can't follow instructions from the bench.",
-    "status": "draft"
+    "english": "\"If you can't follow the signs,",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "495352C89D6297D5",
-    "english": "You'll lose trust.''",
-    "status": "draft"
+    "english": "and you'll lose our trust.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "5347F97CB46CD254",
-    "english": "``If this kind of play continues...",
-    "status": "draft"
+    "english": "\"Keep playing like that",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "71592363731F60A2",
-    "english": "I was reprimanded.",
-    "status": "draft"
+    "english": "He gave you a stern talking-to.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "E66869148331DD65",
-    "english": "It's no good if you can't play.''",
-    "status": "draft"
+    "english": "You've got to play for the team.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "8FFEDBA1A5D4836B",
-    "english": "``No matter how much I hit, it's for the team.",
-    "status": "draft"
+    "english": "\"Hitting well only goes so far.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "138065D5041742DF",
-    "english": "That was the assessment I received.",
+    "english": "He gave you his assessment.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "C9CC7F102C647F3C",
-    "english": "\"But you can't play baseball alone.\"",
-    "status": "draft"
+    "english": "but baseball is a team game.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "BA69F4E2C6FDEB52",
-    "english": "\"As long as the results are out, don't ask any questions.",
-    "status": "draft"
+    "english": "\"The results buy you some leeway,",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "CDDDC2FDCA68B800",
-    "english": "I received harsh words.",
-    "status": "draft"
+    "english": "He had some hard words for you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "715184E6AF1E2296",
-    "english": "It's getting tough.''",
-    "status": "draft"
+    "english": "to get tough for you.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "9BFE8690A731FBA4",
-    "english": "\"If this situation continues,",
-    "status": "draft"
+    "english": "\"If this keeps up, things are going",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "0BC1A79671626E22",
-    "english": "I received this advice.",
-    "status": "draft"
+    "english": "He offered you some advice.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "912AA0BB995A1DBB",
-    "english": "Try hitting.''",
-    "status": "draft"
+    "english": "before you take your next swing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "3E1675F226E6D631",
-    "english": "``Calm down a little more.",
-    "status": "draft"
+    "english": "\"Take a breath and settle in",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "C3B4608A9DE8A598",
-    "english": "Good luck tomorrow too.''",
-    "status": "draft"
+    "english": "Give us another good game tomorrow.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "644BB80D421C8947",
-    "english": "``The condition doesn't seem to be bad.",
-    "status": "draft"
+    "english": "\"You look like you're in decent form.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "834B2A7C7E53CD33",
-    "english": "I will continue to ask for your help.''",
-    "status": "draft"
+    "english": "I'm counting on you to keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "F4D3635734241050",
-    "english": "\"They are doing a good job.",
-    "status": "draft"
+    "english": "\"You've been doing good work.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "B1C6D1F8939ECEBF",
-    "english": "I was encouraged.",
+    "english": "He encouraged you.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "15D0BEB763B63AF2",
-    "english": "Please be able to release it.''",
-    "status": "draft"
+    "english": "Now make them count.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "CF088A21D34204F5",
-    "english": "``Then just follow the instructions and see the results.",
-    "status": "draft"
+    "english": "\"Keep following the signs.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "73A5AAC686D74D5D",
-    "english": "They understand me very well.''",
-    "status": "draft"
+    "english": "of you out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "1B470CAACF6216A9",
-    "english": "``What I'm saying is...",
-    "status": "draft"
+    "english": "\"You understand what we're asking",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "9D41D34706F59D38",
-    "english": "I will continue to ask for it.''",
-    "status": "draft"
+    "english": "Keep it up.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "C1DDACAF39E078DF",
-    "english": "\"You are doing a good job.",
-    "status": "draft"
+    "english": "\"You're doing a good job.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "44463FEDFB2CF9AD",
-    "english": "It seems that it has been highly praised.",
-    "status": "draft"
+    "english": "You've earned high praise.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "092A229F94F31C03",
-    "english": "The play is also standard, nothing to say.\"",
-    "status": "draft"
+    "english": "and you set a fine example out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "3E16CE20B9CD505E",
-    "english": "``The bat is swinging...",
-    "status": "draft"
+    "english": "\"You're swinging the bat well,",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "02B628ACB0CA68FF",
-    "english": "Let's support you next time.",
-    "status": "draft"
+    "english": "Give him some run support next time.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "127D418964DF4A71",
-    "english": "He left without saying a word.",
-    "status": "draft"
+    "english": "He walked off without a word.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "3D0EC6CF9808899D",
-    "english": "Let's do our best tomorrow.",
-    "status": "draft"
+    "english": "Tomorrow is another chance.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "D20EFBCBC156EDA6",
-    "english": "He turned his head and left.",
-    "status": "draft"
+    "english": "He shook his head and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "BF5D9B8037563222",
-    "english": "Let's do our best tomorrow too.",
-    "status": "draft"
+    "english": "Keep it up tomorrow.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "39EEB4483E2E6673",
-    "english": "He bowed and left.",
-    "status": "draft"
+    "english": "He nodded and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "B443ED74A7B8AD2A",
-    "english": "He was grateful.",
-    "status": "draft"
+    "english": "Word is he was grateful.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "816307B7CD3CFCA7",
-    "english": "\"It really helped me today.\"",
-    "status": "draft"
+    "english": "\"You really helped me out today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "0D8C7DDA0318E117",
-    "english": "I went.",
-    "status": "draft"
+    "english": "and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "6530B21BBBDA74D3",
-    "english": "He gave an awkward nod and left.",
-    "status": "draft"
+    "english": "He gave an awkward nod",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "539FB4A47F385160",
-    "english": "I said hello and left.",
-    "status": "draft"
+    "english": "He greeted you and walked off.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "83AEB9DB05DFAE20",
-    "english": "\"Thank you for your hard work.\"",
-    "status": "draft"
+    "english": "\"Good work out there.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "9BDED9CA47576B10",
-    "english": "It seems that there was.",
-    "status": "draft"
+    "english": "throughout the game.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "16E8FF08948CB79F",
-    "english": "Stare at me intently during the match",
-    "status": "draft"
+    "english": "Word is he watched you closely",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "BBD583084E517518",
-    "english": "\"It's still amazing...\"",
-    "status": "draft"
+    "english": "\"Still as good as ever...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "AAEFC9F5E3C1F7C5",
-    "english": "\"Forget everything and start over.\"",
-    "status": "draft"
+    "english": "\"Put it behind you and start fresh.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "B72BBFBA4E1E1E10",
-    "english": "It was said that",
-    "status": "draft"
+    "english": "He offered you a reminder.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "B0A5C739842A09F3",
-    "english": "\"I have to help the pitcher.\"",
-    "status": "draft"
+    "english": "\"We've got to help our pitchers.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "BF15827EAB04628F",
-    "english": "\"You look like you're doing well, don't you?\"",
-    "status": "draft"
+    "english": "\"Looks like you're in good form.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "38827DC469F5D24A",
-    "english": "\"I can't lose either.\"",
-    "status": "draft"
+    "english": "\"I'd better step up my game, too.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "64547B689C24CC41",
-    "english": "He went...",
-    "status": "draft"
+    "english": "without saying a word.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "04C390F5B5C3BE1B",
-    "english": "I met him, but he left without saying a word.",
-    "status": "draft"
+    "english": "You saw him, but he walked off",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "CABCF609CF5DB886",
-    "english": "\"I hope you recover next time.\"",
-    "status": "draft"
+    "english": "\"Let's see you bounce back next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "CF0E0223406ABFA4",
-    "english": "\"You're doing a good job\"",
-    "status": "draft"
+    "english": "\"You've been doing a good job.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "6F748B3107FDF2D1",
-    "english": "\"It was a great performance.\"",
-    "status": "draft"
+    "english": "\"That was a terrific performance.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "DDF37666133E3627",
-    "english": "Are you being careful?",
-    "status": "draft"
+    "english": "Maybe he was giving you space.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "61FF160A5A4C5E25",
-    "english": "He left as if to avoid me.",
-    "status": "draft"
+    "english": "He walked off without approaching you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "26BD8DE1C7D2C5E7",
-    "english": "He was tilting his head.",
-    "status": "draft"
+    "english": "Word is he shook his head in puzzlement.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "397DFF67793A96C5",
-    "english": "\"I wonder what happened today?\"",
-    "status": "draft"
+    "english": "\"What happened out there today?\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "68F92E4C2953CE84",
-    "english": "He was nodding his head.",
-    "status": "draft"
+    "english": "Word is he nodded in agreement.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "82BC9C367B866003",
-    "english": "\"It will help me with my pitching.\"",
-    "status": "draft"
+    "english": "\"I can learn from the way you pitch.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "B9DEB2A8823C3A3C",
-    "english": "It seems that he was impressed.",
-    "status": "draft"
+    "english": "Word is he was impressed.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "D2B456481A0910FE",
-    "english": "\"That's amazing pitching...\"",
-    "status": "draft"
+    "english": "\"What an outing...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "D609E43BA55F8B17",
-    "english": "\"It's better to make up for it next time.\"",
-    "status": "draft"
+    "english": "\"You'll get them next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "069E53CBA0417B83",
-    "english": "I was encouraged.",
-    "status": "draft"
+    "english": "He gave you some encouragement.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "1A02B0A8D9100C78",
-    "english": "\"I have to earn the trust of the fielders.\"",
-    "status": "draft"
+    "english": "\"Give your fielders a reason to trust you.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "E3663FC4A4F0E45C",
-    "english": "I was praised.",
-    "status": "draft"
+    "english": "He complimented your pitching.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "275BD9C9ECAF65E1",
-    "english": "\"The ball was running well today.\"",
-    "status": "draft"
+    "english": "\"Your fastball had life today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "FDC24658FFBCB9C9",
-    "english": ", someone called out to me.",
-    "status": "draft"
+    "english": "He stopped to talk to you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "AC79B9FE36254D88",
-    "english": "\"I can't lose either.\"",
-    "status": "draft"
+    "english": "\"I'd better step up my game, too.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "0B60EF3FF3B04E37",
-    "english": "I was told.",
-    "status": "draft"
+    "english": "He was direct with you.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "B28DA2E0037F6319",
-    "english": "\"This is too harsh...\"",
-    "status": "draft"
+    "english": "\"This isn't going to cut it...\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "86E46DF0E8F0208E",
-    "english": "\"Next time, I'll ask you more carefully.\"",
-    "status": "draft"
+    "english": "\"I'm counting on you next time.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "83B3D7D7FBB76D1E",
-    "english": "\"It was good pitching.\"",
-    "status": "draft"
+    "english": "\"You pitched well today.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "397B1CEA86971898",
-    "english": "was praised.",
-    "status": "draft"
+    "english": "He praised your performance.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "4A7FD9DCDE6E9E15",
-    "english": "\"It was great pitching.\"",
-    "status": "draft"
+    "english": "\"That was a great outing.\"",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -94864,21 +94864,21 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "AD5819CC52C63FED",
-    "english": "so time your warmup accordingly.",
+    "english": "Time your warmup accordingly.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "E3695CAA5048A50C",
-    "english": "I'll need you in the middle innings or later,",
+    "english": "I'll need you from the middle innings on.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "DAD03025D5B0AD13",
-    "english": "Stay loose and be ready to pitch.",
+    "english": "Keep your arm warm.",
     "status": "reviewed"
   },
   {
@@ -94941,14 +94941,14 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "7D68631250A05F23",
-    "english": "so you can go in at any time.",
+    "english": "You could get the call at any time.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "F86CBCB8EB30C617",
-    "english": "Get warmed up",
+    "english": "Stay ready to pitch.",
     "status": "reviewed"
   },
   {
@@ -94983,22 +94983,22 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "5079CCF90C082572",
-    "english": "Starting Tomorrow",
+    "english": "Starting tomorrow,",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "C35A8A34E2DF7CF4",
-    "english": "I received the instructions!",
-    "status": "draft"
+    "english": "You've been called up!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "C35A6434E2DF3C62",
-    "english": "I received the instructions...",
-    "status": "draft"
+    "english": "You've been sent down.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",

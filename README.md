@@ -13,7 +13,7 @@ This repository contains port source, executable analysis metadata, English tran
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest pass reviews **101 executable entries** for Pennant goals, career milestones, and postgame notices. The main extracted list has 4,588 reviewed entries and 1,589 drafts.
+- The latest pass reviews **118 career dialogue lines** and updates pregame and roster notices. Career rows reach the proportional Latin font as complete lines. The main extracted list has 4,703 reviewed entries and 1,474 drafts.
 - Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
 - **78 packed text slots** in 13 archive members cover the scoreboard, calendar, stats, trade, and contract screens. Each edit fits the original text slot. The archive verifier confirmed 2,204 unmodified members match the original bytes.

@@ -60,5 +60,16 @@ int main(int argc,char** argv) {
   assert(!RecapPieceOverride(0x82099B20,"",3));
   assert(!RecapPieceAllowsTrailingSpace(0x820997EC));
   assert(!RecapPieceAllowsTrailingSpace(0x820997F8));
+  auto career_speaker=[](std::string_view input) {
+    return localization::CareerSpeaker(input,[](std::string_view name) {
+      return name=="\x88\xe4\x90\xec" ? std::string("Igawa") : std::string(name);
+    });
+  };
+  assert(career_speaker("\x88\xe4\x90\xec\x93\x8a\x8e\xe8\x82\xaa")=="Pitcher Igawa");
+  assert(career_speaker("\x88\xe4\x90\xec\x82\xaa")=="Igawa");
+  assert(career_speaker("Yano\x82\xb3\x82\xf1\x82\xc9")=="Yano");
+  assert(career_speaker("Okada\x8a\xc4\x93\xc2\x82\xc9")=="Manager Okada");
+  assert(career_speaker("\x8a\xc4\x93\xc2\x82\xc9")=="Manager");
+  assert(!career_speaker("Unrelated English text"));
   std::cout<<"Native report phrase checks passed\n";
 }

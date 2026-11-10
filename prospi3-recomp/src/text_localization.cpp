@@ -25,10 +25,12 @@
 REX_EXTERN(__imp__sub_8260E870);
 REX_EXTERN(__imp__sub_8260EDE0);
 REX_EXTERN(__imp__sub_8260D8B0);
+REX_EXTERN(__imp__sub_8260F470);
 REX_EXTERN(__imp__sub_82413358);
 REX_EXTERN(__imp__sub_825DEAC8);
 REX_EXTERN(__imp__sub_825DF6A8);
 REX_EXTERN(__imp__sub_82548958);
+REX_EXTERN(__imp__sub_8254C0A8);
 REX_EXTERN(__imp__sub_826BA910);
 
 namespace {
@@ -86,12 +88,13 @@ uint32_t LatinCache(uint32_t object) {
   return original?GetLatinFontCache(*memory,Read32(original+24)):0;
 }
 
-uint32_t TranslateFormatted(std::string_view source) {
+uint32_t TranslateFormatted(std::string_view source, bool career_speaker=false) {
   // Both successes and misses are cached. Repeated HUD draws do not rematch
   // every template, and a changing season/game clock cannot grow without bound.
   if(source.size()>1024)return 0;
   std::lock_guard guard(dynamic_mutex);
-  const std::string key(source);
+  std::string key(source);
+  if(career_speaker)key+='\0';
   if(auto it=dynamic_cache.find(key);it!=dynamic_cache.end())return it->second;
   if(dynamic_cache.size()>=8192) {
     // Old misses must not prevent later modes or season statistics from being
@@ -100,18 +103,29 @@ uint32_t TranslateFormatted(std::string_view source) {
       if(!it->second)it=dynamic_cache.erase(it);else ++it;
   }
   if(dynamic_cache.size()>=65536 || !dynamic_pool)return 0;
-  std::optional<std::string> result=localization::NormalizeFullwidthAscii(source);
-  if(!result)result=report_translations.Apply(source);
-  for(const auto& format:format_translations) {
-    auto candidate=format.Apply(source,[](std::string_view capture) {
-      if(auto it=translations.find(Fingerprint(capture));it!=translations.end())
-        return std::string(reinterpret_cast<const char*>(memory->TranslateVirtual(it->second)));
-      return std::string(capture);
+  const auto translate_name=[](std::string_view capture) {
+    if(auto it=translations.find(Fingerprint(capture));it!=translations.end())
+      return std::string(reinterpret_cast<const char*>(memory->TranslateVirtual(it->second)));
+    return std::string(capture);
+  };
+  std::optional<std::string> result;
+  if(career_speaker) {
+    result=localization::CareerSpeaker(source,[&](std::string_view name) {
+      name=localization::TrimDisplayPadding(name);
+      auto translated=translate_name(name);
+      if(auto normalized=localization::NormalizeFullwidthAscii(translated))return *normalized;
+      return translated;
     });
-    if(!candidate)continue;
-    // A short label may match several templates. Do not guess if they disagree.
-    if(result && *candidate!=*result) {dynamic_cache.emplace(key,0);return 0;}
-    result=std::move(candidate);
+  } else {
+    result=localization::NormalizeFullwidthAscii(source);
+    if(!result)result=report_translations.Apply(source);
+    for(const auto& format:format_translations) {
+      auto candidate=format.Apply(source,translate_name);
+      if(!candidate)continue;
+      // A short label may match several templates. Do not guess if they disagree.
+      if(result && *candidate!=*result) {dynamic_cache.emplace(key,0);return 0;}
+      result=std::move(candidate);
+    }
   }
   uint32_t address=0;
   if(result && dynamic_used+result->size()+1<=kDynamicPoolSize) {
@@ -391,6 +405,35 @@ REX_EXTERN(sub_82548958) {
   } scope{scoring_play_runs};
   scoring_play_runs = ctx.r5.u32;
   __imp__sub_82548958(ctx,base);
+}
+
+REX_EXTERN(sub_8254C0A8) {
+  if(memory && ctx.r8.u32) {
+    const auto caller=uint32_t(ctx.lr);
+    const auto address=ctx.r8.u32;
+    uint32_t translated=0;
+    if(caller==0x8254B788 || caller==0x8254BACC) {
+      // Both speaker builders terminate their name and suffix in a 32-byte slot.
+      const auto* text=reinterpret_cast<const char*>(memory->TranslateVirtual(address));
+      const auto length=strnlen(text,32);
+      if(length<32)translated=TranslateFormatted(std::string_view(text,length),true);
+    }
+    // Translate the entire line before the native routine splits it into glyphs.
+    ctx.r8.u64=translated ? translated : Translate(address,true,caller);
+  }
+  __imp__sub_8254C0A8(ctx,base);
+}
+
+REX_EXTERN(sub_8260F470) {
+  if(memory && latin_font_enabled && ctx.lr==0x8254C0F4 && IsLatin(ctx.r5.u32)) {
+    // Career rows use one Japanese cell per character. Draw an English row
+    // as a whole so the Latin font can measure and fit it proportionally.
+    auto* renderer=Read32(ctx.r3.u32+4) ? __imp__sub_8260E870 : __imp__sub_8260EDE0;
+    RenderLocalized(ctx,base,renderer);
+    ctx.r3.u64=1;
+    return;
+  }
+  __imp__sub_8260F470(ctx,base);
 }
 
 // These two report builders format into known 128/1024-byte stack arrays,

@@ -21,9 +21,11 @@
     "all 940 populated PEMDFIX.CHK fields translated and verified for slot bounds and control sequences",
     "120 team preview lines and five pregame help pages reviewed against offline width and line budgets",
     "51 distinct native manager comment combinations matched reviewed English",
-    "78 packed text slots verified by original record, byte capacity, estimated width, and rebuilt archive bytes"
+    "78 packed text slots verified by original record, byte capacity, estimated width, and rebuilt archive bytes",
+    "all 118 native career dialogue pointers matched reviewed English"
   ],
   "pending_validation": [
+    "Live MVP Pennant coaching rows, speaker titles, and promotion notices",
     "Scoreboard, calendar, and stats text-slot placement and current Pennant mission notices",
     "Live match recaps and manager evaluations, including scoring plays and report wrapping",
     "Placement of team previews, career rewards, and pregame help pages",
@@ -54,10 +56,10 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 4588,
-    "draft": 1589
+    "reviewed": 4703,
+    "draft": 1474
   },
-  "reviewed_ui_addresses": 1611,
+  "reviewed_ui_addresses": 1731,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -149,6 +151,17 @@
     "rectangle_width_checks": 78,
     "estimate_font": "Arial 16 px",
     "unchanged_archive_members_verified": 2204,
+    "interactive_validation": false
+  },
+  "career_dialogue_review": {
+    "career_dialogue_lines": 118,
+    "existing_pregame_and_roster_lines_revised": 8,
+    "additional_roster_notice_lines": 2,
+    "newly_reviewed_main_entries": 115,
+    "native_dialogue_pointers_checked": 118,
+    "dialogue_lookup_matches": 118,
+    "maximum_estimated_dialogue_width_px": 295,
+    "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }
 }

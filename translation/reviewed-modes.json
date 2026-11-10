@@ -651,8 +651,8 @@
     "0x820801A0": "- Return to the main menu.\n- Progress will not be saved.\n- You cannot resume this game midway.",
     "0x82090FF0": "Promote to Top Team (Strengthen Roster)",
     "0x82099F6C": "when a run was allowed",
-    "0x8209BDF0": "\"Report to the top team.\"",
-    "0x8209BE30": "\"Join and travel with the reserves.\""
+    "0x8209BDF0": "you'll report to the top team.",
+    "0x8209BE30": "you'll report to the farm team."
   },
   "labels": {
     "アイテム購入": "Buy Items",
