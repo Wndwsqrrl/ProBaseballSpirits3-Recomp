@@ -16,6 +16,28 @@ inline bool IsReportPhraseAddress(uint32_t address) {
          (address>=0x82091A70 && address<0x82093A70);
 }
 
+// These fragments have no standalone English equivalent in the recap.
+inline std::optional<std::string> RecapPieceOverride(uint32_t address, std::string_view original,
+                                                      std::optional<uint32_t> scoring_play_runs = {}) {
+  if (scoring_play_runs) {
+    if (address == 0x82099B18) return "Grand Slam";
+    if (address == 0x82099B20 && *scoring_play_runs == 4) return std::string{};
+    if (address == 0x82066BB0) return "Strikeout";
+  }
+  switch (address) {
+    case 0x8209988C: return "and " + std::string(original); // Fractional innings.
+    case 0x8208DF10: return "."; // Sentence terminator.
+    case 0x82099A58: // Fielding position already precedes the play.
+    case 0x82099A08: return std::string{}; // Previous clause is already a full sentence.
+    default: return std::nullopt;
+  }
+}
+
+inline bool RecapPieceAllowsTrailingSpace(uint32_t address) {
+  // A period or a continuation with its own space follows either batting phrase.
+  return address != 0x820997EC && address != 0x820997F8;
+}
+
 // The assessment builders concatenate strings from a verified phrase table.
 // Translate only complete, uniquely recognized sequences with a report prefix.
 class ReportTranslation {

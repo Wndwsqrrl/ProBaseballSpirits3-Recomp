@@ -9,11 +9,12 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,697 records / 13,430 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
+- Current catalogue: **13,748 records / 13,481 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest pass reviews **293 executable entries** across team previews, career rewards, and pregame instructions. All 12 club previews have reviewed English. The main extracted list has 4,428 reviewed entries and 1,749 drafts. The new preview and help lines pass offline width and line-budget checks. In-game placement is pending.
+- The latest pass reviews **100 match and manager recap strings** and adds **51 complete manager comments** composed from the game's phrase table. The main extracted list has 4,487 reviewed entries and 1,690 drafts.
+- All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
 - **197 packed menu lookups** cover roster, offseason, settings, stats, and practice screens. The most recent 119 lookups were checked against their original menu rectangles using estimated Arial widths.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
@@ -81,7 +82,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `draft-translation.py`: create cached translation drafts. Only extracted game text is submitted to Google Translate's public endpoint. Control tags and format arguments are protected; results require review.
 - `curate-draft.py`: apply wording corrections and validate control-tag and printf-argument order.
 - `apply-reviewed-ui.py`: merge the maintained `reviewed-ui.json`, `reviewed-abilities.json`, `reviewed-headlines.json`, `reviewed-settings.json`, `reviewed-modes.json`, and `reviewed-management.json` corrections into the curation table before regenerating local drafts. Reviewed paragraphs may reflow line breaks; button prompts, color controls, and printf arguments remain protected.
-- `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for the reviewed packed UI lookups.
+- `generate-full-text.py`: generate the English render table and source-fingerprint catalogue. The full extracted Japanese corpus stays local; short runtime patterns are retained where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for packed UI lookups and `--extra-catalogue translation/manager-report-lookups.json` for assembled manager comments.
 - `generate-headline-patterns.py`: create bounded name/number aliases for filled newspaper headlines, preserving the original field order.
 - `check-text-layout.py`: check reviewed settings text against an approximate Arial width and line budget. Requires Pillow; this is an offline estimate, not a measurement of game rectangles.
 - `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed Hanshin names, and unambiguous dictionary readings.

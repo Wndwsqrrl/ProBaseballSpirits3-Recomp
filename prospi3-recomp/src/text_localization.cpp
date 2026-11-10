@@ -28,6 +28,7 @@ REX_EXTERN(__imp__sub_8260D8B0);
 REX_EXTERN(__imp__sub_82413358);
 REX_EXTERN(__imp__sub_825DEAC8);
 REX_EXTERN(__imp__sub_825DF6A8);
+REX_EXTERN(__imp__sub_82548958);
 REX_EXTERN(__imp__sub_826BA910);
 
 namespace {
@@ -54,6 +55,7 @@ std::unordered_map<uint32_t,QuadCapacity> quad_capacities;
 thread_local PPCContext* active_text_context=nullptr;
 thread_local uint32_t active_text_address=0;
 thread_local uint32_t active_text_object=0;
+thread_local std::optional<uint32_t> scoring_play_runs;
 
 uint64_t Fingerprint(std::string_view text) {
   uint64_t value = 0xCBF29CE484222325ULL;
@@ -380,6 +382,17 @@ REX_EXTERN(sub_82413358) {
   __imp__sub_82413358(ctx,base);
 }
 
+REX_EXTERN(sub_82548958) {
+  // The native play builder uses the same bases-loaded label as the recap's
+  // situation line. Only a home run inside this builder is a grand slam.
+  struct PlayScope {
+    std::optional<uint32_t> previous;
+    ~PlayScope() { scoring_play_runs = previous; }
+  } scope{scoring_play_runs};
+  scoring_play_runs = ctx.r5.u32;
+  __imp__sub_82548958(ctx,base);
+}
+
 // These two report builders format into known 128/1024-byte stack arrays,
 // then apply their own 127/1023-byte destination bounds. Translate the completed
 // piece before it is appended and wrapped; never expand the printf format.
@@ -391,24 +404,33 @@ REX_EXTERN(sub_826BA910) {
   const auto* original=reinterpret_cast<const char*>(memory->TranslateVirtual(destination));
   const size_t original_length=strnlen(original,capacity);
   if(original_length==capacity)return;
-  std::optional<std::string> contextual;
-  if(auto it=contextual_formats.find(format_address);it!=contextual_formats.end())
-    contextual=it->second.Apply(std::string_view(original,original_length),[](std::string_view capture) {
-      if(auto found=translations.find(Fingerprint(capture));found!=translations.end())
-        return std::string(reinterpret_cast<const char*>(memory->TranslateVirtual(found->second)));
-      return std::string(capture);
-    });
+  const std::string_view source(original,original_length);
+  auto contextual=localization::RecapPieceOverride(format_address,source,scoring_play_runs);
+  if(!contextual) {
+    if(auto it=contextual_formats.find(format_address);it!=contextual_formats.end()) {
+      contextual=it->second.Apply(source,[](std::string_view capture) {
+        if(auto found=translations.find(Fingerprint(capture));found!=translations.end())
+          return std::string(reinterpret_cast<const char*>(memory->TranslateVirtual(found->second)));
+        return std::string(capture);
+      });
+    }
+  }
   const auto translated=contextual?destination:Translate(destination,true,caller);
   if(!contextual && translated==destination)return;
   const auto* text=contextual?contextual->c_str():reinterpret_cast<const char*>(memory->TranslateVirtual(translated));
   const size_t length=std::strlen(text);
-  const bool space=length && text[length-1]!=' ' && text[length-1]!='\n';
-  if(length+size_t(space)+1>capacity)return;
+  const bool base_situation=!scoring_play_runs &&
+      (format_address==0x82099B18 || (format_address>=0x82099C9C && format_address<=0x82099CF0));
+  const bool space=length && text[length-1]!=' ' && text[length-1]!='\n' &&
+                   localization::RecapPieceAllowsTrailingSpace(format_address);
+  const size_t output_size=length+size_t(base_situation)+size_t(space);
+  if(output_size+1>capacity)return;
   auto* output=memory->TranslateVirtual(destination);
   std::memcpy(output,text,length);
-  if(space)output[length]=' ';
-  output[length+size_t(space)]=0;
-  ctx.r3.s64=int64_t(length+size_t(space));
+  if(base_situation)output[length]='.';
+  if(space)output[output_size-1]=' ';
+  output[output_size]=0;
+  ctx.r3.s64=int64_t(output_size);
 }
 
 // The text object sizes its sprite array using the original Japanese string.

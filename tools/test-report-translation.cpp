@@ -49,5 +49,16 @@ int main(int argc,char** argv) {
   assert(!reports.Apply(steady+"unrecognized text"));
   assert(!reports.Apply(source.at(0x820934B8))); // A phrase alone is not a report.
   assert(!reports.Apply(steady,1));
+  using localization::RecapPieceAllowsTrailingSpace;
+  using localization::RecapPieceOverride;
+  assert(RecapPieceOverride(0x8209988C,"1/3")=="and 1/3");
+  assert(RecapPieceOverride(0x8208DF10,"") == ".");
+  assert(RecapPieceOverride(0x82099A08,"") == "");
+  assert(!RecapPieceOverride(0x82099B18,""));
+  assert(RecapPieceOverride(0x82099B18,"",4) == "Grand Slam");
+  assert(RecapPieceOverride(0x82099B20,"",4) == "");
+  assert(!RecapPieceOverride(0x82099B20,"",3));
+  assert(!RecapPieceAllowsTrailingSpace(0x820997EC));
+  assert(!RecapPieceAllowsTrailingSpace(0x820997F8));
   std::cout<<"Native report phrase checks passed\n";
 }

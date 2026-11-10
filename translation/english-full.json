@@ -31279,49 +31279,49 @@
     "address": "0x82099418",
     "source_size": 16,
     "source_hash": "912F9E5D8ADDB7CB",
-    "english": "%s vs %s:",
+    "english": "%s vs. %s.",
     "status": "reviewed"
   },
   {
     "address": "0x8209942C",
     "source_size": 42,
     "source_hash": "ABA251AAE60FFCCC",
-    "english": "After a back-and-forth battle,",
+    "english": "After a game of swinging leads,",
     "status": "reviewed"
   },
   {
     "address": "0x82099458",
     "source_size": 44,
     "source_hash": "4662D7F57C5B921E",
-    "english": "After a close contest,",
+    "english": "After a tight game from start to finish,",
     "status": "reviewed"
   },
   {
     "address": "0x82099488",
     "source_size": 44,
     "source_hash": "729197A8EA17C72E",
-    "english": "%s dominated with explosive hitting (final: %d-%d).",
+    "english": "%s pounded out a %d-%d win.",
     "status": "reviewed"
   },
   {
     "address": "0x820994B8",
     "source_size": 50,
     "source_hash": "EE896557693D656A",
-    "english": "%s held on to a narrow lead (final: %d-%d).",
+    "english": "%s protected a slim lead to win %d-%d.",
     "status": "reviewed"
   },
   {
     "address": "0x820994EC",
     "source_size": 40,
     "source_hash": "BE83033C4552BC9E",
-    "english": "%s led throughout for a convincing win (final: %d-%d).",
+    "english": "%s led the whole way in a %d-%d win.",
     "status": "reviewed"
   },
   {
     "address": "0x82099518",
     "source_size": 20,
     "source_hash": "6570E24154C20A39",
-    "english": "After a high-scoring battle,",
+    "english": "After a slugfest,",
     "status": "reviewed"
   },
   {
@@ -31335,140 +31335,140 @@
     "address": "0x8209954C",
     "source_size": 10,
     "source_hash": "5028E6BD7109FA3E",
-    "english": "%s (final: %d-%d)",
+    "english": "%s (final score %d-%d)",
     "status": "reviewed"
   },
   {
     "address": "0x82099558",
     "source_size": 30,
     "source_hash": "39D1699BFE6D08BB",
-    "english": "He achieved a dramatic walk-off victory.",
-    "status": "draft"
+    "english": "pulled off a dramatic walk-off win.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099578",
     "source_size": 8,
     "source_hash": "1A031F0B84082AA8",
-    "english": "An overwhelming victory.",
-    "status": "draft"
+    "english": "won in a rout.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099584",
     "source_size": 28,
     "source_hash": "2A6EEDB83A208FE7",
-    "english": "I managed to get the victory.",
-    "status": "draft"
+    "english": "held on to win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820995A4",
     "source_size": 12,
     "source_hash": "F11245F8C404A9C2",
-    "english": "won.",
-    "status": "draft"
+    "english": "earned the win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820995B4",
     "source_size": 10,
     "source_hash": "EE45B0EB8786142F",
-    "english": "%d vs %d %s",
-    "status": "draft"
+    "english": "Final score %d-%d. %s",
+    "status": "reviewed"
   },
   {
     "address": "0x820995C0",
     "source_size": 22,
     "source_hash": "2525B039E67A0AC0",
-    "english": "A frustrating walk-off loss.",
-    "status": "draft"
+    "english": "suffered a tough walk-off loss.",
+    "status": "reviewed"
   },
   {
     "address": "0x820995D8",
     "source_size": 8,
     "source_hash": "B7456D58BC374F8D",
-    "english": "complete defeat.",
-    "status": "draft"
+    "english": "lost in a rout.",
+    "status": "reviewed"
   },
   {
     "address": "0x820995E4",
     "source_size": 18,
     "source_hash": "A78812475E4240CF",
-    "english": "was unfortunately defeated.",
-    "status": "draft"
+    "english": "came up just short.",
+    "status": "reviewed"
   },
   {
     "address": "0x820995F8",
     "source_size": 8,
     "source_hash": "94A25CC3ABF43939",
-    "english": "loss.",
-    "status": "draft"
+    "english": "took the loss.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099604",
     "source_size": 36,
     "source_hash": "100BF1BF54B348A6",
-    "english": "It was not decided in the prescribed %d round, and it was %d vs. %d.",
-    "status": "draft"
+    "english": "After the scheduled %d innings, the %d-%d game",
+    "status": "reviewed"
   },
   {
     "address": "0x8209962C",
     "source_size": 20,
     "source_hash": "A7BABFBF0943BD39",
-    "english": "It ended in a draw.",
-    "status": "draft"
+    "english": "ended in a tie.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099644",
     "source_size": 8,
     "source_hash": "BCD8A6471CF2D56F",
-    "english": "%s is %d times",
-    "status": "draft"
+    "english": "%s, inning %d",
+    "status": "reviewed"
   },
   {
     "address": "0x82099650",
     "source_size": 4,
     "source_hash": "33AFD80794CF2FFA",
-    "english": "top,",
+    "english": "(top),",
     "status": "reviewed"
   },
   {
     "address": "0x82099658",
     "source_size": 4,
     "source_hash": "A8147C18EEF75028",
-    "english": "bottom,",
+    "english": "(bottom),",
     "status": "reviewed"
   },
   {
     "address": "0x82099660",
     "source_size": 10,
     "source_hash": "9C66526A51744E9B",
-    "english": "no outs",
+    "english": "no outs,",
     "status": "reviewed"
   },
   {
     "address": "0x8209966C",
     "source_size": 7,
     "source_hash": "4F3ABB2C4F1022DA",
-    "english": "1 out",
+    "english": "1 out,",
     "status": "reviewed"
   },
   {
     "address": "0x82099674",
     "source_size": 7,
     "source_hash": "126066953E6C0763",
-    "english": "2 outs",
+    "english": "2 outs,",
     "status": "reviewed"
   },
   {
     "address": "0x8209967C",
     "source_size": 8,
     "source_hash": "ACC32A7BC1E765F9",
-    "english": "%s hit a",
+    "english": "%s's",
     "status": "reviewed"
   },
   {
     "address": "0x82099688",
     "source_size": 34,
     "source_hash": "F84C95FD65DC221D",
-    "english": "provided the lead they held to the end.",
+    "english": "put the winning run on the board.",
     "status": "reviewed"
   },
   {
@@ -31482,14 +31482,14 @@
     "address": "0x820996C4",
     "source_size": 28,
     "source_hash": "88C74D69F76B0F73",
-    "english": "ended the hard-fought contest.",
+    "english": "ended the hard-fought game.",
     "status": "reviewed"
   },
   {
     "address": "0x820996E4",
     "source_size": 40,
     "source_hash": "3EF24A1147DB76D9",
-    "english": "brought home the decisive run.",
+    "english": "brought home the run that clinched a narrow win.",
     "status": "reviewed"
   },
   {
@@ -31510,7 +31510,7 @@
     "address": "0x8209973C",
     "source_size": 28,
     "source_hash": "B14A554507E61300",
-    "english": "drove in the go-ahead run.",
+    "english": "brought home the go-ahead run.",
     "status": "reviewed"
   },
   {
@@ -31545,14 +31545,14 @@
     "address": "0x820997C8",
     "source_size": 4,
     "source_hash": "13C6F14D5DB91414",
-    "english": "%s:",
+    "english": "%s posted",
     "status": "reviewed"
   },
   {
     "address": "0x820997D0",
     "source_size": 6,
     "source_hash": "6CB89AC53CE611DE",
-    "english": "%d hits",
+    "english": "%d H",
     "status": "reviewed"
   },
   {
@@ -31573,77 +31573,77 @@
     "address": "0x820997EC",
     "source_size": 8,
     "source_hash": "52FEB1F4E7F8A4A9",
-    "english": "in an outstanding performance",
+    "english": "in an outstanding game",
     "status": "reviewed"
   },
   {
     "address": "0x820997F8",
     "source_size": 6,
     "source_hash": "3BEC3F7869C845D3",
-    "english": "in a strong performance",
+    "english": "in a strong game",
     "status": "reviewed"
   },
   {
     "address": "0x82099800",
     "source_size": 14,
     "source_hash": "486A2131D1657739",
-    "english": "helped secure the win.",
+    "english": " and helped secure the win.",
     "status": "reviewed"
   },
   {
     "address": "0x82099810",
     "source_size": 18,
     "source_hash": "9A54BB10BB830C56",
-    "english": "made an impact.",
+    "english": " and made an impact.",
     "status": "reviewed"
   },
   {
     "address": "0x82099824",
     "source_size": 58,
     "source_hash": "B26799DEF671463D",
-    "english": "%s The attacking team lacked a player who could play a central role and lacked a decisive factor.",
-    "status": "draft"
+    "english": "%s's lineup lacked a spark and came up short.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099860",
     "source_size": 32,
     "source_hash": "38562C67DB620B46",
-    "english": "The pitching staff lacks a sense of stability, especially %s.",
-    "status": "draft"
+    "english": "The pitching staff struggled. %s",
+    "status": "reviewed"
   },
   {
     "address": "0x82099884",
     "source_size": 4,
     "source_hash": "8E53AA4D11232FEA",
-    "english": "%d innings",
+    "english": "logged %d IP",
     "status": "reviewed"
   },
   {
     "address": "0x82099894",
     "source_size": 8,
     "source_hash": "4417B60CDEDAC50E",
-    "english": "pitched",
+    "english": "and",
     "status": "reviewed"
   },
   {
     "address": "0x820998A0",
     "source_size": 17,
     "source_hash": "1965354CA3A84C93",
-    "english": "without recording an out",
+    "english": "recorded no outs and",
     "status": "reviewed"
   },
   {
     "address": "0x820998B4",
     "source_size": 20,
     "source_hash": "6340942A126D86CB",
-    "english": "struggled, allowing %d runs.",
+    "english": "was tagged for %d runs.",
     "status": "reviewed"
   },
   {
     "address": "0x820998CC",
     "source_size": 34,
     "source_hash": "3F5120C133C6DFA5",
-    "english": "The pitching staff struggled, allowing %d runs.",
+    "english": "The pitching staff gave up %d runs.",
     "status": "reviewed"
   },
   {
@@ -31657,99 +31657,99 @@
     "address": "0x820998FC",
     "source_size": 8,
     "source_hash": "131C4D3EB261D856",
-    "english": "%s pitched %d innings",
+    "english": "%s logged %d IP",
     "status": "reviewed"
   },
   {
     "address": "0x82099908",
     "source_size": 38,
     "source_hash": "DC91361CA0CD80CD",
-    "english": "He showed great pitching and won a complete game by keeping the score to %d points.",
-    "status": "draft"
+    "english": "and held the opposition to %d runs for a complete-game win.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099930",
     "source_size": 42,
     "source_hash": "DACF27CFCFAB035D",
-    "english": "Although he lost %d points, he fought until the end and won a complete game.",
-    "status": "draft"
+    "english": "and gave up %d runs but went the distance for the win.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209995C",
     "source_size": 28,
     "source_hash": "436774E949EAE6F1",
-    "english": "Achieved a perfect match with a perfect throw.",
-    "status": "draft"
+    "english": "and finished off a perfect game.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209997C",
     "source_size": 38,
     "source_hash": "EE72654B348F37D0",
-    "english": "Achieved a stunning no-hitter.",
-    "status": "draft"
+    "english": "and completed a no-hitter.",
+    "status": "reviewed"
   },
   {
     "address": "0x820999A4",
     "source_size": 24,
     "source_hash": "B7FBD09B9E9DF352",
-    "english": "A stunning shutout victory.",
-    "status": "draft"
+    "english": "and finished off a shutout win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820999C0",
     "source_size": 24,
     "source_hash": "259897A86B97A325",
-    "english": "Showing his power to keep the score to %d point",
-    "status": "draft"
+    "english": "and held the opposition to %d runs.",
+    "status": "reviewed"
   },
   {
     "address": "0x820999DC",
     "source_size": 20,
     "source_hash": "0C542F137456D728",
-    "english": ", became the winning pitcher.",
-    "status": "draft"
+    "english": "He earned the win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820999F4",
     "source_size": 18,
     "source_hash": "70A7C481F93F0E8A",
-    "english": ", gave a save.",
-    "status": "draft"
+    "english": "He earned the save.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A08",
     "source_size": 4,
     "source_hash": "EDC6F7B9E9E11AAB",
     "english": "It was.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82099A10",
     "source_size": 10,
     "source_hash": "2E292DEA102161A0",
-    "english": "As a pitcher,",
-    "status": "draft"
+    "english": "On the mound,",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A1C",
     "source_size": 56,
     "source_hash": "5E5F19DB89DE17FA",
-    "english": "He showed strong pitching to keep the score to %d, but it did not lead to victory.",
-    "status": "draft"
+    "english": "and held the opposition to %d runs in a losing effort.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A58",
     "source_size": 4,
     "source_hash": "865264B7FD3EEBA7",
     "english": "to",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82099A60",
     "source_size": 10,
     "source_hash": "52F68925E31E8A04",
-    "english": "timely",
-    "status": "draft"
+    "english": "RBI",
+    "status": "reviewed"
   },
   {
     "address": "0x82099A6C",
@@ -31783,22 +31783,22 @@
     "address": "0x82099A9C",
     "source_size": 24,
     "source_hash": "041A8FB726B1FEA8",
-    "english": "Jump into the left stand",
-    "status": "draft"
+    "english": "Deep to LF:",
+    "status": "reviewed"
   },
   {
     "address": "0x82099AB8",
     "source_size": 34,
     "source_hash": "FC3CF096CC199D18",
-    "english": "Dive into the center back screen",
-    "status": "draft"
+    "english": "Over the CF wall:",
+    "status": "reviewed"
   },
   {
     "address": "0x82099ADC",
     "source_size": 24,
     "source_hash": "32044200C1B00CC6",
-    "english": "Jump into the light stand",
-    "status": "draft"
+    "english": "Deep to RF:",
+    "status": "reviewed"
   },
   {
     "address": "0x82099AF8",
@@ -31867,64 +31867,64 @@
     "address": "0x82099B60",
     "source_size": 18,
     "source_hash": "FDB354E77E66E224",
-    "english": "foul fly to",
-    "status": "draft"
+    "english": "Foul Fly",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B74",
     "source_size": 10,
     "source_hash": "54B3A7B4066A411E",
-    "english": "double play hit to",
-    "status": "draft"
+    "english": "Grounded into Double Play",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B80",
     "source_size": 22,
     "source_hash": "870E7B6BD489EC1E",
-    "english": "fielder's choice",
-    "status": "draft"
+    "english": "Fielder's Choice",
+    "status": "reviewed"
   },
   {
     "address": "0x82099B98",
     "source_size": 8,
     "source_hash": "6BACE1CEC2992FA9",
-    "english": "error",
-    "status": "draft"
+    "english": "Error",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BA4",
     "source_size": 12,
     "source_hash": "CCE22A3E9D6E9E1F",
-    "english": "squeeze to",
-    "status": "draft"
+    "english": "Squeeze Bunt",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BB4",
     "source_size": 10,
     "source_hash": "7F579276123F12B1",
-    "english": "bunt to",
-    "status": "draft"
+    "english": "Bunt",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BC0",
     "source_size": 14,
     "source_hash": "13D33563F2329D19",
-    "english": "sacrifice fly to",
-    "status": "draft"
+    "english": "Sacrifice Fly",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BD0",
     "source_size": 10,
     "source_hash": "846EBB02DF00B6D6",
-    "english": "fly to",
-    "status": "draft"
+    "english": "Fly Ball",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BDC",
     "source_size": 8,
     "source_hash": "E07D2B1AE1FD7967",
-    "english": "extrusion",
-    "status": "draft"
+    "english": "Run Forced In:",
+    "status": "reviewed"
   },
   {
     "address": "0x82099BE8",
@@ -32315,120 +32315,120 @@
     "address": "0x8209A0B4",
     "source_size": 38,
     "source_hash": "2BA003D3BA7EC03A",
-    "english": "It was a loss that made me question the direction of the coach.",
-    "status": "draft"
+    "english": "The manager's decisions came into question in the loss.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A0DC",
     "source_size": 28,
     "source_hash": "AE9D33794E1EB1E2",
-    "english": "The result was unfortunate.",
-    "status": "draft"
+    "english": "It was a disappointing loss.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A0FC",
     "source_size": 54,
     "source_hash": "6D231B1736ADD404",
-    "english": "The result was that the director's direction could not be utilized.",
-    "status": "draft"
+    "english": "The team couldn't capitalize on the manager's decisions.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A138",
     "source_size": 64,
     "source_hash": "C9FAF50BAB4236AB",
-    "english": "Although we lost, the manager's direction was highly commendable.",
-    "status": "draft"
+    "english": "The manager made some excellent calls despite the loss.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A17C",
     "source_size": 42,
     "source_hash": "F1E36D0C00E8C6E3",
-    "english": "It was a draw that made me question the manager's management.",
-    "status": "draft"
+    "english": "The tie raised questions about the manager's calls.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A1A8",
     "source_size": 48,
     "source_hash": "EC032D0A2C809796",
-    "english": "The coach's direction did not suit the flow of the game.",
-    "status": "draft"
+    "english": "The manager's moves didn't fit how the game played out.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A1DC",
     "source_size": 36,
     "source_hash": "0B5D20A5F47A510D",
-    "english": "It was a tense match with neither team giving up.",
-    "status": "draft"
+    "english": "It was a tense game and neither side gave an inch.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A204",
     "source_size": 52,
     "source_hash": "ABB2C12995492DF5",
-    "english": "The result was one step short of taking advantage of the director's direction.",
-    "status": "draft"
+    "english": "The team fell just short of making the manager's calls count.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A240",
     "source_size": 64,
     "source_hash": "47CA6A759DBF6565",
-    "english": "Although the match ended in a draw, the manager's direction was highly commendable.",
-    "status": "draft"
+    "english": "The game ended in a tie, but the manager made some excellent calls.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A284",
     "source_size": 50,
     "source_hash": "2DD5365AE83DFEC0",
-    "english": "Although they won, there were some doubts about the manager's direction.",
-    "status": "draft"
+    "english": "The team won, though some of the manager's calls were questionable.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A2B8",
     "source_size": 38,
     "source_hash": "C2AE464E582769EC",
-    "english": "It was a match that we won thanks to the efforts of our players.",
-    "status": "draft"
+    "english": "The players came through to earn the win.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A2E0",
     "source_size": 18,
     "source_hash": "4EB6A0AD0B88488A",
-    "english": "It was a stunning victory.",
-    "status": "draft"
+    "english": "It was an excellent win.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A2F4",
     "source_size": 56,
     "source_hash": "7D60D116959A102F",
-    "english": "Although the players were active, a lot of it was due to the skill of the coach.",
-    "status": "draft"
+    "english": "The players came through, and the manager's decisions made the difference.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A330",
     "source_size": 46,
     "source_hash": "DE7889C1BCBF7EFF",
-    "english": "It was a good game in which the manager's direction was spot on.",
-    "status": "draft"
+    "english": "The manager's calls paid off throughout the game.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A360",
     "source_size": 54,
     "source_hash": "230EEA039D8DCD5F",
-    "english": "I want them to be able to take advantage of today's defeat in their future battles.",
-    "status": "draft"
+    "english": "The team can learn from today's loss and carry those lessons forward.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A398",
     "source_size": 50,
     "source_hash": "C9EDFCBB1F4E157E",
-    "english": "I look forward to the next fight that will bring us victory.",
-    "status": "draft"
+    "english": "The team will look to turn that effort into a win next time.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A3CC",
     "source_size": 50,
     "source_hash": "78D6531E90BD8E5D",
-    "english": "I want them to continue fighting in a way that keeps them victorious.",
-    "status": "draft"
+    "english": "The team will look to keep the wins coming.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A400",
@@ -32603,14 +32603,14 @@
     "source_size": 8,
     "source_hash": "62AA362FCC0B330E",
     "english": "However,",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209A5F8",
     "source_size": 6,
     "source_hash": "C9DFD867E6E6BF18",
-    "english": "Also,",
-    "status": "draft"
+    "english": "In addition,",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A600",
@@ -32644,8 +32644,8 @@
     "address": "0x8209A624",
     "source_size": 14,
     "source_hash": "2FF20DC7352DF4F2",
-    "english": "Today's match is",
-    "status": "draft"
+    "english": "In today's game,",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A63C",
@@ -87480,6 +87480,363 @@
     "source_size": 14,
     "source_hash": "60E6ADFFD0FE4112",
     "english": "Baserunning Trial",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 78,
+    "source_hash": "A63C2A03556D1224",
+    "english": "The lineup did a good job bringing runners home from scoring position.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "5F831C4ECA03AD24",
+    "english": "The lineup made the most of innings when the leadoff hitter reached.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A0CF8FC20FE1312D",
+    "english": "The lineup did a good job converting baserunners into runs.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "58806AFE589715BE",
+    "english": "The team did an excellent job getting its bunts down.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "FC68BF63EDDFDBB3",
+    "english": "The manager's pinch-hitting decisions paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "0B71FB1A2A023F35",
+    "english": "The manager made a great pinch-hitting call late in a close game.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 76,
+    "source_hash": "A46B417009101E95",
+    "english": "That pinch-hitting move late in a close game deserves real credit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 138,
+    "source_hash": "94EDB011EAB117B6",
+    "english": "The pinch hitter's decisive hit won the game. It was a great call. Keep that approach going.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 146,
+    "source_hash": "C70E5103ECEEDC0A",
+    "english": "The pinch hitter's decisive hit won the game. The manager deserves real credit for that call. Keep it up.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A07C7936548E0643",
+    "english": "It was disappointing to leave so many scoring chances on the bases.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "89858D5D91BDDA36",
+    "english": "The lineup left too many runs on the table after the leadoff hitter reached.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "CA4AF29E86E14143",
+    "english": "The lineup has to do more with the runners it puts on base.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "643A8FF6334992AB",
+    "english": "Too many bunts went wrong.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "93DB7C1B8499565D",
+    "english": "The pinch-hitting move was worth a try, even though it fell short.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "62F1075E71653B45",
+    "english": "The late pinch-hitting move came up short. Learn from it for the next close game.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "96A73730F5B7B7E9",
+    "english": "The late pinch-hitting move came up short at a critical moment.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "E2D7B7EE45F81CD3",
+    "english": "The manager trusted the starter to go deeper today. The decision deserves credit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 98,
+    "source_hash": "8BC32E5B18210173",
+    "english": "The manager stuck with the starter, who stayed tough and kept runs off the board late. It was a great call.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 86,
+    "source_hash": "977C0739F17886CD",
+    "english": "The manager kept the starter in, and he did not allow another hit. It was a great call.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 104,
+    "source_hash": "1CABF06B578AE095",
+    "english": "The starter hung in and limited the damage late. The manager made a good call to leave him in.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 86,
+    "source_hash": "685596A68BDF631C",
+    "english": "The starter hung in after the manager left him in longer. The decision paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A4664DF9B30E0EC6",
+    "english": "The bullpen moves paid off. The relievers did not allow a hit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "F05924373AF8B6D8",
+    "english": "The bullpen moves paid off. Keeping the opposition hitless was a real plus.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 80,
+    "source_hash": "6151CFDA1B5A8270",
+    "english": "The decisions after the starter left paid off. The relievers did not allow a hit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "0F05EE2F2D6B3A3A",
+    "english": "The decisions after the starter left paid off. Keeping the opposition hitless was a real plus.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "9AB2709626BED1A6",
+    "english": "The bullpen moves paid off. The relievers shut down the other lineup.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "43F4783C6CB23B78",
+    "english": "The bullpen moves paid off. The opposition never got going against them.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "CEE9E3FED5B00DEC",
+    "english": "The decisions after the starter left paid off. The relievers shut down the other lineup.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 100,
+    "source_hash": "F783793BB399793E",
+    "english": "The decisions after the starter left paid off. The opposition never got going against them.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "57730FDD09D40C63",
+    "english": "The bullpen moves paid off. The relievers kept the opposition scoreless.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "44B4774C46811971",
+    "english": "The bullpen moves paid off. The relief staff protected the scoreboard.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 80,
+    "source_hash": "46D44B9DB11615C9",
+    "english": "The decisions after the starter left paid off. The relievers kept the opposition scoreless.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "D1087D8156CF57E7",
+    "english": "The decisions after the starter left paid off. The relief staff protected the scoreboard.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "BA2D0E822363ACF7",
+    "english": "The bullpen moves paid off. The manager picked excellent matchups against the opposing hitters.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 102,
+    "source_hash": "42BC7423767D3C1D",
+    "english": "The bullpen moves paid off. The matchups against the opposing hitters paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 100,
+    "source_hash": "F52D33D16E14B609",
+    "english": "The decisions after the starter left paid off. The manager picked excellent matchups against the opposing hitters.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "F1543568334D3B27",
+    "english": "The decisions after the starter left paid off. The matchups against the opposing hitters paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 78,
+    "source_hash": "5CE126105A339450",
+    "english": "The manager stuck with the starter, but he gave up runs and the move backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "B4F7EE0061CE6A22",
+    "english": "The manager stuck with the starter, but he could not hold on and the move backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 124,
+    "source_hash": "67CB490106978326",
+    "english": "The bullpen moves were questionable. The relievers gave up too many hits. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 132,
+    "source_hash": "26438ABE213C15F0",
+    "english": "The decisions after the starter left were questionable. The relievers gave up too many hits. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "DDE25F29533EEF14",
+    "english": "The bullpen moves were questionable. The relievers let too many hitters reach. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 118,
+    "source_hash": "4C97341D44748ED6",
+    "english": "The decisions after the starter left were questionable. The relievers let too many hitters reach. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 114,
+    "source_hash": "75C305352AF7FF20",
+    "english": "The bullpen moves were questionable. The relievers gave up runs. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 122,
+    "source_hash": "2498899A1C922F76",
+    "english": "The decisions after the starter left were questionable. The relievers gave up runs. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "57F024F276C5D2E6",
+    "english": "The bullpen moves were questionable. The relievers gave up a home run. They need to keep the ball in the park.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 118,
+    "source_hash": "B9B2EC0BAC5C2D24",
+    "english": "The decisions after the starter left were questionable. The relievers gave up a home run. They need to keep the ball in the park.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 112,
+    "source_hash": "A43D7F4837C70AB6",
+    "english": "The bullpen moves were questionable. The manager needs to account for matchups.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 104,
+    "source_hash": "414792277D4BDA80",
+    "english": "The bullpen moves were questionable. The matchups backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 120,
+    "source_hash": "96B1AB869439A750",
+    "english": "The decisions after the starter left were questionable. The manager needs to account for matchups.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 112,
+    "source_hash": "E4ACA7EB0E451506",
+    "english": "The decisions after the starter left were questionable. The matchups backfired.",
     "status": "reviewed"
   },
   {

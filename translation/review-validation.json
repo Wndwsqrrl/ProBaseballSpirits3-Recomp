@@ -1,13 +1,13 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13697,
-  "unique_fingerprints": 13430,
-  "comparison_commit": "7506d980eb91bf793ad870d7cc50d1622c59542b",
-  "changed_existing_translations": 344,
-  "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 21,
+  "catalogue_records": 13748,
+  "unique_fingerprints": 13481,
+  "comparison_commit": "ce58dffddced6ef9ef310f709f53d5b4be192868",
+  "changed_existing_translations": 86,
+  "added_fingerprints": 51,
+  "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 1410,
+    "ui": 1510,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -25,15 +25,15 @@
     "all static source fingerprints verified against the supported loaded image",
     "control tags and printf arguments preserved across curated catalogues",
     "formatted translation, padding, and size-limit checks passed",
-    "native pitcher, batter, and coach report checks passed",
+    "native pitcher, batter, coach, and match recap fragment checks passed",
     "all previous static source fingerprints retained",
-    "21 draft fragments retired after paragraph reflow",
-    "recorded renderer trace produced the same matches and wording as the previous build",
-    "new team preview and pregame help lines passed offline width and line-budget checks"
+    "51 native manager comment variants matched exact reviewed English",
+    "recorded renderer trace produced the same matches and wording as the previous build"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "In-game match recap and manager evaluation layout",
     "On-screen team preview, career milestone, and pregame help placement",
     "composed assessment wording and placement in the live game",
     "Live placement of the latest roster, settings, stats, and practice labels",
@@ -57,7 +57,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 293,
+  "added_ui_address_reviews": 100,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -90,6 +90,15 @@
     "new_team_preview_max_estimated_width_px": 355,
     "pregame_help_max_estimated_width_px": 351,
     "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "postgame_report_review": {
+    "reviewed_executable_entries": 100,
+    "newly_reviewed_main_entries": 59,
+    "manager_outcome_codes_with_text": 29,
+    "manager_comment_variants": 51,
+    "manager_comment_lookup_matches": 51,
+    "native_manager_variants_replayed_per_outcome": 60,
     "interactive_validation": false
   }
 }

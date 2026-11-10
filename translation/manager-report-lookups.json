@@ -1,0 +1,359 @@
+[
+  {
+    "address": "0x00000000",
+    "source_size": 78,
+    "source_hash": "A63C2A03556D1224",
+    "english": "The lineup did a good job bringing runners home from scoring position.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "5F831C4ECA03AD24",
+    "english": "The lineup made the most of innings when the leadoff hitter reached.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A0CF8FC20FE1312D",
+    "english": "The lineup did a good job converting baserunners into runs.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "58806AFE589715BE",
+    "english": "The team did an excellent job getting its bunts down.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "FC68BF63EDDFDBB3",
+    "english": "The manager's pinch-hitting decisions paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "0B71FB1A2A023F35",
+    "english": "The manager made a great pinch-hitting call late in a close game.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 76,
+    "source_hash": "A46B417009101E95",
+    "english": "That pinch-hitting move late in a close game deserves real credit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 138,
+    "source_hash": "94EDB011EAB117B6",
+    "english": "The pinch hitter's decisive hit won the game. It was a great call. Keep that approach going.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 146,
+    "source_hash": "C70E5103ECEEDC0A",
+    "english": "The pinch hitter's decisive hit won the game. The manager deserves real credit for that call. Keep it up.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A07C7936548E0643",
+    "english": "It was disappointing to leave so many scoring chances on the bases.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "89858D5D91BDDA36",
+    "english": "The lineup left too many runs on the table after the leadoff hitter reached.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "CA4AF29E86E14143",
+    "english": "The lineup has to do more with the runners it puts on base.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "643A8FF6334992AB",
+    "english": "Too many bunts went wrong.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "93DB7C1B8499565D",
+    "english": "The pinch-hitting move was worth a try, even though it fell short.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "62F1075E71653B45",
+    "english": "The late pinch-hitting move came up short. Learn from it for the next close game.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "96A73730F5B7B7E9",
+    "english": "The late pinch-hitting move came up short at a critical moment.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "E2D7B7EE45F81CD3",
+    "english": "The manager trusted the starter to go deeper today. The decision deserves credit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 98,
+    "source_hash": "8BC32E5B18210173",
+    "english": "The manager stuck with the starter, who stayed tough and kept runs off the board late. It was a great call.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 86,
+    "source_hash": "977C0739F17886CD",
+    "english": "The manager kept the starter in, and he did not allow another hit. It was a great call.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 104,
+    "source_hash": "1CABF06B578AE095",
+    "english": "The starter hung in and limited the damage late. The manager made a good call to leave him in.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 86,
+    "source_hash": "685596A68BDF631C",
+    "english": "The starter hung in after the manager left him in longer. The decision paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "A4664DF9B30E0EC6",
+    "english": "The bullpen moves paid off. The relievers did not allow a hit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "F05924373AF8B6D8",
+    "english": "The bullpen moves paid off. Keeping the opposition hitless was a real plus.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 80,
+    "source_hash": "6151CFDA1B5A8270",
+    "english": "The decisions after the starter left paid off. The relievers did not allow a hit.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "0F05EE2F2D6B3A3A",
+    "english": "The decisions after the starter left paid off. Keeping the opposition hitless was a real plus.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "9AB2709626BED1A6",
+    "english": "The bullpen moves paid off. The relievers shut down the other lineup.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "43F4783C6CB23B78",
+    "english": "The bullpen moves paid off. The opposition never got going against them.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "CEE9E3FED5B00DEC",
+    "english": "The decisions after the starter left paid off. The relievers shut down the other lineup.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 100,
+    "source_hash": "F783793BB399793E",
+    "english": "The decisions after the starter left paid off. The opposition never got going against them.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "57730FDD09D40C63",
+    "english": "The bullpen moves paid off. The relievers kept the opposition scoreless.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 82,
+    "source_hash": "44B4774C46811971",
+    "english": "The bullpen moves paid off. The relief staff protected the scoreboard.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 80,
+    "source_hash": "46D44B9DB11615C9",
+    "english": "The decisions after the starter left paid off. The relievers kept the opposition scoreless.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "D1087D8156CF57E7",
+    "english": "The decisions after the starter left paid off. The relief staff protected the scoreboard.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 92,
+    "source_hash": "BA2D0E822363ACF7",
+    "english": "The bullpen moves paid off. The manager picked excellent matchups against the opposing hitters.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 102,
+    "source_hash": "42BC7423767D3C1D",
+    "english": "The bullpen moves paid off. The matchups against the opposing hitters paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 100,
+    "source_hash": "F52D33D16E14B609",
+    "english": "The decisions after the starter left paid off. The manager picked excellent matchups against the opposing hitters.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "F1543568334D3B27",
+    "english": "The decisions after the starter left paid off. The matchups against the opposing hitters paid off.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 78,
+    "source_hash": "5CE126105A339450",
+    "english": "The manager stuck with the starter, but he gave up runs and the move backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "B4F7EE0061CE6A22",
+    "english": "The manager stuck with the starter, but he could not hold on and the move backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 124,
+    "source_hash": "67CB490106978326",
+    "english": "The bullpen moves were questionable. The relievers gave up too many hits. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 132,
+    "source_hash": "26438ABE213C15F0",
+    "english": "The decisions after the starter left were questionable. The relievers gave up too many hits. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "DDE25F29533EEF14",
+    "english": "The bullpen moves were questionable. The relievers let too many hitters reach. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 118,
+    "source_hash": "4C97341D44748ED6",
+    "english": "The decisions after the starter left were questionable. The relievers let too many hitters reach. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 114,
+    "source_hash": "75C305352AF7FF20",
+    "english": "The bullpen moves were questionable. The relievers gave up runs. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 122,
+    "source_hash": "2498899A1C922F76",
+    "english": "The decisions after the starter left were questionable. The relievers gave up runs. That needs work.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 110,
+    "source_hash": "57F024F276C5D2E6",
+    "english": "The bullpen moves were questionable. The relievers gave up a home run. They need to keep the ball in the park.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 118,
+    "source_hash": "B9B2EC0BAC5C2D24",
+    "english": "The decisions after the starter left were questionable. The relievers gave up a home run. They need to keep the ball in the park.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 112,
+    "source_hash": "A43D7F4837C70AB6",
+    "english": "The bullpen moves were questionable. The manager needs to account for matchups.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 104,
+    "source_hash": "414792277D4BDA80",
+    "english": "The bullpen moves were questionable. The matchups backfired.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 120,
+    "source_hash": "96B1AB869439A750",
+    "english": "The decisions after the starter left were questionable. The manager needs to account for matchups.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 112,
+    "source_hash": "E4ACA7EB0E451506",
+    "english": "The decisions after the starter left were questionable. The matchups backfired.",
+    "status": "reviewed"
+  }
+]
