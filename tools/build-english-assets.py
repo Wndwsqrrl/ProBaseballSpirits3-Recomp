@@ -13,7 +13,7 @@ import struct
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from bndr import read_index
-from pennant_events import MEMBER as PENNANT_MEMBER, patch_titles
+from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
 
 spec = importlib.util.spec_from_file_location('konami_cmp', Path(__file__).with_name('konami-cmp.py'))
 cmp = importlib.util.module_from_spec(spec)
@@ -120,6 +120,7 @@ def main():
     parser.add_argument('output', type=Path)
     parser.add_argument('--labels', required=True, type=Path)
     parser.add_argument('--pennant-events', type=Path, help='Reviewed Pennant event titles')
+    parser.add_argument('--pennant-text', type=Path, help='Reviewed Pennant event fields')
     parser.add_argument('--font', type=Path, default=Path('C:/Windows/Fonts/ARIALNB.TTF'))
     parser.add_argument('--preview', required=True, type=Path)
     args = parser.parse_args()
@@ -130,14 +131,11 @@ def main():
     entries = read_index(archive)
     labels = json.loads(args.labels.read_text(encoding='utf-8'))
     members = set(labels)
-    titles = None
-    if args.pennant_events:
+    pennant = load_translations(args.pennant_events, args.pennant_text)
+    if pennant:
         if PENNANT_MEMBER in members:
-            parser.error(f'{PENNANT_MEMBER} is reserved for event titles')
+            parser.error(f'{PENNANT_MEMBER} is reserved for event text')
         members.add(PENNANT_MEMBER)
-        titles = json.loads(args.pennant_events.read_text(encoding='utf-8'))
-        if not isinstance(titles, list):
-            parser.error('Pennant titles must be a list')
     missing = members - {entry['name'] for entry in entries}
     if missing:
         raise ValueError(f'Archive members missing: {missing}')
@@ -154,7 +152,7 @@ def main():
             else:
                 if data.startswith(b'CMP\0'):
                     data = cmp.decompress(data)
-                patches[name] = patch_titles(data, titles)
+                patches[name] = patch_text(data, pennant)
     output.mkdir(parents=True, exist_ok=True)
     target = output / 'cdvdroot/baseball.fbd'
     if target.exists() and os.path.samefile(archive, target):

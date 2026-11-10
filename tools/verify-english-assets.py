@@ -5,7 +5,7 @@ import json
 import struct
 from pathlib import Path
 from bndr import read_index
-from pennant_events import MEMBER as PENNANT_MEMBER, patch_titles
+from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
 
 spec=importlib.util.spec_from_file_location('cmp',Path(__file__).with_name('konami-cmp.py'))
 cmp=importlib.util.module_from_spec(spec);spec.loader.exec_module(cmp)
@@ -43,13 +43,14 @@ def main():
     p.add_argument('original',type=Path);p.add_argument('english',type=Path)
     p.add_argument('--labels',required=True,type=Path);p.add_argument('--report',required=True,type=Path)
     p.add_argument('--pennant-events',type=Path,help='Reviewed Pennant event titles')
+    p.add_argument('--pennant-text',type=Path,help='Reviewed Pennant event fields')
     a=p.parse_args();labels=json.loads(a.labels.read_text(encoding='utf-8'))
-    titles = json.loads(a.pennant_events.read_text(encoding='utf-8')) if a.pennant_events else None
-    if a.pennant_events and (PENNANT_MEMBER in labels or not isinstance(titles, list)):
-        p.error('Pennant titles must be a list and use a separate archive member')
+    pennant = load_translations(a.pennant_events, a.pennant_text)
+    if pennant and PENNANT_MEMBER in labels:
+        p.error('Pennant event text uses a separate archive member')
     old=read_index(a.original);new={x['name']:x for x in read_index(a.english)}
     if set(new)!={x['name'] for x in old}:raise ValueError('Archive membership changed')
-    if titles is not None and PENNANT_MEMBER not in new:
+    if pennant and PENNANT_MEMBER not in new:
         raise ValueError(f'Archive member missing: {PENNANT_MEMBER}')
     preserved=0
     with a.original.open('rb') as source,a.english.open('rb') as target:
@@ -57,12 +58,12 @@ def main():
             other=new[entry['name']];source.seek(entry['offset']);target.seek(other['offset'])
             if entry['name'] in labels:
                 verify_member(source.read(entry['size']),target.read(other['size']),labels[entry['name']])
-            elif titles is not None and entry['name'] == PENNANT_MEMBER:
+            elif pennant and entry['name'] == PENNANT_MEMBER:
                 data = source.read(entry['size'])
                 if data.startswith(b'CMP\0'):
                     data = cmp.decompress(data)
-                if target.read(other['size']) != patch_titles(data, titles):
-                    raise ValueError('Pennant event title patch differs from expected bytes')
+                if target.read(other['size']) != patch_text(data, pennant):
+                    raise ValueError('Pennant event text differs from expected bytes')
             else:
                 if entry['size']!=other['size']:raise ValueError('Unchanged member size differs')
                 remaining=entry['size']
@@ -75,10 +76,15 @@ def main():
     result=dict(archive_members=len(old),unchanged_members_verified=preserved,localized_members=sorted(labels),
         atlases=sum(len(x) for x in labels.values()),labels=sum(len(v) for x in labels.values() for v in x.values()),
         outside_localized_regions_unchanged=True)
-    if titles is not None:
+    if pennant:
         result['localized_members'].append(PENNANT_MEMBER)
         result['localized_members'].sort()
-        result['pennant_event_titles'] = len(titles)
+        if 'title' in pennant:
+            result['pennant_event_titles'] = len(pennant['title'])
+        additional = {field: sum(text is not None for text in rows)
+                      for field, rows in pennant.items() if field != 'title'}
+        if additional:
+            result['pennant_event_fields'] = additional
     a.report.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result),flush=True)
 
 if __name__=='__main__':main()

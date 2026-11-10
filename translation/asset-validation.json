@@ -13,5 +13,16 @@
   "atlases": 6,
   "labels": 47,
   "outside_localized_regions_unchanged": true,
-  "pennant_event_titles": 187
+  "pennant_event_titles": 187,
+  "pennant_event_fields": {
+    "reward": 187,
+    "goal": 187,
+    "failure_notice": 32,
+    "success_notice": 32,
+    "objective": 32,
+    "goal_detail": 187,
+    "success_story": 32,
+    "failure_story": 32,
+    "introduction": 32
+  }
 }
