@@ -46,7 +46,9 @@ int main(int argc,char** argv) {
     auto trimmed=std::string_view(source);
     while(!trimmed.empty() && trimmed.front()==' ')trimmed.remove_prefix(1);
     while(!trimmed.empty() && trimmed.back()==' ')trimmed.remove_suffix(1);
-    if(auto it=exact.find(Hash(trimmed));it!=exact.end()){result=it->second;status="exact";}
+    auto exact_match=exact.find(Hash(source));
+    if(exact_match==exact.end())exact_match=exact.find(Hash(trimmed));
+    if(exact_match!=exact.end()){result=exact_match->second;status="exact";}
     else {
       result=localization::NormalizeFullwidthAscii(source);
       if(!result)result=reports.Apply(source);

@@ -1,11 +1,11 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13832,
-  "unique_fingerprints": 13562,
-  "comparison_commit": "b7689dbeea535017abc9d52d9b1fab10dcf248de",
-  "changed_existing_translations": 197,
-  "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 0,
+  "catalogue_records": 13848,
+  "unique_fingerprints": 13578,
+  "comparison_commit": "fed7a2a7bfabef90f2533ac81b3ee74e36ddc9c4",
+  "changed_existing_translations": 225,
+  "added_fingerprints": 26,
+  "removed_fragment_or_codebook_fingerprints": 10,
   "review_entries": {
     "ui": 1991,
     "ability_descriptions_and_requirements": 337,
@@ -13,11 +13,11 @@
     "newspaper_lines_and_patterns": 308,
     "settings_descriptions": 207,
     "settings_labels": 48,
-    "mode_and_menu_entries": 728,
+    "mode_and_menu_entries": 1002,
     "mode_and_menu_labels": 412,
     "management_entries": 417,
     "management_labels": 195,
-    "management_runtime_patterns": 3,
+    "management_runtime_patterns": 17,
     "player_names": 376
   },
   "newspaper_runtime_aliases": 52,
@@ -25,13 +25,14 @@
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
     "control tags and printf arguments preserved across curated catalogues",
-    "376 name inputs matched their reviewed English spellings",
-    "304 menu and match-caption tests retained their English outputs",
-    "464 previous trace inputs retained their match results"
+    "274 executable text entries and 47 formatted inputs matched reviewed English",
+    "304 prior menu and match-caption cases retained their English outputs",
+    "464 recorded renderer inputs retained their match status with one intentional wording change"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live placement for updated team, standings, VP Shop, and system text",
     "Live placement for names from the native player pool",
     "Live match caption placement and number highlighting, plus main menu and team record placement",
     "In-game form labels and the expanded full roster names",
@@ -61,7 +62,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 0,
+  "added_ui_address_reviews": 274,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -175,6 +176,17 @@
     "offline_name_matches": 376,
     "widest_name_estimated_px": 85,
     "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "system_team_and_standings_review": {
+    "address_reviews": 274,
+    "newly_reviewed_addresses": 272,
+    "native_standings_combinations_checked": 15,
+    "milestone_stat_labels_checked": 3,
+    "formatted_input_matches": 47,
+    "widest_line_estimated_px": 350,
+    "estimate_font": "Arial 16 px",
+    "false_cp932_candidates_removed": 3,
     "interactive_validation": false
   }
 }

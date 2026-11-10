@@ -633,6 +633,90 @@
       "source": "なにやら%sが%sと話している様子を見ました。\r\n",
       "english": "It seems %s and %s were talking.",
       "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d勝 ",
+      "english": "Game %d: %d W",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d敗 ",
+      "english": "Game %d: %d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d分 ",
+      "english": "Game %d: %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝 %d敗 ",
+      "english": "%d W, %d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝 %d分 ",
+      "english": "%d W, %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d敗 %d分 ",
+      "english": "%d L, %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d勝 %d敗 ",
+      "english": "Game %d: %d W / %d L",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d勝 %d分 ",
+      "english": "Game %d: %d W / %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d敗 %d分 ",
+      "english": "Game %d: %d L / %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d勝 %d敗 %d分 ",
+      "english": "%d W / %d L / %d T ",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回戦 %d勝 %d敗 %d分 ",
+      "english": "Game %d: %d W / %d L / %d T",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "通算%d奪三振",
+      "english": "%d Career Strikeouts",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "通算%d安打",
+      "english": "%d Career Hits",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "通算%d本塁打",
+      "english": "%d Career Home Runs",
+      "status": "reviewed"
     }
   ],
   "pending_stat_definitions": {

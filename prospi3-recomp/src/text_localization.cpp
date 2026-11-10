@@ -177,8 +177,8 @@ uint32_t Translate(uint32_t address,bool whole_run=false,uint32_t caller=0) {
   if(first || last<source.size()) {
     if(const auto it=translations.find(Fingerprint(source.substr(first,last-first)));it!=translations.end())return it->second;
   }
+  std::string compact;
   if(source.size()<=128 && std::none_of(source.begin(),source.end(),[](unsigned char c){return (c>='A'&&c<='Z')||(c>='a'&&c<='z');})) {
-    std::string compact;
     for(size_t i=0;i<source.size();++i) {
       const auto c=static_cast<unsigned char>(source[i]);
       if(c==' ')continue;
@@ -186,12 +186,14 @@ uint32_t Translate(uint32_t address,bool whole_run=false,uint32_t caller=0) {
       compact+=source[i];
       if(((c>=0x81 && c<=0x9f)||(c>=0xe0 && c<=0xfc)) && i+1<source.size())compact+=source[++i];
     }
-    if(compact.size()!=source.size()) {
-      if(auto it=translations.find(Fingerprint(compact));it!=translations.end())return it->second;
-      if(const auto translated=TranslateFormatted(compact))return translated;
-    }
+    if(compact.size()==source.size())compact.clear();
+    else if(auto it=translations.find(Fingerprint(compact));it!=translations.end())return it->second;
   }
+  // A trailing space distinguishes a tie count from a duration in the native
+  // record builder. Match the original format before dropping its padding.
   if(const auto translated=TranslateFormatted(source))return translated;
+  if(!compact.empty())
+    if(const auto translated=TranslateFormatted(compact))return translated;
   if (japanese && trace_text) {
     std::lock_guard guard(trace_mutex);
     if (traced.insert(fingerprint).second && untranslated) {

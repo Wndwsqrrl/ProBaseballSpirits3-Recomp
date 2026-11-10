@@ -9,12 +9,13 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,832 records / 13,562 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
+- Current catalogue: **13,848 records / 13,578 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
-- The name pool has **376 newly reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings. The main extracted list has 5,414 reviewed entries and 762 drafts.
+- The name pool includes **376 reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
+- The main extracted list has **5,699 reviewed entries and 487 drafts**. The latest review covers Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.

@@ -360,99 +360,99 @@
     "address": "0x8205F99C",
     "source_size": 25,
     "source_hash": "798E7308DE5E6726",
-    "english": "Test message <BR>No.98",
-    "status": "draft"
+    "english": "Test Message<BR>No.98",
+    "status": "reviewed"
   },
   {
     "address": "0x8205F9B8",
     "source_size": 25,
     "source_hash": "798E7E08DE5E79D7",
-    "english": "Test message <BR>No.97",
-    "status": "draft"
+    "english": "Test Message<BR>No.97",
+    "status": "reviewed"
   },
   {
     "address": "0x8205F9D4",
     "source_size": 25,
     "source_hash": "798E7D08DE5E7824",
-    "english": "Test message <BR>No.96",
-    "status": "draft"
+    "english": "Test Message<BR>No.96",
+    "status": "reviewed"
   },
   {
     "address": "0x8205F9F0",
     "source_size": 25,
     "source_hash": "798E8008DE5E7D3D",
-    "english": "Test message <BR>No.95",
-    "status": "draft"
+    "english": "Test Message<BR>No.95",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA0C",
     "source_size": 25,
     "source_hash": "798E7F08DE5E7B8A",
-    "english": "Test message <BR>No.94",
-    "status": "draft"
+    "english": "Test Message<BR>No.94",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA28",
     "source_size": 25,
     "source_hash": "798E7A08DE5E730B",
-    "english": "Test message <BR>No.93",
-    "status": "draft"
+    "english": "Test Message<BR>No.93",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA44",
     "source_size": 25,
     "source_hash": "798E7908DE5E7158",
-    "english": "Test message <BR>No.92",
-    "status": "draft"
+    "english": "Test Message<BR>No.92",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA60",
     "source_size": 25,
     "source_hash": "798E7C08DE5E7671",
-    "english": "Test message <BR>No.91",
-    "status": "draft"
+    "english": "Test Message<BR>No.91",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA7C",
     "source_size": 25,
     "source_hash": "798E7B08DE5E74BE",
-    "english": "Test message <BR>No.90",
-    "status": "draft"
+    "english": "Test Message<BR>No.90",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FA98",
     "source_size": 25,
     "source_hash": "7991F808DE617EFC",
-    "english": "test message<BR>No.89",
-    "status": "draft"
+    "english": "Test Message<BR>No.89",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FAB4",
     "source_size": 25,
     "source_hash": "7991F908DE6180AF",
-    "english": "test message<BR>No.88",
-    "status": "draft"
+    "english": "Test Message<BR>No.88",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FAD0",
     "source_size": 25,
     "source_hash": "7991FE08DE61892E",
-    "english": "test message<BR>No.87",
-    "status": "draft"
+    "english": "Test Message<BR>No.87",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FAEC",
     "source_size": 25,
     "source_hash": "7991FF08DE618AE1",
-    "english": "test message<BR>No.86",
-    "status": "draft"
+    "english": "Test Message<BR>No.86",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FB08",
     "source_size": 25,
     "source_hash": "7991FC08DE6185C8",
-    "english": "test message<BR>No.85",
-    "status": "draft"
+    "english": "Test Message<BR>No.85",
+    "status": "reviewed"
   },
   {
     "address": "0x8205FB28",
@@ -878,8 +878,8 @@
     "address": "0x820625E8",
     "source_size": 25,
     "source_hash": "7976F808DE4AB744",
-    "english": "test message<BR>No.09",
-    "status": "draft"
+    "english": "Test Message<BR>No.09",
+    "status": "reviewed"
   },
   {
     "address": "0x82062608",
@@ -949,105 +949,105 @@
     "source_size": 15,
     "source_hash": "1ACB792984651E90",
     "english": "Title No.99",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062BC4",
     "source_size": 15,
     "source_hash": "1ACB7A2984652043",
     "english": "Title No.98",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062BD4",
     "source_size": 15,
     "source_hash": "1ACB87298465365A",
     "english": "Title No.97",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062BE4",
     "source_size": 15,
     "source_hash": "1ACB88298465380D",
     "english": "Title No.96",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062BF4",
     "source_size": 15,
     "source_hash": "1ACB8529846532F4",
     "english": "Title No.95",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C04",
     "source_size": 15,
     "source_hash": "1ACB8629846534A7",
     "english": "Title No.94",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C14",
     "source_size": 15,
     "source_hash": "1ACB832984652F8E",
     "english": "Title No.93",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C24",
     "source_size": 15,
     "source_hash": "1ACB842984653141",
     "english": "Title No.92",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C34",
     "source_size": 15,
     "source_hash": "1ACB812984652C28",
     "english": "Title No.91",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C44",
     "source_size": 15,
     "source_hash": "1ACB822984652DDB",
     "english": "Title No.90",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C54",
     "source_size": 15,
     "source_hash": "1AC805298462239D",
     "english": "Title No.89",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C64",
     "source_size": 15,
     "source_hash": "1AC80429846221EA",
     "english": "Title No.88",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C74",
     "source_size": 15,
     "source_hash": "1AC7F72984620BD3",
     "english": "Title No.87",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C84",
     "source_size": 15,
     "source_hash": "1AC7F62984620A20",
     "english": "Title No.86",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062C94",
     "source_size": 15,
     "source_hash": "1AC7F92984620F39",
     "english": "Title No.85",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82062CA4",
@@ -1319,8 +1319,8 @@
     "address": "0x82062F50",
     "source_size": 14,
     "source_hash": "1D173050D8EEBB7F",
-    "english": "free pennant",
-    "status": "draft"
+    "english": "Free Pennant",
+    "status": "reviewed"
   },
   {
     "address": "0x82062F60",
@@ -1474,105 +1474,105 @@
     "source_size": 15,
     "source_hash": "37768CD18EFE328F",
     "english": "Category No.99",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063144",
     "source_size": 15,
     "source_hash": "37768BD18EFE30DC",
     "english": "Category No.98",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063154",
     "source_size": 15,
     "source_hash": "377692D18EFE3CC1",
     "english": "Category No.97",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063164",
     "source_size": 15,
     "source_hash": "377691D18EFE3B0E",
     "english": "Category No.96",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063174",
     "source_size": 15,
     "source_hash": "377690D18EFE395B",
     "english": "Category No.95",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063184",
     "source_size": 15,
     "source_hash": "37768FD18EFE37A8",
     "english": "Category No.94",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063194",
     "source_size": 15,
     "source_hash": "377696D18EFE438D",
     "english": "Category No.93",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631A4",
     "source_size": 15,
     "source_hash": "377695D18EFE41DA",
     "english": "Category No.92",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631B4",
     "source_size": 15,
     "source_hash": "377694D18EFE4027",
     "english": "Category No.91",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631C4",
     "source_size": 15,
     "source_hash": "377693D18EFE3E74",
     "english": "Category No.90",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631D4",
     "source_size": 15,
     "source_hash": "377990D18F006F32",
     "english": "Category No.89",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631E4",
     "source_size": 15,
     "source_hash": "377991D18F0070E5",
     "english": "Category No.88",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820631F4",
     "source_size": 15,
     "source_hash": "377992D18F007298",
     "english": "Category No.87",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063204",
     "source_size": 15,
     "source_hash": "377993D18F00744B",
     "english": "Category No.86",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063214",
     "source_size": 15,
     "source_hash": "377994D18F0075FE",
     "english": "Category No.85",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063224",
@@ -1719,7 +1719,7 @@
     "source_size": 34,
     "source_hash": "F7B9946936F7DC81",
     "english": "Return to the Home Run Derby menu.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82063518",
@@ -1732,15 +1732,15 @@
     "address": "0x8206353C",
     "source_size": 34,
     "source_hash": "3198DD6A9DF45BCC",
-    "english": "Start the game by paying 100 VP.",
-    "status": "draft"
+    "english": "Pay 100 VP to start.",
+    "status": "reviewed"
   },
   {
     "address": "0x82063560",
     "source_size": 55,
     "source_hash": "58B84654E6A879E7",
-    "english": "Start the game by paying 500 VP. \n Chance to earn big!",
-    "status": "draft"
+    "english": "Pay 500 VP to start.\nGo for a big payout!",
+    "status": "reviewed"
   },
   {
     "address": "0x82063598",
@@ -1753,8 +1753,8 @@
     "address": "0x820635C0",
     "source_size": 20,
     "source_hash": "24DA97D5BE78ED7A",
-    "english": "%2d×%d.%d / 1 home run",
-    "status": "draft"
+    "english": "%2d x %d.%d per HR",
+    "status": "reviewed"
   },
   {
     "address": "0x820635D8",
@@ -1837,22 +1837,22 @@
     "address": "0x82063970",
     "source_size": 10,
     "source_hash": "70BA32A969039F4B",
-    "english": "runner 3",
-    "status": "draft"
+    "english": "Runner on 3rd",
+    "status": "reviewed"
   },
   {
     "address": "0x8206397C",
     "source_size": 10,
     "source_hash": "70BA33A96903A0FE",
-    "english": "runner 2",
-    "status": "draft"
+    "english": "Runner on 2nd",
+    "status": "reviewed"
   },
   {
     "address": "0x82063988",
     "source_size": 10,
     "source_hash": "70BA34A96903A2B1",
-    "english": "runner 1",
-    "status": "draft"
+    "english": "Runner on 1st",
+    "status": "reviewed"
   },
   {
     "address": "0x82063B24",
@@ -2033,36 +2033,36 @@
     "address": "0x82063C54",
     "source_size": 24,
     "source_hash": "43C6A81303837AC6",
-    "english": "Under treatment for an injury caused by a self-hit ball",
-    "status": "draft"
+    "english": "Recovering after fouling a ball off himself",
+    "status": "reviewed"
   },
   {
     "address": "0x82063C70",
     "source_size": 28,
     "source_hash": "4AC3B1E4E5A8CAD9",
-    "english": "Treating an injury caused by elbow pain",
-    "status": "draft"
+    "english": "Recovering from elbow pain",
+    "status": "reviewed"
   },
   {
     "address": "0x82063C90",
     "source_size": 32,
     "source_hash": "D7D1C4164A3DBD1C",
-    "english": "Under treatment for injuries caused by pitcher assault",
-    "status": "draft"
+    "english": "Recovering after being hit by a line drive",
+    "status": "reviewed"
   },
   {
     "address": "0x82063CB4",
     "source_size": 32,
     "source_hash": "32935CFD8CE2B6E0",
-    "english": "Treatment for injury caused by sliding",
-    "status": "draft"
+    "english": "Recovering from a sliding injury",
+    "status": "reviewed"
   },
   {
     "address": "0x82063CD8",
     "source_size": 38,
     "source_hash": "047C60013B34A674",
-    "english": "Treatment for injury caused by head sliding",
-    "status": "draft"
+    "english": "Recovering from a headfirst slide injury",
+    "status": "reviewed"
   },
   {
     "address": "0x82063D00",
@@ -2586,8 +2586,8 @@
     "address": "0x82064770",
     "source_size": 107,
     "source_hash": "52009780456FAFAD",
-    "english": "Emperor Cup save data does not exist on the ``PlayStation 2'' dedicated memory card (8MB).",
-    "status": "draft"
+    "english": "No Emperor Cup save data found on the\nPlayStation 2 Memory Card (8 MB).",
+    "status": "reviewed"
   },
   {
     "address": "0x820647DC",
@@ -4280,7 +4280,7 @@
     "address": "0x820669E4",
     "source_size": 12,
     "source_hash": "F32700764D6AB4A7",
-    "english": "With Runners 4",
+    "english": "Vs. Runners 4",
     "status": "reviewed"
   },
   {
@@ -4469,15 +4469,15 @@
     "address": "0x82066B48",
     "source_size": 18,
     "source_hash": "1D5D5A56968D47B2",
-    "english": "H sliding 2",
-    "status": "draft"
+    "english": "Headfirst Slide 2",
+    "status": "reviewed"
   },
   {
     "address": "0x82066B5C",
     "source_size": 18,
     "source_hash": "1D5D5B56968D4965",
-    "english": "H sliding 1",
-    "status": "draft"
+    "english": "Headfirst Slide 1",
+    "status": "reviewed"
   },
   {
     "address": "0x82066B70",
@@ -4665,8 +4665,8 @@
     "address": "0x82067BF8",
     "source_size": 8,
     "source_hash": "7165273F90411FB1",
-    "english": "C base",
-    "status": "draft"
+    "english": "C Fastball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C04",
@@ -4700,8 +4700,8 @@
     "address": "0x82067C30",
     "source_size": 10,
     "source_hash": "9347B732242C431D",
-    "english": "L slider",
-    "status": "draft"
+    "english": "L Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C3C",
@@ -4714,15 +4714,15 @@
     "address": "0x82067C44",
     "source_size": 8,
     "source_hash": "87B4E5716726DEE4",
-    "english": "S curve",
-    "status": "draft"
+    "english": "Slow Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C50",
     "source_size": 8,
     "source_hash": "6F8CBA784F980473",
-    "english": "D curve",
-    "status": "draft"
+    "english": "D Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C5C",
@@ -4735,8 +4735,8 @@
     "address": "0x82067C68",
     "source_size": 10,
     "source_hash": "240AFE499546BAD4",
-    "english": "SS curve",
-    "status": "draft"
+    "english": "Extra-Slow Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C74",
@@ -4749,8 +4749,8 @@
     "address": "0x82067C80",
     "source_size": 8,
     "source_hash": "121CFECA408766CB",
-    "english": "L curve",
-    "status": "draft"
+    "english": "L Curve",
+    "status": "reviewed"
   },
   {
     "address": "0x82067C8C",
@@ -4812,8 +4812,8 @@
     "address": "0x82067CF0",
     "source_size": 10,
     "source_hash": "C9A31AB470113D8F",
-    "english": "L fork",
-    "status": "draft"
+    "english": "L Forkball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067CFC",
@@ -4889,15 +4889,15 @@
     "address": "0x82067D74",
     "source_size": 10,
     "source_hash": "77DC03A35133AAFD",
-    "english": "L sinker",
-    "status": "draft"
+    "english": "L Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D80",
     "source_size": 10,
     "source_hash": "9F2FBD7DA22F5BB1",
-    "english": "L screw",
-    "status": "draft"
+    "english": "L Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x82067D8C",
@@ -4924,8 +4924,8 @@
     "address": "0x82067DB0",
     "source_size": 10,
     "source_hash": "96296441C92B01C9",
-    "english": "L shoot",
-    "status": "draft"
+    "english": "L Shuuto",
+    "status": "reviewed"
   },
   {
     "address": "0x82067DBC",
@@ -4959,15 +4959,15 @@
     "address": "0x82067F68",
     "source_size": 14,
     "source_hash": "83E1F505E05B6187",
-    "english": "Congratulations! !",
-    "status": "draft"
+    "english": "Congratulations!",
+    "status": "reviewed"
   },
   {
     "address": "0x82067F78",
     "source_size": 18,
     "source_hash": "F406BEED58A26EDB",
-    "english": "Total 9999 strikeouts",
-    "status": "draft"
+    "english": "9,999 Career Strikeouts",
+    "status": "reviewed"
   },
   {
     "address": "0x82067F94",
@@ -4980,8 +4980,8 @@
     "address": "0x82067F9C",
     "source_size": 8,
     "source_hash": "9E9FFF9AC6DD8B94",
-    "english": "Total %d%s",
-    "status": "draft"
+    "english": "Career %d %s",
+    "status": "reviewed"
   },
   {
     "address": "0x8206824C",
@@ -6289,8 +6289,8 @@
     "address": "0x8206C270",
     "source_size": 12,
     "source_hash": "0A16787392428C3D",
-    "english": "L slider",
-    "status": "draft"
+    "english": "L Slider",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C280",
@@ -6408,15 +6408,15 @@
     "address": "0x8206C398",
     "source_size": 10,
     "source_hash": "77DC1CA35133D578",
-    "english": "L sinker",
-    "status": "draft"
+    "english": "L Sinker",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C3A4",
     "source_size": 12,
     "source_hash": "3E8C5F4DADD18EF1",
-    "english": "L screw",
-    "status": "draft"
+    "english": "L Screwball",
+    "status": "reviewed"
   },
   {
     "address": "0x8206C3B4",
@@ -9082,8 +9082,8 @@
     "address": "0x82074C18",
     "source_size": 16,
     "source_hash": "866BA9EDFCEF55D4",
-    "english": "Internal error.",
-    "status": "draft"
+    "english": "An internal error occurred.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074CE0",
@@ -9117,50 +9117,50 @@
     "address": "0x82074DF0",
     "source_size": 30,
     "source_hash": "CC12591682947807",
-    "english": "Please select the player to delete.",
-    "status": "draft"
+    "english": "Select a player to delete.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E10",
     "source_size": 30,
     "source_hash": "79A58F2A693EE139",
-    "english": "MEMORY CARD socket 1",
-    "status": "draft"
+    "english": "Memory Card Slot 1",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E30",
     "source_size": 30,
     "source_hash": "79A58E2A693EDF86",
-    "english": "MEMORY CARD socket 2",
-    "status": "draft"
+    "english": "Memory Card Slot 2",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E50",
     "source_size": 20,
     "source_hash": "6BF1A4DC4A5364D1",
-    "english": "Professional baseball spirits 3",
-    "status": "draft"
+    "english": "Pro Yakyuu Spirits 3",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E68",
     "source_size": 34,
     "source_hash": "D349AC703D0C3495",
-    "english": "Professional baseball spirits 3 climax",
-    "status": "draft"
+    "english": "Pro Yakyuu Spirits 3 Climax",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E8C",
     "source_size": 12,
     "source_hash": "ACCFA2F7FAE50CD2",
-    "english": "power pro 12",
-    "status": "draft"
+    "english": "Power Pro 12",
+    "status": "reviewed"
   },
   {
     "address": "0x82074E9C",
     "source_size": 18,
     "source_hash": "BCA4BF5B7EAA47D7",
     "english": "Power Pro 12 Definitive Edition",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82074EB0",
@@ -9173,8 +9173,8 @@
     "address": "0x82074ED4",
     "source_size": 40,
     "source_hash": "E5097DB37E897786",
-    "english": "Copying is not possible because the registration space is full.",
-    "status": "draft"
+    "english": "All player slots are full. Cannot copy.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074F00",
@@ -9187,22 +9187,22 @@
     "address": "0x82074F30",
     "source_size": 40,
     "source_hash": "DC24491058242AE0",
-    "english": "Cannot be deleted because it belongs to a team.",
-    "status": "draft"
+    "english": "Remove the player from their team first.",
+    "status": "reviewed"
   },
   {
     "address": "0x82074F5C",
     "source_size": 14,
     "source_hash": "B450126E90962FC8",
-    "english": "Do you want to delete it?",
-    "status": "draft"
+    "english": "Delete this player?",
+    "status": "reviewed"
   },
   {
     "address": "0x82074F6C",
     "source_size": 42,
     "source_hash": "37FBBF6065D3A20C",
-    "english": "Cannot be overwritten because it belongs to a team.",
-    "status": "draft"
+    "english": "Remove the player from their team first.",
+    "status": "reviewed"
   },
   {
     "address": "0x8207502C",
@@ -11189,29 +11189,29 @@
     "address": "0x82077C60",
     "source_size": 77,
     "source_hash": "4013D3BCFE44C1D3",
-    "english": "\\c7 Pattern 4 <BR> Batter commentary: Mr. Mitsuo Tatsugawa (Hiroshima) <BR> Pitcher commentary: Mr. Kazutomo Miyamoto (Giants)",
-    "status": "draft"
+    "english": "\\c7Team 4<BR>Batting: Mitsuo Tatsukawa (Hiroshima)<BR>Pitching: Kazutomo Miyamoto (Giants)",
+    "status": "reviewed"
   },
   {
     "address": "0x82077CB0",
     "source_size": 87,
     "source_hash": "A0CF9F80849628CC",
-    "english": "\\c7 Pattern 3 <BR> Batter commentary: Mr. Mitsuo Tatsukawa (Hiroshima) <BR> Pitcher commentary: Mr. Yukihiro Nishizaki (Nippon Ham-Seibu)",
-    "status": "draft"
+    "english": "\\c7Team 3<BR>Batting: Mitsuo Tatsukawa (Hiroshima)<BR>Pitching: Yukihiro Nishizaki (Nippon-Ham, Seibu)",
+    "status": "reviewed"
   },
   {
     "address": "0x82077D08",
     "source_size": 89,
     "source_hash": "58E5BCCAC9B0FFB5",
-    "english": "\\c7 Pattern 2 <BR> Batter commentary: Yasushi Tao (Chunichi-Seibu-Hanshin) <BR> Pitcher commentary: Kazutomo Miyamoto (Giants)",
-    "status": "draft"
+    "english": "\\c7Team 2<BR>Batting: Yasushi Tao (Chunichi, Seibu, Hanshin)<BR>Pitching: Kazutomo Miyamoto (Giants)",
+    "status": "reviewed"
   },
   {
     "address": "0x82077D68",
     "source_size": 99,
     "source_hash": "9288F035E386CA9A",
-    "english": "\\c7 Pattern 1 <BR> Batter commentary: Yasushi Tao (Chunichi-Seibu-Hanshin) <BR> Pitcher commentary: Yukihiro Nishizaki (Nippon Ham-Seibu)",
-    "status": "draft"
+    "english": "\\c7Team 1<BR>Batting: Yasushi Tao (Chunichi, Seibu, Hanshin)<BR>Pitching: Yukihiro Nishizaki (Nippon-Ham, Seibu)",
+    "status": "reviewed"
   },
   {
     "address": "0x82077DCC",
@@ -11574,29 +11574,29 @@
     "address": "0x82078888",
     "source_size": 10,
     "source_hash": "597F089552B7A65A",
-    "english": "pattern 4",
-    "status": "draft"
+    "english": "Team 4",
+    "status": "reviewed"
   },
   {
     "address": "0x82078894",
     "source_size": 10,
     "source_hash": "597F099552B7A80D",
-    "english": "pattern 3",
-    "status": "draft"
+    "english": "Team 3",
+    "status": "reviewed"
   },
   {
     "address": "0x820788A0",
     "source_size": 10,
     "source_hash": "597F069552B7A2F4",
-    "english": "pattern 2",
-    "status": "draft"
+    "english": "Team 2",
+    "status": "reviewed"
   },
   {
     "address": "0x820788AC",
     "source_size": 10,
     "source_hash": "597F079552B7A4A7",
-    "english": "pattern 1",
-    "status": "draft"
+    "english": "Team 1",
+    "status": "reviewed"
   },
   {
     "address": "0x820788B8",
@@ -11861,8 +11861,8 @@
     "address": "0x82078A28",
     "source_size": 7,
     "source_hash": "1210364F11B6A2D6",
-    "english": "Error",
-    "status": "draft"
+    "english": "Error\t",
+    "status": "reviewed"
   },
   {
     "address": "0x82078A30",
@@ -14346,29 +14346,29 @@
     "address": "0x8207EE54",
     "source_size": 8,
     "source_hash": "BA0768FD21112E04",
-    "english": "5-7 points",
-    "status": "draft"
+    "english": "5-7 Runs",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EE60",
     "source_size": 8,
     "source_hash": "7223DC89421B54EC",
-    "english": "4-6 points",
-    "status": "draft"
+    "english": "4-6 Runs",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EE6C",
     "source_size": 8,
     "source_hash": "C801B5910DF8AAB4",
-    "english": "3-5 points",
-    "status": "draft"
+    "english": "3-5 Runs",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EE7C",
     "source_size": 8,
     "source_hash": "7864CD86FC15CC89",
-    "english": "1-2 times",
-    "status": "draft"
+    "english": "1-2 IP",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EE88",
@@ -14388,29 +14388,29 @@
     "address": "0x8207EE9C",
     "source_size": 8,
     "source_hash": "40B036A161ACE9E6",
-    "english": "8 times or more",
-    "status": "draft"
+    "english": "8+ IP",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EEA8",
     "source_size": 8,
     "source_hash": "79683B32A8C5E76D",
-    "english": "7 times or more",
-    "status": "draft"
+    "english": "7+ IP",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EEB4",
     "source_size": 8,
     "source_hash": "552E7E00DD346F80",
-    "english": "6 times or more",
-    "status": "draft"
+    "english": "6+ IP",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EEC0",
     "source_size": 8,
     "source_hash": "E3813550633675C7",
-    "english": "5 times or more",
-    "status": "draft"
+    "english": "5+ IP",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EECC",
@@ -14437,8 +14437,8 @@
     "address": "0x8207EF6C",
     "source_size": 4,
     "source_hash": "E297CEF6DEBD5283",
-    "english": "Appointment",
-    "status": "draft"
+    "english": "Usage",
+    "status": "reviewed"
   },
   {
     "address": "0x8207EF74",
@@ -14731,8 +14731,8 @@
     "address": "0x8207F988",
     "source_size": 40,
     "source_hash": "78E029D79E818044",
-    "english": "Are you sure you want to save the VP you earned?",
-    "status": "draft"
+    "english": "Save the VP you earned?",
+    "status": "reviewed"
   },
   {
     "address": "0x8207F9B4",
@@ -14752,8 +14752,8 @@
     "address": "0x8207FA8C",
     "source_size": 9,
     "source_hash": "8F65B3C6124A5B5F",
-    "english": "Natural grass/soil",
-    "status": "draft"
+    "english": "Natural Grass / Dirt",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FA98",
@@ -14780,8 +14780,8 @@
     "address": "0x8207FAD4",
     "source_size": 8,
     "source_hash": "8CC94172EC43D54D",
-    "english": "Stadium name",
-    "status": "draft"
+    "english": "Stadium Name",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FAE0",
@@ -14794,15 +14794,15 @@
     "address": "0x8207FAE4",
     "source_size": 6,
     "source_hash": "54AA9AB356F2E464",
-    "english": "Ahri",
-    "status": "draft"
+    "english": "On",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FAEC",
     "source_size": 4,
     "source_hash": "A5D16DDA416AC06D",
-    "english": "time",
-    "status": "draft"
+    "english": "Time",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FAF4",
@@ -14857,8 +14857,8 @@
     "address": "0x8207FE5C",
     "source_size": 18,
     "source_hash": "EE706DA53F5CBB26",
-    "english": "1P Full team name",
-    "status": "draft"
+    "english": "P1 Full Team Name",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FE7C",
@@ -15130,8 +15130,8 @@
     "address": "0x82080168",
     "source_size": 34,
     "source_hash": "8A7CD426DD900C6A",
-    "english": "Skymark Stadium/Osaka Dome",
-    "status": "draft"
+    "english": "Skymark Stadium / Osaka Dome",
+    "status": "reviewed"
   },
   {
     "address": "0x820801A0",
@@ -15886,8 +15886,8 @@
     "address": "0x820812B4",
     "source_size": 6,
     "source_hash": "A091ED5ADD92BADD",
-    "english": "%s player",
-    "status": "draft"
+    "english": "%s",
+    "status": "reviewed"
   },
   {
     "address": "0x820812BC",
@@ -15970,8 +15970,8 @@
     "address": "0x82082788",
     "source_size": 29,
     "source_hash": "3D32184FA1301849",
-    "english": "\\c0How to play field play",
-    "status": "draft"
+    "english": "\\c0Field Play Guide",
+    "status": "reviewed"
   },
   {
     "address": "0x820829C0",
@@ -16111,35 +16111,35 @@
     "source_size": 4,
     "source_hash": "8E97694D115C8E43",
     "english": "%d min",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82082FD8",
     "source_size": 7,
     "source_hash": "052497F91BA6F8BB",
-    "english": "%d round",
-    "status": "draft"
+    "english": "Game %d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82082FE0",
     "source_size": 5,
     "source_hash": "EC2068F416C2D6F6",
-    "english": "%d win",
-    "status": "draft"
+    "english": "%d W ",
+    "status": "reviewed"
   },
   {
     "address": "0x82082FE8",
     "source_size": 5,
     "source_hash": "9F8F23F47BB14273",
-    "english": "%d defeated",
-    "status": "draft"
+    "english": "%d L ",
+    "status": "reviewed"
   },
   {
     "address": "0x82082FF0",
     "source_size": 5,
     "source_hash": "A7D650F48045F239",
-    "english": "%d min",
-    "status": "draft"
+    "english": "%d T ",
+    "status": "reviewed"
   },
   {
     "address": "0x8208300C",
@@ -16159,8 +16159,8 @@
     "address": "0x82083024",
     "source_size": 4,
     "source_hash": "8E45C54D1117206F",
-    "english": "%d issue",
-    "status": "draft"
+    "english": "HR No. %d",
+    "status": "reviewed"
   },
   {
     "address": "0x820830E0",
@@ -16194,14 +16194,14 @@
     "address": "0x8208317C",
     "source_size": 38,
     "source_hash": "3383EC56146A4583",
-    "english": "If you have save data for Prospi 3, next time",
-    "status": "draft"
+    "english": "If you have ProSpi 3 save data,",
+    "status": "reviewed"
   },
   {
     "address": "0x820831A4",
     "source_size": 30,
     "source_hash": "CB9181F5C498F194",
-    "english": "Show all game modes.",
+    "english": "the next time you start it.",
     "status": "reviewed"
   },
   {
@@ -16257,15 +16257,15 @@
     "address": "0x820833BC",
     "source_size": 26,
     "source_hash": "EC475C2F7A4D4898",
-    "english": "Return to mode menu.",
-    "status": "draft"
+    "english": "Return to the mode menu.",
+    "status": "reviewed"
   },
   {
     "address": "0x820833D8",
     "source_size": 26,
     "source_hash": "AA2B199E2A09F420",
-    "english": "Click here for surround settings.",
-    "status": "draft"
+    "english": "Adjust surround sound here, too.",
+    "status": "reviewed"
   },
   {
     "address": "0x820833F4",
@@ -16278,29 +16278,29 @@
     "address": "0x82083428",
     "source_size": 48,
     "source_hash": "BC732E5D3BD6E600",
-    "english": "You can also check the detailed ability data of the original players here.",
-    "status": "draft"
+    "english": "View detailed ratings for created players.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208345C",
     "source_size": 38,
     "source_hash": "3ED4E315D1371F42",
-    "english": "You can check detailed ability data of players.",
-    "status": "draft"
+    "english": "View detailed player ratings.",
+    "status": "reviewed"
   },
   {
     "address": "0x82083484",
     "source_size": 44,
     "source_hash": "18648EE15FBF72FF",
-    "english": "You can delete original players on storage.",
-    "status": "draft"
+    "english": "Delete created players from storage.",
+    "status": "reviewed"
   },
   {
     "address": "0x820834B4",
     "source_size": 52,
     "source_hash": "AB3B1D08FE0C28EF",
-    "english": "There are three settings: basic/1P for battle/2P for battle.",
-    "status": "draft"
+    "english": "Set up Default, VS P1, and VS P2 profiles.",
+    "status": "reviewed"
   },
   {
     "address": "0x820834EC",
@@ -16313,29 +16313,29 @@
     "address": "0x82083524",
     "source_size": 40,
     "source_hash": "6B95E3022C6F38BD",
-    "english": "Set the operation method and viewpoint during the match.",
-    "status": "draft"
+    "english": "Adjust in-game controls and camera settings.",
+    "status": "reviewed"
   },
   {
     "address": "0x82083550",
     "source_size": 64,
     "source_hash": "FBB27B7872205CD4",
-    "english": "\"Maji Pennant\" \"MVP Pennant\" \"Great General Pennant\" \"Spirits\"",
-    "status": "draft"
+    "english": "Pennant, MVP Pennant, Manager, Spirits",
+    "status": "reviewed"
   },
   {
     "address": "0x82083594",
     "source_size": 44,
     "source_hash": "03416FEF6FF6E2FE",
-    "english": "Team composition data cannot be used in the following modes:",
-    "status": "draft"
+    "english": "Custom rosters are unavailable in:",
+    "status": "reviewed"
   },
   {
     "address": "0x820835C4",
     "source_size": 46,
     "source_hash": "C609BCCB0E371E49",
-    "english": "You can arrange player trades and team settings.",
-    "status": "draft"
+    "english": "Trade players and edit team settings.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208537C",
@@ -16348,29 +16348,29 @@
     "address": "0x820853A8",
     "source_size": 18,
     "source_hash": "A9261CFB9FD5EED4",
-    "english": "connection failed",
-    "status": "draft"
+    "english": "Connection failed.",
+    "status": "reviewed"
   },
   {
     "address": "0x820853BC",
     "source_size": 33,
     "source_hash": "F70AF049669C8AB5",
-    "english": "%s has requested a \n match.",
-    "status": "draft"
+    "english": "%s has invited you\nto play a match.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085448",
     "source_size": 101,
     "source_hash": "4E23CFE9DB5C4AFD",
-    "english": "When you initialize, \n%s's \n Professional Baseball Spirits 3 ranking data will be initialized. \nAre you sure?",
-    "status": "draft"
+    "english": "Reset the Pro Yakyuu Spirits 3\nrankings for %s?\n\nConfirm the reset.",
+    "status": "reviewed"
   },
   {
     "address": "0x820854B0",
     "source_size": 69,
     "source_hash": "CE205EF8B9445DC8",
-    "english": "All previous ranked match results will be lost. \nAre you sure?",
-    "status": "draft"
+    "english": "All ranked match results will be lost.\nAre you sure you want to continue?",
+    "status": "reviewed"
   },
   {
     "address": "0x820854F8",
@@ -16383,15 +16383,15 @@
     "address": "0x82085540",
     "source_size": 70,
     "source_hash": "79DB2EFE5700D4A4",
-    "english": "Initialization will begin by pressing and holding the X button for 5 seconds. Cancel with \nB button.",
-    "status": "draft"
+    "english": "Hold X for 5 seconds to reset the rankings.\nPress B to cancel.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085588",
     "source_size": 40,
     "source_hash": "D9B17B0B1E34E9BA",
-    "english": "Initializing ranking data...",
-    "status": "draft"
+    "english": "Resetting rankings...",
+    "status": "reviewed"
   },
   {
     "address": "0x820855B4",
@@ -16404,8 +16404,8 @@
     "address": "0x820855CC",
     "source_size": 22,
     "source_hash": "786DBAEBFABC0C21",
-    "english": "Initialization is complete.",
-    "status": "draft"
+    "english": "Rankings reset.",
+    "status": "reviewed"
   },
   {
     "address": "0x820855E4",
@@ -16432,29 +16432,29 @@
     "address": "0x82085688",
     "source_size": 89,
     "source_hash": "1D4BB32316434974",
-    "english": "You are not signed in to Xbox Live. \n or multiplayer permissions are turned off.",
-    "status": "draft"
+    "english": "Sign in to Xbox Live and make sure\nyour profile allows multiplayer.\n",
+    "status": "reviewed"
   },
   {
     "address": "0x820856E4",
     "source_size": 20,
     "source_hash": "EF4EA3DBF05189EC",
-    "english": "connection lost",
-    "status": "draft"
+    "english": "Connection lost.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085700",
     "source_size": 66,
     "source_hash": "0194CFEF3E54DB4B",
-    "english": "Gamer profile has changed. Press the \nA button.",
-    "status": "draft"
+    "english": "Your gamer profile has changed.\nPress A to continue.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085748",
     "source_size": 82,
     "source_hash": "C36966C0EFD58892",
-    "english": "Professional Baseball Spirits 3 server is currently unavailable. \nPlease try again later.",
-    "status": "draft"
+    "english": "The Pro Yakyuu Spirits 3 server is unavailable.\nPlease try again later.",
+    "status": "reviewed"
   },
   {
     "address": "0x820859C4",
@@ -16474,15 +16474,15 @@
     "address": "0x82085AEC",
     "source_size": 16,
     "source_hash": "77ABDDC95CE3B5DC",
-    "english": "Loading",
-    "status": "draft"
+    "english": "Loading...",
+    "status": "reviewed"
   },
   {
     "address": "0x82085B00",
     "source_size": 22,
     "source_hash": "8968899FF7160635",
-    "english": "Loading failed",
-    "status": "draft"
+    "english": "Could not load the data.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085B18",
@@ -16502,8 +16502,8 @@
     "address": "0x82085BC0",
     "source_size": 46,
     "source_hash": "68C2D158AEC5B30B",
-    "english": "You won because the other player surrendered.",
-    "status": "draft"
+    "english": "Your opponent conceded. You win.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085BF0",
@@ -16516,15 +16516,15 @@
     "address": "0x82085C00",
     "source_size": 26,
     "source_hash": "64AED80199D23DC0",
-    "english": "Ending session",
-    "status": "draft"
+    "english": "Ending the session...",
+    "status": "reviewed"
   },
   {
     "address": "0x82085C1C",
     "source_size": 51,
     "source_hash": "CD46C5EEE9F607F6",
-    "english": "Professional Baseball Spirits 3 Communication with the server failed.",
-    "status": "draft"
+    "english": "Could not reach the Pro Yakyuu Spirits 3 server.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085CA8",
@@ -16565,36 +16565,36 @@
     "address": "0x82085DFC",
     "source_size": 22,
     "source_hash": "D642FBF052149778",
-    "english": "I'm applying for a match",
-    "status": "draft"
+    "english": "Sending match invitation...",
+    "status": "reviewed"
   },
   {
     "address": "0x82085E14",
     "source_size": 14,
     "source_hash": "1ADBAD02DA212B48",
-    "english": "Searching",
-    "status": "draft"
+    "english": "Searching...",
+    "status": "reviewed"
   },
   {
     "address": "0x82085E24",
     "source_size": 42,
     "source_hash": "9428BDF7DDF806EE",
-    "english": "Game invitations cannot be sent in ranked matches.",
-    "status": "draft"
+    "english": "Invitations are unavailable in ranked matches.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085E50",
     "source_size": 30,
     "source_hash": "5584FEE3DE9FDE67",
-    "english": "Already playing against another player",
-    "status": "draft"
+    "english": "You are already playing another opponent.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085E70",
     "source_size": 50,
     "source_hash": "6CA4F59FB5044F70",
-    "english": "Connection failed because the game versions are different.",
-    "status": "draft"
+    "english": "Connection failed. The game versions differ.",
+    "status": "reviewed"
   },
   {
     "address": "0x82085F40",
@@ -18462,14 +18462,14 @@
     "address": "0x820898AC",
     "source_size": 42,
     "source_hash": "4361E6480FCBFDE5",
-    "english": "Adjustment for each pitcher as a \"starter\" or \"relief\",",
-    "status": "draft"
+    "english": "Assign each pitcher to start, relieve,",
+    "status": "reviewed"
   },
   {
     "address": "0x820898D8",
     "source_size": 38,
     "source_hash": "8AC053AC37DF218D",
-    "english": "Order players to rest and recover from fatigue.",
+    "english": "or rest to recover from fatigue.",
     "status": "reviewed"
   },
   {
@@ -23495,8 +23495,8 @@
     "address": "0x8208D1EC",
     "source_size": 44,
     "source_hash": "C4492C565D55CB50",
-    "english": "<RGB 0x41507a>mission help<RGB 0x7f7f7f>",
-    "status": "draft"
+    "english": "<RGB 0x41507a>Mission Help<RGB 0x7f7f7f>",
+    "status": "reviewed"
   },
   {
     "address": "0x8208D220",
@@ -23537,8 +23537,8 @@
     "address": "0x8208DB04",
     "source_size": 42,
     "source_hash": "26E85C57DA5129AB",
-    "english": "<RGB 0x41507a> Camping Help <RGB 0x7f7f7f>",
-    "status": "draft"
+    "english": "<RGB 0x41507a>Camp Help<RGB 0x7f7f7f>",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DB30",
@@ -23558,15 +23558,15 @@
     "address": "0x8208DBE4",
     "source_size": 14,
     "source_hash": "659A06379B1AE45D",
-    "english": "Departing for tomorrow",
-    "status": "draft"
+    "english": "Setting Out for Tomorrow",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DBF4",
     "source_size": 6,
     "source_hash": "40FEEE2AF0415EFA",
-    "english": "dummy",
-    "status": "draft"
+    "english": "Placeholder",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DBFC",
@@ -23594,7 +23594,7 @@
     "source_size": 4,
     "source_hash": "EF6DB73D0A63C264",
     "english": "Add",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8208DC28",
@@ -23670,29 +23670,29 @@
     "address": "0x8208DEB4",
     "source_size": 9,
     "source_hash": "15CECBA8720AB7AD",
-    "english": "%2d/%2dday",
-    "status": "draft"
+    "english": "%2d/%2d days",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DEC0",
     "source_size": 11,
     "source_hash": "4CDE20D3935FF310",
-    "english": "%2d/%2d match",
-    "status": "draft"
+    "english": "%2d/%2d games",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DECC",
     "source_size": 7,
     "source_hash": "E72C9FD4A87BC6D0",
-    "english": "Reward:%s",
-    "status": "draft"
+    "english": "Reward: %s",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DED4",
     "source_size": 13,
     "source_hash": "177CEDA12573EC83",
-    "english": "Clear condition: %s",
-    "status": "draft"
+    "english": "Objective: %s",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DEE4",
@@ -25896,8 +25896,8 @@
     "address": "0x82091184",
     "source_size": 10,
     "source_hash": "774D1F00D36BF85C",
-    "english": "%2d month %2d day",
-    "status": "draft"
+    "english": "%2d/%2d",
+    "status": "reviewed"
   },
   {
     "address": "0x820911F4",
@@ -39476,85 +39476,85 @@
     "address": "0x820A4D78",
     "source_size": 18,
     "source_hash": "ACBE005A120F980B",
-    "english": "Wallpaper/Civic Stadium A",
-    "status": "draft"
+    "english": "Wallpaper: Hiroshima Municipal A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4D8C",
     "source_size": 18,
     "source_hash": "ACBDFF5A120F9658",
-    "english": "Wallpaper/Civic Stadium B",
-    "status": "draft"
+    "english": "Wallpaper: Hiroshima Municipal B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4DA0",
     "source_size": 26,
     "source_hash": "680A657D7AF447B5",
-    "english": "Wallpaper/USA Stadium A",
-    "status": "draft"
+    "english": "Wallpaper: USA Stadium A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4DBC",
     "source_size": 26,
     "source_hash": "680A647D7AF44602",
-    "english": "Wallpaper/USA Stadium B",
-    "status": "draft"
+    "english": "Wallpaper: USA Stadium B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4DD8",
     "source_size": 24,
     "source_hash": "914D9225417588DC",
-    "english": "Wallpaper/Sanyo Stadium A",
-    "status": "draft"
+    "english": "Wallpaper: Sanyo Stadium A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4DF4",
     "source_size": 24,
     "source_hash": "914D932541758A8F",
-    "english": "Wallpaper/Sanyo Stadium B",
-    "status": "draft"
+    "english": "Wallpaper: Sanyo Stadium B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4E10",
     "source_size": 24,
     "source_hash": "18809A4E93FA0F75",
-    "english": "Wallpaper/Shikoku Stadium A",
-    "status": "draft"
+    "english": "Wallpaper: Shikoku Stadium A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4E2C",
     "source_size": 24,
     "source_hash": "1880994E93FA0DC2",
-    "english": "Wallpaper/Shikoku Stadium B",
-    "status": "draft"
+    "english": "Wallpaper: Shikoku Stadium B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4E48",
     "source_size": 36,
     "source_hash": "CB9EA622143509F2",
-    "english": "Wallpaper/Full Cast Stadium Miyagi A",
-    "status": "draft"
+    "english": "Wallpaper: Fullcast Stadium Miyagi A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4E70",
     "source_size": 36,
     "source_hash": "CB9EA72214350BA5",
-    "english": "Wallpaper/Full Cast Stadium Miyagi B",
-    "status": "draft"
+    "english": "Wallpaper: Fullcast Stadium Miyagi B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4E98",
     "source_size": 18,
     "source_hash": "94D86697E0B00BA3",
-    "english": "Wallpaper/local stadium/A",
-    "status": "draft"
+    "english": "Wallpaper: Local Ballpark A",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4EAC",
     "source_size": 18,
     "source_hash": "94D86597E0B009F0",
-    "english": "Wallpaper/local stadium B",
-    "status": "draft"
+    "english": "Wallpaper: Local Ballpark B",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4EC0",
@@ -39567,85 +39567,85 @@
     "address": "0x820A4ED4",
     "source_size": 18,
     "source_hash": "13C91C3EAFEBC4BF",
-    "english": "Chunichi/Director Hiromitsu Ochiai",
-    "status": "draft"
+    "english": "Chunichi - Manager Hiromitsu Ochiai",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4EE8",
     "source_size": 28,
     "source_hash": "82616A63F4F5B117",
-    "english": "Hiroshima/Director Marty Brown",
-    "status": "draft"
+    "english": "Hiroshima - Manager Marty Brown",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F08",
     "source_size": 18,
     "source_hash": "18114F8FF4D3D1E8",
-    "english": "Yokohama/Director Kazuhiko Ushijima",
-    "status": "draft"
+    "english": "Yokohama - Manager Kazuhiko Ushijima",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F1C",
     "source_size": 18,
     "source_hash": "F4BE8FAE11A3705B",
-    "english": "Hanshin/Director Akifu Okada",
-    "status": "draft"
+    "english": "Hanshin - Manager Akinobu Okada",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F30",
     "source_size": 18,
     "source_hash": "ADCE6800BBD01030",
-    "english": "Rakuten/Director Katsuya Nomura",
-    "status": "draft"
+    "english": "Rakuten - Manager Katsuya Nomura",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F44",
     "source_size": 30,
     "source_hash": "343776B8E69F4D68",
-    "english": "Nippon-Ham/Director Trey Hillman",
-    "status": "draft"
+    "english": "Nippon-Ham - Manager Trey Hillman",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F64",
     "source_size": 16,
     "source_hash": "63E1F788516224D1",
-    "english": "Seibu/Director Tsutomu Ito",
-    "status": "draft"
+    "english": "Seibu - Manager Tsutomu Ito",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F78",
     "source_size": 24,
     "source_hash": "4478A29A0F2EC9B3",
-    "english": "Orix/Director Katsuhiro Nakamura",
-    "status": "draft"
+    "english": "Orix - Manager Katsuhiro Nakamura",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4F94",
     "source_size": 32,
     "source_hash": "837B7656D0EBDACF",
-    "english": "Lotte/Directed by Bobby Valentine",
-    "status": "draft"
+    "english": "Lotte - Manager Bobby Valentine",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4FB8",
     "source_size": 24,
     "source_hash": "1C61B96E362B266F",
-    "english": "Softbank/Director Sadaharu Oh",
-    "status": "draft"
+    "english": "SoftBank - Manager Sadaharu Oh",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4FD4",
     "source_size": 20,
     "source_hash": "6B1C9C5103DCB830",
-    "english": "Giants/Coach Kazunori Shinozuka",
-    "status": "draft"
+    "english": "Giants - Coach Kazunori Shinozuka",
+    "status": "reviewed"
   },
   {
     "address": "0x820A4FEC",
     "source_size": 18,
     "source_hash": "62B57B8613D976A5",
-    "english": "Chunichi/Coach Otojujin",
-    "status": "draft"
+    "english": "Chunichi - Coach Shigeki Oto",
+    "status": "reviewed"
   },
   {
     "address": "0x820A5000",
@@ -39785,28 +39785,28 @@
     "source_size": 8,
     "source_hash": "9B5C1DC69339E791",
     "english": "Uninitialized",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6450",
     "source_size": 12,
     "source_hash": "EF7C76B57110760C",
-    "english": "Uninitialized/surname",
-    "status": "draft"
+    "english": "Uninitialized Surname",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6460",
     "source_size": 12,
     "source_hash": "EF6807B570FF1065",
-    "english": "uninitialized name",
-    "status": "draft"
+    "english": "Uninitialized Given Name",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6470",
     "source_size": 12,
     "source_hash": "EF3BB7B570D94D8A",
-    "english": "Uninitialized/D",
-    "status": "draft"
+    "english": "Uninitialized Nickname",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6488",
@@ -39820,133 +39820,133 @@
     "source_size": 4,
     "source_hash": "B03309DECE660CFD",
     "english": "Shikoku",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A64A4",
     "source_size": 4,
     "source_hash": "BD038CDDB4910450",
     "english": "Sanyo",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A64B4",
     "source_size": 12,
     "source_hash": "B35DF9380A4164C9",
-    "english": "Yahoo Dome",
-    "status": "draft"
+    "english": "Yahoo! Dome",
+    "status": "reviewed"
   },
   {
     "address": "0x820A64C4",
     "source_size": 10,
     "source_hash": "F27832718192D778",
     "english": "Chiba Marine",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A64D0",
     "source_size": 12,
     "source_hash": "3A76C02BDBC528B4",
-    "english": "sky mark",
-    "status": "draft"
+    "english": "Skymark",
+    "status": "reviewed"
   },
   {
     "address": "0x820A64E0",
     "source_size": 6,
     "source_hash": "A3C0CA24CB0822FA",
     "english": "Koshien",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A64E8",
     "source_size": 8,
     "source_hash": "DC58F29A2C5CA706",
-    "english": "Hiroshima citizen",
-    "status": "draft"
+    "english": "Hiroshima Municipal",
+    "status": "reviewed"
   },
   {
     "address": "0x820A64F4",
     "source_size": 4,
     "source_hash": "7F0751315C81F3CE",
-    "english": "Shrine",
-    "status": "draft"
+    "english": "Jingu",
+    "status": "reviewed"
   },
   {
     "address": "0x820A64FC",
     "source_size": 26,
     "source_hash": "AFFF8BE3BD8B1D05",
-    "english": "full cast stadium miyagi",
-    "status": "draft"
+    "english": "Fullcast Stadium Miyagi",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6518",
     "source_size": 8,
     "source_hash": "1A4E49A4FE349A94",
-    "english": "local stadium",
-    "status": "draft"
+    "english": "Local Ballpark",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6524",
     "source_size": 10,
     "source_hash": "B3124C7C0CA88DB6",
     "english": "Sapporo Dome",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6530",
     "source_size": 10,
     "source_hash": "AAAE688C4338804B",
     "english": "Osaka Dome",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A653C",
     "source_size": 32,
     "source_hash": "684412342FC86E92",
-    "english": "Fukuoka Yahoo! JAPAN Dome",
-    "status": "draft"
+    "english": "Fukuoka Yahoo! Japan Dome",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6560",
     "source_size": 26,
     "source_hash": "23D04C58A3846625",
-    "english": "Invoice SEIBU Dome",
-    "status": "draft"
+    "english": "Invoice Seibu Dome",
+    "status": "reviewed"
   },
   {
     "address": "0x820A657C",
     "source_size": 20,
     "source_hash": "5ADC1A5A37CB8EEF",
     "english": "Chiba Marine Stadium",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6594",
     "source_size": 22,
     "source_hash": "2B0B1250A4B23DDB",
-    "english": "skymark stadium",
-    "status": "draft"
+    "english": "Skymark Stadium",
+    "status": "reviewed"
   },
   {
     "address": "0x820A65AC",
     "source_size": 14,
     "source_hash": "4608F1CED5BFF10E",
     "english": "Hanshin Koshien Stadium",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A65BC",
     "source_size": 12,
     "source_hash": "4B00B1555E26DA24",
     "english": "Nagoya Dome",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A65CC",
     "source_size": 14,
     "source_hash": "7BB0858D6C2C1961",
     "english": "Yokohama Stadium",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A65DC",
@@ -39960,49 +39960,49 @@
     "source_size": 12,
     "source_hash": "79D14AC4ABC75E63",
     "english": "Hiroshima Municipal Stadium",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A65F8",
     "source_size": 14,
     "source_hash": "1AED9012B1590A00",
-    "english": "Meiji Jingu Baseball Stadium",
-    "status": "draft"
+    "english": "Meiji Jingu Stadium",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6608",
     "source_size": 14,
     "source_hash": "D7F49895B0F753CB",
-    "english": "Full swing!",
-    "status": "draft"
+    "english": "Full Swing!",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6618",
     "source_size": 14,
     "source_hash": "C6FCEE742B38E666",
-    "english": "Aim to be number one in the world!",
-    "status": "draft"
+    "english": "Aim to Be the Best in the World!",
+    "status": "reviewed"
   },
   {
     "address": "0x820A663C",
     "source_size": 18,
     "source_hash": "29FD2C3C16032F58",
-    "english": "Mixed modern batting lineup",
-    "status": "draft"
+    "english": "A Blend of Old and New",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6650",
     "source_size": 12,
     "source_hash": "8B6A0A7546A2973D",
-    "english": "There is only a challenge",
-    "status": "draft"
+    "english": "Keep Taking on New Challenges",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6684",
     "source_size": 16,
     "source_hash": "FE9A6A92054BCDA4",
-    "english": "Cultivate intangible power",
-    "status": "draft"
+    "english": "Develop the Intangibles",
+    "status": "reviewed"
   },
   {
     "address": "0x820A674C",
@@ -40106,99 +40106,99 @@
     "address": "0x820A6784",
     "source_size": 6,
     "source_hash": "47809BDFC9B5F678",
-    "english": "South Korea",
-    "status": "draft"
+    "english": "Korea",
+    "status": "reviewed"
   },
   {
     "address": "0x820A678C",
     "source_size": 6,
     "source_hash": "BAD71B96385979CA",
-    "english": "China country",
-    "status": "draft"
+    "english": "China",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6794",
     "source_size": 6,
     "source_hash": "CAB21E732A4B4A38",
-    "english": "All",
-    "status": "draft"
+    "english": "All-Western",
+    "status": "reviewed"
   },
   {
     "address": "0x820A679C",
     "source_size": 6,
     "source_hash": "CAB224732A4B546A",
-    "english": "All i",
-    "status": "draft"
+    "english": "All-Eastern",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67A4",
     "source_size": 6,
     "source_hash": "133D6E88D8602469",
     "english": "Shonan",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A67AC",
     "source_size": 6,
     "source_hash": "CAB213732A4B3787",
-    "english": "All parts",
-    "status": "draft"
+    "english": "All-Pacific",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67B4",
     "source_size": 6,
     "source_hash": "CAB22D732A4B63B5",
-    "english": "All cells",
-    "status": "draft"
+    "english": "All-Central",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67BC",
     "source_size": 6,
     "source_hash": "948834264CC95575",
-    "english": "Takeshi Nishi",
-    "status": "draft"
+    "english": "Seibu",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67C4",
     "source_size": 6,
     "source_hash": "5F12142ABCBA8DCC",
     "english": "Rakuten",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A67CC",
     "source_size": 6,
     "source_hash": "FB0108FD0B96ABBD",
     "english": "Hanshin",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A67D4",
     "source_size": 6,
     "source_hash": "56A623AFFC6B2897",
     "english": "Yokohama",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A67DC",
     "source_size": 6,
     "source_hash": "2402A4F54FF4D6BF",
     "english": "Hiroshima",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A67E4",
     "source_size": 6,
     "source_hash": "BB236A96389B9E81",
-    "english": "middle day",
-    "status": "draft"
+    "english": "Chunichi",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67EC",
     "source_size": 6,
     "source_hash": "CEA62580AD55C57B",
-    "english": "giant person",
-    "status": "draft"
+    "english": "Giants",
+    "status": "reviewed"
   },
   {
     "address": "0x820A67F4",
@@ -40247,7 +40247,7 @@
     "source_size": 4,
     "source_hash": "7EF9D9B51587E798",
     "english": "Hama",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A682C",
@@ -40274,8 +40274,8 @@
     "address": "0x820A6840",
     "source_size": 12,
     "source_hash": "D7747CA4ABBE8690",
-    "english": "sealex",
-    "status": "draft"
+    "english": "Sealex",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6850",
@@ -40289,7 +40289,7 @@
     "source_size": 10,
     "source_hash": "1141CE346D8B2632",
     "english": "Marines",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6868",
@@ -40316,8 +40316,8 @@
     "address": "0x820A6894",
     "source_size": 20,
     "source_hash": "CA72C867075AA1EB",
-    "english": "golden eagles",
-    "status": "draft"
+    "english": "Golden Eagles",
+    "status": "reviewed"
   },
   {
     "address": "0x820A68AC",
@@ -40365,64 +40365,64 @@
     "address": "0x820A68F8",
     "source_size": 16,
     "source_hash": "CB29BC8E628980B9",
-    "english": "all western",
-    "status": "draft"
+    "english": "All-Western",
+    "status": "reviewed"
   },
   {
     "address": "0x820A690C",
     "source_size": 16,
     "source_hash": "3AF756EE28A12C29",
-    "english": "all eastern",
-    "status": "draft"
+    "english": "All-Eastern",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6920",
     "source_size": 16,
     "source_hash": "860C2253902AE5B9",
     "english": "Shonan Sealex",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6934",
     "source_size": 18,
     "source_hash": "8DECCDC7516452C7",
-    "english": "all pacific",
-    "status": "draft"
+    "english": "All-Pacific",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6948",
     "source_size": 16,
     "source_hash": "1843BEF8522762BC",
-    "english": "all central",
-    "status": "draft"
+    "english": "All-Central",
+    "status": "reviewed"
   },
   {
     "address": "0x820A695C",
     "source_size": 26,
     "source_hash": "FF3001A1A145C6EE",
     "english": "Hokkaido Nippon-Ham Fighters",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6978",
     "source_size": 14,
     "source_hash": "DC038AE12941E375",
     "english": "Hiroshima Toyo Carp",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6988",
     "source_size": 8,
     "source_hash": "5CC28587F206723E",
     "english": "Chinese Taipei",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6994",
     "source_size": 4,
     "source_hash": "E2E1ADFED96D7445",
     "english": "Korea",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A699C",
@@ -40435,64 +40435,64 @@
     "address": "0x820A69A4",
     "source_size": 4,
     "source_hash": "0D823B264A9C936D",
-    "english": "All u",
-    "status": "draft"
+    "english": "All-Western",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69AC",
     "source_size": 4,
     "source_hash": "0D8235264A9C893B",
-    "english": "All i",
-    "status": "draft"
+    "english": "All-Eastern",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69B4",
     "source_size": 8,
     "source_hash": "0820A64091B13716",
     "english": "Surpass",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A69C0",
     "source_size": 10,
     "source_hash": "0EEDF5A7256C4ACE",
-    "english": "invoice",
-    "status": "draft"
+    "english": "Invoice",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69CC",
     "source_size": 4,
     "source_hash": "E47ADDD0B66A2570",
     "english": "Shonan",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A69D4",
     "source_size": 4,
     "source_hash": "0D8246264A9CA61E",
-    "english": "All parts",
-    "status": "draft"
+    "english": "All-Pacific",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69DC",
     "source_size": 4,
     "source_hash": "0D821C264A9C5EC0",
-    "english": "All sections",
-    "status": "draft"
+    "english": "All-Central",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69E4",
     "source_size": 12,
     "source_hash": "ABF645B8DF522E76",
-    "english": "Softbank",
-    "status": "draft"
+    "english": "SoftBank",
+    "status": "reviewed"
   },
   {
     "address": "0x820A69F4",
     "source_size": 6,
     "source_hash": "9B85083F180B1A0C",
     "english": "Lotte",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A69FC",
@@ -40506,7 +40506,7 @@
     "source_size": 4,
     "source_hash": "2BCB092E576CF2EC",
     "english": "Seibu",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A10",
@@ -40520,42 +40520,42 @@
     "source_size": 4,
     "source_hash": "9E7DAFFD00C6FB21",
     "english": "Rakuten",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A24",
     "source_size": 4,
     "source_hash": "5B8108C468A5C1D4",
     "english": "Hanshin",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A2C",
     "source_size": 4,
     "source_hash": "1E57BFE82B3FE896",
     "english": "Yokohama",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A34",
     "source_size": 8,
     "source_hash": "CFFEE82BDADC4A0F",
     "english": "Yakult",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A40",
     "source_size": 4,
     "source_hash": "DEED21C26EF9198E",
     "english": "Hiroshima",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A48",
     "source_size": 4,
     "source_hash": "25F7493E4C45F05C",
     "english": "Chunichi",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A50",
@@ -40568,8 +40568,8 @@
     "address": "0x820A6A58",
     "source_size": 16,
     "source_hash": "634F85D7FDD94B97",
-    "english": "western league",
-    "status": "draft"
+    "english": "Western League",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6A6C",
@@ -40593,18 +40593,11 @@
     "status": "reviewed"
   },
   {
-    "address": "0x820A6F78",
-    "source_size": 14,
-    "source_hash": "E678E41C52907D67",
-    "english": "0ﾈ0ﾇ0\"0te0ﾈbK",
-    "status": "draft"
-  },
-  {
     "address": "0x820A6FC0",
     "source_size": 230,
     "source_hash": "5FD6D01630CD5D3E",
-    "english": "You are not signed in.<BR>If you continue like this, the game data<BR>cannot be saved.<BR>To save game data<BR>Press the Xbox guide button<BR>Please sign in.<BR><BR><×>Press the button to continue.",
-    "status": "draft"
+    "english": "You are not signed in.<BR>Progress cannot be saved.<BR><BR>Press the Xbox Guide button and sign in<BR>to save your progress.<BR><BR>Press <×> to continue.",
+    "status": "reviewed"
   },
   {
     "address": "0x820A70A8",
@@ -40726,20 +40719,6 @@
     "status": "reviewed"
   },
   {
-    "address": "0x820A7954",
-    "source_size": 6,
-    "source_hash": "A1CF579F1BAFB445",
-    "english": ">yakuf@0",
-    "status": "draft"
-  },
-  {
-    "address": "0x820A7B70",
-    "source_size": 3,
-    "source_hash": "0E276319AC834393",
-    "english": "C garden",
-    "status": "draft"
-  },
-  {
     "address": "0x8205F504",
     "source_size": 28,
     "source_hash": "5FC2AB949248C698",
@@ -40750,8 +40729,8 @@
     "address": "0x8205F980",
     "source_size": 25,
     "source_hash": "798E7408DE5E68D9",
-    "english": "Test message <BR>No.99",
-    "status": "draft"
+    "english": "Test Message<BR>No.99",
+    "status": "reviewed"
   },
   {
     "address": "0x820645B8",
@@ -40876,8 +40855,8 @@
     "address": "0x8207FA6C",
     "source_size": 6,
     "source_hash": "913DDC15BF0AEC70",
-    "english": "rate",
-    "status": "draft"
+    "english": "Rating",
+    "status": "reviewed"
   },
   {
     "address": "0x820802E0",
@@ -40946,8 +40925,8 @@
     "address": "0x82083154",
     "source_size": 38,
     "source_hash": "418254F3B8B8A1D5",
-    "english": "This will be the top menu from startup.",
-    "status": "draft"
+    "english": "the game will open the full menu",
+    "status": "reviewed"
   },
   {
     "address": "0x82086B10",
@@ -43259,6 +43238,110 @@
     "source_hash": "C6FED35CF193BE24",
     "english": "SHINJO",
     "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "A7DE6A9F29FF9670",
+    "english": "Game %d: %d W",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d勝 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "743A7E9F0CD7CD6F",
+    "english": "Game %d: %d T",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "30C2E5B3A2072A3A",
+    "english": "%d W, %d L",
+    "status": "reviewed",
+    "format_source": "%d勝 %d敗 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "286108B39D5C3AAC",
+    "english": "%d W, %d T",
+    "status": "reviewed",
+    "format_source": "%d勝 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D6ED442029109067",
+    "english": "%d L, %d T",
+    "status": "reviewed",
+    "format_source": "%d敗 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "168344E59AE15BEC",
+    "english": "Game %d: %d W / %d L",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d勝 %d敗 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "0FB8B7E597900E16",
+    "english": "Game %d: %d W / %d T",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d勝 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "488DB34680F3CC05",
+    "english": "Game %d: %d L / %d T",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d敗 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "F89FB15317F54170",
+    "english": "%d W / %d L / %d T ",
+    "status": "reviewed",
+    "format_source": "%d勝 %d敗 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "998CAE8668E04322",
+    "english": "Game %d: %d W / %d L / %d T",
+    "status": "reviewed",
+    "format_source": "%d回戦 %d勝 %d敗 %d分 "
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "2DB0D71A8ACD1CBE",
+    "english": "%d Career Strikeouts",
+    "status": "reviewed",
+    "format_source": "通算%d奪三振"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "0641272D1A1AE72A",
+    "english": "%d Career Hits",
+    "status": "reviewed",
+    "format_source": "通算%d安打"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "30CE9CA23FC105D3",
+    "english": "%d Career Home Runs",
+    "status": "reviewed",
+    "format_source": "通算%d本塁打"
   },
   {
     "address": "0x00000000",
@@ -88503,8 +88586,8 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "4028A687C96F1946",
-    "english": "Test message",
-    "status": "draft"
+    "english": "Test Message",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -89252,15 +89335,29 @@
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "E3E367423D4815F0",
-    "english": "Start the game by paying 500 VP.",
-    "status": "draft"
+    "english": "Pay 500 VP to start.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "18707CDDB44E46F0",
-    "english": "Chance to earn big!",
-    "status": "draft"
+    "english": "Go for a big payout!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "476BE3993618C64C",
+    "english": "No Emperor Cup save data found on the",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "7B824637D26387AA",
+    "english": "PlayStation 2 Memory Card (8 MB).",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -90337,29 +90434,29 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "A27F530FEBA728FD",
-    "english": "Batter commentary: Mr. Mitsuo Tatsugawa (Hiroshima)",
-    "status": "draft"
+    "english": "Batting: Mitsuo Tatsukawa (Hiroshima)",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "E19704D931ABA68C",
-    "english": "Pitcher commentary: Mr. Kazutomo Miyamoto (Giants)",
-    "status": "draft"
+    "english": "Pitching: Kazutomo Miyamoto (Giants)",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 38,
     "source_hash": "8C156648A4AD2830",
-    "english": "Pitcher commentary: Mr. Yukihiro Nishizaki (Nippon Ham-Seibu)",
-    "status": "draft"
+    "english": "Pitching: Yukihiro Nishizaki (Nippon-Ham, Seibu)",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "3056274229D12FE5",
-    "english": "Batter commentary: Yasushi Tao (Chunichi-Seibu-Hanshin)",
-    "status": "draft"
+    "english": "Batting: Yasushi Tao (Chunichi, Seibu, Hanshin)",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -92626,8 +92723,8 @@
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "1FF4EB572AF17FFC",
-    "english": "How to play field play",
-    "status": "draft"
+    "english": "Field Play Guide",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -92668,8 +92765,8 @@
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "E35BAFD050B058F9",
-    "english": "%d round",
-    "status": "draft"
+    "english": "Game %d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -92682,50 +92779,43 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "98069233903FC805",
-    "english": "%s has requested a",
-    "status": "draft"
+    "english": "%s has invited you",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "6E68351A0C93DDFD",
-    "english": "match.",
-    "status": "draft"
+    "english": "to play a match.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "A38C758ED96C4823",
-    "english": "When you initialize,",
-    "status": "draft"
+    "english": "Reset the Pro Yakyuu Spirits 3",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "97E09F10BEB485C9",
-    "english": "%s's",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 56,
-    "source_hash": "59967D00A01BAEB7",
-    "english": "Professional Baseball Spirits 3 ranking data will be initialized.",
-    "status": "draft"
+    "english": "rankings for %s?",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "BC9040855CE73637",
-    "english": "All previous ranked match results will be lost.",
-    "status": "draft"
+    "english": "All ranked match results will be lost.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "2E2E3E3D4B02F076",
-    "english": "Are you sure?",
-    "status": "draft"
+    "english": "Are you sure you want to continue?",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -92745,15 +92835,15 @@
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "DCDCA58E8C4EAD1D",
-    "english": "Initialization will begin by pressing and holding the X button for 5 seconds. Cancel with",
-    "status": "draft"
+    "english": "Hold X for 5 seconds to reset the rankings.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "D8857EDD270F3D14",
-    "english": "B button.",
-    "status": "draft"
+    "english": "Press B to cancel.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -92773,36 +92863,50 @@
     "address": "0x00000000",
     "source_size": 88,
     "source_hash": "3C5C181BBD8CCEB6",
-    "english": "You are not signed in to Xbox Live. \n or multiplayer permissions are turned off.",
-    "status": "draft"
+    "english": "Sign in to Xbox Live and make sure\nyour profile allows multiplayer.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 35,
+    "source_hash": "7C60E61061454D76",
+    "english": "Sign in to Xbox Live and make sure",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "6E3CFA283558652F",
+    "english": "your profile allows multiplayer.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "EAF72908933780AF",
-    "english": "The gamer profile has changed.",
+    "english": "Your gamer profile has changed.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 25,
     "source_hash": "2CAE73F7FA18959D",
-    "english": "A button.",
-    "status": "draft"
+    "english": "Press A to continue.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 51,
     "source_hash": "A35375EE7008120B",
-    "english": "Professional Baseball Spirits 3 server is currently unavailable.",
-    "status": "draft"
+    "english": "The Pro Yakyuu Spirits 3 server is unavailable.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "B2FBEBC164DEF1A0",
     "english": "Please try again later.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -93585,8 +93689,8 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "6A10DBD97D8B4F09",
-    "english": "mission help",
-    "status": "draft"
+    "english": "Mission Help",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -93711,8 +93815,8 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "3C36951E0F593B02",
-    "english": "Camping Help",
-    "status": "draft"
+    "english": "Camp Help",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -96096,55 +96200,6 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 26,
-    "source_hash": "3C20B8F77C9556FA",
-    "english": "You are not signed in.",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 32,
-    "source_hash": "886F26BF9B300ABA",
-    "english": "If you continue like this, the game data",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 28,
-    "source_hash": "0DDE53859CD44A4B",
-    "english": "cannot be saved.",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 30,
-    "source_hash": "4B79B7D9B3B3DBC7",
-    "english": "To save game data",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 28,
-    "source_hash": "8E6973E79FD781C4",
-    "english": "Press the Xbox guide button",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 24,
-    "source_hash": "EB7559C409819A54",
-    "english": "Please sign in.",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 30,
-    "source_hash": "F7E7560B22C25DCF",
-    "english": "to continue.",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 16,
     "source_hash": "4968007F2BDA28CB",
     "english": "Saving...",
@@ -96250,6 +96305,13 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "F7E7560B22C25DCF",
+    "english": "to continue.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 8,
     "source_hash": "2AE847E72EF589A2",
     "english": "Pitch Sequence",
@@ -96323,6 +96385,69 @@
     "source_size": 8,
     "source_hash": "1A7A7B8FBEA7C7D2",
     "english": "Throws L / Bats S",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 11,
+    "source_hash": "C913116C0FFC77F0",
+    "english": "Game %d: %d W",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 11,
+    "source_hash": "C8FEC66C0FEB4F75",
+    "english": "Game %d: %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "1B53FD133EC10BFE",
+    "english": "%d W, %d L",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "1B50AC133EBE4C84",
+    "english": "%d W, %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "6FBB7EFC8AFB545D",
+    "english": "%d L, %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "35469D0F3D8F8644",
+    "english": "Game %d: %d W / %d L",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "3543C40F3D8D92B2",
+    "english": "Game %d: %d W / %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "60DDA45E52AFEF47",
+    "english": "Game %d: %d L / %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "DA957A56B38CA0F0",
+    "english": "%d W / %d L / %d T",
     "status": "reviewed"
   },
   {
