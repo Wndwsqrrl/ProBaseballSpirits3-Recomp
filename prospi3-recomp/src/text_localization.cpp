@@ -8,6 +8,7 @@
 #include <cstdlib>
 #include <bit>
 #include <algorithm>
+#include <cstddef>
 #include <cstring>
 #include <fstream>
 #include <mutex>
@@ -20,6 +21,7 @@
 #include <rex/ppc/context.h>
 #include <rex/ppc/func.h>
 #include <rex/runtime.h>
+#include <rex/system/xam/content_manager.h>
 #include <rex/system/xmemory.h>
 
 REX_EXTERN(__imp__sub_8260E870);
@@ -32,6 +34,7 @@ REX_EXTERN(__imp__sub_825DF6A8);
 REX_EXTERN(__imp__sub_82548958);
 REX_EXTERN(__imp__sub_8254C0A8);
 REX_EXTERN(__imp__sub_826BA910);
+REX_EXTERN(__imp__sub_8262FB40);
 
 namespace {
 rex::memory::Memory* memory = nullptr;
@@ -368,6 +371,26 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     short_text.open(runtime.user_data_root()/"short-text.tsv",std::ios::app);
   }
   REXLOG_INFO("Full English text draft: {} strings, {} relocated references, {} pool bytes at {:08X}",std::size(kFullTranslations),changed,bytes,pool);
+}
+
+REX_EXTERN(sub_8262FB40) {
+  const auto destination = ctx.r3.u32;
+  const bool save_title = memory && ctx.lr == 0x826123EC && ctx.r4.u32 == 0x820A6F94;
+  __imp__sub_8262FB40(ctx, base);
+  if (!save_title) return;
+
+  // This caller copies the default title into XCONTENT_DATA's 128-unit
+  // UTF-16BE display field. The file name used to open the save is separate.
+  using rex::system::xam::XCONTENT_DATA;
+  auto* content = reinterpret_cast<XCONTENT_DATA*>(
+      memory->TranslateVirtual(destination - offsetof(XCONTENT_DATA, display_name_raw)));
+  constexpr uint8_t original_title[] = {
+      0x30, 0xD7, 0x30, 0xED, 0x91, 0xCE, 0x74, 0x03, 0x30, 0xB9,
+      0x30, 0xD4, 0x30, 0xEA, 0x30, 0xC3, 0x30, 0xC4, 0xFF, 0x13, 0, 0,
+  };
+  if (std::memcmp(content->display_name_raw.uint, original_title, sizeof(original_title)) == 0) {
+    content->set_display_name(u"Pro Yakyuu Spirits 3");
+  }
 }
 
 REX_EXTERN(sub_8260E870) { RenderLocalized(ctx,base,__imp__sub_8260E870); }

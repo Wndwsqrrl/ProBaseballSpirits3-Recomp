@@ -1,14 +1,14 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13848,
-  "unique_fingerprints": 13578,
+  "catalogue_records": 14025,
+  "unique_fingerprints": 13731,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
   "texture_labels": 47,
-  "localized_archive_members": 19,
+  "localized_archive_members": 21,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -27,9 +27,13 @@
     "all 648 original roster records have a bounded given-name patch",
     "77 menu and matchup entries and 227 assembled stat captions matched their expected English offline",
     "376 names from the native name pool matched reviewed spellings offline",
-    "274 executable text entries and 47 formatted inputs matched reviewed English offline"
+    "274 executable text entries and 47 formatted inputs matched reviewed English offline",
+    "177 packed menu text lookups matched expected English and fit all 321 original rectangles by estimated width",
+    "83 directly patched text slots and 2202 unchanged archive members verified against the original archive",
+    "Xbox storage title hook linked and UTF-16BE display field verified offline with the original save key"
   ],
   "pending_validation": [
+    "Live placement of packed menu defaults and the Xbox save title",
     "Live placement for team and venue labels, standings rows, VP Shop names, and system dialogs",
     "Generated player names in creation and career modes, including narrow roster cells",
     "In-game match caption placement and stat highlighting, plus main menu descriptions and team records",
@@ -49,7 +53,8 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "Xbox save display names stored as UTF-16BE",
+    "Translate and verify the 1256 selectable announced-name labels in EDIT.CHK",
+    "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
     "Other Pennant mode text and dynamic season reports",
     "Unvisited mode branches and text embedded in packed UI resources",
@@ -63,12 +68,12 @@
   "latest_offline_review": "review-validation.json",
   "reviewed_newspaper_lines": 308,
   "reviewed_settings_descriptions": 207,
-  "reviewed_mode_and_menu_entries": 1002,
+  "reviewed_mode_and_menu_entries": 1003,
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6186,
-    "reviewed": 5699,
-    "draft": 487
+    "reviewed": 5700,
+    "draft": 486
   },
   "reviewed_ui_addresses": 1991,
   "packed_ui_inventory": {
@@ -82,9 +87,11 @@
       "parsed_chunks": 325,
       "distinct_japanese": 645,
       "distinct_absent_from_main_list_by_exact_match": 426,
-      "reviewed_lookups": 197,
-      "directly_patched_slots": 78,
-      "directly_patched_members": 13
+      "reviewed_lookups": 374,
+      "directly_patched_slots": 83,
+      "directly_patched_members": 15,
+      "distinct_japanese_with_reviewed_lookup_or_patch": 640,
+      "preserved_name_input_grids": 5
     }
   },
   "voice_banks": {
@@ -203,5 +210,12 @@
     "offline_trade_and_online_matches": 49,
     "interactive_validation": false
   },
-  "reviewed_name_pool_entries": 376
+  "reviewed_name_pool_entries": 376,
+  "announced_player_name_labels": {
+    "member": "EDIT.CHK",
+    "chunk": "VC00",
+    "native_records": 1256,
+    "verified_audio_ids": 1256,
+    "translated": 0
+  }
 }

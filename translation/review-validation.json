@@ -1,11 +1,11 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13848,
-  "unique_fingerprints": 13578,
-  "comparison_commit": "fed7a2a7bfabef90f2533ac81b3ee74e36ddc9c4",
-  "changed_existing_translations": 225,
-  "added_fingerprints": 26,
-  "removed_fragment_or_codebook_fingerprints": 10,
+  "catalogue_records": 14025,
+  "unique_fingerprints": 13731,
+  "comparison_commit": "0801c018bc44c36cf3089f59f58c42b045a8e2c7",
+  "changed_existing_translations": 22,
+  "added_fingerprints": 153,
+  "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
     "ui": 1991,
     "ability_descriptions_and_requirements": 337,
@@ -13,7 +13,7 @@
     "newspaper_lines_and_patterns": 308,
     "settings_descriptions": 207,
     "settings_labels": 48,
-    "mode_and_menu_entries": 1002,
+    "mode_and_menu_entries": 1003,
     "mode_and_menu_labels": 412,
     "management_entries": 417,
     "management_labels": 195,
@@ -23,15 +23,17 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
-    "all static source fingerprints verified against the supported loaded image",
-    "control tags and printf arguments preserved across curated catalogues",
-    "274 executable text entries and 47 formatted inputs matched reviewed English",
-    "304 prior menu and match-caption cases retained their English outputs",
-    "464 recorded renderer inputs retained their match status with one intentional wording change"
+    "the compiled save title wrapper links to the verified native caller",
+    "the UTF-16BE display title fits the XCONTENT_DATA field and preserves the save key",
+    "177 packed lookup inputs matched reviewed English",
+    "321 original menu rectangles checked against estimated English width",
+    "83 packed slots and 2202 unchanged archive members verified",
+    "464 previous renderer inputs audited with 25 intended wording updates"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "In-game packed fallback placement and Xbox save display",
     "Live placement for updated team, standings, VP Shop, and system text",
     "Live placement for names from the native player pool",
     "Live match caption placement and number highlighting, plus main menu and team record placement",
@@ -50,8 +52,8 @@
   "entire_game_english": false,
   "recorded_trace_audit": {
     "unique_inputs": 464,
-    "exact": 328,
-    "formatted": 135,
+    "exact": 387,
+    "formatted": 76,
     "unmatched_square_marker": 1,
     "ambiguous": 0,
     "scope": "Previously recorded renderer trace only; unvisited screens are not covered."
@@ -62,7 +64,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 274,
+  "added_ui_address_reviews": 1,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -187,6 +189,19 @@
     "widest_line_estimated_px": 350,
     "estimate_font": "Arial 16 px",
     "false_cp932_candidates_removed": 3,
+    "interactive_validation": false
+  },
+  "packed_defaults_and_save_title_review": {
+    "packed_lookup_inputs_matched": 177,
+    "packed_rectangle_occurrences_checked": 321,
+    "maximum_estimated_width_px": 220,
+    "estimate_font": "Arial 16 px",
+    "packed_slots_added": 5,
+    "pack_members_added": 2,
+    "preserved_name_input_grids": 5,
+    "save_metadata_title_utf16be_field_verified": true,
+    "save_metadata_file_key_preserved": true,
+    "announced_name_labels_discovered": 1256,
     "interactive_validation": false
   }
 }

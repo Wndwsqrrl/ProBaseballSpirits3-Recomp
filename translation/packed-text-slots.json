@@ -405,6 +405,12 @@
       "entry": 15,
       "source_hex": "9263",
       "english": "Tm"
+    },
+    {
+      "chunk": "0x20e80",
+      "entry": 0,
+      "source_hex": "8341835783418356838a815b8359323030819b81408e8e8d878c6f89df",
+      "english": "Asia Series 200X Results"
     }
   ],
   "PNTRADE.CHK": [
@@ -491,6 +497,34 @@
       "entry": 7,
       "source_hex": "9361",
       "english": ""
+    }
+  ],
+  "PLRCPY.CHK": [
+    {
+      "chunk": "0x1c860",
+      "entry": 6,
+      "source_hex": "8db78d9e8cfb31",
+      "english": "Slot 1"
+    },
+    {
+      "chunk": "0x1c860",
+      "entry": 8,
+      "source_hex": "8db78d9e8cfb32",
+      "english": "Slot 2"
+    }
+  ],
+  "TRISEL.CHK": [
+    {
+      "chunk": "0x619d0",
+      "entry": 16,
+      "source_hex": "83568387815b8367",
+      "english": "SS"
+    },
+    {
+      "chunk": "0x621a0",
+      "entry": 12,
+      "source_hex": "83568387815b8367",
+      "english": "SS"
     }
   ]
 }

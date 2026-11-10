@@ -15277,8 +15277,8 @@
     "address": "0x820806BC",
     "source_size": 10,
     "source_hash": "168DFAAE5EBDE8FA",
-    "english": "Same name influence",
-    "status": "draft"
+    "english": "Same Surname: Given",
+    "status": "reviewed"
   },
   {
     "address": "0x820806C8",
@@ -82953,22 +82953,22 @@
     "address": "0x00000000",
     "source_size": 42,
     "source_hash": "56054B95EBDB2C99",
-    "english": "Immediately after entering, is there an explanation of the default route?",
-    "status": "draft"
+    "english": "Mode instructions",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 48,
     "source_hash": "7C58D1F1F84D410B",
-    "english": "Display the entire event description? Will you be able to set a new record?",
-    "status": "draft"
+    "english": "Aim for a new record!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "AF83D7ED83240255",
-    "english": "16 fonts, 30 characters per line",
-    "status": "draft"
+    "english": "Tips",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83072,29 +83072,29 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "DE0FDC6F3E49369F",
-    "english": "Item name 20 characters",
-    "status": "draft"
+    "english": "Item Name",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 5,
     "source_hash": "E1BE6A821BD4F578",
-    "english": "1st line",
-    "status": "draft"
+    "english": "Line 1",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "3AAE9C867DF78EF8",
-    "english": "2nd line",
-    "status": "draft"
+    "english": "Line 2",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "F975B6A6949189EC",
-    "english": "Item 12 characters",
-    "status": "draft"
+    "english": "Item",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83156,22 +83156,22 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "AE6D7674B5C76F29",
-    "english": "Explanatory text 1",
-    "status": "draft"
+    "english": "Info Line 1",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "AE6D7574B5C76D76",
-    "english": "Explanatory text 2",
-    "status": "draft"
+    "english": "Info Line 2",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "AE6D7474B5C76BC3",
-    "english": "Explanatory text 3",
-    "status": "draft"
+    "english": "Info Line 3",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83205,36 +83205,36 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "D8701239CFE97058",
-    "english": "22 general purpose fonts 24 characters x 10 lines",
-    "status": "draft"
+    "english": "Team Information",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "23DB55DB863507FA",
-    "english": "12 characters large heading",
-    "status": "draft"
+    "english": "Headline",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "34AA5169EE1A2D86",
-    "english": "19 characters upper row",
-    "status": "draft"
+    "english": "Summary",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "D41214381ECEDD5F",
-    "english": "19 characters lower row",
-    "status": "draft"
+    "english": "Details",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "C2177CD222DB0C65",
-    "english": "12 characters",
-    "status": "draft"
+    "english": "Label",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83247,8 +83247,8 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "36B64FEB76B23C3E",
-    "english": "Automatic match General information bar",
-    "status": "draft"
+    "english": "Simulated Game Info",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83352,8 +83352,8 @@
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "15B2B9F8B7A161C1",
-    "english": "10 days",
-    "status": "draft"
+    "english": "Day 10",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83380,29 +83380,29 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "8A7C1480A1275998",
-    "english": "1st column of text",
-    "status": "draft"
+    "english": "Text Line 1",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "713396DDB08EDA4B",
-    "english": "2nd column of text",
-    "status": "draft"
+    "english": "Text Line 2",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "9BA37B12A0483FEE",
-    "english": "3rd column of text",
-    "status": "draft"
+    "english": "Text Line 3",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "72412501300EC119",
-    "english": "4th column of text",
-    "status": "draft"
+    "english": "Text Line 4",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -87570,6 +87570,1245 @@
     "source_size": 14,
     "source_hash": "60E6ADFFD0FE4112",
     "english": "Baserunning Trial",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "E4F7B3BBAE75742C",
+    "english": "Condition 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "C0322081F7E5548C",
+    "english": "Condition 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "27913C9DF7398EBB",
+    "english": "Effect",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "168DFAAE5EBDE8FA",
+    "english": "Same Surname: Given",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "D9D8DEF248F654CF",
+    "english": "Help Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "DB68D2B5D454A6A5",
+    "english": "Help Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "83C57B9A0562923F",
+    "english": "Help Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "0022D83CF1AC5E76",
+    "english": "Help Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "BFD33A74774E4069",
+    "english": "Help Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "EDF31F6D6F011F60",
+    "english": "Help Line 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "7C6E002E9FD7AC9B",
+    "english": "Help Line 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "896B082372985053",
+    "english": "Role Info 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "80763E23AD273EAA",
+    "english": "Role Info 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "CA964EA7AE991FBD",
+    "english": "Role Info 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "FDFBAACDD3A3FC0C",
+    "english": "Role Info 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "86EC5536905C7874",
+    "english": "Shift 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "86EC5836905C7D8D",
+    "english": "Shift 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "86EC5736905C7BDA",
+    "english": "Shift 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "86EC5236905C735B",
+    "english": "Shift 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "86EC5136905C71A8",
+    "english": "Shift 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 3,
+    "source_hash": "38012A1AE6119677",
+    "english": "Data 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 3,
+    "source_hash": "38012B1AE611982A",
+    "english": "Data 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 3,
+    "source_hash": "38012C1AE61199DD",
+    "english": "Data 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 3,
+    "source_hash": "3801251AE6118DF8",
+    "english": "Data 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 3,
+    "source_hash": "3801261AE6118FAB",
+    "english": "Data 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACF9C53E995183",
+    "english": "Item 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFAC53E995336",
+    "english": "Item 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFBC53E9954E9",
+    "english": "Item 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFCC53E99569C",
+    "english": "Item 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFDC53E99584F",
+    "english": "Item 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFEC53E995A02",
+    "english": "Item 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71ACFFC53E995BB5",
+    "english": "Item 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71AD00C53E995D68",
+    "english": "Item 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "71AD01C53E995F1B",
+    "english": "Item 9",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "C23E1D295E85D329",
+    "english": "Item 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "C23E1C295E85D176",
+    "english": "Item 11",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C6480A0D1DA9E759",
+    "english": "Details 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C648070D1DA9E240",
+    "english": "Details 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C648080D1DA9E3F3",
+    "english": "Details 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C6480D0D1DA9EC72",
+    "english": "Details 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C6480E0D1DA9EE25",
+    "english": "Details 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C6480B0D1DA9E90C",
+    "english": "Details 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C6480C0D1DA9EABF",
+    "english": "Details 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C648110D1DA9F33E",
+    "english": "Details 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "C648120D1DA9F4F1",
+    "english": "Details 9",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "96507D4967B4376B",
+    "english": "Details 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "96507C4967B435B8",
+    "english": "Details 11",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989D83B590EFF3B",
+    "english": "Option 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989D93B590F00EE",
+    "english": "Option 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989DA3B590F02A1",
+    "english": "Option 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989DB3B590F0454",
+    "english": "Option 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989DD3B590F07BA",
+    "english": "Option 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989DE3B590F096D",
+    "english": "Option 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989CF3B590EEFF0",
+    "english": "Option 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "7989D03B590EF1A3",
+    "english": "Option 9",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "943977D8547B5FB1",
+    "english": "Option 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "943976D8547B5DFE",
+    "english": "Option 11",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "8A7C1480A1275998",
+    "english": "Text Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "713396DDB08EDA4B",
+    "english": "Text Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "56054B95EBDB2C99",
+    "english": "Mode instructions",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "7C58D1F1F84D410B",
+    "english": "Aim for a new record!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "AF83D7ED83240255",
+    "english": "Tips",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "37DCFB69049D8B51",
+    "english": "HR No.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "043D1950F629E769",
+    "english": "Text Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "448CB71970880576",
+    "english": "Text Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "C82F5A76843E393F",
+    "english": "Text Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "ADECD15AD561DEF4",
+    "english": "Text Line 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "64EC153412FC0E65",
+    "english": "Text Line 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "9BA37B12A0483FEE",
+    "english": "Text Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "72412501300EC119",
+    "english": "Text Line 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "36B64FEB76B23C3E",
+    "english": "Simulated Game Info",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "017948055239E120",
+    "english": "As of Jan 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "5B714B75389491F3",
+    "english": "Player Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA26FE30BBF448",
+    "english": "Date 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA27FE30BBF5FB",
+    "english": "Date 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA28FE30BBF7AE",
+    "english": "Date 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA29FE30BBF961",
+    "english": "Date 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA2AFE30BBFB14",
+    "english": "Date 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46890D69677D9",
+    "english": "Team 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46790D6967626",
+    "english": "Team 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46690D6967473",
+    "english": "Team 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46590D69672C0",
+    "english": "Team 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46C90D6967EA5",
+    "english": "Team 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46B90D6967CF2",
+    "english": "Team 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46A90D6967B3F",
+    "english": "Team 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F46990D696798C",
+    "english": "Team 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "E1F47090D6968571",
+    "english": "Team 9",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "C7F80690C7DE9555",
+    "english": "Team 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "C7F7F790C7DE7BD8",
+    "english": "Team 11",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "C7F7F890C7DE7D8B",
+    "english": "Team 12",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA2BFE30BBFCC7",
+    "english": "Date 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA2CFE30BBFE7A",
+    "english": "Date 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA2DFE30BC002D",
+    "english": "Date 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "FFEA1EFE30BBE6B0",
+    "english": "Date 9",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "081DB0FDA5581184",
+    "english": "Date 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "016455B7C561907B",
+    "english": "Team 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "016454B7C5618EC8",
+    "english": "Team 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "016457B7C56193E1",
+    "english": "Team 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "42FF9E7F8A2AFA5F",
+    "english": "Team 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "016459B7C5619747",
+    "english": "Team 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "016458B7C5619594",
+    "english": "Team 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB83295C8CC082",
+    "english": "Item 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB84295C8CC235",
+    "english": "Item 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB81295C8CBD1C",
+    "english": "Item 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB7F295C8CB9B6",
+    "english": "Item 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB80295C8CBB69",
+    "english": "Item 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB7D295C8CB650",
+    "english": "Item 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BFEB7E295C8CB803",
+    "english": "Item 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FFE49CF868723053",
+    "english": "99 W",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FFFBB0F868853130",
+    "english": "99 L",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "67716F2EADDC1228",
+    "english": "999 HR",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "677B532EADE43719",
+    "english": "999 R",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "380430942CE9589E",
+    "english": "Player Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "64822D2DBFEADF47",
+    "english": "Oct 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "B3C2D1861CCF934E",
+    "english": "Slot 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "B3C2D0861CCF919B",
+    "english": "Slot 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D2778FD1742B2C0D",
+    "english": "Top Team",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D271B6D1742702A4",
+    "english": "Bottom Team",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "998D25F437835E67",
+    "english": "Game 000",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "3DC909E21C03CFC7",
+    "english": "00/00",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDA772EC61EBDC",
+    "english": "Ballpark 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDA872EC61ED8F",
+    "english": "Ballpark 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDA972EC61EF42",
+    "english": "Ballpark 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDAA72EC61F0F5",
+    "english": "Ballpark 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDA372EC61E510",
+    "english": "Ballpark 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "8CEDA472EC61E6C3",
+    "english": "Ballpark 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "151322C3979DE577",
+    "english": "Message",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "D2C674E6D42A1B20",
+    "english": "Information",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "15648BF8B75EF246",
+    "english": "October",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "15B2B9F8B7A161C1",
+    "english": "Day 10",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "BA74D1EB0E5A2451",
+    "english": "Tournament",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "E5347A219C07ACDF",
+    "english": "Game #",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 29,
+    "source_hash": "8F98FA251EB5AC2F",
+    "english": "Asia Series 200X Results",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "AE6D7674B5C76F29",
+    "english": "Info Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "AE6D7574B5C76D76",
+    "english": "Info Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "AE6D7474B5C76BC3",
+    "english": "Info Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "D8701239CFE97058",
+    "english": "Team Information",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "23DB55DB863507FA",
+    "english": "Headline",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "34AA5169EE1A2D86",
+    "english": "Summary",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "D41214381ECEDD5F",
+    "english": "Details",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "C2177CD222DB0C65",
+    "english": "Label",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61882F5030F58",
+    "english": "Command 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61B82F5031471",
+    "english": "Command 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61A82F50312BE",
+    "english": "Command 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61D82F50317D7",
+    "english": "Command 4",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61C82F5031624",
+    "english": "Command 5",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61F82F5031B3D",
+    "english": "Command 6",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61E82F503198A",
+    "english": "Command 7",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "CEE61182F5030373",
+    "english": "Command 8",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "6F3FABAB1AF8DAD9",
+    "english": "Team Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "16446B27E98445EA",
+    "english": "00 deg",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 13,
+    "source_hash": "5A7E027142EC3C46",
+    "english": "Info Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 13,
+    "source_hash": "5A7E017142EC3A93",
+    "english": "Info Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 13,
+    "source_hash": "5A7E007142EC38E0",
+    "english": "Info Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "C90542A3BC142E75",
+    "english": "Message 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "267BE9CE66C289C2",
+    "english": "Message 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "C2EBDD2C1A8C962B",
+    "english": "Message 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "DE0FDC6F3E49369F",
+    "english": "Item Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 5,
+    "source_hash": "E1BE6A821BD4F578",
+    "english": "Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "3AAE9C867DF78EF8",
+    "english": "Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "F975B6A6949189EC",
+    "english": "Item",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "756F8CA0CF7EF67A",
+    "english": "Player Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D255E3D1740ED463",
+    "english": "Team Name",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "FFFBCDF868856277",
+    "english": "99 Years",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "2EC4ADB0E1156D1F",
+    "english": "Details",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "7881A33F8BFF9659",
+    "english": "Training",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "0CBDC31DD2E5D2B5",
+    "english": "Result 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "0CBDC01DD2E5CD9C",
+    "english": "Result 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D1B95464362C8B36",
+    "english": "Date Line 1",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "5E63B80FAF6B55E1",
+    "english": "Date Line 2",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "EF9AA68802072A40",
+    "english": "Date Line 3",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "7C14FB547209221F",
+    "english": "Trial Complete",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "08268F31C1011B6E",
+    "english": "Objective",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "95FBD579BB4CB50F",
+    "english": "Objective",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "92294606671E64F9",
+    "english": "Choose a position for this Trial.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 35,
+    "source_hash": "003DDCF20F8F297E",
+    "english": "Trial instructions",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "52B17983ACB5128C",
+    "english": "SS",
     "status": "reviewed"
   },
   {

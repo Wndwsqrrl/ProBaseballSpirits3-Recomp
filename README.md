@@ -9,20 +9,21 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **13,848 records / 13,578 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
+- Current catalogue: **14,025 records / 13,731 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
 - The name pool includes **376 reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
-- The main extracted list has **5,699 reviewed entries and 487 drafts**. The latest review covers Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- The main extracted list has **5,700 reviewed entries and 486 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
 - Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
-- **78 packed text slots** in 13 archive members cover the scoreboard, calendar, stats, trade, and contract screens. Each edit fits the original text slot. The archive verifier confirmed 2,204 unmodified members match the original bytes.
-- **197 packed menu lookups** cover roster, offseason, settings, stats, and practice screens. The most recent 119 lookups were checked against their original menu rectangles using estimated Arial widths.
+- **83 packed text slots** in 15 archive members cover the scoreboard, calendar, stats, trade, contract, and trial screens. Each edit fits the original slot. The verifier confirmed 2,202 unmodified archive members match the original bytes.
+- **374 packed menu lookups** include 177 menu defaults checked against their original rectangles. Five character grids in the parsed menu text are kept for native name input.
+- The English build sets the Xbox storage display title to `Pro Yakyuu Spirits 3` when the game prepares its save metadata. The save key stays `Save Data`.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
 Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, ambiguous name aliases, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
