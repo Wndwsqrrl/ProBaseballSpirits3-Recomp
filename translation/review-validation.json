@@ -1,10 +1,10 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13749,
-  "unique_fingerprints": 13479,
-  "comparison_commit": "103ec79c909a4d72ebe4b6711befe71b80096084",
-  "changed_existing_translations": 471,
-  "added_fingerprints": 0,
+  "catalogue_records": 13832,
+  "unique_fingerprints": 13562,
+  "comparison_commit": "a282ac4daa82c4bf1c76ced143e0597f37284ed3",
+  "changed_existing_translations": 85,
+  "added_fingerprints": 83,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
     "ui": 1991,
@@ -13,7 +13,7 @@
     "newspaper_lines_and_patterns": 308,
     "settings_descriptions": 207,
     "settings_labels": 48,
-    "mode_and_menu_entries": 653,
+    "mode_and_menu_entries": 728,
     "mode_and_menu_labels": 412,
     "management_entries": 417,
     "management_labels": 195,
@@ -24,14 +24,14 @@
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
     "control tags and printf arguments preserved across curated catalogues",
-    "all 648 original roster records have a bounded given-name patch",
-    "all 563 independently reviewed non-Hanshin fields match their source slots and compiled patch",
-    "49 trade and online menu inputs matched their intended English",
+    "all 39 native caption types recovered from the verified phrase table",
+    "77 menu and matchup inputs and 227 assembled captions matched the expected English",
     "464 previous trace inputs retained their match results"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live match caption placement and number highlighting, plus main menu and team record placement",
     "In-game form labels and the expanded full roster names",
     "In-game career dialogue rendering and placement",
     "Live placement of the packed text edits and mission wording",
@@ -59,7 +59,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 49,
+  "added_ui_address_reviews": 77,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -149,6 +149,19 @@
     "ambiguous_display_aliases": 25,
     "reviewed_trade_and_online_entries": 49,
     "offline_trade_and_online_matches": 49,
+    "interactive_validation": false
+  },
+  "menu_and_match_caption_review": {
+    "menu_and_matchup_address_reviews": 77,
+    "newly_reviewed_main_entries": 75,
+    "native_match_caption_types": 39,
+    "generated_match_caption_templates_and_exact_lookups": 83,
+    "offline_menu_lookup_matches": 77,
+    "offline_assembled_caption_matches": 227,
+    "widest_menu_line_estimated_px": 333,
+    "widest_caption_estimated_px": 430,
+    "caption_inputs_wider_than_original_estimated": 0,
+    "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }
 }

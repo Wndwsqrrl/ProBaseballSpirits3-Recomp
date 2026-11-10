@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13749,
-  "unique_fingerprints": 13479,
+  "catalogue_records": 13832,
+  "unique_fingerprints": 13562,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -24,9 +24,11 @@
     "78 packed text slots verified by original record, byte capacity, estimated width, and rebuilt archive bytes",
     "all 118 native career dialogue pointers matched reviewed English",
     "213 native form labels and 472 NPB-reviewed given-name fields verified offline",
-    "all 648 original roster records have a bounded given-name patch"
+    "all 648 original roster records have a bounded given-name patch",
+    "77 menu and matchup entries and 227 assembled stat captions matched their expected English offline"
   ],
   "pending_validation": [
+    "In-game match caption placement and stat highlighting, plus main menu descriptions and team records",
     "In-game placement for trade menus and expanded roster names",
     "Live delivery and stance selectors and expanded roster name placement",
     "Live MVP Pennant coaching rows, speaker titles, and promotion notices",
@@ -56,12 +58,12 @@
   "latest_offline_review": "review-validation.json",
   "reviewed_newspaper_lines": 308,
   "reviewed_settings_descriptions": 207,
-  "reviewed_mode_and_menu_entries": 653,
+  "reviewed_mode_and_menu_entries": 728,
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6176,
-    "reviewed": 4963,
-    "draft": 1213
+    "reviewed": 5038,
+    "draft": 1138
   },
   "reviewed_ui_addresses": 1991,
   "packed_ui_inventory": {

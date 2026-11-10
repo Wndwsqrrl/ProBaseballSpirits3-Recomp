@@ -6905,50 +6905,50 @@
     "address": "0x8206DAA0",
     "source_size": 20,
     "source_hash": "9470BD100CC2225B",
-    "english": "Asia No. 1 deciding match",
-    "status": "draft"
+    "english": "Asia Series Championship",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DAB8",
     "source_size": 22,
     "source_hash": "BE5F81CE65FB46A2",
-    "english": "A decisive battle for the country's prestige!",
-    "status": "draft"
+    "english": "National pride is on the line!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DAD0",
     "source_size": 12,
     "source_hash": "9CA58C62B541B1E0",
-    "english": "Japan's best match",
-    "status": "draft"
+    "english": "Japan Series",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DAE0",
     "source_size": 20,
     "source_hash": "E0E9F70AF93B4394",
-    "english": "Dream all-star showdown",
-    "status": "draft"
+    "english": "All-Star Showdown",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DAF8",
     "source_size": 22,
     "source_hash": "D4DFDE0D4EE54BB7",
-    "english": "The first barrier to becoming a league champion",
-    "status": "draft"
+    "english": "Opening Round of the Playoffs",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB10",
     "source_size": 16,
     "source_hash": "0548A03541629398",
-    "english": "League championship match",
-    "status": "draft"
+    "english": "League Championship",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB24",
     "source_size": 16,
     "source_hash": "AA9F185367EAC5DC",
-    "english": "First match of the season",
-    "status": "draft"
+    "english": "First Meeting of the Season",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB38",
@@ -6961,36 +6961,36 @@
     "address": "0x8206DB44",
     "source_size": 6,
     "source_hash": "73CB9E629D8CB654",
-    "english": "Opening!",
-    "status": "draft"
+    "english": "Opening Day!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB4C",
     "source_size": 38,
     "source_hash": "98B57CBE7047F523",
-    "english": "Drama begins and heated pennant race!",
-    "status": "draft"
+    "english": "The pennant race starts now!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB74",
     "source_size": 38,
     "source_hash": "0B0D9FEA64042B26",
-    "english": "Finally opening! A season of joy for baseball fans",
-    "status": "draft"
+    "english": "Opening Day is finally here!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DB9C",
     "source_size": 38,
     "source_hash": "9DDD4CCF0181338C",
-    "english": "The ace's willpower to put his heart into every pitch!",
-    "status": "draft"
+    "english": "The aces give it all they have!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206DBC4",
     "source_size": 38,
     "source_hash": "BE3B3A753C533B19",
-    "english": "Which team will win the fierce battle?",
-    "status": "draft"
+    "english": "Who will come out on top?",
+    "status": "reviewed"
   },
   {
     "address": "0x820715DC",
@@ -14892,232 +14892,232 @@
     "address": "0x8207FEB0",
     "source_size": 15,
     "source_hash": "2DA28AE6BE97611B",
-    "english": "Winning Percentage .000",
+    "english": "Win % .000",
     "status": "reviewed"
   },
   {
     "address": "0x8207FEC0",
     "source_size": 20,
     "source_hash": "D790EE09DF60482C",
-    "english": "00 wins 00 losses 00 minutes",
-    "status": "draft"
+    "english": "00 W, 00 L, 00 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FF00",
     "source_size": 38,
     "source_hash": "8BB0D4374167D7DB",
-    "english": "The original player will be moved to the free slot.",
-    "status": "draft"
+    "english": "Created players will move to free slots.",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FF28",
     "source_size": 61,
     "source_hash": "27D16D921DA2DEB1",
-    "english": "The team composition of 14 teams will be returned to the initial state. \nAre you sure?",
-    "status": "draft"
+    "english": "Reset all 14 team rosters?\nThis restores the original rosters.",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FF74",
     "source_size": 40,
     "source_hash": "47A95237AEEE694C",
-    "english": "The team composition of 14 teams has been initialized.",
-    "status": "draft"
+    "english": "All 14 team rosters have been reset.",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FFA4",
     "source_size": 17,
     "source_hash": "AD577CD3BBE55A5A",
-    "english": "62 wins, 80 losses, 4 minutes",
-    "status": "draft"
+    "english": "62 W, 80 L, 4 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FFB8",
     "source_size": 17,
     "source_hash": "2B342AE90B40B7C5",
-    "english": "79 wins, 66 losses, 1 minute",
-    "status": "draft"
+    "english": "79 W, 66 L, 1 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FFCC",
     "source_size": 17,
     "source_hash": "CF840B01E1A862A9",
-    "english": "58 wins, 84 losses, 4 minutes",
-    "status": "draft"
+    "english": "58 W, 84 L, 4 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FFE0",
     "source_size": 17,
     "source_hash": "4C28F49BB55A8EC6",
-    "english": "71 wins, 73 losses, 2 minutes",
-    "status": "draft"
+    "english": "71 W, 73 L, 2 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8207FFF4",
     "source_size": 17,
     "source_hash": "B241B413A410AE79",
-    "english": "69 wins, 70 losses, 7 minutes",
-    "status": "draft"
+    "english": "69 W, 70 L, 7 T",
+    "status": "reviewed"
   },
   {
     "address": "0x82080008",
     "source_size": 17,
     "source_hash": "08E4AA3286BDCE4D",
-    "english": "87 wins, 54 losses, 5 minutes",
-    "status": "draft"
+    "english": "87 W, 54 L, 5 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8208001C",
     "source_size": 17,
     "source_hash": "9B0F93EB11401C2C",
-    "english": "38 wins, 97 losses, 1 minute",
-    "status": "draft"
+    "english": "38 W, 97 L, 1 T",
+    "status": "reviewed"
   },
   {
     "address": "0x82080030",
     "source_size": 17,
     "source_hash": "2626D092847F82A3",
-    "english": "62 wins, 71 losses, 3 minutes",
-    "status": "draft"
+    "english": "62 W, 71 L, 3 T",
+    "status": "reviewed"
   },
   {
     "address": "0x82080044",
     "source_size": 17,
     "source_hash": "8BA7AAEC6E3DC814",
-    "english": "67 wins, 69 losses, 0 minutes",
-    "status": "draft"
+    "english": "67 W, 69 L, 0 T",
+    "status": "reviewed"
   },
   {
     "address": "0x82080058",
     "source_size": 17,
     "source_hash": "3BE14F174D27422A",
-    "english": "84 wins, 49 losses, 3 minutes",
-    "status": "draft"
+    "english": "84 W, 49 L, 3 T",
+    "status": "reviewed"
   },
   {
     "address": "0x8208006C",
     "source_size": 17,
     "source_hash": "5730A2AE9E0D3F58",
-    "english": "89 wins, 45 losses, 2 minutes",
-    "status": "draft"
+    "english": "89 W, 45 L, 2 T",
+    "status": "reviewed"
   },
   {
     "address": "0x82080080",
     "source_size": 13,
     "source_hash": "140A4FACE209A45C",
-    "english": "Winning percentage .437",
-    "status": "draft"
+    "english": "Win % .437",
+    "status": "reviewed"
   },
   {
     "address": "0x82080090",
     "source_size": 13,
     "source_hash": "8A27E0D660C60254",
-    "english": "Winning percentage .545",
-    "status": "draft"
+    "english": "Win % .545",
+    "status": "reviewed"
   },
   {
     "address": "0x820800A0",
     "source_size": 13,
     "source_hash": "2A1CBDAC5D8639FC",
-    "english": "Winning percentage: .408",
-    "status": "draft"
+    "english": "Win % .408",
+    "status": "reviewed"
   },
   {
     "address": "0x820800B0",
     "source_size": 13,
     "source_hash": "E36A55ACC7722236",
-    "english": "Winning percentage .493",
-    "status": "draft"
+    "english": "Win % .493",
+    "status": "reviewed"
   },
   {
     "address": "0x820800C0",
     "source_size": 13,
     "source_hash": "E36A58ACC772274F",
-    "english": "Winning percentage: .496",
-    "status": "draft"
+    "english": "Win % .496",
+    "status": "reviewed"
   },
   {
     "address": "0x820800D0",
     "source_size": 13,
     "source_hash": "D70888E01B9BDBC8",
-    "english": "Winning percentage .617",
-    "status": "draft"
+    "english": "Win % .617",
+    "status": "reviewed"
   },
   {
     "address": "0x820800E0",
     "source_size": 13,
     "source_hash": "9BA3873621763DC3",
-    "english": "Winning percentage .281",
-    "status": "draft"
+    "english": "Win % .281",
+    "status": "reviewed"
   },
   {
     "address": "0x820800F0",
     "source_size": 13,
     "source_hash": "0B6135ACDD224A84",
-    "english": "Winning percentage .466",
-    "status": "draft"
+    "english": "Win % .466",
+    "status": "reviewed"
   },
   {
     "address": "0x82080100",
     "source_size": 13,
     "source_hash": "F164C4ACCE6A4E83",
-    "english": "Winning percentage: .470",
-    "status": "draft"
+    "english": "Win % .470",
+    "status": "reviewed"
   },
   {
     "address": "0x82080110",
     "source_size": 13,
     "source_hash": "EBB3CDE028434AFF",
-    "english": "Winning Percentage .632",
+    "english": "Win % .632",
     "status": "reviewed"
   },
   {
     "address": "0x82080120",
     "source_size": 13,
     "source_hash": "05B05AE036FB7694",
-    "english": "Winning percentage .664",
-    "status": "draft"
+    "english": "Win % .664",
+    "status": "reviewed"
   },
   {
     "address": "0x82080130",
     "source_size": 4,
     "source_hash": "C9D250BA67814661",
-    "english": "5th place",
-    "status": "draft"
+    "english": "5th",
+    "status": "reviewed"
   },
   {
     "address": "0x82080138",
     "source_size": 4,
     "source_hash": "E397D1BA760A1B22",
-    "english": "2nd place",
-    "status": "draft"
+    "english": "2nd",
+    "status": "reviewed"
   },
   {
     "address": "0x82080140",
     "source_size": 4,
     "source_hash": "BDC345BA5FB6DD06",
-    "english": "6th place",
-    "status": "draft"
+    "english": "6th",
+    "status": "reviewed"
   },
   {
     "address": "0x82080148",
     "source_size": 4,
     "source_hash": "F1BC23BA7D26CE3C",
-    "english": "4th place",
-    "status": "draft"
+    "english": "4th",
+    "status": "reviewed"
   },
   {
     "address": "0x82080150",
     "source_size": 4,
     "source_hash": "FA652EBA820E0E97",
-    "english": "3rd place",
-    "status": "draft"
+    "english": "3rd",
+    "status": "reviewed"
   },
   {
     "address": "0x82080158",
     "source_size": 4,
     "source_hash": "EC40DCBA7AF15B7D",
-    "english": "1st place",
-    "status": "draft"
+    "english": "1st",
+    "status": "reviewed"
   },
   {
     "address": "0x82080160",
@@ -15144,8 +15144,8 @@
     "address": "0x8208020C",
     "source_size": 57,
     "source_hash": "AE33AACC65DA3042",
-    "english": "-Return to the main menu. \n-Data will not be saved.",
-    "status": "draft"
+    "english": "Return to the main menu.\nProgress will not be saved.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080248",
@@ -15242,8 +15242,8 @@
     "address": "0x82080484",
     "source_size": 24,
     "source_hash": "5DED66111240AD53",
-    "english": "Please replace the injured person.",
-    "status": "draft"
+    "english": "Replace the injured player.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080534",
@@ -15333,43 +15333,43 @@
     "address": "0x820807D4",
     "source_size": 50,
     "source_hash": "A0FC4D48278E3F4C",
-    "english": "Compete against other players on Xbox Live",
-    "status": "draft"
+    "english": "Play online against other players on Xbox Live.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080808",
     "source_size": 34,
     "source_hash": "AC7B16B68909CA66",
-    "english": "Watch games between computers",
-    "status": "draft"
+    "english": "Watch a CPU vs. CPU game.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208082C",
     "source_size": 38,
     "source_hash": "F28A6A67B5537E43",
-    "english": "Two people work together to compete against the computer.",
-    "status": "draft"
+    "english": "Team up with a friend against the CPU.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080854",
     "source_size": 50,
     "source_hash": "9B7C495DF4B8DD44",
-    "english": "Choose one player to control and play against the computer.",
-    "status": "draft"
+    "english": "Control a single player against the CPU.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080888",
     "source_size": 16,
     "source_hash": "20EAF043FA664925",
-    "english": "Two people will compete",
-    "status": "draft"
+    "english": "Play a head-to-head game.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208089C",
     "source_size": 24,
     "source_hash": "C83B07CE9CD6A93D",
-    "english": "play against the computer",
-    "status": "draft"
+    "english": "Play a game against the CPU.",
+    "status": "reviewed"
   },
   {
     "address": "0x820808D4",
@@ -15382,148 +15382,148 @@
     "address": "0x82080990",
     "source_size": 8,
     "source_hash": "83C06495560C7BA0",
-    "english": "You can do it!",
-    "status": "draft"
+    "english": "view their full player data.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208099C",
     "source_size": 38,
     "source_hash": "1CD32754BF2B545A",
-    "english": "Delete players or check player data details",
-    "status": "draft"
+    "english": "created players. Delete them or",
+    "status": "reviewed"
   },
   {
     "address": "0x820809C4",
     "source_size": 38,
     "source_hash": "D86A2672FA762122",
-    "english": "Arrange the team composition or create original",
-    "status": "draft"
+    "english": "Edit team rosters and manage",
+    "status": "reviewed"
   },
   {
     "address": "0x820809EC",
     "source_size": 28,
     "source_hash": "87AEA1895B03291F",
-    "english": "Click here to purchase awakened player data!",
-    "status": "draft"
+    "english": "Awakening data for players.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080A0C",
     "source_size": 38,
     "source_hash": "2E0FD3641435637A",
-    "english": "Use them to purchase various items.",
-    "status": "draft"
+    "english": "Spend VP on items and",
+    "status": "reviewed"
   },
   {
     "address": "0x82080A34",
     "source_size": 38,
     "source_hash": "CF98062B8791DA66",
-    "english": "``VP'' that you can get by playing the game",
-    "status": "draft"
+    "english": "Earn VP by playing games.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080A5C",
     "source_size": 18,
     "source_hash": "FAE325E62CEC24CC",
-    "english": "This is VP shop!",
-    "status": "draft"
+    "english": "Welcome to the VP Shop!",
+    "status": "reviewed"
   },
   {
     "address": "0x82080A70",
     "source_size": 30,
     "source_hash": "B89069C08C319A67",
-    "english": "Improve your rate and prepare for real battle!",
-    "status": "draft"
+    "english": "land more Best Pitches in games.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080A90",
     "source_size": 38,
     "source_hash": "C5F316F9674C8EA6",
-    "english": "Improve your pitching skills and make your best pitch",
-    "status": "draft"
+    "english": "Fine-tune your pitching and",
+    "status": "reviewed"
   },
   {
     "address": "0x82080AB8",
     "source_size": 38,
     "source_hash": "83BB4810DD57EA56",
-    "english": "I hit only the pitches that I am weak at batting.",
-    "status": "draft"
+    "english": "Work on pitches you struggle to hit.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080AE0",
     "source_size": 30,
     "source_hash": "677E788E18AAEB89",
-    "english": "Freely practice pitching, hitting, and defensive maneuvers!",
-    "status": "draft"
+    "english": "Practice hitting, pitching, and fielding.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B00",
     "source_size": 4,
     "source_hash": "872008B48A18DFD7",
-    "english": "Gi!",
-    "status": "draft"
+    "english": "in preseason games.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B08",
     "source_size": 38,
     "source_hash": "01F781209E8B799D",
-    "english": "Partner selection and performance in open matches are key.",
-    "status": "draft"
+    "english": "Choose a partner and shine",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B30",
     "source_size": 28,
     "source_hash": "1E7FF79D7731BF36",
-    "english": "Let's develop original players!",
-    "status": "draft"
+    "english": "Develop your own player!",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B50",
     "source_size": 36,
     "source_hash": "BB7316C9BE8334CF",
-    "english": "Hit consecutive home runs into the stands!",
-    "status": "draft"
+    "english": "Hit as many home runs in a row as you can!",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B78",
     "source_size": 20,
     "source_hash": "706B53B0E88E3895",
-    "english": "Aim for perfection!",
-    "status": "draft"
+    "english": "Aim for a perfect round!",
+    "status": "reviewed"
   },
   {
     "address": "0x82080B90",
     "source_size": 14,
     "source_hash": "D94E1FCE02B37897",
-    "english": "Shoot through Le!",
-    "status": "draft"
+    "english": "the strike panel!",
+    "status": "reviewed"
   },
   {
     "address": "0x82080BA0",
     "source_size": 38,
     "source_hash": "250A93D6634A49E9",
-    "english": "Strike panel with exquisite pitching control",
-    "status": "draft"
+    "english": "Use pinpoint control to hit",
+    "status": "reviewed"
   },
   {
     "address": "0x82080BC8",
     "source_size": 24,
     "source_hash": "39F8B567626DB7C4",
-    "english": "What if you clear all the questions...?",
-    "status": "draft"
+    "english": "What happens if you clear them all?",
+    "status": "reviewed"
   },
   {
     "address": "0x82080BE4",
     "source_size": 18,
     "source_hash": "52BCC7EC6459F43D",
-    "english": "Challenge Ray!",
-    "status": "draft"
+    "english": "a series of game situations.",
+    "status": "reviewed"
   },
   {
     "address": "0x82080BF8",
     "source_size": 38,
     "source_hash": "5CD574C6C3AFA367",
-    "english": "Become a player and play in various situations.",
-    "status": "draft"
+    "english": "Control one player and take on",
+    "status": "reviewed"
   },
   {
     "address": "0x82080C20",
@@ -15614,7 +15614,7 @@
     "source_size": 14,
     "source_hash": "7B5BA8300A99B107",
     "english": "Aim for MVP!",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82080DE4",
@@ -40890,8 +40890,8 @@
     "address": "0x82080398",
     "source_size": 48,
     "source_hash": "D8898C01D4EA35C5",
-    "english": "Your opponent is on time. Please wait for a moment.",
-    "status": "draft"
+    "english": "Your opponent has paused. Please wait.",
+    "status": "reviewed"
   },
   {
     "address": "0x820803F0",
@@ -40904,8 +40904,8 @@
     "address": "0x82080968",
     "source_size": 36,
     "source_hash": "10ACA3E0886C8CE1",
-    "english": "Let's set \"My Settings\" here too!",
-    "status": "draft"
+    "english": "Adjust My Settings here, too.",
+    "status": "reviewed"
   },
   {
     "address": "0x820810D4",
@@ -87848,6 +87848,659 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "7DE506341FDEC27B",
+    "english": "RISP AVG .%d00. A run producer!",
+    "status": "reviewed",
+    "format_source": "得点圏打率%d割を誇るポイントゲッター"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "D2FE3E01A005C425",
+    "english": "RISP AVG .%d%d0. A run producer!",
+    "status": "reviewed",
+    "format_source": "得点圏打率%d割%d分を誇るポイントゲッター"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "93C3B00472215095",
+    "english": "RISP AVG .%d0%d. A run producer!",
+    "status": "reviewed",
+    "format_source": "得点圏打率%d割%d厘を誇るポイントゲッター"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "DD54C2F6715C0403",
+    "english": "RISP AVG .%d%d%d. A run producer!",
+    "status": "reviewed",
+    "format_source": "得点圏打率%d割%d分%d厘を誇るポイントゲッター"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "1DDDEF9B00A550CF",
+    "english": "RISP AVG 1.000. A run producer!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "45CE328B240812D8",
+    "english": "Bases-loaded AVG .%d00. He thrives here!",
+    "status": "reviewed",
+    "format_source": "満塁の場面で燃え上がる！満塁打率%d割の満塁男！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "6FB4B1CC43003D3E",
+    "english": "Bases-loaded AVG .%d%d0. He thrives here!",
+    "status": "reviewed",
+    "format_source": "満塁の場面で燃え上がる！満塁打率%d割%d分の満塁男！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "D8C245C84C42A052",
+    "english": "Bases-loaded AVG .%d0%d. He thrives here!",
+    "status": "reviewed",
+    "format_source": "満塁の場面で燃え上がる！満塁打率%d割%d厘の満塁男！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 56,
+    "source_hash": "FF5AD5611B3EDB4C",
+    "english": "Bases-loaded AVG .%d%d%d. He thrives here!",
+    "status": "reviewed",
+    "format_source": "満塁の場面で燃え上がる！満塁打率%d割%d分%d厘の満塁男！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "499A3753FAD5FD20",
+    "english": "Bases-loaded AVG 1.000. He thrives here!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 70,
+    "source_hash": "698286981D3FA250",
+    "english": "Walk-off chance! AVG .%d00 in this spot.",
+    "status": "reviewed",
+    "format_source": "サヨナラ勝ちの大チャンス！サヨナラ打率%d割サヨナラ男本領発揮なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "DB17E1677F410696",
+    "english": "Walk-off chance! AVG .%d%d0 in this spot.",
+    "status": "reviewed",
+    "format_source": "サヨナラ勝ちの大チャンス！サヨナラ打率%d割%d分サヨナラ男本領発揮なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "D73151F16B8FD0AA",
+    "english": "Walk-off chance! AVG .%d0%d in this spot.",
+    "status": "reviewed",
+    "format_source": "サヨナラ勝ちの大チャンス！サヨナラ打率%d割%d厘サヨナラ男本領発揮なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 78,
+    "source_hash": "913B0277B97127B4",
+    "english": "Walk-off chance! AVG .%d%d%d in this spot.",
+    "status": "reviewed",
+    "format_source": "サヨナラ勝ちの大チャンス！サヨナラ打率%d割%d分%d厘サヨナラ男本領発揮なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "F456630C1800D0B4",
+    "english": "Walk-off chance! AVG 1.000 in this spot.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "32FD45D441FF4427",
+    "english": ".%d00 vs. lefties. A nightmare matchup!",
+    "status": "reviewed",
+    "format_source": "脅威の対左投手打率%d割スーパー左キラー見参！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "EC7C97A76A7171D1",
+    "english": ".%d%d0 vs. lefties. A nightmare matchup!",
+    "status": "reviewed",
+    "format_source": "脅威の対左投手打率%d割%d分スーパー左キラー見参！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "2823A2A241787051",
+    "english": ".%d0%d vs. lefties. A nightmare matchup!",
+    "status": "reviewed",
+    "format_source": "脅威の対左投手打率%d割%d厘スーパー左キラー見参！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "4D5C25612E1ABE0F",
+    "english": ".%d%d%d vs. lefties. A nightmare matchup!",
+    "status": "reviewed",
+    "format_source": "脅威の対左投手打率%d割%d分%d厘スーパー左キラー見参！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "687CAF3D475AFEAF",
+    "english": "1.000 vs. lefties. A nightmare matchup!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "82C0304E82D8775D",
+    "english": ".%d00 vs. lefties. He's a specialist!",
+    "status": "reviewed",
+    "format_source": "対左投手打率%d割対左投手のスペシャリスト！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "406C33E7F02168A7",
+    "english": ".%d%d0 vs. lefties. He's a specialist!",
+    "status": "reviewed",
+    "format_source": "対左投手打率%d割%d分対左投手のスペシャリスト！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "076DF335A95BFADB",
+    "english": ".%d0%d vs. lefties. He's a specialist!",
+    "status": "reviewed",
+    "format_source": "対左投手打率%d割%d厘対左投手のスペシャリスト！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "CCD8685FA3E9B281",
+    "english": ".%d%d%d vs. lefties. He's a specialist!",
+    "status": "reviewed",
+    "format_source": "対左投手打率%d割%d分%d厘対左投手のスペシャリスト！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "51717B5FD6A7D181",
+    "english": "1.000 vs. lefties. He's a specialist!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "850C75D1D2D05E84",
+    "english": "%d straight at-bats with a hit! How long can it last?",
+    "status": "reviewed",
+    "format_source": "現在%d打数連続安打中！記録は何処まで続くか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "4C9521775A3A832C",
+    "english": "%d-game hitting streak!",
+    "status": "reviewed",
+    "format_source": "%d試合連続安打記録を継続中！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "325AAE855B768980",
+    "english": "A homer in %d straight games! Can he go deep again?",
+    "status": "reviewed",
+    "format_source": "今日の時点で%d試合連続本塁打！今日も一発に期待！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "6027A7006A7AA599",
+    "english": "On base in %d straight games. Can he do it again?",
+    "status": "reviewed",
+    "format_source": "%d試合連続出塁記録継続中！この試合でも出塁なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "9B8AE4414FE2F490",
+    "english": "%d leadoff homers this season. He sets the tone!",
+    "status": "reviewed",
+    "format_source": "ここまで%d本の先頭打者本塁打をマーク。押しも押されもせぬ斬り込み隊長！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "FCB6A545F69FF17E",
+    "english": "One hit shy of 3-hit game #%d!",
+    "status": "reviewed",
+    "format_source": "シーズン%d度目の猛打賞まで後１本！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "755BB426AF1141D0",
+    "english": "%d three-hit games last season. Can he get three today?",
+    "status": "reviewed",
+    "format_source": "昨シーズンは%d度の猛打賞を記録。この打席でも猛打賞なるか！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "A0382CD6ECE9E80A",
+    "english": "%d hits this season. How high can he go?",
+    "status": "reviewed",
+    "format_source": "今シーズン積み重ねて来た安打の数は%d本！何処まで数字を伸ばせるか！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "6938E9020E7907FB",
+    "english": "That homer gives him %d for the second straight year!",
+    "status": "reviewed",
+    "format_source": "先ほどの本塁打で昨年に引き続き%d本塁打達成！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "2B7D81B84E79F2AC",
+    "english": "%d career hits. Will he reach a milestone here?",
+    "status": "reviewed",
+    "format_source": "積み重ねてきた安打は通算%d安打。出るか区切りの１本！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "44F3761CB944F023",
+    "english": "One hit shy of %d! Can he get it here?",
+    "status": "reviewed",
+    "format_source": "%d安打まで後１本！この打席で記録達成なるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "7E52539F814E9B35",
+    "english": "%d career hits through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d安打を記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 56,
+    "source_hash": "BB39635F56028ADA",
+    "english": "%d homers so far. Can he reach a milestone?",
+    "status": "reviewed",
+    "format_source": "ここまで放ってきた本塁打は%d本。区切りの一発を放てるか！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 76,
+    "source_hash": "7D7313ED69EF6ACB",
+    "english": "One homer shy of %d! Can he go deep here?",
+    "status": "reviewed",
+    "format_source": "後１本で通算%d本塁打達成！この打席で記念の祝砲を打ち上げることが出来るか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "1B10C1F404CE167C",
+    "english": "%d career homers through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d本塁打を記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "B5F1B1BFF8EFF0DC",
+    "english": "%d steals so far. Can he reach a milestone today?",
+    "status": "reviewed",
+    "format_source": "現時点で%d盗塁。今日、区切りの盗塁を決めることが出来るか？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 74,
+    "source_hash": "36185DAAE737B724",
+    "english": "One steal shy of %d. Will he run today?",
+    "status": "reviewed",
+    "format_source": "この試合まで走りに走り、通算%d盗塁まで後一つ！今日も走ることが出来るか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "1AFD6137518DC276",
+    "english": "%d career steals through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d盗塁を記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "7C0FAFEB8EBF794A",
+    "english": "Career AVG .%d00 through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で生涯打率%d割をマーク"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "8AB1DE5712A22354",
+    "english": "Career AVG .%d%d0 through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で生涯打率%d割%d分をマーク"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "8995D1FAC7061564",
+    "english": "Career AVG .%d0%d through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で生涯打率%d割%d厘をマーク"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "3A3815E37FDA5202",
+    "english": "Career AVG .%d%d%d through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で生涯打率%d割%d分%d厘をマーク"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "A58652947394136A",
+    "english": "Career AVG 1.000 through 2005.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "61AAC02CF715647C",
+    "english": "Opp. AVG with RISP .%d00. Can he get out of another jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割。ここもピンチを凌ぎ、監督の期待に応えるか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "1F755210DD4FB812",
+    "english": "Opp. AVG with RISP .%d%d0. Can he get out of another jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d分。ここもピンチを凌ぎ、監督の期待に応えるか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "3FCFFC04F2099EDE",
+    "english": "Opp. AVG with RISP .%d0%d. Can he get out of another jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d厘。ここもピンチを凌ぎ、監督の期待に応えるか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 70,
+    "source_hash": "FFA8C8DB0A167AD8",
+    "english": "Opp. AVG with RISP .%d%d%d. Can he get out of another jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d分%d厘。ここもピンチを凌ぎ、監督の期待に応えるか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "3EFD93F19C6592E4",
+    "english": "Opp. AVG with RISP 1.000. Can he get out of another jam?",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "0311758588A3A39B",
+    "english": "Opp. AVG with RISP .%d00. Can he escape this jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割。このピンチを切り抜けることが出来るか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "23005CE934A6F8E5",
+    "english": "Opp. AVG with RISP .%d%d0. Can he escape this jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d分。このピンチを切り抜けることが出来るか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "787CBB4ED525C281",
+    "english": "Opp. AVG with RISP .%d0%d. Can he escape this jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d厘。このピンチを切り抜けることが出来るか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "EBE309703E9C10B7",
+    "english": "Opp. AVG with RISP .%d%d%d. Can he escape this jam?",
+    "status": "reviewed",
+    "format_source": "得点圏被打率%d割%d分%d厘。このピンチを切り抜けることが出来るか！！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "4517A6AA27E10243",
+    "english": "Opp. AVG with RISP 1.000. Can he escape this jam?",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 86,
+    "source_hash": "A5159CE440AA7247",
+    "english": "Opp. AVG with RISP .%d00. Can he get the big out?",
+    "status": "reviewed",
+    "format_source": "得点圏にランナーを置いての被打率は%d割とピンチで弱さが見える。ここでの登板はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "F4F8FABABFC29FD5",
+    "english": "Opp. AVG with RISP .%d%d0. Can he get the big out?",
+    "status": "reviewed",
+    "format_source": "得点圏にランナーを置いての被打率は%d割%d分とピンチで弱さが見える。ここでの登板はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 90,
+    "source_hash": "921A83BA78AF1805",
+    "english": "Opp. AVG with RISP .%d0%d. Can he get the big out?",
+    "status": "reviewed",
+    "format_source": "得点圏にランナーを置いての被打率は%d割%d厘とピンチで弱さが見える。ここでの登板はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 94,
+    "source_hash": "604F2BAF2BCE435F",
+    "english": "Opp. AVG with RISP .%d%d%d. Can he get the big out?",
+    "status": "reviewed",
+    "format_source": "得点圏にランナーを置いての被打率は%d割%d分%d厘とピンチで弱さが見える。ここでの登板はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 88,
+    "source_hash": "B1FF8DEB30B56547",
+    "english": "Opp. AVG with RISP 1.000. Can he get the big out?",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "D7AACE953147DD86",
+    "english": "Lefties hit .%d00 against him. He's tough on them!",
+    "status": "reviewed",
+    "format_source": "対左で被打率%d割と抜群の強さを発揮する左キラー！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "DD224EB28953AEA4",
+    "english": "Lefties hit .%d%d0 against him. He's tough on them!",
+    "status": "reviewed",
+    "format_source": "対左で被打率%d割%d分と抜群の強さを発揮する左キラー！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "DC69E26E2D34CC54",
+    "english": "Lefties hit .%d0%d against him. He's tough on them!",
+    "status": "reviewed",
+    "format_source": "対左で被打率%d割%d厘と抜群の強さを発揮する左キラー！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 56,
+    "source_hash": "907EDD67F021465E",
+    "english": "Lefties hit .%d%d%d against him. He's tough on them!",
+    "status": "reviewed",
+    "format_source": "対左で被打率%d割%d分%d厘と抜群の強さを発揮する左キラー！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "EE38AF502CBEEC42",
+    "english": "Lefties hit 1.000 against him. He's tough on them!",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "00CEF52E3747C493",
+    "english": "Lefties hit .%d00. Who wins here?",
+    "status": "reviewed",
+    "format_source": "対左被打率%d割。ここでの対決はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "F238FF0D9DD6ACDD",
+    "english": "Lefties hit .%d%d0. Who wins here?",
+    "status": "reviewed",
+    "format_source": "対左被打率%d割%d分。ここでの対決はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "7F9EEF30087EB891",
+    "english": "Lefties hit .%d0%d. Who wins here?",
+    "status": "reviewed",
+    "format_source": "対左被打率%d割%d厘。ここでの対決はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "4E6A440265310707",
+    "english": "Lefties hit .%d%d%d. Who wins here?",
+    "status": "reviewed",
+    "format_source": "対左被打率%d割%d分%d厘。ここでの対決はどうか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "DFA42AFCF0C6A7CF",
+    "english": "Lefties hit 1.000. Who wins here?",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "E1608C92B29C13C1",
+    "english": "Wins in %d straight starts! Can he extend the streak?",
+    "status": "reviewed",
+    "format_source": "%d連続先発勝利中！さらに連勝記録を伸ばすか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "3D48D47ABA05CE69",
+    "english": "Lost %d straight starts. Can he end the skid today?",
+    "status": "reviewed",
+    "format_source": "先発して%d戦連続敗戦投手。今日こそ連敗ＳＴＯＰなるか！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "22CABAB96962A940",
+    "english": "Saves in %d straight outings.",
+    "status": "reviewed",
+    "format_source": "%d登板連続セーブを記録中。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 72,
+    "source_hash": "E797BE18900674F1",
+    "english": "%d straight scoreless innings. Can he put up another zero?",
+    "status": "reviewed",
+    "format_source": "現在%dイニング連続無失点記録継続中！今日もスコアボードに０を刻めるか！？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "7665B352560B4DC3",
+    "english": "%d career wins. Will he add one today?",
+    "status": "reviewed",
+    "format_source": "ここまで通算%d勝。今日の登板はどうか？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "5D1964A4BE013A8D",
+    "english": "%d career wins through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d勝を記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "5157513E16CCFD5E",
+    "english": "%d career losses through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d敗を記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "9903633C145C9613",
+    "english": "%d career saves so far. How will he pitch today?",
+    "status": "reviewed",
+    "format_source": "ここまで通算%dセーブをマーク。今日の登板はどうか？"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "ED90F8D9EC651BCE",
+    "english": "%d career saves through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%dセーブを記録。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "28B54C06383BEA3D",
+    "english": "%d career strikeouts through 2005.",
+    "status": "reviewed",
+    "format_source": "２００５シーズン終了時点で通算%d奪三振を記録。"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 16,
     "source_hash": "4028A687C96F1946",
     "english": "Test message",
@@ -89411,29 +90064,29 @@
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "9AA311C3B2C1A85B",
-    "english": "Drama begins and heated pennant race!",
-    "status": "draft"
+    "english": "The pennant race starts now!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 36,
     "source_hash": "8369E8ED4FFD6D77",
-    "english": "Finally opening! A season of joy for baseball fans",
-    "status": "draft"
+    "english": "Opening Day is finally here!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "D6553BDC12C76D64",
-    "english": "The ace's willpower to put his heart into every pitch!",
-    "status": "draft"
+    "english": "The aces give it all they have!",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "2A6C738C8A230B49",
-    "english": "Which team will win the fierce battle?",
-    "status": "draft"
+    "english": "Who will come out on top?",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -91882,28 +92535,28 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "5704B4030E3AF748",
-    "english": "Winning Percentage .000",
+    "english": "Win % .000",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "1BE9362C863557E9",
-    "english": "00 wins 00 losses 00 minutes",
-    "status": "draft"
+    "english": "00 W, 00 L, 00 T",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "383554F2A9FD5D21",
-    "english": "The team composition of 14 teams will be returned to the initial state.",
-    "status": "draft"
+    "english": "Reset all 14 team rosters?",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "87D82E73E3CAAB15",
-    "english": "Are you sure?",
+    "english": "This restores the original rosters.",
     "status": "reviewed"
   },
   {
@@ -91966,8 +92619,8 @@
     "address": "0x00000000",
     "source_size": 48,
     "source_hash": "E6B8364648F09ED1",
-    "english": "Compete against other players on Xbox Live",
-    "status": "draft"
+    "english": "Play online against other players on Xbox Live.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
