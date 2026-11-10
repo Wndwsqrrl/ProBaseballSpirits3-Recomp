@@ -16649,57 +16649,57 @@
     "address": "0x82086160",
     "source_size": 46,
     "source_hash": "4CE71D283B3E28E5",
-    "english": "%s Loading leader board [%d - %d]",
-    "status": "draft"
+    "english": "Loading %s leaderboard [%d-%d]",
+    "status": "reviewed"
   },
   {
     "address": "0x820861E8",
     "source_size": 16,
     "source_hash": "01DE653CD6AA0411",
-    "english": "%d minutes until next tally",
-    "status": "draft"
+    "english": "Next update in %d min",
+    "status": "reviewed"
   },
   {
     "address": "0x820861FC",
     "source_size": 44,
     "source_hash": "2DE8241C65AA1EA3",
-    "english": "Writing the tally results to the leader board",
-    "status": "draft"
+    "english": "Posting results to the leaderboard.",
+    "status": "reviewed"
   },
   {
     "address": "0x820862AC",
     "source_size": 4,
     "source_hash": "F3B934E8A336D846",
-    "english": "lower limit",
-    "status": "draft"
+    "english": "Minimum",
+    "status": "reviewed"
   },
   {
     "address": "0x820862B4",
     "source_size": 4,
     "source_hash": "F625D3D1506D2023",
-    "english": "upper limit",
-    "status": "draft"
+    "english": "Maximum",
+    "status": "reviewed"
   },
   {
     "address": "0x820862BC",
     "source_size": 12,
     "source_hash": "675C8022B4C0657A",
-    "english": "my rank",
-    "status": "draft"
+    "english": "Your Rank",
+    "status": "reviewed"
   },
   {
     "address": "0x820862CC",
     "source_size": 12,
     "source_hash": "B0A054A7AD575005",
-    "english": "my team",
-    "status": "draft"
+    "english": "Your Team",
+    "status": "reviewed"
   },
   {
     "address": "0x820862DC",
     "source_size": 12,
     "source_hash": "2EAF53584ACC4261",
-    "english": "Opponent's rank",
-    "status": "draft"
+    "english": "Opponent Rank",
+    "status": "reviewed"
   },
   {
     "address": "0x820862EC",
@@ -16712,8 +16712,8 @@
     "address": "0x820862F8",
     "source_size": 12,
     "source_hash": "E21B7F8E18A06292",
-    "english": "opponent's team",
-    "status": "draft"
+    "english": "Opponent Team",
+    "status": "reviewed"
   },
   {
     "address": "0x82086328",
@@ -16740,8 +16740,8 @@
     "address": "0x82086338",
     "source_size": 14,
     "source_hash": "8971CCC84968BD91",
-    "english": "Restore default settings",
-    "status": "draft"
+    "english": "Restore Defaults",
+    "status": "reviewed"
   },
   {
     "address": "0x82086348",
@@ -16782,8 +16782,8 @@
     "address": "0x82086430",
     "source_size": 4,
     "source_hash": "428E3CA761B4850A",
-    "english": "BP rate",
-    "status": "draft"
+    "english": "BP Rate",
+    "status": "reviewed"
   },
   {
     "address": "0x82086438",
@@ -16810,99 +16810,99 @@
     "address": "0x82086454",
     "source_size": 12,
     "source_hash": "D6507341E11255C2",
-    "english": "gamer tag",
-    "status": "draft"
+    "english": "Gamertag",
+    "status": "reviewed"
   },
   {
     "address": "0x82086464",
     "source_size": 10,
     "source_hash": "6A3ACC4CA15540C0",
-    "english": "Ranking",
-    "status": "draft"
+    "english": "Leaderboard",
+    "status": "reviewed"
   },
   {
     "address": "0x82086470",
     "source_size": 14,
     "source_hash": "C2E0C64207C55E74",
-    "english": "call a friend",
-    "status": "draft"
+    "english": "Invite Friend",
+    "status": "reviewed"
   },
   {
     "address": "0x82086480",
     "source_size": 8,
     "source_hash": "501295784B5B75C0",
-    "english": "Re-narrow down",
-    "status": "draft"
+    "english": "Refine Search",
+    "status": "reviewed"
   },
   {
     "address": "0x8208648C",
     "source_size": 10,
     "source_hash": "1B2A05B91B35D771",
-    "english": "Create room",
-    "status": "draft"
+    "english": "Create Room",
+    "status": "reviewed"
   },
   {
     "address": "0x820864E8",
     "source_size": 16,
     "source_hash": "0AB731BB42B82AE8",
-    "english": "player match",
-    "status": "draft"
+    "english": "Player Match",
+    "status": "reviewed"
   },
   {
     "address": "0x82086578",
     "source_size": 10,
     "source_hash": "393C6D9692978327",
-    "english": "Opponent rank",
-    "status": "draft"
+    "english": "Opponent Rank",
+    "status": "reviewed"
   },
   {
     "address": "0x82086584",
     "source_size": 4,
     "source_hash": "CE9F5ACF79729707",
-    "english": "public",
-    "status": "draft"
+    "english": "Public",
+    "status": "reviewed"
   },
   {
     "address": "0x8208658C",
     "source_size": 8,
     "source_hash": "30C5379BC853E6D1",
-    "english": "Battle format",
-    "status": "draft"
+    "english": "Match Format",
+    "status": "reviewed"
   },
   {
     "address": "0x82086598",
     "source_size": 28,
     "source_hash": "33BEDD0F3C992A4A",
-    "english": "Conditions for the room you created",
-    "status": "draft"
+    "english": "Your Room Settings",
+    "status": "reviewed"
   },
   {
     "address": "0x820865B8",
     "source_size": 10,
     "source_hash": "E200983621D68FAD",
     "english": "Cancel",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820865C4",
     "source_size": 4,
     "source_hash": "B9C47EB9CC69808F",
-    "english": "do",
-    "status": "draft"
+    "english": "Yes",
+    "status": "reviewed"
   },
   {
     "address": "0x820865CC",
     "source_size": 6,
     "source_hash": "A7F2FBF3A21816BE",
-    "english": "don't",
-    "status": "draft"
+    "english": "No",
+    "status": "reviewed"
   },
   {
     "address": "0x820865DC",
     "source_size": 42,
     "source_hash": "85DDF721C66087DA",
-    "english": "Exit Xbox Live battle mode.",
-    "status": "draft"
+    "english": "Exit Xbox Live play.",
+    "status": "reviewed"
   },
   {
     "address": "0x82086608",
@@ -24965,36 +24965,36 @@
     "address": "0x8208FC08",
     "source_size": 10,
     "source_hash": "7127ADC7F15C0F99",
-    "english": "Base running evaluation:",
-    "status": "draft"
+    "english": "Baserunning Grade:",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FC14",
     "source_size": 10,
     "source_hash": "71099B5B21FD2772",
-    "english": "Strategy evaluation:",
-    "status": "draft"
+    "english": "Tactics Grade:",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FC4C",
     "source_size": 22,
     "source_hash": "20BF28A5CBAC49C4",
-    "english": "I can't take it to trade.",
-    "status": "draft"
+    "english": "This player can't be traded.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FC64",
     "source_size": 34,
     "source_hash": "D89F06022DB0820C",
-    "english": "Foreign players cannot be traded.",
-    "status": "draft"
+    "english": "Foreign players can't be traded.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FC88",
     "source_size": 44,
     "source_hash": "7FF6542CEA293DD6",
-    "english": "Players who have been with the team for up to their third year cannot be traded.",
-    "status": "draft"
+    "english": "Players in their first three years with the team can't be traded.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FCB8",
@@ -25007,43 +25007,43 @@
     "address": "0x8208FCD4",
     "source_size": 28,
     "source_hash": "EC0288D142CA7EF1",
-    "english": "Please select the player you want to acquire.",
-    "status": "draft"
+    "english": "Select a player to acquire.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FCF4",
     "source_size": 28,
     "source_hash": "C1FC0CB5E7B33B4B",
-    "english": "Please select the player to be released.",
-    "status": "draft"
+    "english": "Select a player to trade away.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FD14",
     "source_size": 24,
     "source_hash": "807BD76058EB387A",
-    "english": "I decline this trade.",
-    "status": "draft"
+    "english": "Decline this trade.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FD30",
     "source_size": 26,
     "source_hash": "76B688C9123C8112",
-    "english": "I accept this trade.",
-    "status": "draft"
+    "english": "Accept this trade.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FD4C",
     "source_size": 32,
     "source_hash": "4E28743D73447106",
-    "english": "Decide which players will be traded.",
-    "status": "draft"
+    "english": "Change the players in this trade.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FD70",
     "source_size": 26,
     "source_hash": "6685E0DAD97D627D",
-    "english": "Request this trade.",
-    "status": "draft"
+    "english": "Propose this trade.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FD8C",
@@ -25056,85 +25056,85 @@
     "address": "0x8208FD9C",
     "source_size": 44,
     "source_hash": "2CFBD8A410D49772",
-    "english": "Opposing team's traded player is not specified",
-    "status": "draft"
+    "english": "Select a player from the other team.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FDCC",
     "source_size": 42,
     "source_hash": "2EF3115938CDBFF6",
-    "english": "Your team's traded player has not been specified.",
-    "status": "draft"
+    "english": "Select a player from your team.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FDF8",
     "source_size": 34,
     "source_hash": "D6CE9556476254D2",
-    "english": "No traded players specified.",
-    "status": "draft"
+    "english": "Select the players to trade.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FE1C",
     "source_size": 36,
     "source_hash": "3DA1CDA454C43614",
-    "english": "The number of fielders on the opposing team is less than the minimum number of fielders.",
-    "status": "draft"
+    "english": "The other team would have too few position players.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FE44",
     "source_size": 34,
     "source_hash": "D8E0D88A22D2E1E0",
-    "english": "The number of fielders on your team is less than the minimum number of players.",
-    "status": "draft"
+    "english": "Your team would have too few position players.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FE68",
     "source_size": 32,
     "source_hash": "53686A0B9A2E8AC2",
-    "english": "The number of fielders on the opposing team is over",
-    "status": "draft"
+    "english": "The other team would have too many position players.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FE8C",
     "source_size": 30,
     "source_hash": "36639112ED5E5C06",
-    "english": "The number of fielders on your team exceeds the limit.",
-    "status": "draft"
+    "english": "Your team would have too many position players.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FEAC",
     "source_size": 36,
     "source_hash": "A481D73493899407",
-    "english": "The number of pitchers on the opposing team is less than the minimum number of pitchers.",
-    "status": "draft"
+    "english": "The other team would have too few pitchers.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FED4",
     "source_size": 34,
     "source_hash": "43830E7D389D5943",
-    "english": "The number of pitchers on your team is less than the minimum number of pitchers.",
-    "status": "draft"
+    "english": "Your team would have too few pitchers.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FEF8",
     "source_size": 32,
     "source_hash": "293128AA90EDB225",
-    "english": "The number of pitchers on the opposing team exceeds",
-    "status": "draft"
+    "english": "The other team would have too many pitchers.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FF1C",
     "source_size": 30,
     "source_hash": "D11C681FFBB74889",
-    "english": "The number of pitchers on your team exceeds the limit.",
-    "status": "draft"
+    "english": "Your team would have too many pitchers.",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FF3C",
     "source_size": 32,
     "source_hash": "5E84A98CAB164387",
-    "english": "Would you like to request a trade under these conditions?",
-    "status": "draft"
+    "english": "Propose this trade?",
+    "status": "reviewed"
   },
   {
     "address": "0x8208FF84",
@@ -41003,7 +41003,7 @@
     "source_size": 22,
     "source_hash": "743DB9C82FF88011",
     "english": "Already selected.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82090204",
@@ -43346,6 +43346,27 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "2ECBBD18429B10BF",
+    "english": "Agbayani Benny",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "58BB14FAE8149C1C",
+    "english": "Agbayani Benny",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "AC8A0D9BDF681BB8",
+    "english": "Benny",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 11,
     "source_hash": "1AB453AEE05EDBD8",
     "english": "Aikawa Ryoji",
@@ -43514,27 +43535,6 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 15,
-    "source_hash": "022EEECE113DBCD3",
-    "english": "Alex",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "55019BE3B734FC48",
-    "english": "Alex",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 6,
-    "source_hash": "5666EDE1408442E9",
-    "english": "Alex",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 10,
     "source_hash": "38F700B3B482B689",
     "english": "Amano Koichi",
@@ -43684,14 +43684,14 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "ECD64D3350E24AC4",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "9956EE0F61CF3EFF",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {
@@ -43894,14 +43894,14 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "65716C2237A960A3",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "5B8A110779D455D8",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
@@ -43936,14 +43936,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "558278DAC0FA14FD",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "7128EFB90C50A712",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
@@ -43957,14 +43957,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "8837ACC98D66641F",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "095D68ADBDB87958",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
@@ -43978,14 +43978,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "EFE142249BC7824A",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "D50F220C1CC579E3",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
@@ -43997,37 +43997,16 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 12,
-    "source_hash": "DE9AC109EE21BA03",
-    "english": "Benny",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 13,
-    "source_hash": "10952FFE7B5C1018",
-    "english": "Benny",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 7,
-    "source_hash": "527BD7678AECCE74",
-    "english": "Benny",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 19,
     "source_hash": "AE9E1DC309A64148",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "685EC9A48BF08D55",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
@@ -44041,14 +44020,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "DB07CC3A60ABC7A8",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "B2852DFB4F30CE5B",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
@@ -44062,14 +44041,14 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "5B89B02AF7772648",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "C7A71C32233970F7",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
@@ -44083,14 +44062,14 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "048D3DAD22D7F489",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "A99ED59F753213A4",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
@@ -44104,28 +44083,28 @@
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "BDE6C0A9DD6FA33F",
-    "english": "Cabrera",
+    "english": "Cabrera Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "1961E4F4FE8FEB07",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "5635E29D2415B73C",
-    "english": "Cabrera",
+    "english": "Cabrera Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "96C0F2B0F130CCEC",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
@@ -44146,14 +44125,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "3229A923ECE5AC95",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "C43C6702F31A482E",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
@@ -44188,14 +44167,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "EFF5448D4F63CD43",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "96AECEB41E63F0E8",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
@@ -44251,14 +44230,14 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "E75ABF8A20D00573",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "5B806ACAB7F4A9FE",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
@@ -44270,37 +44249,16 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "24E894F8C3AC06B5",
-    "english": "Denney",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "FDB6779B592F0064",
-    "english": "Denney",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "238BFBD04F5BD3C5",
-    "english": "Denney",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 17,
     "source_hash": "FC2E971515A6C03B",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "D1F0F20049C30D50",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
@@ -44314,14 +44272,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "F03A6889A48451E9",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "06D6FBF4E5E9AC96",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
@@ -44361,9 +44319,23 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "3569EB735C4D5CD6",
+    "english": "Doi Ryotaro",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 9,
     "source_hash": "FF9192094DAE21B5",
     "english": "Doi Yoshihiro",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 11,
+    "source_hash": "EA756FE59772BC19",
+    "english": "Doi Ryotaro",
     "status": "game-roster-family"
   },
   {
@@ -44375,23 +44347,9 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "EBBECC4E4AE51364",
-    "english": "Domingo",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 17,
-    "source_hash": "8448759DF9CBDB15",
-    "english": "Domingo",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "A8A80FA640385725",
-    "english": "Domingo",
+    "source_size": 5,
+    "source_hash": "8E6D360D1BA97B0C",
+    "english": "Ryotarou",
     "status": "game-roster-family"
   },
   {
@@ -44419,14 +44377,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "9A8AA02659EB2B5A",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "24A1211E2FAF0F99",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
@@ -44545,14 +44503,14 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "170DDC5B1893C77E",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "A25636B7E12D755B",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
@@ -45070,14 +45028,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "F60401DE58F3F3FF",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "CB0AE134332DD0B6",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
@@ -45091,14 +45049,14 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "5F5AE87A9C14A70F",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "01535123E517503A",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
@@ -45112,14 +45070,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "03F4769456628FA5",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "AA46B43074049D6C",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
@@ -45133,14 +45091,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "7C62A475EEC7411D",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "39F03AD33007DF16",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
@@ -45203,14 +45161,14 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "42A9EAEAA59D8F46",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "EBD0E1F028741467",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
@@ -45224,14 +45182,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "ED0E71420545938F",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "E649052AF665B36C",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
@@ -45245,14 +45203,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "46AA429394DBCC22",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "B14D99E29E6866FD",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
@@ -45260,6 +45218,27 @@
     "source_size": 12,
     "source_hash": "440DD4769F130B78",
     "english": "Guttormson",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "E3DDFFCF307DD223",
+    "english": "Guzman Domingo",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "4B541650DAB0160C",
+    "english": "Guzman Domingo",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "B8926A1116E081A0",
+    "english": "Domingo",
     "status": "game-roster-family"
   },
   {
@@ -45707,14 +45686,14 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "49CB00B7271061B9",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "0D395EF8CFDF0064",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
@@ -46778,7 +46757,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "7E360FF9B8D61EB4",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
@@ -46799,7 +46778,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "666DED698530CAC3",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
@@ -47408,14 +47387,14 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "5D29548C9C4DFCD4",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "329E730403DCEEDF",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -47471,14 +47450,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "B1B12CA96E693D20",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "4F3D6BB02AA6EFD9",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -47486,6 +47465,13 @@
     "source_size": 10,
     "source_hash": "55D697C9C185C1AC",
     "english": "Katayama",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "424C044DEBA320B5",
+    "english": "Kato Ryota",
     "status": "game-roster-family"
   },
   {
@@ -47570,6 +47556,20 @@
     "source_size": 7,
     "source_hash": "8547F77D94E9BF15",
     "english": "Katoh",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "D3F8BBC9E1E03718",
+    "english": "Kato Ryota",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "1AE70C629126DD8B",
+    "english": "Ryota",
     "status": "game-roster-family"
   },
   {
@@ -47737,7 +47737,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "F5B2E884831C107B",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
@@ -47758,7 +47758,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "3302EE0ECDF81456",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
@@ -48479,14 +48479,14 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "58292B2E3EF2EC88",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "AED9748204607403",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
@@ -48521,14 +48521,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "3F4472738C8D76F4",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "3745A56671EA5339",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
@@ -48731,14 +48731,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "644A5DE36531A4E1",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "A3018DF10BD9BE00",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
@@ -49059,21 +49059,21 @@
   {
     "address": "0x00000000",
     "source_size": 16,
-    "source_hash": "FEDB0B032EF5717C",
-    "english": "Larocca",
+    "source_hash": "D2D9E3E0A3129C9C",
+    "english": "LaRocca Greg",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
-    "source_hash": "59EBF3509BD317DD",
-    "english": "Larocca",
+    "source_hash": "FACEB387C2028FFD",
+    "english": "LaRocca Greg",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 9,
-    "source_hash": "FAA2FEC42A9E9A2C",
+    "source_hash": "7939897B17B9430C",
     "english": "Larocca",
     "status": "game-roster-family"
   },
@@ -49081,28 +49081,28 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "EF9C536DE50364E7",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "F4B9797EF1295505",
-    "english": "Lee Sunyopu",
+    "english": "Lee Seung-yeop",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "7BF597D4256A3618",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "C451D7B80D7C6A02",
-    "english": "Lee Sunyopu",
+    "english": "Lee Seung-yeop",
     "status": "game-roster-family"
   },
   {
@@ -49123,14 +49123,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "A5892A827F3D90CB",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "3A5BD0A0B57C57B6",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
@@ -49149,9 +49149,23 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "E49E5F15DE7D3B4B",
+    "english": "Lin Ying-Chieh",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 9,
     "source_hash": "A6A7C71F96C2228D",
     "english": "Lin Wei-Chu",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "09D83E17433C9F2E",
+    "english": "Lin Ying-Chieh",
     "status": "game-roster-family"
   },
   {
@@ -49163,23 +49177,9 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 11,
-    "source_hash": "2BC96870982A0C7D",
-    "english": "Luis",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 12,
-    "source_hash": "172C52E20DCF8AC8",
-    "english": "Luis",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 6,
-    "source_hash": "C122F95EB52A2E94",
-    "english": "Luis",
+    "source_size": 5,
+    "source_hash": "7559D3B54383FEC9",
+    "english": "Ying Chieh",
     "status": "game-roster-family"
   },
   {
@@ -49207,14 +49207,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "5E26F191BCC6A569",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "77D2618ABAE41C52",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
@@ -49432,6 +49432,27 @@
     "source_size": 7,
     "source_hash": "3D0262DD8C333875",
     "english": "Manei",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 15,
+    "source_hash": "B7C82F0A38A5DD2C",
+    "english": "Martinez Luis",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "A5E0E7F6A8AF097F",
+    "english": "Martinez Luis",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "05BE6B62B6CE5CBF",
+    "english": "Luis",
     "status": "game-roster-family"
   },
   {
@@ -49711,14 +49732,14 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "D9A6CBBE03853EDD",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "2CF4285964F497CE",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
@@ -49768,27 +49789,6 @@
     "source_size": 10,
     "source_hash": "2A1A4DCB624C55A5",
     "english": "Matuzaki",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "EDEEFE40EBF26FD5",
-    "english": "Micheal",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 17,
-    "source_hash": "4E0FC8E4C4A8DF74",
-    "english": "Micheal",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "B1E2FF5379132D32",
-    "english": "Micheal",
     "status": "game-roster-family"
   },
   {
@@ -49879,14 +49879,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "577F01DF568CA048",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "36F2D90A8584B377",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
@@ -50306,14 +50306,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "FDB0447B3E62C8D1",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "3E815343C7C86184",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -50642,7 +50642,7 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "7C9C58AA12BCD8AC",
-    "english": "Nakajima",
+    "english": "Nakajima Hiroyuki",
     "status": "game-roster-family"
   },
   {
@@ -50656,7 +50656,7 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "A5029AE7D6A00CF3",
-    "english": "Nakajima",
+    "english": "Nakajima Hiroyuki",
     "status": "game-roster-family"
   },
   {
@@ -50671,6 +50671,13 @@
     "source_size": 10,
     "source_hash": "C0D3065DF66627C0",
     "english": "Nakajima",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "7FBDBA6154A56A4E",
+    "english": "Nakamura Michael",
     "status": "game-roster-family"
   },
   {
@@ -50717,6 +50724,13 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "5601E082C126BB9D",
+    "english": "Nakamura Michael",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 14,
     "source_hash": "28A13EE74069BAE2",
     "english": "Nakamura Issei",
@@ -50755,6 +50769,13 @@
     "source_size": 12,
     "source_hash": "35C37AF08DD2C8E4",
     "english": "Nakamura Yutaka",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "2B09A15F093B8BA3",
+    "english": "Micheal",
     "status": "game-roster-family"
   },
   {
@@ -51431,6 +51452,27 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "AB4CD69F5642F8C3",
+    "english": "Ochoa Alex",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "8F6CC1D00BA85F18",
+    "english": "Ochoa Alex",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "8F39592DD00DCE99",
+    "english": "Alex",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 8,
     "source_hash": "8C85BA6B538AA769",
     "english": "Oda Kohei",
@@ -51601,7 +51643,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "1B8A53D10C3C9DAA",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
@@ -51881,7 +51923,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "D715A421B08272B7",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
@@ -51937,14 +51979,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "8F074A07EF2B881A",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "2D0F75ED73D3F4B7",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
@@ -51979,7 +52021,7 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "3574201CA54408F4",
-    "english": "Okamoto",
+    "english": "Okamoto Shinya",
     "status": "game-roster-family"
   },
   {
@@ -51993,7 +52035,7 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "AFAB68BAE8A8F487",
-    "english": "Okamoto",
+    "english": "Okamoto Shinya",
     "status": "game-roster-family"
   },
   {
@@ -52231,14 +52273,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "2056713F9FE0CCA6",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "56A1383A9DCD03DF",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
@@ -52252,14 +52294,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "D9ED0A8D9F7AA644",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "E1BF6BFC51DE63FD",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
@@ -52273,14 +52315,14 @@
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "5F48B5186E1E98B1",
-    "english": "Ramirez",
+    "english": "Ramirez Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "761FB732B027D212",
-    "english": "Ramirez",
+    "english": "Ramirez Alex",
     "status": "game-roster-family"
   },
   {
@@ -52294,14 +52336,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "EED5EA071D2640D4",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "9D0AA909639483C3",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
@@ -52315,14 +52357,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "3F9C3DFD1DF59652",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "2CC3816AC9C6BFB1",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
@@ -52330,69 +52372,6 @@
     "source_size": 8,
     "source_hash": "D43C80605C966743",
     "english": "Romano",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "1726E049482486AB",
-    "english": "Ryota",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 15,
-    "source_hash": "EFC9C2D7F0DFFA0B",
-    "english": "Ryotarou",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "0B9A37F02B988D82",
-    "english": "Ryotarou",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "87B9303AEC64DBD3",
-    "english": "Ryotarou",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 11,
-    "source_hash": "5588BAB9C92C2A62",
-    "english": "Ryota",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 7,
-    "source_hash": "A447AFE9280A1C81",
-    "english": "Ryota",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 15,
-    "source_hash": "83321AC63E4E72BD",
-    "english": "Ryutaroh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "A0F3F28778A8E03E",
-    "english": "Ryutaroh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "0AAC28B270F8472F",
-    "english": "Ryutaroh",
     "status": "game-roster-family"
   },
   {
@@ -53092,14 +53071,14 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "3BAB6B96B8D65DE3",
-    "english": "Seguignol",
+    "english": "Seguignol Fernando",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "44A1071CA1E92956",
-    "english": "Seguignol",
+    "english": "Seguignol Fernando",
     "status": "game-roster-family"
   },
   {
@@ -53155,14 +53134,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "21EE2335E7230958",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "A73A4530E3ECD7D1",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
@@ -53288,14 +53267,14 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "5428D7DA1A829BFB",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "30F46E717CFEAF5E",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
@@ -53344,7 +53323,7 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "63527F4DF282D897",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
@@ -53372,7 +53351,7 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "D7D1AEFB32C7E226",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
@@ -53491,14 +53470,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "3E2ADC57C61ED03A",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "AF05B60401214D6B",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
@@ -53554,14 +53533,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "DFB5E19F80647E97",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E847769A4B3CC8DC",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
@@ -53638,14 +53617,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "32D83474541D95C2",
-    "english": "Short",
+    "english": "Short Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "A9FDC6ED60B45D1D",
-    "english": "Short",
+    "english": "Short Rick",
     "status": "game-roster-family"
   },
   {
@@ -53764,14 +53743,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "FD9627D8D3BD599D",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "8AB7AEAC79A57584",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -54555,7 +54534,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "B7027C44FBB83F9B",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -54563,6 +54542,13 @@
     "source_size": 9,
     "source_hash": "B7029344FBB866B0",
     "english": "Tanaka Akira",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 11,
+    "source_hash": "5D507E6E559FF287",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
@@ -54618,7 +54604,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "A48CDB68FFDDE0F4",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -54626,6 +54612,13 @@
     "source_size": 10,
     "source_hash": "A48D7468FFDEE4EF",
     "english": "Tanaka Akira",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "FBA0B2A8144CEBB0",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
@@ -54689,6 +54682,13 @@
     "source_size": 8,
     "source_hash": "13724ADC4467C942",
     "english": "Tanaka",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "138CFBDC447E0ABD",
+    "english": "Yuki",
     "status": "game-roster-family"
   },
   {
@@ -54989,14 +54989,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "9B4D99F502BFBF85",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "D5CD973E949F0182",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
@@ -55113,6 +55113,27 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "4FC8D933AFFCC22A",
+    "english": "Tomori Yui",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "3DE906ACAD9C67C5",
+    "english": "Tomori Yui",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "A3BF9426F4AEF4BC",
+    "english": "Denney",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 12,
     "source_hash": "C3DA5BE086284A42",
     "english": "Torigoe Yusuke",
@@ -55204,6 +55225,13 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "7F4A7E7158672DBC",
+    "english": "Tsuji Ryutaro",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 14,
     "source_hash": "DB345BC4EE50C2E0",
     "english": "Tsujimoto Kento",
@@ -55253,9 +55281,23 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 13,
+    "source_hash": "CDF0E56645DF4E59",
+    "english": "Tsuji Ryutaro",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 7,
     "source_hash": "879BAC54C9BA10CF",
     "english": "Tsuji",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 7,
+    "source_hash": "8749FB54C9748CE4",
+    "english": "Ryutaroh",
     "status": "game-roster-family"
   },
   {
@@ -55598,14 +55640,14 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "DAC2AE0CC5810080",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "698AA66F5AF206FF",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
@@ -55829,14 +55871,14 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "B17B4A10B92912EE",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "26F4BA4A08CF2661",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
@@ -56226,13 +56268,6 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "804B7F09B0688B3C",
-    "english": "Yan",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 15,
     "source_hash": "FB3D31BB5F34D9CF",
     "english": "Yanagisawa Yuichi",
@@ -56256,14 +56291,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "3ACDA98295D8BA16",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "9E9449551EABA951",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
@@ -56271,6 +56306,48 @@
     "source_size": 10,
     "source_hash": "B72D34B6649C9CD7",
     "english": "Yanagita",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "123827B7E7758B8B",
+    "english": "Yang Chung-Shou",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 9,
+    "source_hash": "C78E9E4D7DCB5D61",
+    "english": "Yang Yao-Hsun",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "263F02C867156D66",
+    "english": "Yang Chung-Shou",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "6A8B3A4E6F612C70",
+    "english": "Yang Yao-Hsun",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "CFCD312EC33C30F7",
+    "english": "Yoh",
+    "status": "game-roster-family"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "D069A22EC3C1339C",
+    "english": "Yan",
     "status": "game-roster-family"
   },
   {
@@ -56334,62 +56411,6 @@
     "source_size": 6,
     "source_hash": "1874142EED555A7B",
     "english": "Yano",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "3C4DFF2FE4EB8407",
-    "english": "Yan",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 5,
-    "source_hash": "1CC8365ABE3448AB",
-    "english": "Yan",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 15,
-    "source_hash": "EA08DFCA27E0C142",
-    "english": "Ying Chieh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "5D6746A9A92D70B5",
-    "english": "Ying Chieh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 12,
-    "source_hash": "C7890E535F3F666E",
-    "english": "Ying Chieh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "5F1648503520DF72",
-    "english": "Yoh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "7691723C8ADB3A09",
-    "english": "Yoh",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 5,
-    "source_hash": "EFB9058FA331BEB4",
-    "english": "Yoh",
     "status": "game-roster-family"
   },
   {
@@ -56772,37 +56793,16 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 9,
-    "source_hash": "CEAC7061F2A0CA17",
-    "english": "Yuki",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "445360234AD91760",
-    "english": "Yuki",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 6,
-    "source_hash": "4575887A00A45AAD",
-    "english": "Yuki",
-    "status": "game-roster-family"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 13,
     "source_hash": "A51C73AE0E9AD3D2",
-    "english": "Zuleta",
+    "english": "Zuleta Julio",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "B60D5936629E2A2B",
-    "english": "Zuleta",
+    "english": "Zuleta Julio",
     "status": "game-roster-family"
   },
   {
@@ -56858,14 +56858,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "B859B187076FE1CF",
-    "english": "Benny",
+    "english": "Agbayani Benny",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "ACBA79B9EAA9BCCC",
-    "english": "Benny",
+    "english": "Agbayani Benny",
     "status": "game-roster-family"
   },
   {
@@ -56879,49 +56879,49 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "4FF622DD32B704B8",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "17D822B89BD72615",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "88DB71B3E9E351EA",
-    "english": "Alex",
+    "english": "Ochoa Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "ADBFB1EB5E4E60F1",
-    "english": "Cabrera",
+    "english": "Cabrera Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "E888839ACC500BA3",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "BDD2D693E4452112",
-    "english": "Ramirez",
+    "english": "Ramirez Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "B8720738515F863D",
-    "english": "Alex",
+    "english": "Ochoa Alex",
     "status": "game-roster-family"
   },
   {
@@ -56935,7 +56935,7 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "69B190DEE59EB4B0",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
@@ -56991,14 +56991,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "8EDBEB6D5BBF249D",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "5FF03B66F08B5E8C",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
@@ -57040,14 +57040,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "D0B463F3BF7B4CB0",
-    "english": "Alex",
+    "english": "Ochoa Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "90F63DE4159A70DD",
-    "english": "Alex",
+    "english": "Ochoa Alex",
     "status": "game-roster-family"
   },
   {
@@ -57075,28 +57075,28 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "5F46C9517EF85031",
-    "english": "Cabrera",
+    "english": "Cabrera Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "9CA5B26146B91A59",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "DC188F9ABDC39D92",
-    "english": "Cabrera",
+    "english": "Cabrera Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "5BB14DE64221FB6A",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
@@ -57124,14 +57124,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "3C3CDA0DA6481B1E",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "B5AC7A8EB881D807",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
@@ -57145,14 +57145,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "4F78A0FC4A33664F",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "36827EA3FD574FEA",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
@@ -57166,14 +57166,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "F033A389BFC2D978",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "2691147C222F2B9F",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
@@ -57194,14 +57194,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "F664BE0CE40A635F",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "CEEC2F50E61CE116",
-    "english": "Garcia",
+    "english": "Garcia Karim",
     "status": "game-roster-family"
   },
   {
@@ -57222,14 +57222,14 @@
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "DD2419078E04E354",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "AC626F580385E5D7",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
@@ -57257,28 +57257,28 @@
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "A584A4F16E75C46A",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "EC844989F04B4D8F",
-    "english": "Gissell",
+    "english": "Gissell Chris",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "47779948D1DF87DA",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "C64F952FE5EC2487",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
@@ -57292,14 +57292,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "D48782D156C957A5",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "EBBDD5A8ADEB4ECC",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
@@ -57320,14 +57320,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "942AC5D59E52BC6C",
-    "english": "Domingo",
+    "english": "Guzman Domingo",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "BABC6ECED81F932D",
-    "english": "Domingo",
+    "english": "Guzman Domingo",
     "status": "game-roster-family"
   },
   {
@@ -57348,14 +57348,14 @@
     "address": "0x00000000",
     "source_size": 25,
     "source_hash": "F53C9B7DBE16309B",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "AFD7D69472C9DA48",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
@@ -57376,14 +57376,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "67107170D794BDA7",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "1E2A2495FBE0CE94",
-    "english": "Graman",
+    "english": "Graman Alex",
     "status": "game-roster-family"
   },
   {
@@ -57397,7 +57397,7 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "EDE56FEC94608C59",
-    "english": "Larocca",
+    "english": "LaRocca Greg",
     "status": "game-roster-family"
   },
   {
@@ -57418,14 +57418,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "0EA133FCA8C768BE",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "8455E6D0E73E0961",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
@@ -57446,42 +57446,42 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "DC136357E556E757",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "3043F991F3828C18",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "1B90C9868B617FE4",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "F666553882746B01",
-    "english": "Glover",
+    "english": "Glover Gary",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "54F19CA9B05C37FA",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E7D1BF242BE7CF51",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
@@ -57495,14 +57495,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "A504FBD7D941F35D",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "55F0C5A3F3A1BB56",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
@@ -57572,14 +57572,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "EC1AA55B6A5F504D",
-    "english": "Short",
+    "english": "Short Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "3CCB92EEF527C540",
-    "english": "Short",
+    "english": "Short Rick",
     "status": "game-roster-family"
   },
   {
@@ -57593,42 +57593,42 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "63BA5486DD143F57",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "FCB4EC0B5D4831F2",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 25,
     "source_hash": "367861407ECAEE4B",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "D0A8968443861499",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "0E7E771620C9CCF0",
-    "english": "Grabowski",
+    "english": "Grabowski Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "051E0154B6D2F0DE",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
@@ -57649,56 +57649,56 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "BF99537EB6965871",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "D2D0F6F893FA597C",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "4C18A5A234CF26F4",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "7503C06C3019F09F",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "A5146C38806794D5",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "011C3B6337F431EA",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "80D414538B3B8072",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "A70C778DF5E796D1",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
@@ -57740,14 +57740,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "7E78C864088D2183",
-    "english": "Zuleta",
+    "english": "Zuleta Julio",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "1FB26D009AD5A7A4",
-    "english": "Zuleta",
+    "english": "Zuleta Julio",
     "status": "game-roster-family"
   },
   {
@@ -57768,14 +57768,14 @@
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "6AA2BC7C202F6EBF",
-    "english": "Seguignol",
+    "english": "Seguignol Fernando",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "1B9FEE75547867DA",
-    "english": "Seguignol",
+    "english": "Seguignol Fernando",
     "status": "game-roster-family"
   },
   {
@@ -57789,14 +57789,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "A397164FE40D348E",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "74992585E621DB67",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
@@ -57810,14 +57810,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "E1CC54474F7784B1",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "E00048BFE7D7C1CA",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
@@ -57838,14 +57838,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "7CF13CD7289763E9",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "38B4CD6A97618E04",
-    "english": "Woods",
+    "english": "Woods Tyrone",
     "status": "game-roster-family"
   },
   {
@@ -57866,14 +57866,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "7E143D11D7E1D67F",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "746D0F2FC849A446",
-    "english": "Douglass",
+    "english": "Douglass Sean",
     "status": "game-roster-family"
   },
   {
@@ -57887,14 +57887,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "216AF00F0B7FEFD4",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "E8243E15328658BF",
-    "english": "Carrasco",
+    "english": "Carrasco D.J.",
     "status": "game-roster-family"
   },
   {
@@ -57929,14 +57929,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "9161AA14BE1D829D",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "7E3412A8467BB8B2",
-    "english": "Serafini",
+    "english": "Serafini Dan",
     "status": "game-roster-family"
   },
   {
@@ -57957,14 +57957,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "E2356DAD033245A2",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "00ACA45B7FE81597",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
@@ -57978,14 +57978,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "F35140FB2492D8B9",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "4F1AE4A8F1187E3A",
-    "english": "Gonzalez",
+    "english": "Gonzalez Dicky",
     "status": "game-roster-family"
   },
   {
@@ -57999,14 +57999,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "6486F85EACDFAA5D",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "8F7F21E5855041A2",
-    "english": "Dillon",
+    "english": "Dillon Joe",
     "status": "game-roster-family"
   },
   {
@@ -58027,14 +58027,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "0A9EF59FDD41AA84",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "BBDD1F11ED0365DB",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
@@ -58062,14 +58062,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "8717BB335D13DADA",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "65332FF88ABA954F",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
@@ -58083,42 +58083,42 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "2FBD1993CCD7B01E",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "0C940C4ACE913D7F",
-    "english": "Davey",
+    "english": "Davey Tom",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "4BE566C0B054ECFE",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "DBCC856318217923",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "47F05B433CB046A6",
-    "english": "Domingo",
+    "english": "Guzman Domingo",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "8D7159802A61E6A5",
-    "english": "Domingo",
+    "english": "Guzman Domingo",
     "status": "game-roster-family"
   },
   {
@@ -58132,14 +58132,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "3532C46B0601FD8F",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "67AF37A7D4388ECC",
-    "english": "Beirne",
+    "english": "Beirne Kevin",
     "status": "game-roster-family"
   },
   {
@@ -58160,14 +58160,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "499845FBA02EE24A",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "89F4CDC472C072A5",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
@@ -58188,14 +58188,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "B40B9E8CDBA20CCC",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "1CB93954A0A88497",
-    "english": "Bowers",
+    "english": "Bowers Cedrick",
     "status": "game-roster-family"
   },
   {
@@ -58216,14 +58216,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "8F06BA70CDB809AA",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "4AF2769053A9DAEF",
-    "english": "Powell",
+    "english": "Powell Jeremy",
     "status": "game-roster-family"
   },
   {
@@ -58244,14 +58244,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "E24F3F87171D0B67",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "EFBB9B7592DEE650",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
@@ -58272,14 +58272,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "2FB69D4DFE924E88",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "5DFE6C7D678A70E3",
-    "english": "Hillman",
+    "english": "Hillman Trey",
     "status": "game-roster-family"
   },
   {
@@ -58293,14 +58293,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "27CC510D0796D958",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "FBDE0324B5FDAEF3",
-    "english": "Diaz",
+    "english": "Diaz Felix",
     "status": "game-roster-family"
   },
   {
@@ -58314,14 +58314,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "48F6E7B0D9A2041B",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "47386B90012E8678",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
@@ -58335,7 +58335,7 @@
     "address": "0x00000000",
     "source_size": 23,
     "source_hash": "F03F33DE98590C73",
-    "english": "Seguignol",
+    "english": "Seguignol Fernando",
     "status": "game-roster-family"
   },
   {
@@ -58377,7 +58377,7 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "D91E573058BDD01B",
-    "english": "Zuleta",
+    "english": "Zuleta Julio",
     "status": "game-roster-family"
   },
   {
@@ -58398,14 +58398,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "40A4D8611459CF40",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "DCB5533C50E51F5F",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
@@ -58419,14 +58419,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "FB7D1C5E29E02EE4",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "37D2D7913C64E657",
-    "english": "Thomas",
+    "english": "Thomas Brad",
     "status": "game-roster-family"
   },
   {
@@ -58440,14 +58440,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "E2D03E7380D1B380",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "7CE753BF4011C8DB",
-    "english": "Brumbaugh",
+    "english": "Brumbaugh Cliff",
     "status": "game-roster-family"
   },
   {
@@ -58468,14 +58468,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "A557A709EB5154F0",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "58A97096BF3BA6DD",
-    "english": "Bale",
+    "english": "Bale John",
     "status": "game-roster-family"
   },
   {
@@ -58489,7 +58489,7 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "CC8DCDB1550695D7",
-    "english": "Benny",
+    "english": "Agbayani Benny",
     "status": "game-roster-family"
   },
   {
@@ -58510,14 +58510,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "7CA5170BFB48B459",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "0791B10085F34FCA",
-    "english": "Beverlin",
+    "english": "Beverlin Jason",
     "status": "game-roster-family"
   },
   {
@@ -58531,112 +58531,112 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "DD4C607F5BE083DF",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "14404A36996F1FF5",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "205DAA17B935C444",
-    "english": "Fernandez",
+    "english": "Fernandez Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "9C6D8CD6F09B424E",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "1184E692DCCBE111",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "D663CF084C91E13E",
-    "english": "Cabrera",
+    "english": "Cabrera Jolbert",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "9EC5838AE0792110",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "B88361355BDF33D1",
-    "english": "Valentine",
+    "english": "Valentine Bobby",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "71A244DBE23CFEE1",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "BA27B1FE66426F8C",
-    "english": "Kroon",
+    "english": "Kroon Marc",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "495C9DAE0B99071E",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "72E4FE5E7F813FCB",
-    "english": "Brown",
+    "english": "Brown Marty",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "2DDABAA8D2F3AF36",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "21A2EDB0B3D725BF",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "566B2B6E56DA5681",
-    "english": "Micheal",
+    "english": "Nakamura Michael",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "0EA2FF1935116DBC",
-    "english": "Micheal",
+    "english": "Nakamura Michael",
     "status": "game-roster-family"
   },
   {
@@ -58650,14 +58650,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "F1154645AFC5D631",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "C6ACEE950AEEAAAA",
-    "english": "Macias",
+    "english": "Macias Jose",
     "status": "game-roster-family"
   },
   {
@@ -58692,14 +58692,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "806F6667D6E77475",
-    "english": "Luis",
+    "english": "Martinez Luis",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "F5A1B55408D72410",
-    "english": "Luis",
+    "english": "Martinez Luis",
     "status": "game-roster-family"
   },
   {
@@ -58741,14 +58741,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "64B863BCB4C71458",
-    "english": "Ramirez",
+    "english": "Ramirez Alex",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "CE348BEF8CA81B95",
-    "english": "Ramirez",
+    "english": "Ramirez Alex",
     "status": "game-roster-family"
   },
   {
@@ -58769,14 +58769,14 @@
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "941ED74676981AA1",
-    "english": "Larocca",
+    "english": "LaRocca Greg",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "E69A85A2D6A444A6",
-    "english": "Larocca",
+    "english": "LaRocca Greg",
     "status": "game-roster-family"
   },
   {
@@ -58797,14 +58797,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "B23D89B975B432EC",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "BE3201F86477CD0D",
-    "english": "Lee",
+    "english": "Lee Corey",
     "status": "game-roster-family"
   },
   {
@@ -58825,14 +58825,14 @@
     "address": "0x00000000",
     "source_size": 21,
     "source_hash": "00798DCFA41AF4FD",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "9ED88AFFD8ADAAFC",
-    "english": "Liefer",
+    "english": "Liefer Jeff",
     "status": "game-roster-family"
   },
   {
@@ -58853,14 +58853,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "4A9CBF9081097BB6",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "CCC41354A8954F99",
-    "english": "Riggs",
+    "english": "Riggs Adam",
     "status": "game-roster-family"
   },
   {
@@ -58874,21 +58874,21 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "CB621B64D7E4A32A",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "7C3CF5B3B3110AFD",
-    "english": "Short",
+    "english": "Short Rick",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "598C53F0422A0323",
-    "english": "Guttormson",
+    "english": "Guttormson Rick",
     "status": "game-roster-family"
   },
   {
@@ -58902,14 +58902,14 @@
     "address": "0x00000000",
     "source_size": 19,
     "source_hash": "0BEC52664D2E21DD",
-    "english": "Luis",
+    "english": "Martinez Luis",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "F34B8104E5C03B14",
-    "english": "Luis",
+    "english": "Martinez Luis",
     "status": "game-roster-family"
   },
   {
@@ -58923,14 +58923,14 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "939F841E1E774FE0",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "DC9F3F65D29841CB",
-    "english": "Romano",
+    "english": "Romano Mike",
     "status": "game-roster-family"
   },
   {
@@ -58944,14 +58944,14 @@
     "address": "0x00000000",
     "source_size": 15,
     "source_hash": "3ECC749277A15FB7",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "F317AE72014585E8",
-    "english": "Pascucci",
+    "english": "Pascucci Val",
     "status": "game-roster-family"
   },
   {
@@ -58965,14 +58965,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "105CC4100C21CED6",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "0DA7421912043037",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
@@ -59168,7 +59168,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "CE3A91E17E804516",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
@@ -59182,7 +59182,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "DA976602BA857C69",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
@@ -59238,14 +59238,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "206F05E6C2377577",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "BC83D345A06859D8",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
@@ -59616,14 +59616,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "6C35C3C8A0194357",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "CAE38AC8857425E0",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
@@ -60029,14 +60029,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "4CBA897581E9D1B6",
-    "english": "Ying Chieh",
+    "english": "Lin Ying-Chieh",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "07584BD7E1A247AF",
-    "english": "Ying Chieh",
+    "english": "Lin Ying-Chieh",
     "status": "game-roster-family"
   },
   {
@@ -60253,14 +60253,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "709D00297D3F6C2C",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "68199E5DE9F913E5",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
@@ -60281,14 +60281,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "A6D82BBCD2597162",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "BF48CBE15B59D1EF",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
@@ -60386,7 +60386,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "E6D8EB35F02CA246",
-    "english": "Okamoto",
+    "english": "Okamoto Shinya",
     "status": "game-roster-family"
   },
   {
@@ -60652,7 +60652,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "CDB3187425D2DC44",
-    "english": "Ryota",
+    "english": "Kato Ryota",
     "status": "game-roster-family"
   },
   {
@@ -60680,7 +60680,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "147B020D15FD3C0B",
-    "english": "Ryota",
+    "english": "Kato Ryota",
     "status": "game-roster-family"
   },
   {
@@ -60981,14 +60981,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "74BCAA34EC0157AB",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "B2FA7E8FD98F106E",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
@@ -61933,14 +61933,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "71DCC7F965477ACB",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "160EE95E3CE47BEE",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
@@ -63130,14 +63130,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "FC7EBCF1DD0DCF40",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "C05C410389A75A95",
-    "english": "Itoh",
+    "english": "Itoh Tsutomu",
     "status": "game-roster-family"
   },
   {
@@ -63739,14 +63739,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "9416BC4794E3E846",
-    "english": "Denney",
+    "english": "Tomori Yui",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "95D8FFB50F1935D3",
-    "english": "Denney",
+    "english": "Tomori Yui",
     "status": "game-roster-family"
   },
   {
@@ -65384,7 +65384,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "BE30999050BEE297",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -65405,7 +65405,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "E7B30438F11D9E8A",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -65643,14 +65643,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "7C6E6BB82144417D",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "B76B1A1D5FA18A50",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
@@ -66112,14 +66112,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "E960C1D360DD353B",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "5954730BF3F69438",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
@@ -67043,14 +67043,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "46C1E48E031E79DB",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "BEE4589FF92D41F6",
-    "english": "Mishima",
+    "english": "Mishima Terufumi",
     "status": "game-roster-family"
   },
   {
@@ -67701,14 +67701,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "90215E3D01DD6EAB",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "DCB1A0914E36B61A",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -68163,14 +68163,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "B73DFC2B929276AC",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "676D44A173135C57",
-    "english": "Awano",
+    "english": "Awano Hideyuki",
     "status": "game-roster-family"
   },
   {
@@ -68296,14 +68296,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "9AC31FE7D3961912",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "225FD64E181AC035",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
@@ -68331,7 +68331,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "8C84715145BECE57",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -68345,7 +68345,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "32ADE713DC1EFAF4",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -68919,14 +68919,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "EC3A138364EF6E2A",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "157752BF557C23DF",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
@@ -69283,14 +69283,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "5BBDE71D6B3668F0",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "D495C4761DC49CDD",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
@@ -69598,14 +69598,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "89A35A167E5B03B7",
-    "english": "Lee Sunyopu",
+    "english": "Lee Seung-yeop",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "AA53CA0C197D32F8",
-    "english": "Lee Sunyopu",
+    "english": "Lee Seung-yeop",
     "status": "game-roster-family"
   },
   {
@@ -70018,14 +70018,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "590A02AF7146F99C",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "7412875A017A57DD",
-    "english": "Matsuyama",
+    "english": "Matsuyama Hideaki",
     "status": "game-roster-family"
   },
   {
@@ -70557,7 +70557,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "4077640FEF4669E1",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
@@ -70571,7 +70571,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "54E22BE29157DBE8",
-    "english": "Koh",
+    "english": "Koh Shinji",
     "status": "game-roster-family"
   },
   {
@@ -70704,14 +70704,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "16A32D6F7172F243",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "17963335120D5066",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {
@@ -70732,14 +70732,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "9AA8D2F22D238923",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "462AEFAE59D345B8",
-    "english": "Shinjo",
+    "english": "Shinjo Tsuyoshi",
     "status": "game-roster-family"
   },
   {
@@ -71040,14 +71040,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "9BE76DD2A26C7223",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "2A76F61C7931EB72",
-    "english": "Moriwaki",
+    "english": "Moriwaki Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -71299,14 +71299,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "8FCAF5F11B96D2E4",
-    "english": "Okamoto",
+    "english": "Okamoto Shinya",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "B36E7A7FE57DBA81",
-    "english": "Okamoto",
+    "english": "Okamoto Shinya",
     "status": "game-roster-family"
   },
   {
@@ -71418,14 +71418,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "486F8DFA25332602",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "C370039147932E05",
-    "english": "Kojima",
+    "english": "Kojima Shinjiro",
     "status": "game-roster-family"
   },
   {
@@ -71446,14 +71446,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "FB035E2B809E09B6",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "5A86B356BB58890B",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
@@ -71887,14 +71887,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "63B4817D9DB24DCA",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "8DB1BE315F66625D",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -72062,14 +72062,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "84B62DB89331F448",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "8A168EDE3099A8FD",
-    "english": "Sugimoto",
+    "english": "Sugimoto Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -72265,7 +72265,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "171BC930515B790F",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
@@ -72293,7 +72293,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "5548CE86E635DE2E",
-    "english": "Shimizu",
+    "english": "Shimizu Masaji",
     "status": "game-roster-family"
   },
   {
@@ -72601,7 +72601,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "7F268A670FC3778A",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
@@ -72650,7 +72650,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "90FDC3A7915CECD7",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
@@ -73168,7 +73168,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "14969CF8A7FA45FC",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
@@ -73182,7 +73182,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "613A8CA16B83808F",
-    "english": "Kawai",
+    "english": "Kawai Susumu",
     "status": "game-roster-family"
   },
   {
@@ -75240,7 +75240,7 @@
     "address": "0x00000000",
     "source_size": 13,
     "source_hash": "D6CE06E9AA25C071",
-    "english": "Micheal",
+    "english": "Nakamura Michael",
     "status": "game-roster-family"
   },
   {
@@ -75289,7 +75289,7 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "B8841BD6E99D53F8",
-    "english": "Micheal",
+    "english": "Nakamura Michael",
     "status": "game-roster-family"
   },
   {
@@ -75450,7 +75450,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "DAE3F5041FD2C4AC",
-    "english": "Nakajima",
+    "english": "Nakajima Hiroyuki",
     "status": "game-roster-family"
   },
   {
@@ -75527,14 +75527,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "20092EBA1F35513F",
-    "english": "Yoh",
+    "english": "Yang Chung-Shou",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "394307196B1E3586",
-    "english": "Yoh",
+    "english": "Yang Chung-Shou",
     "status": "game-roster-family"
   },
   {
@@ -75569,14 +75569,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "51F9E16EEE118DC3",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "A0AB402E7D411D1E",
-    "english": "Kashima",
+    "english": "Kashima Tadashi",
     "status": "game-roster-family"
   },
   {
@@ -76024,14 +76024,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "AAB3BEC26252C24B",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "CC5417ADEE33BC60",
-    "english": "Chen",
+    "english": "Chen Wei-Yin",
     "status": "game-roster-family"
   },
   {
@@ -76052,7 +76052,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "55615116BD1AF84D",
-    "english": "Ryutaroh",
+    "english": "Tsuji Ryutaro",
     "status": "game-roster-family"
   },
   {
@@ -76066,7 +76066,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "9EAE3A2A5A696EAE",
-    "english": "Ryutaroh",
+    "english": "Tsuji Ryutaro",
     "status": "game-roster-family"
   },
   {
@@ -76241,14 +76241,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "70039DE2AAAFECFE",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "0115923EADED86DD",
-    "english": "Oh",
+    "english": "Oh Sadaharu",
     "status": "game-roster-family"
   },
   {
@@ -76619,7 +76619,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "930DD65AA111EE97",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -76640,7 +76640,7 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "8134283A2C2E36DB",
-    "english": "Yuki",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
@@ -76696,7 +76696,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "3876E7BE03C52708",
-    "english": "Tanaka",
+    "english": "Tanaka Mitsuru",
     "status": "game-roster-family"
   },
   {
@@ -76717,7 +76717,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "B106D70B6BD1AF5C",
-    "english": "Yuki",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
@@ -77018,14 +77018,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "1F1865078C068C12",
-    "english": "Ryotarou",
+    "english": "Doi Ryotaro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E05ED71FFC46C0AD",
-    "english": "Ryotarou",
+    "english": "Doi Ryotaro",
     "status": "game-roster-family"
   },
   {
@@ -77130,14 +77130,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "CB11AE25B7CBCAC0",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "9F6E9BD82CDD6253",
-    "english": "Shimada",
+    "english": "Shimada Makoto",
     "status": "game-roster-family"
   },
   {
@@ -78131,14 +78131,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "17AAB86BC242CAB4",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "3022F4595FB67139",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
@@ -78334,14 +78334,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "CFA7998AA73ADC80",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "517457823E9EA91F",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -78355,14 +78355,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "B3D08FC5F166C4A7",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "DC276D72217AF84C",
-    "english": "Shirai",
+    "english": "Shirai Kazuyuki",
     "status": "game-roster-family"
   },
   {
@@ -78740,14 +78740,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "036A6CA4E55FF736",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "AC2A8B76846F0D7D",
-    "english": "Baba",
+    "english": "Baba Toshifumi",
     "status": "game-roster-family"
   },
   {
@@ -79552,14 +79552,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "82F2DF9888215776",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "8C7E95BE59A516DB",
-    "english": "Katayama",
+    "english": "Katayama Hiroshi",
     "status": "game-roster-family"
   },
   {
@@ -80686,14 +80686,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "2A93330C186CCD3C",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "F73AC94DD4D1E56B",
-    "english": "Yanagita",
+    "english": "Yanagita Masatoshi",
     "status": "game-roster-family"
   },
   {
@@ -80826,14 +80826,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "F696F736045B0660",
-    "english": "Denney",
+    "english": "Tomori Yui",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "C58E8EF81B7932DF",
-    "english": "Denney",
+    "english": "Tomori Yui",
     "status": "game-roster-family"
   },
   {
@@ -81001,14 +81001,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "43343702B2D9138B",
-    "english": "Yuki",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "6C44D1D7F071E480",
-    "english": "Yuki",
+    "english": "Tanaka Yuki",
     "status": "game-roster-family"
   },
   {
@@ -81183,14 +81183,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "5E840B17909EABFA",
-    "english": "Nakajima",
+    "english": "Nakajima Hiroyuki",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "B8C3937E4D2EFC7F",
-    "english": "Nakajima",
+    "english": "Nakajima Hiroyuki",
     "status": "game-roster-family"
   },
   {
@@ -81365,28 +81365,28 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "435D2646297A60B3",
-    "english": "Yoh",
+    "english": "Yang Chung-Shou",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "FCC4CBD0FBFCF479",
-    "english": "Yan",
+    "english": "Yang Yao-Hsun",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "D15326F417F2FABE",
-    "english": "Yoh",
+    "english": "Yang Chung-Shou",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "199E283977F0FB78",
-    "english": "Yan",
+    "english": "Yang Yao-Hsun",
     "status": "game-roster-family"
   },
   {
@@ -81470,7 +81470,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "FC3857A16CDC67F7",
-    "english": "Lee Sunyopu",
+    "english": "Lee Seung-yeop",
     "status": "game-roster-family"
   },
   {
@@ -81708,14 +81708,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "150547C68901F01D",
-    "english": "Ryutaroh",
+    "english": "Tsuji Ryutaro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "B7451E744743C522",
-    "english": "Ryutaroh",
+    "english": "Tsuji Ryutaro",
     "status": "game-roster-family"
   },
   {
@@ -81771,14 +81771,14 @@
     "address": "0x00000000",
     "source_size": 11,
     "source_hash": "F833AB3728265AD0",
-    "english": "Ryotarou",
+    "english": "Doi Ryotaro",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E29CF9C1BF265CC1",
-    "english": "Ryotarou",
+    "english": "Doi Ryotaro",
     "status": "game-roster-family"
   },
   {
@@ -82002,14 +82002,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "DC1F0C9BD1161A16",
-    "english": "Ryota",
+    "english": "Kato Ryota",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "2EFE458B2BEB879F",
-    "english": "Ryota",
+    "english": "Kato Ryota",
     "status": "game-roster-family"
   },
   {
@@ -82037,7 +82037,7 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "9EEE5231895E19F8",
-    "english": "Ying Chieh",
+    "english": "Lin Ying-Chieh",
     "status": "game-roster-family"
   },
   {
@@ -82058,7 +82058,7 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "5850DCBA0A97E2B7",
-    "english": "Ying Chieh",
+    "english": "Lin Ying-Chieh",
     "status": "game-roster-family"
   },
   {
@@ -82240,14 +82240,14 @@
     "address": "0x00000000",
     "source_size": 9,
     "source_hash": "7973FEEDAFF5BD64",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "5C4DB5F453DDA277",
-    "english": "Okagami",
+    "english": "Okagami Kazunori",
     "status": "game-roster-family"
   },
   {
@@ -82688,14 +82688,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "7EB9CA705BCBB1ED",
-    "english": "Yan",
+    "english": "Yang Yao-Hsun",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "8F284BC247AD9DF0",
-    "english": "Yan",
+    "english": "Yang Yao-Hsun",
     "status": "game-roster-family"
   },
   {
@@ -82800,14 +82800,14 @@
     "address": "0x00000000",
     "source_size": 7,
     "source_hash": "BB6E7A4FE9FDD2AB",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "BBE12C9CB4FD3732",
-    "english": "Arakaki",
+    "english": "Arakaki Nagisa",
     "status": "game-roster-family"
   },
   {

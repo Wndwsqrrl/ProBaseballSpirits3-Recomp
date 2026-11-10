@@ -11,6 +11,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x827418C3",
+    "record_address": "0x827418B4",
+    "slot_size": 15,
+    "source_hash": "25878C936D190C3B",
+    "english": "Jeremy",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ha.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274198B",
     "record_address": "0x8274197C",
     "slot_size": 15,
@@ -40,6 +51,17 @@
     "english": "Shigeki",
     "source_urls": [
       "https://npb.jp/bis/players/71073887.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82741BE3",
+    "record_address": "0x82741BD4",
+    "slot_size": 15,
+    "source_hash": "7B8FBD7230073A1C",
+    "english": "Gary",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ku.html"
     ],
     "review_status": "reading-checked"
   },
@@ -253,6 +275,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82742C4B",
+    "record_address": "0x82742C3C",
+    "slot_size": 15,
+    "source_hash": "18793EE4AE3613BB",
+    "english": "Joe",
+    "source_urls": [
+      "https://npb.jp/history/register/index_te.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82742D13",
     "record_address": "0x82742D04",
     "slot_size": 15,
@@ -326,6 +359,18 @@
     "english": "Takahiro",
     "source_urls": [
       "https://npb.jp/bis/players/61763884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274328B",
+    "record_address": "0x8274327C",
+    "slot_size": 15,
+    "source_hash": "33A0668DF4C45CED",
+    "english": "Seung-yeop",
+    "source_urls": [
+      "https://npb.jp/bis/players/51455119.html",
+      "https://www.mlb.com/press-release/2017-wbc-mvp-and-all-tournament-team-announced-220520420"
     ],
     "review_status": "reading-checked"
   },
@@ -484,6 +529,50 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x827443AC",
+    "record_address": "0x827443AC",
+    "slot_size": 15,
+    "source_hash": "BCFBDB9AF8C6689A",
+    "english": "Guzman",
+    "source_urls": [
+      "https://npb.jp/history/register/index_to.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827443BB",
+    "record_address": "0x827443AC",
+    "slot_size": 15,
+    "source_hash": "BEFFD9C3F33242A5",
+    "english": "Domingo",
+    "source_urls": [
+      "https://npb.jp/history/register/index_to.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744474",
+    "record_address": "0x82744474",
+    "slot_size": 15,
+    "source_hash": "F0CDAB1CC514D072",
+    "english": "Martinez",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ma.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82744483",
+    "record_address": "0x82744474",
+    "slot_size": 15,
+    "source_hash": "249DD0269AF059BE",
+    "english": "Luis",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ma.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274454B",
     "record_address": "0x8274453C",
     "slot_size": 15,
@@ -513,6 +602,17 @@
     "english": "Yoshihiro",
     "source_urls": [
       "https://npb.jp/bis/players/61765110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827447A3",
+    "record_address": "0x82744794",
+    "slot_size": 15,
+    "source_hash": "5941183736EF7FE8",
+    "english": "Shinya",
+    "source_urls": [
+      "https://npb.jp/bis/players/11515113.html"
     ],
     "review_status": "reading-checked"
   },
@@ -583,6 +683,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82744D1B",
+    "record_address": "0x82744D0C",
+    "slot_size": 15,
+    "source_hash": "BD341CF23DFC65F6",
+    "english": "Susumu",
+    "source_urls": [
+      "https://dragons.jp/teamdata/draft/2004/d_kawai_s.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82744DE3",
     "record_address": "0x82744DD4",
     "slot_size": 15,
@@ -612,6 +723,17 @@
     "english": "Yuya",
     "source_urls": [
       "https://npb.jp/bis/players/71175110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274503B",
+    "record_address": "0x8274502C",
+    "slot_size": 15,
+    "source_hash": "86AB356B4D77419F",
+    "english": "Wei-Yin",
+    "source_urls": [
+      "https://www.mlb.com/player/wei-yin-chen-612672"
     ],
     "review_status": "reading-checked"
   },
@@ -660,6 +782,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82745414",
+    "record_address": "0x82745414",
+    "slot_size": 15,
+    "source_hash": "C9518A5B03700B6D",
+    "english": "Tomori",
+    "source_urls": [
+      "https://www.baystars.co.jp/news/2012/11/1104_01.php"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745423",
+    "record_address": "0x82745414",
+    "slot_size": 15,
+    "source_hash": "51C27B2F65D36FA0",
+    "english": "Yui",
+    "source_urls": [
+      "https://www.baystars.co.jp/news/2012/11/1104_01.php"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x827454EB",
     "record_address": "0x827454DC",
     "slot_size": 15,
@@ -689,6 +833,17 @@
     "english": "Kazuyoshi",
     "source_urls": [
       "https://npb.jp/bis/players/21123866.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745743",
+    "record_address": "0x82745734",
+    "slot_size": 15,
+    "source_hash": "A00ADF6D18FB0780",
+    "english": "Tyrone",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ta.html"
     ],
     "review_status": "reading-checked"
   },
@@ -788,6 +943,28 @@
     "english": "Kosuke",
     "source_urls": [
       "https://npb.jp/bis/players/61963888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745F04",
+    "record_address": "0x82745F04",
+    "slot_size": 15,
+    "source_hash": "41B23931B1C6C8DC",
+    "english": "Ochoa",
+    "source_urls": [
+      "https://npb.jp/history/register/index_a.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82745F13",
+    "record_address": "0x82745F04",
+    "slot_size": 15,
+    "source_hash": "BCA94E3BA18B63FF",
+    "english": "Alex",
+    "source_urls": [
+      "https://npb.jp/history/register/index_a.html"
     ],
     "review_status": "reading-checked"
   },
@@ -924,6 +1101,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82746DEB",
+    "record_address": "0x82746DDC",
+    "slot_size": 15,
+    "source_hash": "FCD6D6B67A74FBB0",
+    "english": "Sean",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ta.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82746EB3",
     "record_address": "0x82746EA4",
     "slot_size": 15,
@@ -1001,6 +1189,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274742B",
+    "record_address": "0x8274741C",
+    "slot_size": 15,
+    "source_hash": "DD113FCA8E4D65F6",
+    "english": "Mike",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ro.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827474F3",
+    "record_address": "0x827474E4",
+    "slot_size": 15,
+    "source_hash": "05C8C7C3D1D3B335",
+    "english": "John",
+    "source_urls": [
+      "https://npb.jp/history/register/index_he.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x827475BB",
     "record_address": "0x827475AC",
     "slot_size": 15,
@@ -1019,6 +1229,17 @@
     "english": "Takayuki",
     "source_urls": [
       "https://npb.jp/bis/players/61365115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274774B",
+    "record_address": "0x8274773C",
+    "slot_size": 15,
+    "source_hash": "10DB4ADFAB523C83",
+    "english": "Shinjiro",
+    "source_urls": [
+      "https://npb.jp/bis/players/11715110.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1342,6 +1563,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82748F83",
+    "record_address": "0x82748F74",
+    "slot_size": 15,
+    "source_hash": "68D23EA48D68FDDD",
+    "english": "Kazunori",
+    "source_urls": [
+      "https://npb.jp/bis/players/81385113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274904B",
     "record_address": "0x8274903C",
     "slot_size": 15,
@@ -1382,6 +1614,28 @@
     "english": "Tomoya",
     "source_urls": [
       "https://npb.jp/bis/players/61965117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274936B",
+    "record_address": "0x8274935C",
+    "slot_size": 15,
+    "source_hash": "F9BCF270D11AE09E",
+    "english": "Shinji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31733866.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827494FB",
+    "record_address": "0x827494EC",
+    "slot_size": 15,
+    "source_hash": "008A2E2288451620",
+    "english": "Marty",
+    "source_urls": [
+      "https://npb.jp/history/register/index_hu.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1430,6 +1684,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x827499AB",
+    "record_address": "0x8274999C",
+    "slot_size": 15,
+    "source_hash": "429C2AC02E9EF570",
+    "english": "Rick",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ka.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82749A73",
     "record_address": "0x82749A64",
     "slot_size": 15,
@@ -1437,6 +1702,17 @@
     "english": "Shohei",
     "source_urls": [
       "https://npb.jp/bis/players/81085117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82749B3B",
+    "record_address": "0x82749B2C",
+    "slot_size": 15,
+    "source_hash": "86154D53166D9741",
+    "english": "Dicky",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ko.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1661,6 +1937,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274AB94",
+    "record_address": "0x8274AB94",
+    "slot_size": 15,
+    "source_hash": "A858765A57867367",
+    "english": "LaRocca",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ra.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274ABA3",
+    "record_address": "0x8274AB94",
+    "slot_size": 15,
+    "source_hash": "8A9EDC0413720709",
+    "english": "Greg",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ra.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274AC6B",
     "record_address": "0x8274AC5C",
     "slot_size": 15,
@@ -1745,6 +2043,17 @@
     "english": "Norichika",
     "source_urls": [
       "https://npb.jp/bis/players/31135119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274B2AB",
+    "record_address": "0x8274B29C",
+    "slot_size": 15,
+    "source_hash": "BCA94E3BA18B63FF",
+    "english": "Alex",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ra.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1859,6 +2168,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274BB43",
+    "record_address": "0x8274BB34",
+    "slot_size": 15,
+    "source_hash": "8810BD35E191B5B0",
+    "english": "Adam",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ri.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274BC0B",
     "record_address": "0x8274BBFC",
     "slot_size": 15,
@@ -1877,6 +2197,17 @@
     "english": "Usami",
     "source_urls": [
       "https://npb.jp/bis/players/81083888.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274BD9B",
+    "record_address": "0x8274BD8C",
+    "slot_size": 15,
+    "source_hash": "6AB7B2B6307F515D",
+    "english": "Toshifumi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31433881.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1936,6 +2267,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274C313",
+    "record_address": "0x8274C304",
+    "slot_size": 15,
+    "source_hash": "363A1C9E77A55523",
+    "english": "Jason",
+    "source_urls": [
+      "https://npb.jp/history/register/index_he.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274C3DB",
     "record_address": "0x8274C3CC",
     "slot_size": 15,
@@ -1943,6 +2285,28 @@
     "english": "Yuji",
     "source_urls": [
       "https://npb.jp/bis/players/31635113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C494",
+    "record_address": "0x8274C494",
+    "slot_size": 15,
+    "source_hash": "8CE997498D570361",
+    "english": "Doi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91295117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C4A3",
+    "record_address": "0x8274C494",
+    "slot_size": 15,
+    "source_hash": "E36B7CB9E3403342",
+    "english": "Ryotaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/91295117.html"
     ],
     "review_status": "reading-checked"
   },
@@ -1998,6 +2362,17 @@
     "english": "Takeo",
     "source_urls": [
       "https://npb.jp/bis/players/51553884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8274C953",
+    "record_address": "0x8274C944",
+    "slot_size": 15,
+    "source_hash": "DE40D671967181B4",
+    "english": "Marc",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ku.html"
     ],
     "review_status": "reading-checked"
   },
@@ -2365,6 +2740,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274E573",
+    "record_address": "0x8274E564",
+    "slot_size": 15,
+    "source_hash": "4A520E1C3980023D",
+    "english": "Mitsuru",
+    "source_urls": [
+      "https://npb.jp/bis/players/91993886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8274E63B",
     "record_address": "0x8274E62C",
     "slot_size": 15,
@@ -2387,6 +2773,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8274EA23",
+    "record_address": "0x8274EA14",
+    "slot_size": 15,
+    "source_hash": "A4859E48A30C44F9",
+    "english": "Hideyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/51153864.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275151B",
     "record_address": "0x8275150C",
     "slot_size": 15,
@@ -2394,6 +2791,28 @@
     "english": "Hisashi",
     "source_urls": [
       "https://npb.jp/bis/players/01105111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827515D4",
+    "record_address": "0x827515D4",
+    "slot_size": 15,
+    "source_hash": "20AB4F908503DA0F",
+    "english": "Lin",
+    "source_urls": [
+      "https://www.mlb.com/world-baseball-classic/roster/chinese-taipei?season=2006"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827515E3",
+    "record_address": "0x827515D4",
+    "slot_size": 15,
+    "source_hash": "922E23158AAD2816",
+    "english": "Ying-Chieh",
+    "source_urls": [
+      "https://www.mlb.com/world-baseball-classic/roster/chinese-taipei?season=2006"
     ],
     "review_status": "reading-checked"
   },
@@ -2416,6 +2835,17 @@
     "english": "Hideki",
     "source_urls": [
       "https://npb.jp/bis/players/31135115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275183B",
+    "record_address": "0x8275182C",
+    "slot_size": 15,
+    "source_hash": "6710206BE6D6AAE2",
+    "english": "Cedrick",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ha.html"
     ],
     "review_status": "reading-checked"
   },
@@ -2504,6 +2934,17 @@
     "english": "Koji",
     "source_urls": [
       "https://npb.jp/bis/players/91195112.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82751F43",
+    "record_address": "0x82751F34",
+    "slot_size": 15,
+    "source_hash": "29490034163923B5",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/31535112.html"
     ],
     "review_status": "reading-checked"
   },
@@ -2695,6 +3136,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82752E1B",
+    "record_address": "0x82752E0C",
+    "slot_size": 15,
+    "source_hash": "0E757BF7CF1549AB",
+    "english": "Jose",
+    "source_urls": [
+      "https://npb.jp/history/register/index_hu.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82752EE3",
+    "record_address": "0x82752ED4",
+    "slot_size": 15,
+    "source_hash": "429C2AC02E9EF570",
+    "english": "Rick",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ri.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82752FAB",
     "record_address": "0x82752F9C",
     "slot_size": 15,
@@ -2838,6 +3301,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x827539C4",
+    "record_address": "0x827539C4",
+    "slot_size": 15,
+    "source_hash": "5A1623699E3AF58F",
+    "english": "Tsuji",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827539D3",
+    "record_address": "0x827539C4",
+    "slot_size": 15,
+    "source_hash": "D20E5E187D85A41D",
+    "english": "Ryutaro",
+    "source_urls": [
+      "https://npb.jp/bis/players/31035115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82753A9B",
     "record_address": "0x82753A8C",
     "slot_size": 15,
@@ -2856,6 +3341,17 @@
     "english": "Akihito",
     "source_urls": [
       "https://npb.jp/bis/players/91493886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82753E83",
+    "record_address": "0x82753E74",
+    "slot_size": 15,
+    "source_hash": "D4C5E86C9003661C",
+    "english": "Tadashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01303869.html"
     ],
     "review_status": "reading-checked"
   },
@@ -2893,6 +3389,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x827541A3",
+    "record_address": "0x82754194",
+    "slot_size": 15,
+    "source_hash": "2B1C250B68FB671B",
+    "english": "Corey",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ri.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275426B",
     "record_address": "0x8275425C",
     "slot_size": 15,
@@ -2911,6 +3418,39 @@
     "english": "Itsuki",
     "source_urls": [
       "https://npb.jp/bis/players/61565111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827543FB",
+    "record_address": "0x827543EC",
+    "slot_size": 15,
+    "source_hash": "8E6C2A6BC06C8635",
+    "english": "Brad",
+    "source_urls": [
+      "https://npb.jp/history/register/index_to.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827544B4",
+    "record_address": "0x827544B4",
+    "slot_size": 15,
+    "source_hash": "BD8E6BD43AADF632",
+    "english": "Nakamura",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827544C3",
+    "record_address": "0x827544B4",
+    "slot_size": 15,
+    "source_hash": "372F5E24250A327A",
+    "english": "Michael",
+    "source_urls": [
+      "https://npb.jp/bis/players/11415110.html"
     ],
     "review_status": "reading-checked"
   },
@@ -2999,6 +3539,17 @@
     "english": "Takehiko",
     "source_urls": [
       "https://npb.jp/bis/players/91395119.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82754BCB",
+    "record_address": "0x82754BBC",
+    "slot_size": 15,
+    "source_hash": "F33309A22A7C7CCB",
+    "english": "Felix",
+    "source_urls": [
+      "https://npb.jp/history/register/index_te.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3113,6 +3664,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82755463",
+    "record_address": "0x82755454",
+    "slot_size": 15,
+    "source_hash": "043E6604208EA344",
+    "english": "Fernando",
+    "source_urls": [
+      "https://npb.jp/history/register/index_se.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275552B",
     "record_address": "0x8275551C",
     "slot_size": 15,
@@ -3157,6 +3719,30 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275583C",
+    "record_address": "0x8275583C",
+    "slot_size": 15,
+    "source_hash": "40F251B853A5672C",
+    "english": "Yang",
+    "source_urls": [
+      "https://npb.jp/bis/players/21825112.html",
+      "https://japanesebaseballcards.blogspot.com/2026/06/card-of-week-june-7.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275584B",
+    "record_address": "0x8275583C",
+    "slot_size": 15,
+    "source_hash": "F982CEE771658B82",
+    "english": "Chung-Shou",
+    "source_urls": [
+      "https://npb.jp/bis/players/21825112.html",
+      "https://japanesebaseballcards.blogspot.com/2026/06/card-of-week-june-7.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82755913",
     "record_address": "0x82755904",
     "slot_size": 15,
@@ -3179,6 +3765,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82755AA3",
+    "record_address": "0x82755A94",
+    "slot_size": 15,
+    "source_hash": "0E757BF7CF1549AB",
+    "english": "Jose",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ma.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82755B6B",
     "record_address": "0x82755B5C",
     "slot_size": 15,
@@ -3197,6 +3794,17 @@
     "english": "Tomochika",
     "source_urls": [
       "https://npb.jp/bis/players/81983886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82755CFB",
+    "record_address": "0x82755CEC",
+    "slot_size": 15,
+    "source_hash": "0B98347A91C5E30B",
+    "english": "Tsuyoshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903881.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3322,6 +3930,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82756723",
+    "record_address": "0x82756714",
+    "slot_size": 15,
+    "source_hash": "4FD267F035A950E5",
+    "english": "Kazuyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/31733869.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827567EB",
+    "record_address": "0x827567DC",
+    "slot_size": 15,
+    "source_hash": "D130D401A257D252",
+    "english": "Trey",
+    "source_urls": [
+      "https://npb.jp/history/register/index_hi.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275697B",
     "record_address": "0x8275696C",
     "slot_size": 15,
@@ -3351,6 +3981,17 @@
     "english": "Kazuyuki",
     "source_urls": [
       "https://npb.jp/bis/players/41245113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82756BD3",
+    "record_address": "0x82756BC4",
+    "slot_size": 15,
+    "source_hash": "37098FD23C63744C",
+    "english": "Chris",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ki.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3450,6 +4091,17 @@
     "english": "Takashi",
     "source_urls": [
       "https://npb.jp/bis/players/31133889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827573A3",
+    "record_address": "0x82757394",
+    "slot_size": 15,
+    "source_hash": "BCA94E3BA18B63FF",
+    "english": "Alex",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ku.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3586,6 +4238,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82757DCB",
+    "record_address": "0x82757DBC",
+    "slot_size": 15,
+    "source_hash": "BCA94E3BA18B63FF",
+    "english": "Alex",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ka.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82757E93",
     "record_address": "0x82757E84",
     "slot_size": 15,
@@ -3630,6 +4293,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275827B",
+    "record_address": "0x8275826C",
+    "slot_size": 15,
+    "source_hash": "C2A82C4BD1249500",
+    "english": "Hiroyuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01005113.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x82758343",
     "record_address": "0x82758334",
     "slot_size": 15,
@@ -3648,6 +4322,17 @@
     "english": "Masahide",
     "source_urls": [
       "https://npb.jp/bis/players/31335111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827584D3",
+    "record_address": "0x827584C4",
+    "slot_size": 15,
+    "source_hash": "85C07481881486C4",
+    "english": "Jeff",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ri.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3795,6 +4480,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x82759153",
+    "record_address": "0x82759144",
+    "slot_size": 15,
+    "source_hash": "13ADF6354F0A31A8",
+    "english": "Masaji",
+    "source_urls": [
+      "https://npb.jp/bis/players/61363868.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275921B",
+    "record_address": "0x8275920C",
+    "slot_size": 15,
+    "source_hash": "ED53863E0D447EC4",
+    "english": "Tsutomu",
+    "source_urls": [
+      "https://npb.jp/bis/players/71173865.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x827593AB",
     "record_address": "0x8275939C",
     "slot_size": 15,
@@ -3813,6 +4520,28 @@
     "english": "Atsuhiro",
     "source_urls": [
       "https://npb.jp/bis/players/61465110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275953B",
+    "record_address": "0x8275952C",
+    "slot_size": 15,
+    "source_hash": "D9AAD1A9A143B77F",
+    "english": "Dan",
+    "source_urls": [
+      "https://npb.jp/history/register/index_se.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759603",
+    "record_address": "0x827595F4",
+    "slot_size": 15,
+    "source_hash": "CB5841A2E7266F64",
+    "english": "Tom",
+    "source_urls": [
+      "https://npb.jp/history/register/index_te.html"
     ],
     "review_status": "reading-checked"
   },
@@ -3912,6 +4641,28 @@
     "english": "Kazuo",
     "source_urls": [
       "https://npb.jp/bis/players/31435111.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759DC4",
+    "record_address": "0x82759DC4",
+    "slot_size": 15,
+    "source_hash": "97E2ADACCE88A625",
+    "english": "Tanaka",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903886.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82759DD3",
+    "record_address": "0x82759DC4",
+    "slot_size": 15,
+    "source_hash": "03F605CFCB99D5A1",
+    "english": "Yuki",
+    "source_urls": [
+      "https://npb.jp/bis/players/01903886.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4125,6 +4876,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275AD73",
+    "record_address": "0x8275AD64",
+    "slot_size": 15,
+    "source_hash": "363A1C9E77A55523",
+    "english": "Jason",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ku.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275AE3B",
     "record_address": "0x8275AE2C",
     "slot_size": 15,
@@ -4154,6 +4916,17 @@
     "english": "Arihito",
     "source_urls": [
       "https://npb.jp/bis/players/11613883.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275B093",
+    "record_address": "0x8275B084",
+    "slot_size": 15,
+    "source_hash": "4F3A43822C9FC7C6",
+    "english": "Karim",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ka.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4224,6 +4997,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275B60B",
+    "record_address": "0x8275B5FC",
+    "slot_size": 15,
+    "source_hash": "0FEB03A10F47BD0E",
+    "english": "Cliff",
+    "source_urls": [
+      "https://npb.jp/history/register/index_hu.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275B6D3",
     "record_address": "0x8275B6C4",
     "slot_size": 15,
@@ -4275,6 +5059,17 @@
     "english": "Tomotaka",
     "source_urls": [
       "https://npb.jp/bis/players/21925117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275BB83",
+    "record_address": "0x8275BB74",
+    "slot_size": 15,
+    "source_hash": "1EF017DFDA2BB9B9",
+    "english": "Hideaki",
+    "source_urls": [
+      "https://npb.jp/bis/players/21623881.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4363,6 +5158,17 @@
     "english": "Satoru",
     "source_urls": [
       "https://npb.jp/bis/players/31733881.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275C41B",
+    "record_address": "0x8275C40C",
+    "slot_size": 15,
+    "source_hash": "4198E9357AC05747",
+    "english": "Kevin",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ha.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4499,6 +5305,30 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275CE43",
+    "record_address": "0x8275CE34",
+    "slot_size": 15,
+    "source_hash": "DA278068D288E98A",
+    "english": "Terufumi",
+    "source_urls": [
+      "https://npb.jp/winterleague/2006/players.html",
+      "https://data-man.com/proyakyu/player/00011468/"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275CFD3",
+    "record_address": "0x8275CFC4",
+    "slot_size": 15,
+    "source_hash": "52633F1A98879310",
+    "english": "Masatoshi",
+    "source_urls": [
+      "https://npb.jp/bis/2006/stats/idb2_m.html",
+      "https://data-man.com/proyakyu/team/01020010/past-players/"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275D09B",
     "record_address": "0x8275D08C",
     "slot_size": 15,
@@ -4576,6 +5406,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275D794",
+    "record_address": "0x8275D794",
+    "slot_size": 15,
+    "source_hash": "41816BF28448C689",
+    "english": "Agbayani",
+    "source_urls": [
+      "https://npb.jp/history/register/index_he.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D7A3",
+    "record_address": "0x8275D794",
+    "slot_size": 15,
+    "source_hash": "14CB93A7E4B7CFE1",
+    "english": "Benny",
+    "source_urls": [
+      "https://npb.jp/history/register/index_he.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275D933",
     "record_address": "0x8275D924",
     "slot_size": 15,
@@ -4583,6 +5435,17 @@
     "english": "Akira",
     "source_urls": [
       "https://npb.jp/bis/players/61163889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275D9FB",
+    "record_address": "0x8275D9EC",
+    "slot_size": 15,
+    "source_hash": "6E2D7F483947FF8D",
+    "english": "Val",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ha.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4719,6 +5582,17 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275E67B",
+    "record_address": "0x8275E66C",
+    "slot_size": 15,
+    "source_hash": "237CF33222998186",
+    "english": "Bobby",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ha.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275E80B",
     "record_address": "0x8275E7FC",
     "slot_size": 15,
@@ -4748,6 +5622,28 @@
     "english": "Tsuyoshi",
     "source_urls": [
       "https://npb.jp/bis/players/11815117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EA63",
+    "record_address": "0x8275EA54",
+    "slot_size": 15,
+    "source_hash": "47B42AD31874B85A",
+    "english": "Nagisa",
+    "source_urls": [
+      "https://npb.jp/bis/players/91195117.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275EB2B",
+    "record_address": "0x8275EB1C",
+    "slot_size": 15,
+    "source_hash": "1E3AF0543968820B",
+    "english": "D.J.",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ka.html"
     ],
     "review_status": "reading-checked"
   },
@@ -4906,6 +5802,28 @@
     "review_status": "reading-checked"
   },
   {
+    "address": "0x8275F6D4",
+    "record_address": "0x8275F6D4",
+    "slot_size": 15,
+    "source_hash": "40F251B853A5672C",
+    "english": "Yang",
+    "source_urls": [
+      "https://www.mlb.com/world-baseball-classic/roster/chinese-taipei?season=2006"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275F6E3",
+    "record_address": "0x8275F6D4",
+    "slot_size": 15,
+    "source_hash": "38F8CC218A71C8F0",
+    "english": "Yao-Hsun",
+    "source_urls": [
+      "https://www.mlb.com/world-baseball-classic/roster/chinese-taipei?season=2006"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
     "address": "0x8275F7AB",
     "record_address": "0x8275F79C",
     "slot_size": 15,
@@ -4968,6 +5886,39 @@
     "english": "Hidenori",
     "source_urls": [
       "https://npb.jp/bis/players/61965115.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FC4C",
+    "record_address": "0x8275FC4C",
+    "slot_size": 15,
+    "source_hash": "C0BF32C35E07B095",
+    "english": "Kato",
+    "source_urls": [
+      "https://npb.jp/bis/players/21325110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FC5B",
+    "record_address": "0x8275FC4C",
+    "slot_size": 15,
+    "source_hash": "3D6440FFCA478F34",
+    "english": "Ryota",
+    "source_urls": [
+      "https://npb.jp/bis/players/21325110.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x8275FD23",
+    "record_address": "0x8275FD14",
+    "slot_size": 15,
+    "source_hash": "7B3CA8A71F5B7EF9",
+    "english": "Julio",
+    "source_urls": [
+      "https://npb.jp/history/register/index_su.html"
     ],
     "review_status": "reading-checked"
   },
@@ -5045,6 +5996,17 @@
     "english": "Nobuhiko",
     "source_urls": [
       "https://npb.jp/bis/players/61063884.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760363",
+    "record_address": "0x82760354",
+    "slot_size": 15,
+    "source_hash": "9FD84FA4423DCE1F",
+    "english": "Jolbert",
+    "source_urls": [
+      "https://npb.jp/history/register/index_ka.html"
     ],
     "review_status": "reading-checked"
   },
@@ -5188,6 +6150,50 @@
     "english": "Tatsuya",
     "source_urls": [
       "https://npb.jp/bis/players/51153889.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760F1B",
+    "record_address": "0x82760F0C",
+    "slot_size": 15,
+    "source_hash": "B9658ACDE39F3B62",
+    "english": "Makoto",
+    "source_urls": [
+      "https://npb.jp/bis/players/31533844.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82760FE3",
+    "record_address": "0x82760FD4",
+    "slot_size": 15,
+    "source_hash": "25F039850D79ED18",
+    "english": "Hiroshi",
+    "source_urls": [
+      "https://npb.jp/bis/players/21223863.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x827610AB",
+    "record_address": "0x8276109C",
+    "slot_size": 15,
+    "source_hash": "0CB5E811D70C470B",
+    "english": "Sadaharu",
+    "source_urls": [
+      "https://npb.jp/bis/players/81383808.html"
+    ],
+    "review_status": "reading-checked"
+  },
+  {
+    "address": "0x82761173",
+    "record_address": "0x82761164",
+    "slot_size": 15,
+    "source_hash": "C7D492EC5A6B84DC",
+    "english": "Tadashi",
+    "source_urls": [
+      "https://npb.jp/bis/players/91793863.html"
     ],
     "review_status": "reading-checked"
   }

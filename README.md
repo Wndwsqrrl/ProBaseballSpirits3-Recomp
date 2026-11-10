@@ -11,9 +11,10 @@ This repository contains port source, executable analysis metadata, English tran
 - English replaces native text through the game renderers, rather than a separate overlay.
 - Current catalogue: **13,749 records / 13,479 unique fingerprints**. Counts include aliases and fragments; they are not a completion percentage. Reflowed paragraphs replace old fragment aliases, and input codebooks are excluded.
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
-- Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings. NPB profiles confirm 472 given names and 46 more use the game's name dictionary. There are 74 given names still to resolve.
+- Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest pass reviews **213 pitching delivery and batting stance labels**. It adds English to 193 given-name fields and corrects three earlier readings. The main extracted list has 4,914 reviewed entries and 1,262 drafts.
+- The latest pass reviews **49 trade and Xbox Live menu strings**. The main extracted list has 4,963 reviewed entries and 1,213 drafts.
+- **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
 - Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
@@ -21,7 +22,7 @@ This repository contains port source, executable analysis metadata, English tran
 - **197 packed menu lookups** cover roster, offseason, settings, stats, and practice screens. The most recent 119 lookups were checked against their original menu rectangles using estimated Arial widths.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
-Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, remaining given names, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
+Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. Translation accuracy, ambiguous name aliases, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
 
 The English patch covers the game interface. In-stadium signage, sponsor ads, and other ballpark artwork retain their original Japanese presentation.
 

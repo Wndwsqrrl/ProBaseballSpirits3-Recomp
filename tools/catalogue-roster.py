@@ -86,8 +86,14 @@ def main():
                 raw=image[start+offset:start+offset+15]
                 patches.append(dict(address=f'0x{0x82000000+start+offset:08X}',record_address=f'0x{0x82000000+start:08X}',
                     slot_size=15,source_hash=f'{full.fnv64(raw):016X}',english=label))
-        if fields[1][1] and not given:
-            unresolved.append(dict(record_address=f'0x{0x82000000+start:08X}',family=family,source_given=fields[1][1],readings=sorted(readings[fields[1][1]])))
+        if fields[1][0] and not given:
+            unresolved.append(dict(
+                record_address=f'0x{0x82000000+start:08X}',
+                family=family,
+                source_given=fields[1][1],
+                source_hex=fields[1][0].hex(),
+                readings=sorted(readings[fields[1][1]]),
+            ))
     result=[];ambiguous=0
     for original,options in sorted(names.items()):
         if len(options)!=1:ambiguous+=1;continue
