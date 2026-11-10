@@ -6,6 +6,7 @@ import struct
 from pathlib import Path
 from bndr import read_index
 from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
+from txcpack_text import load_packed_text, patch_packed_text
 
 spec=importlib.util.spec_from_file_location('cmp',Path(__file__).with_name('konami-cmp.py'))
 cmp=importlib.util.module_from_spec(spec);spec.loader.exec_module(cmp)
@@ -44,20 +45,29 @@ def main():
     p.add_argument('--labels',required=True,type=Path);p.add_argument('--report',required=True,type=Path)
     p.add_argument('--pennant-events',type=Path,help='Reviewed Pennant event titles')
     p.add_argument('--pennant-text',type=Path,help='Reviewed Pennant event fields')
+    p.add_argument('--packed-text',type=Path,help='Reviewed TXCPACK text slots')
     a=p.parse_args();labels=json.loads(a.labels.read_text(encoding='utf-8'))
+    packed = load_packed_text(a.packed_text)
+    localized = labels.keys() | packed.keys()
     pennant = load_translations(a.pennant_events, a.pennant_text)
-    if pennant and PENNANT_MEMBER in labels:
+    if pennant and PENNANT_MEMBER in localized:
         p.error('Pennant event text uses a separate archive member')
     old=read_index(a.original);new={x['name']:x for x in read_index(a.english)}
     if set(new)!={x['name'] for x in old}:raise ValueError('Archive membership changed')
+    if localized - new.keys():raise ValueError('Localized members missing from archive')
     if pennant and PENNANT_MEMBER not in new:
         raise ValueError(f'Archive member missing: {PENNANT_MEMBER}')
     preserved=0
     with a.original.open('rb') as source,a.english.open('rb') as target:
         for i,entry in enumerate(old):
             other=new[entry['name']];source.seek(entry['offset']);target.seek(other['offset'])
-            if entry['name'] in labels:
-                verify_member(source.read(entry['size']),target.read(other['size']),labels[entry['name']])
+            if entry['name'] in localized:
+                data = source.read(entry['size'])
+                if data.startswith(b'CMP\0'):
+                    data = cmp.decompress(data)
+                if entry['name'] in packed:
+                    data = patch_packed_text(data, packed[entry['name']])
+                verify_member(data,target.read(other['size']),labels.get(entry['name'], {}))
             elif pennant and entry['name'] == PENNANT_MEMBER:
                 data = source.read(entry['size'])
                 if data.startswith(b'CMP\0'):
@@ -73,9 +83,11 @@ def main():
                     remaining-=count
                 preserved+=1
             if (i+1)%400==0:print(f'{i+1}/{len(old)} members verified',flush=True)
-    result=dict(archive_members=len(old),unchanged_members_verified=preserved,localized_members=sorted(labels),
+    result=dict(archive_members=len(old),unchanged_members_verified=preserved,localized_members=sorted(localized),
         atlases=sum(len(x) for x in labels.values()),labels=sum(len(v) for x in labels.values() for v in x.values()),
         outside_localized_regions_unchanged=True)
+    if packed:
+        result['packed_text_slots'] = sum(map(len, packed.values()))
     if pennant:
         result['localized_members'].append(PENNANT_MEMBER)
         result['localized_members'].sort()

@@ -14,6 +14,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from bndr import read_index
 from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
+from txcpack_text import load_packed_text, patch_packed_text
 
 spec = importlib.util.spec_from_file_location('konami_cmp', Path(__file__).with_name('konami-cmp.py'))
 cmp = importlib.util.module_from_spec(spec)
@@ -121,6 +122,7 @@ def main():
     parser.add_argument('--labels', required=True, type=Path)
     parser.add_argument('--pennant-events', type=Path, help='Reviewed Pennant event titles')
     parser.add_argument('--pennant-text', type=Path, help='Reviewed Pennant event fields')
+    parser.add_argument('--packed-text', type=Path, help='Reviewed TXCPACK text slots')
     parser.add_argument('--font', type=Path, default=Path('C:/Windows/Fonts/ARIALNB.TTF'))
     parser.add_argument('--preview', required=True, type=Path)
     args = parser.parse_args()
@@ -130,7 +132,8 @@ def main():
     archive = source / 'cdvdroot/baseball.fbd'
     entries = read_index(archive)
     labels = json.loads(args.labels.read_text(encoding='utf-8'))
-    members = set(labels)
+    packed = load_packed_text(args.packed_text)
+    members = labels.keys() | packed.keys()
     pennant = load_translations(args.pennant_events, args.pennant_text)
     if pennant:
         if PENNANT_MEMBER in members:
@@ -147,12 +150,15 @@ def main():
                 continue
             stream.seek(entry['offset'])
             data = stream.read(entry['size'])
+            if data.startswith(b'CMP\0'):
+                data = cmp.decompress(data)
             if name in labels:
-                patches[name] = patch_chk(data, labels[name], args.font, args.preview)
-            else:
-                if data.startswith(b'CMP\0'):
-                    data = cmp.decompress(data)
-                patches[name] = patch_text(data, pennant)
+                data = patch_chk(data, labels[name], args.font, args.preview)
+            if name in packed:
+                data = patch_packed_text(data, packed[name])
+            if name == PENNANT_MEMBER and pennant:
+                data = patch_text(data, pennant)
+            patches[name] = data
     output.mkdir(parents=True, exist_ok=True)
     target = output / 'cdvdroot/baseball.fbd'
     if target.exists() and os.path.samefile(archive, target):

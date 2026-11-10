@@ -2,12 +2,12 @@
   "date": "2026-11-10",
   "catalogue_records": 13748,
   "unique_fingerprints": 13481,
-  "comparison_commit": "ce58dffddced6ef9ef310f709f53d5b4be192868",
-  "changed_existing_translations": 86,
-  "added_fingerprints": 51,
+  "comparison_commit": "b8cb80d4f1eb3ff66f3c0591ce61be2c95008e6c",
+  "changed_existing_translations": 134,
+  "added_fingerprints": 0,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 1510,
+    "ui": 1611,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -26,13 +26,15 @@
     "control tags and printf arguments preserved across curated catalogues",
     "formatted translation, padding, and size-limit checks passed",
     "native pitcher, batter, coach, and match recap fragment checks passed",
-    "all previous static source fingerprints retained",
-    "51 native manager comment variants matched exact reviewed English",
-    "recorded renderer trace produced the same matches and wording as the previous build"
+    "recorded renderer trace produced the same matches and wording as the previous build",
+    "78 packed text slots passed width, pointer, capacity, and final archive checks",
+    "2,204 unmodified archive members matched the original bytes",
+    "10 Pennant goals, milestone counters, and notices matched intended English in the runtime audit"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live placement of the packed text edits and mission wording",
     "In-game match recap and manager evaluation layout",
     "On-screen team preview, career milestone, and pregame help placement",
     "composed assessment wording and placement in the live game",
@@ -57,7 +59,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 100,
+  "added_ui_address_reviews": 101,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -99,6 +101,15 @@
     "manager_comment_variants": 51,
     "manager_comment_lookup_matches": 51,
     "native_manager_variants_replayed_per_outcome": 60,
+    "interactive_validation": false
+  },
+  "packed_slots_and_mission_review": {
+    "newly_reviewed_main_entries": 101,
+    "packed_text_slots": 78,
+    "packed_text_members": 13,
+    "rectangle_width_checks": 78,
+    "estimate_font": "Arial 16 px",
+    "unchanged_archive_members_verified": 2204,
     "interactive_validation": false
   }
 }

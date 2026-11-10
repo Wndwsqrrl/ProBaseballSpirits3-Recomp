@@ -13,8 +13,10 @@ This repository contains port source, executable analysis metadata, English tran
 - **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
 - Name lookups cover all **648 roster records**. Hanshin names are reviewed separately. Other families use the game's Latin jersey spellings; 325 additional given names use unambiguous readings from its name dictionary.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
-- The latest pass reviews **100 match and manager recap strings** and adds **51 complete manager comments** composed from the game's phrase table. The main extracted list has 4,487 reviewed entries and 1,690 drafts.
+- The latest pass reviews **101 executable entries** for Pennant goals, career milestones, and postgame notices. The main extracted list has 4,588 reviewed entries and 1,589 drafts.
+- Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
+- **78 packed text slots** in 13 archive members cover the scoreboard, calendar, stats, trade, and contract screens. Each edit fits the original text slot. The archive verifier confirmed 2,204 unmodified members match the original bytes.
 - **197 packed menu lookups** cover roster, offseason, settings, stats, and practice screens. The most recent 119 lookups were checked against their original menu rectangles using estimated Arial widths.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
@@ -56,7 +58,7 @@ Runtime text tables build from the checked-in English catalogue. To rebuild loca
 
 ```powershell
 python -m pip install Pillow
-python tools/build-english-assets.py local/disc local/english-disc --labels translation/texture-labels.json --pennant-events translation/pennant-event-titles.json --pennant-text translation/pennant-event-text.json --preview local/english-previews
+python tools/build-english-assets.py local/disc local/english-disc --labels translation/texture-labels.json --pennant-events translation/pennant-event-titles.json --pennant-text translation/pennant-event-text.json --packed-text translation/packed-text-slots.json --preview local/english-previews
 ./tools/play.ps1 -English
 ```
 
@@ -88,7 +90,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed Hanshin names, and unambiguous dictionary readings.
 - `catalogue-menu-assets.py`: inventory textures and create local contact sheets.
 - `pennant_events.py`: export the ten fields of each event from an extracted, decoded `PEMDFIX.CHK`.
-- `build-english-assets.py`: replace atlas rectangles and Pennant event text in a separate archive.
+- `build-english-assets.py`: replace atlas rectangles, packed menu text, and Pennant event text in a separate archive.
 
 The Japanese 2006 release defines the meaning of each string. KONAMI's English [PRO SPIRIT 2026 game FAQ](https://www.konami.com/games/2026_support/faq/0/us/en-us/pc/category?category=1) helps cross-check shared terminology such as Manager Mode, Hit-and-Run, and Off. Pro Spirits 3 describes its ウエスト sign as a response to an attempted steal, so the patch calls it Pitchout.
 

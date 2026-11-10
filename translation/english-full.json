@@ -28892,8 +28892,8 @@
     "address": "0x82096290",
     "source_size": 48,
     "source_hash": "4B3EAC916EA5C92D",
-    "english": "<RGB 0x41507a>pennant root help<RGB 0x7f7f7f>",
-    "status": "draft"
+    "english": "<RGB 0x41507a>Pennant Setup Help<RGB 0x7f7f7f>",
+    "status": "reviewed"
   },
   {
     "address": "0x820962C8",
@@ -28997,22 +28997,22 @@
     "address": "0x82096810",
     "source_size": 234,
     "source_hash": "56A89FEB747C6F42",
-    "english": "[<RGB 0x00785f>Check Team Strength<RGB 0x7f7f7f>] <BR> Analyze your team's current strength and check reinforcement points. <BR><BR>If you can successfully strengthen the weak areas of your team, you will be one step closer to conquering the pennant race! <BOTTOM><+LR>Switch<○> Close 1/1",
-    "status": "draft"
+    "english": "[<RGB 0x00785f>Review Your Roster<RGB 0x7f7f7f>]<BR>Look over your roster to see where you need help.<BR><BR>Fill those gaps to improve your shot at the pennant.<BOTTOM><+LR>Page<○>Close        1/1",
+    "status": "reviewed"
   },
   {
     "address": "0x820968FC",
     "source_size": 46,
     "source_hash": "BDBA118EEF879A5B",
     "english": "<RGB 0x41507a>Tryout Help<RGB 0x7f7f7f>",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209692C",
     "source_size": 52,
     "source_hash": "E1D7A989C374D8BD",
-    "english": "This year's tryout results have been determined as described above.",
-    "status": "draft"
+    "english": "This year's tryout results are final.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096A14",
@@ -29032,8 +29032,8 @@
     "address": "0x82096A7C",
     "source_size": 20,
     "source_hash": "E69C1ECEC1900297",
-    "english": "List of tryout players",
-    "status": "draft"
+    "english": "Tryout Players",
+    "status": "reviewed"
   },
   {
     "address": "0x82096A94",
@@ -29046,43 +29046,43 @@
     "address": "0x82096ABC",
     "source_size": 20,
     "source_hash": "69D96B0F94B30699",
-    "english": "Tryout results list",
-    "status": "draft"
+    "english": "Tryout Results",
+    "status": "reviewed"
   },
   {
     "address": "0x82096AF0",
     "source_size": 20,
     "source_hash": "A8AD313D27AFC384",
-    "english": "Condition: Win the league",
-    "status": "draft"
+    "english": "Goal: Win the league title.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096B08",
     "source_size": 17,
     "source_hash": "513275B202435D76",
-    "english": "Results during the period:---",
-    "status": "draft"
+    "english": "During Period: ---",
+    "status": "reviewed"
   },
   {
     "address": "0x82096B1C",
     "source_size": 26,
     "source_hash": "93DFD2D30E32F3AF",
-    "english": "Condition: Win in the playoffs",
-    "status": "draft"
+    "english": "Goal: Win the playoffs.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096B38",
     "source_size": 18,
     "source_hash": "B5C3E0C9B98C2B5A",
-    "english": "Condition: Become the best in Japan",
-    "status": "draft"
+    "english": "Goal: Win the Japan Series.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096B4C",
     "source_size": 24,
     "source_hash": "CAE0F6CD403A74B0",
-    "english": "Condition: Win the opening game",
-    "status": "draft"
+    "english": "Goal: Win on Opening Day.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096B68",
@@ -29095,57 +29095,57 @@
     "address": "0x82096B8C",
     "source_size": 40,
     "source_hash": "C99BE5E540D5E2D9",
-    "english": "Condition: %d stand at bat and record a batting average of .280",
-    "status": "draft"
+    "english": "Goal: Make %d plate appearances and bat .280.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096BB8",
     "source_size": 30,
     "source_hash": "3AD143277F69397B",
-    "english": "Condition: Leave a 100 percent win rate during the period",
-    "status": "draft"
+    "english": "Goal: Win every game during the period.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096BD8",
     "source_size": 50,
     "source_hash": "1FFD014222552E35",
-    "english": "Conditions: %d batting average of .280 or equivalent",
-    "status": "draft"
+    "english": "Goal: Make %d plate appearances and bat .280 or post comparable results.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096C0C",
     "source_size": 39,
     "source_hash": "23EE5BA97E16C912",
-    "english": "Conditions: Win rate of 50 percent or more during the period and success of %s players",
-    "status": "draft"
+    "english": "Goal: Win at least half your games and get a strong performance from %s.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096C34",
     "source_size": 24,
     "source_hash": "DCEF52291F87712B",
-    "english": "Condition: The starter wins a complete game.",
-    "status": "draft"
+    "english": "Goal: Win with a complete game from your starter.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096C50",
     "source_size": 30,
     "source_hash": "7A45C840A72D31DC",
-    "english": "Condition: Win without using %s player",
-    "status": "draft"
+    "english": "Goal: Win without using %s.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096C70",
     "source_size": 34,
     "source_hash": "714073B44EB7DBCF",
-    "english": "Condition: Achieve a total team score of %d points or more",
-    "status": "draft"
+    "english": "Goal: Score at least %d runs as a team.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096C94",
     "source_size": 18,
     "source_hash": "7A2E55374A367666",
-    "english": "Results during the period: %d points",
-    "status": "draft"
+    "english": "During Period: %d R",
+    "status": "reviewed"
   },
   {
     "address": "0x82096CA8",
@@ -29158,8 +29158,8 @@
     "address": "0x82096CD0",
     "source_size": 20,
     "source_hash": "3EF5D16EF8C02467",
-    "english": "Condition: stand on the podium",
-    "status": "draft"
+    "english": "Goal: Win All-Star MVP.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096CE8",
@@ -29172,155 +29172,155 @@
     "address": "0x82096D18",
     "source_size": 49,
     "source_hash": "64854F3DB82E6F6D",
-    "english": "Condition: Win the game by forcing the starting pitcher to leave the pitcher by the 6th inning.",
-    "status": "draft"
+    "english": "Goal: Win and chase their starter by the end of the sixth.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096D4C",
     "source_size": 51,
     "source_hash": "4C81040DFE16F0E4",
-    "english": "Condition: Perform with an average post-game rating of 6.0 (7.0 in one game)",
-    "status": "draft"
+    "english": "Goal: Average a 6.0 postgame rating (7.0 for a single game).",
+    "status": "reviewed"
   },
   {
     "address": "0x82096D80",
     "source_size": 3,
     "source_hash": "C5897917D0448B59",
-    "english": "Review",
-    "status": "draft"
+    "english": " Rating",
+    "status": "reviewed"
   },
   {
     "address": "0x82096D84",
     "source_size": 34,
     "source_hash": "ACAA3623B9DC34F6",
-    "english": "Condition: Hit a home run with a team of %d or more",
-    "status": "draft"
+    "english": "Goal: Hit at least %d home runs as a team.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096DA8",
     "source_size": 31,
     "source_hash": "95F2BC9B38B5F0C4",
-    "english": "Results during the period: Team home runs %d books",
-    "status": "draft"
+    "english": "During Period: %d team HR",
+    "status": "reviewed"
   },
   {
     "address": "0x82096DC8",
     "source_size": 22,
     "source_hash": "A97874DB8DE69B9F",
-    "english": "Condition: Achieve %d hits",
-    "status": "draft"
+    "english": "Goal: Record %d hits.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096DE0",
     "source_size": 43,
     "source_hash": "45CAC9491734A537",
-    "english": "Total results: Currently %d hits, %d hits left to clear!",
-    "status": "draft"
+    "english": "Career Hits: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096E0C",
     "source_size": 24,
     "source_hash": "6433FCF0781F5AD6",
-    "english": "Condition: Achieve %d home run",
-    "status": "draft"
+    "english": "Goal: Hit %d home runs.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096E28",
     "source_size": 47,
     "source_hash": "8FDE57730E9825BD",
-    "english": "Total results: Currently %d home run %d home run left to clear!",
-    "status": "draft"
+    "english": "Career HR: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096E58",
     "source_size": 22,
     "source_hash": "1C896B703D6949CC",
-    "english": "Condition: Achieve %d stolen base",
-    "status": "draft"
+    "english": "Goal: Steal %d bases.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096E70",
     "source_size": 43,
     "source_hash": "7CFF44183DF666D9",
-    "english": "Total results: Currently %d stolen base %d stolen base left to clear!",
-    "status": "draft"
+    "english": "Career SB: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096E9C",
     "source_size": 20,
     "source_hash": "3078B0D2A88C4197",
-    "english": "Condition: Achieve %d win",
-    "status": "draft"
+    "english": "Goal: Earn %d wins.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096EB4",
     "source_size": 39,
     "source_hash": "C295E93BB89FF977",
-    "english": "Total results: Currently %d wins %d wins until clear!",
-    "status": "draft"
+    "english": "Career Wins: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096EDC",
     "source_size": 24,
     "source_hash": "79DA2A1DE8CE4468",
-    "english": "Condition: Achieve %d save",
-    "status": "draft"
+    "english": "Goal: Record %d saves.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096EF8",
     "source_size": 47,
     "source_hash": "0715539D6E8726D1",
-    "english": "Total results: Currently %d save %d save until clear!",
-    "status": "draft"
+    "english": "Career Saves: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096F28",
     "source_size": 24,
     "source_hash": "253E5AEB9DBEDF5B",
-    "english": "Condition: Achieve %d strikeouts",
-    "status": "draft"
+    "english": "Goal: Strike out %d batters.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096F44",
     "source_size": 47,
     "source_hash": "7AB40F7E86634AB7",
-    "english": "Total results: Currently %d strikeouts %d strikeouts left to clear!",
-    "status": "draft"
+    "english": "Career K: %d (need %d more)",
+    "status": "reviewed"
   },
   {
     "address": "0x82096F74",
     "source_size": 50,
     "source_hash": "99DE611BC3DCCEE3",
-    "english": "Conditions: Perform with an average post-match rating of 6.0 or higher or fall to the second team.",
-    "status": "draft"
+    "english": "Goal: Average a 6.0 postgame rating or get sent down to the farm team.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096FA8",
     "source_size": 22,
     "source_hash": "29770FD08BF8EC9D",
-    "english": "Condition: Escape from a losing streak",
-    "status": "draft"
+    "english": "Goal: End the losing streak.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096FC0",
     "source_size": 14,
     "source_hash": "D64369A1EC20E4B5",
-    "english": "Results during the period:",
-    "status": "draft"
+    "english": "During Period:",
+    "status": "reviewed"
   },
   {
     "address": "0x82096FD0",
     "source_size": 18,
     "source_hash": "88BC549077E92E2B",
-    "english": "Condition: Make a hit",
-    "status": "draft"
+    "english": "Goal: Get a hit.",
+    "status": "reviewed"
   },
   {
     "address": "0x82096FE4",
     "source_size": 30,
     "source_hash": "96F6AA2C42F60F8E",
-    "english": "Condition: Win or Save (Hold)",
-    "status": "draft"
+    "english": "Goal: Earn a win, save, or hold.",
+    "status": "reviewed"
   },
   {
     "address": "0x82097004",
@@ -29410,8 +29410,8 @@
     "address": "0x82097184",
     "source_size": 3,
     "source_hash": "C5833317D03FA8B9",
-    "english": "base",
-    "status": "draft"
+    "english": " TB",
+    "status": "reviewed"
   },
   {
     "address": "0x82097188",
@@ -29487,8 +29487,8 @@
     "address": "0x82097328",
     "source_size": 3,
     "source_hash": "C59AB317D053611A",
-    "english": "core",
-    "status": "draft"
+    "english": " Solid Contact",
+    "status": "reviewed"
   },
   {
     "address": "0x8209732C",
@@ -29508,8 +29508,8 @@
     "address": "0x82097380",
     "source_size": 3,
     "source_hash": "C590B017D04B077C",
-    "english": "theft",
-    "status": "draft"
+    "english": " SB",
+    "status": "reviewed"
   },
   {
     "address": "0x82097384",
@@ -29571,8 +29571,8 @@
     "address": "0x82097508",
     "source_size": 3,
     "source_hash": "C588C117D04352B1",
-    "english": "Seal",
-    "status": "draft"
+    "english": " SHO",
+    "status": "reviewed"
   },
   {
     "address": "0x8209750C",
@@ -29599,8 +29599,8 @@
     "address": "0x82097580",
     "source_size": 3,
     "source_hash": "C5A0D617D0580841",
-    "english": "loss",
-    "status": "draft"
+    "english": " E",
+    "status": "reviewed"
   },
   {
     "address": "0x82097584",
@@ -29613,8 +29613,8 @@
     "address": "0x82097594",
     "source_size": 3,
     "source_hash": "C59DA717D055828D",
-    "english": "Out",
-    "status": "draft"
+    "english": " TOB",
+    "status": "reviewed"
   },
   {
     "address": "0x82097598",
@@ -29627,8 +29627,8 @@
     "address": "0x820975AC",
     "source_size": 5,
     "source_hash": "FF7DAD62E41C50F9",
-    "english": "plot theft",
-    "status": "draft"
+    "english": " SBA",
+    "status": "reviewed"
   },
   {
     "address": "0x820975B4",
@@ -29641,22 +29641,22 @@
     "address": "0x820975DC",
     "source_size": 3,
     "source_hash": "C590D617D04B480E",
-    "english": "profit",
-    "status": "draft"
+    "english": " R",
+    "status": "reviewed"
   },
   {
     "address": "0x820975E0",
     "source_size": 3,
     "source_hash": "C5AB7517D0616AF3",
-    "english": "sacrifice",
-    "status": "draft"
+    "english": " SAC",
+    "status": "reviewed"
   },
   {
     "address": "0x820975E4",
     "source_size": 3,
     "source_hash": "C5853C17D0403ADB",
-    "english": "fierce",
-    "status": "draft"
+    "english": " 3-Hit Games",
+    "status": "reviewed"
   },
   {
     "address": "0x820975E8",
@@ -29669,8 +29669,8 @@
     "address": "0x82097614",
     "source_size": 5,
     "source_hash": "2F38054E7FFC5EA2",
-    "english": "Area cheap",
-    "status": "draft"
+    "english": " Hits with RISP",
+    "status": "reviewed"
   },
   {
     "address": "0x8209761C",
@@ -29697,8 +29697,8 @@
     "address": "0x82097664",
     "source_size": 5,
     "source_hash": "700322EDB785CBE4",
-    "english": "Ren'an",
-    "status": "draft"
+    "english": " Hit Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x8209766C",
@@ -29753,8 +29753,8 @@
     "address": "0x8209775C",
     "source_size": 5,
     "source_hash": "704D15EDB7C3EE47",
-    "english": "consecutive",
-    "status": "draft"
+    "english": " Scoreless Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x82097764",
@@ -29767,8 +29767,8 @@
     "address": "0x82097784",
     "source_size": 14,
     "source_hash": "E4D6F13AA9AE8C95",
-    "english": "Number of consecutive saves",
-    "status": "draft"
+    "english": " Save Streak ",
+    "status": "reviewed"
   },
   {
     "address": "0x82097794",
@@ -29781,8 +29781,8 @@
     "address": "0x820977B4",
     "source_size": 8,
     "source_hash": "105077C37CE16F02",
-    "english": "Number of consecutive wins",
-    "status": "draft"
+    "english": " Win Streak ",
+    "status": "reviewed"
   },
   {
     "address": "0x820977C0",
@@ -30194,15 +30194,15 @@
     "address": "0x82098004",
     "source_size": 9,
     "source_hash": "397F82342B3E78A9",
-    "english": "sink direction",
-    "status": "draft"
+    "english": "Opposite Field",
+    "status": "reviewed"
   },
   {
     "address": "0x82098010",
     "source_size": 13,
     "source_hash": "53ACBCEA036E5ADB",
-    "english": "direction of pull",
-    "status": "draft"
+    "english": "Pull Side",
+    "status": "reviewed"
   },
   {
     "address": "0x82098020",
@@ -30509,8 +30509,8 @@
     "address": "0x82098668",
     "source_size": 14,
     "source_hash": "5E34533600B036BD",
-    "english": "MVP pennant",
-    "status": "draft"
+    "english": "MVP Pennant",
+    "status": "reviewed"
   },
   {
     "address": "0x82098694",
@@ -30971,8 +30971,8 @@
     "address": "0x82098F6C",
     "source_size": 36,
     "source_hash": "A6240275368C8B34",
-    "english": "We won the All-Star game with a stunning victory.",
-    "status": "draft"
+    "english": "You won the All-Star Game.",
+    "status": "reviewed"
   },
   {
     "address": "0x82098F94",
@@ -30985,113 +30985,113 @@
     "address": "0x82098FBC",
     "source_size": 38,
     "source_hash": "01A1E3B6710A5E13",
-    "english": "We won a fierce battle that lasted until extra time.",
-    "status": "draft"
+    "english": "You won a thriller in extra innings.",
+    "status": "reviewed"
   },
   {
     "address": "0x82098FE4",
     "source_size": 36,
     "source_hash": "A54295A138AD5E92",
-    "english": "The pitcher's strong pitching led the team to victory.",
-    "status": "draft"
+    "english": "Strong pitching carried you to victory.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209900C",
     "source_size": 30,
     "source_hash": "F9FD41B2B491DB36",
-    "english": "We achieved a dramatic walk-off victory.",
-    "status": "draft"
+    "english": "You pulled off a dramatic walk-off win.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209902C",
     "source_size": 24,
     "source_hash": "F4FE02C587258808",
-    "english": "It was a great come-from-behind victory at the end.",
-    "status": "draft"
+    "english": "You came from behind late to win.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099048",
     "source_size": 32,
     "source_hash": "1BF12CC18C87F274",
-    "english": "It was an interesting seesaw game",
-    "status": "draft"
+    "english": "It was a back-and-forth thriller.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209906C",
     "source_size": 30,
     "source_hash": "53BA73FCC9E955B1",
-    "english": "It was a victory that showed overwhelming strength.",
-    "status": "draft"
+    "english": "You dominated from start to finish.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209908C",
     "source_size": 30,
     "source_hash": "14D855ED019D8656",
-    "english": "It was an exciting victory with an explosive batting lineup.",
-    "status": "draft"
+    "english": "The bats came alive in a big win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820990AC",
     "source_size": 30,
     "source_hash": "7FB75F431E6769E5",
-    "english": "It was a victory with stable game content.",
-    "status": "draft"
+    "english": "You played a steady game and earned the win.",
+    "status": "reviewed"
   },
   {
     "address": "0x820990CC",
     "source_size": 32,
     "source_hash": "D93B76D40DBA588C",
-    "english": "Won a brilliant victory in a tense game",
-    "status": "draft"
+    "english": "You edged out a win in a tense game.",
+    "status": "reviewed"
   },
   {
     "address": "0x820990F0",
     "source_size": 22,
     "source_hash": "7934E068DD3551B4",
-    "english": "Successfully won a fierce battle",
-    "status": "draft"
+    "english": "You came out on top in a slugfest.",
+    "status": "reviewed"
   },
   {
     "address": "0x82099108",
     "source_size": 16,
     "source_hash": "84DBE4B61ECE69E8",
-    "english": "It was a great victory",
-    "status": "draft"
+    "english": "You earned a well-played win.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209911C",
     "source_size": 30,
     "source_hash": "AB54784F3A81AE90",
-    "english": "Obtained director charisma value %d Currently %d",
-    "status": "draft"
+    "english": "Manager Charisma +%d (now %d)",
+    "status": "reviewed"
   },
   {
     "address": "0x8209913C",
     "source_size": 24,
     "source_hash": "57914979074267BA",
-    "english": "Current manager charisma value %d",
-    "status": "draft"
+    "english": "Manager Charisma: %d",
+    "status": "reviewed"
   },
   {
     "address": "0x82099158",
     "source_size": 32,
     "source_hash": "F616A7D10EF2790A",
-    "english": "Supervisor support rate increased by %d% Currently %d%",
-    "status": "draft"
+    "english": "Manager Approval up %d points (now %d percent)",
+    "status": "reviewed"
   },
   {
     "address": "0x8209917C",
     "source_size": 32,
     "source_hash": "471F918DD49D7632",
-    "english": "Supervisor support rate down by %d% Currently %d%",
-    "status": "draft"
+    "english": "Manager Approval down %d points (now %d percent)",
+    "status": "reviewed"
   },
   {
     "address": "0x820991A0",
     "source_size": 22,
     "source_hash": "5152B86695497719",
-    "english": "Current supervisor support rate %d%",
-    "status": "draft"
+    "english": "Manager Approval: %d percent",
+    "status": "reviewed"
   },
   {
     "address": "0x820991E0",
@@ -31111,169 +31111,169 @@
     "address": "0x820991FC",
     "source_size": 12,
     "source_hash": "00ECE3307CE41711",
-    "english": "Hit 1.00",
-    "status": "draft"
+    "english": "AVG 1.000 ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209920C",
     "source_size": 12,
     "source_hash": "0993B137FF231D42",
-    "english": "Hit. 00%d",
-    "status": "draft"
+    "english": "AVG .00%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209921C",
     "source_size": 10,
     "source_hash": "C29D50372B560281",
-    "english": "Hit. 0%d",
-    "status": "draft"
+    "english": "AVG .0%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099228",
     "source_size": 8,
     "source_hash": "10098ABA97163D2E",
-    "english": "Hit. %d",
-    "status": "draft"
+    "english": "AVG .%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099234",
     "source_size": 14,
     "source_hash": "F12DDD1523E7344A",
-    "english": "Genuine %d Dot %d",
-    "status": "draft"
+    "english": "%d HR, %d RBI",
+    "status": "reviewed"
   },
   {
     "address": "0x82099244",
     "source_size": 12,
     "source_hash": "46A35A6FE757DC22",
-    "english": "Defense 0.0%d",
-    "status": "draft"
+    "english": "ERA 0.0%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099254",
     "source_size": 10,
     "source_hash": "9D7F59EC49D23DE1",
-    "english": "Defense 0. %d",
-    "status": "draft"
+    "english": "ERA 0.%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099260",
     "source_size": 12,
     "source_hash": "D179971337F2D680",
-    "english": "Anti-%d. 0%d",
-    "status": "draft"
+    "english": "ERA %d.0%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099270",
     "source_size": 10,
     "source_hash": "643BB583993EABCF",
-    "english": "Anti-%d. %d",
-    "status": "draft"
+    "english": "ERA %d.%d ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209927C",
     "source_size": 16,
     "source_hash": "BC34E6209171DFBB",
-    "english": "%d win %d lose %dS",
-    "status": "draft"
+    "english": "%d W, %d L, %d SV",
+    "status": "reviewed"
   },
   {
     "address": "0x82099290",
     "source_size": 28,
     "source_hash": "249065E2668FCCAB",
     "english": "No mission information.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820992B0",
     "source_size": 40,
     "source_hash": "AB30B5A01EF6CDC1",
-    "english": "The following missions are now available for selection.",
-    "status": "draft"
+    "english": "New missions are available to select.",
+    "status": "reviewed"
   },
   {
     "address": "0x820992E8",
     "source_size": 32,
     "source_hash": "12CB16017060F660",
-    "english": "The following mission occurred.",
-    "status": "draft"
+    "english": "New missions have started.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209930C",
     "source_size": 24,
     "source_hash": "B4A1C26891734301",
-    "english": "%s player MCP mission",
-    "status": "draft"
+    "english": "%s's MCP Mission",
+    "status": "reviewed"
   },
   {
     "address": "0x82099328",
     "source_size": 22,
     "source_hash": "75F3A5690BF271C8",
-    "english": "%s player awakening mission",
-    "status": "draft"
+    "english": "%s's Awakening Mission",
+    "status": "reviewed"
   },
   {
     "address": "0x82099340",
     "source_size": 26,
     "source_hash": "BBC1BEFC411854F6",
-    "english": "%s player chain mission",
-    "status": "draft"
+    "english": "%s's Chain Mission",
+    "status": "reviewed"
   },
   {
     "address": "0x8209935C",
     "source_size": 18,
     "source_hash": "A721E5EEABB8ED4C",
-    "english": "%s player is on a mission",
-    "status": "draft"
+    "english": "%s's Mission",
+    "status": "reviewed"
   },
   {
     "address": "0x82099370",
     "source_size": 16,
     "source_hash": "73B3D86F473519E0",
-    "english": "team mission",
-    "status": "draft"
+    "english": "Team Mission",
+    "status": "reviewed"
   },
   {
     "address": "0x82099384",
     "source_size": 18,
     "source_hash": "23E7E3CB1696DBDC",
-    "english": "Clear \"%s\".",
-    "status": "draft"
+    "english": "Completed \"%s\". ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099398",
     "source_size": 16,
     "source_hash": "698FB8E3604F1D9F",
-    "english": "\"%s\" failed.",
-    "status": "draft"
+    "english": "Failed \"%s\". ",
+    "status": "reviewed"
   },
   {
     "address": "0x820993AC",
     "source_size": 18,
     "source_hash": "6DA7941F37073FF6",
-    "english": "\"%s\" is continuing.",
-    "status": "draft"
+    "english": "\"%s\" is still in progress. ",
+    "status": "reviewed"
   },
   {
     "address": "0x820993C0",
     "source_size": 26,
     "source_hash": "93A50F32F94F5F11",
-    "english": "I got %dMCP.",
-    "status": "draft"
+    "english": "Earned %d MCP. ",
+    "status": "reviewed"
   },
   {
     "address": "0x820993DC",
     "source_size": 16,
     "source_hash": "D7879B0FCEEEBB5C",
-    "english": "I woke up.",
-    "status": "draft"
+    "english": "Awakening unlocked. ",
+    "status": "reviewed"
   },
   {
     "address": "0x820993F0",
     "source_size": 38,
     "source_hash": "64176FFA909D69ED",
-    "english": "%dObtained MCP. My fatigue has recovered.",
-    "status": "draft"
+    "english": "Earned %d MCP and recovered from fatigue. ",
+    "status": "reviewed"
   },
   {
     "address": "0x82099418",
@@ -93555,8 +93555,8 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "0B76E058AD355EF0",
-    "english": "pennant root help",
-    "status": "draft"
+    "english": "Pennant Setup Help",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -93597,29 +93597,29 @@
     "address": "0x00000000",
     "source_size": 56,
     "source_hash": "7AC4CE73634F3F9E",
-    "english": "Analyze your team's current strength and check reinforcement points.",
-    "status": "draft"
+    "english": "Look over your roster to see where you need help.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 80,
     "source_hash": "440F1B44C6EB0634",
-    "english": "If you can successfully strengthen the weak areas of your team, you will be one step closer to conquering the pennant race!",
-    "status": "draft"
+    "english": "Fill those gaps to improve your shot at the pennant.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 17,
     "source_hash": "B22E5B26F4EC7152",
-    "english": "Close 1/1",
-    "status": "draft"
+    "english": "Close        1/1",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "1262203CC48FFEF2",
     "english": "Tryout Help",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -93639,120 +93639,120 @@
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A0B2707B67D2ED7",
-    "english": "Review",
-    "status": "draft"
+    "english": "Rating",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A11ED07B682EAF7",
-    "english": "base",
-    "status": "draft"
+    "english": "TB",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A1FDE07B68F0ED6",
-    "english": "theft",
-    "status": "draft"
+    "english": "SB",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A0B5F07B67D8DFF",
-    "english": "Seal",
-    "status": "draft"
+    "english": "SHO",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "09F98407B66DA6AB",
-    "english": "loss",
-    "status": "draft"
+    "english": "E",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "09F65907B66B27C3",
-    "english": "Out",
-    "status": "draft"
+    "english": "TOB",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 4,
     "source_hash": "7A0041FFC006E6F7",
-    "english": "plot theft",
-    "status": "draft"
+    "english": "SBA",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A200807B68F5634",
-    "english": "profit",
-    "status": "draft"
+    "english": "R",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A046B07B67783B5",
-    "english": "sacrifice",
-    "status": "draft"
+    "english": "SAC",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 2,
     "source_hash": "0A15EE07B686D581",
-    "english": "fierce",
-    "status": "draft"
+    "english": "3-Hit Games",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 4,
     "source_hash": "B433C5CEDA74819C",
-    "english": "Area cheap",
-    "status": "draft"
+    "english": "Hits with RISP",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 4,
     "source_hash": "6D7F50740456D0AA",
-    "english": "Ren'an",
-    "status": "draft"
+    "english": "Hit Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 4,
     "source_hash": "6D34FF7404180E8D",
-    "english": "consecutive",
-    "status": "draft"
+    "english": "Scoreless Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "81DCC945D8C36ADD",
-    "english": "Number of consecutive saves",
-    "status": "draft"
+    "english": "Save Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "0A5C6A30F5082E94",
-    "english": "Number of consecutive wins",
-    "status": "draft"
+    "english": "Win Streak",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "02FFD873BBC7A3CB",
-    "english": "sink direction",
-    "status": "draft"
+    "english": "Opposite Field",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "B851AA22A2311D25",
-    "english": "direction of pull",
-    "status": "draft"
+    "english": "Pull Side",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -93898,99 +93898,99 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "D336346895CD98E8",
-    "english": "Hit 1.00",
-    "status": "draft"
+    "english": "AVG 1.000",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "3C69364FC96B4CB3",
-    "english": "Hit. 00%d",
-    "status": "draft"
+    "english": "AVG .00%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "DE0940F97C73C858",
-    "english": "Hit. 0%d",
-    "status": "draft"
+    "english": "AVG .0%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 6,
     "source_hash": "768FCA3116D136BF",
-    "english": "Hit. %d",
-    "status": "draft"
+    "english": "AVG .%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "EC71C2193C111213",
-    "english": "Defense 0.0%d",
-    "status": "draft"
+    "english": "ERA 0.0%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "DCBFD638AABAB238",
-    "english": "Defense 0. %d",
-    "status": "draft"
+    "english": "ERA 0.%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "CE8C89D1AC56D1C1",
-    "english": "Anti-%d. 0%d",
-    "status": "draft"
+    "english": "ERA %d.0%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "BD9A7E3EA4054FF6",
-    "english": "Anti-%d. %d",
-    "status": "draft"
+    "english": "ERA %d.%d",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "D52FE7B4865E13BD",
-    "english": "Clear \"%s\".",
-    "status": "draft"
+    "english": "Completed \"%s\".",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "655222979B0EBC46",
-    "english": "\"%s\" failed.",
-    "status": "draft"
+    "english": "Failed \"%s\".",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "7FF479D375DE8347",
-    "english": "\"%s\" is continuing.",
-    "status": "draft"
+    "english": "\"%s\" is still in progress.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "B91EF14B1CCFA0E8",
-    "english": "I got %dMCP.",
-    "status": "draft"
+    "english": "Earned %d MCP.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "3371B90C3B9E663D",
-    "english": "I woke up.",
-    "status": "draft"
+    "english": "Awakening unlocked.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 36,
     "source_hash": "43DF40A9F2682EE4",
-    "english": "%dObtained MCP. My fatigue has recovered.",
-    "status": "draft"
+    "english": "Earned %d MCP and recovered from fatigue.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",

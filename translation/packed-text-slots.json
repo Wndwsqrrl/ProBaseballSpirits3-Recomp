@@ -1,0 +1,496 @@
+{
+  "BBPSB.CHK": [
+    {
+      "chunk": "0x6cf50",
+      "entry": 0,
+      "source_hex": "819b89f1955c",
+      "english": "Top X"
+    },
+    {
+      "chunk": "0x6cf50",
+      "entry": 1,
+      "source_hex": "90e6",
+      "english": "AWY"
+    },
+    {
+      "chunk": "0x6cf50",
+      "entry": 2,
+      "source_hex": "8ce3",
+      "english": "HME"
+    }
+  ],
+  "CHOUSEI.CHK": [
+    {
+      "chunk": "0x41a0",
+      "entry": 26,
+      "source_hex": "906c",
+      "english": "P"
+    },
+    {
+      "chunk": "0x41a0",
+      "entry": 27,
+      "source_hex": "906c",
+      "english": "P"
+    }
+  ],
+  "GAME2D.CHK": [
+    {
+      "chunk": "0x234970",
+      "entry": 14,
+      "source_hex": "91c5",
+      "english": "BAT"
+    },
+    {
+      "chunk": "0x234970",
+      "entry": 15,
+      "source_hex": "88ea",
+      "english": "1B"
+    },
+    {
+      "chunk": "0x234970",
+      "entry": 16,
+      "source_hex": "93f1",
+      "english": "2B"
+    },
+    {
+      "chunk": "0x234970",
+      "entry": 17,
+      "source_hex": "8e4f",
+      "english": "3B"
+    },
+    {
+      "chunk": "0x2362d0",
+      "entry": 0,
+      "source_hex": "8e8e8d87",
+      "english": "G"
+    },
+    {
+      "chunk": "0x2362d0",
+      "entry": 1,
+      "source_hex": "8f9f",
+      "english": "W"
+    },
+    {
+      "chunk": "0x2362d0",
+      "entry": 2,
+      "source_hex": "9589",
+      "english": "L"
+    },
+    {
+      "chunk": "0x2362d0",
+      "entry": 4,
+      "source_hex": "96688ce497a6",
+      "english": "ERA"
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 5,
+      "source_hex": "8c8e",
+      "english": "/"
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 6,
+      "source_hex": "93fa",
+      "english": ""
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 7,
+      "source_hex": "8c8e",
+      "english": "/"
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 8,
+      "source_hex": "93fa",
+      "english": ""
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 9,
+      "source_hex": "8c8e",
+      "english": "/"
+    },
+    {
+      "chunk": "0x2364e0",
+      "entry": 10,
+      "source_hex": "93fa",
+      "english": ""
+    }
+  ],
+  "HRDERBY.CHK": [
+    {
+      "chunk": "0xe860",
+      "entry": 12,
+      "source_hex": "967b",
+      "english": "HR"
+    },
+    {
+      "chunk": "0xe860",
+      "entry": 19,
+      "source_hex": "9687",
+      "english": ""
+    },
+    {
+      "chunk": "0xf280",
+      "entry": 9,
+      "source_hex": "9687",
+      "english": ""
+    },
+    {
+      "chunk": "0xf4c0",
+      "entry": 12,
+      "source_hex": "967b",
+      "english": "HR"
+    }
+  ],
+  "MENU2D.CHK": [
+    {
+      "chunk": "0x1c6ee0",
+      "entry": 1,
+      "source_hex": "9562",
+      "english": "s"
+    }
+  ],
+  "PEMUSERCON.CHK": [
+    {
+      "chunk": "0xc1bb0",
+      "entry": 2,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 3,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 4,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 5,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 6,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 7,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 8,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 9,
+      "source_hex": "8b78",
+      "english": "Off"
+    },
+    {
+      "chunk": "0xc1bb0",
+      "entry": 10,
+      "source_hex": "8b78",
+      "english": "Off"
+    }
+  ],
+  "PENASTATS.CHK": [
+    {
+      "chunk": "0x694e0",
+      "entry": 20,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 21,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 22,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 23,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 24,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 25,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 26,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 27,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 28,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x694e0",
+      "entry": 29,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x6a260",
+      "entry": 4,
+      "source_hex": "8f9f",
+      "english": "W"
+    },
+    {
+      "chunk": "0x6a260",
+      "entry": 5,
+      "source_hex": "9473",
+      "english": "L"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 10,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 11,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 12,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 13,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 14,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6a6e0",
+      "entry": 15,
+      "source_hex": "8c8e",
+      "english": "Mo"
+    },
+    {
+      "chunk": "0x6c480",
+      "entry": 4,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x6c600",
+      "entry": 1,
+      "source_hex": "91ce",
+      "english": "vs"
+    }
+  ],
+  "PNCALENDAR.CHK": [
+    {
+      "chunk": "0x995e0",
+      "entry": 9,
+      "source_hex": "8c8e",
+      "english": "Mon"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 10,
+      "source_hex": "89ce",
+      "english": "Tue"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 11,
+      "source_hex": "9085",
+      "english": "Wed"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 12,
+      "source_hex": "96d8",
+      "english": "Thu"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 13,
+      "source_hex": "8be0",
+      "english": "Fri"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 14,
+      "source_hex": "9379",
+      "english": "Sat"
+    },
+    {
+      "chunk": "0x995e0",
+      "entry": 15,
+      "source_hex": "93fa",
+      "english": "Sun"
+    }
+  ],
+  "PNPSS.CHK": [
+    {
+      "chunk": "0x20e80",
+      "entry": 2,
+      "source_hex": "8f87",
+      "english": "#"
+    },
+    {
+      "chunk": "0x20e80",
+      "entry": 12,
+      "source_hex": "9263",
+      "english": "Tm"
+    },
+    {
+      "chunk": "0x20e80",
+      "entry": 13,
+      "source_hex": "9263",
+      "english": "Tm"
+    },
+    {
+      "chunk": "0x20e80",
+      "entry": 14,
+      "source_hex": "9263",
+      "english": "Tm"
+    },
+    {
+      "chunk": "0x20e80",
+      "entry": 15,
+      "source_hex": "9263",
+      "english": "Tm"
+    }
+  ],
+  "PNTRADE.CHK": [
+    {
+      "chunk": "0x1120",
+      "entry": 17,
+      "source_hex": "938a",
+      "english": "P"
+    },
+    {
+      "chunk": "0x1120",
+      "entry": 18,
+      "source_hex": "938a",
+      "english": "P"
+    },
+    {
+      "chunk": "0x1120",
+      "entry": 19,
+      "source_hex": "96ec",
+      "english": "F"
+    },
+    {
+      "chunk": "0x1120",
+      "entry": 20,
+      "source_hex": "96ec",
+      "english": "F"
+    },
+    {
+      "chunk": "0x1120",
+      "entry": 21,
+      "source_hex": "8a4f",
+      "english": "FP"
+    },
+    {
+      "chunk": "0x1120",
+      "entry": 22,
+      "source_hex": "8a4f",
+      "english": "FP"
+    }
+  ],
+  "RESULT.CHK": [
+    {
+      "chunk": "0x752f0",
+      "entry": 17,
+      "source_hex": "39393995aa",
+      "english": "999 min"
+    },
+    {
+      "chunk": "0x752f0",
+      "entry": 20,
+      "source_hex": "91ce",
+      "english": "vs"
+    },
+    {
+      "chunk": "0x752f0",
+      "entry": 22,
+      "source_hex": "8f9f",
+      "english": "W"
+    },
+    {
+      "chunk": "0x752f0",
+      "entry": 23,
+      "source_hex": "9473",
+      "english": "L"
+    }
+  ],
+  "SOLOCONTR.CHK": [
+    {
+      "chunk": "0x28e0",
+      "entry": 8,
+      "source_hex": "9361",
+      "english": ""
+    }
+  ],
+  "SOLOSALARY.CHK": [
+    {
+      "chunk": "0x2560",
+      "entry": 3,
+      "source_hex": "944e",
+      "english": "Yr"
+    },
+    {
+      "chunk": "0x2560",
+      "entry": 7,
+      "source_hex": "9361",
+      "english": ""
+    }
+  ]
+}

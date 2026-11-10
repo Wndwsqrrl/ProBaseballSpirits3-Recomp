@@ -8,7 +8,7 @@
   "other_bounded_roster_fields": 939,
   "additional_given_names_from_unambiguous_dictionary_readings": 325,
   "texture_labels": 47,
-  "localized_archive_members": 7,
+  "localized_archive_members": 19,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -20,9 +20,11 @@
     "recorded trace audit matched 463 strings plus an untranslated square marker",
     "all 940 populated PEMDFIX.CHK fields translated and verified for slot bounds and control sequences",
     "120 team preview lines and five pregame help pages reviewed against offline width and line budgets",
-    "51 distinct native manager comment combinations matched reviewed English"
+    "51 distinct native manager comment combinations matched reviewed English",
+    "78 packed text slots verified by original record, byte capacity, estimated width, and rebuilt archive bytes"
   ],
   "pending_validation": [
+    "Scoreboard, calendar, and stats text-slot placement and current Pennant mission notices",
     "Live match recaps and manager evaluations, including scoring plays and report wrapping",
     "Placement of team previews, career rewards, and pregame help pages",
     "Pennant event story pages, placeholder expansion, and placement in game",
@@ -52,10 +54,10 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 4487,
-    "draft": 1690
+    "reviewed": 4588,
+    "draft": 1589
   },
-  "reviewed_ui_addresses": 1510,
+  "reviewed_ui_addresses": 1611,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -67,7 +69,9 @@
       "parsed_chunks": 325,
       "distinct_japanese": 645,
       "distinct_absent_from_main_list_by_exact_match": 426,
-      "reviewed_lookups": 197
+      "reviewed_lookups": 197,
+      "directly_patched_slots": 78,
+      "directly_patched_members": 13
     }
   },
   "voice_banks": {
@@ -136,6 +140,15 @@
     "manager_comment_variants": 51,
     "manager_comment_lookup_matches": 51,
     "native_manager_variants_replayed_per_outcome": 60,
+    "interactive_validation": false
+  },
+  "packed_slots_and_mission_review": {
+    "newly_reviewed_main_entries": 101,
+    "packed_text_slots": 78,
+    "packed_text_members": 13,
+    "rectangle_width_checks": 78,
+    "estimate_font": "Arial 16 px",
+    "unchanged_archive_members_verified": 2204,
     "interactive_validation": false
   }
 }
