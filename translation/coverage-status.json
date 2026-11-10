@@ -25,9 +25,11 @@
     "all 118 native career dialogue pointers matched reviewed English",
     "213 native form labels and 472 NPB-reviewed given-name fields verified offline",
     "all 648 original roster records have a bounded given-name patch",
-    "77 menu and matchup entries and 227 assembled stat captions matched their expected English offline"
+    "77 menu and matchup entries and 227 assembled stat captions matched their expected English offline",
+    "376 names from the native name pool matched reviewed spellings offline"
   ],
   "pending_validation": [
+    "Generated player names in creation and career modes, including narrow roster cells",
     "In-game match caption placement and stat highlighting, plus main menu descriptions and team records",
     "In-game placement for trade menus and expanded roster names",
     "Live delivery and stance selectors and expanded roster name placement",
@@ -62,8 +64,8 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6176,
-    "reviewed": 5038,
-    "draft": 1138
+    "reviewed": 5414,
+    "draft": 762
   },
   "reviewed_ui_addresses": 1991,
   "packed_ui_inventory": {
@@ -197,5 +199,6 @@
     "reviewed_trade_and_online_entries": 49,
     "offline_trade_and_online_matches": 49,
     "interactive_validation": false
-  }
+  },
+  "reviewed_name_pool_entries": 376
 }

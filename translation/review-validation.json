@@ -2,9 +2,9 @@
   "date": "2026-11-10",
   "catalogue_records": 13832,
   "unique_fingerprints": 13562,
-  "comparison_commit": "a282ac4daa82c4bf1c76ced143e0597f37284ed3",
-  "changed_existing_translations": 85,
-  "added_fingerprints": 83,
+  "comparison_commit": "b7689dbeea535017abc9d52d9b1fab10dcf248de",
+  "changed_existing_translations": 197,
+  "added_fingerprints": 0,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
     "ui": 1991,
@@ -17,20 +17,22 @@
     "mode_and_menu_labels": 412,
     "management_entries": 417,
     "management_labels": 195,
-    "management_runtime_patterns": 3
+    "management_runtime_patterns": 3,
+    "player_names": 376
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
     "control tags and printf arguments preserved across curated catalogues",
-    "all 39 native caption types recovered from the verified phrase table",
-    "77 menu and matchup inputs and 227 assembled captions matched the expected English",
+    "376 name inputs matched their reviewed English spellings",
+    "304 menu and match-caption tests retained their English outputs",
     "464 previous trace inputs retained their match results"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live placement for names from the native player pool",
     "Live match caption placement and number highlighting, plus main menu and team record placement",
     "In-game form labels and the expanded full roster names",
     "In-game career dialogue rendering and placement",
@@ -59,7 +61,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 77,
+  "added_ui_address_reviews": 0,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -161,6 +163,17 @@
     "widest_menu_line_estimated_px": 333,
     "widest_caption_estimated_px": 430,
     "caption_inputs_wider_than_original_estimated": 0,
+    "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "native_player_name_review": {
+    "native_records_examined": 413,
+    "family_names_using_native_latin": 233,
+    "family_names_using_display_kana_or_kanji": 16,
+    "given_names_using_game_dictionary": 65,
+    "western_given_names_using_display_kana": 62,
+    "offline_name_matches": 376,
+    "widest_name_estimated_px": 85,
     "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }
