@@ -1,13 +1,13 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13718,
-  "unique_fingerprints": 13451,
-  "comparison_commit": "089c38fd360499469f71cdd54dcab02f22084efd",
-  "changed_existing_translations": 58,
-  "added_fingerprints": 119,
-  "removed_fragment_or_codebook_fingerprints": 0,
+  "catalogue_records": 13697,
+  "unique_fingerprints": 13430,
+  "comparison_commit": "7506d980eb91bf793ad870d7cc50d1622c59542b",
+  "changed_existing_translations": 344,
+  "added_fingerprints": 0,
+  "removed_fragment_or_codebook_fingerprints": 21,
   "review_entries": {
-    "ui": 1117,
+    "ui": 1410,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -23,17 +23,18 @@
   "checks": [
     "native Windows build passed",
     "all static source fingerprints verified against the supported loaded image",
-    "control-tag and printf argument validation passed for all curated catalogues",
+    "control tags and printf arguments preserved across curated catalogues",
     "formatted translation, padding, and size-limit checks passed",
-    "native pitcher, batter, and coach report composition and rejection checks passed",
+    "native pitcher, batter, and coach report checks passed",
     "all previous static source fingerprints retained",
-    "119 new packed UI lookups matched original extracted bytes in the offline audit",
-    "142 occurrences passed the estimated native rectangle width check",
-    "recorded renderer trace produced the same matches and wording as the previous build"
+    "21 draft fragments retired after paragraph reflow",
+    "recorded renderer trace produced the same matches and wording as the previous build",
+    "new team preview and pregame help lines passed offline width and line-budget checks"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "On-screen team preview, career milestone, and pregame help placement",
     "composed assessment wording and placement in the live game",
     "Live placement of the latest roster, settings, stats, and practice labels",
     "Remaining draft wording and name readings",
@@ -56,7 +57,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 63,
+  "added_ui_address_reviews": 293,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -80,5 +81,15 @@
     "labels_shortened": 17,
     "labels_over_estimated_width": 0,
     "estimate_font": "Arial 16 px"
+  },
+  "season_and_career_review": {
+    "team_previews": 12,
+    "new_team_preview_lines": 110,
+    "new_career_and_season_entries": 183,
+    "pregame_help_pages": 5,
+    "new_team_preview_max_estimated_width_px": 355,
+    "pregame_help_max_estimated_width_px": 351,
+    "estimate_font": "Arial 16 px",
+    "interactive_validation": false
   }
 }

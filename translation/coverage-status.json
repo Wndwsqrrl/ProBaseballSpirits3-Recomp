@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
-  "catalogue_records": 13718,
-  "unique_fingerprints": 13451,
+  "catalogue_records": 13697,
+  "unique_fingerprints": 13430,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -18,9 +18,11 @@
     "unchanged archive members and bytes outside edited regions verified",
     "offline translation review and protected-control checks passed",
     "recorded trace audit matched 463 strings plus an untranslated square marker",
-    "all 940 populated PEMDFIX.CHK fields translated and verified for slot bounds and control sequences"
+    "all 940 populated PEMDFIX.CHK fields translated and verified for slot bounds and control sequences",
+    "120 team preview lines and five pregame help pages reviewed against offline width and line budgets"
   ],
   "pending_validation": [
+    "Placement of team previews, career rewards, and pregame help pages",
     "Pennant event story pages, placeholder expansion, and placement in game",
     "New packed UI labels across roster, offseason, settings, stats, and practice",
     "composed player assessments in live menus",
@@ -48,10 +50,10 @@
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6177,
-    "reviewed": 4135,
-    "draft": 2042
+    "reviewed": 4428,
+    "draft": 1749
   },
-  "reviewed_ui_addresses": 1117,
+  "reviewed_ui_addresses": 1410,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -114,5 +116,15 @@
     "labels_shortened": 17,
     "labels_over_estimated_width": 0,
     "estimate_font": "Arial 16 px"
+  },
+  "season_and_career_review": {
+    "team_previews": 12,
+    "new_team_preview_lines": 110,
+    "new_career_and_season_entries": 183,
+    "pregame_help_pages": 5,
+    "new_team_preview_max_estimated_width_px": 355,
+    "pregame_help_max_estimated_width_px": 351,
+    "estimate_font": "Arial 16 px",
+    "interactive_validation": false
   }
 }
