@@ -1,8 +1,9 @@
 {
   "archive_members": 2223,
-  "unchanged_members_verified": 2193,
+  "unchanged_members_verified": 2191,
   "localized_members": [
     "ARRANGE.CHK",
+    "ARR_ODR.CHK",
     "BBMENU.CHK",
     "BBPSB.CHK",
     "CHOUSEI.CHK",
@@ -10,6 +11,7 @@
     "HRDERBY.CHK",
     "MAINMENU.CHK",
     "MENU2D.CHK",
+    "OPAMD.CHK",
     "ORDERD.CHK",
     "PEMDFIX.CHK",
     "PEMUSERCON.CHK",
@@ -33,8 +35,8 @@
     "UTYJMN.CHK",
     "UTYTOP.CHK"
   ],
-  "atlases": 20,
-  "labels": 117,
+  "atlases": 27,
+  "labels": 161,
   "outside_localized_regions_unchanged": true,
   "packed_text_slots": 83,
   "pennant_event_titles": 187,

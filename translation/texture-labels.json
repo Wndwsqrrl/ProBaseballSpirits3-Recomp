@@ -1160,6 +1160,224 @@
         "outline_width": 1,
         "max_font_size": 18
       }
+    ],
+    "GAME_GMplayer_order.tsr": [
+      {
+        "rect": [
+          80,
+          0,
+          48,
+          26
+        ],
+        "text": "Starter",
+        "source": "先発",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          26,
+          48,
+          26
+        ],
+        "text": "2nd",
+        "source": "2番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          52,
+          48,
+          26
+        ],
+        "text": "3rd",
+        "source": "3番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          78,
+          48,
+          26
+        ],
+        "text": "4th",
+        "source": "4番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          104,
+          48,
+          26
+        ],
+        "text": "5th",
+        "source": "5番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          130,
+          48,
+          26
+        ],
+        "text": "6th",
+        "source": "6番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          156,
+          48,
+          26
+        ],
+        "text": "7th",
+        "source": "7番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          182,
+          48,
+          26
+        ],
+        "text": "8th",
+        "source": "8番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          208,
+          48,
+          26
+        ],
+        "text": "9th",
+        "source": "9番手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          48,
+          26,
+          32,
+          26
+        ],
+        "text": "1B",
+        "source": "一",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          48,
+          52,
+          32,
+          26
+        ],
+        "text": "2B",
+        "source": "二",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          48,
+          78,
+          32,
+          26
+        ],
+        "text": "3B",
+        "source": "三",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          85,
+          255
+        ],
+        "max_font_size": 17
+      }
     ]
   },
   "UTYTOP.CHK": {
@@ -1609,6 +1827,477 @@
         ],
         "max_font_size": 128,
         "align": "center"
+      }
+    ]
+  },
+  "OPAMD.CHK": {
+    "GAME_GMautogame_deban_j1.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          256,
+          34
+        ],
+        "text": "Runner",
+        "source": "ランナー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          34,
+          256,
+          34
+        ],
+        "text": "On Deck",
+        "source": "ネクストバッター",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          68,
+          256,
+          34
+        ],
+        "text": "Pitcher",
+        "source": "ピッチャー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          102,
+          256,
+          34
+        ],
+        "text": "Catcher",
+        "source": "キャッチャー守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          136,
+          256,
+          34
+        ],
+        "text": "First Base",
+        "source": "ファースト守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          170,
+          256,
+          34
+        ],
+        "text": "Second Base",
+        "source": "セカンド守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          204,
+          256,
+          34
+        ],
+        "text": "Third Base",
+        "source": "サード守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          238,
+          256,
+          34
+        ],
+        "text": "Shortstop",
+        "source": "ショート守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          272,
+          256,
+          34
+        ],
+        "text": "Left Field",
+        "source": "レフト守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          306,
+          256,
+          34
+        ],
+        "text": "Center Field",
+        "source": "センター守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          340,
+          256,
+          34
+        ],
+        "text": "Right Field",
+        "source": "ライト守備",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          374,
+          256,
+          34
+        ],
+        "text": "Pinch Hitter",
+        "source": "代打",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          408,
+          256,
+          34
+        ],
+        "text": "Pinch Runner",
+        "source": "代走",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          442,
+          256,
+          34
+        ],
+        "text": "Starting Pitcher",
+        "source": "先発登板",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          476,
+          256,
+          34
+        ],
+        "text": "Relief Pitcher",
+        "source": "リリーフ登板",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      }
+    ],
+    "GAME_GMautogame_deban_j2.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          256,
+          34
+        ],
+        "text": "Pitching in 3 Innings",
+        "source": "あと3イニング登板",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          34,
+          256,
+          34
+        ],
+        "text": "Pitching in 2 Innings",
+        "source": "あと2イニング登板",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          68,
+          256,
+          34
+        ],
+        "text": "Pitching in 1 Inning",
+        "source": "あと1イニング登板",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          24,
+          102,
+          48,
+          34
+        ],
+        "text": "AB #",
+        "source": "第",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          136,
+          102,
+          104,
+          34
+        ],
+        "text": "",
+        "source": "打席",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          136,
+          256,
+          34
+        ],
+        "text": "Next At Bat",
+        "source": "続く打席",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      }
+    ]
+  },
+  "RESULT.CHK": {
+    "MENU_RE_nikkan_01.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          60,
+          18
+        ],
+        "text": "Position",
+        "source": "出場守備",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          102,
+          255
+        ],
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          60,
+          0,
+          60,
+          18
+        ],
+        "text": "Players",
+        "source": "出場選手",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          102,
+          255
+        ],
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          120,
+          0,
+          60,
+          18
+        ],
+        "text": "Rating",
+        "source": "選手評価",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          102,
+          255
+        ],
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          0,
+          86,
+          60,
+          18
+        ],
+        "text": "Pitcher",
+        "source": "ピッチャー",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          102,
+          255
+        ],
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          0,
+          104,
+          60,
+          18
+        ],
+        "text": "Home",
+        "source": "ホーム",
+        "padding": 2,
+        "foreground": [
+          136,
+          136,
+          102,
+          255
+        ],
+        "max_font_size": 15
+      }
+    ],
+    "MENU_REscore_result.tsr": [
+      {
+        "rect": [
+          184,
+          80,
+          64,
+          32
+        ],
+        "text": "Next",
+        "source": "次へ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      }
+    ]
+  },
+  "PNCALENDAR.CHK": {
+    "MENU_PE_calendar3.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          96,
+          48
+        ],
+        "text": "Champions",
+        "source": "優勝",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26,
+        "foreground": [
+          238,
+          204,
+          0,
+          255
+        ]
+      }
+    ]
+  },
+  "ARR_ODR.CHK": {
+    "MENU_ARorsetting_00.tsr": [
+      {
+        "rect": [
+          6,
+          3,
+          172,
+          23
+        ],
+        "text": "DH: Optimized",
+        "source": "DHあり ベストオーダー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "background_sample_x": 68
+      },
+      {
+        "rect": [
+          6,
+          34,
+          172,
+          23
+        ],
+        "text": "DH: vs LHP",
+        "source": "DHあり 対左オーダー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "background_sample_x": 68
+      },
+      {
+        "rect": [
+          6,
+          65,
+          172,
+          23
+        ],
+        "text": "No DH: Optimized",
+        "source": "DHなし ベストオーダー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "background_sample_x": 68
+      },
+      {
+        "rect": [
+          6,
+          96,
+          172,
+          23
+        ],
+        "text": "No DH: vs LHP",
+        "source": "DHなし 対左オーダー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "background_sample_x": 68
       }
     ]
   }

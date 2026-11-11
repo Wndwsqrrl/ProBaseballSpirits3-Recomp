@@ -63,6 +63,7 @@ def patch_chk(data, atlases, font_path, preview):
                             value=(((pixel>>8)&15)*17,((pixel>>4)&15)*17,(pixel&15)*17,((pixel>>12)&15)*17)
                         rgba[index*4:index*4+4] = bytes(value)
                     image = Image.frombytes('RGBA', (width, height), bytes(rgba))
+                background_image = image.copy() if any('background_sample_x' in label for label in atlases[name]) else None
                 dirty_blocks=set()
                 for label in atlases[name]:
                     x, y, w, h = label['rect']
@@ -70,6 +71,14 @@ def patch_chk(data, atlases, font_path, preview):
                         raise ValueError('Label rectangle outside atlas')
                     scale = 4
                     tile = Image.new('RGBA', (w*scale, h*scale), tuple(label.get('background',(68,68,68,0))))
+                    if 'background_sample_x' in label:
+                        sample_x = label['background_sample_x']
+                        if not 0 <= sample_x < width:
+                            raise ValueError('Background sample column outside atlas')
+                        tile = background_image.crop((sample_x,y,sample_x+1,y+h)).resize(
+                            (w*scale,h*scale), Image.Resampling.NEAREST)
+                        tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
+                            (w*scale,h*scale), Image.Resampling.NEAREST))
                     draw = ImageDraw.Draw(tile)
                     alignment = label.get('align', 'left')
                     stroke = label.get('outline_width', 0) * scale

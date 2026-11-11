@@ -19,16 +19,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "ARR_ODR.CHK",
-      "texture": "MENU_ARorsetting_00.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Default and versus-left lineup buttons with and without DH",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "BB06TIT.CHK",
       "texture": "MENU_OPtitle_a.tsr",
       "width": 1024,
@@ -125,16 +115,6 @@
       "height": 64,
       "format": "1828014f",
       "remaining_text": "Player statistics and split labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_GMplayer_order.tsr",
-      "width": 128,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Batting order suffixes",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -329,26 +309,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "OPAMD.CHK",
-      "texture": "GAME_GMautogame_deban_j1.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "18280186",
-      "remaining_text": "Auto-game fielding and substitution roles",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "OPAMD.CHK",
-      "texture": "GAME_GMautogame_deban_j2.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "18280186",
-      "remaining_text": "Auto-game upcoming turns and innings",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "ORDERD.CHK",
       "texture": "MENU_OR_deco_01.tsr",
       "width": 256,
@@ -365,16 +325,6 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Perfect Play Pro Baseball logo",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "PNCALENDAR.CHK",
-      "texture": "MENU_PE_calendar3.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "18280186",
-      "remaining_text": "Championship label",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -470,31 +420,11 @@
     },
     {
       "member": "RESULT.CHK",
-      "texture": "MENU_RE_nikkan_01.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Appearance and scouting assessment labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "RESULT.CHK",
       "texture": "MENU_REhaikyu_00.tsr",
       "width": 256,
       "height": 128,
       "format": "1a200153",
       "remaining_text": "Pitch distribution result labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "RESULT.CHK",
-      "texture": "MENU_REscore_result.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Next prompt",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -770,5 +700,84 @@
     }
   ],
   "preserved_artwork": "In-stadium signs, sponsor advertisements and ballpark artwork remain Japanese. Photographs and rendered stadium models are preserved when interface labels are localized.",
-  "interactive_validation": false
+  "interactive_validation": false,
+  "translated_textures": [
+    {
+      "member": "ARR_ODR.CHK",
+      "texture": "MENU_ARorsetting_00.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Default and versus-left lineup buttons with and without DH",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "OPAMD.CHK",
+      "texture": "GAME_GMautogame_deban_j1.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "Auto-game fielding and substitution roles",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "OPAMD.CHK",
+      "texture": "GAME_GMautogame_deban_j2.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Auto-game upcoming turns and innings",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "PNCALENDAR.CHK",
+      "texture": "MENU_PE_calendar3.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Championship label",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_nikkan_01.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Appearance and scouting assessment labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_REscore_result.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Next prompt",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_order.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Position and pitcher sequence glyphs replaced",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    }
+  ]
 }
