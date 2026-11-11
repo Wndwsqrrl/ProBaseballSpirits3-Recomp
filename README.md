@@ -15,6 +15,7 @@ This repository contains port source, executable analysis metadata, English tran
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
 - The name pool includes **376 reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
+- The announcer-name selector has **1,256 English labels**, with 144 spelling overrides and phonetic transliteration for the remaining kana names. The labels use the original audio IDs. In-game placement still needs checking.
 - The main extracted list has **5,700 reviewed entries and 486 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
@@ -95,6 +96,7 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `generate-headline-patterns.py`: create bounded name/number aliases for filled newspaper headlines, preserving the original field order.
 - `check-text-layout.py`: check reviewed settings text against an approximate Arial width and line budget. Requires Pillow; this is an offline estimate, not a measurement of game rectangles.
 - `catalogue-name-readings.py`: decode the game's name dictionary. `catalogue-roster.py` combines name fields, Latin jersey spellings, reviewed roster names, and unambiguous dictionary readings. Pass `--reviewed-roster` for each reviewed name file.
+- `generate-announced-names.py EDIT.CHK translation/announced-name-spellings.json prospi3-recomp/src/announced_names.h` regenerates announcer-name labels from the decoded editor resource.
 - `catalogue-menu-assets.py`: inventory textures and create local contact sheets.
 - `pennant_events.py`: export the ten fields of each event from an extracted, decoded `PEMDFIX.CHK`.
 - `build-english-assets.py`: replace atlas rectangles, packed menu text, and Pennant event text in a separate archive.

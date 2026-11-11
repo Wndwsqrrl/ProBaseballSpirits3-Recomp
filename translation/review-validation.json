@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "catalogue_records": 14025,
   "unique_fingerprints": 13731,
-  "comparison_commit": "0801c018bc44c36cf3089f59f58c42b045a8e2c7",
-  "changed_existing_translations": 22,
-  "added_fingerprints": 153,
+  "comparison_commit": "9ba9e5d8eda2774c1b5ecfecadd8228edb6bd819",
+  "changed_existing_translations": 0,
+  "added_fingerprints": 0,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
     "ui": 1991,
@@ -23,12 +23,10 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
-    "the compiled save title wrapper links to the verified native caller",
-    "the UTF-16BE display title fits the XCONTENT_DATA field and preserves the save key",
-    "177 packed lookup inputs matched reviewed English",
-    "321 original menu rectangles checked against estimated English width",
-    "83 packed slots and 2202 unchanged archive members verified",
-    "464 previous renderer inputs audited with 25 intended wording updates"
+    "1256 native announcer names matched the generated English lookup",
+    "1256 English labels are distinct",
+    "seven native announcer-name display calls target the scoped hook",
+    "the announced-name source member and its audio IDs are preserved"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -64,7 +62,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 1,
+  "added_ui_address_reviews": 0,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -202,6 +200,18 @@
     "save_metadata_title_utf16be_field_verified": true,
     "save_metadata_file_key_preserved": true,
     "announced_name_labels_discovered": 1256,
+    "interactive_validation": false
+  },
+  "announced_name_review": {
+    "source_chunk": "EDIT.CHK / VC00",
+    "input_names_matched": 1256,
+    "distinct_english_labels": 1256,
+    "spelling_overrides": 144,
+    "phonetic_transliterations": 1112,
+    "native_audio_ids_preserved": 1256,
+    "native_display_call_sites_checked": 7,
+    "widest_label_estimated_px": 95,
+    "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }
 }

@@ -1,4 +1,5 @@
 #include "text_localization.h"
+#include "announced_names.h"
 #include "latin_font.h"
 #include "performance.h"
 #include "format_translation.h"
@@ -35,10 +36,12 @@ REX_EXTERN(__imp__sub_82548958);
 REX_EXTERN(__imp__sub_8254C0A8);
 REX_EXTERN(__imp__sub_826BA910);
 REX_EXTERN(__imp__sub_8262FB40);
+REX_EXTERN(__imp__sub_82135D68);
 
 namespace {
 rex::memory::Memory* memory = nullptr;
 std::unordered_map<uint64_t, uint32_t> translations;
+std::unordered_map<uint64_t, uint32_t> announced_names;
 std::mutex trace_mutex;
 std::unordered_set<uint64_t> traced;
 std::ofstream untranslated;
@@ -312,6 +315,7 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
   REXLOG_INFO("Custom Latin font: {}",latin_font_enabled?"enabled":"disabled (diagnostic)");
   size_t bytes=0;
   for (const auto& entry : kFullTranslations) bytes += entry.english.size()+1;
+  for (const auto& entry : kAnnouncedNames) bytes += entry.english.size()+1;
   if (bytes > 16*1024*1024) throw std::runtime_error("Translation pool too large");
   const uint32_t pool = memory->SystemHeapAlloc(static_cast<uint32_t>(bytes));
   if (!pool) throw std::runtime_error("Cannot allocate English string pool");
@@ -340,6 +344,14 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     translations.emplace(entry.fingerprint,position);
     if(entry.address) relocated.emplace(entry.address,position);
     position+=static_cast<uint32_t>(entry.english.size()+1);
+  }
+  announced_names.reserve(std::size(kAnnouncedNames));
+  for (const auto& entry : kAnnouncedNames) {
+    auto* target = memory->TranslateVirtual(position);
+    std::memcpy(target, entry.english.data(), entry.english.size());
+    target[entry.english.size()] = 0;
+    announced_names.emplace(entry.source_hash, position);
+    position += static_cast<uint32_t>(entry.english.size() + 1);
   }
   dynamic_pool=memory->SystemHeapAlloc(kDynamicPoolSize);
   if(!dynamic_pool)throw std::runtime_error("Cannot allocate formatted translation pool");
@@ -371,6 +383,33 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     short_text.open(runtime.user_data_root()/"short-text.tsv",std::ios::app);
   }
   REXLOG_INFO("Full English text draft: {} strings, {} relocated references, {} pool bytes at {:08X}",std::size(kFullTranslations),changed,bytes,pool);
+}
+
+REX_EXTERN(sub_82135D68) {
+  switch (ctx.lr) {
+    case 0x82383EA0:
+    case 0x82383F98:
+    case 0x82384020:
+    case 0x8238411C:
+    case 0x823842FC:
+    case 0x8238433C:
+    case 0x82384AE4:
+      if (memory && ctx.r5.u32) {
+        // These callers pass the selected name from EDIT.CHK to the renderer.
+        // The kana search grid and the voice ID still use the native records.
+        const auto* name = reinterpret_cast<const char*>(memory->TranslateVirtual(ctx.r5.u32));
+        constexpr size_t kMaxNameBytes = 16;
+        const auto length = strnlen(name, kMaxNameBytes);
+        if (length < kMaxNameBytes) {
+          if (auto it = announced_names.find(Fingerprint({name, length}));
+              it != announced_names.end()) {
+            ctx.r5.u64 = it->second;
+          }
+        }
+      }
+      break;
+  }
+  __imp__sub_82135D68(ctx, base);
 }
 
 REX_EXTERN(sub_8262FB40) {
