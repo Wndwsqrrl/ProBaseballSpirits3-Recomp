@@ -568,6 +568,135 @@
         "padding": 2,
         "outline_width": 1
       }
+    ],
+    "MENU_COMte_log_64.tsr": [
+      {
+        "rect": [
+          856,
+          24,
+          121,
+          57
+        ],
+        "text": "China",
+        "padding": 4,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          850,
+          125,
+          128,
+          59
+        ],
+        "text": "Korea",
+        "padding": 4,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          845,
+          226,
+          148,
+          59
+        ],
+        "text": "Chinese\nTaipei",
+        "padding": 4,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "align": "center"
+      },
+      {
+        "rect": [
+          632,
+          442,
+          161,
+          34
+        ],
+        "text": "Unaffiliated",
+        "padding": 4,
+        "foreground": [
+          238,
+          238,
+          238,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      }
+    ],
+    "MENU_COM_flag_m.tsr": [
+      {
+        "rect": [
+          224,
+          44,
+          56,
+          18
+        ],
+        "text": "Custom",
+        "padding": 2,
+        "background": [
+          110,
+          110,
+          110,
+          255
+        ]
+      },
+      {
+        "rect": [
+          280,
+          44,
+          56,
+          18
+        ],
+        "text": "Custom",
+        "padding": 2,
+        "background": [
+          110,
+          110,
+          110,
+          255
+        ]
+      }
     ]
   }
 }

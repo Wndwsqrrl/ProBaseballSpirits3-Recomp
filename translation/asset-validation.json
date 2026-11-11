@@ -24,8 +24,8 @@
     "TMSEL.CHK",
     "TRISEL.CHK"
   ],
-  "atlases": 6,
-  "labels": 47,
+  "atlases": 8,
+  "labels": 53,
   "outside_localized_regions_unchanged": true,
   "packed_text_slots": 83,
   "pennant_event_titles": 187,

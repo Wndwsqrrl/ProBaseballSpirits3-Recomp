@@ -1,13 +1,13 @@
 {
   "date": "2026-11-11",
-  "catalogue_records": 14016,
-  "unique_fingerprints": 13722,
+  "catalogue_records": 14020,
+  "unique_fingerprints": 13726,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 47,
+  "texture_labels": 53,
   "localized_archive_members": 21,
   "validation": [
     "native Windows build passed",
@@ -33,9 +33,11 @@
     "Xbox storage title hook linked and UTF-16BE display field verified offline with the original save key",
     "1256 announced-name inputs matched distinct English labels and the original audio IDs",
     "46 English announcer-navigation syllables cover all 70 native grid cells, including 24 blanks",
-    "18 additional draft, free-agency, and system entries passed 19 lookup checks and offline width checks"
+    "18 additional draft, free-agency, and system entries passed 19 lookup checks and offline width checks",
+    "27 complete career rating and contract prompts matched English; six country/custom-team texture labels passed archive and preview checks"
   ],
   "pending_validation": [
+    "Live career rating, contract confirmation, and country/custom-team label placement",
     "Draft help and free-agency headings in live offseason menus",
     "Live announcer-grid syllable alignment and selector navigation",
     "Live announcer-name selection, scrolling, audition, and text placement in both player editors",
@@ -75,11 +77,11 @@
   "reviewed_newspaper_lines": 308,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1021,
-  "reviewed_management_entries": 417,
+  "reviewed_management_entries": 421,
   "main_extracted_text": {
-    "entries": 6186,
-    "reviewed": 5718,
-    "draft": 468
+    "entries": 6188,
+    "reviewed": 5724,
+    "draft": 464
   },
   "reviewed_ui_addresses": 1991,
   "packed_ui_inventory": {
@@ -230,5 +232,14 @@
     "romanized_navigation_labels": 46,
     "native_grid_cells": 70,
     "preserved_blank_cells": 24
+  },
+  "career_result_and_team_labels_review": {
+    "address_reviews": 4,
+    "complete_runtime_patterns": 2,
+    "offline_composed_input_matches": 27,
+    "texture_labels_added": 6,
+    "texture_atlases_added": 2,
+    "texture_previews_checked": true,
+    "interactive_validation": false
   }
 }

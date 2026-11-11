@@ -1,11 +1,11 @@
 {
   "date": "2026-11-11",
-  "catalogue_records": 14016,
-  "unique_fingerprints": 13722,
-  "comparison_commit": "a0b4dafbcbb12da5b04302912aadde3b4a0703ef",
-  "changed_existing_translations": 16,
-  "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 9,
+  "catalogue_records": 14020,
+  "unique_fingerprints": 13726,
+  "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
+  "changed_existing_translations": 6,
+  "added_fingerprints": 4,
+  "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
     "ui": 1991,
     "ability_descriptions_and_requirements": 337,
@@ -15,21 +15,22 @@
     "settings_labels": 48,
     "mode_and_menu_entries": 1021,
     "mode_and_menu_labels": 412,
-    "management_entries": 417,
+    "management_entries": 421,
     "management_labels": 195,
-    "management_runtime_patterns": 17,
+    "management_runtime_patterns": 19,
     "player_names": 376
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
-    "18 additional native strings matched reviewed English in 19 lookup inputs",
-    "draft help color and button controls passed curation checks",
-    "updated lines fit an estimated 320 pixels at Arial 16 px"
+    "27 complete career rating and contract prompts matched expected English",
+    "all 2223 archive members verified, including 2202 unchanged members",
+    "country and custom-team texture previews checked with multiline centering"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live career rating, contract confirmation, and country/custom-team label placement",
     "In-game packed fallback placement and Xbox save display",
     "Live placement for updated team, standings, VP Shop, and system text",
     "Live placement for names from the native player pool",
@@ -230,6 +231,15 @@
     "offline_lookup_matches": 19,
     "widest_line_estimated_px": 320,
     "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "career_result_and_team_labels_review": {
+    "address_reviews": 4,
+    "complete_runtime_patterns": 2,
+    "offline_composed_input_matches": 27,
+    "texture_labels_added": 6,
+    "texture_atlases_added": 2,
+    "texture_previews_checked": true,
     "interactive_validation": false
   }
 }

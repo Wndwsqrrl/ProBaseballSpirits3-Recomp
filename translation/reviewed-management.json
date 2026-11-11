@@ -416,7 +416,11 @@
     "0x82091F78": "A super sub ready to compete for a regular position",
     "0x82091FA4": "A player with the ability to hold a regular starting role",
     "0x82091FD4": "A franchise player our team cannot do without",
-    "0x82091FF8": "One of baseball's leading stars"
+    "0x82091FF8": "One of baseball's leading stars",
+    "0x8209F1CC": "Player Rating: ",
+    "0x8209F1EC": " stars\n\nVP Bonus: ",
+    "0x8209F208": " VP earned!",
+    "0x8209C048": "Sign this player?"
   },
   "labels": {
     "通算": "All Time",
@@ -716,6 +720,18 @@
       "address": "0x00000000",
       "source": "通算%d本塁打",
       "english": "%d Career Home Runs",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "あなたが育てた選手の評価は★%d.%dです\n\nＶＰボーナス%d.%d×400＝%dを獲得しました！",
+      "english": "Player Rating: %d.%d stars\n\nVP Bonus: %d.%d x 400 = %d VP",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%sと契約しますか？",
+      "english": "Sign %s?",
       "status": "reviewed"
     }
   ],

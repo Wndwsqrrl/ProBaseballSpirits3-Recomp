@@ -34317,8 +34317,8 @@
     "address": "0x8209C048",
     "source_size": 16,
     "source_hash": "55BC0E340C441D55",
-    "english": "Do you want to make a contract with?",
-    "status": "draft"
+    "english": "Sign this player?",
+    "status": "reviewed"
   },
   {
     "address": "0x8209C078",
@@ -34800,22 +34800,22 @@
     "address": "0x8209F1CC",
     "source_size": 28,
     "source_hash": "9BCF3798400FEB60",
-    "english": "What is your evaluation of the players you trained?★",
-    "status": "draft"
+    "english": "Player Rating: ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F1EC",
     "source_size": 18,
     "source_hash": "4CC66DB2F14BA2D4",
-    "english": "It is\n\nVP bonus",
-    "status": "draft"
+    "english": " stars\n\nVP Bonus: ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F208",
     "source_size": 16,
     "source_hash": "2184DF7AC42CCA15",
-    "english": "I got it!",
-    "status": "draft"
+    "english": " VP earned!",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F234",
@@ -43342,6 +43342,22 @@
     "english": "%d Career Home Runs",
     "status": "reviewed",
     "format_source": "通算%d本塁打"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 81,
+    "source_hash": "E0B93A2AA1DC27B7",
+    "english": "Player Rating: %d.%d stars\n\nVP Bonus: %d.%d x 400 = %d VP",
+    "status": "reviewed",
+    "format_source": "あなたが育てた選手の評価は★%d.%dです\n\nＶＰボーナス%d.%d×400＝%dを獲得しました！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "F38F33130A18AD61",
+    "english": "Sign %s?",
+    "status": "reviewed",
+    "format_source": "%sと契約しますか？"
   },
   {
     "address": "0x00000000",
@@ -97112,15 +97128,15 @@
     "address": "0x00000000",
     "source_size": 4,
     "source_hash": "E1BE62B7A00739A3",
-    "english": "It is",
-    "status": "draft"
+    "english": "stars",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "DFB6A34878FD2BDE",
-    "english": "VP bonus",
-    "status": "draft"
+    "english": "VP Bonus:",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -97624,6 +97640,20 @@
     "source_size": 14,
     "source_hash": "DA957A56B38CA0F0",
     "english": "%d W / %d L / %d T",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 37,
+    "source_hash": "4079F6EDCFC8D3A6",
+    "english": "Player Rating: %d.%d stars",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "D44981BBABFE8D20",
+    "english": "VP Bonus: %d.%d x 400 = %d VP",
     "status": "reviewed"
   },
   {

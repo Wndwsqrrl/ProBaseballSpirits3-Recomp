@@ -67,14 +67,16 @@ def patch_chk(data, atlases, font_path, preview):
                     scale = 4
                     tile = Image.new('RGBA', (w*scale, h*scale), tuple(label.get('background',(68,68,68,0))))
                     draw = ImageDraw.Draw(tile)
+                    alignment = label.get('align', 'left')
                     for size in range(38, 12, -1):
                         font = ImageFont.truetype(str(font_path), size*scale)
-                        box = draw.textbbox((0,0), label['text'], font=font)
+                        box = draw.textbbox((0,0), label['text'], font=font, align=alignment)
                         if box[2]-box[0] <= (w-label.get('padding',12))*scale and box[3]-box[1] <= (h-3)*scale:
                             break
                     x_text = (w*scale - (box[2]-box[0]))/2 - box[0]
                     y_text = (h*scale - (box[3]-box[1]))/2 - box[1]
                     draw.text((x_text, y_text), label['text'], font=font,
+                        align=alignment,
                         fill=tuple(label.get('foreground',(255,255,255,255))),
                         stroke_width=label.get('outline_width',0)*scale,
                         stroke_fill=tuple(label.get('outline',(0,0,0,255))))

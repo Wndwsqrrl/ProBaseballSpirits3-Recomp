@@ -9,14 +9,14 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **14,016 records / 13,722 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
-- **47 texture labels** in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, and an input-screen Back label.
+- Current catalogue: **14,020 records / 13,726 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
+- **53 texture labels** across eight atlases in six archive members cover menu modes, positions, lineup legends, handedness comparisons, home/away markers, an input-screen Back label, and country/custom-team labels.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
 - The name pool includes **376 reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
 - The announcer-name selector has **1,256 English labels**, with 144 spelling overrides and phonetic transliteration for the remaining kana names. Its navigation grid displays 46 English syllables, fitted within the native cells. In-game placement still needs checking.
-- The main extracted list has **5,718 reviewed entries and 468 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- The main extracted list has **5,724 reviewed entries and 464 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
