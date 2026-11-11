@@ -228,21 +228,21 @@
     "source_size": 4,
     "source_hash": "7466332E817DBDB9",
     "english": "Kiyohara",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8205F8A8",
     "source_size": 4,
     "source_hash": "0C76F92ED687C291",
     "english": "Aoki",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8205F8B0",
     "source_size": 4,
     "source_hash": "36C554D2060FAB4E",
     "english": "Matsunaka",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8205F8B8",
@@ -6996,8 +6996,8 @@
     "address": "0x820715DC",
     "source_size": 6,
     "source_hash": "8C5B097D776AD760",
-    "english": "No. %d",
-    "status": "draft"
+    "english": "HR No. %d",
+    "status": "reviewed"
   },
   {
     "address": "0x82072F0C",
@@ -7283,7 +7283,7 @@
     "address": "0x82073588",
     "source_size": 4,
     "source_hash": "524D09B7DFC54EAE",
-    "english": "Off",
+    "english": "None",
     "status": "reviewed"
   },
   {
@@ -23705,8 +23705,8 @@
     "address": "0x8208DF14",
     "source_size": 10,
     "source_hash": "6700EBDFC1E3404A",
-    "english": "special string",
-    "status": "draft"
+    "english": "Special Text",
+    "status": "reviewed"
   },
   {
     "address": "0x8208DF68",
@@ -28535,8 +28535,8 @@
     "address": "0x82093E88",
     "source_size": 436,
     "source_hash": "7DA98AE87804FD8A",
-    "english": "[<RGB 0x00785f>Make Draft Picks<RGB 0x7f7f7f>]<BR>this year's<RGB 0x7d5300>Players participating in the draft<RGB 0x7f7f7f>is decided! ! While checking the strength of the team, identify and select the players you need.<BR><BR>The first round is<RGB 0x7d5300>Free acquisition quota<RGB 0x7f7f7f>, the second round is<RGB 0x00785f>Weber order<RGB 0x7f7f7f>. The third round is<RGB 0x7d5300>2nd round and opposite<RGB 0x7f7f7f>The selection will proceed.<BR><BR>Select a player from the list and make your decision.<BOTTOM><+LR>Switch<○>Close 1/2",
-    "status": "draft"
+    "english": "[<RGB 0x00785f>Make Draft Picks<RGB 0x7f7f7f>]<BR>This year's<RGB 0x7d5300> draft pool<RGB 0x7f7f7f> is ready!<BR>Check your roster and choose players who<BR>fill your team's needs.<BR><BR>Round 1 uses the<RGB 0x7d5300> Free Acquisition Slot<RGB 0x7f7f7f>.<BR>Round 2 follows<RGB 0x00785f> waiver order<RGB 0x7f7f7f>.<BR>Round 3 uses<RGB 0x7d5300> the reverse of Round 2's order<RGB 0x7f7f7f>.<BR><BR>Select a player from the list and confirm.<BOTTOM><+LR>Switch <○>Close        1/2",
+    "status": "reviewed"
   },
   {
     "address": "0x82094040",
@@ -28570,8 +28570,8 @@
     "address": "0x820946CC",
     "source_size": 42,
     "source_hash": "79BECC226ED538E7",
-    "english": "<RGB 0x41507a> Draft Help <RGB 0x7f7f7f>",
-    "status": "draft"
+    "english": "<RGB 0x41507a>Draft Help<RGB 0x7f7f7f>",
+    "status": "reviewed"
   },
   {
     "address": "0x82094738",
@@ -28759,8 +28759,8 @@
     "address": "0x82095484",
     "source_size": 52,
     "source_hash": "63ADFF2A1408CD8E",
-    "english": "<RGB 0x41507a>free agent help<RGB 0x7f7f7f>",
-    "status": "draft"
+    "english": "<RGB 0x41507a>Free Agency Help<RGB 0x7f7f7f>",
+    "status": "reviewed"
   },
   {
     "address": "0x820954F0",
@@ -28794,8 +28794,8 @@
     "address": "0x820958A0",
     "source_size": 30,
     "source_hash": "903C1B17942A6E16",
-    "english": "List of real free agent players",
-    "status": "draft"
+    "english": "Real Free Agents",
+    "status": "reviewed"
   },
   {
     "address": "0x820958C0",
@@ -28808,8 +28808,8 @@
     "address": "0x82095904",
     "source_size": 26,
     "source_hash": "F68EEC7992776CC6",
-    "english": "List of free agent players",
-    "status": "draft"
+    "english": "Free Agents",
+    "status": "reviewed"
   },
   {
     "address": "0x82095920",
@@ -28822,8 +28822,8 @@
     "address": "0x82095950",
     "source_size": 26,
     "source_hash": "C591480083BF0C38",
-    "english": "Free agent results list",
-    "status": "draft"
+    "english": "Free Agency Results",
+    "status": "reviewed"
   },
   {
     "address": "0x8209598C",
@@ -30404,22 +30404,22 @@
     "address": "0x82098478",
     "source_size": 12,
     "source_hash": "12FCE1F0FB3AC3DB",
-    "english": "pronoun error",
-    "status": "draft"
+    "english": "Pronoun Error",
+    "status": "reviewed"
   },
   {
     "address": "0x820984A0",
     "source_size": 11,
     "source_hash": "E9D137367526741E",
-    "english": "special string",
-    "status": "draft"
+    "english": "Special Text ",
+    "status": "reviewed"
   },
   {
     "address": "0x820984E0",
     "source_size": 2,
     "source_hash": "0A1FB207B68EC412",
-    "english": "mystery",
-    "status": "draft"
+    "english": "Unknown",
+    "status": "reviewed"
   },
   {
     "address": "0x82098520",
@@ -34835,8 +34835,8 @@
     "address": "0x8209F2CC",
     "source_size": 16,
     "source_hash": "FD4D673E8855233D",
-    "english": "pitcher control",
-    "status": "draft"
+    "english": "Pitcher Control",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F2E0",
@@ -34891,8 +34891,8 @@
     "address": "0x8209F388",
     "source_size": 30,
     "source_hash": "210A1C056396F94D",
-    "english": "It's weird if you see this message.",
-    "status": "draft"
+    "english": "This message should not appear.",
+    "status": "reviewed"
   },
   {
     "address": "0x8209F3A8",
@@ -37775,8 +37775,8 @@
     "address": "0x820A2824",
     "source_size": 17,
     "source_hash": "EFCF6C96334CAE05",
-    "english": "original player 2",
-    "status": "draft"
+    "english": "Created Player 2",
+    "status": "reviewed"
   },
   {
     "address": "0x820A2880",
@@ -95367,101 +95367,10 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "14CF1CA24A2A9915",
-    "english": "Make Draft Picks",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 6,
-    "source_hash": "875ECB92D58F2627",
-    "english": "This year's",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 16,
-    "source_hash": "ABAB10F69D41532C",
-    "english": "Players participating in the draft",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 74,
-    "source_hash": "65DFA8CA614C8A9E",
-    "english": "is decided! ! While checking the strength of the team, identify and select the players you need.",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "C0C6A20BA81FDFD5",
-    "english": "The first round is",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "DCBC6A47D89C00EB",
-    "english": "Free acquisition quota",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "E365A55854AF0330",
-    "english": ", the second round is",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 12,
-    "source_hash": "DBB3554B293A3790",
-    "english": "Weber order",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "521FB03679164A74",
-    "english": ". The third round is",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "8605A1C4E98C3720",
-    "english": "2nd round and opposite",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 22,
-    "source_hash": "BE4F455084BA4EB5",
-    "english": "The selection will proceed.",
-    "status": "draft"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 40,
-    "source_hash": "11F713137DD6D2CC",
-    "english": "Select players from the list and confirm.",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 17,
-    "source_hash": "B22E5A26F4EC6F9F",
-    "english": "Close     1/2",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
     "source_size": 14,
     "source_hash": "19AB13B9D70A9D1E",
     "english": "Draft Help",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -95501,6 +95410,13 @@
   {
     "address": "0x00000000",
     "source_size": 16,
+    "source_hash": "14CF1CA24A2A9915",
+    "english": "Make Draft Picks",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
     "source_hash": "05C35C2D855828BC",
     "english": "Check Team Strength",
     "status": "reviewed"
@@ -95523,8 +95439,8 @@
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "0F3B349846C95FFF",
-    "english": "free agent help",
-    "status": "draft"
+    "english": "Free Agency Help",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -95570,6 +95486,13 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "875ECB92D58F2627",
+    "english": "This year's",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 20,
     "source_hash": "4EC7E51134BB4F90",
     "english": "tryout participants",
@@ -95594,6 +95517,20 @@
     "source_size": 28,
     "source_hash": "9D0ADB11DA387CD2",
     "english": "Identify the players your team needs.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "11F713137DD6D2CC",
+    "english": "Select players from the list and confirm.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 17,
+    "source_hash": "B22E5A26F4EC6F9F",
+    "english": "Close     1/2",
     "status": "reviewed"
   },
   {

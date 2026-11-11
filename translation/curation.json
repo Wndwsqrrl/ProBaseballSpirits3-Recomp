@@ -6189,7 +6189,25 @@
     "0x820A4E70": "Wallpaper: Fullcast Stadium Miyagi B",
     "0x820A4E98": "Wallpaper: Local Ballpark A",
     "0x820A4EAC": "Wallpaper: Local Ballpark B",
-    "0x820806BC": "Same Surname: Given"
+    "0x820806BC": "Same Surname: Given",
+    "0x82093E88": "[<RGB 0x00785f>Make Draft Picks<RGB 0x7f7f7f>]<BR>This year's<RGB 0x7d5300> draft pool<RGB 0x7f7f7f> is ready!<BR>Check your roster and choose players who<BR>fill your team's needs.<BR><BR>Round 1 uses the<RGB 0x7d5300> Free Acquisition Slot<RGB 0x7f7f7f>.<BR>Round 2 follows<RGB 0x00785f> waiver order<RGB 0x7f7f7f>.<BR>Round 3 uses<RGB 0x7d5300> the reverse of Round 2's order<RGB 0x7f7f7f>.<BR><BR>Select a player from the list and confirm.<BOTTOM><+LR>Switch <○>Close        1/2",
+    "0x820946CC": "<RGB 0x41507a>Draft Help<RGB 0x7f7f7f>",
+    "0x82095484": "<RGB 0x41507a>Free Agency Help<RGB 0x7f7f7f>",
+    "0x820958A0": "Real Free Agents",
+    "0x82095904": "Free Agents",
+    "0x82095950": "Free Agency Results",
+    "0x8209F2CC": "Pitcher Control",
+    "0x8209F388": "This message should not appear.",
+    "0x820A2824": "Created Player 2",
+    "0x820715DC": "HR No. %d",
+    "0x82073588": "None",
+    "0x8208DF14": "Special Text",
+    "0x82098478": "Pronoun Error",
+    "0x820984A0": "Special Text ",
+    "0x820984E0": "Unknown",
+    "0x8205F8A0": "Kiyohara",
+    "0x8205F8A8": "Aoki",
+    "0x8205F8B0": "Matsunaka"
   },
   "additional_strings": [
     {

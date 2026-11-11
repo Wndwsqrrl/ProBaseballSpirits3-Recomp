@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "catalogue_records": 14025,
-  "unique_fingerprints": 13731,
+  "catalogue_records": 14016,
+  "unique_fingerprints": 13722,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -32,9 +32,11 @@
     "83 directly patched text slots and 2202 unchanged archive members verified against the original archive",
     "Xbox storage title hook linked and UTF-16BE display field verified offline with the original save key",
     "1256 announced-name inputs matched distinct English labels and the original audio IDs",
-    "46 English announcer-navigation syllables cover all 70 native grid cells, including 24 blanks"
+    "46 English announcer-navigation syllables cover all 70 native grid cells, including 24 blanks",
+    "18 additional draft, free-agency, and system entries passed 19 lookup checks and offline width checks"
   ],
   "pending_validation": [
+    "Draft help and free-agency headings in live offseason menus",
     "Live announcer-grid syllable alignment and selector navigation",
     "Live announcer-name selection, scrolling, audition, and text placement in both player editors",
     "Live placement of packed menu defaults and the Xbox save title",
@@ -72,12 +74,12 @@
   "latest_offline_review": "review-validation.json",
   "reviewed_newspaper_lines": 308,
   "reviewed_settings_descriptions": 207,
-  "reviewed_mode_and_menu_entries": 1003,
+  "reviewed_mode_and_menu_entries": 1021,
   "reviewed_management_entries": 417,
   "main_extracted_text": {
     "entries": 6186,
-    "reviewed": 5700,
-    "draft": 486
+    "reviewed": 5718,
+    "draft": 468
   },
   "reviewed_ui_addresses": 1991,
   "packed_ui_inventory": {

@@ -1,11 +1,11 @@
 {
   "date": "2026-11-11",
-  "catalogue_records": 14025,
-  "unique_fingerprints": 13731,
-  "comparison_commit": "b5c53d3945e06674786fc595f905efe2a70a6735",
-  "changed_existing_translations": 0,
+  "catalogue_records": 14016,
+  "unique_fingerprints": 13722,
+  "comparison_commit": "a0b4dafbcbb12da5b04302912aadde3b4a0703ef",
+  "changed_existing_translations": 16,
   "added_fingerprints": 0,
-  "removed_fragment_or_codebook_fingerprints": 0,
+  "removed_fragment_or_codebook_fingerprints": 9,
   "review_entries": {
     "ui": 1991,
     "ability_descriptions_and_requirements": 337,
@@ -13,7 +13,7 @@
     "newspaper_lines_and_patterns": 308,
     "settings_descriptions": 207,
     "settings_labels": 48,
-    "mode_and_menu_entries": 1003,
+    "mode_and_menu_entries": 1021,
     "mode_and_menu_labels": 412,
     "management_entries": 417,
     "management_labels": 195,
@@ -23,10 +23,9 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
-    "the constructor, destructor, and row renderer wrappers link to the scoped announcer grid hooks",
-    "46 distinct English syllables cover all 70 cells in the native grid",
-    "24 native blank cells retain their selection behavior",
-    "native row source and keyboard entry buffers are preserved"
+    "18 additional native strings matched reviewed English in 19 lookup inputs",
+    "draft help color and button controls passed curation checks",
+    "updated lines fit an estimated 320 pixels at Arial 16 px"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -62,7 +61,7 @@
     "0x82091844",
     "0x82091854"
   ],
-  "added_ui_address_reviews": 0,
+  "added_ui_address_reviews": 18,
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
     "single_wording_draft_differences_reviewed": 315,
@@ -223,6 +222,13 @@
     "constructor_and_destructor_scopes_checked": true,
     "maximum_syllable_characters": 3,
     "maximum_syllable_width_at_16px": 27,
+    "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "draft_and_free_agency_review": {
+    "address_reviews": 18,
+    "offline_lookup_matches": 19,
+    "widest_line_estimated_px": 320,
     "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }
