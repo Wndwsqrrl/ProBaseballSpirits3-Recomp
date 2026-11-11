@@ -40,14 +40,16 @@ def patch_chk(data, atlases, font_path, preview):
                 width, height = struct.unpack_from('>II', data, payload+48)
                 raw_start, raw_size = payload + 100, actual - 101
                 pixel_format = data[payload+68:payload+72].hex()
-                if pixel_format not in ('1828014f', '18280143', '18280186', '1a200152'):
+                if pixel_format not in ('1828014f', '18280143', '18280186', '1a200152', '1a200153', '1a200154'):
                     raise ValueError(f'Unsupported atlas pixel format: {name}')
                 raw = data[raw_start:raw_start+raw_size]
-                if pixel_format == '1a200152':
-                    if raw_size != width * height // 2:
-                        raise ValueError('Invalid BC1 atlas extent')
+                if pixel_format in ('1a200152','1a200153','1a200154'):
+                    expected = width * height // 2 if pixel_format == '1a200152' else width * height
+                    if raw_size != expected:
+                        raise ValueError('Invalid compressed atlas extent')
                     swapped = b''.join(raw[i:i+2][::-1] for i in range(0,len(raw),2))
-                    image = Image.frombytes('RGBA',(width,height),swapped,'bcn',(1,'DXT1'))
+                    codec = {'1a200152':(1,'DXT1'),'1a200153':(2,'DXT3'),'1a200154':(3,'DXT5')}[pixel_format]
+                    image = Image.frombytes('RGBA',(width,height),swapped,'bcn',codec)
                 elif pixel_format == '18280186':
                     if raw_size != width * height * 4:
                         raise ValueError('Invalid 32-bit atlas extent')
@@ -117,6 +119,29 @@ def patch_chk(data, atlases, font_path, preview):
                         block=b''.join(block[i:i+2][::-1] for i in range(0,8,2))
                         start=(by*(width//4)+bx)*8
                         encoded[start:start+8]=block
+                elif pixel_format in ('1a200153','1a200154'):
+                    # Restrict edits to grayscale labels; retain every other block.
+                    colors = (255,0,170,85)
+                    alphas = (255,0,218,182,145,109,72,36)
+                    for bx,by in dirty_blocks:
+                        color_bits = alpha_bits = 0
+                        for py in range(4):
+                            for px in range(4):
+                                red,green,blue,alpha = image.getpixel((bx*4+px,by*4+py))
+                                if alpha>=128 and max(red,green,blue)-min(red,green,blue)>8:
+                                    raise ValueError('Compressed mask encoder supports grayscale glyphs only')
+                                pixel = py*4+px
+                                color_bits |= min(range(4),key=lambda i:abs(colors[i]-red)) << (2*pixel)
+                                if pixel_format == '1a200153':
+                                    alpha_bits |= min(15,(alpha+8)//17) << (4*pixel)
+                                else:
+                                    alpha_bits |= min(range(8),key=lambda i:abs(alphas[i]-alpha)) << (3*pixel)
+                        alpha_block = (alpha_bits.to_bytes(8,'little') if pixel_format == '1a200153'
+                            else bytes((255,0))+alpha_bits.to_bytes(6,'little'))
+                        block = alpha_block + struct.pack('<HHI',0xFFFF,0,color_bits)
+                        block = b''.join(block[i:i+2][::-1] for i in range(0,16,2))
+                        start = (by*(width//4)+bx)*16
+                        encoded[start:start+16] = block
                 elif pixel_format == '18280186':
                     rgba = image.tobytes()
                     for source_channel, target_channel in ((3,0),(0,1),(1,2),(2,3)):

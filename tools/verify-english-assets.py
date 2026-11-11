@@ -26,10 +26,11 @@ def verify_member(original,patched,atlases):
                 for label in atlases[name]:
                     x,y,width,height=label['rect']
                     if not 0<=x<x+width<=w or not 0<=y<y+height<=h:raise ValueError('Invalid label bounds')
-                    if fmt=='1a200152':
+                    if fmt in ('1a200152','1a200153','1a200154'):
+                        block_size = 8 if fmt == '1a200152' else 16
                         for by in range(y//4,(y+height+3)//4):
                             for bx in range(x//4,(x+width+3)//4):
-                                start=raw+(by*(w//4)+bx)*8;allowed[start:start+8]=b'\1'*8
+                                start=raw+(by*(w//4)+bx)*block_size;allowed[start:start+block_size]=b'\1'*block_size
                     elif fmt in ('1828014f','18280143','18280186'):
                         stride = 4 if fmt == '18280186' else 2
                         for row in range(y,y+height):

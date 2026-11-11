@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "asset build and all label font bounds passed",
-    "all 2223 archive members verified, including 2191 unchanged members",
-    "auto-game, pitcher order, result and lineup preset previews checked",
-    "lineup button row pitch and original alpha mask checked",
+    "asset build and all font bounds passed",
+    "all 2223 archive members verified, including 2186 unchanged members",
+    "BC2/BC3 native outputs decoded and outside-label blocks compared",
+    "online headings and ability badge previews checked",
     "Python tool syntax checks passed"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live online menu labels, free-player tag, and graded baserunning/stealing badges",
     "Live auto-game turn notices and at-bat number spacing, pitcher order, result headers, championship badge and DH preset buttons",
     "Live pause menus, umpire calls, utility and sound menus, batting-first controls, and international team logos",
     "Live career rating, contract confirmation, and country/custom-team label placement",
@@ -251,14 +252,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 161,
-    "total_atlases": 27,
-    "pending_texture_entries": 69,
+    "total_labels": 180,
+    "total_atlases": 32,
+    "pending_texture_entries": 64,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2191,
+    "unchanged_archive_members_verified": 2186,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -280,5 +281,13 @@
     "official_2026_reference": "Installed English and Japanese localization corpus",
     "deepl_comparison": "Pending until known text is translated",
     "full_live_layout_pass": false
+  },
+  "compressed_interface_texture_review": {
+    "labels": 19,
+    "atlases": 5,
+    "bc2_and_bc3_mask_encoding": true,
+    "original_compressed_blocks_outside_labels_verified": true,
+    "decoded_outputs_checked": true,
+    "interactive_validation": false
   }
 }

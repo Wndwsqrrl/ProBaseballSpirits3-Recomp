@@ -9,16 +9,6 @@
   ],
   "pending_textures": [
     {
-      "member": "ARR_CHAN.CHK",
-      "texture": "MENU_ARplayerchange_00.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200153",
-      "remaining_text": "Free player marker",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "BB06TIT.CHK",
       "texture": "MENU_OPtitle_a.tsr",
       "width": 1024,
@@ -259,16 +249,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "NTMAIN.CHK",
-      "texture": "MENU_NTmain.tsr",
-      "width": 1024,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Japanese online menu headings next to English subtitles",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "NTORDL.CHK",
       "texture": "MENU_NT_order_last.tsr",
       "width": 256,
@@ -285,26 +265,6 @@
       "height": 128,
       "format": "1828014f",
       "remaining_text": "Batting-first, batting-second and rotate labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "NTSQMT.CHK",
-      "texture": "MENU_NTquick.tsr",
-      "width": 512,
-      "height": 256,
-      "format": "1a200153",
-      "remaining_text": "Quick and custom labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "NTWAIT.CHK",
-      "texture": "MENU_NTwait.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1a200153",
-      "remaining_text": "Waiting label",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -687,16 +647,6 @@
       "remaining_text": "Venue label over photograph; preserve the photograph",
       "status": "pending",
       "native_sprite_layout_verified": false
-    },
-    {
-      "member": "TIMEMENU.CHK",
-      "texture": "MENU_GMtime_rai.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1a200154",
-      "remaining_text": "Baserunning, stealing and pinch-hitting ability labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
     }
   ],
   "preserved_artwork": "In-stadium signs, sponsor advertisements and ballpark artwork remain Japanese. Photographs and rendered stadium models are preserved when interface labels are localized.",
@@ -775,6 +725,61 @@
       "height": 256,
       "format": "1828014f",
       "remaining_text": "Position and pitcher sequence glyphs replaced",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "ARR_CHAN.CHK",
+      "texture": "MENU_ARplayerchange_00.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Free player marker",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "NTMAIN.CHK",
+      "texture": "MENU_NTmain.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Japanese online menu headings next to English subtitles",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "NTSQMT.CHK",
+      "texture": "MENU_NTquick.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Quick and custom labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "NTWAIT.CHK",
+      "texture": "MENU_NTwait.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Waiting label",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "TIMEMENU.CHK",
+      "texture": "MENU_GMtime_rai.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200154",
+      "remaining_text": "Baserunning, stealing and pinch-hitting ability labels",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

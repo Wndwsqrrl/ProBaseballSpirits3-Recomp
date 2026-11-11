@@ -2300,5 +2300,261 @@
         "background_sample_x": 68
       }
     ]
+  },
+  "NTWAIT.CHK": {
+    "MENU_NTwait.tsr": [
+      {
+        "rect": [
+          156,
+          88,
+          100,
+          40
+        ],
+        "text": "Waiting",
+        "source": "待機中",
+        "padding": 4,
+        "foreground": [
+          170,
+          170,
+          170,
+          255
+        ],
+        "max_font_size": 30
+      }
+    ]
+  },
+  "NTSQMT.CHK": {
+    "MENU_NTquick.tsr": [
+      {
+        "rect": [
+          0,
+          212,
+          156,
+          44
+        ],
+        "text": "Quick",
+        "source": "クイック",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 32
+      },
+      {
+        "rect": [
+          160,
+          212,
+          148,
+          44
+        ],
+        "text": "Custom",
+        "source": "カスタム",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 32
+      }
+    ]
+  },
+  "NTMAIN.CHK": {
+    "MENU_NTmain.tsr": [
+      {
+        "rect": [
+          0,
+          84,
+          224,
+          32
+        ],
+        "text": "Ranked Match",
+        "source": "ランクマッチ",
+        "padding": 4,
+        "max_font_size": 25
+      },
+      {
+        "rect": [
+          0,
+          154,
+          224,
+          32
+        ],
+        "text": "Player Match",
+        "source": "プレイヤーマッチ",
+        "padding": 4,
+        "max_font_size": 25
+      },
+      {
+        "rect": [
+          0,
+          224,
+          224,
+          32
+        ],
+        "text": "Player Rankings",
+        "source": "個人ランキング",
+        "padding": 4,
+        "max_font_size": 25
+      },
+      {
+        "rect": [
+          0,
+          294,
+          224,
+          32
+        ],
+        "text": "Team Rankings",
+        "source": "チームランキング",
+        "padding": 4,
+        "max_font_size": 25
+      },
+      {
+        "rect": [
+          0,
+          364,
+          224,
+          32
+        ],
+        "text": "Initialize",
+        "source": "初期化",
+        "padding": 4,
+        "max_font_size": 25
+      },
+      {
+        "rect": [
+          0,
+          434,
+          224,
+          32
+        ],
+        "text": "Exit",
+        "source": "終了",
+        "padding": 4,
+        "max_font_size": 25
+      }
+    ]
+  },
+  "ARR_CHAN.CHK": {
+    "MENU_ARplayerchange_00.tsr": [
+      {
+        "rect": [
+          124,
+          4,
+          48,
+          16
+        ],
+        "text": "Free",
+        "source": "フリー",
+        "padding": 2,
+        "max_font_size": 15
+      }
+    ]
+  },
+  "TIMEMENU.CHK": {
+    "MENU_GMtime_rai.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          50,
+          24
+        ],
+        "text": "Run 1",
+        "source": "走塁1",
+        "padding": 2,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          50,
+          0,
+          50,
+          24
+        ],
+        "text": "Run 2",
+        "source": "走塁2",
+        "padding": 2,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          100,
+          0,
+          50,
+          24
+        ],
+        "text": "Run 4",
+        "source": "走塁4",
+        "padding": 2,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          150,
+          0,
+          50,
+          24
+        ],
+        "text": "Run 5",
+        "source": "走塁5",
+        "padding": 2,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          0,
+          26,
+          50,
+          24
+        ],
+        "text": "Steal 2",
+        "source": "盗塁2",
+        "padding": 2,
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          50,
+          26,
+          50,
+          24
+        ],
+        "text": "Steal 3",
+        "source": "盗塁3",
+        "padding": 2,
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          100,
+          26,
+          50,
+          24
+        ],
+        "text": "Steal 4",
+        "source": "盗塁4",
+        "padding": 2,
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          150,
+          26,
+          50,
+          24
+        ],
+        "text": "Steal 5",
+        "source": "盗塁5",
+        "padding": 2,
+        "max_font_size": 15
+      },
+      {
+        "rect": [
+          0,
+          52,
+          50,
+          24
+        ],
+        "text": "PH",
+        "source": "代打",
+        "padding": 2,
+        "max_font_size": 18
+      }
+    ]
   }
 }
