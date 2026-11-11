@@ -22,14 +22,15 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "native Windows build passed",
-    "27 complete career rating and contract prompts matched expected English",
-    "all 2223 archive members verified, including 2202 unchanged members",
-    "country and custom-team texture previews checked with multiline centering"
+    "asset build and all label font bounds passed",
+    "all 2223 archive members verified, including 2193 unchanged members",
+    "rebuilt compressed and ARGB8888 label outputs decoded and visually checked",
+    "Python tool syntax checks passed"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live pause menus, umpire calls, utility and sound menus, batting-first controls, and international team logos",
     "Live career rating, contract confirmation, and country/custom-team label placement",
     "In-game packed fallback placement and Xbox save display",
     "Live placement for updated team, standings, VP Shop, and system text",
@@ -240,6 +241,22 @@
     "texture_labels_added": 6,
     "texture_atlases_added": 2,
     "texture_previews_checked": true,
+    "interactive_validation": false
+  },
+  "interface_texture_review": {
+    "source_members_reviewed": 88,
+    "texture_records_inventoried": 327,
+    "decoded_previews_reviewed": 326,
+    "new_labels": 64,
+    "new_atlases": 12,
+    "total_labels": 117,
+    "total_atlases": 20,
+    "pending_texture_entries": 76,
+    "report": "interface-texture-review.json",
+    "font_bounds_checked": true,
+    "rendered_previews_checked": true,
+    "rebuilt_bc1_and_argb_textures_decoded": true,
+    "unchanged_archive_members_verified": 2193,
     "interactive_validation": false
   }
 }

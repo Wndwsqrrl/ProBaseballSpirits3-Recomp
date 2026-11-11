@@ -11,6 +11,8 @@ spec=importlib.util.spec_from_file_location('cmp',Path(__file__).with_name('kona
 cmp=importlib.util.module_from_spec(spec);spec.loader.exec_module(cmp)
 
 def decode(raw,w,h,fmt):
+    if fmt=='18280186':
+        return Image.frombytes('RGBA',(w,h),raw,'raw','ARGB')
     if fmt in ('1a200152','1a200153','1a200154'):
         swapped=b''.join(raw[i:i+2][::-1] for i in range(0,len(raw),2))
         codec={'1a200152':(1,'DXT1'),'1a200153':(2,'DXT3'),'1a200154':(3,'DXT5')}[fmt]

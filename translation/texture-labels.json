@@ -698,5 +698,918 @@
         ]
       }
     ]
+  },
+  "GAME2D.CHK": {
+    "GAME_GMumpire_call.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          104,
+          28
+        ],
+        "text": "STRIKE",
+        "source": "ストライク",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          106,
+          0,
+          69,
+          28
+        ],
+        "text": "BALL",
+        "source": "ボール",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          28,
+          125,
+          28
+        ],
+        "text": "WALK",
+        "source": "フォアボール",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          127,
+          28,
+          125,
+          28
+        ],
+        "text": "HIT BY PITCH",
+        "source": "デッドボール",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          56,
+          65,
+          28
+        ],
+        "text": "SAFE",
+        "source": "セーフ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          67,
+          56,
+          67,
+          28
+        ],
+        "text": "OUT",
+        "source": "アウト",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          136,
+          56,
+          66,
+          28
+        ],
+        "text": "FAIR",
+        "source": "フェア",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          84,
+          85,
+          28
+        ],
+        "text": "FOUL",
+        "source": "ファウル",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          87,
+          84,
+          162,
+          28
+        ],
+        "text": "INFIELD FLY",
+        "source": "インフィールドフライ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          112,
+          63,
+          28
+        ],
+        "text": "TIME",
+        "source": "タイム",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          65,
+          112,
+          85,
+          28
+        ],
+        "text": "SIDE RETIRED",
+        "source": "チェンジ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          152,
+          112,
+          90,
+          28
+        ],
+        "text": "WARM-UP",
+        "source": "投球練習",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          140,
+          119,
+          28
+        ],
+        "text": "BALLGAME",
+        "source": "ゲームセット",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          121,
+          140,
+          86,
+          28
+        ],
+        "text": "TIE",
+        "source": "引き分け",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          168,
+          172,
+          28
+        ],
+        "text": "GROUND-RULE DOUBLE",
+        "source": "エンタイトルツーベース",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      }
+    ],
+    "GAME_MAT_telop03.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          84,
+          24
+        ],
+        "text": "Resume",
+        "source": "プレイ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          24,
+          84,
+          24
+        ],
+        "text": "Pitcher Data",
+        "source": "投手データ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          48,
+          84,
+          24
+        ],
+        "text": "Sound",
+        "source": "サウンド",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          72,
+          84,
+          24
+        ],
+        "text": "Replay A",
+        "source": "リプレイA",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          96,
+          84,
+          24
+        ],
+        "text": "Pinch Hit",
+        "source": "代打",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          120,
+          84,
+          24
+        ],
+        "text": "Bullpen",
+        "source": "リリーフ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          144,
+          84,
+          24
+        ],
+        "text": "Help",
+        "source": "説明を見る",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          168,
+          84,
+          24
+        ],
+        "text": "Settings",
+        "source": "ゲーム設定",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          0,
+          84,
+          24
+        ],
+        "text": "Score",
+        "source": "スコア",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          24,
+          84,
+          24
+        ],
+        "text": "Options",
+        "source": "オプション",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          48,
+          84,
+          24
+        ],
+        "text": "End Game",
+        "source": "試合中止",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          72,
+          84,
+          24
+        ],
+        "text": "Replay B",
+        "source": "リプレイB",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          96,
+          84,
+          24
+        ],
+        "text": "Pinch Run",
+        "source": "代走",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          120,
+          84,
+          24
+        ],
+        "text": "Fielders",
+        "source": "守備交代",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          84,
+          144,
+          84,
+          24
+        ],
+        "text": "Exit",
+        "source": "終了",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      }
+    ],
+    "GAME_MAT_hr06.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          88,
+          24
+        ],
+        "text": "Resume",
+        "source": "プレイ続行",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          24,
+          88,
+          24
+        ],
+        "text": "Retry",
+        "source": "リトライ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          48,
+          88,
+          24
+        ],
+        "text": "Quit",
+        "source": "中止",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          72,
+          88,
+          24
+        ],
+        "text": "Help",
+        "source": "説明をみる",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      },
+      {
+        "rect": [
+          0,
+          96,
+          88,
+          24
+        ],
+        "text": "Options",
+        "source": "オプション",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 18
+      }
+    ]
+  },
+  "UTYTOP.CHK": {
+    "MENU_UTmain_moji.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          176,
+          36
+        ],
+        "text": "Player Ratings",
+        "source": "選手能力データ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          36,
+          176,
+          36
+        ],
+        "text": "Enter Password",
+        "source": "パスワード入力",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          72,
+          176,
+          36
+        ],
+        "text": "Copy Player",
+        "source": "選手コピー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          108,
+          176,
+          36
+        ],
+        "text": "Copy Team",
+        "source": "チームコピー",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          144,
+          176,
+          36
+        ],
+        "text": "Sound Settings",
+        "source": "サウンド設定",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          180,
+          176,
+          36
+        ],
+        "text": "Load Data",
+        "source": "データロード",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          0,
+          216,
+          176,
+          36
+        ],
+        "text": "Save Data",
+        "source": "データセーブ",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      },
+      {
+        "rect": [
+          176,
+          216,
+          172,
+          36
+        ],
+        "text": "Options",
+        "source": "オプション設定",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 26
+      }
+    ]
+  },
+  "UTYJMN.CHK": {
+    "MENU_ETC_nblock_deco2.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          36,
+          16
+        ],
+        "text": "vs L",
+        "source": "対左",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          0,
+          16,
+          36,
+          16
+        ],
+        "text": "vs R",
+        "source": "対右",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ]
+  },
+  "SNDSET.CHK": {
+    "MENU_UTsound_00.tsr": [
+      {
+        "rect": [
+          0,
+          64,
+          144,
+          24
+        ],
+        "text": "Normal",
+        "source": "ノーマル",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          88,
+          144,
+          24
+        ],
+        "text": "Custom",
+        "source": "カスタム",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          112,
+          144,
+          24
+        ],
+        "text": "Stadium",
+        "source": "スタジアム",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          136,
+          144,
+          24
+        ],
+        "text": "Dynamic",
+        "source": "ダイナミック",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          160,
+          144,
+          24
+        ],
+        "text": "Field",
+        "source": "フィールド",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          184,
+          144,
+          24
+        ],
+        "text": "Stereo",
+        "source": "ステレオ",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          208,
+          144,
+          24
+        ],
+        "text": "Mono",
+        "source": "モノラル",
+        "padding": 4,
+        "max_font_size": 21
+      },
+      {
+        "rect": [
+          0,
+          232,
+          144,
+          24
+        ],
+        "text": "Dolby Pro Logic II",
+        "source": "ドルビープロロジックII",
+        "padding": 4,
+        "max_font_size": 21
+      }
+    ]
+  },
+  "STORDER.CHK": {
+    "GAME_GMstarter_unum.tsr": [
+      {
+        "rect": [
+          52,
+          0,
+          48,
+          22
+        ],
+        "text": "Bat 1st",
+        "source": "先攻",
+        "padding": 2
+      },
+      {
+        "rect": [
+          52,
+          22,
+          48,
+          22
+        ],
+        "text": "Bat 2nd",
+        "source": "後攻",
+        "padding": 2
+      }
+    ]
+  },
+  "STSEL.CHK": {
+    "MENU_EXst_lock.tsr": [
+      {
+        "rect": [
+          12,
+          34,
+          232,
+          18
+        ],
+        "text": "Unlock in VP Shop",
+        "source": "VPショップで購入してください",
+        "background": [
+          170,
+          170,
+          136,
+          255
+        ],
+        "padding": 4
+      }
+    ]
+  },
+  "ARRANGE.CHK": {
+    "MENU_ARmenu_00.tsr": [
+      {
+        "rect": [
+          0,
+          104,
+          40,
+          24
+        ],
+        "text": "P",
+        "source": "投手",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          40,
+          104,
+          40,
+          24
+        ],
+        "text": "B",
+        "source": "野手",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          80,
+          104,
+          64,
+          24
+        ],
+        "text": "All",
+        "source": "総選手",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          160,
+          92,
+          72,
+          18
+        ],
+        "text": "R/R",
+        "source": "右投右打",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 17
+      },
+      {
+        "rect": [
+          160,
+          110,
+          72,
+          18
+        ],
+        "text": "L/L",
+        "source": "左投左打",
+        "padding": 4,
+        "outline_width": 1,
+        "max_font_size": 17
+      }
+    ]
+  },
+  "PET_CN.CHK": {
+    "MENU_COMte_pet_256_chn.tsr": [
+      {
+        "rect": [
+          57,
+          138,
+          288,
+          139
+        ],
+        "text": "China",
+        "source": "中国",
+        "padding": 8,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 2,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "max_font_size": 128
+      }
+    ]
+  },
+  "PET_KR.CHK": {
+    "MENU_COMte_pet_256_kor.tsr": [
+      {
+        "rect": [
+          43,
+          136,
+          303,
+          144
+        ],
+        "text": "Korea",
+        "source": "韓国",
+        "padding": 8,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 2,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "max_font_size": 128
+      }
+    ]
+  },
+  "PET_TW.CHK": {
+    "MENU_COMte_pet_256_tpe.tsr": [
+      {
+        "rect": [
+          38,
+          135,
+          351,
+          142
+        ],
+        "text": "Chinese\nTaipei",
+        "source": "中華台北",
+        "padding": 8,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 2,
+        "outline": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "max_font_size": 128,
+        "align": "center"
+      }
+    ]
   }
 }

@@ -40,7 +40,7 @@ def patch_chk(data, atlases, font_path, preview):
                 width, height = struct.unpack_from('>II', data, payload+48)
                 raw_start, raw_size = payload + 100, actual - 101
                 pixel_format = data[payload+68:payload+72].hex()
-                if pixel_format not in ('1828014f', '18280143', '1a200152'):
+                if pixel_format not in ('1828014f', '18280143', '18280186', '1a200152'):
                     raise ValueError(f'Unsupported atlas pixel format: {name}')
                 raw = data[raw_start:raw_start+raw_size]
                 if pixel_format == '1a200152':
@@ -48,6 +48,10 @@ def patch_chk(data, atlases, font_path, preview):
                         raise ValueError('Invalid BC1 atlas extent')
                     swapped = b''.join(raw[i:i+2][::-1] for i in range(0,len(raw),2))
                     image = Image.frombytes('RGBA',(width,height),swapped,'bcn',(1,'DXT1'))
+                elif pixel_format == '18280186':
+                    if raw_size != width * height * 4:
+                        raise ValueError('Invalid 32-bit atlas extent')
+                    image = Image.frombytes('RGBA', (width, height), raw, 'raw', 'ARGB')
                 else:
                     if raw_size != width * height * 2:
                         raise ValueError('Invalid 16-bit atlas extent')
@@ -68,17 +72,21 @@ def patch_chk(data, atlases, font_path, preview):
                     tile = Image.new('RGBA', (w*scale, h*scale), tuple(label.get('background',(68,68,68,0))))
                     draw = ImageDraw.Draw(tile)
                     alignment = label.get('align', 'left')
-                    for size in range(38, 12, -1):
+                    stroke = label.get('outline_width', 0) * scale
+                    for size in range(label.get('max_font_size', 38), label.get('min_font_size', 13)-1, -1):
                         font = ImageFont.truetype(str(font_path), size*scale)
-                        box = draw.textbbox((0,0), label['text'], font=font, align=alignment)
+                        box = draw.textbbox((0,0), label['text'], font=font,
+                            align=alignment, stroke_width=stroke)
                         if box[2]-box[0] <= (w-label.get('padding',12))*scale and box[3]-box[1] <= (h-3)*scale:
                             break
+                    else:
+                        raise ValueError(f"English label does not fit {name} {label['rect']}: {label['text']}")
                     x_text = (w*scale - (box[2]-box[0]))/2 - box[0]
                     y_text = (h*scale - (box[3]-box[1]))/2 - box[1]
                     draw.text((x_text, y_text), label['text'], font=font,
                         align=alignment,
                         fill=tuple(label.get('foreground',(255,255,255,255))),
-                        stroke_width=label.get('outline_width',0)*scale,
+                        stroke_width=stroke,
                         stroke_fill=tuple(label.get('outline',(0,0,0,255))))
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
                     image.paste(tile, (x,y))
@@ -100,6 +108,10 @@ def patch_chk(data, atlases, font_path, preview):
                         block=b''.join(block[i:i+2][::-1] for i in range(0,8,2))
                         start=(by*(width//4)+bx)*8
                         encoded[start:start+8]=block
+                elif pixel_format == '18280186':
+                    rgba = image.tobytes()
+                    for source_channel, target_channel in ((3,0),(0,1),(1,2),(2,3)):
+                        encoded[target_channel::4] = rgba[source_channel::4]
                 else:
                     for index, (red,green,blue,alpha) in enumerate(image.getdata()):
                         if pixel_format == '18280143':

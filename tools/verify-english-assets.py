@@ -30,9 +30,10 @@ def verify_member(original,patched,atlases):
                         for by in range(y//4,(y+height+3)//4):
                             for bx in range(x//4,(x+width+3)//4):
                                 start=raw+(by*(w//4)+bx)*8;allowed[start:start+8]=b'\1'*8
-                    elif fmt in ('1828014f','18280143'):
+                    elif fmt in ('1828014f','18280143','18280186'):
+                        stride = 4 if fmt == '18280186' else 2
                         for row in range(y,y+height):
-                            start=raw+(row*w+x)*2;allowed[start:start+width*2]=b'\1'*(width*2)
+                            start=raw+(row*w+x)*stride;allowed[start:start+width*stride]=b'\1'*(width*stride)
                     else:raise ValueError('Unsupported verification format')
         at+=allocated
     if found!=set(atlases):raise ValueError('Missing localized atlas')

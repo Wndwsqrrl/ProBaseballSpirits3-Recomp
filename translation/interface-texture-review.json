@@ -1,0 +1,774 @@
+{
+  "date": "2026-11-11",
+  "scope": "Additional interface texture review. This is not a complete game-wide graphics inventory.",
+  "source_members_reviewed": 88,
+  "textures_inventoried": 327,
+  "decoded_previews_reviewed": 326,
+  "source_formats_not_decoded": [
+    "28280144"
+  ],
+  "pending_textures": [
+    {
+      "member": "ARR_CHAN.CHK",
+      "texture": "MENU_ARplayerchange_00.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Free player marker",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "ARR_ODR.CHK",
+      "texture": "MENU_ARorsetting_00.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Default and versus-left lineup buttons with and without DH",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_a.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Main title logo",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_b.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Glowing main title logo",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_c.tsr",
+      "width": 1024,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Japanese copyright and licensing line",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_d.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Title logo shadow",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_COM_rai.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Situational ability labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GM_inning.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Attack, game-end and rain-cancellation labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GM_posi.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Position and handedness glyphs",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMframe_inning.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Top and bottom inning glyphs",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMlap_001.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Date and order labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_data.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Player statistics and split labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_order.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Batting order suffixes",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_sta.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Player-selection header",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMrunner.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Base labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMshift_index.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Defensive alignment tab fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMshift_pos.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Defensive alignment choices",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMstats_00.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Pitcher and batter stat abbreviations",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_long01.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Direction fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_time08.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Today pitching statistics fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Special ability badges",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_up09.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Stat headings and pitch-by-pitch fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "HRBREC.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Home-run and distance counters",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "HRBREC.CHK",
+      "texture": "GAME_MAT_hr04.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Record and current score",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Home-run and distance counters",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr04.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Record and current score",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr07.tsr",
+      "width": 256,
+      "height": 32,
+      "format": "1a200152",
+      "remaining_text": "Perfect streak",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "NTMAIN.CHK",
+      "texture": "MENU_NTmain.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Japanese online menu headings next to English subtitles",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "NTORDL.CHK",
+      "texture": "MENU_NT_order_last.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Opponent-data waiting instructions",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "NTORDL.CHK",
+      "texture": "MENU_OR_deco_01.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Batting-first, batting-second and rotate labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "NTSQMT.CHK",
+      "texture": "MENU_NTquick.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Quick and custom labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "NTWAIT.CHK",
+      "texture": "MENU_NTwait.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Waiting label",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "OPAMD.CHK",
+      "texture": "GAME_GMautogame_deban_j1.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "Auto-game fielding and substitution roles",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "OPAMD.CHK",
+      "texture": "GAME_GMautogame_deban_j2.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Auto-game upcoming turns and innings",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_OR_deco_01.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200154",
+      "remaining_text": "Batting-first, batting-second and rotate labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PLDEMO.CHK",
+      "texture": "GAME_MUR_810.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Perfect Play Pro Baseball logo",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNCALENDAR.CHK",
+      "texture": "MENU_PE_calendar3.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Championship label",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNDAILY.CHK",
+      "texture": "MENU_PEnittei_deco.tsr",
+      "width": 512,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Month and day suffixes",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Newspaper background with Japanese print",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Fixture and tournament headings",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Newspaper standings and season-status fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_title.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Newspaper masthead",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "PPRAC.CHK",
+      "texture": "GAME_GM_pithelp.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Pitching timing instructions and embedded button labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESSB.CHK",
+      "texture": "MENU_YAM_score_99_02.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Team initials and scorecard marks",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_kekka01.tsr",
+      "width": 512,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Batting and pitching table abbreviations",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_kekka02.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Win, loss, home and away labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_nikkan_01.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Appearance and scouting assessment labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_REhaikyu_00.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Pitch distribution result labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_REscore_result.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Next prompt",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "ROTCAL.CHK",
+      "texture": "MENU_PE_tousyu_hiduke.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Rain and movement day fragments",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_MAT_haiq03.tsr",
+      "width": 128,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Pitch and player statistics",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_MAT_haiq06.tsr",
+      "width": 128,
+      "height": 32,
+      "format": "1a200152",
+      "remaining_text": "All pitchers selector",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq01.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Pitch distribution comparison headings",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq04.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Pitch type and location legend",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "SOLOINFO.CHK",
+      "texture": "MENU_PEtuti_00.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Practice board heading and date suffixes",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "SOLOINFO.CHK",
+      "texture": "MENU_PEtuti_02.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Match board heading, VP calculation and difficulty multipliers",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "SOLOPLSEL.CHK",
+      "texture": "MENU_PEpselect.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Japanese class names below English class labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_fuk.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_gre.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_han.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_hir.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_mei.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_nag.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_osa.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_sap.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_sei.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tib.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tih.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tok.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_yok.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_019.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Time and wind headings",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day12.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Venue label over photograph; preserve the photograph",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day14.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Venue label over photograph; preserve the photograph",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit12.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Venue label over photograph; preserve the photograph",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit14.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Venue label over photograph; preserve the photograph",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    },
+    {
+      "member": "TIMEMENU.CHK",
+      "texture": "MENU_GMtime_rai.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200154",
+      "remaining_text": "Baserunning, stealing and pinch-hitting ability labels",
+      "status": "pending",
+      "native_sprite_layout_verified": false
+    }
+  ],
+  "preserved_artwork": "In-stadium signs, sponsor advertisements and ballpark artwork remain Japanese. Photographs and rendered stadium models are preserved when interface labels are localized.",
+  "interactive_validation": false
+}
