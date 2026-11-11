@@ -90,7 +90,14 @@ def main():
         *rows,
         '};',
         '',
+        'struct AnnouncedKana { uint16_t source_code; std::string_view english; };',
+        'inline constexpr AnnouncedKana kAnnouncedKana[] = {',
     ]
+    for kana in 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん':
+        code = int.from_bytes(kana.encode('cp932'), 'big')
+        label = 'Wo' if kana == 'を' else romanize(kana)
+        header.append(f'    {{0x{code:04X}, "{label}"}},')
+    header.extend(['};', ''])
     args.output.write_bytes('\n'.join(header).encode('ascii'))
     print(f'{len(rows)} announced names, {len(spellings)} spelling overrides.')
 

@@ -37,11 +37,18 @@ REX_EXTERN(__imp__sub_8254C0A8);
 REX_EXTERN(__imp__sub_826BA910);
 REX_EXTERN(__imp__sub_8262FB40);
 REX_EXTERN(__imp__sub_82135D68);
+REX_EXTERN(__imp__sub_823825F8);
+REX_EXTERN(__imp__sub_82382B10);
+REX_EXTERN(__imp__sub_823831A8);
 
 namespace {
 rex::memory::Memory* memory = nullptr;
 std::unordered_map<uint64_t, uint32_t> translations;
 std::unordered_map<uint64_t, uint32_t> announced_names;
+std::unordered_map<uint16_t, uint32_t> announced_kana;
+std::mutex announced_grid_mutex;
+std::unordered_set<uint32_t> announced_grid_objects;
+thread_local bool romanized_announced_grid = false;
 std::mutex trace_mutex;
 std::unordered_set<uint64_t> traced;
 std::ofstream untranslated;
@@ -219,11 +226,39 @@ void RenderLocalized(PPCContext& ctx, uint8_t* base, PPCFunc* original) {
   struct ActiveText {
     PPCContext* previous=active_text_context;
     uint32_t address=active_text_address, object=active_text_object;
-    ~ActiveText(){active_text_context=previous;active_text_address=address;active_text_object=object;}
+    uint32_t resized_object = 0, original_x = 0, original_width = 0, original_alignment = 0;
+    ~ActiveText(){
+      if (resized_object) {
+        Write32(resized_object + 12, original_x);
+        Write32(resized_object + 20, original_width);
+        Write32(resized_object + 28, original_alignment);
+      }
+      active_text_context=previous;active_text_address=address;active_text_object=object;
+    }
   } active;
   active_text_context=&ctx; active_text_address=ctx.r5.u32; active_text_object=ctx.r3.u32;
   if (!memory) { profile.Suspend(); original(ctx, base); return; }
-  ctx.r5.u64 = Translate(ctx.r5.u32,false,uint32_t(ctx.lr));
+  const auto caller = uint32_t(ctx.lr);
+  if (romanized_announced_grid && (caller == 0x823832D0 || caller == 0x823832D8)
+      && ctx.r5.u32 && ctx.r27.u32 < 10 && ctx.r30.u32 > 0 && ctx.r30.u32 <= 256) {
+    const auto* glyph = memory->TranslateVirtual(ctx.r5.u32);
+    if (glyph[0] == 0x82 && glyph[1] && !glyph[2]) {
+      const uint16_t code = (uint16_t(glyph[0]) << 8) | glyph[1];
+      if (auto it = announced_kana.find(code); it != announced_kana.end()) {
+        ctx.r5.u64 = it->second;
+        active.resized_object = ctx.r3.u32;
+        active.original_x = Read32(ctx.r3.u32 + 12);
+        active.original_width = Read32(ctx.r3.u32 + 20);
+        active.original_alignment = Read32(ctx.r3.u32 + 28);
+        // Fit each syllable inside the original cell before the native grid
+        // advances to the next column. r27 is the native column index.
+        Write32(ctx.r3.u32 + 12, ctx.r27.u32 * ctx.r30.u32);
+        Write32(ctx.r3.u32 + 20, std::min(active.original_width, ctx.r30.u32));
+        Write32(ctx.r3.u32 + 28, 1);
+      }
+    }
+  }
+  ctx.r5.u64 = Translate(ctx.r5.u32,false,caller);
   // The markup renderer submits spaces as individual glyph runs. The Japanese
   // raster scaler divides by the bitmap width, which is zero for ASCII space.
   // Whitespace still advances in the caller's separate measurement pass.
@@ -316,6 +351,7 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
   size_t bytes=0;
   for (const auto& entry : kFullTranslations) bytes += entry.english.size()+1;
   for (const auto& entry : kAnnouncedNames) bytes += entry.english.size()+1;
+  for (const auto& entry : kAnnouncedKana) bytes += entry.english.size()+1;
   if (bytes > 16*1024*1024) throw std::runtime_error("Translation pool too large");
   const uint32_t pool = memory->SystemHeapAlloc(static_cast<uint32_t>(bytes));
   if (!pool) throw std::runtime_error("Cannot allocate English string pool");
@@ -353,6 +389,13 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     announced_names.emplace(entry.source_hash, position);
     position += static_cast<uint32_t>(entry.english.size() + 1);
   }
+  for (const auto& entry : kAnnouncedKana) {
+    auto* target = memory->TranslateVirtual(position);
+    std::memcpy(target, entry.english.data(), entry.english.size());
+    target[entry.english.size()] = 0;
+    announced_kana.emplace(entry.source_code, position);
+    position += static_cast<uint32_t>(entry.english.size() + 1);
+  }
   dynamic_pool=memory->SystemHeapAlloc(kDynamicPoolSize);
   if(!dynamic_pool)throw std::runtime_error("Cannot allocate formatted translation pool");
   REXLOG_INFO("Formatted English text: {} templates, {} bytes bounded output cache",format_translations.size(),kDynamicPoolSize);
@@ -383,6 +426,37 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     short_text.open(runtime.user_data_root()/"short-text.tsv",std::ios::app);
   }
   REXLOG_INFO("Full English text draft: {} strings, {} relocated references, {} pool bytes at {:08X}",std::size(kFullTranslations),changed,bytes,pool);
+}
+
+REX_EXTERN(sub_823825F8) {
+  if (memory) {
+    std::lock_guard guard(announced_grid_mutex);
+    announced_grid_objects.erase(ctx.r3.u32);
+    // Only the announcer selector constructs its grid at this call site.
+    if (ctx.lr == 0x82383DE8) announced_grid_objects.insert(ctx.r3.u32);
+  }
+  __imp__sub_823825F8(ctx, base);
+}
+
+REX_EXTERN(sub_82382B10) {
+  if (memory) {
+    std::lock_guard guard(announced_grid_mutex);
+    announced_grid_objects.erase(ctx.r3.u32);
+  }
+  __imp__sub_82382B10(ctx, base);
+}
+
+REX_EXTERN(sub_823831A8) {
+  struct GridScope {
+    bool previous = romanized_announced_grid;
+    ~GridScope() { romanized_announced_grid = previous; }
+  } scope;
+  romanized_announced_grid = false;
+  if (memory) {
+    std::lock_guard guard(announced_grid_mutex);
+    romanized_announced_grid = announced_grid_objects.contains(ctx.r3.u32);
+  }
+  __imp__sub_823831A8(ctx, base);
 }
 
 REX_EXTERN(sub_82135D68) {

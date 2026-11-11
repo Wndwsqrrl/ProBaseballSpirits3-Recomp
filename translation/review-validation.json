@@ -2,7 +2,7 @@
   "date": "2026-11-11",
   "catalogue_records": 14025,
   "unique_fingerprints": 13731,
-  "comparison_commit": "9ba9e5d8eda2774c1b5ecfecadd8228edb6bd819",
+  "comparison_commit": "b5c53d3945e06674786fc595f905efe2a70a6735",
   "changed_existing_translations": 0,
   "added_fingerprints": 0,
   "removed_fragment_or_codebook_fingerprints": 0,
@@ -23,10 +23,10 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "native Windows build passed",
-    "1256 native announcer names matched the generated English lookup",
-    "1256 English labels are distinct",
-    "seven native announcer-name display calls target the scoped hook",
-    "the announced-name source member and its audio IDs are preserved"
+    "the constructor, destructor, and row renderer wrappers link to the scoped announcer grid hooks",
+    "46 distinct English syllables cover all 70 cells in the native grid",
+    "24 native blank cells retain their selection behavior",
+    "native row source and keyboard entry buffers are preserved"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -211,6 +211,18 @@
     "native_audio_ids_preserved": 1256,
     "native_display_call_sites_checked": 7,
     "widest_label_estimated_px": 95,
+    "estimate_font": "Arial 16 px",
+    "interactive_validation": false
+  },
+  "announcer_navigation_review": {
+    "native_grid_rows": 7,
+    "native_grid_cells": 70,
+    "english_syllable_labels": 46,
+    "preserved_blank_cells": 24,
+    "native_cell_raster_calls_checked": 2,
+    "constructor_and_destructor_scopes_checked": true,
+    "maximum_syllable_characters": 3,
+    "maximum_syllable_width_at_16px": 27,
     "estimate_font": "Arial 16 px",
     "interactive_validation": false
   }

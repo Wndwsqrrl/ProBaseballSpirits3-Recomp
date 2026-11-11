@@ -31,9 +31,11 @@
     "177 packed menu text lookups matched expected English and fit all 321 original rectangles by estimated width",
     "83 directly patched text slots and 2202 unchanged archive members verified against the original archive",
     "Xbox storage title hook linked and UTF-16BE display field verified offline with the original save key",
-    "1256 announced-name inputs matched distinct English labels and the original audio IDs"
+    "1256 announced-name inputs matched distinct English labels and the original audio IDs",
+    "46 English announcer-navigation syllables cover all 70 native grid cells, including 24 blanks"
   ],
   "pending_validation": [
+    "Live announcer-grid syllable alignment and selector navigation",
     "Live announcer-name selection, scrolling, audition, and text placement in both player editors",
     "Live placement of packed menu defaults and the Xbox save title",
     "Live placement for team and venue labels, standings rows, VP Shop names, and system dialogs",
@@ -55,7 +57,6 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "English navigation for the announcer-name kana selector",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -223,6 +224,9 @@
     "spelling_overrides": 144,
     "phonetic_transliterations": 1112,
     "verified_display_call_sites": 7,
-    "interactive_validation": false
+    "interactive_validation": false,
+    "romanized_navigation_labels": 46,
+    "native_grid_cells": 70,
+    "preserved_blank_cells": 24
   }
 }
