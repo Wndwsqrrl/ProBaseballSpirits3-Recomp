@@ -1888,6 +1888,1122 @@
         "outline_width": 1,
         "max_font_size": 14,
         "min_font_size": 11
+      },
+      {
+        "rect": [
+          40,
+          0,
+          68,
+          16
+        ],
+        "text": "Today's Stats",
+        "source": "今日の成績",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          108,
+          0,
+          64,
+          16
+        ],
+        "text": "SB%",
+        "source": "盗塁成功率",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          172,
+          0,
+          36,
+          20
+        ],
+        "text": "This Yr",
+        "source": "今年",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          72,
+          16,
+          36,
+          16
+        ],
+        "text": "Stats",
+        "source": "成績",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          108,
+          16,
+          64,
+          16
+        ],
+        "text": "CS%",
+        "source": "盗塁阻止率",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          172,
+          20,
+          36,
+          20
+        ],
+        "text": "Last Yr",
+        "source": "昨年",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          32,
+          68,
+          16
+        ],
+        "text": "Current Season",
+        "source": "今シーズン",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          112,
+          32,
+          56,
+          16
+        ],
+        "text": "RISP",
+        "source": "得点圏",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          48,
+          68,
+          16
+        ],
+        "text": "Last 3 Games",
+        "source": "最近3試合",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          108,
+          48,
+          64,
+          16
+        ],
+        "text": "Strikes",
+        "source": "ストライク",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          172,
+          48,
+          80,
+          16
+        ],
+        "text": "Last Season",
+        "source": "昨シーズン",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          76,
+          64,
+          32,
+          16
+        ],
+        "text": "L/R",
+        "source": "左右",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          76,
+          80,
+          32,
+          16
+        ],
+        "text": "L/R",
+        "source": "左右",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          144,
+          80,
+          20,
+          24
+        ],
+        "text": "R",
+        "source": "右",
+        "padding": 2,
+        "max_font_size": 20,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": false,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          76,
+          96,
+          56,
+          16
+        ],
+        "text": "Pitch Stats",
+        "source": "投手記録",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          44,
+          112,
+          36,
+          16
+        ],
+        "text": "Catcher",
+        "source": "捕手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          84,
+          112,
+          32,
+          16
+        ],
+        "text": "Pitcher",
+        "source": "投手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          144,
+          104,
+          20,
+          24
+        ],
+        "text": "L",
+        "source": "左",
+        "padding": 2,
+        "max_font_size": 20,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": false,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          128,
+          68,
+          16
+        ],
+        "text": "Runner 1B",
+        "source": "一塁ランナー",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true,
+        "clear_rect": [
+          108,
+          128,
+          4,
+          48
+        ],
+        "clear_background": [
+          255,
+          0,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          164,
+          128,
+          44,
+          16
+        ],
+        "text": "1B",
+        "source": "一塁手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          144,
+          68,
+          16
+        ],
+        "text": "Runner 2B",
+        "source": "二塁ランナー",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          116,
+          144,
+          48,
+          16
+        ],
+        "text": "FLD %",
+        "source": "守備率",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          164,
+          144,
+          44,
+          16
+        ],
+        "text": "2B",
+        "source": "二塁手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          160,
+          68,
+          16
+        ],
+        "text": "Runner 3B",
+        "source": "三塁ランナー",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          124,
+          160,
+          32,
+          16
+        ],
+        "text": "E",
+        "source": "失策",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          164,
+          160,
+          44,
+          16
+        ],
+        "text": "3B",
+        "source": "三塁手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true,
+        "clear_rect": [
+          172,
+          176,
+          36,
+          4
+        ],
+        "clear_background": [
+          255,
+          0,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          40,
+          176,
+          36,
+          16
+        ],
+        "text": "SS",
+        "source": "遊撃手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          76,
+          176,
+          40,
+          16
+        ],
+        "text": "LF",
+        "source": "左翼手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          116,
+          176,
+          56,
+          16
+        ],
+        "text": "Past Stats",
+        "source": "成績比較",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          40,
+          192,
+          68,
+          16
+        ],
+        "text": "Today's Record",
+        "source": "本日の記録",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          112,
+          192,
+          60,
+          16
+        ],
+        "text": "PH Stats",
+        "source": "代打成績",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          128,
+          208,
+          40,
+          16
+        ],
+        "text": "CF",
+        "source": "中堅手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          168,
+          208,
+          40,
+          16
+        ],
+        "text": "RF",
+        "source": "右翼手",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          0,
+          224,
+          32,
+          16
+        ],
+        "text": "G",
+        "source": "巨人",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          32,
+          224,
+          32,
+          16
+        ],
+        "text": "C",
+        "source": "広島",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          64,
+          224,
+          32,
+          16
+        ],
+        "text": "YB",
+        "source": "横浜",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          96,
+          224,
+          32,
+          16
+        ],
+        "text": "ORIX",
+        "source": "オリックス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          128,
+          224,
+          32,
+          16
+        ],
+        "text": "L",
+        "source": "西武",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          160,
+          224,
+          32,
+          16
+        ],
+        "text": "M",
+        "source": "ロッテ",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          0,
+          240,
+          32,
+          16
+        ],
+        "text": "D",
+        "source": "中日",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          32,
+          240,
+          32,
+          16
+        ],
+        "text": "YS",
+        "source": "ヤクルト",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          64,
+          240,
+          32,
+          16
+        ],
+        "text": "T",
+        "source": "阪神",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          96,
+          240,
+          32,
+          16
+        ],
+        "text": "F",
+        "source": "日ハム",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          128,
+          240,
+          32,
+          16
+        ],
+        "text": "KIN",
+        "source": "近鉄",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          160,
+          240,
+          32,
+          16
+        ],
+        "text": "Daiei",
+        "source": "ダイエー",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 9,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "condense": true,
+        "min_width_ratio": 0.75,
+        "vertical_padding": 1,
+        "split_color_blocks": true,
+        "clear_rect": [
+          192,
+          224,
+          4,
+          32
+        ],
+        "clear_background": [
+          255,
+          0,
+          255,
+          255
+        ]
       }
     ],
     "GAME_GMshift_pos.tsr": [

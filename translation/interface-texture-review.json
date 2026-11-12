@@ -58,17 +58,6 @@
       "interactive_validation": false
     },
     {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_MAT_up09.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "14 stat labels replaced. Club names, split labels, positions and other fragments remain Japanese.",
-      "status": "partly_translated",
-      "native_sprite_layout_verified": false,
-      "interactive_validation": false
-    },
-    {
       "member": "PLDEMO.CHK",
       "texture": "GAME_MUR_810.tsr",
       "width": 256,
@@ -809,6 +798,17 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Seven glyphs now form IF, OF and SHF; native assembly/orientation still needs live validation",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_up09.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "All identified Japanese stat, split, position and team captions replaced; live source-UV assembly and small-font readability remain to be checked",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

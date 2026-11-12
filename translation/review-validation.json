@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "45 compact stat labels passed native texture/font checks; all 14 earlier label regions and 520 compressed blocks preserved, alongside 255 other complete atlases",
     "Seven defensive-tab cells passed native texture/font/glyph-coverage checks; all 255 prior atlas payloads unchanged. Credits may remain Japanese per user instruction.",
     "22 additional mode labels passed font/native texture checks; all 250 prior complete atlas payloads and 23 protected artwork/control regions unchanged",
     "34 pitch-analysis labels passed font/native decoding checks; all 249 prior atlas payloads unchanged; 693 material records classified and source members retained",
@@ -272,9 +273,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2024,
+    "total_labels": 2069,
     "total_atlases": 256,
-    "pending_texture_entries": 16,
+    "pending_texture_entries": 15,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -642,6 +643,19 @@
     "protected_regions": 3,
     "original_glyph_and_shadow_pixels_fully_covered": true,
     "report": "shift-tab-validation.json",
+    "interactive_validation": false
+  },
+  "compact_stat_texture_review": {
+    "new_labels": 45,
+    "expanded_atlases": 1,
+    "previous_2024_label_specs_unchanged": true,
+    "other_255_full_atlas_payloads_byte_identical": true,
+    "existing_stat_label_regions_pixel_identical": 14,
+    "existing_stat_label_blocks_byte_identical": 520,
+    "protected_ascii_numeric_and_control_regions": 10,
+    "historical_years_and_team_names_preserved": true,
+    "original_magenta_background_retained": true,
+    "report": "compact-stat-validation.json",
     "interactive_validation": false
   }
 }

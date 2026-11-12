@@ -7,7 +7,7 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 2024,
+  "texture_labels": 2069,
   "localized_archive_members": 109,
   "validation": [
     "native Windows build passed",
@@ -61,9 +61,11 @@
     "693 shared gameplay/editor material records classified using decoded previews and material-family metadata; both complete source members retained byte-identically",
     "22 partner, role, record, copy-dialog and championship labels verified; all 250 earlier atlas payloads, 23 protected regions and 22 original decorative/effect texture payloads unchanged",
     "Seven defensive-tab character cells verified at the original 18-pixel row pitch; all 255 previous atlas payloads, source marker regions and original glyph-shadow coverage verified",
-    "Remaining 218 nonstandard-name texture candidates classified from decoded previews, index-map shapes and normal-map metadata; all 169 complete source members byte-identical"
+    "Remaining 218 nonstandard-name texture candidates classified from decoded previews, index-map shapes and normal-map metadata; all 169 complete source members byte-identical",
+    "45 compact stat/split/position/team labels verified; 255 other atlas payloads, all 14 earlier stat labels/520 compressed blocks and 10 numeric/control regions unchanged"
   ],
   "pending_validation": [
+    "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
     "Live IF/OF/SHF tab assembly, orientation and native texture-mask rendering; expand abbreviations where the layout permits",
     "Live partner categories/badges, pitcher roles, record banners, player-copy dialogs and championship captions; verify R1/RB trial icon branch",
     "Live pitch-analysis result-filter fragment assembly, legacy pitch-name terminology and source UV placement",
@@ -111,7 +113,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "16 pending textures in interface-texture-review.json plus 1 additional texture in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "15 pending textures in interface-texture-review.json plus 1 additional texture in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
     "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -300,9 +302,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2024,
+    "total_labels": 2069,
     "total_atlases": 256,
-    "pending_texture_entries": 16,
+    "pending_texture_entries": 15,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -670,6 +672,19 @@
     "protected_regions": 3,
     "original_glyph_and_shadow_pixels_fully_covered": true,
     "report": "shift-tab-validation.json",
+    "interactive_validation": false
+  },
+  "compact_stat_texture_review": {
+    "new_labels": 45,
+    "expanded_atlases": 1,
+    "previous_2024_label_specs_unchanged": true,
+    "other_255_full_atlas_payloads_byte_identical": true,
+    "existing_stat_label_regions_pixel_identical": 14,
+    "existing_stat_label_blocks_byte_identical": 520,
+    "protected_ascii_numeric_and_control_regions": 10,
+    "historical_years_and_team_names_preserved": true,
+    "original_magenta_background_retained": true,
+    "report": "compact-stat-validation.json",
     "interactive_validation": false
   }
 }

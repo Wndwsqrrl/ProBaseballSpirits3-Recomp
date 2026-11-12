@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-12",
+  "new_labels": 45,
+  "new_atlases": 0,
+  "expanded_atlases": 1,
+  "previous_label_specs_unchanged": 2024,
+  "other_previous_complete_atlas_payloads_byte_identical": 255,
+  "existing_stat_label_regions_pixel_identical": 14,
+  "existing_stat_label_blocks_byte_identical": 520,
+  "protected_ascii_numeric_and_control_regions": [
+    {
+      "rect": [
+        0,
+        32,
+        40,
+        48
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        40,
+        16,
+        72,
+        32
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        40,
+        64,
+        76,
+        80
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        60,
+        80,
+        76,
+        96
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        40,
+        96,
+        76,
+        112
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        148,
+        64,
+        232,
+        80
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        164,
+        80,
+        232,
+        128
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        0,
+        208,
+        128,
+        224
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        232,
+        64,
+        256,
+        256
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        208,
+        128,
+        232,
+        256
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "original_magenta_background_retained": true,
+  "split_color_blocks_preserves_existing_grayscale_labels": true,
+  "historical_team_labels": [
+    {
+      "japanese": "巨人",
+      "english": "G"
+    },
+    {
+      "japanese": "広島",
+      "english": "C"
+    },
+    {
+      "japanese": "横浜",
+      "english": "YB"
+    },
+    {
+      "japanese": "オリックス",
+      "english": "ORIX"
+    },
+    {
+      "japanese": "西武",
+      "english": "L"
+    },
+    {
+      "japanese": "ロッテ",
+      "english": "M"
+    },
+    {
+      "japanese": "中日",
+      "english": "D"
+    },
+    {
+      "japanese": "ヤクルト",
+      "english": "YS"
+    },
+    {
+      "japanese": "阪神",
+      "english": "T"
+    },
+    {
+      "japanese": "日ハム",
+      "english": "F"
+    },
+    {
+      "japanese": "近鉄",
+      "english": "KIN"
+    },
+    {
+      "japanese": "ダイエー",
+      "english": "Daiei"
+    }
+  ],
+  "historical_note": "Preserve the native 2003/2004 year labels, Orix company name, Nippon-Ham, Kintetsu and Daiei; do not substitute modern franchise names",
+  "font_bounds_checked": true,
+  "native_decoded_preview_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Match",
+      "key": "match_telop_batter_seazon",
+      "japanese": "今シーズン",
+      "english": "Current Season"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_telop_batter_scoring_stats",
+      "japanese": "得点圏",
+      "english": "Scoring Pos."
+    },
+    {
+      "namespace": "Match",
+      "key": "match_telop_batter_last_this_year_stats",
+      "japanese": "成績比較",
+      "english": "Past Stats"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_telop_old_seazon_text",
+      "japanese": "昨シーズン",
+      "english": "Last Season"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_Interleague_record_personal_defense_05",
+      "japanese": "守備率",
+      "english": "FLD %"
+    }
+  ],
+  "compact_abbreviations": {
+    "RISP": "Runners in scoring position",
+    "SB%": "Stolen-base success rate",
+    "CS%": "Caught-stealing percentage",
+    "PH Stats": "Pinch-hitting stats"
+  }
+}
