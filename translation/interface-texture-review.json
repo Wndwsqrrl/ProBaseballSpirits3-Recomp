@@ -444,9 +444,10 @@
       "width": 512,
       "height": 256,
       "format": "18280186",
-      "remaining_text": "Practice board heading and date suffixes",
-      "status": "pending",
-      "native_sprite_layout_verified": false
+      "remaining_text": "Small print on pinned notices is unresolved; board heading and month/day markers replaced.",
+      "status": "partly_translated",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
     },
     {
       "member": "SOLOINFO.CHK",
@@ -454,19 +455,10 @@
       "width": 512,
       "height": 256,
       "format": "18280186",
-      "remaining_text": "Match board heading, VP calculation and difficulty multipliers",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "SOLOPLSEL.CHK",
-      "texture": "MENU_PEpselect.tsr",
-      "width": 512,
-      "height": 256,
-      "format": "18280186",
-      "remaining_text": "Japanese class names below English class labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
+      "remaining_text": "Small print on pinned notices is unresolved; board heading and month/day markers replaced.",
+      "status": "partly_translated",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
     },
     {
       "member": "STASEL.CHK",
@@ -780,6 +772,17 @@
       "height": 128,
       "format": "1a200154",
       "remaining_text": "Baserunning, stealing and pinch-hitting ability labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "SOLOPLSEL.CHK",
+      "texture": "MENU_PEpselect.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Japanese class names below English class labels",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

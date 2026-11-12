@@ -23,14 +23,14 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "asset build and all font bounds passed",
-    "all 2223 archive members verified, including 2186 unchanged members",
-    "BC2/BC3 native outputs decoded and outside-label blocks compared",
-    "online headings and ability badge previews checked",
-    "Python tool syntax checks passed"
+    "all 2223 archive members verified, including 2184 unchanged members",
+    "career heading and VP formula previews checked",
+    "original pixels outside label rectangles preserved"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live career notice headings, numeric month/day placement, VP formula and player class subtitles",
     "Live online menu labels, free-player tag, and graded baserunning/stealing badges",
     "Live auto-game turn notices and at-bat number spacing, pitcher order, result headers, championship badge and DH preset buttons",
     "Live pause menus, umpire calls, utility and sound menus, batting-first controls, and international team logos",
@@ -252,14 +252,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 180,
-    "total_atlases": 32,
-    "pending_texture_entries": 64,
+    "total_labels": 203,
+    "total_atlases": 35,
+    "pending_texture_entries": 63,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2186,
+    "unchanged_archive_members_verified": 2184,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -289,5 +289,18 @@
     "original_compressed_blocks_outside_labels_verified": true,
     "decoded_outputs_checked": true,
     "interactive_validation": false
+  },
+  "career_board_texture_review": {
+    "labels": 23,
+    "atlases": 3,
+    "board_headings": 2,
+    "date_marker_replacements": 4,
+    "monthly_vp_formula_labels": 5,
+    "difficulty_labels": 6,
+    "player_class_subtitles": 6,
+    "font_bounds_checked": true,
+    "small_print_resolved": false,
+    "interactive_validation": false,
+    "background_sampling_preserves_original_alpha": true
   }
 }

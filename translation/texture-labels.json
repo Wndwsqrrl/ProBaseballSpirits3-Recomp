@@ -2556,5 +2556,378 @@
         "max_font_size": 18
       }
     ]
+  },
+  "SOLOINFO.CHK": {
+    "MENU_PEtuti_00.tsr": [
+      {
+        "rect": [
+          88,
+          8,
+          128,
+          40
+        ],
+        "text": "Today's Strategy!",
+        "source": "本日の作戦！",
+        "padding": 4,
+        "foreground": [
+          255,
+          51,
+          51,
+          255
+        ],
+        "max_font_size": 23,
+        "background_sample_x": 220
+      },
+      {
+        "rect": [
+          372,
+          8,
+          20,
+          24
+        ],
+        "text": "/",
+        "source": "月",
+        "padding": 2,
+        "foreground": [
+          68,
+          119,
+          204,
+          255
+        ],
+        "max_font_size": 22,
+        "background_sample_x": 396
+      },
+      {
+        "rect": [
+          424,
+          8,
+          20,
+          24
+        ],
+        "text": "",
+        "source": "日",
+        "padding": 2,
+        "foreground": [
+          68,
+          119,
+          204,
+          255
+        ],
+        "background_sample_x": 396
+      }
+    ],
+    "MENU_PEtuti_02.tsr": [
+      {
+        "rect": [
+          88,
+          8,
+          128,
+          40
+        ],
+        "text": "Today's Notices",
+        "source": "本日の通達",
+        "padding": 4,
+        "foreground": [
+          68,
+          119,
+          204,
+          255
+        ],
+        "max_font_size": 23,
+        "background_sample_x": 220
+      },
+      {
+        "rect": [
+          372,
+          8,
+          20,
+          24
+        ],
+        "text": "/",
+        "source": "月",
+        "padding": 2,
+        "foreground": [
+          68,
+          119,
+          204,
+          255
+        ],
+        "max_font_size": 22,
+        "background_sample_x": 396
+      },
+      {
+        "rect": [
+          424,
+          8,
+          20,
+          24
+        ],
+        "text": "",
+        "source": "日",
+        "padding": 2,
+        "foreground": [
+          68,
+          119,
+          204,
+          255
+        ],
+        "background_sample_x": 396
+      }
+    ]
+  },
+  "SOLOPLSEL.CHK": {
+    "MENU_PEpselect.tsr": [
+      {
+        "rect": [
+          4,
+          28,
+          192,
+          20
+        ],
+        "text": "Monthly VP Formula",
+        "source": "月収VP算出方法",
+        "padding": 2,
+        "foreground": [
+          116,
+          116,
+          85,
+          255
+        ],
+        "max_font_size": 18,
+        "background_sample_x": 198
+      },
+      {
+        "rect": [
+          112,
+          50,
+          80,
+          18
+        ],
+        "text": "Base VP",
+        "source": "基本VP",
+        "padding": 2,
+        "foreground": [
+          116,
+          116,
+          85,
+          255
+        ],
+        "max_font_size": 18,
+        "background_sample_x": 198
+      },
+      {
+        "rect": [
+          48,
+          68,
+          144,
+          16
+        ],
+        "text": "Target Multiplier",
+        "source": "要求活躍度レート",
+        "padding": 2,
+        "foreground": [
+          116,
+          116,
+          85,
+          255
+        ],
+        "max_font_size": 18,
+        "background_sample_x": 198
+      },
+      {
+        "rect": [
+          48,
+          84,
+          144,
+          16
+        ],
+        "text": "CPU Difficulty",
+        "source": "COM難易度レート",
+        "padding": 2,
+        "foreground": [
+          116,
+          116,
+          85,
+          255
+        ],
+        "max_font_size": 18,
+        "background_sample_x": 198
+      },
+      {
+        "rect": [
+          112,
+          104,
+          88,
+          18
+        ],
+        "text": "Monthly VP",
+        "source": "月収VP",
+        "padding": 2,
+        "foreground": [
+          116,
+          116,
+          85,
+          255
+        ],
+        "max_font_size": 18,
+        "background_sample_x": 198
+      },
+      {
+        "rect": [
+          0,
+          168,
+          72,
+          22
+        ],
+        "text": "Very Weak",
+        "source": "最弱",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          72,
+          168,
+          72,
+          22
+        ],
+        "text": "Weak",
+        "source": "弱い",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          144,
+          168,
+          72,
+          22
+        ],
+        "text": "Normal",
+        "source": "普通",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          0,
+          212,
+          72,
+          22
+        ],
+        "text": "Strong",
+        "source": "強い",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          72,
+          212,
+          72,
+          22
+        ],
+        "text": "Perfect",
+        "source": "パーフェクト",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          144,
+          212,
+          72,
+          22
+        ],
+        "text": "Spirits",
+        "source": "スピリッツ",
+        "padding": 2,
+        "max_font_size": 17,
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          348,
+          18,
+          164,
+          14
+        ],
+        "text": "All Players",
+        "source": "全選手",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          348,
+          48,
+          164,
+          14
+        ],
+        "text": "Future",
+        "source": "フューチャー",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          348,
+          78,
+          164,
+          14
+        ],
+        "text": "Professional",
+        "source": "プロフェッショナル",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          348,
+          108,
+          164,
+          14
+        ],
+        "text": "Leader",
+        "source": "リーダー",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          348,
+          138,
+          164,
+          14
+        ],
+        "text": "Star",
+        "source": "スター",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          348,
+          168,
+          164,
+          14
+        ],
+        "text": "Original",
+        "source": "オリジナル",
+        "padding": 4,
+        "max_font_size": 12,
+        "min_font_size": 11
+      }
+    ]
   }
 }

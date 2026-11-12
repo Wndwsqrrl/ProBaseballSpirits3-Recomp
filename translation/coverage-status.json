@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 180,
-  "localized_archive_members": 37,
+  "texture_labels": 203,
+  "localized_archive_members": 39,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -37,9 +37,11 @@
     "27 complete career rating and contract prompts matched English; six country/custom-team texture labels passed archive and preview checks",
     "64 additional texture labels passed font bounds and preview checks; rebuilt BC1 and ARGB8888 outputs decoded, with 2193 untouched archive members verified",
     "44 auto-game, pitcher-order, result, championship and lineup-preset sprite labels passed offline checks; 2191 unchanged archive members verified",
-    "19 additional online and ability badge labels verified in decoded BC2/BC3 textures and rebuilt archive"
+    "19 additional online and ability badge labels verified in decoded BC2/BC3 textures and rebuilt archive",
+    "23 career board, VP formula, difficulty, date and class labels passed original-region and font bounds checks"
   ],
   "pending_validation": [
+    "Live career notice headings, numeric month/day placement, VP formula and player class subtitles",
     "Live online menu labels, free-player tag, and graded baserunning/stealing badges",
     "Live auto-game turn notices and at-bat number spacing, pitcher order, result headers, championship badge and DH preset buttons",
     "Live pause menus, umpire calls, utility and sound menus, batting-first controls, and international team logos",
@@ -67,7 +69,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "64 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "63 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -255,14 +257,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 180,
-    "total_atlases": 32,
-    "pending_texture_entries": 64,
+    "total_labels": 203,
+    "total_atlases": 35,
+    "pending_texture_entries": 63,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2186,
+    "unchanged_archive_members_verified": 2184,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -292,5 +294,18 @@
     "original_compressed_blocks_outside_labels_verified": true,
     "decoded_outputs_checked": true,
     "interactive_validation": false
+  },
+  "career_board_texture_review": {
+    "labels": 23,
+    "atlases": 3,
+    "board_headings": 2,
+    "date_marker_replacements": 4,
+    "monthly_vp_formula_labels": 5,
+    "difficulty_labels": 6,
+    "player_class_subtitles": 6,
+    "font_bounds_checked": true,
+    "small_print_resolved": false,
+    "interactive_validation": false,
+    "background_sampling_preserves_original_alpha": true
   }
 }
