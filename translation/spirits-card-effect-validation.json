@@ -1,0 +1,705 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 76,
+  "new_atlases": 5,
+  "link_and_boost_effects": 15,
+  "slot_messages": 8,
+  "training_icon_captions": 41,
+  "training_card_headings": 12,
+  "previous_label_specs_unchanged": 926,
+  "previous_complete_atlas_payloads_byte_identical": 117,
+  "protected_regions": [
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "rect": [
+        124,
+        280,
+        224,
+        332
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "rect": [
+        0,
+        472,
+        128,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "rect": [
+        140,
+        336,
+        172,
+        352
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "rect": [
+        180,
+        384,
+        196,
+        408
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_slotmoji.tsr",
+      "rect": [
+        136,
+        160,
+        256,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        0,
+        0,
+        84,
+        384
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        256,
+        252,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        0,
+        168,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        0,
+        252,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        0,
+        336,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        0,
+        420,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        0,
+        504,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        64,
+        168,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        64,
+        252,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        64,
+        336,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        64,
+        420,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        64,
+        504,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        128,
+        168,
+        168
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        128,
+        252,
+        168
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        128,
+        336,
+        168
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        128,
+        420,
+        168
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        128,
+        504,
+        168
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        192,
+        168,
+        232
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        192,
+        252,
+        232
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        192,
+        336,
+        232
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        192,
+        420,
+        232
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        192,
+        504,
+        232
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        256,
+        168,
+        296
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        256,
+        336,
+        296
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        256,
+        420,
+        296
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        256,
+        504,
+        296
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        320,
+        168,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        320,
+        252,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        320,
+        336,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        320,
+        420,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        320,
+        504,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        0,
+        384,
+        84,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        384,
+        168,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        384,
+        252,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        384,
+        336,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        384,
+        420,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        384,
+        504,
+        424
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        0,
+        448,
+        84,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        84,
+        448,
+        168,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        168,
+        448,
+        252,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        252,
+        448,
+        336,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        336,
+        448,
+        420,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "rect": [
+        420,
+        448,
+        504,
+        488
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        0,
+        28,
+        112,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        112,
+        28,
+        224,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        0,
+        188,
+        112,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        112,
+        188,
+        224,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        0,
+        348,
+        112,
+        480
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "rect": [
+        112,
+        348,
+        224,
+        480
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        0,
+        28,
+        112,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        112,
+        28,
+        224,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        0,
+        188,
+        112,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        112,
+        188,
+        224,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        0,
+        348,
+        112,
+        480
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "rect": [
+        112,
+        348,
+        224,
+        480
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "already_english_special_frames_payload_unchanged": true,
+  "font_bounds_checked": true,
+  "decoded_glow_and_wrapping_previews_checked": true,
+  "caption_strip_height": 24,
+  "uncondensed_wrapping_for_long_captions": true,
+  "native_help_references": [
+    {
+      "address": "0x820A3390",
+      "meaning": "A special ability is stolen from the selected player through matched slot symbols"
+    },
+    {
+      "address": "0x820A33D0",
+      "meaning": "Ability Steal Cards"
+    },
+    {
+      "address": "0x820A3474",
+      "meaning": "Group Training Cards"
+    }
+  ],
+  "official_2026_terms": [
+    "Boost",
+    "Intra-squad Game"
+  ],
+  "wording_notes": [
+    "Four animated glyphs for the training boost week become Boost / Week / Is / On; original exclamation sprites are retained",
+    "One Away is the slot anticipation message; native sequence still needs verification",
+    "Caption strips extend four pixels upward to allow readable two-line English; original six photos and upper icon illustrations are unchanged",
+    "P and All P abbreviations are retained from the original card labels",
+    "Counter components read Turns: [number] left, preserving the native number position without singular/plural disagreement"
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}

@@ -18459,6 +18459,2051 @@
           0
         ]
       }
+    ],
+    "SPCARD_RKwin_ef_renke.tsr": [
+      {
+        "rect": [
+          4,
+          4,
+          104,
+          48
+        ],
+        "text": "Partner\nLevel UP!",
+        "source": "パートナーレベルUP!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          165,
+          0,
+          49,
+          221
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          0,
+          96,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          60,
+          104,
+          48
+        ],
+        "text": "Partner\nXP UP!",
+        "source": "パートナー経験値UP!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          90,
+          40,
+          123,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          150,
+          0,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          116,
+          104,
+          48
+        ],
+        "text": "High School\nLink!",
+        "source": "高校連携!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          99,
+          48,
+          90,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          0,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          172,
+          104,
+          48
+        ],
+        "text": "College\nLink!",
+        "source": "大学連携!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          99,
+          65,
+          51,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          100,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          228,
+          104,
+          48
+        ],
+        "text": "Company\nLink!",
+        "source": "社会人連携!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          49,
+          69,
+          99,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          0,
+          140,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          284,
+          104,
+          48
+        ],
+        "text": "Same Year\nLink!",
+        "source": "同学年連携!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          49,
+          69,
+          30,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          128,
+          255,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          4,
+          340,
+          104,
+          48
+        ],
+        "text": "Boost",
+        "source": "覚醒",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          99,
+          85,
+          51,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          192,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          124,
+          4,
+          96,
+          48
+        ],
+        "text": "Training\nBoost Week!",
+        "source": "練習強化週間!",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          132,
+          0,
+          5,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          64,
+          32,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          147,
+          65,
+          46,
+          38
+        ],
+        "text": "Boost",
+        "source": "強",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          64,
+          32,
+          255
+        ],
+        "clear_rect": [
+          124,
+          60,
+          96,
+          48
+        ],
+        "clear_background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          147,
+          121,
+          45,
+          38
+        ],
+        "text": "Week",
+        "source": "化",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          64,
+          32,
+          255
+        ],
+        "clear_rect": [
+          124,
+          116,
+          96,
+          48
+        ],
+        "clear_background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          145,
+          178,
+          48,
+          37
+        ],
+        "text": "Is",
+        "source": "週",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          64,
+          32,
+          255
+        ],
+        "clear_rect": [
+          124,
+          172,
+          96,
+          48
+        ],
+        "clear_background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          146,
+          234,
+          47,
+          37
+        ],
+        "text": "On",
+        "source": "間",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          64,
+          32,
+          255
+        ],
+        "clear_rect": [
+          124,
+          228,
+          96,
+          48
+        ],
+        "clear_background": [
+          123,
+          4,
+          18,
+          204
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          148,
+          354,
+          104,
+          24
+        ],
+        "text": "Boost Week ON",
+        "source": "強化週間中",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1,
+        "outline": [
+          221,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          136,
+          384,
+          44,
+          24
+        ],
+        "text": "Turns:",
+        "source": "あと",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          196,
+          384,
+          56,
+          24
+        ],
+        "text": "left",
+        "source": "ターン",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ],
+    "SPCARD_RKwin_slotmoji.tsr": [
+      {
+        "rect": [
+          32,
+          0,
+          208,
+          40
+        ],
+        "text": "Start",
+        "source": "スタート",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 2,
+        "glow_color": [
+          255,
+          128,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          32,
+          40,
+          208,
+          40
+        ],
+        "text": "One Away!",
+        "source": "リーチ!",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 2,
+        "glow_color": [
+          255,
+          128,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          32,
+          80,
+          208,
+          40
+        ],
+        "text": "Got It!",
+        "source": "ゲット!",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 2,
+        "glow_color": [
+          255,
+          128,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          32,
+          120,
+          208,
+          40
+        ],
+        "text": "Miss",
+        "source": "ミス",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 2,
+        "glow_color": [
+          128,
+          0,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4
+      },
+      {
+        "rect": [
+          0,
+          164,
+          52,
+          30
+        ],
+        "text": "Turns:",
+        "source": "あと",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1.5
+      },
+      {
+        "rect": [
+          56,
+          164,
+          76,
+          30
+        ],
+        "text": "left",
+        "source": "ターン",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1.5
+      },
+      {
+        "rect": [
+          0,
+          204,
+          132,
+          36
+        ],
+        "text": "Extra Turn!",
+        "source": "ターンプラス!",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1.5
+      },
+      {
+        "rect": [
+          140,
+          204,
+          116,
+          40
+        ],
+        "text": "Breakthrough!",
+        "source": "開眼!",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "glow_radius": 1.5,
+        "glow_color": [
+          255,
+          128,
+          0,
+          255
+        ],
+        "outline_width": 0.5,
+        "glow_strength": 4,
+        "clear_rect": [
+          136,
+          200,
+          120,
+          56
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "SPCARD_RKtrcard_pic.tsr": [
+      {
+        "rect": [
+          84,
+          40,
+          84,
+          24
+        ],
+        "text": "Divine\nAbility Steal",
+        "source": "神盗技",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "adaptive_palette": true,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          168,
+          40,
+          84,
+          24
+        ],
+        "text": "Sand Sprints",
+        "source": "砂地ダッシュ",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          40,
+          84,
+          24
+        ],
+        "text": "Focus Drills",
+        "source": "精神鍛錬",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          336,
+          40,
+          84,
+          24
+        ],
+        "text": "P Breaking",
+        "source": "P変化球",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          40,
+          84,
+          24
+        ],
+        "text": "Coach\nInstruction",
+        "source": "コーチ指導",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          104,
+          84,
+          24
+        ],
+        "text": "Super\nAbility Steal",
+        "source": "超盗技",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          168,
+          104,
+          84,
+          24
+        ],
+        "text": "Baseball Dog",
+        "source": "野球犬",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          104,
+          84,
+          24
+        ],
+        "text": "Fielding\nBreakthrough",
+        "source": "守備開眼",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          336,
+          104,
+          84,
+          24
+        ],
+        "text": "All P Batting",
+        "source": "全P打撃",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          104,
+          84,
+          24
+        ],
+        "text": "Manager\nInstruction",
+        "source": "監督指導",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          168,
+          84,
+          24
+        ],
+        "text": "Super Divine\nAbility Steal",
+        "source": "超神盗技",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          168,
+          168,
+          84,
+          24
+        ],
+        "text": "Situational\nFielding",
+        "source": "シート守備",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          252,
+          168,
+          84,
+          24
+        ],
+        "text": "Intense\nBreaking Drills",
+        "source": "変化球猛特訓",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          336,
+          168,
+          84,
+          24
+        ],
+        "text": "All P\nFielding/Running",
+        "source": "全P守備走塁",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          420,
+          168,
+          84,
+          24
+        ],
+        "text": "Training\nBoost Week",
+        "source": "強化週間",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          232,
+          84,
+          24
+        ],
+        "text": "Tag Training",
+        "source": "タッグ練習",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          168,
+          232,
+          84,
+          24
+        ],
+        "text": "Fired Up",
+        "source": "闘魂注入",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          232,
+          84,
+          24
+        ],
+        "text": "Baseball Spirit",
+        "source": "野球魂",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          336,
+          232,
+          84,
+          24
+        ],
+        "text": "All P Pitching",
+        "source": "全P投球",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          232,
+          84,
+          24
+        ],
+        "text": "Training\nBoost Week",
+        "source": "強化週間",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          296,
+          84,
+          24
+        ],
+        "text": "Barbell",
+        "source": "バーベル",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          296,
+          84,
+          24
+        ],
+        "text": "Pitching\nBreakthrough",
+        "source": "投球開眼",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          336,
+          296,
+          84,
+          24
+        ],
+        "text": "All P Breaking",
+        "source": "全P変化球",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          296,
+          84,
+          24
+        ],
+        "text": "Training\nBoost Week",
+        "source": "強化週間",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          360,
+          84,
+          24
+        ],
+        "text": "Tag x2",
+        "source": "タッグ×2",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          168,
+          360,
+          84,
+          24
+        ],
+        "text": "P Boost",
+        "source": "P覚醒",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          360,
+          84,
+          24
+        ],
+        "text": "P Batting",
+        "source": "P打撃",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          336,
+          360,
+          84,
+          24
+        ],
+        "text": "Yakitori",
+        "source": "やきとり",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          360,
+          84,
+          24
+        ],
+        "text": "Training\nBoost Week",
+        "source": "強化週間",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          424,
+          84,
+          24
+        ],
+        "text": "Breaking\nBreakthrough",
+        "source": "変化球開眼",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          424,
+          84,
+          24
+        ],
+        "text": "Extra Batting",
+        "source": "特打",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          168,
+          424,
+          84,
+          24
+        ],
+        "text": "15 km Run",
+        "source": "15km走",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          252,
+          424,
+          84,
+          24
+        ],
+        "text": "P Fielding/\nRunning",
+        "source": "P守備走塁",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          336,
+          424,
+          84,
+          24
+        ],
+        "text": "Yakiniku",
+        "source": "焼肉",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          424,
+          84,
+          24
+        ],
+        "text": "Training\nBoost Week",
+        "source": "強化週間",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          488,
+          84,
+          24
+        ],
+        "text": "Dream\nAbility Steal",
+        "source": "夢盗技",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          84,
+          488,
+          84,
+          24
+        ],
+        "text": "Tag x3",
+        "source": "タッグ×3",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          168,
+          488,
+          84,
+          24
+        ],
+        "text": "Batting\nBreakthrough",
+        "source": "打撃開眼",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          252,
+          488,
+          84,
+          24
+        ],
+        "text": "P Pitching",
+        "source": "P投球",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          336,
+          488,
+          84,
+          24
+        ],
+        "text": "Shabu-shabu",
+        "source": "しゃぶしゃぶ",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          420,
+          488,
+          84,
+          24
+        ],
+        "text": "Intra-squad\nGame",
+        "source": "紅白戦",
+        "padding": 3,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "line_spacing": -2,
+        "vertical_padding": 1
+      }
+    ],
+    "SPCARD_RKtrcard_kiso.tsr": [
+      {
+        "rect": [
+          4,
+          3,
+          104,
+          24
+        ],
+        "text": "Batting Practice",
+        "source": "打撃練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          2,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "adaptive_palette": true
+      },
+      {
+        "rect": [
+          116,
+          3,
+          104,
+          24
+        ],
+        "text": "Fielding/Running",
+        "source": "守備走塁練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          2,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          4,
+          163,
+          104,
+          24
+        ],
+        "text": "Pitching Practice",
+        "source": "投球練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          162,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          116,
+          163,
+          104,
+          24
+        ],
+        "text": "Breaking Practice",
+        "source": "変化球練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          162,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          4,
+          323,
+          104,
+          24
+        ],
+        "text": "Group Training",
+        "source": "合同練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          322,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          116,
+          323,
+          104,
+          24
+        ],
+        "text": "Ability Steal",
+        "source": "盗技",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          322,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      }
+    ],
+    "SPCARD_RKtrcard_kiso_bs01.tsr": [
+      {
+        "rect": [
+          4,
+          3,
+          104,
+          24
+        ],
+        "text": "Batting Practice",
+        "source": "打撃練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          2,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5,
+        "adaptive_palette": true
+      },
+      {
+        "rect": [
+          116,
+          3,
+          104,
+          24
+        ],
+        "text": "Fielding/Running",
+        "source": "守備走塁練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          2,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          4,
+          163,
+          104,
+          24
+        ],
+        "text": "Pitching Practice",
+        "source": "投球練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          162,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          116,
+          163,
+          104,
+          24
+        ],
+        "text": "Breaking Practice",
+        "source": "変化球練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          162,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          4,
+          323,
+          104,
+          24
+        ],
+        "text": "Group Training",
+        "source": "合同練習",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          2,
+          322,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          116,
+          323,
+          104,
+          24
+        ],
+        "text": "Ability Steal",
+        "source": "盗技",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          114,
+          322,
+          106,
+          26
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          204
+        ],
+        "outline_width": 0.5
+      }
     ]
   }
 }

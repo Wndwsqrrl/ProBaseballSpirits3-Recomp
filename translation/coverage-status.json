@@ -7,7 +7,7 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 926,
+  "texture_labels": 1002,
   "localized_archive_members": 60,
   "validation": [
     "native Windows build passed",
@@ -51,9 +51,11 @@
     "Three additional source texture formats decoded; 212 newly catalogued previews include previously unseen editor, practice, Spirits-card and credits text",
     "56 editor, preseason and practice labels passed font, native decoding and archive checks; all 82 prior atlas payloads and protected controls remain unchanged",
     "38 challenge, team, VP, boost and rotation labels passed font and native archive checks; all 103 prior atlas payloads and 17 original icon, numeral and unit regions unchanged",
-    "55 mission, rank, slogan, card and controller labels passed font and native archive checks; all 110 prior atlas payloads and 31 graphic/control regions unchanged"
+    "55 mission, rank, slogan, card and controller labels passed font and native archive checks; all 110 prior atlas payloads and 31 graphic/control regions unchanged",
+    "76 Spirits-card, slot and link-effect labels passed font and native archive checks; all 117 prior atlas payloads, six photos and protected illustration/control regions unchanged"
   ],
   "pending_validation": [
+    "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
     "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
     "Live challenge controls, VP labels, player boost labels and rotation caption; verify team/custom-name BC1 masks in the home-run menu",
     "Live editor labels, name/audio controls, preseason caption assembly and practice headings; reconstruct remaining fielding-practice phrase fragments",
@@ -93,7 +95,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "18 pending textures in interface-texture-review.json plus 49 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "18 pending textures in interface-texture-review.json plus 43 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
     "1127 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -282,8 +284,8 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 926,
-    "total_atlases": 117,
+    "total_labels": 1002,
+    "total_atlases": 122,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
@@ -440,7 +442,7 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 49,
+    "additional_pending_textures": 43,
     "broader_candidates_to_classify": 1127,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
@@ -485,6 +487,21 @@
     "previous_110_full_atlas_payloads_byte_identical": true,
     "protected_regions": 31,
     "report": "spirits-season-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_card_and_effect_texture_review": {
+    "labels": 76,
+    "atlases": 5,
+    "link_and_boost_effects": 15,
+    "slot_messages": 8,
+    "training_icon_captions": 41,
+    "training_card_headings": 12,
+    "previous_926_label_specs_unchanged": true,
+    "previous_117_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 60,
+    "source_help_used_for_ability_steal_meaning": true,
+    "already_english_special_frames_retained": true,
+    "report": "spirits-card-effect-validation.json",
     "interactive_validation": false
   }
 }

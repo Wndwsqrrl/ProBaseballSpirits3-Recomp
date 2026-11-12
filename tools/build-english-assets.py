@@ -13,7 +13,7 @@ import os
 import shutil
 import struct
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from bndr import read_index
 from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
 from txcpack_text import load_packed_text, patch_packed_text
@@ -61,6 +61,45 @@ def draw_rotated_label(tile, label, font_path, scale):
         mask = mask.transpose(transpose)
         # A coverage mask also supports dark newspaper text cut out of opaque alpha.
         tile.paste(tuple(color), ((tile.width-mask.width)//2, (tile.height-mask.height)//2), mask)
+    return tile
+
+
+def draw_glowing_label(tile, label, font_path, scale):
+    radius = label['glow_radius'] * scale
+    if not 0 < radius <= 16 * scale:
+        raise ValueError('Glow radius must be greater than zero and at most 16 pixels')
+    margin = math.ceil(radius * 3)
+    width_limit = tile.width - margin * 2 - label.get('padding', 12) * scale
+    height_limit = tile.height - margin * 2 - 3 * scale
+    fit_limit = width_limit / label.get('min_width_ratio', 0.55) if label.get('condense') else width_limit
+    stroke = label.get('outline_width', 0) * scale
+    measure = ImageDraw.Draw(Image.new('L', (1, 1)))
+    for size in range(label.get('max_font_size', 38), label.get('min_font_size', 13)-1, -1):
+        font = ImageFont.truetype(str(font_path), size * scale)
+        box = measure.textbbox((0, 0), label['text'], font=font, stroke_width=stroke,
+                              align=label.get('align', 'center'))
+        if box[2]-box[0] <= fit_limit and box[3]-box[1] <= height_limit:
+            break
+    else:
+        raise ValueError(f"Glowing English label does not fit {label['rect']}: {label['text']}")
+    mask = Image.new('L', (math.ceil(box[2]-box[0]), math.ceil(box[3]-box[1])))
+    ImageDraw.Draw(mask).text((-box[0], -box[1]), label['text'], font=font,
+                             fill=255, stroke_width=stroke, stroke_fill=255,
+                             align=label.get('align', 'center'))
+    if mask.width > width_limit:
+        mask = mask.resize((int(width_limit), mask.height), Image.Resampling.LANCZOS)
+    ink = Image.new('L', tile.size)
+    ink.paste(mask, ((tile.width-mask.width)//2, (tile.height-mask.height)//2))
+    color = tuple(label.get('glow_color', (255, 128, 0, 255)))
+    strength = label.get('glow_strength', 3)
+    halo = Image.new('RGBA', tile.size, color[:3] + (0,))
+    halo.putalpha(ink.filter(ImageFilter.GaussianBlur(radius)).point(
+        lambda value: round(min(255, value * strength) * color[3] / 255)))
+    foreground = tuple(label.get('foreground', (255, 255, 255, 255)))
+    body = Image.new('RGBA', tile.size, foreground[:3] + (0,))
+    body.putalpha(ink.point(lambda value: round(value * foreground[3] / 255)))
+    tile.alpha_composite(halo)
+    tile.alpha_composite(body)
     return tile
 
 
@@ -135,20 +174,24 @@ def patch_chk(data, atlases, font_path, preview):
                     if label.get('background_keep_alpha'):
                         tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
                             (w*scale,h*scale), Image.Resampling.NEAREST))
-                    if label.get('text_rotation'):
+                    if label.get('glow_radius'):
+                        tile = draw_glowing_label(tile, label, font_path, scale)
+                    elif label.get('text_rotation'):
                         tile = draw_rotated_label(tile, label, font_path, scale)
                     else:
                         draw = ImageDraw.Draw(tile)
                         alignment = label.get('align', 'left')
+                        text_options = ({'spacing': label['line_spacing'] * scale}
+                                        if 'line_spacing' in label else {})
                         stroke = label.get('outline_width', 0) * scale
                         for size in range(label.get('max_font_size', 38), label.get('min_font_size', 13)-1, -1):
                             font = ImageFont.truetype(str(font_path), size*scale)
                             box = draw.textbbox((0,0), label['text'], font=font,
-                                align=alignment, stroke_width=stroke)
+                                align=alignment, stroke_width=stroke, **text_options)
                             width_limit = (w-label.get('padding',12))*scale
                             if label.get('condense'):
                                 width_limit /= label.get('min_width_ratio',0.55)
-                            if box[2]-box[0] <= width_limit and box[3]-box[1] <= (h-3)*scale:
+                            if box[2]-box[0] <= width_limit and box[3]-box[1] <= (h-label.get('vertical_padding',3))*scale:
                                 break
                         else:
                             raise ValueError(f"English label does not fit {name} {label['rect']}: {label['text']}")
@@ -158,7 +201,8 @@ def patch_chk(data, atlases, font_path, preview):
                             glyph = Image.new('RGBA',(math.ceil(box[2]-box[0]),math.ceil(box[3]-box[1])))
                             ImageDraw.Draw(glyph).text((-box[0],-box[1]),label['text'],font=font,
                                 align=alignment,fill=tuple(label.get('foreground',(255,255,255,255))),
-                                stroke_width=stroke,stroke_fill=tuple(label.get('outline',(0,0,0,255))))
+                                stroke_width=stroke,stroke_fill=tuple(label.get('outline',(0,0,0,255))),
+                                **text_options)
                             glyph_width = min(glyph.width,(w-label.get('padding',12))*scale)
                             if glyph_width != glyph.width:
                                 glyph = glyph.resize((glyph_width,glyph.height),Image.Resampling.LANCZOS)
@@ -168,7 +212,7 @@ def patch_chk(data, atlases, font_path, preview):
                                 align=alignment,
                                 fill=tuple(label.get('foreground',(255,255,255,255))),
                                 stroke_width=stroke,
-                                stroke_fill=tuple(label.get('outline',(0,0,0,255))))
+                                stroke_fill=tuple(label.get('outline',(0,0,0,255))), **text_options)
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
                     if label.get('alpha_mask_only'):
                         # Some newspaper sprites carry text only in alpha; RGB is a fixed tint.

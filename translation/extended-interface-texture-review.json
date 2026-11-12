@@ -49,66 +49,6 @@
       "interactive_validation": false
     },
     {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKwin_ef_renke.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKwin_slotmoji.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKtrcard_pic.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKtrcard_kiso.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKtrcard_sp.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "RKINFO000.CHK",
       "texture": "RKINFO000_RKinfo_01.tsr",
       "width": 512,
@@ -869,9 +809,71 @@
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "english_asset_built",
       "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_slotmoji.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
     }
   ],
   "prior_pending_report": "interface-texture-review.json",
   "protected_content": "Japanese in-stadium signs, sponsor ads and ballpark artwork remain original",
-  "entire_game_english": false
+  "entire_game_english": false,
+  "already_english_textures": [
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_sp.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "All six frames already say SPECIAL TRAINING; original payload retained",
+      "status": "already_english_reviewed",
+      "interactive_validation": false
+    }
+  ]
 }
