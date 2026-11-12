@@ -1,7 +1,6 @@
 {
   "source_members": 37,
   "source_textures": 185,
-  "unique_label_texts": 21,
   "label_occurrences": 777,
   "translated_atlases": 111,
   "preserved_background_and_effect_payloads": 74,
@@ -334,5 +333,7 @@
         "RKINFOlast_RKinfo_04.tsr"
       ]
     }
-  ]
+  ],
+  "shared_label_definitions": 21,
+  "unique_english_texts": 20
 }

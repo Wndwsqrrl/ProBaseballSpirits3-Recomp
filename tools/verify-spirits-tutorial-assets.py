@@ -95,7 +95,10 @@ def main():
         if group['copies'] != 37 or len(group['original_hashes']) != 1 or len(group['english_hashes']) != 1:
             raise ValueError(f'Shared tutorial pixels differ across variants: {key}')
     report = dict(
-        source_members=37, source_textures=185, unique_label_texts=21, label_occurrences=occurrences,
+        source_members=37, source_textures=185,
+        shared_label_definitions=sum(len(rows) for rows in labels[members[0]].values()),
+        unique_english_texts=len({r['text'] for rows in labels[members[0]].values() for r in rows}),
+        label_occurrences=occurrences,
         translated_atlases=111, preserved_background_and_effect_payloads=preserved_payloads,
         protected_regions_pixel_identical=protected_regions,
         shared_pixel_groups={key: dict(original_pixel_sha256=next(iter(g['original_hashes'])),

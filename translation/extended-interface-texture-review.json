@@ -19,26 +19,6 @@
   "decoder_reference": "Installed ReXGlue SDK xenos.h and texture info_formats.cpp",
   "pending_textures": [
     {
-      "member": "PNTDYIST.CHK",
-      "texture": "PENNANT_PE_kata_01.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PNDAYRES.CHK",
-      "texture": "PNDAYRES_PEkekka_01.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "PRAC_DEF.CHK",
       "texture": "PRC_TR_shubirenshu_gauge.tsr",
       "width": 256,
@@ -49,42 +29,12 @@
       "interactive_validation": false
     },
     {
-      "member": "ITEMPICT03.CHK",
-      "texture": "itempict03_VPitem_pict49_64.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "18280186",
-      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "ITEMPICT04.CHK",
-      "texture": "itempict04_VPitem_pict65_80.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "18280186",
-      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "ITEMPICT05.CHK",
-      "texture": "itempict05_VPitem_pict81_96.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "18280186",
-      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "ENDING.CHK",
       "texture": "ENDING_sr_01.tsr",
       "width": 1024,
       "height": 1024,
       "format": "1a200152",
-      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "remaining_text": "Production Staff caption translated; Japanese title logo remains",
       "status": "pending",
       "interactive_validation": false
     },
@@ -294,26 +244,6 @@
       "width": 1024,
       "height": 1024,
       "format": "1a20017b",
-      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "ENDING.CHK",
-      "texture": "ENDING_sr_23.tsr",
-      "width": 1024,
-      "height": 1024,
-      "format": "1a200152",
-      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "ENDING.CHK",
-      "texture": "ENDING_sr_24.tsr",
-      "width": 1024,
-      "height": 1024,
-      "format": "1a200152",
       "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
       "status": "pending",
       "interactive_validation": false
@@ -859,6 +789,66 @@
       "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
       "status": "english_asset_built",
       "interactive_validation": false
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_23.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
     }
   ],
   "prior_pending_report": "interface-texture-review.json",
@@ -872,6 +862,16 @@
       "height": 512,
       "format": "1a200152",
       "remaining_text": "All six frames already say SPECIAL TRAINING; original payload retained",
+      "status": "already_english_reviewed",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_24.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "remaining_text": "KONAMI logo only; full original payload retained",
       "status": "already_english_reviewed",
       "interactive_validation": false
     }

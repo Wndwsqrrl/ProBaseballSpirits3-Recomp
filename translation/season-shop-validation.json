@@ -1,0 +1,752 @@
+{
+  "date": "2026-11-12",
+  "new_labels": 62,
+  "new_atlases": 7,
+  "new_members": 6,
+  "season_controls_and_role_labels": 19,
+  "competition_and_league_labels": 13,
+  "coach_name_labels": 23,
+  "voucher_captions": 2,
+  "credits_and_licensing_captions": 5,
+  "previous_label_specs_unchanged": 1779,
+  "previous_complete_atlas_payloads_byte_identical": 233,
+  "protected_regions": [
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        46,
+        10,
+        105,
+        28
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        18,
+        17,
+        42,
+        43
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        23,
+        90,
+        125,
+        100
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        18,
+        130,
+        40,
+        194
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        151,
+        200,
+        170,
+        220
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        153,
+        420,
+        195,
+        451
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        154,
+        326,
+        217,
+        345
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        1,
+        458,
+        56,
+        507
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "rect": [
+        57,
+        480,
+        201,
+        505
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        19,
+        8,
+        63,
+        39
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        210,
+        8,
+        240,
+        39
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        19,
+        48,
+        63,
+        79
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        208,
+        48,
+        251,
+        79
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        328,
+        88,
+        512,
+        264
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        90,
+        408,
+        236,
+        436
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        56,
+        408,
+        88,
+        436
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        88,
+        64,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        128,
+        64,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        168,
+        64,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        208,
+        64,
+        240
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        248,
+        64,
+        280
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        288,
+        64,
+        320
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        328,
+        64,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        20,
+        368,
+        64,
+        400
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        248,
+        88,
+        289,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        244,
+        128,
+        289,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        248,
+        168,
+        289,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        244,
+        208,
+        289,
+        240
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        248,
+        328,
+        289,
+        360
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "rect": [
+        244,
+        368,
+        289,
+        400
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        0,
+        128,
+        128,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        128,
+        0,
+        256,
+        384
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        0,
+        0,
+        128,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        19,
+        77,
+        36,
+        83
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        84,
+        77,
+        99,
+        83
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        14,
+        109,
+        103,
+        117
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        137,
+        404,
+        153,
+        429
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "rect": [
+        137,
+        468,
+        153,
+        493
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        20,
+        35,
+        45
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        148,
+        35,
+        173
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        212,
+        35,
+        237
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        276,
+        35,
+        301
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        340,
+        35,
+        365
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        404,
+        35,
+        429
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        19,
+        468,
+        35,
+        493
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        20,
+        153,
+        45
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        84,
+        153,
+        109
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        148,
+        153,
+        173
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        212,
+        153,
+        237
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        276,
+        153,
+        301
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        340,
+        153,
+        365
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        404,
+        153,
+        429
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "rect": [
+        137,
+        468,
+        153,
+        493
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        20,
+        35,
+        45
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        84,
+        35,
+        109
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        148,
+        35,
+        173
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        212,
+        35,
+        237
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        276,
+        35,
+        301
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        19,
+        340,
+        35,
+        365
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "rect": [
+        0,
+        384,
+        128,
+        448
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_01.tsr",
+      "rect": [
+        270,
+        245,
+        754,
+        464
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_23.tsr",
+      "rect": [
+        390,
+        295,
+        634,
+        490
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_23.tsr",
+      "rect": [
+        380,
+        608,
+        638,
+        682
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "unmodified_credit_page_payloads": 22,
+  "all_source_role_glyphs_within_replacement_rectangles": true,
+  "contextual_source": {
+    "address": "0x8209C810",
+    "meaning": "Keep starting pitchers in for more innings; Longer is not a pull-hitting instruction"
+  },
+  "official_2026_terms": [
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_npb_interleague",
+      "english": "Interleague"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_telop_compe_name_4",
+      "english": "Nippon Series"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_match_info_title_10",
+      "english": "Farm Japan Championship"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_match_info_title_12",
+      "english": "Asia Series"
+    }
+  ],
+  "name_reading_sources": [
+    {
+      "japanese": "音",
+      "english": "Oto",
+      "url": "https://npb.jp/bis/players/71173866.html"
+    },
+    {
+      "japanese": "真喜志",
+      "english": "Makishi",
+      "url": "https://npb.jp/bis/players/51053864.html"
+    }
+  ],
+  "font_bounds_checked": true,
+  "native_decoded_previews_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false
+}
