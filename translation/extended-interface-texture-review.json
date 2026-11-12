@@ -19,51 +19,11 @@
   "decoder_reference": "Installed ReXGlue SDK xenos.h and texture info_formats.cpp",
   "pending_textures": [
     {
-      "member": "PEMUSERCON.CHK",
-      "texture": "PENNANT_PE_mission_select.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "18280186",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PEMUSERCON.CHK",
-      "texture": "PENNANT_PE_mission_silhouette.ts",
-      "width": 512,
-      "height": 512,
-      "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "PNTDYIST.CHK",
       "texture": "PENNANT_PE_kata_01.tsr",
       "width": 256,
       "height": 512,
       "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PNTEAMINFO.CHK",
-      "texture": "PNTEAMINFO_PEteaminfo_rank.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PNTEAMINFO.CHK",
-      "texture": "PNTEAMINFO_PEteaminfo_title.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200154",
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "pending",
       "interactive_validation": false
@@ -90,16 +50,6 @@
     },
     {
       "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKcard_parts.tsr",
-      "width": 128,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
       "texture": "SPCARD_RKwin_ef_renke.tsr",
       "width": 256,
       "height": 512,
@@ -110,30 +60,10 @@
     },
     {
       "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKregset.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1828014f",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
       "texture": "SPCARD_RKwin_slotmoji.tsr",
       "width": 256,
       "height": 256,
       "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SPCARD.CHK",
-      "texture": "SPCARD_RKwin_iconset.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1828014f",
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "pending",
       "interactive_validation": false
@@ -866,6 +796,76 @@
       "width": 64,
       "height": 64,
       "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_select.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_silhouette.ts",
+      "width": 512,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_rank.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_title.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKcard_parts.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "english_asset_built",
       "interactive_validation": false

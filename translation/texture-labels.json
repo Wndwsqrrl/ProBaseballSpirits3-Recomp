@@ -17145,5 +17145,1320 @@
         "align": "center"
       }
     ]
+  },
+  "PEMUSERCON.CHK": {
+    "PENNANT_PE_mission_select.tsr": [
+      {
+        "rect": [
+          32,
+          100,
+          68,
+          24
+        ],
+        "text": "Team",
+        "source": "チーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          238,
+          238,
+          204,
+          255
+        ]
+      }
+    ],
+    "PENNANT_PE_mission_silhouette.ts": [
+      {
+        "rect": [
+          256,
+          256,
+          256,
+          42
+        ],
+        "text": "MCP Extra",
+        "source": "MCP エクストラ",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          256,
+          298,
+          256,
+          42
+        ],
+        "text": "MCP Extra",
+        "source": "MCP エクストラ",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          256,
+          340,
+          256,
+          42
+        ],
+        "text": "Boost Special",
+        "source": "覚醒 スペシャル",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          256,
+          382,
+          256,
+          42
+        ],
+        "text": "Boost Special",
+        "source": "覚醒 スペシャル",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          256,
+          424,
+          256,
+          42
+        ],
+        "text": "Team Chain",
+        "source": "チーム チェイン",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          256,
+          466,
+          256,
+          46
+        ],
+        "text": "Team Chain",
+        "source": "チーム チェイン",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      }
+    ]
+  },
+  "PNTEAMINFO.CHK": {
+    "PNTEAMINFO_PEteaminfo_rank.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          64,
+          35
+        ],
+        "text": "Champion",
+        "source": "優勝",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          64,
+          0,
+          64,
+          35
+        ],
+        "text": "4th",
+        "source": "4位",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          0,
+          35,
+          64,
+          35
+        ],
+        "text": "2nd",
+        "source": "2位",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          64,
+          35,
+          64,
+          35
+        ],
+        "text": "5th",
+        "source": "5位",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          0,
+          70,
+          64,
+          35
+        ],
+        "text": "3rd",
+        "source": "3位",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          64,
+          70,
+          64,
+          35
+        ],
+        "text": "6th",
+        "source": "6位",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "outline_width": 2
+      }
+    ],
+    "PNTEAMINFO_PEteaminfo_title.tsr": [
+      {
+        "rect": [
+          29,
+          3,
+          272,
+          39
+        ],
+        "text": "Time to Reclaim the Throne",
+        "source": "盟主復活のとき",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          30,
+          45,
+          272,
+          38
+        ],
+        "text": "Dragons' Move for the Crown",
+        "source": "竜・王への一手",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          10,
+          128,
+          309,
+          40
+        ],
+        "text": "F Project Begins!",
+        "source": "「Fプロジェクト」発動!",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          41,
+          213,
+          249,
+          39
+        ],
+        "text": "Add Wings to the Tigers",
+        "source": "為・虎・添・翼",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          60,
+          255,
+          211,
+          38
+        ],
+        "text": "Steadfast and Decisive",
+        "source": "堅忍果決",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          10,
+          297,
+          310,
+          39
+        ],
+        "text": "Shine! Young Warriors",
+        "source": "輝け!若き戦士たち",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          57,
+          339,
+          218,
+          39
+        ],
+        "text": "Champions Strike Back",
+        "source": "王者の逆襲",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          76,
+          381,
+          179,
+          38
+        ],
+        "text": "Giving Back",
+        "source": "恩返し",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          66,
+          423,
+          198,
+          39
+        ],
+        "text": "The Dream Continues",
+        "source": "夢の続き",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      },
+      {
+        "rect": [
+          37,
+          465,
+          257,
+          39
+        ],
+        "text": "Third Time's the Charm",
+        "source": "三度目の正直",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      }
+    ]
+  },
+  "SPCARD.CHK": {
+    "SPCARD_RKcard_parts.tsr": [
+      {
+        "rect": [
+          105,
+          1,
+          20,
+          19
+        ],
+        "text": "1B",
+        "source": "一",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          0,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          22,
+          20,
+          19
+        ],
+        "text": "2B",
+        "source": "二",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          21,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          43,
+          20,
+          19
+        ],
+        "text": "3B",
+        "source": "三",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          42,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          64,
+          20,
+          19
+        ],
+        "text": "SS",
+        "source": "遊",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          63,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          85,
+          20,
+          19
+        ],
+        "text": "OF",
+        "source": "外",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          84,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          106,
+          20,
+          19
+        ],
+        "text": "P",
+        "source": "投",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          105,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          105,
+          127,
+          20,
+          19
+        ],
+        "text": "C",
+        "source": "捕",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          104,
+          126,
+          22,
+          21
+        ],
+        "clear_background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          161,
+          72,
+          18
+        ],
+        "text": "Batting",
+        "source": "打撃",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "outline_width": 0.5,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          180,
+          72,
+          18
+        ],
+        "text": "Fielding",
+        "source": "守備",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "outline_width": 0.5,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          199,
+          72,
+          18
+        ],
+        "text": "Running",
+        "source": "走塁",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "outline_width": 0.5,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          218,
+          72,
+          18
+        ],
+        "text": "Pitching",
+        "source": "投球",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "outline_width": 0.5,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          237,
+          72,
+          18
+        ],
+        "text": "Breaking",
+        "source": "変化球",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "outline_width": 0.5,
+        "outline": [
+          68,
+          68,
+          68,
+          255
+        ]
+      }
+    ],
+    "SPCARD_RKregset.tsr": [
+      {
+        "rect": [
+          32,
+          0,
+          92,
+          24
+        ],
+        "text": "Contact",
+        "source": "ミート",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 36,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          32,
+          40,
+          92,
+          24
+        ],
+        "text": "Power",
+        "source": "パワー",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 36,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          32,
+          80,
+          92,
+          24
+        ],
+        "text": "Speed",
+        "source": "走力",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 36,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          32,
+          120,
+          92,
+          24
+        ],
+        "text": "Defense",
+        "source": "守備力",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 36,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          32,
+          160,
+          92,
+          24
+        ],
+        "text": "Spirits",
+        "source": "スピリッツ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 36,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          160,
+          0,
+          92,
+          24
+        ],
+        "text": "Pitcher",
+        "source": "投手",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 164,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          160,
+          40,
+          92,
+          24
+        ],
+        "text": "Stamina",
+        "source": "スタミナ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 164,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          160,
+          80,
+          92,
+          24
+        ],
+        "text": "Focus",
+        "source": "メンタル",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 164,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          160,
+          120,
+          92,
+          24
+        ],
+        "text": "Pitch Type",
+        "source": "球種",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 164,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          160,
+          160,
+          92,
+          24
+        ],
+        "text": "Spirits",
+        "source": "スピリッツ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 164,
+        "background_sample_alpha": true,
+        "outline_width": 1
+      }
+    ],
+    "SPCARD_RKwin_iconset.tsr": [
+      {
+        "rect": [
+          61,
+          58,
+          33,
+          16
+        ],
+        "text": "Select",
+        "source": "選択",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          61,
+          58,
+          33,
+          18
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          113,
+          58,
+          33,
+          16
+        ],
+        "text": "Back",
+        "source": "戻る",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          113,
+          56,
+          33,
+          20
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          164,
+          58,
+          72,
+          16
+        ],
+        "text": "Stop",
+        "source": "ストップ",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          164,
+          54,
+          80,
+          22
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          61,
+          75,
+          33,
+          16
+        ],
+        "text": "OK",
+        "source": "決定",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          61,
+          74,
+          33,
+          18
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          113,
+          75,
+          33,
+          16
+        ],
+        "text": "Execute",
+        "source": "実行",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          113,
+          74,
+          33,
+          18
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          164,
+          75,
+          72,
+          16
+        ],
+        "text": "Next",
+        "source": "次へ進む",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          164,
+          74,
+          80,
+          18
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          20,
+          92,
+          110,
+          16
+        ],
+        "text": "Select Partner",
+        "source": "パートナー選択",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          174,
+          92,
+          78,
+          16
+        ],
+        "text": "Toggle View",
+        "source": "表示切替",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          20,
+          110,
+          32,
+          16
+        ],
+        "text": "Select",
+        "source": "選択",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          20,
+          108,
+          32,
+          20
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          70,
+          110,
+          34,
+          18
+        ],
+        "text": "Done",
+        "source": "終了",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "clear_rect": [
+          70,
+          108,
+          34,
+          20
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
   }
 }

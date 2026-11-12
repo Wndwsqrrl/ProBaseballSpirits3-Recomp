@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "38 new challenge, team, boost and rotation label outputs and font limits checked",
-    "all 833 prior label specifications and 103 complete earlier atlas payloads unchanged",
-    "17 native icon, price, numeral and unit regions pixel-identical",
-    "BC1 mask rendering decoded and checked offline; native menu shader use remains pending",
-    "all 2223 archive members verified, including 2165 untouched members"
+    "55 new mission, season, card and controller label outputs and font limits checked",
+    "all 871 prior label specifications and 110 complete earlier atlas payloads unchanged",
+    "31 original silhouette, icon, team-logo, value-field and controller regions pixel-identical",
+    "alpha-only mission mask RGB remains unchanged; slogan words fit their original lettering bounds",
+    "all 2223 archive members verified, including 2163 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
     "Live challenge controls, VP labels, player boost labels and rotation caption; verify team/custom-name BC1 masks in the home-run menu",
     "Live editor labels, name/audio controls, preseason caption assembly and practice headings; reconstruct remaining fielding-practice phrase fragments",
     "Live opening opponent, tournament and venue captions, including legacy stadium names",
@@ -263,14 +264,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 871,
-    "total_atlases": 110,
+    "total_labels": 926,
+    "total_atlases": 117,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2165,
+    "unchanged_archive_members_verified": 2163,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -421,7 +422,7 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 56,
+    "additional_pending_textures": 49,
     "broader_candidates_to_classify": 1127,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
@@ -451,6 +452,21 @@
     "previous_103_full_atlas_payloads_byte_identical": true,
     "protected_regions": 17,
     "report": "challenge-control-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_and_season_texture_review": {
+    "labels": 55,
+    "atlases": 7,
+    "mission_labels": 7,
+    "rank_labels": 6,
+    "team_slogans": 10,
+    "card_positions_and_training_categories": 12,
+    "development_point_types": 10,
+    "controller_prompts": 10,
+    "previous_871_label_specs_unchanged": true,
+    "previous_110_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 31,
+    "report": "spirits-season-validation.json",
     "interactive_validation": false
   }
 }

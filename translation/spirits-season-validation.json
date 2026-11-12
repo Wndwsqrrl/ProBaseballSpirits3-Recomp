@@ -1,0 +1,376 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 55,
+  "new_atlases": 7,
+  "mission_labels": 7,
+  "rank_labels": 6,
+  "team_slogans": 10,
+  "card_positions_and_training_categories": 12,
+  "development_point_types": 10,
+  "controller_prompts": 10,
+  "previous_label_specs_unchanged": 871,
+  "previous_complete_atlas_payloads_byte_identical": 110,
+  "protected_regions": [
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_select.tsr",
+      "rect": [
+        0,
+        0,
+        256,
+        96
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_select.tsr",
+      "rect": [
+        156,
+        72,
+        224,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_silhouette.ts",
+      "rect": [
+        0,
+        0,
+        256,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_silhouette.ts",
+      "rect": [
+        256,
+        0,
+        512,
+        240
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_rank.tsr",
+      "rect": [
+        0,
+        108,
+        128,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_title.tsr",
+      "rect": [
+        0,
+        88,
+        336,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_title.tsr",
+      "rect": [
+        0,
+        172,
+        336,
+        208
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKcard_parts.tsr",
+      "rect": [
+        0,
+        0,
+        104,
+        134
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKcard_parts.tsr",
+      "rect": [
+        0,
+        160,
+        16,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKcard_parts.tsr",
+      "rect": [
+        88,
+        160,
+        128,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        0,
+        32,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        128,
+        0,
+        160,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        200,
+        256,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        24,
+        256,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        64,
+        256,
+        80
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        104,
+        256,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        144,
+        256,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "rect": [
+        0,
+        184,
+        256,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        42,
+        58,
+        60,
+        76
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        42,
+        74,
+        60,
+        92
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        94,
+        56,
+        112,
+        74
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        94,
+        74,
+        112,
+        92
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        146,
+        56,
+        164,
+        74
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        146,
+        74,
+        164,
+        92
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        0,
+        92,
+        18,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        52,
+        110,
+        70,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        134,
+        92,
+        174,
+        110
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        0,
+        31,
+        124,
+        45
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        0,
+        46,
+        42,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        42,
+        46,
+        110,
+        58
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "rect": [
+        0,
+        0,
+        256,
+        46
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "alpha_only_mission_rgb_preserved": true,
+  "slogan_text_fitted_inside_original_lettering_bounds": true,
+  "position_badge_borders_rebuilt": true,
+  "font_bounds_checked": true,
+  "native_compressed_previews_checked": true,
+  "official_2026_reference_terms": [
+    "Contact",
+    "Defense",
+    "Focus",
+    "Pitch Type",
+    "Spirits",
+    "Boost"
+  ],
+  "wording_notes": [
+    "Original 2006 team-preview slogans translated in their baseball context",
+    "ALL-IN and YOUNG BAYSTARS artwork remains unchanged",
+    "MCP acronym retained from the native mode label; expanded meaning is unverified"
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}
