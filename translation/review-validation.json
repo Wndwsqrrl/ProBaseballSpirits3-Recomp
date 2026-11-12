@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "16 RGB565 labels passed font/native pixel checks; all 245 prior atlas payloads and 32 original emblem/flag regions unchanged",
     "104 slot/mode labels passed font and native decoding checks; 43 numeric and eight circle grades preserved, 45 exact contextual matches to 2026 terminology, all 240 prior complete atlas payloads unchanged",
     "62 additional season/shop/credit captions passed font bounds and native decoding checks; all 233 prior complete atlas payloads unchanged",
     "777 tutorial label occurrences passed font and native decoding checks across 37 variants; all 122 prior complete atlas payloads unchanged",
@@ -29,7 +30,7 @@
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2118 untouched members"
+    "all 2223 archive members verified, including 2117 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -268,14 +269,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1945,
-    "total_atlases": 245,
+    "total_labels": 1961,
+    "total_atlases": 249,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2118,
+    "unchanged_archive_members_verified": 2117,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -426,7 +427,7 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 27,
+    "additional_pending_textures": 23,
     "broader_candidates_to_classify": 938,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
@@ -539,6 +540,25 @@
     "pending_texture_classification": 1,
     "review_report": "slot-texture-review.json",
     "report": "spirits-slot-validation.json",
+    "interactive_validation": false
+  },
+  "rgb565_team_flag_texture_review": {
+    "labels": 16,
+    "atlases": 4,
+    "new_archive_members": 1,
+    "team_and_affiliation_captions": 10,
+    "country_captions": 6,
+    "new_write_format": "RGB565",
+    "native_widths": [
+      256,
+      512,
+      1028
+    ],
+    "previous_1945_label_specs_unchanged": true,
+    "previous_245_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 32,
+    "original_giants_emblems_preserved": true,
+    "report": "team-flag-validation.json",
     "interactive_validation": false
   }
 }

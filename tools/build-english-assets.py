@@ -163,7 +163,7 @@ def patch_chk(data, atlases, font_path, preview):
                 width, height = struct.unpack_from('>II', data, payload+48)
                 raw_start, raw_size = payload + 100, actual - 101
                 pixel_format = data[payload+68:payload+72].hex()
-                if pixel_format not in ('1828014f', '18280143', '18280186', '1a200152', '1a200153', '1a200154'):
+                if pixel_format not in ('1828014f', '18280143', '18280186', '28280144', '1a200152', '1a200153', '1a200154'):
                     raise ValueError(f'Unsupported atlas pixel format: {name}')
                 raw = data[raw_start:raw_start+raw_size]
                 if pixel_format in ('1a200152','1a200153','1a200154'):
@@ -182,7 +182,9 @@ def patch_chk(data, atlases, font_path, preview):
                         raise ValueError('Invalid 16-bit atlas extent')
                     rgba = bytearray(width * height * 4)
                     for index, (pixel,) in enumerate(struct.iter_unpack('>H', raw)):
-                        if pixel_format == '18280143':
+                        if pixel_format == '28280144':
+                            value=(((pixel>>11)&31)*255//31,((pixel>>5)&63)*255//63,(pixel&31)*255//31,255)
+                        elif pixel_format == '18280143':
                             value=(((pixel>>10)&31)*255//31,((pixel>>5)&31)*255//31,(pixel&31)*255//31,255 if pixel&0x8000 else 0)
                         else:
                             value=(((pixel>>8)&15)*17,((pixel>>4)&15)*17,(pixel&15)*17,((pixel>>12)&15)*17)
@@ -260,6 +262,8 @@ def patch_chk(data, atlases, font_path, preview):
                         original = image.crop((x,y,x+w,y+h))
                         original.putalpha(tile.getchannel('A'))
                         tile = original
+                    if pixel_format == '28280144' and tile.getchannel('A').getextrema() != (255, 255):
+                        raise ValueError('RGB565 labels require an opaque background or sample column')
                     if 'edit_polygon' in label:
                         polygon = label['edit_polygon']
                         if len(polygon) < 3 or any(not 0 <= px <= w or not 0 <= py <= h for px, py in polygon):
@@ -362,7 +366,9 @@ def patch_chk(data, atlases, font_path, preview):
                         encoded[target_channel::4] = rgba[source_channel::4]
                 else:
                     for index, (red,green,blue,alpha) in enumerate(image.getdata()):
-                        if pixel_format == '18280143':
+                        if pixel_format == '28280144':
+                            pixel = ((red>>3)<<11) | ((green>>2)<<5) | (blue>>3)
+                        elif pixel_format == '18280143':
                             pixel = ((1 if alpha>=128 else 0)<<15) | ((red>>3)<<10) | ((green>>3)<<5) | (blue>>3)
                         else:
                             pixel = ((alpha>>4)<<12) | ((red>>4)<<8) | ((green>>4)<<4) | (blue>>4)

@@ -247,46 +247,6 @@
       "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
       "status": "pending",
       "interactive_validation": false
-    },
-    {
-      "member": "TMFLAG.CHK",
-      "texture": "MENU_COMte_flg_l.tsr",
-      "width": 1028,
-      "height": 1028,
-      "format": "28280144",
-      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SELECT.CHK",
-      "texture": "MENU_COMte_emb_s.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "28280144",
-      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SELECT.CHK",
-      "texture": "MENU_COMte_emb_l.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "28280144",
-      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "SELECT.CHK",
-      "texture": "MENU_COMte_flg_m.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "28280144",
-      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
-      "status": "pending",
-      "interactive_validation": false
     }
   ],
   "translated_textures": [
@@ -847,6 +807,46 @@
       "height": 1024,
       "format": "1a200152",
       "remaining_text": "All captions replaced; see season-shop-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "TMFLAG.CHK",
+      "texture": "MENU_COMte_flg_l.tsr",
+      "width": 1028,
+      "height": 1028,
+      "format": "28280144",
+      "remaining_text": "Team, affiliation and country captions translated; original emblems preserved. See team-flag-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_emb_s.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "28280144",
+      "remaining_text": "Team, affiliation and country captions translated; original emblems preserved. See team-flag-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_emb_l.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "28280144",
+      "remaining_text": "Team, affiliation and country captions translated; original emblems preserved. See team-flag-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_flg_m.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "28280144",
+      "remaining_text": "Team, affiliation and country captions translated; original emblems preserved. See team-flag-validation.json",
       "status": "english_asset_built",
       "interactive_validation": false
     }

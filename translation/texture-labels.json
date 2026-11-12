@@ -757,6 +757,259 @@
           255
         ]
       }
+    ],
+    "MENU_COMte_flg_m.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          36,
+          16
+        ],
+        "text": "Yomiuri",
+        "source": "読売",
+        "padding": 1,
+        "max_font_size": 11,
+        "min_font_size": 9,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 76,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          136,
+          40,
+          44,
+          24
+        ],
+        "text": "Chunichi",
+        "source": "中日",
+        "padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 9,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 94,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          9,
+          300,
+          73,
+          29
+        ],
+        "text": "Surpass",
+        "source": "サーパス",
+        "padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 9,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 3,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          281,
+          299,
+          77,
+          28
+        ],
+        "text": "Unaffiliated",
+        "source": "無所属",
+        "padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 9,
+        "foreground": [
+          170,
+          170,
+          170,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 279,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          344,
+          91,
+          38
+        ],
+        "text": "China",
+        "source": "中国",
+        "padding": 1,
+        "max_font_size": 24,
+        "min_font_size": 9,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 0,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          91,
+          344,
+          91,
+          38
+        ],
+        "text": "Korea",
+        "source": "韓国",
+        "padding": 1,
+        "max_font_size": 24,
+        "min_font_size": 9,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 91,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          182,
+          344,
+          91,
+          38
+        ],
+        "text": "Chinese Taipei",
+        "source": "中華台北",
+        "padding": 1,
+        "max_font_size": 24,
+        "min_font_size": 9,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 182,
+        "background_sample_alpha": true,
+        "vertical_padding": 1
+      }
+    ],
+    "MENU_COMte_emb_s.tsr": [
+      {
+        "rect": [
+          111,
+          80,
+          37,
+          22
+        ],
+        "text": "Surpass",
+        "source": "サーパス",
+        "padding": 1,
+        "max_font_size": 11,
+        "min_font_size": 8,
+        "foreground": [
+          0,
+          153,
+          153,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "vertical_padding": 1
+      }
+    ],
+    "MENU_COMte_emb_l.tsr": [
+      {
+        "rect": [
+          72,
+          156,
+          66,
+          38
+        ],
+        "text": "Surpass",
+        "source": "サーパス",
+        "padding": 2,
+        "max_font_size": 22,
+        "min_font_size": 14,
+        "foreground": [
+          0,
+          153,
+          153,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
     ]
   },
   "GAME2D.CHK": {
@@ -44203,6 +44456,199 @@
           0,
           0
         ]
+      }
+    ]
+  },
+  "TMFLAG.CHK": {
+    "MENU_COMte_flg_l.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          74,
+          32
+        ],
+        "text": "Yomiuri",
+        "source": "読売",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 152,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          276,
+          84,
+          84,
+          42
+        ],
+        "text": "Chunichi",
+        "source": "中日",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 190,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          16,
+          602,
+          150,
+          56
+        ],
+        "text": "Surpass",
+        "source": "サーパス",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 6,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          574,
+          606,
+          154,
+          52
+        ],
+        "text": "Unaffiliated",
+        "source": "無所属",
+        "padding": 4,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "foreground": [
+          170,
+          170,
+          170,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 571,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          0,
+          698,
+          184,
+          70
+        ],
+        "text": "China",
+        "source": "中国",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 0,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          184,
+          698,
+          184,
+          70
+        ],
+        "text": "Korea",
+        "source": "韓国",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 184,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          368,
+          698,
+          184,
+          70
+        ],
+        "text": "Chinese Taipei",
+        "source": "中華台北",
+        "padding": 4,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "foreground": [
+          51,
+          51,
+          51,
+          255
+        ],
+        "background": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "background_sample_x": 368,
+        "background_sample_alpha": true
       }
     ]
   }

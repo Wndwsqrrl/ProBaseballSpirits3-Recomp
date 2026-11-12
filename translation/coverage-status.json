@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 1945,
-  "localized_archive_members": 105,
+  "texture_labels": 1961,
+  "localized_archive_members": 106,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -55,9 +55,11 @@
     "76 Spirits-card, slot and link-effect labels passed font and native archive checks; all 117 prior atlas payloads, six photos and protected illustration/control regions unchanged",
     "21 Spirits tutorial labels applied to 37 byte-identical source copies: 777 label occurrences in 111 atlases; all 122 prior atlas payloads, 74 background/effect payloads and 629 protected regions unchanged",
     "62 season, player-use, VP Shop, staff and licensing captions verified; all 233 prior atlas payloads, 63 protected regions and 22 original credit pages unchanged",
-    "104 Spirits slot/mode labels verified, with all 43 numeric and eight circle grades preserved; all 240 earlier atlas payloads, 14 original art/effect payloads and nine protected regions unchanged"
+    "104 Spirits slot/mode labels verified, with all 43 numeric and eight circle grades preserved; all 240 earlier atlas payloads, 14 original art/effect payloads and nine protected regions unchanged",
+    "16 RGB565 team, country and affiliation captions verified at native widths 256, 512 and 1028; all 245 previous atlas payloads and 32 protected emblem/flag regions unchanged"
   ],
   "pending_validation": [
+    "Live RGB565 country/team/affiliation captions, small Surpass emblems and team flag presentation",
     "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
     "Live player-use instructions, season competition captions, VP Shop coach/voucher labels, Production Staff and licensing-page layout",
     "Live Spirits tutorial page headings, partner diagram, angled card captions, card categories and preseason completion heading across team/scenario variants",
@@ -101,7 +103,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "18 pending textures in interface-texture-review.json plus 27 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "18 pending textures in interface-texture-review.json plus 23 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
     "938 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -290,14 +292,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1945,
-    "total_atlases": 245,
+    "total_labels": 1961,
+    "total_atlases": 249,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2118,
+    "unchanged_archive_members_verified": 2117,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -448,7 +450,7 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 27,
+    "additional_pending_textures": 23,
     "broader_candidates_to_classify": 938,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
@@ -561,6 +563,25 @@
     "pending_texture_classification": 1,
     "review_report": "slot-texture-review.json",
     "report": "spirits-slot-validation.json",
+    "interactive_validation": false
+  },
+  "rgb565_team_flag_texture_review": {
+    "labels": 16,
+    "atlases": 4,
+    "new_archive_members": 1,
+    "team_and_affiliation_captions": 10,
+    "country_captions": 6,
+    "new_write_format": "RGB565",
+    "native_widths": [
+      256,
+      512,
+      1028
+    ],
+    "previous_1945_label_specs_unchanged": true,
+    "previous_245_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 32,
+    "original_giants_emblems_preserved": true,
+    "report": "team-flag-validation.json",
     "interactive_validation": false
   }
 }
