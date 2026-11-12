@@ -41909,5 +41909,2301 @@
         ]
       }
     ]
+  },
+  "SLOT.CHK": {
+    "SLOT_RKslot_tk_a.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          168,
+          40
+        ],
+        "text": "Consistent",
+        "source": "アベレージヒッター",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          40,
+          168,
+          40
+        ],
+        "text": "Power Hitter",
+        "source": "パワーヒッター",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          80,
+          168,
+          40
+        ],
+        "text": "Home Run Artist",
+        "source": "アーチスト",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          120,
+          168,
+          40
+        ],
+        "text": "Line Drive",
+        "source": "ラインドライブ",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          160,
+          168,
+          40
+        ],
+        "text": "Batter Intimidation",
+        "source": "野手威圧感",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          200,
+          168,
+          40
+        ],
+        "text": "Batter Presence",
+        "source": "野手存在感",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          240,
+          168,
+          40
+        ],
+        "text": "All Fields",
+        "source": "広角打法",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          280,
+          168,
+          40
+        ],
+        "text": "Opposite Field",
+        "source": "流し打ち",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          320,
+          168,
+          40
+        ],
+        "text": "Pull Hitter",
+        "source": "プルヒッター",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          360,
+          168,
+          40
+        ],
+        "text": "Clutch 5",
+        "source": "チャンス5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          400,
+          168,
+          40
+        ],
+        "text": "Clutch 4",
+        "source": "チャンス4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          440,
+          168,
+          40
+        ],
+        "text": "Clutch 2",
+        "source": "チャンス2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          0,
+          168,
+          40
+        ],
+        "text": "Clutch 1",
+        "source": "チャンス1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          40,
+          168,
+          40
+        ],
+        "text": "Steal 5",
+        "source": "盗塁5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          80,
+          168,
+          40
+        ],
+        "text": "Steal 4",
+        "source": "盗塁4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          120,
+          168,
+          40
+        ],
+        "text": "Steal 3",
+        "source": "盗塁3",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          160,
+          168,
+          40
+        ],
+        "text": "Steal 2",
+        "source": "盗塁2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          200,
+          168,
+          40
+        ],
+        "text": "Running 5",
+        "source": "走塁5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          240,
+          168,
+          40
+        ],
+        "text": "Running 4",
+        "source": "走塁4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          280,
+          168,
+          40
+        ],
+        "text": "Running 2",
+        "source": "走塁2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          320,
+          168,
+          40
+        ],
+        "text": "Running 1",
+        "source": "走塁1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          360,
+          168,
+          40
+        ],
+        "text": "Bases Loaded",
+        "source": "満塁男",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          400,
+          168,
+          40
+        ],
+        "text": "Walk-Off",
+        "source": "サヨナラ男",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          440,
+          168,
+          40
+        ],
+        "text": "Infield Hit+",
+        "source": "内野安打○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          0,
+          168,
+          40
+        ],
+        "text": "First Pitch+",
+        "source": "初球○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          40,
+          168,
+          40
+        ],
+        "text": "Comeback+",
+        "source": "逆境○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          80,
+          168,
+          40
+        ],
+        "text": "Bunt 5",
+        "source": "バント5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          120,
+          168,
+          40
+        ],
+        "text": "Bunt 4",
+        "source": "バント4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          160,
+          168,
+          40
+        ],
+        "text": "Bunt 3",
+        "source": "バント3",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          200,
+          168,
+          40
+        ],
+        "text": "Bunt 2",
+        "source": "バント2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          240,
+          168,
+          40
+        ],
+        "text": "Mood Maker",
+        "source": "ムードメーカー",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          280,
+          168,
+          40
+        ],
+        "text": "Strikeout Prone",
+        "source": "三振",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          320,
+          168,
+          40
+        ],
+        "text": "Table Setter",
+        "source": "チャンスメーカー",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          360,
+          168,
+          40
+        ],
+        "text": "Pinch Hitter+",
+        "source": "代打○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          400,
+          168,
+          40
+        ],
+        "text": "Multi-Hit",
+        "source": "固め打ち",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          440,
+          168,
+          40
+        ],
+        "text": "Repeat HR",
+        "source": "連発",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      }
+    ],
+    "SLOT_RKslot_tk_b.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          168,
+          40
+        ],
+        "text": "Power Surge",
+        "source": "おかわり",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          40,
+          168,
+          40
+        ],
+        "text": "Tough Out",
+        "source": "粘り打ち",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          80,
+          168,
+          40
+        ],
+        "text": "Collision",
+        "source": "体当たり",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          120,
+          168,
+          40
+        ],
+        "text": "Durability 5",
+        "source": "ケガしにくさ5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          160,
+          168,
+          40
+        ],
+        "text": "Durability 4",
+        "source": "ケガしにくさ4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          200,
+          168,
+          40
+        ],
+        "text": "Durability 2",
+        "source": "ケガしにくさ2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          240,
+          168,
+          40
+        ],
+        "text": "Durability 1",
+        "source": "ケガしにくさ1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          280,
+          168,
+          40
+        ],
+        "text": "1st-Inning Leadoff HR",
+        "source": "初回先頭HR男",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          320,
+          168,
+          40
+        ],
+        "text": "Gold Glover",
+        "source": "守備職人",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          360,
+          168,
+          40
+        ],
+        "text": "Error Prone",
+        "source": "エラー",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          400,
+          168,
+          40
+        ],
+        "text": "Block+",
+        "source": "ブロック○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          440,
+          168,
+          40
+        ],
+        "text": "Laser Beam",
+        "source": "レーザービーム",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          0,
+          168,
+          40
+        ],
+        "text": "Turn-and-Run",
+        "source": "目切り背走",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          40,
+          168,
+          40
+        ],
+        "text": "Base Cover 4",
+        "source": "ベースカバー4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          80,
+          168,
+          40
+        ],
+        "text": "Base Cover 2",
+        "source": "ベースカバー2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          120,
+          168,
+          40
+        ],
+        "text": "Reflexes 4",
+        "source": "打球反応4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          160,
+          168,
+          40
+        ],
+        "text": "Reflexes 2",
+        "source": "打球反応2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          200,
+          168,
+          40
+        ],
+        "text": "Bunt Dash 4",
+        "source": "バントダッシュ4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          240,
+          168,
+          40
+        ],
+        "text": "Bunt Dash 2",
+        "source": "バントダッシュ2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          280,
+          168,
+          40
+        ],
+        "text": "Seated Throw",
+        "source": "座り送球",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          320,
+          168,
+          40
+        ],
+        "text": "Scoop Catch",
+        "source": "すくい捕り",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          360,
+          168,
+          40
+        ],
+        "text": "Backhand Toss",
+        "source": "バックハンドトス",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          400,
+          168,
+          40
+        ],
+        "text": "Relay Play",
+        "source": "中継プレイ",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          440,
+          168,
+          40
+        ],
+        "text": "Backhand Catch",
+        "source": "逆シングル",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      }
+    ],
+    "SLOT_RKslot_tk_c.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          168,
+          40
+        ],
+        "text": "Pitcher Intimidation",
+        "source": "投手威圧感",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          40,
+          168,
+          40
+        ],
+        "text": "Pitcher Presence",
+        "source": "投手存在感",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          80,
+          168,
+          40
+        ],
+        "text": "Jam 5",
+        "source": "対ピンチ5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          120,
+          168,
+          40
+        ],
+        "text": "Jam 4",
+        "source": "対ピンチ4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          160,
+          168,
+          40
+        ],
+        "text": "Jam 2",
+        "source": "対ピンチ2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          200,
+          168,
+          40
+        ],
+        "text": "Jam 1",
+        "source": "対ピンチ1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          240,
+          168,
+          40
+        ],
+        "text": "vs Lefty 5",
+        "source": "対左打者5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          280,
+          168,
+          40
+        ],
+        "text": "vs Lefty 4",
+        "source": "対左打者4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          320,
+          168,
+          40
+        ],
+        "text": "vs Lefty 2",
+        "source": "対左打者2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          360,
+          168,
+          40
+        ],
+        "text": "vs Lefty 1",
+        "source": "対左打者1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          400,
+          168,
+          40
+        ],
+        "text": "vs Runners 4",
+        "source": "対ランナー4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          0,
+          440,
+          168,
+          40
+        ],
+        "text": "Poise 4",
+        "source": "打たれ強さ4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          0,
+          168,
+          40
+        ],
+        "text": "Poise 2",
+        "source": "打たれ強さ2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          40,
+          168,
+          40
+        ],
+        "text": "Gyroball",
+        "source": "ジャイロボール",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          80,
+          168,
+          40
+        ],
+        "text": "Delivery+",
+        "source": "リリース○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          120,
+          168,
+          40
+        ],
+        "text": "Spin Leak",
+        "source": "シュート回転",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          160,
+          168,
+          40
+        ],
+        "text": "Steady Velo 4",
+        "source": "球速安定4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          200,
+          168,
+          40
+        ],
+        "text": "Steady Velo 2",
+        "source": "球速安定2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          240,
+          168,
+          40
+        ],
+        "text": "Quick 5",
+        "source": "クイック5",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          280,
+          168,
+          40
+        ],
+        "text": "Quick 4",
+        "source": "クイック4",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          320,
+          168,
+          40
+        ],
+        "text": "Quick 2",
+        "source": "クイック2",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          360,
+          168,
+          40
+        ],
+        "text": "Quick 1",
+        "source": "クイック1",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          400,
+          168,
+          40
+        ],
+        "text": "Safe Miss",
+        "source": "逃げ球",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          440,
+          168,
+          40
+        ],
+        "text": "HR Prone",
+        "source": "一発",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          0,
+          168,
+          40
+        ],
+        "text": "Choker",
+        "source": "寸前",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          40,
+          168,
+          40
+        ],
+        "text": "Walk Prone",
+        "source": "四球",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          80,
+          168,
+          40
+        ],
+        "text": "Second Wind",
+        "source": "尻上がり",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          120,
+          168,
+          40
+        ],
+        "text": "Slow Start",
+        "source": "スロースターター",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          160,
+          168,
+          40
+        ],
+        "text": "Power Sense",
+        "source": "力配分",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          200,
+          168,
+          40
+        ],
+        "text": "Pickoff+",
+        "source": "牽制○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          240,
+          168,
+          40
+        ],
+        "text": "Pickoff+",
+        "source": "牽制○",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          280,
+          168,
+          40
+        ],
+        "text": "Win Luck",
+        "source": "勝ち運",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          320,
+          168,
+          40
+        ],
+        "text": "Hard Luck",
+        "source": "負け運",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          360,
+          168,
+          40
+        ],
+        "text": "Short Fuse",
+        "source": "短気",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          400,
+          168,
+          40
+        ],
+        "text": "Poker Face",
+        "source": "ポーカーフェイス",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          340,
+          440,
+          168,
+          40
+        ],
+        "text": "Close Game",
+        "source": "接戦",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      }
+    ],
+    "SLOT_RKslot_tk_d.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          168,
+          40
+        ],
+        "text": "Accountable",
+        "source": "責任感",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          0,
+          168,
+          40
+        ],
+        "text": "Headfirst Slide",
+        "source": "Hスライディング",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          40,
+          168,
+          40
+        ],
+        "text": "Headfirst Steal",
+        "source": "盗塁Hスライディング",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          80,
+          168,
+          40
+        ],
+        "text": "Fan Favorite",
+        "source": "人気者",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      },
+      {
+        "rect": [
+          170,
+          120,
+          168,
+          40
+        ],
+        "text": "Team Play",
+        "source": "チームプレイ",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 16,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "condense": true,
+        "min_width_ratio": 0.65
+      }
+    ]
+  },
+  "RKSTDM.CHK": {
+    "SPIRITS_RKdemo.tsr": [
+      {
+        "rect": [
+          0,
+          48,
+          512,
+          40
+        ],
+        "text": "Training Camp Begins",
+        "source": "キャンプイン",
+        "padding": 6,
+        "max_font_size": 36,
+        "min_font_size": 22,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          0,
+          88,
+          512,
+          40
+        ],
+        "text": "Preseason Game",
+        "source": "オープン戦",
+        "padding": 6,
+        "max_font_size": 36,
+        "min_font_size": 22,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          0,
+          128,
+          512,
+          40
+        ],
+        "text": "Boost Challenge",
+        "source": "覚醒チャレンジ",
+        "padding": 6,
+        "max_font_size": 36,
+        "min_font_size": 22,
+        "outline_width": 1,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
   }
 }

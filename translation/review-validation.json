@@ -22,13 +22,14 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "104 slot/mode labels passed font and native decoding checks; 43 numeric and eight circle grades preserved, 45 exact contextual matches to 2026 terminology, all 240 prior complete atlas payloads unchanged",
     "62 additional season/shop/credit captions passed font bounds and native decoding checks; all 233 prior complete atlas payloads unchanged",
     "777 tutorial label occurrences passed font and native decoding checks across 37 variants; all 122 prior complete atlas payloads unchanged",
     "76 new card and effect labels passed font and decoded-preview checks",
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2120 untouched members"
+    "all 2223 archive members verified, including 2118 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -267,14 +268,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1841,
-    "total_atlases": 240,
+    "total_labels": 1945,
+    "total_atlases": 245,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2120,
+    "unchanged_archive_members_verified": 2118,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -426,7 +427,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 27,
-    "broader_candidates_to_classify": 957,
+    "broader_candidates_to_classify": 938,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -519,6 +520,25 @@
     "source_help_checked_for_pitcher_instruction": true,
     "official_2026_competition_terms_used": true,
     "report": "season-shop-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_slot_texture_review": {
+    "labels": 104,
+    "ability_labels": 101,
+    "mode_headings": 3,
+    "atlases": 5,
+    "archive_members": 2,
+    "numeric_grades_preserved": 43,
+    "positive_circle_grades_preserved": 8,
+    "exact_contextual_2026_matches": 45,
+    "previous_1841_label_specs_unchanged": true,
+    "previous_240_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 9,
+    "unmodified_art_and_effect_payloads": 14,
+    "duplicated_original_pickoff_cells_preserved": true,
+    "pending_texture_classification": 1,
+    "review_report": "slot-texture-review.json",
+    "report": "spirits-slot-validation.json",
     "interactive_validation": false
   }
 }

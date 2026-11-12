@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 1841,
-  "localized_archive_members": 103,
+  "texture_labels": 1945,
+  "localized_archive_members": 105,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -54,9 +54,11 @@
     "55 mission, rank, slogan, card and controller labels passed font and native archive checks; all 110 prior atlas payloads and 31 graphic/control regions unchanged",
     "76 Spirits-card, slot and link-effect labels passed font and native archive checks; all 117 prior atlas payloads, six photos and protected illustration/control regions unchanged",
     "21 Spirits tutorial labels applied to 37 byte-identical source copies: 777 label occurrences in 111 atlases; all 122 prior atlas payloads, 74 background/effect payloads and 629 protected regions unchanged",
-    "62 season, player-use, VP Shop, staff and licensing captions verified; all 233 prior atlas payloads, 63 protected regions and 22 original credit pages unchanged"
+    "62 season, player-use, VP Shop, staff and licensing captions verified; all 233 prior atlas payloads, 63 protected regions and 22 original credit pages unchanged",
+    "104 Spirits slot/mode labels verified, with all 43 numeric and eight circle grades preserved; all 240 earlier atlas payloads, 14 original art/effect payloads and nine protected regions unchanged"
   ],
   "pending_validation": [
+    "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
     "Live player-use instructions, season competition captions, VP Shop coach/voucher labels, Production Staff and licensing-page layout",
     "Live Spirits tutorial page headings, partner diagram, angled card captions, card categories and preseason completion heading across team/scenario variants",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
@@ -100,7 +102,7 @@
   ],
   "remaining": [
     "18 pending textures in interface-texture-review.json plus 27 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
-    "957 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
+    "938 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -288,14 +290,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1841,
-    "total_atlases": 240,
+    "total_labels": 1945,
+    "total_atlases": 245,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2120,
+    "unchanged_archive_members_verified": 2118,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -447,7 +449,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 27,
-    "broader_candidates_to_classify": 957,
+    "broader_candidates_to_classify": 938,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -540,6 +542,25 @@
     "source_help_checked_for_pitcher_instruction": true,
     "official_2026_competition_terms_used": true,
     "report": "season-shop-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_slot_texture_review": {
+    "labels": 104,
+    "ability_labels": 101,
+    "mode_headings": 3,
+    "atlases": 5,
+    "archive_members": 2,
+    "numeric_grades_preserved": 43,
+    "positive_circle_grades_preserved": 8,
+    "exact_contextual_2026_matches": 45,
+    "previous_1841_label_specs_unchanged": true,
+    "previous_240_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 9,
+    "unmodified_art_and_effect_payloads": 14,
+    "duplicated_original_pickoff_cells_preserved": true,
+    "pending_texture_classification": 1,
+    "review_report": "slot-texture-review.json",
+    "report": "spirits-slot-validation.json",
     "interactive_validation": false
   }
 }

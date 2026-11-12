@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-12",
+  "scope": "Spirits slot reels and mode-transition graphics, a partial inventory",
+  "source_members": 2,
+  "source_textures": 19,
+  "new_localized_atlases": 5,
+  "new_label_occurrences": 104,
+  "source_textures_preserved": 14,
+  "textures": [
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_nasi.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_renkei.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_spi.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_miss.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_b.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_g.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_rb.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_r.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_b2.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_r2.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_a.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_b.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_c.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "status": "partial_english_asset_built"
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_waku.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200154",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg01.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg02.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg03.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "original_nontext_or_english_art_preserved"
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "status": "english_asset_built"
+    }
+  ],
+  "pending_textures": [
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "remaining": "One blurred strip needs animation/native source-context classification; five readable Japanese labels are translated",
+      "rect": [
+        340,
+        120,
+        512,
+        160
+      ],
+      "interactive_validation": false
+    }
+  ],
+  "protected_content": "Original stadium background scenes, signs and ads preserved",
+  "report": "spirits-slot-validation.json",
+  "entire_game_english": false
+}

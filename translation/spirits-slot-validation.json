@@ -1,0 +1,914 @@
+{
+  "date": "2026-11-12",
+  "new_labels": 104,
+  "ability_labels": 101,
+  "mode_headings": 3,
+  "new_atlases": 5,
+  "new_archive_members": 2,
+  "previous_label_specs_unchanged": 1841,
+  "previous_complete_atlas_payloads_byte_identical": 240,
+  "preserved_full_payloads": [
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_nasi.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_renkei.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_spi.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_miss.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_b.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_g.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_rb.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_r.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_b2.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tkbase_r2.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_waku.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg01.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg02.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo_bg03.tsr",
+      "full_payload_byte_identical": true
+    }
+  ],
+  "protected_regions": [
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_a.tsr",
+      "rect": [
+        0,
+        480,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_b.tsr",
+      "rect": [
+        0,
+        480,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_c.tsr",
+      "rect": [
+        0,
+        480,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "rect": [
+        0,
+        480,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "rect": [
+        340,
+        0,
+        512,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "rect": [
+        340,
+        40,
+        512,
+        80
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_d.tsr",
+      "rect": [
+        340,
+        120,
+        512,
+        160
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo.tsr",
+      "rect": [
+        0,
+        0,
+        512,
+        24
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo.tsr",
+      "rect": [
+        0,
+        28,
+        300,
+        44
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "native_numeric_grades_preserved": [
+    {
+      "source": "チャンス5",
+      "english": "Clutch 5",
+      "grade": "5"
+    },
+    {
+      "source": "チャンス4",
+      "english": "Clutch 4",
+      "grade": "4"
+    },
+    {
+      "source": "チャンス2",
+      "english": "Clutch 2",
+      "grade": "2"
+    },
+    {
+      "source": "チャンス1",
+      "english": "Clutch 1",
+      "grade": "1"
+    },
+    {
+      "source": "盗塁5",
+      "english": "Steal 5",
+      "grade": "5"
+    },
+    {
+      "source": "盗塁4",
+      "english": "Steal 4",
+      "grade": "4"
+    },
+    {
+      "source": "盗塁3",
+      "english": "Steal 3",
+      "grade": "3"
+    },
+    {
+      "source": "盗塁2",
+      "english": "Steal 2",
+      "grade": "2"
+    },
+    {
+      "source": "走塁5",
+      "english": "Running 5",
+      "grade": "5"
+    },
+    {
+      "source": "走塁4",
+      "english": "Running 4",
+      "grade": "4"
+    },
+    {
+      "source": "走塁2",
+      "english": "Running 2",
+      "grade": "2"
+    },
+    {
+      "source": "走塁1",
+      "english": "Running 1",
+      "grade": "1"
+    },
+    {
+      "source": "バント5",
+      "english": "Bunt 5",
+      "grade": "5"
+    },
+    {
+      "source": "バント4",
+      "english": "Bunt 4",
+      "grade": "4"
+    },
+    {
+      "source": "バント3",
+      "english": "Bunt 3",
+      "grade": "3"
+    },
+    {
+      "source": "バント2",
+      "english": "Bunt 2",
+      "grade": "2"
+    },
+    {
+      "source": "ケガしにくさ5",
+      "english": "Durability 5",
+      "grade": "5"
+    },
+    {
+      "source": "ケガしにくさ4",
+      "english": "Durability 4",
+      "grade": "4"
+    },
+    {
+      "source": "ケガしにくさ2",
+      "english": "Durability 2",
+      "grade": "2"
+    },
+    {
+      "source": "ケガしにくさ1",
+      "english": "Durability 1",
+      "grade": "1"
+    },
+    {
+      "source": "ベースカバー4",
+      "english": "Base Cover 4",
+      "grade": "4"
+    },
+    {
+      "source": "ベースカバー2",
+      "english": "Base Cover 2",
+      "grade": "2"
+    },
+    {
+      "source": "打球反応4",
+      "english": "Reflexes 4",
+      "grade": "4"
+    },
+    {
+      "source": "打球反応2",
+      "english": "Reflexes 2",
+      "grade": "2"
+    },
+    {
+      "source": "バントダッシュ4",
+      "english": "Bunt Dash 4",
+      "grade": "4"
+    },
+    {
+      "source": "バントダッシュ2",
+      "english": "Bunt Dash 2",
+      "grade": "2"
+    },
+    {
+      "source": "対ピンチ5",
+      "english": "Jam 5",
+      "grade": "5"
+    },
+    {
+      "source": "対ピンチ4",
+      "english": "Jam 4",
+      "grade": "4"
+    },
+    {
+      "source": "対ピンチ2",
+      "english": "Jam 2",
+      "grade": "2"
+    },
+    {
+      "source": "対ピンチ1",
+      "english": "Jam 1",
+      "grade": "1"
+    },
+    {
+      "source": "対左打者5",
+      "english": "vs Lefty 5",
+      "grade": "5"
+    },
+    {
+      "source": "対左打者4",
+      "english": "vs Lefty 4",
+      "grade": "4"
+    },
+    {
+      "source": "対左打者2",
+      "english": "vs Lefty 2",
+      "grade": "2"
+    },
+    {
+      "source": "対左打者1",
+      "english": "vs Lefty 1",
+      "grade": "1"
+    },
+    {
+      "source": "対ランナー4",
+      "english": "vs Runners 4",
+      "grade": "4"
+    },
+    {
+      "source": "打たれ強さ4",
+      "english": "Poise 4",
+      "grade": "4"
+    },
+    {
+      "source": "打たれ強さ2",
+      "english": "Poise 2",
+      "grade": "2"
+    },
+    {
+      "source": "球速安定4",
+      "english": "Steady Velo 4",
+      "grade": "4"
+    },
+    {
+      "source": "球速安定2",
+      "english": "Steady Velo 2",
+      "grade": "2"
+    },
+    {
+      "source": "クイック5",
+      "english": "Quick 5",
+      "grade": "5"
+    },
+    {
+      "source": "クイック4",
+      "english": "Quick 4",
+      "grade": "4"
+    },
+    {
+      "source": "クイック2",
+      "english": "Quick 2",
+      "grade": "2"
+    },
+    {
+      "source": "クイック1",
+      "english": "Quick 1",
+      "grade": "1"
+    }
+  ],
+  "source_glyph_pixels_fully_covered_by_label_rectangles": true,
+  "official_2026_exact_contextual_matches": [
+    {
+      "source": "アベレージヒッター",
+      "english": "Consistent",
+      "reference": {
+        "namespace": "Spirits",
+        "key": "spirits_abi_name_average_hitter",
+        "japanese": "アベレージヒッター",
+        "english": "Consistent"
+      }
+    },
+    {
+      "source": "パワーヒッター",
+      "english": "Power Hitter",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_powerhitter",
+        "japanese": "パワーヒッター",
+        "english": "Power Hitter"
+      }
+    },
+    {
+      "source": "アーチスト",
+      "english": "Home Run Artist",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_artist",
+        "japanese": "アーチスト",
+        "english": "Home Run Artist"
+      }
+    },
+    {
+      "source": "ラインドライブ",
+      "english": "Line Drive",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_linedrive",
+        "japanese": "ラインドライブ",
+        "english": "Line Drive"
+      }
+    },
+    {
+      "source": "広角打法",
+      "english": "All Fields",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btkoukaku",
+        "japanese": "広角打法",
+        "english": "All Fields"
+      }
+    },
+    {
+      "source": "プルヒッター",
+      "english": "Pull Hitter",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btpullhitter",
+        "japanese": "プルヒッター",
+        "english": "Pull Hitter"
+      }
+    },
+    {
+      "source": "盗塁5",
+      "english": "Steal 5",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusteal",
+        "japanese": "盗塁",
+        "english": "Steal"
+      }
+    },
+    {
+      "source": "盗塁4",
+      "english": "Steal 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusteal",
+        "japanese": "盗塁",
+        "english": "Steal"
+      }
+    },
+    {
+      "source": "盗塁3",
+      "english": "Steal 3",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusteal",
+        "japanese": "盗塁",
+        "english": "Steal"
+      }
+    },
+    {
+      "source": "盗塁2",
+      "english": "Steal 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusteal",
+        "japanese": "盗塁",
+        "english": "Steal"
+      }
+    },
+    {
+      "source": "走塁5",
+      "english": "Running 5",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusourui",
+        "japanese": "走塁",
+        "english": "Running"
+      }
+    },
+    {
+      "source": "走塁4",
+      "english": "Running 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusourui",
+        "japanese": "走塁",
+        "english": "Running"
+      }
+    },
+    {
+      "source": "走塁2",
+      "english": "Running 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusourui",
+        "japanese": "走塁",
+        "english": "Running"
+      }
+    },
+    {
+      "source": "走塁1",
+      "english": "Running 1",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_rusourui",
+        "japanese": "走塁",
+        "english": "Running"
+      }
+    },
+    {
+      "source": "サヨナラ男",
+      "english": "Walk-Off",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btsayonara",
+        "japanese": "サヨナラ男",
+        "english": "Walk-Off"
+      }
+    },
+    {
+      "source": "逆境○",
+      "english": "Comeback+",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btgyakkyou",
+        "japanese": "逆境",
+        "english": "Comeback"
+      }
+    },
+    {
+      "source": "バント5",
+      "english": "Bunt 5",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btbunt",
+        "japanese": "バント",
+        "english": "Bunt"
+      }
+    },
+    {
+      "source": "バント4",
+      "english": "Bunt 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btbunt",
+        "japanese": "バント",
+        "english": "Bunt"
+      }
+    },
+    {
+      "source": "バント3",
+      "english": "Bunt 3",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btbunt",
+        "japanese": "バント",
+        "english": "Bunt"
+      }
+    },
+    {
+      "source": "バント2",
+      "english": "Bunt 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btbunt",
+        "japanese": "バント",
+        "english": "Bunt"
+      }
+    },
+    {
+      "source": "チャンスメーカー",
+      "english": "Table Setter",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btchancemaker",
+        "japanese": "チャンスメーカー",
+        "english": "Table Setter"
+      }
+    },
+    {
+      "source": "おかわり",
+      "english": "Power Surge",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_bthommer",
+        "japanese": "おかわり",
+        "english": "Power Surge"
+      }
+    },
+    {
+      "source": "粘り打ち",
+      "english": "Tough Out",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_btnebari",
+        "japanese": "粘り打ち",
+        "english": "Tough Out"
+      }
+    },
+    {
+      "source": "ケガしにくさ5",
+      "english": "Durability 5",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_whkega",
+        "japanese": "ケガしにくさ",
+        "english": "Durability"
+      }
+    },
+    {
+      "source": "ケガしにくさ4",
+      "english": "Durability 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_whkega",
+        "japanese": "ケガしにくさ",
+        "english": "Durability"
+      }
+    },
+    {
+      "source": "ケガしにくさ2",
+      "english": "Durability 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_whkega",
+        "japanese": "ケガしにくさ",
+        "english": "Durability"
+      }
+    },
+    {
+      "source": "ケガしにくさ1",
+      "english": "Durability 1",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_whkega",
+        "japanese": "ケガしにくさ",
+        "english": "Durability"
+      }
+    },
+    {
+      "source": "守備職人",
+      "english": "Gold Glover",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_flshubishokunin",
+        "japanese": "守備職人",
+        "english": "Gold Glover"
+      }
+    },
+    {
+      "source": "レーザービーム",
+      "english": "Laser Beam",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_fllaserbeam",
+        "japanese": "レーザービーム",
+        "english": "Laser Beam"
+      }
+    },
+    {
+      "source": "打球反応4",
+      "english": "Reflexes 4",
+      "reference": {
+        "namespace": "Spirits",
+        "key": "spirits_abi_name_fielding",
+        "japanese": "打球反応",
+        "english": "Reflexes"
+      }
+    },
+    {
+      "source": "打球反応2",
+      "english": "Reflexes 2",
+      "reference": {
+        "namespace": "Spirits",
+        "key": "spirits_abi_name_fielding",
+        "japanese": "打球反応",
+        "english": "Reflexes"
+      }
+    },
+    {
+      "source": "対左打者5",
+      "english": "vs Lefty 5",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptvsleft",
+        "japanese": "対左打者",
+        "english": "VS Lefty"
+      }
+    },
+    {
+      "source": "対左打者4",
+      "english": "vs Lefty 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptvsleft",
+        "japanese": "対左打者",
+        "english": "VS Lefty"
+      }
+    },
+    {
+      "source": "対左打者2",
+      "english": "vs Lefty 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptvsleft",
+        "japanese": "対左打者",
+        "english": "VS Lefty"
+      }
+    },
+    {
+      "source": "対左打者1",
+      "english": "vs Lefty 1",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptvsleft",
+        "japanese": "対左打者",
+        "english": "VS Lefty"
+      }
+    },
+    {
+      "source": "打たれ強さ4",
+      "english": "Poise 4",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptutareduyosa",
+        "japanese": "打たれ強さ",
+        "english": "Poise"
+      }
+    },
+    {
+      "source": "打たれ強さ2",
+      "english": "Poise 2",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptutareduyosa",
+        "japanese": "打たれ強さ",
+        "english": "Poise"
+      }
+    },
+    {
+      "source": "シュート回転",
+      "english": "Spin Leak",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptshootstraight",
+        "japanese": "シュート回転",
+        "english": "Spin Leak"
+      }
+    },
+    {
+      "source": "寸前",
+      "english": "Choker",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptsunzen",
+        "japanese": "寸前",
+        "english": "Choker"
+      }
+    },
+    {
+      "source": "尻上がり",
+      "english": "Second Wind",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptshiriagari",
+        "japanese": "尻上がり",
+        "english": "Second Wind"
+      }
+    },
+    {
+      "source": "スロースターター",
+      "english": "Slow Start",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_ptslowstarter",
+        "japanese": "スロースターター",
+        "english": "Slow Start"
+      }
+    },
+    {
+      "source": "力配分",
+      "english": "Power Sense",
+      "reference": {
+        "namespace": "HighSchool",
+        "key": "hsch_ability_name_pttikarahaibun",
+        "japanese": "力配分",
+        "english": "Power Sense"
+      }
+    },
+    {
+      "source": "牽制○",
+      "english": "Pickoff+",
+      "reference": {
+        "namespace": "Spirits",
+        "key": "spirits_abi_name_pick_off",
+        "japanese": "牽制",
+        "english": "Pickoff"
+      }
+    },
+    {
+      "source": "牽制○",
+      "english": "Pickoff+",
+      "reference": {
+        "namespace": "Spirits",
+        "key": "spirits_abi_name_pick_off",
+        "japanese": "牽制",
+        "english": "Pickoff"
+      }
+    },
+    {
+      "source": "オープン戦",
+      "english": "Preseason Game",
+      "reference": {
+        "namespace": "Match",
+        "key": "match_telop_open_match_text",
+        "japanese": "オープン戦",
+        "english": "Preseason Game"
+      }
+    }
+  ],
+  "existing_compact_ability_glossary_used_where_2026_terms_differ_by_mode": true,
+  "source_anomaly": {
+    "texture": "SLOT_RKslot_tk_c.tsr",
+    "rows": [
+      5,
+      6
+    ],
+    "column": 2,
+    "source": "牽制○",
+    "english": "Pickoff+",
+    "original_cells_pixel_identical": true,
+    "english_cells_pixel_identical": true
+  },
+  "unresolved_motion_strip": {
+    "texture": "SLOT_RKslot_tk_d.tsr",
+    "rect": [
+      340,
+      120,
+      512,
+      160
+    ],
+    "status": "Original blurred strip retained; check animation and source sprite usage before classifying as text or effect"
+  },
+  "font_bounds_checked": true,
+  "native_decoded_previews_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "native_positive_circle_grades_preserved": [
+    {
+      "source": "内野安打○",
+      "english": "Infield Hit+"
+    },
+    {
+      "source": "初球○",
+      "english": "First Pitch+"
+    },
+    {
+      "source": "逆境○",
+      "english": "Comeback+"
+    },
+    {
+      "source": "代打○",
+      "english": "Pinch Hitter+"
+    },
+    {
+      "source": "ブロック○",
+      "english": "Block+"
+    },
+    {
+      "source": "リリース○",
+      "english": "Delivery+"
+    },
+    {
+      "source": "牽制○",
+      "english": "Pickoff+"
+    },
+    {
+      "source": "牽制○",
+      "english": "Pickoff+"
+    }
+  ]
+}
