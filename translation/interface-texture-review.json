@@ -140,16 +140,6 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_GMshift_pos.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1a200152",
-      "remaining_text": "Defensive alignment choices",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_GMstats_00.tsr",
       "width": 128,
       "height": 64,
@@ -194,9 +184,10 @@
       "width": 256,
       "height": 256,
       "format": "1a200152",
-      "remaining_text": "Stat headings and pitch-by-pitch fragments",
-      "status": "pending",
-      "native_sprite_layout_verified": false
+      "remaining_text": "14 stat labels replaced. Club names, split labels, positions and other fragments remain Japanese.",
+      "status": "partly_translated",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
     },
     {
       "member": "HRBREC.CHK",
@@ -783,6 +774,17 @@
       "height": 256,
       "format": "18280186",
       "remaining_text": "Japanese class names below English class labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMshift_pos.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Defensive alignment choices",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

@@ -1378,6 +1378,491 @@
         ],
         "max_font_size": 17
       }
+    ],
+    "GAME_MAT_up09.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          40,
+          16
+        ],
+        "text": "Hits",
+        "source": "ヒット",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          16,
+          40,
+          16
+        ],
+        "text": "Batter",
+        "source": "打者",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          48,
+          40,
+          16
+        ],
+        "text": "BB/HBP",
+        "source": "四死",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          64,
+          40,
+          16
+        ],
+        "text": "K",
+        "source": "三振",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          80,
+          40,
+          16
+        ],
+        "text": "RA",
+        "source": "失点",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          96,
+          40,
+          16
+        ],
+        "text": "IP",
+        "source": "投球回",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          112,
+          40,
+          16
+        ],
+        "text": "Pitches",
+        "source": "投球数",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          128,
+          40,
+          16
+        ],
+        "text": "Balls",
+        "source": "ボール",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          144,
+          40,
+          16
+        ],
+        "text": "ERA",
+        "source": "防御率",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          160,
+          40,
+          16
+        ],
+        "text": "RBI",
+        "source": "打点",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          176,
+          40,
+          16
+        ],
+        "text": "AVG",
+        "source": "打率",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          192,
+          40,
+          16
+        ],
+        "text": "Games",
+        "source": "試合",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 12,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          108,
+          64,
+          20,
+          16
+        ],
+        "text": "W",
+        "source": "勝",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 14,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          128,
+          64,
+          20,
+          16
+        ],
+        "text": "L",
+        "source": "敗",
+        "padding": 2,
+        "outline_width": 1,
+        "max_font_size": 14,
+        "min_font_size": 11
+      }
+    ],
+    "GAME_GMshift_pos.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          54,
+          16
+        ],
+        "text": "Default",
+        "source": "定位置",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          16,
+          54,
+          16
+        ],
+        "text": "Aim Center",
+        "source": "センター返し",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          32,
+          54,
+          16
+        ],
+        "text": "Deep",
+        "source": "深め守備",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          48,
+          54,
+          16
+        ],
+        "text": "Pull",
+        "source": "引っ張り",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          64,
+          54,
+          16
+        ],
+        "text": "Opposite",
+        "source": "流し打ち",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          80,
+          54,
+          16
+        ],
+        "text": "Drag Bunt",
+        "source": "対セフティ",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          96,
+          54,
+          16
+        ],
+        "text": "Fast Runner",
+        "source": "俊足警戒",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          0,
+          112,
+          54,
+          16
+        ],
+        "text": "Bunt",
+        "source": "バント",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          0,
+          54,
+          16
+        ],
+        "text": "Double Play",
+        "source": "ゲッツー",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          16,
+          54,
+          16
+        ],
+        "text": "vs Steals",
+        "source": "盗塁警戒",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          32,
+          54,
+          16
+        ],
+        "text": "Pickoff 2B",
+        "source": "二塁牽制",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          48,
+          54,
+          16
+        ],
+        "text": "Infield In",
+        "source": "前進守備",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          64,
+          54,
+          16
+        ],
+        "text": "vs Squeeze",
+        "source": "対スクイズ",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          80,
+          54,
+          16
+        ],
+        "text": "Halfway",
+        "source": "中間守備",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      },
+      {
+        "rect": [
+          54,
+          96,
+          54,
+          16
+        ],
+        "text": "Long Hitter",
+        "source": "長打警戒",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "max_font_size": 13,
+        "min_font_size": 10
+      }
     ]
   },
   "UTYTOP.CHK": {

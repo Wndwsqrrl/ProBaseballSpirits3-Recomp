@@ -10,7 +10,7 @@ This repository contains port source, executable analysis metadata, English tran
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
 - Current catalogue: **14,020 records / 13,726 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
-- **203 texture labels** across 35 atlases cover menu modes, umpire calls, pause menus, positions, lineup legends, handedness comparisons, utility and sound settings, auto-game roles, pitcher order, result headings, DH lineup presets, batting-first controls, and country/custom-team labels.
+- **232 texture labels** across 37 atlases cover menu modes, umpire calls, pause menus, positions, lineup legends, handedness comparisons, utility and sound settings, auto-game roles, pitcher order, result headings, DH lineup presets, batting-first controls, and country/custom-team labels.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
@@ -27,7 +27,7 @@ This repository contains port source, executable analysis metadata, English tran
 - The English build sets the Xbox storage display title to `Pro Yakyuu Spirits 3` when the game prepares its save metadata. The save key stays `Save Data`.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
-Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. An additional review decoded 326 interface textures and documented 63 textures that still contain Japanese; see [interface texture review](translation/interface-texture-review.json). Translation accuracy, ambiguous name aliases, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
+Localization is unfinished. Some HUD elements, packed menu scripts, title graphics, and mode-specific text remain Japanese. An additional review decoded 326 interface textures and documented 62 textures that still contain Japanese; see [interface texture review](translation/interface-texture-review.json). Translation accuracy, ambiguous name aliases, and layouts still need review. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json) for recorded validation.
 
 The English patch covers the game interface. In-stadium signage, sponsor ads, and other ballpark artwork retain their original Japanese presentation.
 
