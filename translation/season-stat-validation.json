@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 54,
+  "new_atlases": 5,
+  "protected_regions": [
+    {
+      "member": "PNDAILY.CHK",
+      "texture": "MENU_PEnittei_deco.tsr",
+      "rect": [
+        0,
+        0,
+        252,
+        28
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAILY.CHK",
+      "texture": "MENU_PEnittei_deco.tsr",
+      "rect": [
+        0,
+        28,
+        28,
+        56
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNDAILY.CHK",
+      "texture": "MENU_PEnittei_deco.tsr",
+      "rect": [
+        208,
+        0,
+        512,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_long01.tsr",
+      "rect": [
+        0,
+        16,
+        64,
+        32
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_time08.tsr",
+      "rect": [
+        0,
+        96,
+        128,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "rect": [
+        0,
+        178,
+        324,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "rect": [
+        26,
+        0,
+        360,
+        176
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "original_alpha_mask_rgb_channels_preserved": true,
+  "previous_label_specs_unchanged": 477,
+  "previous_atlas_payloads_byte_identical": 69,
+  "official_2026_reference": "Installed Japanese/English localization; context-specific stat abbreviations adapted to native cells",
+  "context_checks_pending": [
+    "Live result \u7403 column totals; BB/HBP follows full \u56db\u6b7b\u7403 gameplay heading",
+    "Newspaper weekday/date assembly and Heisei year display",
+    "Live cell sizes and native sprite UVs"
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}

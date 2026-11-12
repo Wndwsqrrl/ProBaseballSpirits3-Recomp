@@ -131,6 +131,11 @@ def patch_chk(data, atlases, font_path, preview):
                             stroke_width=stroke,
                             stroke_fill=tuple(label.get('outline',(0,0,0,255))))
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
+                    if label.get('alpha_mask_only'):
+                        # Some newspaper sprites carry text only in alpha; RGB is a fixed tint.
+                        original = image.crop((x,y,x+w,y+h))
+                        original.putalpha(tile.getchannel('A'))
+                        tile = original
                     image.paste(tile, (x,y))
                     label_blocks = {(bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4)}
                     dirty_blocks.update(label_blocks)

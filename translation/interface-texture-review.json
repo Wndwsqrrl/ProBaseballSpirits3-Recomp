@@ -111,26 +111,6 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_MAT_long01.tsr",
-      "width": 64,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Direction fragments",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_MAT_time08.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1a200152",
-      "remaining_text": "Today pitching statistics fragments",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_MAT_toku00.tsr",
       "width": 256,
       "height": 512,
@@ -161,16 +141,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "PNDAILY.CHK",
-      "texture": "MENU_PEnittei_deco.tsr",
-      "width": 512,
-      "height": 128,
-      "format": "1a200153",
-      "remaining_text": "Month and day suffixes",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "PNTODAY06.CHK",
       "texture": "MENU_PEtoday_base.tsr",
       "width": 1024,
@@ -196,7 +166,7 @@
       "width": 512,
       "height": 256,
       "format": "1828014f",
-      "remaining_text": "Newspaper standings and season-status fragments",
+      "remaining_text": "Weekdays, era caption, weekday heading, title badge and season status translated; vertical team, tournament and venue labels remain",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -227,16 +197,6 @@
       "height": 128,
       "format": "1a200152",
       "remaining_text": "Team initials and scorecard marks",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "RESULT.CHK",
-      "texture": "MENU_RE_kekka01.tsr",
-      "width": 512,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Batting and pitching table abbreviations",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -817,6 +777,50 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Pitch type and location legend",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_long01.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Direction fragments",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_time08.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Today pitching statistics fragments",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "PNDAILY.CHK",
+      "texture": "MENU_PEnittei_deco.tsr",
+      "width": 512,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Month and day suffixes",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_kekka01.tsr",
+      "width": 512,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Batting and pitching table abbreviations",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

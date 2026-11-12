@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 477,
-  "localized_archive_members": 44,
+  "texture_labels": 531,
+  "localized_archive_members": 46,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -43,9 +43,11 @@
     "13 stadium cards and two time/wind labels localized; 26 core model views and original numeric dimensions preserved, with all 232 previous texture labels byte-identical",
     "30 challenge, inning, status, result and waiting labels passed native decoding, font bounds and archive checks; all 390 prior labels remain byte-identical",
     "57 position, base, roster and pitch-chart labels passed font and native region checks; eight icon and unit regions pixel-identical",
-    "All 420 prior texture labels remain byte-identical after adding optional horizontal text fitting"
+    "All 420 prior texture labels remain byte-identical after adding optional horizontal text fitting",
+    "54 result, pitching, direction, date and newspaper labels passed font and native archive checks; 69 earlier atlas payloads and seven protected regions remain identical"
   ],
   "pending_validation": [
+    "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
     "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
     "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
     "Live stadium-selection card layout, legacy venue names, and time/wind controls",
@@ -78,7 +80,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "31 documented interface textures still need localization or native-context review; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "27 documented interface textures still need localization or native-context review; see interface-texture-review.json. Additional textures may remain undiscovered.",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -266,14 +268,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 477,
-    "total_atlases": 69,
-    "pending_texture_entries": 31,
+    "total_labels": 531,
+    "total_atlases": 74,
+    "pending_texture_entries": 27,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2179,
+    "unchanged_archive_members_verified": 2177,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -363,5 +365,20 @@
     "report": "position-chart-validation.json",
     "interactive_validation": false,
     "previous_420_labels_byte_identical": true
+  },
+  "season_and_stat_texture_review": {
+    "labels": 54,
+    "atlases": 5,
+    "result_columns": 26,
+    "pitching_stats": 11,
+    "outfield_directions": 3,
+    "calendar_markers": 2,
+    "newspaper_labels": 12,
+    "alpha_mask_colors_preserved": true,
+    "previous_477_label_specs_unchanged": true,
+    "previous_69_atlas_payloads_byte_identical": true,
+    "protected_regions": 7,
+    "report": "season-stat-validation.json",
+    "interactive_validation": false
   }
 }

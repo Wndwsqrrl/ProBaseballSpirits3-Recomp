@@ -2588,6 +2588,332 @@
         "max_font_size": 16,
         "min_font_size": 12
       }
+    ],
+    "GAME_MAT_long01.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "text": "R",
+        "source": "右",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 1,
+        "background_sample_x": 60
+      },
+      {
+        "rect": [
+          16,
+          0,
+          16,
+          16
+        ],
+        "text": "C",
+        "source": "中",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 1,
+        "background_sample_x": 60
+      },
+      {
+        "rect": [
+          32,
+          0,
+          16,
+          16
+        ],
+        "text": "L",
+        "source": "左",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 1,
+        "background_sample_x": 60
+      }
+    ],
+    "GAME_MAT_time08.tsr": [
+      {
+        "rect": [
+          2,
+          3,
+          15,
+          89
+        ],
+        "text": "T\nO\nD\nA\nY",
+        "source": "今日の成績",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          18,
+          1,
+          46,
+          18
+        ],
+        "text": "IP",
+        "source": "投球回",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          64,
+          1,
+          44,
+          18
+        ],
+        "text": "BB/HBP",
+        "source": "四死球",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          18,
+          19,
+          46,
+          18
+        ],
+        "text": "BF",
+        "source": "打者",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          64,
+          19,
+          44,
+          18
+        ],
+        "text": "R",
+        "source": "失点",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          18,
+          37,
+          46,
+          18
+        ],
+        "text": "Pitches",
+        "source": "投球数",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          64,
+          37,
+          44,
+          18
+        ],
+        "text": "ER",
+        "source": "自責点",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          18,
+          55,
+          46,
+          18
+        ],
+        "text": "H",
+        "source": "被安打",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          64,
+          55,
+          44,
+          18
+        ],
+        "text": "WP",
+        "source": "暴投",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      },
+      {
+        "rect": [
+          18,
+          73,
+          46,
+          18
+        ],
+        "text": "SO",
+        "source": "奪三振",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120,
+        "clear_rect": [
+          18,
+          91,
+          90,
+          5
+        ],
+        "clear_background": [
+          255,
+          170,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          64,
+          73,
+          44,
+          18
+        ],
+        "text": "HR",
+        "source": "被HR",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background_sample_x": 120
+      }
     ]
   },
   "UTYTOP.CHK": {
@@ -3706,6 +4032,580 @@
         "max_font_size": 18,
         "min_font_size": 11,
         "align": "center"
+      }
+    ],
+    "MENU_RE_kekka01.tsr": [
+      {
+        "rect": [
+          1,
+          1,
+          32,
+          22
+        ],
+        "text": "AB",
+        "source": "打",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          35,
+          1,
+          32,
+          22
+        ],
+        "text": "H",
+        "source": "安",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          69,
+          1,
+          32,
+          22
+        ],
+        "text": "2B",
+        "source": "二",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          103,
+          1,
+          32,
+          22
+        ],
+        "text": "3B",
+        "source": "三",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          137,
+          1,
+          32,
+          22
+        ],
+        "text": "HR",
+        "source": "本",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          171,
+          1,
+          32,
+          22
+        ],
+        "text": "RBI",
+        "source": "点",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          205,
+          1,
+          32,
+          22
+        ],
+        "text": "R",
+        "source": "得",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          239,
+          1,
+          32,
+          22
+        ],
+        "text": "SO",
+        "source": "振",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          273,
+          1,
+          32,
+          22
+        ],
+        "text": "BB/HBP",
+        "source": "球",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          307,
+          1,
+          32,
+          22
+        ],
+        "text": "SAC",
+        "source": "犠",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          341,
+          1,
+          32,
+          22
+        ],
+        "text": "SB",
+        "source": "盗",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          375,
+          1,
+          32,
+          22
+        ],
+        "text": "DP",
+        "source": "併",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          409,
+          1,
+          32,
+          22
+        ],
+        "text": "E",
+        "source": "失",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          443,
+          1,
+          59,
+          22
+        ],
+        "text": "AVG",
+        "source": "打率",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          1,
+          25,
+          50,
+          22
+        ],
+        "text": "Total",
+        "source": "合計",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          53,
+          25,
+          56,
+          22
+        ],
+        "text": "IP",
+        "source": "投球回",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          111,
+          25,
+          32,
+          22
+        ],
+        "text": "BF",
+        "source": "打",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          145,
+          25,
+          44,
+          22
+        ],
+        "text": "PIT",
+        "source": "投",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          191,
+          25,
+          32,
+          22
+        ],
+        "text": "H",
+        "source": "安",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          225,
+          25,
+          32,
+          22
+        ],
+        "text": "SO",
+        "source": "振",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          259,
+          25,
+          32,
+          22
+        ],
+        "text": "BB/HBP",
+        "source": "球",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          293,
+          25,
+          32,
+          22
+        ],
+        "text": "R",
+        "source": "失",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          327,
+          25,
+          32,
+          22
+        ],
+        "text": "ER",
+        "source": "責",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          361,
+          25,
+          32,
+          22
+        ],
+        "text": "WP",
+        "source": "暴",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          395,
+          25,
+          32,
+          22
+        ],
+        "text": "HR",
+        "source": "本",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
+      },
+      {
+        "rect": [
+          429,
+          25,
+          73,
+          22
+        ],
+        "text": "ERA",
+        "source": "防御率",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          85,
+          85,
+          68,
+          255
+        ],
+        "background_sample_x": 2
       }
     ]
   },
@@ -7446,6 +8346,380 @@
           255
         ],
         "tint_mask": true
+      }
+    ]
+  },
+  "PNDAILY.CHK": {
+    "MENU_PEnittei_deco.tsr": [
+      {
+        "rect": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "text": "M",
+        "source": "月",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          56,
+          28,
+          28,
+          28
+        ],
+        "text": "D",
+        "source": "日",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ]
+  },
+  "PNTODAY06.CHK": {
+    "MENU_PEtoday_stte.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          24,
+          24
+        ],
+        "text": "Mon",
+        "source": "月",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          24,
+          24,
+          24
+        ],
+        "text": "Tue",
+        "source": "火",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          48,
+          24,
+          24
+        ],
+        "text": "Wed",
+        "source": "水",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          72,
+          24,
+          24
+        ],
+        "text": "Thu",
+        "source": "木",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          96,
+          24,
+          24
+        ],
+        "text": "Fri",
+        "source": "金",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          120,
+          24,
+          24
+        ],
+        "text": "Sat",
+        "source": "土",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          0,
+          144,
+          24,
+          24
+        ],
+        "text": "Sun",
+        "source": "日",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          352,
+          176,
+          132,
+          40
+        ],
+        "text": "Travel Day",
+        "source": "移動日",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          324,
+          216,
+          188,
+          40
+        ],
+        "text": "Season Complete",
+        "source": "全日程終了",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          388,
+          108,
+          52,
+          22
+        ],
+        "text": "Day",
+        "source": "曜日",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          366,
+          134,
+          78,
+          20
+        ],
+        "text": "PRO BASEBALL\nSPIRITS 3",
+        "source": "プロ野球スピリッツ3 / PROYAKYU SPIRITS",
+        "padding": 2,
+        "max_font_size": 12,
+        "min_font_size": 8,
+        "condense": true,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          364,
+          50,
+          82,
+          22
+        ],
+        "text": "Heisei",
+        "source": "平成",
+        "padding": 2,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": false,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
       }
     ]
   }
