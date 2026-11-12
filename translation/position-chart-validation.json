@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 57,
+  "new_atlases": 9,
+  "protected_regions": [
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq04.tsr",
+      "rect": [
+        0,
+        32,
+        20,
+        56
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq04.tsr",
+      "rect": [
+        60,
+        32,
+        80,
+        56
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq04.tsr",
+      "rect": [
+        116,
+        32,
+        136,
+        56
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq01.tsr",
+      "rect": [
+        0,
+        24,
+        56,
+        52
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_UNO_haiq01.tsr",
+      "rect": [
+        188,
+        104,
+        216,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_REhaikyu_00.tsr",
+      "rect": [
+        0,
+        112,
+        104,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_data.tsr",
+      "rect": [
+        0,
+        18,
+        68,
+        38
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_data.tsr",
+      "rect": [
+        68,
+        0,
+        85,
+        18
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "requested_minimum_horizontal_text_scale": 0.55,
+  "default_rendering_regression": {
+    "baseline_commit": "cf46ee330154f80aa9d90346bb3c81cec3bce14f",
+    "members": 31,
+    "atlases": 60,
+    "labels": 420,
+    "all_member_bytes_identical": true
+  },
+  "official_2026_reference_terms": [
+    "Fastballs",
+    "Breaking balls",
+    "Best Pitch Rate",
+    "All Pitchers",
+    "Whiffs",
+    "Pitch Type/Location"
+  ],
+  "adapted_reference_terms": {
+    "å‡¡æ‰“": "Outs, shortened from Routine Out for the native legend cells"
+  },
+  "pending_context": [
+    "Confirm the Long Hit field and the native player-stat values before final terminology review."
+  ],
+  "interactive_validation": false,
+  "existing_atlas_label_specs_unchanged": true
+}

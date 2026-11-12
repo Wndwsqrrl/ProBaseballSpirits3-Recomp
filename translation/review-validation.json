@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "asset build and all font bounds passed",
-    "all 2223 archive members verified, including 2180 unchanged members",
-    "28 prior texture members byte-identical with the updated builder",
-    "meter, inning digits, and H/S glyph regions pixel-identical",
-    "new encoded challenge and status previews checked"
+    "new native texture outputs and font limits checked",
+    "eight chart marker, guide and unit regions pixel-identical",
+    "new position, roster and chart previews checked",
+    "31 prior texture members byte-identical with optional text fitting disabled",
+    "all 2223 archive members verified, including 2179 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
     "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
     "Live stadium-selection card layout, legacy venue names, and time/wind controls",
     "Live pitcher and batter stat headings and fielding/tactic selector labels",
@@ -256,14 +257,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 420,
-    "total_atlases": 60,
-    "pending_texture_entries": 39,
+    "total_labels": 477,
+    "total_atlases": 69,
+    "pending_texture_entries": 31,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2180,
+    "unchanged_archive_members_verified": 2179,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -337,5 +338,21 @@
     "previous_390_labels_byte_identical": true,
     "report": "challenge-status-validation.json",
     "interactive_validation": false
+  },
+  "position_and_pitch_chart_texture_review": {
+    "labels": 57,
+    "atlases": 9,
+    "position_labels": 17,
+    "player_data_labels": 9,
+    "base_labels": 3,
+    "roster_controls": 6,
+    "pitch_chart_labels": 11,
+    "pitch_result_filters": 11,
+    "minimum_horizontal_text_scale": 0.55,
+    "protected_region_checks": 8,
+    "player_data_value_context_verified": false,
+    "report": "position-chart-validation.json",
+    "interactive_validation": false,
+    "previous_420_labels_byte_identical": true
   }
 }

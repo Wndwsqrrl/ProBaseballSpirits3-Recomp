@@ -481,6 +481,66 @@
           255
         ]
       }
+    ],
+    "MENU_OR_deco_01.tsr": [
+      {
+        "rect": [
+          8,
+          8,
+          48,
+          22
+        ],
+        "text": "Bat 2nd",
+        "source": "後攻",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          68,
+          68,
+          85,
+          255
+        ],
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          72,
+          8,
+          48,
+          22
+        ],
+        "text": "Bat 1st",
+        "source": "先攻",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          68,
+          68,
+          85,
+          255
+        ]
+      },
+      {
+        "rect": [
+          72,
+          72,
+          36,
+          24
+        ],
+        "text": "Rotate",
+        "source": "回転",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      }
     ]
   },
   "BBMENU.CHK": {
@@ -2020,6 +2080,514 @@
         "max_font_size": 10,
         "min_font_size": 8
       }
+    ],
+    "GAME_GM_posi.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          21,
+          24
+        ],
+        "text": "1B",
+        "source": "一",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          21,
+          0,
+          21,
+          24
+        ],
+        "text": "2B",
+        "source": "二",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          42,
+          0,
+          21,
+          24
+        ],
+        "text": "3B",
+        "source": "三",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          63,
+          0,
+          21,
+          24
+        ],
+        "text": "SS",
+        "source": "遊",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          84,
+          0,
+          21,
+          24
+        ],
+        "text": "P",
+        "source": "投",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          105,
+          0,
+          21,
+          24
+        ],
+        "text": "C",
+        "source": "捕",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          126,
+          0,
+          21,
+          24
+        ],
+        "text": "RF",
+        "source": "右",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          147,
+          0,
+          21,
+          24
+        ],
+        "text": "CF",
+        "source": "中",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          168,
+          0,
+          21,
+          24
+        ],
+        "text": "LF",
+        "source": "左",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          0,
+          24,
+          21,
+          24
+        ],
+        "text": "DH",
+        "source": "指",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          21,
+          24,
+          21,
+          24
+        ],
+        "text": "R",
+        "source": "右",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          42,
+          24,
+          21,
+          24
+        ],
+        "text": "L",
+        "source": "左",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          63,
+          24,
+          21,
+          24
+        ],
+        "text": "S",
+        "source": "両",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          84,
+          24,
+          21,
+          24
+        ],
+        "text": "PH",
+        "source": "打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          105,
+          24,
+          21,
+          24
+        ],
+        "text": "PR",
+        "source": "走",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          126,
+          24,
+          21,
+          24
+        ],
+        "text": "SP",
+        "source": "先",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          147,
+          24,
+          21,
+          24
+        ],
+        "text": "RP",
+        "source": "継",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      }
+    ],
+    "GAME_GMplayer_data.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          17,
+          18
+        ],
+        "text": "AVG",
+        "source": "率",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          17,
+          0,
+          17,
+          18
+        ],
+        "text": "HR",
+        "source": "本",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          34,
+          0,
+          17,
+          18
+        ],
+        "text": "RBI",
+        "source": "点",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          51,
+          0,
+          17,
+          18
+        ],
+        "text": "ERA",
+        "source": "防",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          85,
+          0,
+          17,
+          18
+        ],
+        "text": "P",
+        "source": "球",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          68,
+          18,
+          40,
+          20
+        ],
+        "text": "SB",
+        "source": "盗塁",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          0,
+          38,
+          34,
+          20
+        ],
+        "text": "vs R",
+        "source": "対右",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          34,
+          38,
+          34,
+          20
+        ],
+        "text": "vs L",
+        "source": "対左",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          68,
+          38,
+          40,
+          20
+        ],
+        "text": "Long Hit",
+        "source": "長打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      }
+    ],
+    "GAME_GMrunner.tsr": [
+      {
+        "rect": [
+          9,
+          7,
+          15,
+          15
+        ],
+        "text": "1",
+        "source": "一",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "clear_rect": [
+          4,
+          4,
+          20,
+          20
+        ],
+        "clear_background": [
+          204,
+          136,
+          0,
+          255
+        ],
+        "max_font_size": 16,
+        "min_font_size": 12
+      },
+      {
+        "rect": [
+          35,
+          7,
+          15,
+          15
+        ],
+        "text": "2",
+        "source": "二",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "clear_rect": [
+          30,
+          4,
+          20,
+          20
+        ],
+        "clear_background": [
+          204,
+          136,
+          0,
+          255
+        ],
+        "max_font_size": 16,
+        "min_font_size": 12
+      },
+      {
+        "rect": [
+          61,
+          7,
+          15,
+          15
+        ],
+        "text": "3",
+        "source": "三",
+        "padding": 2,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "clear_rect": [
+          56,
+          4,
+          20,
+          20
+        ],
+        "clear_background": [
+          204,
+          136,
+          0,
+          255
+        ],
+        "max_font_size": 16,
+        "min_font_size": 12
+      }
     ]
   },
   "UTYTOP.CHK": {
@@ -2968,6 +3536,176 @@
           255
         ],
         "max_font_size": 18
+      }
+    ],
+    "MENU_REhaikyu_00.tsr": [
+      {
+        "rect": [
+          14,
+          0,
+          34,
+          16
+        ],
+        "text": "Whiffs",
+        "source": "空振",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          72,
+          0,
+          34,
+          16
+        ],
+        "text": "Outs",
+        "source": "凡打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          128,
+          0,
+          34,
+          16
+        ],
+        "text": "Hits",
+        "source": "安打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          172,
+          0,
+          20,
+          16
+        ],
+        "text": "P",
+        "source": "球",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          14,
+          26,
+          38,
+          24
+        ],
+        "text": "All",
+        "source": "全て",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          74,
+          26,
+          38,
+          24
+        ],
+        "text": "1st Pitch",
+        "source": "初球",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          120,
+          20,
+          54,
+          42
+        ],
+        "text": "Whiffs",
+        "source": "空振り\nさせた",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          174,
+          20,
+          62,
+          42
+        ],
+        "text": "Strikeouts",
+        "source": "三振を\nとった",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      },
+      {
+        "rect": [
+          0,
+          68,
+          56,
+          38
+        ],
+        "text": "In-play\nOuts",
+        "source": "打ち\nとった",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "align": "center"
+      },
+      {
+        "rect": [
+          56,
+          68,
+          64,
+          38
+        ],
+        "text": "Hits\nAllowed",
+        "source": "安打を\n打たれた",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "align": "center"
+      },
+      {
+        "rect": [
+          120,
+          68,
+          64,
+          38
+        ],
+        "text": "HR\nAllowed",
+        "source": "本塁打を\n打たれた",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "align": "center"
       }
     ]
   },
@@ -6372,6 +7110,342 @@
         ],
         "background_sample_x": 0,
         "max_font_size": 24
+      }
+    ],
+    "MENU_OR_deco_01.tsr": [
+      {
+        "rect": [
+          8,
+          8,
+          48,
+          22
+        ],
+        "text": "Bat 2nd",
+        "source": "後攻",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          68,
+          68,
+          85,
+          255
+        ],
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          72,
+          8,
+          48,
+          22
+        ],
+        "text": "Bat 1st",
+        "source": "先攻",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          68,
+          68,
+          85,
+          255
+        ]
+      },
+      {
+        "rect": [
+          72,
+          72,
+          36,
+          24
+        ],
+        "text": "Rotate",
+        "source": "回転",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11
+      }
+    ]
+  },
+  "RSHAIQ.CHK": {
+    "MENU_UNO_haiq01.tsr": [
+      {
+        "rect": [
+          56,
+          24,
+          68,
+          24
+        ],
+        "text": "View",
+        "source": "表示切替",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 0,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          56,
+          24,
+          72,
+          26
+        ],
+        "clear_background": [
+          255,
+          170,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          36,
+          56,
+          108,
+          20
+        ],
+        "text": "Fastballs",
+        "source": "ストレート系",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ]
+      },
+      {
+        "rect": [
+          36,
+          80,
+          108,
+          20
+        ],
+        "text": "Breaking Balls",
+        "source": "変化球系",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ]
+      },
+      {
+        "rect": [
+          36,
+          104,
+          108,
+          20
+        ],
+        "text": "Best Pitch Rate",
+        "source": "ベストピッチ率",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ]
+      },
+      {
+        "rect": [
+          188,
+          56,
+          28,
+          20
+        ],
+        "text": "P",
+        "source": "球",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          188,
+          80,
+          28,
+          20
+        ],
+        "text": "P",
+        "source": "球",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ],
+    "MENU_UNO_haiq04.tsr": [
+      {
+        "rect": [
+          8,
+          4,
+          132,
+          20
+        ],
+        "text": "Pitch Type/Location",
+        "source": "球種・コース",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          20,
+          32,
+          36,
+          24
+        ],
+        "text": "Whiffs",
+        "source": "空振",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 0,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          80,
+          32,
+          36,
+          24
+        ],
+        "text": "Outs",
+        "source": "凡打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 0,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          136,
+          32,
+          36,
+          24
+        ],
+        "text": "Hits",
+        "source": "安打",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 0,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "background": [
+          255,
+          170,
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ],
+    "MENU_MAT_haiq06.tsr": [
+      {
+        "rect": [
+          16,
+          0,
+          72,
+          28
+        ],
+        "text": "All Pitchers",
+        "source": "全投手",
+        "padding": 2,
+        "condense": true,
+        "outline_width": 1,
+        "max_font_size": 18,
+        "min_font_size": 11,
+        "foreground": [
+          238,
+          221,
+          119,
+          255
+        ],
+        "tint_mask": true
       }
     ]
   }

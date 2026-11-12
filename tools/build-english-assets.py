@@ -6,6 +6,7 @@ baseball.fbd is rebuilt as a separate file, with updated sector offsets.
 import argparse
 import hashlib
 import io
+import math
 import importlib.util
 import json
 import os
@@ -105,17 +106,30 @@ def patch_chk(data, atlases, font_path, preview):
                         font = ImageFont.truetype(str(font_path), size*scale)
                         box = draw.textbbox((0,0), label['text'], font=font,
                             align=alignment, stroke_width=stroke)
-                        if box[2]-box[0] <= (w-label.get('padding',12))*scale and box[3]-box[1] <= (h-3)*scale:
+                        width_limit = (w-label.get('padding',12))*scale
+                        if label.get('condense'):
+                            width_limit /= label.get('min_width_ratio',0.55)
+                        if box[2]-box[0] <= width_limit and box[3]-box[1] <= (h-3)*scale:
                             break
                     else:
                         raise ValueError(f"English label does not fit {name} {label['rect']}: {label['text']}")
                     x_text = (w*scale - (box[2]-box[0]))/2 - box[0]
                     y_text = (h*scale - (box[3]-box[1]))/2 - box[1]
-                    draw.text((x_text, y_text), label['text'], font=font,
-                        align=alignment,
-                        fill=tuple(label.get('foreground',(255,255,255,255))),
-                        stroke_width=stroke,
-                        stroke_fill=tuple(label.get('outline',(0,0,0,255))))
+                    if label.get('condense') and label['text']:
+                        glyph = Image.new('RGBA',(math.ceil(box[2]-box[0]),math.ceil(box[3]-box[1])))
+                        ImageDraw.Draw(glyph).text((-box[0],-box[1]),label['text'],font=font,
+                            align=alignment,fill=tuple(label.get('foreground',(255,255,255,255))),
+                            stroke_width=stroke,stroke_fill=tuple(label.get('outline',(0,0,0,255))))
+                        glyph_width = min(glyph.width,(w-label.get('padding',12))*scale)
+                        if glyph_width != glyph.width:
+                            glyph = glyph.resize((glyph_width,glyph.height),Image.Resampling.LANCZOS)
+                        tile.alpha_composite(glyph,((w*scale-glyph.width)//2,(h*scale-glyph.height)//2))
+                    else:
+                        draw.text((x_text, y_text), label['text'], font=font,
+                            align=alignment,
+                            fill=tuple(label.get('foreground',(255,255,255,255))),
+                            stroke_width=stroke,
+                            stroke_fill=tuple(label.get('outline',(0,0,0,255))))
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
                     image.paste(tile, (x,y))
                     label_blocks = {(bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4)}
