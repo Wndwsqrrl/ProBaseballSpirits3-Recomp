@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 1002,
-  "localized_archive_members": 60,
+  "texture_labels": 1779,
+  "localized_archive_members": 97,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -52,9 +52,11 @@
     "56 editor, preseason and practice labels passed font, native decoding and archive checks; all 82 prior atlas payloads and protected controls remain unchanged",
     "38 challenge, team, VP, boost and rotation labels passed font and native archive checks; all 103 prior atlas payloads and 17 original icon, numeral and unit regions unchanged",
     "55 mission, rank, slogan, card and controller labels passed font and native archive checks; all 110 prior atlas payloads and 31 graphic/control regions unchanged",
-    "76 Spirits-card, slot and link-effect labels passed font and native archive checks; all 117 prior atlas payloads, six photos and protected illustration/control regions unchanged"
+    "76 Spirits-card, slot and link-effect labels passed font and native archive checks; all 117 prior atlas payloads, six photos and protected illustration/control regions unchanged",
+    "21 Spirits tutorial labels applied to 37 byte-identical source copies: 777 label occurrences in 111 atlases; all 122 prior atlas payloads, 74 background/effect payloads and 629 protected regions unchanged"
   ],
   "pending_validation": [
+    "Live Spirits tutorial page headings, partner diagram, angled card captions, card categories and preseason completion heading across team/scenario variants",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
     "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
     "Live challenge controls, VP labels, player boost labels and rotation caption; verify team/custom-name BC1 masks in the home-run menu",
@@ -95,8 +97,8 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "18 pending textures in interface-texture-review.json plus 43 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
-    "1127 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
+    "18 pending textures in interface-texture-review.json plus 34 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "957 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -284,14 +286,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1002,
-    "total_atlases": 122,
+    "total_labels": 1779,
+    "total_atlases": 233,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2163,
+    "unchanged_archive_members_verified": 2126,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -442,8 +444,8 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 43,
-    "broader_candidates_to_classify": 1127,
+    "additional_pending_textures": 34,
+    "broader_candidates_to_classify": 957,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -502,6 +504,21 @@
     "source_help_used_for_ability_steal_meaning": true,
     "already_english_special_frames_retained": true,
     "report": "spirits-card-effect-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_tutorial_texture_review": {
+    "unique_labels": 21,
+    "label_occurrences": 777,
+    "atlases": 111,
+    "team_and_scenario_variants": 37,
+    "source_textures": 185,
+    "preserved_background_and_effect_payloads": 74,
+    "protected_regions": 629,
+    "previous_1002_label_specs_unchanged": true,
+    "previous_122_full_atlas_payloads_byte_identical": true,
+    "official_2026_preseason_term_used": true,
+    "angled_glyph_polygon_fit_checked": true,
+    "report": "spirits-tutorial-validation.json",
     "interactive_validation": false
   }
 }

@@ -13,7 +13,7 @@ import os
 import shutil
 import struct
 from pathlib import Path
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops
 from bndr import read_index
 from pennant_events import MEMBER as PENNANT_MEMBER, load_translations, patch_text
 from txcpack_text import load_packed_text, patch_packed_text
@@ -35,7 +35,7 @@ def block_has_color(image, bx, by):
 def draw_rotated_label(tile, label, font_path, scale):
     rotation = label['text_rotation']
     if rotation not in (90, 270):
-        raise ValueError('Text rotation must be 90 or 270 degrees clockwise')
+        return draw_angled_label(tile, label, font_path, scale)
     width, height = tile.height, tile.width
     stroke = label.get('outline_width', 0) * scale
     measure = ImageDraw.Draw(Image.new('L', (1, 1)))
@@ -61,6 +61,47 @@ def draw_rotated_label(tile, label, font_path, scale):
         mask = mask.transpose(transpose)
         # A coverage mask also supports dark newspaper text cut out of opaque alpha.
         tile.paste(tuple(color), ((tile.width-mask.width)//2, (tile.height-mask.height)//2), mask)
+    return tile
+
+
+def draw_angled_label(tile, label, font_path, scale):
+    rotation = label['text_rotation']
+    if not isinstance(rotation, (int, float)) or not math.isfinite(rotation):
+        raise ValueError('Text rotation must be a finite number of clockwise degrees')
+    stroke = label.get('outline_width', 0) * scale
+    measure = ImageDraw.Draw(Image.new('L', (1, 1)))
+    width_limit = tile.width - label.get('padding', 12) * scale
+    height_limit = tile.height - label.get('vertical_padding', 3) * scale
+    polygon_mask = None
+    if 'edit_polygon' in label:
+        polygon_mask = Image.new('L', tile.size)
+        ImageDraw.Draw(polygon_mask).polygon(
+            [(px*scale, py*scale) for px, py in label['edit_polygon']], fill=255)
+    for size in range(label.get('max_font_size', 38), label.get('min_font_size', 13)-1, -1):
+        font = ImageFont.truetype(str(font_path), size * scale)
+        box = measure.textbbox((0, 0), label['text'], font=font, stroke_width=stroke)
+        mask = Image.new('L', (math.ceil(box[2]-box[0]), math.ceil(box[3]-box[1])))
+        ImageDraw.Draw(mask).text((-box[0], -box[1]), label['text'], font=font,
+                                 fill=255, stroke_width=stroke, stroke_fill=255)
+        mask = mask.rotate(-rotation, Image.Resampling.BICUBIC, expand=True)
+        if mask.width <= width_limit and mask.height <= height_limit:
+            if polygon_mask is not None:
+                placed = Image.new('L', tile.size)
+                placed.paste(mask, ((tile.width-mask.width)//2, (tile.height-mask.height)//2))
+                outside = ImageChops.subtract(placed, polygon_mask)
+                if outside.point(lambda value: 255 if value > 16 else 0).getbbox():
+                    continue
+            break
+    else:
+        raise ValueError(f"Angled English label does not fit {label['rect']}: {label['text']}")
+    layers = ([(stroke, label.get('outline', (0, 0, 0, 255)))] if stroke else [])
+    layers.append((0, label.get('foreground', (255, 255, 255, 255))))
+    for line_width, color in layers:
+        ink = Image.new('L', (math.ceil(box[2]-box[0]), math.ceil(box[3]-box[1])))
+        ImageDraw.Draw(ink).text((-box[0], -box[1]), label['text'], font=font,
+                                fill=255, stroke_width=line_width, stroke_fill=255)
+        ink = ink.rotate(-rotation, Image.Resampling.BICUBIC, expand=True)
+        tile.paste(tuple(color), ((tile.width-ink.width)//2, (tile.height-ink.height)//2), ink)
     return tile
 
 
@@ -219,7 +260,16 @@ def patch_chk(data, atlases, font_path, preview):
                         original = image.crop((x,y,x+w,y+h))
                         original.putalpha(tile.getchannel('A'))
                         tile = original
-                    image.paste(tile, (x,y))
+                    if 'edit_polygon' in label:
+                        polygon = label['edit_polygon']
+                        if len(polygon) < 3 or any(not 0 <= px <= w or not 0 <= py <= h for px, py in polygon):
+                            raise ValueError('Edit polygon must stay inside its label rectangle')
+                        mask = Image.new('L', (w*scale, h*scale))
+                        ImageDraw.Draw(mask).polygon([(px*scale, py*scale) for px, py in polygon], fill=255)
+                        mask = mask.resize((w,h), Image.Resampling.LANCZOS)
+                        image.paste(tile, (x,y), mask)
+                    else:
+                        image.paste(tile, (x,y))
                     label_blocks = {(bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4)}
                     dirty_blocks.update(label_blocks)
                     if label.get('tint_mask'):

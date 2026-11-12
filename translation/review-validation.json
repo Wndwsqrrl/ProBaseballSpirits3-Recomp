@@ -22,11 +22,12 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "777 tutorial label occurrences passed font and native decoding checks across 37 variants; all 122 prior complete atlas payloads unchanged",
     "76 new card and effect labels passed font and decoded-preview checks",
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2163 untouched members"
+    "all 2223 archive members verified, including 2126 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -265,14 +266,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1002,
-    "total_atlases": 122,
+    "total_labels": 1779,
+    "total_atlases": 233,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2163,
+    "unchanged_archive_members_verified": 2126,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -423,8 +424,8 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 43,
-    "broader_candidates_to_classify": 1127,
+    "additional_pending_textures": 34,
+    "broader_candidates_to_classify": 957,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -483,6 +484,21 @@
     "source_help_used_for_ability_steal_meaning": true,
     "already_english_special_frames_retained": true,
     "report": "spirits-card-effect-validation.json",
+    "interactive_validation": false
+  },
+  "spirits_tutorial_texture_review": {
+    "unique_labels": 21,
+    "label_occurrences": 777,
+    "atlases": 111,
+    "team_and_scenario_variants": 37,
+    "source_textures": 185,
+    "preserved_background_and_effect_payloads": 74,
+    "protected_regions": 629,
+    "previous_1002_label_specs_unchanged": true,
+    "previous_122_full_atlas_payloads_byte_identical": true,
+    "official_2026_preseason_term_used": true,
+    "angled_glyph_polygon_fit_checked": true,
+    "report": "spirits-tutorial-validation.json",
     "interactive_validation": false
   }
 }

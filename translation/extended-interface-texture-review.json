@@ -10,7 +10,7 @@
   "standard_named_texture_inventory_entries": 450,
   "standard_named_members": 99,
   "metadata_presence_does_not_prove_translation_or_visual_review": true,
-  "broader_candidates_remaining_for_classification": 1127,
+  "broader_candidates_remaining_for_classification": 957,
   "new_decode_formats": {
     "1a20017b": "DXT5A / BC4 single-channel; Xbox 16-bit byte swap",
     "04900102": "8-bit single-channel",
@@ -45,96 +45,6 @@
       "height": 256,
       "format": "1a200154",
       "remaining_text": "Seven main captions and controls replaced. Right-side Japanese phrase fragments still need native sprite-composition review.",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO000.CHK",
-      "texture": "RKINFO000_RKinfo_01.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO000.CHK",
-      "texture": "RKINFO000_RKinfo_03.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO000.CHK",
-      "texture": "RKINFO000_RKinfo_04.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO100.CHK",
-      "texture": "RKINFO100_RKinfo_01.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO100.CHK",
-      "texture": "RKINFO100_RKinfo_03.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFO100.CHK",
-      "texture": "RKINFO100_RKinfo_04.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFOLAST.CHK",
-      "texture": "RKINFOlast_RKinfo_01.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFOLAST.CHK",
-      "texture": "RKINFOlast_RKinfo_03.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "RKINFOLAST.CHK",
-      "texture": "RKINFOlast_RKinfo_04.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200153",
-      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
       "status": "pending",
       "interactive_validation": false
     },
@@ -859,6 +769,96 @@
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "english_asset_built",
       "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "All headings, diagram labels and embedded card captions replaced; see spirits-tutorial-validation.json",
+      "status": "english_asset_built",
+      "interactive_validation": false
     }
   ],
   "prior_pending_report": "interface-texture-review.json",
@@ -875,5 +875,6 @@
       "status": "already_english_reviewed",
       "interactive_validation": false
     }
-  ]
+  ],
+  "related_tutorial_family_report": "spirits-tutorial-validation.json"
 }

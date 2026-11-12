@@ -1,0 +1,338 @@
+{
+  "source_members": 37,
+  "source_textures": 185,
+  "unique_label_texts": 21,
+  "label_occurrences": 777,
+  "translated_atlases": 111,
+  "preserved_background_and_effect_payloads": 74,
+  "protected_regions_pixel_identical": 629,
+  "shared_pixel_groups": {
+    "01": {
+      "original_pixel_sha256": "bc3623c20ffef7ad6ea69dfcb325d13a3ec50c2aa5d8c6aa8debd57a636079de",
+      "english_pixel_sha256": "83ac0348c7af6967bd6bb4759b6c65a51dde77c3450b756fd7690cb41876500a",
+      "copies": 37
+    },
+    "03": {
+      "original_pixel_sha256": "5841aa4afdae2e9699f47e027b1e61d2b45533ed47407f95c829e4e7b2d2cd07",
+      "english_pixel_sha256": "874a3e7d59774799252a1bc7df984179fa3b50e7d80ab279690f7df8a5791ca5",
+      "copies": 37
+    },
+    "04": {
+      "original_pixel_sha256": "b97bf69e860d4cfe9897a9626eff264738b4b886cedddb853628926914e1c0d4",
+      "english_pixel_sha256": "d9b5ee07567d1a812d89be0b8962f6e8816e9a27d72237c87c46853b4680b3c1",
+      "copies": 37
+    }
+  },
+  "reference": {
+    "source": "Installed eBaseball PRO SPIRIT 2026 Japanese/English localization",
+    "namespace": "Match",
+    "key": "match_telop_open_match_text",
+    "japanese": "オープン戦",
+    "english": "Preseason Game",
+    "scope": "This term only; remaining captions use the 2006 source"
+  },
+  "protected_content": "Original team background photos, ballpark signs and ads, controls and card illustrations",
+  "font_bounds_checked": true,
+  "angled_glyphs_fit_edit_polygons": true,
+  "native_decoded_previews_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "members": [
+    {
+      "member": "RKINFO000.CHK",
+      "translated_textures": [
+        "RKINFO000_RKinfo_01.tsr",
+        "RKINFO000_RKinfo_03.tsr",
+        "RKINFO000_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO001.CHK",
+      "translated_textures": [
+        "RKINFO001_RKinfo_01.tsr",
+        "RKINFO001_RKinfo_03.tsr",
+        "RKINFO001_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO002.CHK",
+      "translated_textures": [
+        "RKINFO002_RKinfo_01.tsr",
+        "RKINFO002_RKinfo_03.tsr",
+        "RKINFO002_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO010.CHK",
+      "translated_textures": [
+        "RKINFO010_RKinfo_01.tsr",
+        "RKINFO010_RKinfo_03.tsr",
+        "RKINFO010_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO011.CHK",
+      "translated_textures": [
+        "RKINFO011_RKinfo_01.tsr",
+        "RKINFO011_RKinfo_03.tsr",
+        "RKINFO011_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO012.CHK",
+      "translated_textures": [
+        "RKINFO012_RKinfo_01.tsr",
+        "RKINFO012_RKinfo_03.tsr",
+        "RKINFO012_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO020.CHK",
+      "translated_textures": [
+        "RKINFO020_RKinfo_01.tsr",
+        "RKINFO020_RKinfo_03.tsr",
+        "RKINFO020_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO021.CHK",
+      "translated_textures": [
+        "RKINFO021_RKinfo_01.tsr",
+        "RKINFO021_RKinfo_03.tsr",
+        "RKINFO021_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO022.CHK",
+      "translated_textures": [
+        "RKINFO022_RKinfo_01.tsr",
+        "RKINFO022_RKinfo_03.tsr",
+        "RKINFO022_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO030.CHK",
+      "translated_textures": [
+        "RKINFO030_RKinfo_01.tsr",
+        "RKINFO030_RKinfo_03.tsr",
+        "RKINFO030_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO031.CHK",
+      "translated_textures": [
+        "RKINFO031_RKinfo_01.tsr",
+        "RKINFO031_RKinfo_03.tsr",
+        "RKINFO031_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO032.CHK",
+      "translated_textures": [
+        "RKINFO032_RKinfo_01.tsr",
+        "RKINFO032_RKinfo_03.tsr",
+        "RKINFO032_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO040.CHK",
+      "translated_textures": [
+        "RKINFO040_RKinfo_01.tsr",
+        "RKINFO040_RKinfo_03.tsr",
+        "RKINFO040_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO041.CHK",
+      "translated_textures": [
+        "RKINFO041_RKinfo_01.tsr",
+        "RKINFO041_RKinfo_03.tsr",
+        "RKINFO041_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO042.CHK",
+      "translated_textures": [
+        "RKINFO042_RKinfo_01.tsr",
+        "RKINFO042_RKinfo_03.tsr",
+        "RKINFO042_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO050.CHK",
+      "translated_textures": [
+        "RKINFO050_RKinfo_01.tsr",
+        "RKINFO050_RKinfo_03.tsr",
+        "RKINFO050_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO051.CHK",
+      "translated_textures": [
+        "RKINFO051_RKinfo_01.tsr",
+        "RKINFO051_RKinfo_03.tsr",
+        "RKINFO051_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO052.CHK",
+      "translated_textures": [
+        "RKINFO052_RKinfo_01.tsr",
+        "RKINFO052_RKinfo_03.tsr",
+        "RKINFO052_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO060.CHK",
+      "translated_textures": [
+        "RKINFO060_RKinfo_01.tsr",
+        "RKINFO060_RKinfo_03.tsr",
+        "RKINFO060_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO061.CHK",
+      "translated_textures": [
+        "RKINFO061_RKinfo_01.tsr",
+        "RKINFO061_RKinfo_03.tsr",
+        "RKINFO061_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO062.CHK",
+      "translated_textures": [
+        "RKINFO062_RKinfo_01.tsr",
+        "RKINFO062_RKinfo_03.tsr",
+        "RKINFO062_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO070.CHK",
+      "translated_textures": [
+        "RKINFO070_RKinfo_01.tsr",
+        "RKINFO070_RKinfo_03.tsr",
+        "RKINFO070_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO071.CHK",
+      "translated_textures": [
+        "RKINFO071_RKinfo_01.tsr",
+        "RKINFO071_RKinfo_03.tsr",
+        "RKINFO071_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO072.CHK",
+      "translated_textures": [
+        "RKINFO072_RKinfo_01.tsr",
+        "RKINFO072_RKinfo_03.tsr",
+        "RKINFO072_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO080.CHK",
+      "translated_textures": [
+        "RKINFO080_RKinfo_01.tsr",
+        "RKINFO080_RKinfo_03.tsr",
+        "RKINFO080_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO081.CHK",
+      "translated_textures": [
+        "RKINFO081_RKinfo_01.tsr",
+        "RKINFO081_RKinfo_03.tsr",
+        "RKINFO081_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO082.CHK",
+      "translated_textures": [
+        "RKINFO082_RKinfo_01.tsr",
+        "RKINFO082_RKinfo_03.tsr",
+        "RKINFO082_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO090.CHK",
+      "translated_textures": [
+        "RKINFO090_RKinfo_01.tsr",
+        "RKINFO090_RKinfo_03.tsr",
+        "RKINFO090_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO091.CHK",
+      "translated_textures": [
+        "RKINFO091_RKinfo_01.tsr",
+        "RKINFO091_RKinfo_03.tsr",
+        "RKINFO091_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO092.CHK",
+      "translated_textures": [
+        "RKINFO092_RKinfo_01.tsr",
+        "RKINFO092_RKinfo_03.tsr",
+        "RKINFO092_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "translated_textures": [
+        "RKINFO100_RKinfo_01.tsr",
+        "RKINFO100_RKinfo_03.tsr",
+        "RKINFO100_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO101.CHK",
+      "translated_textures": [
+        "RKINFO101_RKinfo_01.tsr",
+        "RKINFO101_RKinfo_03.tsr",
+        "RKINFO101_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO102.CHK",
+      "translated_textures": [
+        "RKINFO102_RKinfo_01.tsr",
+        "RKINFO102_RKinfo_03.tsr",
+        "RKINFO102_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO110.CHK",
+      "translated_textures": [
+        "RKINFO110_RKinfo_01.tsr",
+        "RKINFO110_RKinfo_03.tsr",
+        "RKINFO110_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO111.CHK",
+      "translated_textures": [
+        "RKINFO111_RKinfo_01.tsr",
+        "RKINFO111_RKinfo_03.tsr",
+        "RKINFO111_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFO112.CHK",
+      "translated_textures": [
+        "RKINFO112_RKinfo_01.tsr",
+        "RKINFO112_RKinfo_03.tsr",
+        "RKINFO112_RKinfo_04.tsr"
+      ]
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "translated_textures": [
+        "RKINFOlast_RKinfo_01.tsr",
+        "RKINFOlast_RKinfo_03.tsr",
+        "RKINFOlast_RKinfo_04.tsr"
+      ]
+    }
+  ]
+}
