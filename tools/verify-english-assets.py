@@ -23,8 +23,9 @@ def verify_member(original,patched,atlases):
             name=original[payload+16:payload+48].split(b'\0')[0].decode('ascii')
             if name in atlases:
                 found.add(name);w,h=struct.unpack_from('>II',original,payload+48);fmt=original[payload+68:payload+72].hex();raw=payload+100
-                for label in atlases[name]:
-                    x,y,width,height=label['rect']
+                regions = [label['rect'] for label in atlases[name]]
+                regions.extend(label['clear_rect'] for label in atlases[name] if 'clear_rect' in label)
+                for x,y,width,height in regions:
                     if not 0<=x<x+width<=w or not 0<=y<y+height<=h:raise ValueError('Invalid label bounds')
                     if fmt in ('1a200152','1a200153','1a200154'):
                         block_size = 8 if fmt == '1a200152' else 16

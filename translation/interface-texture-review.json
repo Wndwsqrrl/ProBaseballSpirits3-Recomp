@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "scope": "Additional interface texture review. This is not a complete game-wide graphics inventory.",
   "source_members_reviewed": 88,
   "textures_inventoried": 327,
@@ -60,31 +60,11 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_GM_inning.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Attack, game-end and rain-cancellation labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_GM_posi.tsr",
       "width": 256,
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Position and handedness glyphs",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_GMframe_inning.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1828014f",
-      "remaining_text": "Top and bottom inning glyphs",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -188,66 +168,6 @@
       "status": "partly_translated",
       "native_sprite_layout_verified": false,
       "interactive_validation": false
-    },
-    {
-      "member": "HRBREC.CHK",
-      "texture": "GAME_MAT_hr03.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Home-run and distance counters",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "HRBREC.CHK",
-      "texture": "GAME_MAT_hr04.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Record and current score",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "HRRECD.CHK",
-      "texture": "GAME_MAT_hr03.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Home-run and distance counters",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "HRRECD.CHK",
-      "texture": "GAME_MAT_hr04.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Record and current score",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "HRRECD.CHK",
-      "texture": "GAME_MAT_hr07.tsr",
-      "width": 256,
-      "height": 32,
-      "format": "1a200152",
-      "remaining_text": "Perfect streak",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "NTORDL.CHK",
-      "texture": "MENU_NT_order_last.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Opponent-data waiting instructions",
-      "status": "pending",
-      "native_sprite_layout_verified": false
     },
     {
       "member": "NTORDL.CHK",
@@ -356,16 +276,6 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Batting and pitching table abbreviations",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "RESULT.CHK",
-      "texture": "MENU_RE_kekka02.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200153",
-      "remaining_text": "Win, loss, home and away labels",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -799,6 +709,105 @@
       "height": 256,
       "format": "1a200152",
       "remaining_text": "Time and wind headings",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GM_inning.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Attack, game-end and rain-cancellation labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMframe_inning.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Top and bottom inning glyphs",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "HRBREC.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Home-run and distance counters",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "HRBREC.CHK",
+      "texture": "GAME_MAT_hr04.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Record and current score",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Home-run and distance counters",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr04.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Record and current score",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr07.tsr",
+      "width": 256,
+      "height": 32,
+      "format": "1a200152",
+      "remaining_text": "Perfect streak",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "NTORDL.CHK",
+      "texture": "MENU_NT_order_last.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Opponent-data waiting instructions",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_kekka02.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Win, loss, home and away labels",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

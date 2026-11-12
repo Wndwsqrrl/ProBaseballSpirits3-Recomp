@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-12",
+  "labels": 30,
+  "atlases": 9,
+  "home_run_label_occurrences": 15,
+  "inning_and_status_labels": 9,
+  "result_badge_and_side_labels": 4,
+  "waiting_message_labels": 2,
+  "protected_regions": [
+    {
+      "member": "HRBREC.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "rect": [
+        16,
+        44,
+        32,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRRECD.CHK",
+      "texture": "GAME_MAT_hr03.tsr",
+      "rect": [
+        16,
+        44,
+        32,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GM_inning.tsr",
+      "rect": [
+        0,
+        0,
+        60,
+        32
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMframe_inning.tsr",
+      "rect": [
+        0,
+        0,
+        128,
+        20
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMframe_inning.tsr",
+      "rect": [
+        0,
+        20,
+        30,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "RESULT.CHK",
+      "texture": "MENU_RE_kekka02.tsr",
+      "rect": [
+        32,
+        0,
+        64,
+        60
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "previous_texture_regression": {
+    "baseline_commit": "f9b9598dced8616ebe20a6c258a66d7286206572",
+    "members": 28,
+    "atlases": 51,
+    "labels": 390,
+    "all_decoded_member_bytes_identical": true
+  },
+  "notes": [
+    "Japanese counting classifiers are omitted where the English Left counter and inning markers convey the quantity.",
+    "Original meter, inning digit, and H/S glyph regions are unchanged.",
+    "Best and Perfect Streak use tinted BC1 masks to retain sharp colored glyphs."
+  ],
+  "interactive_validation": false
+}

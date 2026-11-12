@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "catalogue_records": 14020,
   "unique_fingerprints": 13726,
   "roster_records": 648,
@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 390,
-  "localized_archive_members": 40,
+  "texture_labels": 420,
+  "localized_archive_members": 43,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -40,9 +40,11 @@
     "19 additional online and ability badge labels verified in decoded BC2/BC3 textures and rebuilt archive",
     "23 career board, VP formula, difficulty, date and class labels passed original-region and font bounds checks",
     "14 gameplay stat glyphs and 15 fielding/tactic labels passed texture bounds, preview and archive checks",
-    "13 stadium cards and two time/wind labels localized; 26 core model views and original numeric dimensions preserved, with all 232 previous texture labels byte-identical"
+    "13 stadium cards and two time/wind labels localized; 26 core model views and original numeric dimensions preserved, with all 232 previous texture labels byte-identical",
+    "30 challenge, inning, status, result and waiting labels passed native decoding, font bounds and archive checks; all 390 prior labels remain byte-identical"
   ],
   "pending_validation": [
+    "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
     "Live stadium-selection card layout, legacy venue names, and time/wind controls",
     "Live pitcher and batter stat headings and fielding/tactic selector labels",
     "Live career notice headings, numeric month/day placement, VP formula and player class subtitles",
@@ -73,7 +75,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "48 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "39 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -261,14 +263,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 390,
-    "total_atlases": 51,
-    "pending_texture_entries": 48,
+    "total_labels": 420,
+    "total_atlases": 60,
+    "pending_texture_entries": 39,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2183,
+    "unchanged_archive_members_verified": 2180,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -332,6 +334,15 @@
     "numeric_dimensions_preserved": true,
     "previous_232_texture_labels_byte_identical": true,
     "report": "stadium-card-validation.json",
+    "interactive_validation": false
+  },
+  "challenge_and_match_status_texture_review": {
+    "labels": 30,
+    "atlases": 9,
+    "original_meter_and_digit_regions_preserved": true,
+    "original_h_and_s_glyphs_preserved": true,
+    "previous_390_labels_byte_identical": true,
+    "report": "challenge-status-validation.json",
     "interactive_validation": false
   }
 }

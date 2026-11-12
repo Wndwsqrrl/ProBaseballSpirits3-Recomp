@@ -77,10 +77,17 @@ def patch_chk(data, atlases, font_path, preview):
                     image = Image.frombytes('RGBA', (width, height), bytes(rgba))
                 background_image = image.copy() if any('background_sample_x' in label for label in atlases[name]) else None
                 dirty_blocks=set()
+                mask_tints = {}
                 for label in atlases[name]:
                     x, y, w, h = label['rect']
                     if not 0 <= x < x+w <= width or not 0 <= y < y+h <= height:
                         raise ValueError('Label rectangle outside atlas')
+                    if 'clear_rect' in label:
+                        cx,cy,cw,ch = label['clear_rect']
+                        if not 0 <= cx < cx+cw <= width or not 0 <= cy < cy+ch <= height:
+                            raise ValueError('Clear rectangle outside atlas')
+                        image.paste(tuple(label.get('clear_background',(0,0,0,0))), (cx,cy,cx+cw,cy+ch))
+                        dirty_blocks.update((bx,by) for by in range(cy//4,(cy+ch+3)//4) for bx in range(cx//4,(cx+cw+3)//4))
                     scale = 4
                     tile = Image.new('RGBA', (w*scale, h*scale), tuple(label.get('background',(68,68,68,0))))
                     if 'background_sample_x' in label:
@@ -111,10 +118,24 @@ def patch_chk(data, atlases, font_path, preview):
                         stroke_fill=tuple(label.get('outline',(0,0,0,255))))
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
                     image.paste(tile, (x,y))
-                    dirty_blocks.update((bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4))
+                    label_blocks = {(bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4)}
+                    dirty_blocks.update(label_blocks)
+                    if label.get('tint_mask'):
+                        if (pixel_format != '1a200152' or any(n%4 for n in (x,y,w,h))
+                                or 'background_sample_x' in label or label.get('background',(0,0,0,0))[3]
+                                or tuple(label.get('outline',(0,0,0,255))[:3]) != (0,0,0)):
+                            raise ValueError('Tinted masks require block-aligned BC1 glyphs on a transparent background')
+                        for block in label_blocks:
+                            if block in mask_tints:
+                                raise ValueError('Overlapping tinted masks')
+                            mask_tints[block] = label['foreground'][:3]
                 encoded = bytearray(raw)
-                if (pixel_format in ('1a200152','1a200153','1a200154')
-                        and any(block_has_color(image,bx,by) for bx,by in dirty_blocks)):
+                colored_blocks = ({block for block in dirty_blocks if block not in mask_tints
+                    and block_has_color(image,*block)} if pixel_format in ('1a200152','1a200153','1a200154') else set())
+                # Opt in for atlases that mix colored badges and grayscale text.
+                if colored_blocks and not any(label.get('split_color_blocks') for label in atlases[name]):
+                    colored_blocks = dirty_blocks-mask_tints.keys()
+                if colored_blocks:
                     stream = io.BytesIO()
                     image.save(stream, format='DDS', pixel_format=codec[1])
                     dds = stream.getvalue()
@@ -125,24 +146,35 @@ def patch_chk(data, atlases, font_path, preview):
                     blocks = dds[128:]
                     block_size = 8 if pixel_format == '1a200152' else 16
                     # Copy only edited blocks, preserving every other original byte.
-                    for bx,by in dirty_blocks:
+                    for bx,by in colored_blocks:
                         start = (by*(width//4)+bx)*block_size
                         block = blocks[start:start+block_size]
                         encoded[start:start+block_size] = b''.join(
                             block[i:i+2][::-1] for i in range(0,block_size,2))
-                elif pixel_format == '1a200152':
+                if pixel_format == '1a200152':
                     # Position glyphs are white masks tinted by the game. Keep
                     # every untouched compressed block byte-identical.
-                    for bx,by in dirty_blocks:
+                    for bx,by in dirty_blocks-colored_blocks:
+                        tint = mask_tints.get((bx,by))
+                        endpoint = 0xFFFF
+                        if tint:
+                            red,green,blue = tint
+                            endpoint = ((red>>3)<<11) | ((green>>2)<<5) | (blue>>3)
+                            quantized = ((red&248)|(red>>5),(green&252)|(green>>6),(blue&248)|(blue>>5))
+                            palette = ((0,0,0),quantized,tuple(c//2 for c in quantized))
                         indices=0
                         for py in range(4):
                             for px in range(4):
                                 red,green,blue,alpha=image.getpixel((bx*4+px,by*4+py))
-                                if alpha>=128 and max(red,green,blue)-min(red,green,blue)>8:
-                                    raise ValueError('BC1 mask encoder supports grayscale glyphs only')
-                                index=3 if alpha<128 else (1 if red>=192 else 2 if red>=64 else 0)
+                                if tint:
+                                    index = (3 if alpha<128 else min(range(3),key=lambda i:
+                                        sum((a-b)**2 for a,b in zip((red,green,blue),palette[i]))))
+                                else:
+                                    if alpha>=128 and max(red,green,blue)-min(red,green,blue)>8:
+                                        raise ValueError('BC1 mask encoder supports grayscale glyphs only')
+                                    index=3 if alpha<128 else (1 if red>=192 else 2 if red>=64 else 0)
                                 indices |= index << (2*(py*4+px))
-                        block=struct.pack('<HHI',0,0xFFFF,indices)
+                        block=struct.pack('<HHI',0,endpoint,indices)
                         block=b''.join(block[i:i+2][::-1] for i in range(0,8,2))
                         start=(by*(width//4)+bx)*8
                         encoded[start:start+8]=block
@@ -150,7 +182,7 @@ def patch_chk(data, atlases, font_path, preview):
                     # Restrict edits to grayscale labels; retain every other block.
                     colors = (255,0,170,85)
                     alphas = (255,0,218,182,145,109,72,36)
-                    for bx,by in dirty_blocks:
+                    for bx,by in dirty_blocks-colored_blocks:
                         color_bits = alpha_bits = 0
                         for py in range(4):
                             for px in range(4):

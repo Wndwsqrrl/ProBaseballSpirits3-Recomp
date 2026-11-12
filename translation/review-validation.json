@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "catalogue_records": 14020,
   "unique_fingerprints": 13726,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
@@ -23,14 +23,15 @@
   "newspaper_runtime_aliases": 52,
   "checks": [
     "asset build and all font bounds passed",
-    "all 2223 archive members verified, including 2183 unchanged members",
-    "26 stadium model view regions and numeric dimensions pixel-identical",
-    "27 previous localized texture members byte-identical with the updated builder",
-    "stadium card and control previews checked"
+    "all 2223 archive members verified, including 2180 unchanged members",
+    "28 prior texture members byte-identical with the updated builder",
+    "meter, inning digits, and H/S glyph regions pixel-identical",
+    "new encoded challenge and status previews checked"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
     "Live stadium-selection card layout, legacy venue names, and time/wind controls",
     "Live pitcher and batter stat headings and fielding/tactic selector labels",
     "Live career notice headings, numeric month/day placement, VP formula and player class subtitles",
@@ -255,14 +256,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 390,
-    "total_atlases": 51,
-    "pending_texture_entries": 48,
+    "total_labels": 420,
+    "total_atlases": 60,
+    "pending_texture_entries": 39,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2183,
+    "unchanged_archive_members_verified": 2180,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -326,6 +327,15 @@
     "numeric_dimensions_preserved": true,
     "previous_232_texture_labels_byte_identical": true,
     "report": "stadium-card-validation.json",
+    "interactive_validation": false
+  },
+  "challenge_and_match_status_texture_review": {
+    "labels": 30,
+    "atlases": 9,
+    "original_meter_and_digit_regions_preserved": true,
+    "original_h_and_s_glyphs_preserved": true,
+    "previous_390_labels_byte_identical": true,
+    "report": "challenge-status-validation.json",
     "interactive_validation": false
   }
 }
