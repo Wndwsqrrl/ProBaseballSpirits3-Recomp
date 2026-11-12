@@ -28,16 +28,6 @@
     },
     {
       "member": "BB06TIT.CHK",
-      "texture": "MENU_OPtitle_c.tsr",
-      "width": 1024,
-      "height": 128,
-      "format": "1a200153",
-      "remaining_text": "Japanese copyright and licensing line",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "BB06TIT.CHK",
       "texture": "MENU_OPtitle_d.tsr",
       "width": 1024,
       "height": 256,
@@ -58,24 +48,17 @@
       "interactive_validation": false
     },
     {
-      "member": "PLDEMO.CHK",
-      "texture": "GAME_MUR_810.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Perfect Play Pro Baseball logo",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "PNTODAY06.CHK",
       "texture": "MENU_PEtoday_base.tsr",
       "width": 1024,
       "height": 512,
       "format": "1a200152",
-      "remaining_text": "Newspaper background with Japanese print",
-      "status": "pending",
-      "native_sprite_layout_verified": false
+      "remaining_text": "Masthead and baseball tag replaced. Small postal metadata and low-resolution background columns unresolved.",
+      "status": "partially_translated",
+      "native_sprite_layout_verified": false,
+      "translated_labels": 2,
+      "validation_report": "print-heading-validation.json",
+      "interactive_validation": false
     },
     {
       "member": "RESSB.CHK",
@@ -814,6 +797,18 @@
       "native_sprite_layout_verified": false,
       "interactive_validation": false,
       "validation_report": "practice-help-validation.json"
+    },
+    {
+      "member": "PLDEMO.CHK",
+      "texture": "GAME_MUR_810.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false,
+      "validation_report": "print-heading-validation.json",
+      "translated_labels": 2
     }
   ],
   "nontext_textures": [
@@ -840,5 +835,21 @@
       "channel_review": "RGB and alpha channels show gradient bars or a fill mask; no Japanese lettering"
     }
   ],
-  "additional_discovery_report": "extended-interface-texture-review.json"
+  "additional_discovery_report": "extended-interface-texture-review.json",
+  "already_english_textures": [
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_c.tsr",
+      "width": 1024,
+      "height": 128,
+      "format": "1a200153",
+      "status": "already_english",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false,
+      "validation_report": "print-heading-validation.json",
+      "visible_text": "PRESS START Button",
+      "original_archive_verified": true,
+      "original_payload_preserved": true
+    }
+  ]
 }

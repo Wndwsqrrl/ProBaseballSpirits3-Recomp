@@ -16657,6 +16657,64 @@
           255
         ]
       }
+    ],
+    "MENU_PEtoday_base.tsr": [
+      {
+        "rect": [
+          352,
+          30,
+          204,
+          28
+        ],
+        "text": "PROSPI SPORTS",
+        "source": "プロスピスポーツ",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 14,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          43,
+          45,
+          43,
+          255
+        ],
+        "adaptive_palette": true,
+        "background_sample_rect": [
+          352,
+          60,
+          204,
+          28
+        ]
+      },
+      {
+        "rect": [
+          824,
+          36,
+          60,
+          16
+        ],
+        "text": "BASEBALL",
+        "source": "プロ野球",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "background": [
+          82,
+          85,
+          78,
+          255
+        ],
+        "foreground": [
+          230,
+          231,
+          219,
+          255
+        ],
+        "adaptive_palette": true
+      }
     ]
   },
   "ROTCAL.CHK": {
@@ -47607,6 +47665,80 @@
           255
         ],
         "outline_width": 0
+      }
+    ]
+  },
+  "PLDEMO.CHK": {
+    "GAME_MUR_810.tsr": [
+      {
+        "rect": [
+          44,
+          0,
+          212,
+          32
+        ],
+        "text": "PERFECT PLAY PRO BASEBALL",
+        "source": "パーフェクトプレープロ野球",
+        "padding": 4,
+        "max_font_size": 19,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "foreground": [
+          255,
+          255,
+          239,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          206,
+          24,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          156,
+          32,
+          100,
+          32
+        ],
+        "text": "AUTUMN ISSUE",
+        "source": "秋季号",
+        "padding": 4,
+        "max_font_size": 17,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "foreground": [
+          255,
+          255,
+          239,
+          255
+        ],
+        "outline_width": 1,
+        "outline": [
+          206,
+          24,
+          0,
+          255
+        ]
       }
     ]
   }

@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-12",
+  "new_label_occurrences": 4,
+  "new_atlases": 2,
+  "new_archive_members": 1,
+  "previous_label_specs_unchanged": 2083,
+  "previous_complete_atlas_payloads_byte_identical": 257,
+  "magazine_badges": [
+    {
+      "japanese": "パーフェクトプレープロ野球",
+      "english": "PERFECT PLAY PRO BASEBALL"
+    },
+    {
+      "japanese": "秋季号",
+      "english": "AUTUMN ISSUE"
+    }
+  ],
+  "newspaper_headings": [
+    {
+      "japanese": "プロスピスポーツ",
+      "english": "PROSPI SPORTS"
+    },
+    {
+      "japanese": "プロ野球",
+      "english": "BASEBALL"
+    }
+  ],
+  "newspaper_background": {
+    "method": "Copy an untouched nearby paper rectangle before rendering the masthead",
+    "source_rect": [
+      352,
+      60,
+      204,
+      28
+    ],
+    "target_rect": [
+      352,
+      30,
+      204,
+      28
+    ],
+    "source_paper_region_pixel_identical": true
+  },
+  "title_prompt_classification": {
+    "member": "BB06TIT.CHK",
+    "texture": "MENU_OPtitle_c.tsr",
+    "format": "1a200153",
+    "original_member_sha256": "162d493b79cb0f5049aae985dce66914ff76aaea9278f0948599d56444c2381d",
+    "original_texture_sha256": "28b9c33e0df98b733d76429610a1d2735ea7a7236755c8ffa19186b9690ee328",
+    "native_decoded_preview_matches_original_archive": true,
+    "visible_text": "PRESS START Button"
+  },
+  "prior_title_prompt_review_description_corrected": true,
+  "protected_regions": [
+    {
+      "member": "PLDEMO.CHK",
+      "texture": "GAME_MUR_810.tsr",
+      "rect": [
+        0,
+        0,
+        44,
+        64
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PLDEMO.CHK",
+      "texture": "GAME_MUR_810.tsr",
+      "rect": [
+        44,
+        32,
+        156,
+        64
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "rect": [
+        0,
+        0,
+        340,
+        512
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "rect": [
+        340,
+        60,
+        1024,
+        512
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "rect": [
+        556,
+        0,
+        820,
+        60
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "rect": [
+        892,
+        0,
+        1024,
+        60
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "rect": [
+        352,
+        60,
+        556,
+        88
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "unresolved_print": [
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_base.tsr",
+      "remaining": "Small postal metadata and low-resolution background columns"
+    },
+    {
+      "member": "SOLOINFO.CHK",
+      "textures": [
+        "MENU_PEtuti_00.tsr",
+        "MENU_PEtuti_02.tsr"
+      ],
+      "remaining": "Pinned notice microprint; enlarged native previews do not establish reliable wording"
+    }
+  ],
+  "stadium_photo_caption_review": {
+    "textures": 4,
+    "source_photographs_retained": true,
+    "labels_still_pending": true,
+    "clean_matching_donor_not_found": true,
+    "note": "Baked placeholder captions overlap photographs; no changes made to these photos"
+  },
+  "credits_remain_outside_required_translation_scope": true,
+  "font_bounds_checked": true,
+  "native_bc1_previews_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false
+}

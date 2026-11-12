@@ -10,7 +10,7 @@ This repository contains port source, executable analysis metadata, English tran
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
 - Current catalogue: **14,020 records / 13,726 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
-- **2,083 texture label occurrences** across 257 atlases cover menu modes, umpire calls, pause menus, positions, editor and name-audio controls, practice captions, lineup legends, situational ability badges, handedness comparisons, utility and sound settings, opening opponent, venue and tournament captions, auto-game roles, pitcher order, result tables, pitching panels, calendar and newspaper status labels, DH lineup presets, batting-first controls, and country/custom-team labels.
+- **2,087 texture label occurrences** across 259 atlases cover menu modes, umpire calls, pause menus, positions, editor and name-audio controls, practice captions, lineup legends, situational ability badges, handedness comparisons, utility and sound settings, opening opponent, venue and tournament captions, auto-game roles, pitcher order, result tables, pitching panels, calendar and newspaper status labels, DH lineup presets, batting-first controls, and country/custom-team labels.
 - All 13 stadium-selection cards have English venue names and surface/dimension headings in their day and night views. Checks preserve the stadium model regions and original dimensions. In-game placement is pending.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
@@ -23,16 +23,18 @@ This repository contains port source, executable analysis metadata, English tran
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
 - Match recaps include **51 complete manager comments** assembled from the game's phrase table.
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
-- **83 packed text slots** in 15 archive members cover the scoreboard, calendar, stats, trade, contract, and trial screens. Each edit fits the original slot. The verifier confirmed 2,113 unmodified archive members match the original bytes.
+- **83 packed text slots** in 15 archive members cover the scoreboard, calendar, stats, trade, contract, and trial screens. Each edit fits the original slot. The verifier confirmed 2,112 unmodified archive members match the original bytes.
 - **374 packed menu lookups** include 177 menu defaults checked against their original rectangles. Five character grids in the parsed menu text are kept for native name input.
 - The English build sets the Xbox storage display title to `Pro Yakyuu Spirits 3` when the game prepares its save metadata. The save key stays `Save Data`.
 - The asset patch includes all **940 populated fields** across **187 Pennant events** in `PEMDFIX.CHK`, including titles, goals, rewards, and stories. Event screens still need an in-game layout check.
 
 Pitching-practice instructions cover both Y/A button variants. Fielding-practice “Hit Again” and “Re-Do Last Practice” use the official 2026 wording, fitted across the original joined sprite strips. Offline checks preserve the controls and earlier English labels; live checks remain. See [practice help validation](translation/practice-help-validation.json).
 
+Magazine edition badges and the newspaper masthead/baseball tag have English headings. The original title prompt is already English and remains unchanged. Newspaper metadata and low-resolution notice print remain unresolved. See [print heading validation](translation/print-heading-validation.json).
+
 Localization remains unfinished. Credits may remain Japanese. The original in-stadium signs, sponsor ads and ballpark artwork are preserved; earlier English credit title and licensing captions are retained.
 
-The partial interface review documents [14 textures awaiting localization or native-context review](translation/interface-texture-review.json). The [extended review](translation/extended-interface-texture-review.json) has no untranslated candidates left in its current inventory; live placement checks remain. A [slot-reel strip](translation/slot-texture-review.json) still needs classification. These are partial inventories, not a full-game coverage denominator.
+The partial interface review documents [12 textures awaiting localization or native-context review](translation/interface-texture-review.json). The [extended review](translation/extended-interface-texture-review.json) has no untranslated candidates left in its current inventory; live placement checks remain. A [slot-reel strip](translation/slot-texture-review.json) still needs classification. These are partial inventories, not a full-game coverage denominator.
 
 The earlier nonstandard-name candidate queue is now classified; the final pass inspected 218 records and preserved all 169 source members byte-identically. See [remaining family review](translation/remaining-family-review.json). Translation accuracy, ambiguous name aliases, live layouts, unvisited branches and the final comparison review remain. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json).
 

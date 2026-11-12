@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Four print headings passed font/native decoding checks; 257 prior atlases and seven original regions unchanged. Title prompt verified already English against the original archive.",
     "14 practice label occurrences passed font/native texture checks; eight fielding sprites reconstructed, 255 other atlases, seven earlier labels/611 compressed blocks and 13 control/artwork regions unchanged",
     "45 compact stat labels passed native texture/font checks; all 14 earlier label regions and 520 compressed blocks preserved, alongside 255 other complete atlases",
     "Seven defensive-tab cells passed native texture/font/glyph-coverage checks; all 255 prior atlas payloads unchanged. Credits may remain Japanese per user instruction.",
@@ -35,11 +36,12 @@
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2113 untouched members"
+    "all 2223 archive members verified, including 2112 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
     "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
@@ -275,14 +277,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2083,
-    "total_atlases": 257,
-    "pending_texture_entries": 14,
+    "total_labels": 2087,
+    "total_atlases": 259,
+    "pending_texture_entries": 12,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2113,
+    "unchanged_archive_members_verified": 2112,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -673,6 +675,18 @@
     "fielding_sprite_records_reconstructed": 8,
     "fielding_phrases_use_exact_2026_wording": true,
     "report": "practice-help-validation.json",
+    "interactive_validation": false
+  },
+  "print_heading_texture_review": {
+    "new_label_occurrences": 4,
+    "new_atlases": 2,
+    "new_archive_members": 1,
+    "previous_2083_label_specs_unchanged": true,
+    "previous_257_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 7,
+    "already_english_title_prompt_verified_against_original_archive": true,
+    "low_resolution_print_still_unresolved": true,
+    "report": "print-heading-validation.json",
     "interactive_validation": false
   }
 }

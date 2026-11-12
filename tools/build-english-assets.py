@@ -190,7 +190,9 @@ def patch_chk(data, atlases, font_path, preview):
                             value=(((pixel>>8)&15)*17,((pixel>>4)&15)*17,(pixel&15)*17,((pixel>>12)&15)*17)
                         rgba[index*4:index*4+4] = bytes(value)
                     image = Image.frombytes('RGBA', (width, height), bytes(rgba))
-                background_image = image.copy() if any('background_sample_x' in label or label.get('background_keep_alpha') for label in atlases[name]) else None
+                background_image = image.copy() if any('background_sample_x' in label
+                    or 'background_sample_rect' in label or label.get('background_keep_alpha')
+                    for label in atlases[name]) else None
                 dirty_blocks=set()
                 mask_tints = {}
                 for label in atlases[name]:
@@ -210,7 +212,7 @@ def patch_chk(data, atlases, font_path, preview):
                         if (not isinstance(slice_offset, int) or not isinstance(strip_width, int)
                                 or not 0 <= slice_offset < slice_offset+w <= strip_width <= 8192):
                             raise ValueError('Text slice must stay inside its rendered strip')
-                        if ('background_sample_x' in label or any(label.get(key) for key in (
+                        if ('background_sample_x' in label or 'background_sample_rect' in label or any(label.get(key) for key in (
                                 'background_keep_alpha', 'text_rotation', 'glow_radius', 'edit_polygon', 'tint_mask'))):
                             raise ValueError('Text slices require an unrotated label on a solid background')
                         # Some native sprites join several atlas strips into one
@@ -222,6 +224,16 @@ def patch_chk(data, atlases, font_path, preview):
                         if not 0 <= sample_x < width:
                             raise ValueError('Background sample column outside atlas')
                         tile = background_image.crop((sample_x,y,sample_x+1,y+h)).resize(
+                            (w*scale,h*scale), Image.Resampling.NEAREST)
+                        if not label.get('background_sample_alpha'):
+                            tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
+                                (w*scale,h*scale), Image.Resampling.NEAREST))
+                    if 'background_sample_rect' in label:
+                        sx, sy, sw, sh = label['background_sample_rect']
+                        if ('background_sample_x' in label or not 0 <= sx < sx+sw <= width
+                                or not 0 <= sy < sy+sh <= height):
+                            raise ValueError('Background sample must be one rectangle inside the atlas')
+                        tile = background_image.crop((sx,sy,sx+sw,sy+sh)).resize(
                             (w*scale,h*scale), Image.Resampling.NEAREST)
                         if not label.get('background_sample_alpha'):
                             tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(

@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 2083,
-  "localized_archive_members": 110,
+  "texture_labels": 2087,
+  "localized_archive_members": 111,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -63,9 +63,11 @@
     "Seven defensive-tab character cells verified at the original 18-pixel row pitch; all 255 previous atlas payloads, source marker regions and original glyph-shadow coverage verified",
     "Remaining 218 nonstandard-name texture candidates classified from decoded previews, index-map shapes and normal-map metadata; all 169 complete source members byte-identical",
     "45 compact stat/split/position/team labels verified; 255 other atlas payloads, all 14 earlier stat labels/520 compressed blocks and 10 numeric/control regions unchanged",
-    "14 pitching/fielding practice label occurrences verified; native fielding sprite strips reconstructed, 255 other atlas payloads, seven earlier English labels/611 compressed blocks and 13 protected regions unchanged"
+    "14 pitching/fielding practice label occurrences verified; native fielding sprite strips reconstructed, 255 other atlas payloads, seven earlier English labels/611 compressed blocks and 13 protected regions unchanged",
+    "Four magazine/newspaper headings verified; 257 prior full atlas payloads and seven original regions unchanged. Original title prompt confirmed already English and retained."
   ],
   "pending_validation": [
+    "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
     "Live IF/OF/SHF tab assembly, orientation and native texture-mask rendering; expand abbreviations where the layout permits",
@@ -304,14 +306,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2083,
-    "total_atlases": 257,
-    "pending_texture_entries": 14,
+    "total_labels": 2087,
+    "total_atlases": 259,
+    "pending_texture_entries": 12,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2113,
+    "unchanged_archive_members_verified": 2112,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -702,6 +704,18 @@
     "fielding_sprite_records_reconstructed": 8,
     "fielding_phrases_use_exact_2026_wording": true,
     "report": "practice-help-validation.json",
+    "interactive_validation": false
+  },
+  "print_heading_texture_review": {
+    "new_label_occurrences": 4,
+    "new_atlases": 2,
+    "new_archive_members": 1,
+    "previous_2083_label_specs_unchanged": true,
+    "previous_257_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 7,
+    "already_english_title_prompt_verified_against_original_archive": true,
+    "low_resolution_print_still_unresolved": true,
+    "report": "print-heading-validation.json",
     "interactive_validation": false
   }
 }
