@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-12",
+  "scope": "User permits credits to remain Japanese",
+  "new_uncommitted_credit_role_labels_removed": 32,
+  "prior_english_title_and_licensing_captions_retained": true,
+  "original_credit_texture_payloads_byte_identical": 22,
+  "required_credit_translation": false,
+  "report_scope": "Credit-page exception only; menus and gameplay remain in localization scope"
+}

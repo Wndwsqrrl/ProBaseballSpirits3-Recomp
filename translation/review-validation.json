@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Seven defensive-tab cells passed native texture/font/glyph-coverage checks; all 255 prior atlas payloads unchanged. Credits may remain Japanese per user instruction.",
     "22 additional mode labels passed font/native texture checks; all 250 prior complete atlas payloads and 23 protected artwork/control regions unchanged",
     "34 pitch-analysis labels passed font/native decoding checks; all 249 prior atlas payloads unchanged; 693 material records classified and source members retained",
     "16 RGB565 labels passed font/native pixel checks; all 245 prior atlas payloads and 32 original emblem/flag regions unchanged",
@@ -271,9 +272,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2017,
-    "total_atlases": 255,
-    "pending_texture_entries": 17,
+    "total_labels": 2024,
+    "total_atlases": 256,
+    "pending_texture_entries": 16,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -429,8 +430,8 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 218,
+    "additional_pending_textures": 1,
+    "broader_candidates_to_classify": 0,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -604,6 +605,43 @@
     "record_banner_uses_exact_2026_term": true,
     "report": "mode-discovery-validation.json",
     "review_report": "mode-discovery-review.json",
+    "interactive_validation": false
+  },
+  "remaining_family_review": {
+    "records_classified": 218,
+    "members": 169,
+    "decoded_previews_inspected": 185,
+    "palette_index_records_classified": 30,
+    "palette_index_previews_inspected": 7,
+    "normal_maps_classified_by_metadata": 3,
+    "complete_original_member_payloads_byte_identical": 169,
+    "broader_candidate_queue_remaining": 0,
+    "scope": "The earlier nonstandard-name candidate queue only; not a full-game completion claim",
+    "report": "remaining-family-review.json"
+  },
+  "credit_scope": {
+    "japanese_allowed_by_user": true,
+    "required_credit_translation": false,
+    "previous_english_captions_retained": true,
+    "original_other_credit_payloads_byte_identical": 22,
+    "report": "credit-scope-validation.json"
+  },
+  "shift_tab_texture_review": {
+    "character_cells": 7,
+    "tab_labels": 3,
+    "atlases": 1,
+    "labels": [
+      "IF",
+      "OF",
+      "SHF"
+    ],
+    "original_row_pitch": 18,
+    "original_red_texture_background_retained": true,
+    "previous_2017_label_specs_unchanged": true,
+    "previous_255_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 3,
+    "original_glyph_and_shadow_pixels_fully_covered": true,
+    "report": "shift-tab-validation.json",
     "interactive_validation": false
   }
 }

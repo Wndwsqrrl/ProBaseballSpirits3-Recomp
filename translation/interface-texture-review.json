@@ -59,16 +59,6 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_GMshift_index.tsr",
-      "width": 64,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Defensive alignment tab fragments",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_MAT_up09.tsr",
       "width": 256,
       "height": 256,
@@ -808,6 +798,17 @@
       "height": 512,
       "format": "1a200152",
       "remaining_text": "22 pitch names and 12 result-filter fragments translated; native assembly still awaits live validation",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMshift_index.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Seven glyphs now form IF, OF and SHF; native assembly/orientation still needs live validation",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

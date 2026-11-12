@@ -112,8 +112,8 @@
     "UTYTOP.CHK",
     "VLOGO.CHK"
   ],
-  "atlases": 255,
-  "labels": 2017,
+  "atlases": 256,
+  "labels": 2024,
   "outside_localized_regions_unchanged": true,
   "packed_text_slots": 83,
   "pennant_event_titles": 187,

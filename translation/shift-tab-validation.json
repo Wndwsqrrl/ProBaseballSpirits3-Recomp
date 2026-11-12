@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "new_character_cells": 7,
+  "new_tab_labels": 3,
+  "new_atlases": 1,
+  "labels": {
+    "infield": "IF",
+    "outfield": "OF",
+    "shift": "SHF"
+  },
+  "previous_label_specs_unchanged": 2017,
+  "previous_complete_atlas_payloads_byte_identical": 255,
+  "protected_regions": [
+    {
+      "rect": [
+        0,
+        40,
+        32,
+        56
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        52,
+        0,
+        64,
+        64
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        0,
+        56,
+        52,
+        64
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "font_bounds_checked": true,
+  "native_decoded_preview_checked": true,
+  "interactive_validation": false,
+  "pending": "Verify native glyph assembly/orientation and expand abbreviations where the runtime layout permits",
+  "entire_game_english": false,
+  "native_character_row_pitch": 18,
+  "native_red_background_retained": true,
+  "all_original_glyph_and_shadow_pixels_within_cleared_regions": true,
+  "each_english_glyph_visible_after_native_bc1_decoding": true
+}

@@ -7200,6 +7200,184 @@
         "condense": true,
         "outline_width": 0.5
       }
+    ],
+    "GAME_GMshift_index.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          16,
+          18
+        ],
+        "text": "I",
+        "source": "内",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          0,
+          18,
+          16,
+          18
+        ],
+        "text": "F",
+        "source": "野",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          0,
+          36,
+          16,
+          4
+        ],
+        "clear_background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          0,
+          16,
+          18
+        ],
+        "text": "O",
+        "source": "外",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          16,
+          18,
+          16,
+          18
+        ],
+        "text": "F",
+        "source": "野",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          16,
+          36,
+          16,
+          4
+        ],
+        "clear_background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          32,
+          0,
+          16,
+          18
+        ],
+        "text": "S",
+        "source": "シ",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "clear_rect": [
+          32,
+          0,
+          20,
+          56
+        ],
+        "clear_background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          32,
+          18,
+          16,
+          18
+        ],
+        "text": "H",
+        "source": "フ",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          32,
+          36,
+          16,
+          18
+        ],
+        "text": "F",
+        "source": "ト",
+        "padding": 2,
+        "max_font_size": 18,
+        "min_font_size": 14,
+        "outline_width": 0,
+        "background": [
+          255,
+          0,
+          0,
+          255
+        ]
+      }
     ]
   },
   "UTYTOP.CHK": {

@@ -1,0 +1,2919 @@
+{
+  "date": "2026-11-12",
+  "scope": "Remaining 218 entries from the earlier nonstandard-name candidate queue. This is not a full-game completion claim.",
+  "source_members": 169,
+  "texture_records": 218,
+  "decoded_previews_inspected": 185,
+  "palette_index_records_classified": 30,
+  "unique_palette_index_previews_inspected": 7,
+  "normal_maps_classified_by_metadata": 3,
+  "classification_counts": {
+    "non_interface_model_or_particle_material": 62,
+    "protected_stadium_or_training_scene_art": 84,
+    "player_portraits_with_original_ballpark_backgrounds": 11,
+    "protected_in_stadium_fan_merchandise_art": 30,
+    "original_mascot_or_league_emblems_with_English_lettering": 31
+  },
+  "textures": [
+    {
+      "member": "AIRSHIP.CHK",
+      "texture": "EFFECT_airship_nmap.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200171",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "normal_map_metadata"
+    },
+    {
+      "member": "AIRSHIP.CHK",
+      "texture": "EFFECT_airship_occ.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a20017b",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "AIRSHIP.CHK",
+      "texture": "EFFECT_airship.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher2_bu_H.bmp",
+      "width": 64,
+      "height": 64,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher3_bu_H.bmp",
+      "width": 64,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher1_bu_H.bmp",
+      "width": 128,
+      "height": 128,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher2_bu_M.bmp",
+      "width": 64,
+      "height": 32,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher3_bu_M.bmp",
+      "width": 32,
+      "height": 32,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "texture": "catcher1_bu_M.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher2_bu_visit_H.bmp",
+      "width": 64,
+      "height": 64,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher3_bu_H.bmp",
+      "width": 64,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher1_bu_visit_H.bmp",
+      "width": 128,
+      "height": 128,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher2_bu_visit_M.bmp",
+      "width": 64,
+      "height": 32,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher3_bu_M.bmp",
+      "width": 32,
+      "height": 32,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "texture": "catcher1_bu_visit_M.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000029",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_tex_z_stand01.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_tex_z_stand02.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_A.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_A_nmap.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200171",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "normal_map_metadata"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_B.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_B_nmap.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200171",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "normal_map_metadata"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_B_gross.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "HEROBG.CHK",
+      "texture": "MATCH_reporter_hair.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "MODELCHECK.CHK",
+      "texture": "MODELCHECK_face_0123.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS00.CHK",
+      "texture": "OPAMDST_COMst_autogame_st00.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS01.CHK",
+      "texture": "OPAMDST_COMst_autogame_st01.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS02.CHK",
+      "texture": "OPAMDST_COMst_autogame_st02.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS03.CHK",
+      "texture": "OPAMDST_COMst_autogame_st03.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS04.CHK",
+      "texture": "OPAMDST_COMst_autogame_st04.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS05.CHK",
+      "texture": "OPAMDST_COMst_autogame_st05.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS06.CHK",
+      "texture": "OPAMDST_COMst_autogame_st06.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS07.CHK",
+      "texture": "OPAMDST_COMst_autogame_st07.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS08.CHK",
+      "texture": "OPAMDST_COMst_autogame_st08.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS09.CHK",
+      "texture": "OPAMDST_COMst_autogame_st09.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS10.CHK",
+      "texture": "OPAMDST_COMst_autogame_st10.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS11.CHK",
+      "texture": "OPAMDST_COMst_autogame_st11.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS12.CHK",
+      "texture": "OPAMDST_COMst_autogame_st12.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS13.CHK",
+      "texture": "OPAMDST_COMst_autogame_st13.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS14.CHK",
+      "texture": "OPAMDST_COMst_autogame_st14.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS15.CHK",
+      "texture": "OPAMDST_COMst_autogame_st15.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS16.CHK",
+      "texture": "OPAMDST_COMst_autogame_st16.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "OPAMDS17.CHK",
+      "texture": "OPAMDST_COMst_autogame_st17.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "RSMOKE00.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE01.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE02.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE03.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE04.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE05.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE06.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE07.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE08.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE09.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE10.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE11.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE12.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE13.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE14.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE15.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE16.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "RSMOKE17.CHK",
+      "texture": "DirtA.bmp",
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "palette_index_shape_preview; palette colors not reconstructed"
+    },
+    {
+      "member": "SMPLBT00.CHK",
+      "texture": "SPMIMG_PEmission_imageP_bat1.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMPLBT01.CHK",
+      "texture": "SPMIMG_PEmission_imageP_bat2.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMPLBT02.CHK",
+      "texture": "SPMIMG_PEmission_imageP_bat3.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMPLPT00.CHK",
+      "texture": "SPMIMG_PEmission_imageP_pit1.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMPLPT01.CHK",
+      "texture": "SPMIMG_PEmission_imageP_pit2.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMPLPT02.CHK",
+      "texture": "SPMIMG_PEmission_imageP_pit3.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTBS00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_bs1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTBS01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_bs2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTBS02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_bs3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTBS03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_bs4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTBS04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_bs5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTC00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTC01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTC02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTC03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTC04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTD00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_d1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTD01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_d2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTD02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_d3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTD03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_d4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTD04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_d5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTE00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_e1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTE01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_e2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTE02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_e3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTE03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_e4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTE04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_e5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTF00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_f1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTF01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_f2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTF02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_f3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTF03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_f4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTF04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_c5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTG00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_g1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTG01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_g2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTG02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_g3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTG03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_g4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTG04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_g5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTH00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_h1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTH01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_h2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTH02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_h3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTH03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_h4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTH04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_h5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTL00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_l1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTL01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_l2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTL02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_l3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTL03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_l4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTL04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_l5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTM00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_m1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTM01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_m2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTM02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_m3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTM03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_m4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTM04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_m5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTT00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_t1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTT01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_t2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTT02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_t3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTT03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_t4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTT04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_t5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYB00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_yb1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYB01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_yb2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYB02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_yb3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYB03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_yb4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYB04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_yb5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYS00.CHK",
+      "texture": "SPMIMG_PEmission_imageST_ys1.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYS01.CHK",
+      "texture": "SPMIMG_PEmission_imageST_ys2.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYS02.CHK",
+      "texture": "SPMIMG_PEmission_imageST_ys3.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYS03.CHK",
+      "texture": "SPMIMG_PEmission_imageST_ys4.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SMSTYS04.CHK",
+      "texture": "SPMIMG_PEmission_imageST_ys5.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "28280144",
+      "classification": "protected_stadium_or_training_scene_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDBS.CHK",
+      "texture": "SPCARD_RKcard_player_bs.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDC.CHK",
+      "texture": "SPCARD_RKcard_player_c.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDD.CHK",
+      "texture": "SPCARD_RKcard_player_d.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDE.CHK",
+      "texture": "SPCARD_RKcard_player_e.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDF.CHK",
+      "texture": "SPCARD_RKcard_player_f.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDG.CHK",
+      "texture": "SPCARD_RKcard_player_g.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDH.CHK",
+      "texture": "SPCARD_RKcard_player_h.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDL.CHK",
+      "texture": "SPCARD_RKcard_player_l.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDM.CHK",
+      "texture": "SPCARD_RKcard_player_m.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDS.CHK",
+      "texture": "SPCARD_RKcard_player_ys.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "SPCARDYB.CHK",
+      "texture": "SPCARD_RKcard_player_yb.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "classification": "player_portraits_with_original_ballpark_backgrounds",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_BS.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_BS.CHK",
+      "texture": "MATCH_DEMO_Towel_Bs.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_C.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_C.CHK",
+      "texture": "MATCH_DEMO_Towel_C.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_D.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_D.CHK",
+      "texture": "MATCH_DEMO_Towel_D.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_E.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_E.CHK",
+      "texture": "MATCH_DEMO_Towel_E.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_F.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_F.CHK",
+      "texture": "MATCH_DEMO_Towel_F.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_G.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_G.CHK",
+      "texture": "MATCH_DEMO_Towel_G.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_H.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_H.CHK",
+      "texture": "MATCH_DEMO_Towel_H.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_I.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_I.CHK",
+      "texture": "MATCH_DEMO_Towel_L_3.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_L.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_L.CHK",
+      "texture": "MATCH_DEMO_Towel_L.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_M.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_M.CHK",
+      "texture": "MATCH_DEMO_Towel_M.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_S.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_S.CHK",
+      "texture": "MATCH_DEMO_Towel_S.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_SK.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_SK.CHK",
+      "texture": "MATCH_DEMO_Towel_SK.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_T.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_T.CHK",
+      "texture": "MATCH_DEMO_Towel_T.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_YB.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_YB.CHK",
+      "texture": "MATCH_DEMO_Towel_YB.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_YS.CHK",
+      "texture": "MATCH_DEMO_Towel_nmap.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "18280186",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "TOWEL_YS.CHK",
+      "texture": "MATCH_DEMO_Towel_YS.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "protected_in_stadium_fan_merchandise_art",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET00.CHK",
+      "texture": "VLOGO_COMte_pet_256_g.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET01.CHK",
+      "texture": "VLOGO_COMte_pet_256_d.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET02.CHK",
+      "texture": "VLOGO_COMte_pet_256_c.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET03.CHK",
+      "texture": "VLOGO_COMte_pet_256_ys.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET04.CHK",
+      "texture": "VLOGO_COMte_pet_256_yb.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET05.CHK",
+      "texture": "VLOGO_COMte_pet_256_t.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET06.CHK",
+      "texture": "VLOGO_COMte_pet_256_e.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET07.CHK",
+      "texture": "VLOGO_COMte_pet_256_f.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET08.CHK",
+      "texture": "VLOGO_COMte_pet_256_l.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET09.CHK",
+      "texture": "VLOGO_COMte_pet_256_bs.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET10.CHK",
+      "texture": "VLOGO_COMte_pet_256_m.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET11.CHK",
+      "texture": "VLOGO_COMte_pet_256_h.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET12.CHK",
+      "texture": "VLOGO_COMte_pet_256_cl.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET13.CHK",
+      "texture": "VLOGO_COMte_pet_256_pl.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET14.CHK",
+      "texture": "VLOGO_COMte_pet_256_g.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET15.CHK",
+      "texture": "VLOGO_COMte_pet_256_d.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET16.CHK",
+      "texture": "VLOGO_COMte_pet_256_c.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET17.CHK",
+      "texture": "VLOGO_COMte_pet_256_ys.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET18.CHK",
+      "texture": "VLOGO_COMte_pet_256_yb2.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET19.CHK",
+      "texture": "VLOGO_COMte_pet_256_t.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET20.CHK",
+      "texture": "VLOGO_COMte_pet_256_e.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET21.CHK",
+      "texture": "VLOGO_COMte_pet_256_f.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET22.CHK",
+      "texture": "VLOGO_COMte_pet_256_l2.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET23.CHK",
+      "texture": "VLOGO_COMte_pet_256_bs2.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET24.CHK",
+      "texture": "VLOGO_COMte_pet_256_m.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET25.CHK",
+      "texture": "VLOGO_COMte_pet_256_h.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET26.CHK",
+      "texture": "VLOGO_COMte_pet_256_el.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET27.CHK",
+      "texture": "VLOGO_COMte_pet_256_wl.tsr",
+      "width": 409,
+      "height": 409,
+      "format": "18280186",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET28.CHK",
+      "texture": "VLOGO_COMte_pet_256_chn2.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET29.CHK",
+      "texture": "VLOGO_COMte_pet_256_kor2.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "VPET30.CHK",
+      "texture": "VLOGO_COMte_pet_256_tpe2.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "original_mascot_or_league_emblems_with_English_lettering",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "texture": "XBALLOON_ballon1.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "texture": "XBALLOON_ballon2.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "texture": "XBALLOON_ballon3.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "texture": "XBALLOON_ballon4.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "texture": "XBALLOON_ballon5.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XFIREWORKS.CHK",
+      "texture": "XFIREWORKS_fireworks_fire.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XFIREWORKS.CHK",
+      "texture": "XFIREWORKS_fireworks_smoke.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XPSMOKE.CHK",
+      "texture": "XPSMOKE_particlesmoke_smokeshado",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XPSMOKE.CHK",
+      "texture": "XPSMOKE_particlesmoke_smoke.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XSSMOKE.CHK",
+      "texture": "XSSMOKE_particleslidingsmoke_san",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XSSMOKE.CHK",
+      "texture": "XSSMOKE_particleslidingsmoke_smo",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "XSSMOKE.CHK",
+      "texture": "XSSMOKE_particleslidingsmoke_smo",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_mass_shadow_alpha.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_mass01.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_mass02.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_mass03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_mass04.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_mass05.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_masscamera.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "texture": "Z_MASS_tex_z_memoman.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "classification": "non_interface_model_or_particle_material",
+      "method": "decoded_preview"
+    }
+  ],
+  "legacy_index_groups": [
+    {
+      "width": 64,
+      "height": 64,
+      "format": "00000029",
+      "payload_size": 4096,
+      "pixel_index_sha256": "7eb8fa0a752511e3f3ea45ce40ec296284217400d8ab7e9cfec1bdca2763e5e9",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher2_bu_H.bmp"
+      }
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "format": "00000101",
+      "payload_size": 2048,
+      "pixel_index_sha256": "acd0038998c40e9de943ce3706bf1633f6da7718a24f8c0ec7680a40ae5b27a4",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher3_bu_H.bmp"
+      }
+    },
+    {
+      "width": 128,
+      "height": 128,
+      "format": "00000029",
+      "payload_size": 16384,
+      "pixel_index_sha256": "6b0f6cd95e8167684f21b364c355a4d514c9170afc42bbd4d5dee91cb01772e6",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher1_bu_H.bmp"
+      }
+    },
+    {
+      "width": 64,
+      "height": 32,
+      "format": "00000029",
+      "payload_size": 2048,
+      "pixel_index_sha256": "1bf538e7d2a9c6b6757eebcec712b3f84366376398803ece727608bb72674a28",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher2_bu_M.bmp"
+      }
+    },
+    {
+      "width": 32,
+      "height": 32,
+      "format": "00000101",
+      "payload_size": 512,
+      "pixel_index_sha256": "6de9666fb51589133d5aee3981e1067c8884116b6c2df791f204798a49e5a8cf",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher3_bu_M.bmp"
+      }
+    },
+    {
+      "width": 128,
+      "height": 64,
+      "format": "00000029",
+      "payload_size": 8192,
+      "pixel_index_sha256": "50b458e88c4901c86c2bc0f986c0629d84dd67c73f2bf185fc0b850771d6a06b",
+      "copies": 2,
+      "representative": {
+        "member": "CATCHERBUH.CHK",
+        "texture": "catcher1_bu_M.bmp"
+      }
+    },
+    {
+      "width": 128,
+      "height": 64,
+      "format": "00000101",
+      "payload_size": 4096,
+      "pixel_index_sha256": "13b278e9aed5ffd6ec4909bdc03dd194c843f5d586110257d20cded38e77b38d",
+      "copies": 18,
+      "representative": {
+        "member": "RSMOKE00.CHK",
+        "texture": "DirtA.bmp"
+      }
+    }
+  ],
+  "palette_colors_not_reconstructed": true,
+  "complete_original_members_preserved": [
+    {
+      "member": "AIRSHIP.CHK",
+      "original_member_sha256": "b01320ecf29f6cfc66a655b3e1cd511e35611d0474bdda0a527e4e74a4e5843d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "CATCHERBUH.CHK",
+      "original_member_sha256": "29b33f112fc6bf6e7068c5f7dceddef9e3b7b74920a761420c8e1fe4b2662c45",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "CATCHERBUV.CHK",
+      "original_member_sha256": "97c079b4056b3e060cec34fa86ecebb425eb8fd83ee4053e21d9069b5a271288",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "HEROBG.CHK",
+      "original_member_sha256": "b3b9ef4a88c41ce209718246f2f9aaa7d8b7448649cde75ade0eeaf10c8fd173",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "MODELCHECK.CHK",
+      "original_member_sha256": "710cf466698fa8cdacba1a87fc0d1cc4ce7286b2cd748961b80c19bca884e7a5",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS00.CHK",
+      "original_member_sha256": "861ce7d18254036552cd197c1e6cc9f5f821028491ae8adfdae7fcfb753a577c",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS01.CHK",
+      "original_member_sha256": "dbc36429495dde859dcfef75dd590351359a19b02afb4d736be3d0bfef5a3b7c",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS02.CHK",
+      "original_member_sha256": "519305014c93c87a96a43c703cb4579b4bbae2d7c7fb2293c573f82067d36e1d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS03.CHK",
+      "original_member_sha256": "6b092625dac06a3d022f0502adc1b251adb31cb48c8f939a0aa708955cc09d27",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS04.CHK",
+      "original_member_sha256": "c7a4f35bf0fe60b68c22284f1c7a1320cfa0f343026b987fe09b44a03026001b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS05.CHK",
+      "original_member_sha256": "898d236132553bfeb7ae437bd681fa2f66a2642e497e58c5848cd746b5178ecc",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS06.CHK",
+      "original_member_sha256": "b0112dece47b6eaca5dcf8afe27a287be0e2ba8b1f4a69ac49ca3f909ce034b3",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS07.CHK",
+      "original_member_sha256": "d9785df379b12dfeeed12f2cae804c2d78749f40e947f9d97d5b740c16c33a08",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS08.CHK",
+      "original_member_sha256": "af5e51fb8869bd3a87e63ed64f3dafbc18af3ace40adc217b27295edfbba3bd1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS09.CHK",
+      "original_member_sha256": "7b5bbeded393828c48b279ea8fb22cf43016133dd6cbcc421deecf2b77d2c4cd",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS10.CHK",
+      "original_member_sha256": "002b2da5f84c46b524305ac3302123ed4443623a0eee13f731fa285f930a6922",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS11.CHK",
+      "original_member_sha256": "debd24fbdfb1e6792c0415e392b7cd871d6977f542fc52ae484b0ddd94fa3ac2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS12.CHK",
+      "original_member_sha256": "1c6e6951255031504779ce31782351cf4eace00331540571c8ded23b1e04c733",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS13.CHK",
+      "original_member_sha256": "0569a3d217fa2481c8e589b834aecb4968976a321a609cc0673a1e17055a0937",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS14.CHK",
+      "original_member_sha256": "bcbbf8be31120f1362b06d8dd99cfb7cf5e1293f3a29d747f09a1aefdf70c636",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS15.CHK",
+      "original_member_sha256": "d8ca16db79c76504b641d3a016f8806d46e3eb1f971f32fed7c4b85c91db1ffc",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS16.CHK",
+      "original_member_sha256": "455792b523989c5caf700cf7c1dd3951d354a29fc6a602ae2cb3f4ea4c25ae6f",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "OPAMDS17.CHK",
+      "original_member_sha256": "5e14bba8625553ee29f27fdb4d7e55961a4a6b562e68af46c8d3787d3dab7cb3",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE00.CHK",
+      "original_member_sha256": "6e459cd60da9a2968ea526922b79544cd586794b41a679459ae5c0a8be9ba24e",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE01.CHK",
+      "original_member_sha256": "99fc4664030a69a9628459d9f044b8808166c231aff8a5bf5635995e07a09f52",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE02.CHK",
+      "original_member_sha256": "082d71cedfd9dec0ec235badca2269a52b2a1bfe64c381cf09acdd3f49bd97a8",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE03.CHK",
+      "original_member_sha256": "85b2968f7f7def2b4e07c46a4c514853038ddbb38264e9cfb2172b9e8dddf8aa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE04.CHK",
+      "original_member_sha256": "bd95770ac15961642db5cf069ad03558b629a6b69ac75060951444f0dca6371a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE05.CHK",
+      "original_member_sha256": "12a79a4cdbdb71884f33e231522db9ab91c881ae5c1ba077cc8a49087b4cf2a9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE06.CHK",
+      "original_member_sha256": "b7fb35ba215e7e2f8a9bf22c78242f5443b3fd13b7ac1c4569b69cf61dab235c",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE07.CHK",
+      "original_member_sha256": "9a007ddfab1c9d89c803677acf1046d4d65c4472f78fa3eef427ee95f316fa73",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE08.CHK",
+      "original_member_sha256": "5f1cb5e3f827dcf03769112bfde4f3f1da1c2559789987710ab34fc8525c3a1b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE09.CHK",
+      "original_member_sha256": "171d4ff4b88e77dbb170b67c8f1e353e7099ebf78c788155e0144b0dae4d9568",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE10.CHK",
+      "original_member_sha256": "a4c4a2c65d3375de2cde8720ea2fa62fe61068a74b1c55e49e14f137374a1d32",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE11.CHK",
+      "original_member_sha256": "520c98876df575c962643d7c0adeda7018fa9c7840f16465452d000988afc605",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE12.CHK",
+      "original_member_sha256": "2eef3677db519ec8e03e2b80787f3a359fa10eef6989055bf7eb916fdc2702f1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE13.CHK",
+      "original_member_sha256": "61f6aba9054aaa7a6267adee358430ad8d588f62924666f8c6fca8ef45cbe6a5",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE14.CHK",
+      "original_member_sha256": "d4abe1a15ba6c904fce7b0bec54e5f562485d2b96fb677d162d15b9ffe6426fd",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE15.CHK",
+      "original_member_sha256": "3a0d767e4652b5a798a71a3f400ad11b1beaf4b581b7f553d1872485a91e331a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE16.CHK",
+      "original_member_sha256": "c69611b836f5c16c7dfabbe250fc2cb484dadd7888cda27adffc2eb3543ec7c2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "RSMOKE17.CHK",
+      "original_member_sha256": "98b6b6746601a3df11679fb5f96aa3beaad726f60a8071f7c1b3e50570efd4e2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLBT00.CHK",
+      "original_member_sha256": "095e1c140cd88ca3007d02f7f1407f6107dc401942355a2635a789c6ec1a6898",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLBT01.CHK",
+      "original_member_sha256": "bbfb262f9c857975cd9396383776fb0a80f64608c96d739f1c0159cbb92a591b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLBT02.CHK",
+      "original_member_sha256": "0fcb56211c6d5bdea0fc3828b1b318a3477ea6ec27da16cf1f374bd8b820330e",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLPT00.CHK",
+      "original_member_sha256": "a98ff6311339880b818b86136e952db21dc29d5dc69337c7f05d35611566c73f",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLPT01.CHK",
+      "original_member_sha256": "e84a6ec27165c6c1c8d6114b7cd8dbdfd178c62bbabf0b77c588a4225c3ca6a1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMPLPT02.CHK",
+      "original_member_sha256": "5b065bfb3960061468ea4405b687b55d2ff154bbdd286474bea382fd28264c34",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTBS00.CHK",
+      "original_member_sha256": "678bb2e1444953ab697018e36610f618866ae6e4853010ec4e64c4cfd5cfd209",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTBS01.CHK",
+      "original_member_sha256": "9312e7bdc6ffb43a5fc94ad343a2d9eafac660396ab762d597ec6848fed687a9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTBS02.CHK",
+      "original_member_sha256": "7ec35a8fe9f895f9b99983f74aaf92c33c54aadf1e5a4cd1a0b855005fea157d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTBS03.CHK",
+      "original_member_sha256": "e3ea4a81c22cb7bf5e69e42cd1632ee6e6525acba578bc8b8e5368363219529a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTBS04.CHK",
+      "original_member_sha256": "04d5ff2a4c5443e4df5feda94f04ed4e3518150006443a7b2634f78fb43ab656",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTC00.CHK",
+      "original_member_sha256": "a3665d8dc6303bfb5dfaba1c0bee0f5230ca039a53423ce9002dae6d8411be87",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTC01.CHK",
+      "original_member_sha256": "3349990ff95669b6238d442ff996ec6292a15ed32b6b21438400b557ccb92eae",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTC02.CHK",
+      "original_member_sha256": "24c7e6ff79e80015c92b95a575ed4b04e1211eaa088d6e290a1088be09851f8d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTC03.CHK",
+      "original_member_sha256": "c4fe35314f2a3ae3070fd0bdb39e32dba18f53c16ffdf8dd52c8dbb12687e902",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTC04.CHK",
+      "original_member_sha256": "f687c48e94f6538365e4dbae51db8fb3f556c88fc48164ef9c2940c52ad360b7",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTD00.CHK",
+      "original_member_sha256": "4b8061301242b6586194b19a8a4bdb6bee5f127101b83156acd4a03c8d8f6553",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTD01.CHK",
+      "original_member_sha256": "cd11e52108a8935c58f97688ee85b04ba1f62184e2a0fe00d453fb3256302618",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTD02.CHK",
+      "original_member_sha256": "a0cd342632023d6830b96a81158753e5afa7b6c6c446d2a11b024702e7f78452",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTD03.CHK",
+      "original_member_sha256": "25dc6022977b2acf97febbecf860010990b70f741b8ccfb8dfacc15f7a68cfc2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTD04.CHK",
+      "original_member_sha256": "de5fb6b2bfe6d56b997373ebd7996bf7a40b4046ec6792a8c7faf5f61517ab31",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTE00.CHK",
+      "original_member_sha256": "928a1fc396ce01c04df36a19ac02c67b3371da8c4d17c097b1cf7430288d3ff9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTE01.CHK",
+      "original_member_sha256": "37202ab0916aece48d65f2b7d44a950e993f38ecc4c8bf30edd603466bc666ae",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTE02.CHK",
+      "original_member_sha256": "4d19ebb624b4240c344ed9bac393101230c86d14e2312170d76f467eb1c7f939",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTE03.CHK",
+      "original_member_sha256": "8a1d72a1cf133a0f8cf890819d83c8629686843796a144a0e88b2b956e9a6052",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTE04.CHK",
+      "original_member_sha256": "2ce6e8c4c5460ccc2e45110ff2536716a52fa0525f1148c65b04df13a2c3cf09",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTF00.CHK",
+      "original_member_sha256": "dfc319d2380dfcf508ff0bfa80b487263e5d21daf3d7e6adfd8485ab719b1e87",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTF01.CHK",
+      "original_member_sha256": "a1acdcfbff716fc3ba54259bb35943246ea1e0c4e9255bddb539831a2849b9aa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTF02.CHK",
+      "original_member_sha256": "af4f8aa42346fc347eab560cc5891298144b6d35e45860dd501dd9e27ea86f0b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTF03.CHK",
+      "original_member_sha256": "42e278ec88d0a20cb8511b5c7eb75940d9d3dd06f61b8e86828ca8811aa45eab",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTF04.CHK",
+      "original_member_sha256": "f687c48e94f6538365e4dbae51db8fb3f556c88fc48164ef9c2940c52ad360b7",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTG00.CHK",
+      "original_member_sha256": "ba1802d4f9b9cadddafb488337456c79f8d7bc113b5c60d127870b8639b506af",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTG01.CHK",
+      "original_member_sha256": "1ce35f7c76a4066ecda81ce8680f2c2d411f9c5563ed19b5c6fe0ec1c3dfc503",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTG02.CHK",
+      "original_member_sha256": "8b56649f70fd732c62f2d98263337c9c24260c47cb03e2cab1b21063d855e345",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTG03.CHK",
+      "original_member_sha256": "5742a30b652728e008a4c7b42f992205009f75382b51c3e6c4ba97e274e348bf",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTG04.CHK",
+      "original_member_sha256": "74de86cef6021a8c5e36e43d6589c0aba5f212eb2680a97a31daf249aadee6dc",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTH00.CHK",
+      "original_member_sha256": "5e9406f0bf6fb281b4e8b13c7907e1d4e7503fd66e4e418d9c2aac5541e8e668",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTH01.CHK",
+      "original_member_sha256": "8a4cf199959afc0c2f70658257e7e7900314599a9bd9fbb3e3d4ed1625419f0d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTH02.CHK",
+      "original_member_sha256": "a32e8cdd6f00cb614ac99b587694d051b6b4bde6480cf429ed75cc87a39417b9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTH03.CHK",
+      "original_member_sha256": "6e7456b13ca91b4d56627d9eca1b061cdaa13e8f6a033119fa856582ddfb9eab",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTH04.CHK",
+      "original_member_sha256": "e684134120717a82b5d4fe92ed4c7ec09e84434fde9be6591d7d519997e9943d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTL00.CHK",
+      "original_member_sha256": "ab1550f8e268d53905e7c28d312518114511e3bb44494b78b09c502fc21474c1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTL01.CHK",
+      "original_member_sha256": "f9c55e7a867992841138323f8f0a68dacc8eb20f2c4847b3e6817665a7463069",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTL02.CHK",
+      "original_member_sha256": "96d7912176876cf14fcae2d363e4d886b0739dc87b7ff373bd4fa218cf53e376",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTL03.CHK",
+      "original_member_sha256": "69d5a14324c0dfcfb682f5d55c6f3b684536fef06bcefc0218baba5ce9590d82",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTL04.CHK",
+      "original_member_sha256": "07a80e2dfc5dbf4a2205ca05a26ea6a64f4f6db8baec4e9e9b3cadd9292505aa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTM00.CHK",
+      "original_member_sha256": "a34cb174534341fc37e9d9562f4dbe37fe2c31a634ef80f7ce1f06d40aa221de",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTM01.CHK",
+      "original_member_sha256": "20e3a0f27bc8f2f1317c0c453c259ca5fa7089aa85dbd665557388fb0ba46bdb",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTM02.CHK",
+      "original_member_sha256": "1dc24dd1766281a19c8234c711392c87b490055a0495623d417a5561285786f1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTM03.CHK",
+      "original_member_sha256": "0a6087d93c0f2c126f31dce1d7b8a53645c0ccf54f659bdc8ba7bb2c31660d4c",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTM04.CHK",
+      "original_member_sha256": "7cd18c920fe3bd29dbcfb31a0bd242f9fba0c09aec1c26e805d9538130e5b65a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTT00.CHK",
+      "original_member_sha256": "7c7d1d6379d11b63321e9303d3c9d61e13b60e8673bfb51f8ed4fdaa8142e9a1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTT01.CHK",
+      "original_member_sha256": "ff10711efe08a5b0324d7416f733bcd2710cfd3aa4f17653fb7f56c962876b04",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTT02.CHK",
+      "original_member_sha256": "173f5508ac43046409500b3bbced20f887f83ec80b5d341a66e807574b982a6a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTT03.CHK",
+      "original_member_sha256": "ddec3b4828c8fa99a4937471a710048748ae7b22f2d2289422201c7262a022f9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTT04.CHK",
+      "original_member_sha256": "0da409a6db4b4daf50c5748985b62154b18a18744a2f85623d3ade423139e5b8",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYB00.CHK",
+      "original_member_sha256": "4e7888a3417c418fc2965aa244559950bd1b35320c7ae6ad09a3788fbb6bb8b7",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYB01.CHK",
+      "original_member_sha256": "3c5c23d2fcd39c3324ea27e349920eb64b726efd47b0164e3c6e3b43c79871a3",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYB02.CHK",
+      "original_member_sha256": "16306f7a03042c7f296b243af04d76b2d63fe2a24ddbf711526eaffe62ff2c2f",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYB03.CHK",
+      "original_member_sha256": "3f7391e51dcf584b7b24c4495b3c8fddd817ab234b1465ce8eea9641ae6c978b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYB04.CHK",
+      "original_member_sha256": "ffc06f34a5ee4253a51e2ab1ef30615fce3a8f7d006f6fad96cc35173159fcab",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYS00.CHK",
+      "original_member_sha256": "1b2d3dca44932a87f350dc758978b9201657b84c559a593fc70c16fc46b5b519",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYS01.CHK",
+      "original_member_sha256": "f22f885f49b1d036703a3eeda642ab4b56cc89e0a877abb79948a38ed8ddf163",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYS02.CHK",
+      "original_member_sha256": "1119c30355a9f86b3bc33f4cd8b1fa8e00dad16e1a5c90bcc7f4d4f229e644db",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYS03.CHK",
+      "original_member_sha256": "53ab19198b766a2dac9e1513d7fe4065761e15059ea1944dabe1346ff46f6e6a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SMSTYS04.CHK",
+      "original_member_sha256": "38b51535e1972762f3fbd8c37639cb1d1b9772cf275253baf57ed311681bac62",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDBS.CHK",
+      "original_member_sha256": "5a4eb095b5a200fb3f288cf881cf3b3bda9dfcc73449da175e155a73c0a2e688",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDC.CHK",
+      "original_member_sha256": "9d195bb40bbaec165d8c5fdd8b02d83f661b6d0807bd769684ba77cc02845e75",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDD.CHK",
+      "original_member_sha256": "84d1a6beb9005f91a26791f8736d49b453d495ecdb8ab5effc1c7960ef376442",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDE.CHK",
+      "original_member_sha256": "91af32640a807897fab6d139255c77bec722348449ac62d1044218e62da6f290",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDF.CHK",
+      "original_member_sha256": "1358ab4f0de069774c10386d318de269b05176635e147614bf7dba5c9805ea6d",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDG.CHK",
+      "original_member_sha256": "89dced139bba96eb75ea8c11bd4952f5e7da23768d74b92b0e86e1202b3b5b6a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDH.CHK",
+      "original_member_sha256": "1424eb6152b7227aba5e413009a134bead53fa74863374a8dc901cc9a4518bf9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDL.CHK",
+      "original_member_sha256": "051ede6468ad8601ac315f8bccb3dc853281f9c787c15e53d9829b3baffc82ee",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDM.CHK",
+      "original_member_sha256": "57c5ba6f44aff01c841eb25330f9366a487b8b755c5124c326cd6850279896ad",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDS.CHK",
+      "original_member_sha256": "683020b8e44753bd2bc26d92d70ad6b53c1527d3606f9c6e3cee3ddbd3dc77cb",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "SPCARDYB.CHK",
+      "original_member_sha256": "a8eea1cfb5960cb39434c57dc966008720f6c98be2fd44328a66f193389b3480",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_BS.CHK",
+      "original_member_sha256": "80d0fc02c455eb938d1bb12b88def36e1aacc6d86f4aba10ffd04f2377d7be65",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_C.CHK",
+      "original_member_sha256": "e97149c2dd7f1e34e64ba422c0f87bd75fd11da4402d735c8dc83d8dc848e6e3",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_D.CHK",
+      "original_member_sha256": "e78efad9378623a187865f9897fb65f41dc9beb00e77b63498cabe14e9763e84",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_E.CHK",
+      "original_member_sha256": "e14415052f7183732d3be345e3cb6f205c8fd3c7746fedb9ec82fa4444380e31",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_F.CHK",
+      "original_member_sha256": "9b36a40692691c851a0e3ff3cabe1cfcbe1cedda20c5b4bc78e1f0792905cc0e",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_G.CHK",
+      "original_member_sha256": "d04a81aae00dc81404a00d9a8758d891f2dd0db517d043fd9f03d19276cfdf80",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_H.CHK",
+      "original_member_sha256": "90d9c0119fb36e57475ceaac5ddbb7fe847887c12f042fd49ecbb1837ff484aa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_I.CHK",
+      "original_member_sha256": "8e2a1c23a75d579a3e5e535672c1e5ec164f1efab346f652338083ff569f8087",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_L.CHK",
+      "original_member_sha256": "f4017c23dac38321709e26dfe2a98e225434036fab7bb62ba9a571f5e2f85b09",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_M.CHK",
+      "original_member_sha256": "eed187852cc6d6e780cb04c25e39acc59090b4eb7757166575013ad79791b399",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_S.CHK",
+      "original_member_sha256": "71851910123c49d76f7c89be21af8f07b46d26ffd76dc77f9c7ea6cf3476e7b4",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_SK.CHK",
+      "original_member_sha256": "092184b5113acd15be5381131943df0201d22a0486923858cda3c4610905300a",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_T.CHK",
+      "original_member_sha256": "c462902de2919bce8e45896b800f460964742dbb3b5b1ac44a1c9242cc1b30e6",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_YB.CHK",
+      "original_member_sha256": "c7940b3f6533aee9678a568ad6f2e0d524658d3a710167f5e5b40e412b14f9ec",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "TOWEL_YS.CHK",
+      "original_member_sha256": "ef7a3d33baa5956deb34a28764f2d3e1532e33525e115dcc985d82fea2721c08",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET00.CHK",
+      "original_member_sha256": "e355a14be7311bda45d06427afe6e9e8c544ec567f28b92668114780398eadfa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET01.CHK",
+      "original_member_sha256": "f76ee462a2d078855b1a77cbd584e8a7ac000c0545044702ef5cc13399d991b9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET02.CHK",
+      "original_member_sha256": "9b02fbbcee8c8ef5357160553590d44203c7c5ac6f1cf3fd9315550708b2bb81",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET03.CHK",
+      "original_member_sha256": "60c744e39ef71d5b3bccf685f3a601a1104a669a64da1248f8e14075cfedce76",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET04.CHK",
+      "original_member_sha256": "e0cc4dfe5c860c047b807c8f88efa0800604118ff4ba9746ae4c40d3ea362639",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET05.CHK",
+      "original_member_sha256": "5d371eb6b7d895fe1f45f9dff970426228da772a8b6cf1a00c08a188235668a0",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET06.CHK",
+      "original_member_sha256": "01914da6a67b8d50c0319a3e60fb366581c9eb12cb802af2ff75c63ef0a60348",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET07.CHK",
+      "original_member_sha256": "410dfc9936045b2bd3dfe23e05453ebb1e914fea03fe821e40caddad3b2aa1a9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET08.CHK",
+      "original_member_sha256": "f6499d08739894f12d72b03e234133a1e8e73b1e832080b2d7d767387b06ccd7",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET09.CHK",
+      "original_member_sha256": "8d4d82522fd2715061a99f412c9805f4e4b9740a91c2b3f4748a914bd4ca8dfe",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET10.CHK",
+      "original_member_sha256": "77185872dbdbd3886c3d8210c1e81415494155b4eb0fe240635e7c7ac5ced0f2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET11.CHK",
+      "original_member_sha256": "35ea0328f816eaee7daa8237658909fbc7a711d0d528e89bd44353dbc396dd5f",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET12.CHK",
+      "original_member_sha256": "9b753e33c858bf62ba8f50dff1e7faf4320bdd36f135d77779c4bbcb65eb5ea1",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET13.CHK",
+      "original_member_sha256": "7a56bfeccbf7583c029ea6531254d7dc6c703233bf5514034488382b94c13d4b",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET14.CHK",
+      "original_member_sha256": "e355a14be7311bda45d06427afe6e9e8c544ec567f28b92668114780398eadfa",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET15.CHK",
+      "original_member_sha256": "f76ee462a2d078855b1a77cbd584e8a7ac000c0545044702ef5cc13399d991b9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET16.CHK",
+      "original_member_sha256": "9b02fbbcee8c8ef5357160553590d44203c7c5ac6f1cf3fd9315550708b2bb81",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET17.CHK",
+      "original_member_sha256": "60c744e39ef71d5b3bccf685f3a601a1104a669a64da1248f8e14075cfedce76",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET18.CHK",
+      "original_member_sha256": "5e6743d4610153fd0be7bcfe1db986e79171994512f4cae78ab8f5bc74fbbafc",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET19.CHK",
+      "original_member_sha256": "5d371eb6b7d895fe1f45f9dff970426228da772a8b6cf1a00c08a188235668a0",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET20.CHK",
+      "original_member_sha256": "01914da6a67b8d50c0319a3e60fb366581c9eb12cb802af2ff75c63ef0a60348",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET21.CHK",
+      "original_member_sha256": "410dfc9936045b2bd3dfe23e05453ebb1e914fea03fe821e40caddad3b2aa1a9",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET22.CHK",
+      "original_member_sha256": "aada849c01181258348059710eb27828cf201504e926180de0848136974ddb47",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET23.CHK",
+      "original_member_sha256": "3830ad99843bf7d58fd4a44c5ad494e87d9dea0a0d642698447e2b175d37b2a6",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET24.CHK",
+      "original_member_sha256": "77185872dbdbd3886c3d8210c1e81415494155b4eb0fe240635e7c7ac5ced0f2",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET25.CHK",
+      "original_member_sha256": "35ea0328f816eaee7daa8237658909fbc7a711d0d528e89bd44353dbc396dd5f",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET26.CHK",
+      "original_member_sha256": "49a6c73bf839446224f62b55fe4e0f1f4b683ea0128d9823ad3d01d0cdea1c85",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET27.CHK",
+      "original_member_sha256": "803b1ad3e7e1cc2c3b7265978c4fe3fa70a316267c02149c1aab90d96df02221",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET28.CHK",
+      "original_member_sha256": "ff097fde38be68f215ef25095e8138bc08e7fa05bc07516f60820dbc8596f163",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET29.CHK",
+      "original_member_sha256": "804ed6c29d5551a4bcf2cd454fb9706e25fa454671571892b4592bd7f30e3ab6",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "VPET30.CHK",
+      "original_member_sha256": "fa4dd029d09627914f81386540c5b55dfb2fd7abb27869a40f18894dfcf60a11",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "XBALLOON.CHK",
+      "original_member_sha256": "9f5720fe42e52c4c41bde6cb3c8f4d4212950edf2d284314652f1b697fe087ae",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "XFIREWORKS.CHK",
+      "original_member_sha256": "7fce16c26a9c05f316799f2e6f5349c470ff6669a7a770c3d2cd0cc397343bb4",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "XPSMOKE.CHK",
+      "original_member_sha256": "2fb2224581397957cfea92642408ce02b385c30e10a54742cec54f19e6720cfc",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "XSSMOKE.CHK",
+      "original_member_sha256": "f6afb843c98e8e19406274632c32cd94475b5e64c93750417db6ae54ccfe0776",
+      "complete_member_byte_identical": true
+    },
+    {
+      "member": "Z_MASS.CHK",
+      "original_member_sha256": "a8cc4c5c890c40141297c1592493c29168946739ebd146de993050fbd8462ba7",
+      "complete_member_byte_identical": true
+    }
+  ],
+  "known_native_mascot_anomaly": "VPET28/29/30 international filename variants display original Giants artwork; their English artwork is retained",
+  "broader_candidate_queue_remaining": 0,
+  "entire_game_english": false,
+  "interactive_validation": false
+}

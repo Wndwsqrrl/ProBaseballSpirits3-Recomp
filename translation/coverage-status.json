@@ -7,7 +7,7 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 2017,
+  "texture_labels": 2024,
   "localized_archive_members": 109,
   "validation": [
     "native Windows build passed",
@@ -59,14 +59,17 @@
     "16 RGB565 team, country and affiliation captions verified at native widths 256, 512 and 1028; all 245 previous atlas payloads and 32 protected emblem/flag regions unchanged",
     "34 pitch-analysis labels passed font and native texture checks; all 249 previous atlas payloads and three control/separator regions unchanged",
     "693 shared gameplay/editor material records classified using decoded previews and material-family metadata; both complete source members retained byte-identically",
-    "22 partner, role, record, copy-dialog and championship labels verified; all 250 earlier atlas payloads, 23 protected regions and 22 original decorative/effect texture payloads unchanged"
+    "22 partner, role, record, copy-dialog and championship labels verified; all 250 earlier atlas payloads, 23 protected regions and 22 original decorative/effect texture payloads unchanged",
+    "Seven defensive-tab character cells verified at the original 18-pixel row pitch; all 255 previous atlas payloads, source marker regions and original glyph-shadow coverage verified",
+    "Remaining 218 nonstandard-name texture candidates classified from decoded previews, index-map shapes and normal-map metadata; all 169 complete source members byte-identical"
   ],
   "pending_validation": [
+    "Live IF/OF/SHF tab assembly, orientation and native texture-mask rendering; expand abbreviations where the layout permits",
     "Live partner categories/badges, pitcher roles, record banners, player-copy dialogs and championship captions; verify R1/RB trial icon branch",
     "Live pitch-analysis result-filter fragment assembly, legacy pitch-name terminology and source UV placement",
     "Live RGB565 country/team/affiliation captions, small Surpass emblems and team flag presentation",
     "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
-    "Live player-use instructions, season competition captions, VP Shop coach/voucher labels, Production Staff and licensing-page layout",
+    "Live player-use instructions, season competition captions, VP Shop coach/voucher labels",
     "Live Spirits tutorial page headings, partner diagram, angled card captions, card categories and preseason completion heading across team/scenario variants",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
     "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
@@ -108,8 +111,8 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "17 pending textures in interface-texture-review.json plus 23 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
-    "218 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
+    "16 pending textures in interface-texture-review.json plus 1 additional texture in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -297,9 +300,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2017,
-    "total_atlases": 255,
-    "pending_texture_entries": 17,
+    "total_labels": 2024,
+    "total_atlases": 256,
+    "pending_texture_entries": 16,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -455,8 +458,8 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 218,
+    "additional_pending_textures": 1,
+    "broader_candidates_to_classify": 0,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -630,6 +633,43 @@
     "record_banner_uses_exact_2026_term": true,
     "report": "mode-discovery-validation.json",
     "review_report": "mode-discovery-review.json",
+    "interactive_validation": false
+  },
+  "remaining_family_review": {
+    "records_classified": 218,
+    "members": 169,
+    "decoded_previews_inspected": 185,
+    "palette_index_records_classified": 30,
+    "palette_index_previews_inspected": 7,
+    "normal_maps_classified_by_metadata": 3,
+    "complete_original_member_payloads_byte_identical": 169,
+    "broader_candidate_queue_remaining": 0,
+    "scope": "The earlier nonstandard-name candidate queue only; not a full-game completion claim",
+    "report": "remaining-family-review.json"
+  },
+  "credit_scope": {
+    "japanese_allowed_by_user": true,
+    "required_credit_translation": false,
+    "previous_english_captions_retained": true,
+    "original_other_credit_payloads_byte_identical": 22,
+    "report": "credit-scope-validation.json"
+  },
+  "shift_tab_texture_review": {
+    "character_cells": 7,
+    "tab_labels": 3,
+    "atlases": 1,
+    "labels": [
+      "IF",
+      "OF",
+      "SHF"
+    ],
+    "original_row_pitch": 18,
+    "original_red_texture_background_retained": true,
+    "previous_2017_label_specs_unchanged": true,
+    "previous_255_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 3,
+    "original_glyph_and_shadow_pixels_fully_covered": true,
+    "report": "shift-tab-validation.json",
     "interactive_validation": false
   }
 }
