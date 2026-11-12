@@ -17,18 +17,7 @@
     "28280144": "16-bit RGB565"
   },
   "decoder_reference": "Installed ReXGlue SDK xenos.h and texture info_formats.cpp",
-  "pending_textures": [
-    {
-      "member": "PRAC_DEF.CHK",
-      "texture": "PRC_TR_shubirenshu_gauge.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1a200154",
-      "remaining_text": "Seven main captions and controls replaced. Right-side Japanese phrase fragments still need native sprite-composition review.",
-      "status": "pending",
-      "interactive_validation": false
-    }
-  ],
+  "pending_textures": [],
   "translated_textures": [
     {
       "member": "PRETEM.CHK",
@@ -629,6 +618,18 @@
       "remaining_text": "Team, affiliation and country captions translated; original emblems preserved. See team-flag-validation.json",
       "status": "english_asset_built",
       "interactive_validation": false
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "English practice instructions built; live placement check pending.",
+      "status": "english_asset_built",
+      "interactive_validation": false,
+      "native_sprite_layout_verified": true,
+      "validation_report": "practice-help-validation.json"
     }
   ],
   "prior_pending_report": "interface-texture-review.json",

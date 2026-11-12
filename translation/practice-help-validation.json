@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-12",
+  "new_label_occurrences": 14,
+  "new_atlases": 1,
+  "expanded_atlases": 1,
+  "new_archive_members": 1,
+  "previous_label_specs_unchanged": 2069,
+  "other_previous_complete_atlas_payloads_byte_identical": 255,
+  "existing_fielding_label_regions_pixel_identical": 7,
+  "existing_fielding_label_blocks_byte_identical": 611,
+  "pitching_help": {
+    "label_occurrences": 8,
+    "original": "投球開始とリリース時に[Y/A]ボタンを押そう！",
+    "english": "Start and release: Tap [Y/A] at both cues!",
+    "release_means_ball_release": true,
+    "source_button_variants_preserved": true,
+    "native_decoded_preview_checked": true,
+    "native_sprite_composition_verified": false
+  },
+  "fielding_help": {
+    "label_occurrences": 6,
+    "distinct_phrases": 2,
+    "native_sbib_chunks_reconstructed": 2,
+    "native_sprite_records_reconstructed": 8,
+    "native_sprite_composition_verified_offline": true,
+    "original_descriptor_bytes_unchanged": true,
+    "complete_phrase_rendered_before_slicing": true,
+    "practice_button_source_rectangles": [
+      [
+        137,
+        75,
+        217,
+        107
+      ],
+      [
+        137,
+        107,
+        217,
+        139
+      ]
+    ],
+    "previous_practice_source_rectangles": [
+      [
+        221,
+        1,
+        255,
+        29
+      ],
+      [
+        221,
+        33,
+        255,
+        61
+      ],
+      [
+        221,
+        65,
+        255,
+        93
+      ],
+      [
+        226,
+        98,
+        255,
+        126
+      ]
+    ]
+  },
+  "fielding_protected_regions": [
+    [
+      225,
+      4,
+      248,
+      28
+    ],
+    [
+      145,
+      217,
+      183,
+      247
+    ],
+    [
+      136,
+      76,
+      192,
+      104
+    ],
+    [
+      188,
+      112,
+      217,
+      136
+    ],
+    [
+      134,
+      1,
+      206,
+      73
+    ],
+    [
+      134,
+      141,
+      255,
+      175
+    ],
+    [
+      134,
+      177,
+      255,
+      211
+    ],
+    [
+      134,
+      213,
+      139,
+      241
+    ]
+  ],
+  "pitching_protected_regions": [
+    [
+      0,
+      24,
+      144,
+      84
+    ],
+    [
+      18,
+      104,
+      36,
+      128
+    ],
+    [
+      164,
+      104,
+      184,
+      128
+    ],
+    [
+      144,
+      0,
+      256,
+      104
+    ],
+    [
+      208,
+      104,
+      256,
+      128
+    ]
+  ],
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Training",
+      "key": "tra_ui_shubi_long",
+      "japanese": "打ち直し",
+      "english": "Hit Again"
+    },
+    {
+      "namespace": "Training",
+      "key": "tra_ui_shubi00",
+      "japanese": "前と同じ練習",
+      "english": "Re-Do Last Practice"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_start_pitching",
+      "japanese": "投球開始",
+      "english": "Start Pitching",
+      "compact_practice_heading": "Pitch Start"
+    }
+  ],
+  "font_bounds_checked": true,
+  "native_bc1_and_bc3_previews_checked": true,
+  "credits_remain_outside_required_translation_scope": true,
+  "stadium_signs_ads_and_artwork_preserved": true,
+  "interactive_validation": false,
+  "entire_game_english": false
+}

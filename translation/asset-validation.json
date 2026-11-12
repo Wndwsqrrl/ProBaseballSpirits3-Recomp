@@ -1,6 +1,6 @@
 {
   "archive_members": 2223,
-  "unchanged_members_verified": 2114,
+  "unchanged_members_verified": 2113,
   "localized_members": [
     "ARRANGE.CHK",
     "ARR_CHAN.CHK",
@@ -46,6 +46,7 @@
     "PNTEAMINFO.CHK",
     "PNTODAY06.CHK",
     "PNTRADE.CHK",
+    "PPRAC.CHK",
     "PRAC_BAT.CHK",
     "PRAC_DEF.CHK",
     "PRAC_PIT.CHK",
@@ -112,8 +113,8 @@
     "UTYTOP.CHK",
     "VLOGO.CHK"
   ],
-  "atlases": 256,
-  "labels": 2069,
+  "atlases": 257,
+  "labels": 2083,
   "outside_localized_regions_unchanged": true,
   "packed_text_slots": 83,
   "pennant_event_titles": 187,

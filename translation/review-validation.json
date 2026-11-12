@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "14 practice label occurrences passed font/native texture checks; eight fielding sprites reconstructed, 255 other atlases, seven earlier labels/611 compressed blocks and 13 control/artwork regions unchanged",
     "45 compact stat labels passed native texture/font checks; all 14 earlier label regions and 520 compressed blocks preserved, alongside 255 other complete atlases",
     "Seven defensive-tab cells passed native texture/font/glyph-coverage checks; all 255 prior atlas payloads unchanged. Credits may remain Japanese per user instruction.",
     "22 additional mode labels passed font/native texture checks; all 250 prior complete atlas payloads and 23 protected artwork/control regions unchanged",
@@ -34,15 +35,16 @@
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2114 untouched members"
+    "all 2223 archive members verified, including 2113 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
     "Live mission labels, season ranks and slogans, card positions/categories, development point types and partner-control legends",
     "Live challenge controls, VP labels, player boost labels and rotation caption; verify team/custom-name BC1 masks in the home-run menu",
-    "Live editor labels, name/audio controls, preseason caption assembly and practice headings; reconstruct remaining fielding-practice phrase fragments",
+    "Live editor labels, name/audio controls, preseason caption assembly and practice headings; verify reconstructed fielding-practice phrases and pitching-help timing/button variants",
     "Live opening opponent, tournament and venue captions, including legacy stadium names",
     "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
@@ -273,14 +275,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2069,
-    "total_atlases": 256,
-    "pending_texture_entries": 15,
+    "total_labels": 2083,
+    "total_atlases": 257,
+    "pending_texture_entries": 14,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2114,
+    "unchanged_archive_members_verified": 2113,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -431,7 +433,7 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 1,
+    "additional_pending_textures": 0,
     "broader_candidates_to_classify": 0,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
@@ -656,6 +658,21 @@
     "historical_years_and_team_names_preserved": true,
     "original_magenta_background_retained": true,
     "report": "compact-stat-validation.json",
+    "interactive_validation": false
+  },
+  "practice_help_texture_review": {
+    "new_label_occurrences": 14,
+    "new_atlases": 1,
+    "expanded_atlases": 1,
+    "new_archive_members": 1,
+    "previous_2069_label_specs_unchanged": true,
+    "other_255_full_atlas_payloads_byte_identical": true,
+    "existing_fielding_label_regions_pixel_identical": 7,
+    "existing_fielding_label_blocks_byte_identical": 611,
+    "protected_regions": 13,
+    "fielding_sprite_records_reconstructed": 8,
+    "fielding_phrases_use_exact_2026_wording": true,
+    "report": "practice-help-validation.json",
     "interactive_validation": false
   }
 }

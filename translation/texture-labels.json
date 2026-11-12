@@ -18392,6 +18392,174 @@
           182
         ],
         "outline_width": 1
+      },
+      {
+        "rect": [
+          192,
+          80,
+          25,
+          24
+        ],
+        "text": "Hit Again",
+        "source": "打ち直し",
+        "text_slice": [
+          0,
+          76
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          137,
+          112,
+          51,
+          24
+        ],
+        "text": "Hit Again",
+        "source": "打ち直し",
+        "text_slice": [
+          25,
+          76
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          248,
+          4,
+          7,
+          24
+        ],
+        "text": "Re-Do Last Practice",
+        "source": "前と同じ練習",
+        "text_slice": [
+          0,
+          104
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          221,
+          36,
+          34,
+          24
+        ],
+        "text": "Re-Do Last Practice",
+        "source": "前と同じ練習",
+        "text_slice": [
+          7,
+          104
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          221,
+          68,
+          34,
+          24
+        ],
+        "text": "Re-Do Last Practice",
+        "source": "前と同じ練習",
+        "text_slice": [
+          41,
+          104
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          226,
+          101,
+          29,
+          24
+        ],
+        "text": "Re-Do Last Practice",
+        "source": "前と同じ練習",
+        "text_slice": [
+          75,
+          104
+        ],
+        "padding": 2,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "min_width_ratio": 0.8,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          203
+        ],
+        "outline_width": 1
       }
     ]
   },
@@ -47231,6 +47399,214 @@
           136,
           68
         ]
+      }
+    ]
+  },
+  "PPRAC.CHK": {
+    "GAME_GM_pithelp.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          64,
+          24
+        ],
+        "text": "Pitch Start",
+        "source": "投球開始",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0,
+        "foreground": [
+          255,
+          166,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          80,
+          0,
+          64,
+          24
+        ],
+        "text": "Release",
+        "source": "リリース",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 20,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0,
+        "foreground": [
+          255,
+          166,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          0,
+          84,
+          144,
+          20
+        ],
+        "text": "Start and release:",
+        "source": "投球開始とリリース時",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 19,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
+      },
+      {
+        "rect": [
+          0,
+          104,
+          18,
+          24
+        ],
+        "text": "Tap",
+        "source": "に [Yの前]",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 16,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
+      },
+      {
+        "rect": [
+          36,
+          104,
+          28,
+          24
+        ],
+        "text": "at",
+        "source": "ボタ [Yの後]",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
+      },
+      {
+        "rect": [
+          64,
+          104,
+          80,
+          24
+        ],
+        "text": "both cues!",
+        "source": "ンを押そう！ [共有末尾]",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
+      },
+      {
+        "rect": [
+          148,
+          104,
+          16,
+          24
+        ],
+        "text": "Tap",
+        "source": "に [Aの前]",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 16,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
+      },
+      {
+        "rect": [
+          184,
+          104,
+          24,
+          24
+        ],
+        "text": "at",
+        "source": "ボタ [Aの後]",
+        "padding": 0,
+        "vertical_padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 9,
+        "condense": true,
+        "min_width_ratio": 0.72,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 0
       }
     ]
   }

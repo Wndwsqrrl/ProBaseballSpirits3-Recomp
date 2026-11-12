@@ -204,6 +204,18 @@ def patch_chk(data, atlases, font_path, preview):
                         image.paste(tuple(label.get('clear_background',(0,0,0,0))), (cx,cy,cx+cw,cy+ch))
                         dirty_blocks.update((bx,by) for by in range(cy//4,(cy+ch+3)//4) for bx in range(cx//4,(cx+cw+3)//4))
                     scale = 4
+                    slice_width = w
+                    if 'text_slice' in label:
+                        slice_offset, strip_width = label['text_slice']
+                        if (not isinstance(slice_offset, int) or not isinstance(strip_width, int)
+                                or not 0 <= slice_offset < slice_offset+w <= strip_width <= 8192):
+                            raise ValueError('Text slice must stay inside its rendered strip')
+                        if ('background_sample_x' in label or any(label.get(key) for key in (
+                                'background_keep_alpha', 'text_rotation', 'glow_radius', 'edit_polygon', 'tint_mask'))):
+                            raise ValueError('Text slices require an unrotated label on a solid background')
+                        # Some native sprites join several atlas strips into one
+                        # sentence. Fit the whole sentence before slicing it.
+                        w = strip_width
                     tile = Image.new('RGBA', (w*scale, h*scale), tuple(label.get('background',(68,68,68,0))))
                     if 'background_sample_x' in label:
                         sample_x = label['background_sample_x']
@@ -257,6 +269,9 @@ def patch_chk(data, atlases, font_path, preview):
                                 stroke_width=stroke,
                                 stroke_fill=tuple(label.get('outline',(0,0,0,255))), **text_options)
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
+                    if 'text_slice' in label:
+                        tile = tile.crop((slice_offset, 0, slice_offset+slice_width, h))
+                        w = slice_width
                     if 'transparent_rgb' in label:
                         color = label['transparent_rgb']
                         if len(color) != 3 or any(not isinstance(c, int) or not 0 <= c <= 255 for c in color):
