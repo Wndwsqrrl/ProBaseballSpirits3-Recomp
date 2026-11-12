@@ -12633,6 +12633,722 @@
         ],
         "tint_mask": true
       }
+    ],
+    "MENU_MAT_haiq03.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          128,
+          16
+        ],
+        "text": "Slider",
+        "source": "スライダー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          16,
+          128,
+          16
+        ],
+        "text": "Changeup",
+        "source": "チェンジアップ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          32,
+          128,
+          16
+        ],
+        "text": "Cutter",
+        "source": "カットボール",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          48,
+          128,
+          16
+        ],
+        "text": "Curveball",
+        "source": "カーブ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          64,
+          128,
+          16
+        ],
+        "text": "Forkball",
+        "source": "フォーク",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          80,
+          128,
+          16
+        ],
+        "text": "12-6 Curve",
+        "source": "Dカーブ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          96,
+          128,
+          16
+        ],
+        "text": "Palmball",
+        "source": "パーム",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          112,
+          128,
+          16
+        ],
+        "text": "Slow Slider",
+        "source": "Sスライダー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          128,
+          128,
+          16
+        ],
+        "text": "Hard Screwball",
+        "source": "Hスクリュー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          144,
+          128,
+          16
+        ],
+        "text": "Splitter",
+        "source": "SFF",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          160,
+          128,
+          16
+        ],
+        "text": "Knuckleball",
+        "source": "ナックル",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          176,
+          128,
+          16
+        ],
+        "text": "Vertical Slider",
+        "source": "Vスライダー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          192,
+          128,
+          16
+        ],
+        "text": "Sinker",
+        "source": "シュート",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          208,
+          128,
+          16
+        ],
+        "text": "Hard Screwball",
+        "source": "Hシンカー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          224,
+          128,
+          16
+        ],
+        "text": "Screwball",
+        "source": "スクリュー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          240,
+          128,
+          16
+        ],
+        "text": "Screwball",
+        "source": "シンカー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          256,
+          128,
+          16
+        ],
+        "text": "Circle Change",
+        "source": "Cチェンジ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          272,
+          128,
+          16
+        ],
+        "text": "Slow Curve",
+        "source": "スローカーブ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          288,
+          128,
+          16
+        ],
+        "text": "Custom",
+        "source": "オリジナル",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          304,
+          64,
+          24
+        ],
+        "text": "All",
+        "source": "全て",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          328,
+          64,
+          24
+        ],
+        "text": "1st Pitch",
+        "source": "初球",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          352,
+          64,
+          22
+        ],
+        "text": "Struck",
+        "source": "三振を",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          374,
+          64,
+          22
+        ],
+        "text": "Out",
+        "source": "とった",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          396,
+          64,
+          18
+        ],
+        "text": "Hits",
+        "source": "安打を",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          414,
+          64,
+          18
+        ],
+        "text": "Allowed",
+        "source": "打たれた",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          312,
+          64,
+          20
+        ],
+        "text": "Swinging",
+        "source": "空振り",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          332,
+          64,
+          20
+        ],
+        "text": "Strikes",
+        "source": "させた",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          352,
+          64,
+          22
+        ],
+        "text": "Contact",
+        "source": "打ち",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          374,
+          64,
+          22
+        ],
+        "text": "Outs",
+        "source": "とった",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          396,
+          64,
+          18
+        ],
+        "text": "Home Runs",
+        "source": "本塁打を",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          64,
+          414,
+          64,
+          18
+        ],
+        "text": "Allowed",
+        "source": "打たれた",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          448,
+          128,
+          16
+        ],
+        "text": "Hard Slider",
+        "source": "Hスライダー",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          464,
+          128,
+          16
+        ],
+        "text": "Hard Sinker",
+        "source": "Hシュート",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      },
+      {
+        "rect": [
+          0,
+          480,
+          128,
+          16
+        ],
+        "text": "Slow Curve",
+        "source": "スローカーブ",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "outline_width": 0,
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertical_padding": 1
+      }
     ]
   },
   "PNDAILY.CHK": {

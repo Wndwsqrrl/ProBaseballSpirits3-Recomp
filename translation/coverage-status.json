@@ -7,7 +7,7 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 1961,
+  "texture_labels": 1995,
   "localized_archive_members": 106,
   "validation": [
     "native Windows build passed",
@@ -56,9 +56,12 @@
     "21 Spirits tutorial labels applied to 37 byte-identical source copies: 777 label occurrences in 111 atlases; all 122 prior atlas payloads, 74 background/effect payloads and 629 protected regions unchanged",
     "62 season, player-use, VP Shop, staff and licensing captions verified; all 233 prior atlas payloads, 63 protected regions and 22 original credit pages unchanged",
     "104 Spirits slot/mode labels verified, with all 43 numeric and eight circle grades preserved; all 240 earlier atlas payloads, 14 original art/effect payloads and nine protected regions unchanged",
-    "16 RGB565 team, country and affiliation captions verified at native widths 256, 512 and 1028; all 245 previous atlas payloads and 32 protected emblem/flag regions unchanged"
+    "16 RGB565 team, country and affiliation captions verified at native widths 256, 512 and 1028; all 245 previous atlas payloads and 32 protected emblem/flag regions unchanged",
+    "34 pitch-analysis labels passed font and native texture checks; all 249 previous atlas payloads and three control/separator regions unchanged",
+    "693 shared gameplay/editor material records classified using decoded previews and material-family metadata; both complete source members retained byte-identically"
   ],
   "pending_validation": [
+    "Live pitch-analysis result-filter fragment assembly, legacy pitch-name terminology and source UV placement",
     "Live RGB565 country/team/affiliation captions, small Surpass emblems and team flag presentation",
     "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
     "Live player-use instructions, season competition captions, VP Shop coach/voucher labels, Production Staff and licensing-page layout",
@@ -103,8 +106,8 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "18 pending textures in interface-texture-review.json plus 23 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
-    "938 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
+    "17 pending textures in interface-texture-review.json plus 23 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "245 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -292,9 +295,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1961,
-    "total_atlases": 249,
-    "pending_texture_entries": 18,
+    "total_labels": 1995,
+    "total_atlases": 250,
+    "pending_texture_entries": 17,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -451,7 +454,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 938,
+    "broader_candidates_to_classify": 245,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -583,5 +586,26 @@
     "original_giants_emblems_preserved": true,
     "report": "team-flag-validation.json",
     "interactive_validation": false
+  },
+  "pitch_analysis_texture_review": {
+    "labels": 34,
+    "pitch_names": 22,
+    "result_filter_fragments": 12,
+    "atlases": 1,
+    "previous_1961_label_specs_unchanged": true,
+    "previous_249_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 3,
+    "report": "pitch-analysis-validation.json",
+    "interactive_validation": false
+  },
+  "shared_material_review": {
+    "material_records_classified": 693,
+    "decoded_previews_generated": 667,
+    "shared_gameplay_previews_inspected": 259,
+    "editor_material_families": 15,
+    "editor_representatives_inspected": 14,
+    "normal_maps_classified_by_metadata": 26,
+    "original_member_payloads_byte_identical": 2,
+    "report": "shared-material-review.json"
   }
 }

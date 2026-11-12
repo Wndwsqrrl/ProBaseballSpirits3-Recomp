@@ -119,16 +119,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "RSHAIQ.CHK",
-      "texture": "MENU_MAT_haiq03.tsr",
-      "width": 128,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Pitch and player statistics",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "SOLOINFO.CHK",
       "texture": "MENU_PEtuti_00.tsr",
       "width": 512,
@@ -807,6 +797,17 @@
       "height": 128,
       "format": "1828014f",
       "remaining_text": "Rain and movement day fragments",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "RSHAIQ.CHK",
+      "texture": "MENU_MAT_haiq03.tsr",
+      "width": 128,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "22 pitch names and 12 result-filter fragments translated; native assembly still awaits live validation",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "34 pitch-analysis labels passed font/native decoding checks; all 249 prior atlas payloads unchanged; 693 material records classified and source members retained",
     "16 RGB565 labels passed font/native pixel checks; all 245 prior atlas payloads and 32 original emblem/flag regions unchanged",
     "104 slot/mode labels passed font and native decoding checks; 43 numeric and eight circle grades preserved, 45 exact contextual matches to 2026 terminology, all 240 prior complete atlas payloads unchanged",
     "62 additional season/shop/credit captions passed font bounds and native decoding checks; all 233 prior complete atlas payloads unchanged",
@@ -269,9 +270,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1961,
-    "total_atlases": 249,
-    "pending_texture_entries": 18,
+    "total_labels": 1995,
+    "total_atlases": 250,
+    "pending_texture_entries": 17,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -428,7 +429,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 938,
+    "broader_candidates_to_classify": 245,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -560,5 +561,26 @@
     "original_giants_emblems_preserved": true,
     "report": "team-flag-validation.json",
     "interactive_validation": false
+  },
+  "pitch_analysis_texture_review": {
+    "labels": 34,
+    "pitch_names": 22,
+    "result_filter_fragments": 12,
+    "atlases": 1,
+    "previous_1961_label_specs_unchanged": true,
+    "previous_249_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 3,
+    "report": "pitch-analysis-validation.json",
+    "interactive_validation": false
+  },
+  "shared_material_review": {
+    "material_records_classified": 693,
+    "decoded_previews_generated": 667,
+    "shared_gameplay_previews_inspected": 259,
+    "editor_material_families": 15,
+    "editor_representatives_inspected": 14,
+    "normal_maps_classified_by_metadata": 26,
+    "original_member_payloads_byte_identical": 2,
+    "report": "shared-material-review.json"
   }
 }

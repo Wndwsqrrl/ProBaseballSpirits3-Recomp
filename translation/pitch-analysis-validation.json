@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-12",
+  "new_labels": 34,
+  "pitch_names": 22,
+  "result_filter_fragments": 12,
+  "new_atlases": 1,
+  "previous_label_specs_unchanged": 1961,
+  "previous_complete_atlas_payloads_byte_identical": 249,
+  "source_white_glyph_pixels_within_replacement_rectangles": true,
+  "protected_regions": [
+    {
+      "rect": [
+        0,
+        432,
+        128,
+        448
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        64,
+        304,
+        128,
+        312
+      ],
+      "pixels_identical": true
+    },
+    {
+      "rect": [
+        0,
+        496,
+        128,
+        512
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "result_pairs": [
+    [
+      "Struck",
+      "Out"
+    ],
+    [
+      "Hits",
+      "Allowed"
+    ],
+    [
+      "Swinging",
+      "Strikes"
+    ],
+    [
+      "Contact",
+      "Outs"
+    ],
+    [
+      "Home Runs",
+      "Allowed"
+    ]
+  ],
+  "legacy_pitch_names_reviewed": true,
+  "source_h_screw_is_not_h_slider": true,
+  "font_bounds_checked": true,
+  "native_decoded_preview_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "official_2026_references": [
+    {
+      "namespace": "BB",
+      "key": "bb_vp_short_drop",
+      "japanese": "Dカーブ",
+      "english": "126CB"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_short_hshoot",
+      "japanese": "Hシュート",
+      "english": "HSNK"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_short_hsinker",
+      "japanese": "Hシンカー",
+      "english": "HSCR"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_original",
+      "japanese": "オリジナル",
+      "english": "Custom"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_shoot",
+      "japanese": "シュート",
+      "english": "Sinker"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_sinker",
+      "japanese": "シンカー",
+      "english": "Screwball"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_screw",
+      "japanese": "スクリュー",
+      "english": "Screwball"
+    },
+    {
+      "namespace": "BB",
+      "key": "bb_vp_parm",
+      "japanese": "パーム",
+      "english": "Palmball"
+    }
+  ]
+}
