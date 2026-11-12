@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-11",
+  "textures": 13,
+  "day_and_night_views": 26,
+  "translated_label_occurrences": 156,
+  "core_model_rectangles": [
+    [
+      0,
+      64,
+      336,
+      256
+    ],
+    [
+      0,
+      320,
+      336,
+      512
+    ]
+  ],
+  "checks": [
+    {
+      "texture": "MENU_MUR_018_yok.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_tok.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_tih.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_tib.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_sei.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_osa.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_nag.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_mei.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_fuk.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_han.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_gre.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_hir.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    },
+    {
+      "texture": "MENU_MUR_018_sap.tsr",
+      "core_model_regions_unchanged": true,
+      "nonblue_title_region_pixels_changed": 0,
+      "numeric_dimensions_unchanged": true
+    }
+  ],
+  "native_encoded_outputs_decoded": true,
+  "interactive_validation": false,
+  "legacy_venue_names": "Names follow the original card artwork, including Yahoo! BB Stadium. Names were not updated to later sponsorships.",
+  "previous_texture_regression": {
+    "baseline_commit": "079949b15d7984dd7c83dcad22d4504565e96711",
+    "members": 27,
+    "atlases": 37,
+    "labels": 232,
+    "decoded_member_bytes_identical": true
+  },
+  "time_and_wind_control_labels": 2
+}

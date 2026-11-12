@@ -452,146 +452,6 @@
       "interactive_validation": false
     },
     {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_fuk.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_gre.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_han.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_hir.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_mei.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_nag.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_osa.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_sap.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_sei.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_tib.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_tih.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_tok.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_018_yok.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Venue name and facility statistics; preserve stadium image",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STASEL.CHK",
-      "texture": "MENU_MUR_019.tsr",
-      "width": 128,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "Time and wind headings",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "STSEL.CHK",
       "texture": "MENU_EXst_day12.tsr",
       "width": 1024,
@@ -785,6 +645,160 @@
       "height": 128,
       "format": "1a200152",
       "remaining_text": "Defensive alignment choices",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_fuk.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_gre.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_han.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_hir.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_mei.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_nag.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_osa.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_sap.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_sei.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tib.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tih.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_tok.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_018_yok.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Venue name and facility statistics; preserve stadium image",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "STASEL.CHK",
+      "texture": "MENU_MUR_019.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Time and wind headings",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

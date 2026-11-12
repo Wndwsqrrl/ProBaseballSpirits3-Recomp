@@ -5,6 +5,7 @@ baseball.fbd is rebuilt as a separate file, with updated sector offsets.
 """
 import argparse
 import hashlib
+import io
 import importlib.util
 import json
 import os
@@ -19,6 +20,15 @@ from txcpack_text import load_packed_text, patch_packed_text
 spec = importlib.util.spec_from_file_location('konami_cmp', Path(__file__).with_name('konami-cmp.py'))
 cmp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(cmp)
+
+
+def block_has_color(image, bx, by):
+    for y in range(by*4,by*4+4):
+        for x in range(bx*4,bx*4+4):
+            red,green,blue,alpha = image.getpixel((x,y))
+            if alpha>=128 and max(red,green,blue)-min(red,green,blue)>8:
+                return True
+    return False
 
 
 def patch_chk(data, atlases, font_path, preview):
@@ -103,7 +113,24 @@ def patch_chk(data, atlases, font_path, preview):
                     image.paste(tile, (x,y))
                     dirty_blocks.update((bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4))
                 encoded = bytearray(raw)
-                if pixel_format == '1a200152':
+                if (pixel_format in ('1a200152','1a200153','1a200154')
+                        and any(block_has_color(image,bx,by) for bx,by in dirty_blocks)):
+                    stream = io.BytesIO()
+                    image.save(stream, format='DDS', pixel_format=codec[1])
+                    dds = stream.getvalue()
+                    if (dds[:4] != b'DDS ' or len(dds) != 128 + raw_size
+                            or struct.unpack_from('<II',dds,12) != (height,width)
+                            or dds[84:88] != codec[1].encode('ascii')):
+                        raise ValueError('Unexpected compressed DDS output')
+                    blocks = dds[128:]
+                    block_size = 8 if pixel_format == '1a200152' else 16
+                    # Copy only edited blocks, preserving every other original byte.
+                    for bx,by in dirty_blocks:
+                        start = (by*(width//4)+bx)*block_size
+                        block = blocks[start:start+block_size]
+                        encoded[start:start+block_size] = b''.join(
+                            block[i:i+2][::-1] for i in range(0,block_size,2))
+                elif pixel_format == '1a200152':
                     # Position glyphs are white masks tinted by the game. Keep
                     # every untouched compressed block byte-identical.
                     for bx,by in dirty_blocks:
@@ -155,7 +182,11 @@ def patch_chk(data, atlases, font_path, preview):
                         struct.pack_into('>H', encoded, index*2, pixel)
                 patched[raw_start:raw_start+raw_size] = encoded
                 preview.mkdir(parents=True, exist_ok=True)
-                image.save(preview / (name + '.english.png'))
+                preview_image = image
+                if pixel_format in ('1a200152','1a200153','1a200154'):
+                    swapped = b''.join(encoded[i:i+2][::-1] for i in range(0,len(encoded),2))
+                    preview_image = Image.frombytes('RGBA',(width,height),swapped,'bcn',codec)
+                preview_image.save(preview / (name + '.english.png'))
                 found.add(name)
         position += allocated
     if found != set(atlases):

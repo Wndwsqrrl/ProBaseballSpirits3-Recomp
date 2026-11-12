@@ -3414,5 +3414,2405 @@
         "min_font_size": 11
       }
     ]
+  },
+  "STASEL.CHK": {
+    "MENU_MUR_018_fuk.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Fukuoka Dome",
+        "source": "福岡ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Fukuoka Dome",
+        "source": "福岡ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_gre.tsr": [
+      {
+        "rect": [
+          284,
+          28,
+          220,
+          34
+        ],
+        "text": "Yahoo! BB Stadium",
+        "source": "YAHOO!BBスタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Natural Grass",
+        "source": "天然芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          284,
+          284,
+          220,
+          34
+        ],
+        "text": "Yahoo! BB Stadium",
+        "source": "YAHOO!BBスタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Natural Grass",
+        "source": "天然芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_han.tsr": [
+      {
+        "rect": [
+          276,
+          28,
+          228,
+          34
+        ],
+        "text": "Hanshin Koshien Stadium",
+        "source": "阪神甲子園球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          276,
+          284,
+          228,
+          34
+        ],
+        "text": "Hanshin Koshien Stadium",
+        "source": "阪神甲子園球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_hir.tsr": [
+      {
+        "rect": [
+          308,
+          28,
+          196,
+          34
+        ],
+        "text": "Hiroshima Municipal Stadium",
+        "source": "広島市民球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          308,
+          284,
+          196,
+          34
+        ],
+        "text": "Hiroshima Municipal Stadium",
+        "source": "広島市民球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_mei.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Meiji Jingu Stadium",
+        "source": "明治神宮野球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Meiji Jingu Stadium",
+        "source": "明治神宮野球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_nag.tsr": [
+      {
+        "rect": [
+          284,
+          28,
+          220,
+          34
+        ],
+        "text": "Nagoya Dome",
+        "source": "ナゴヤドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          284,
+          284,
+          220,
+          34
+        ],
+        "text": "Nagoya Dome",
+        "source": "ナゴヤドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_osa.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Osaka Dome",
+        "source": "大阪ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Osaka Dome",
+        "source": "大阪ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_sap.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Sapporo Dome",
+        "source": "札幌ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Sapporo Dome",
+        "source": "札幌ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_sei.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Seibu Dome",
+        "source": "西武ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Seibu Dome",
+        "source": "西武ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_tib.tsr": [
+      {
+        "rect": [
+          296,
+          28,
+          208,
+          34
+        ],
+        "text": "Chiba Marine Stadium",
+        "source": "千葉マリンスタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          296,
+          284,
+          208,
+          34
+        ],
+        "text": "Chiba Marine Stadium",
+        "source": "千葉マリンスタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_tih.tsr": [
+      {
+        "rect": [
+          328,
+          28,
+          176,
+          34
+        ],
+        "text": "Local Stadium",
+        "source": "地方球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          328,
+          284,
+          176,
+          34
+        ],
+        "text": "Local Stadium",
+        "source": "地方球場",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Grass/Dirt",
+        "source": "天然芝/土",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_tok.tsr": [
+      {
+        "rect": [
+          312,
+          28,
+          192,
+          34
+        ],
+        "text": "Tokyo Dome",
+        "source": "東京ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          312,
+          284,
+          192,
+          34
+        ],
+        "text": "Tokyo Dome",
+        "source": "東京ドーム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_018_yok.tsr": [
+      {
+        "rect": [
+          320,
+          28,
+          184,
+          34
+        ],
+        "text": "Yokohama Stadium",
+        "source": "横浜スタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          144,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          144,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          162,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          180,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          198,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          320,
+          284,
+          184,
+          34
+        ],
+        "text": "Yokohama Stadium",
+        "source": "横浜スタジアム",
+        "padding": 4,
+        "max_font_size": 30,
+        "min_font_size": 14,
+        "foreground": [
+          123,
+          142,
+          165,
+          255
+        ],
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          400,
+          80,
+          16
+        ],
+        "text": "Surface",
+        "source": "フィールド",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          416,
+          400,
+          88,
+          16
+        ],
+        "text": "Artificial Turf",
+        "source": "人工芝",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          418,
+          80,
+          18
+        ],
+        "text": "Center",
+        "source": "センター",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          436,
+          80,
+          18
+        ],
+        "text": "LF/RF",
+        "source": "両翼",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      },
+      {
+        "rect": [
+          336,
+          454,
+          80,
+          18
+        ],
+        "text": "Wall",
+        "source": "フェンス",
+        "padding": 2,
+        "max_font_size": 14,
+        "min_font_size": 10,
+        "background_sample_x": 508
+      }
+    ],
+    "MENU_MUR_019.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          54,
+          32
+        ],
+        "text": "Time",
+        "source": "時刻",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 13,
+        "outline_width": 1,
+        "background_sample_x": 0
+      },
+      {
+        "rect": [
+          0,
+          32,
+          54,
+          32
+        ],
+        "text": "Wind",
+        "source": "風",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 13,
+        "outline_width": 1,
+        "background_sample_x": 0
+      }
+    ]
   }
 }

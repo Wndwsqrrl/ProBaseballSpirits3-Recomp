@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 232,
-  "localized_archive_members": 39,
+  "texture_labels": 390,
+  "localized_archive_members": 40,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -39,9 +39,11 @@
     "44 auto-game, pitcher-order, result, championship and lineup-preset sprite labels passed offline checks; 2191 unchanged archive members verified",
     "19 additional online and ability badge labels verified in decoded BC2/BC3 textures and rebuilt archive",
     "23 career board, VP formula, difficulty, date and class labels passed original-region and font bounds checks",
-    "14 gameplay stat glyphs and 15 fielding/tactic labels passed texture bounds, preview and archive checks"
+    "14 gameplay stat glyphs and 15 fielding/tactic labels passed texture bounds, preview and archive checks",
+    "13 stadium cards and two time/wind labels localized; 26 core model views and original numeric dimensions preserved, with all 232 previous texture labels byte-identical"
   ],
   "pending_validation": [
+    "Live stadium-selection card layout, legacy venue names, and time/wind controls",
     "Live pitcher and batter stat headings and fielding/tactic selector labels",
     "Live career notice headings, numeric month/day placement, VP formula and player class subtitles",
     "Live online menu labels, free-player tag, and graded baserunning/stealing badges",
@@ -71,7 +73,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "62 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "48 documented interface textures still contain Japanese; see interface-texture-review.json. Additional textures may remain undiscovered.",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -259,14 +261,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 232,
-    "total_atlases": 37,
-    "pending_texture_entries": 62,
+    "total_labels": 390,
+    "total_atlases": 51,
+    "pending_texture_entries": 48,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2184,
+    "unchanged_archive_members_verified": 2183,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -318,6 +320,18 @@
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "stats_atlas_fully_translated": false,
+    "interactive_validation": false
+  },
+  "stadium_selection_texture_review": {
+    "stadium_cards": 13,
+    "day_and_night_views": 26,
+    "card_labels": 156,
+    "control_labels": 2,
+    "atlases": 14,
+    "core_model_rectangles_pixel_identical": true,
+    "numeric_dimensions_preserved": true,
+    "previous_232_texture_labels_byte_identical": true,
+    "report": "stadium-card-validation.json",
     "interactive_validation": false
   }
 }
