@@ -129,8 +129,9 @@ def patch_chk(data, atlases, font_path, preview):
                             raise ValueError('Background sample column outside atlas')
                         tile = background_image.crop((sample_x,y,sample_x+1,y+h)).resize(
                             (w*scale,h*scale), Image.Resampling.NEAREST)
-                        tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
-                            (w*scale,h*scale), Image.Resampling.NEAREST))
+                        if not label.get('background_sample_alpha'):
+                            tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
+                                (w*scale,h*scale), Image.Resampling.NEAREST))
                     if label.get('background_keep_alpha'):
                         tile.putalpha(background_image.getchannel('A').crop((x,y,x+w,y+h)).resize(
                             (w*scale,h*scale), Image.Resampling.NEAREST))
@@ -190,7 +191,10 @@ def patch_chk(data, atlases, font_path, preview):
                 colored_blocks = ({block for block in dirty_blocks if block not in mask_tints
                     and block_has_color(image,*block)} if pixel_format in ('1a200152','1a200153','1a200154') else set())
                 # Opt in for atlases that mix colored badges and grayscale text.
-                if colored_blocks and not any(label.get('split_color_blocks') for label in atlases[name]):
+                if (colored_blocks and not any(label.get('split_color_blocks') for label in atlases[name])) or (
+                        pixel_format in ('1a200152','1a200153','1a200154')
+                        and any(label.get('adaptive_palette') for label in atlases[name])):
+                    # Opaque shaded panels need per-block palettes to retain their gradients.
                     colored_blocks = dirty_blocks-mask_tints.keys()
                 if colored_blocks:
                     stream = io.BytesIO()

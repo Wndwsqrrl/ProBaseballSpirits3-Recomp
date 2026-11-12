@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 56,
+  "new_atlases": 21,
+  "editor_labels": 39,
+  "preseason_labels": 6,
+  "practice_labels": 11,
+  "previous_label_specs_unchanged": 777,
+  "previous_complete_atlas_payloads_byte_identical": 82,
+  "protected_regions": [
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_form_02.tsr",
+      "rect": [
+        0,
+        34,
+        176,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_form_02.tsr",
+      "rect": [
+        188,
+        0,
+        256,
+        32
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_04.tsr",
+      "rect": [
+        0,
+        0,
+        44,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "rect": [
+        0,
+        0,
+        48,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "rect": [
+        60,
+        0,
+        108,
+        32
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "rect": [
+        60,
+        58,
+        108,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "rect": [
+        0,
+        96,
+        108,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_kikiude_03.tsr",
+      "rect": [
+        0,
+        0,
+        256,
+        80
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_kikiude_03.tsr",
+      "rect": [
+        0,
+        128,
+        232,
+        148
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_type_02.tsr",
+      "rect": [
+        4,
+        34,
+        184,
+        58
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03a.tsr",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03a.tsr",
+      "rect": [
+        12,
+        108,
+        116,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03b.tsr",
+      "rect": [
+        0,
+        0,
+        56,
+        28
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03b.tsr",
+      "rect": [
+        8,
+        108,
+        120,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_02.tsr",
+      "rect": [
+        156,
+        0,
+        256,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_02.tsr",
+      "rect": [
+        0,
+        44,
+        176,
+        80
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_02.tsr",
+      "rect": [
+        184,
+        40,
+        244,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDposition_02.tsr",
+      "rect": [
+        8,
+        32,
+        120,
+        48
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDposition_02.tsr",
+      "rect": [
+        8,
+        82,
+        120,
+        100
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_01.tsr",
+      "rect": [
+        0,
+        32,
+        32,
+        52
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_title.tsr",
+      "rect": [
+        0,
+        44,
+        128,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_01.tsr",
+      "rect": [
+        0,
+        32,
+        32,
+        52
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_title.tsr",
+      "rect": [
+        0,
+        44,
+        128,
+        84
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_BAT.CHK",
+      "texture": "PRC_TR_dagekirenshu_moji.tsr",
+      "rect": [
+        0,
+        28,
+        88,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        88,
+        68,
+        128,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        96,
+        48,
+        120,
+        60
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        96,
+        108,
+        120,
+        124
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        12,
+        36,
+        88,
+        108
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        8,
+        144,
+        124,
+        174
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        4,
+        176,
+        28,
+        198
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        108,
+        176,
+        132,
+        198
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        4,
+        200,
+        28,
+        226
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        4,
+        228,
+        28,
+        252
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        216,
+        0,
+        256,
+        144
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "rect": [
+        144,
+        216,
+        184,
+        248
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_PIT.CHK",
+      "texture": "PRC_TR_tokyurenshu.tsr",
+      "rect": [
+        16,
+        4,
+        40,
+        28
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_PIT.CHK",
+      "texture": "PRC_TR_tokyurenshu.tsr",
+      "rect": [
+        0,
+        32,
+        256,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_RUN.CHK",
+      "texture": "PRC_TR_runnerselect00.tsr",
+      "rect": [
+        4,
+        128,
+        124,
+        200
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PRAC_RUN.CHK",
+      "texture": "PRC_TR_runnerselect00.tsr",
+      "rect": [
+        0,
+        200,
+        128,
+        256
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "font_bounds_checked": true,
+  "native_compressed_previews_checked": true,
+  "adaptive_palette_opt_in": true,
+  "clean_alpha_sampling_opt_in": true,
+  "official_2026_reference_terms": [
+    "Roster name",
+    "Throws",
+    "BATS",
+    "Details",
+    "Convert",
+    "No voice",
+    "Pitcher",
+    "Fielder",
+    "Preseason Game"
+  ],
+  "wording_notes": [
+    "First Name is used for \u540d\u524d because it is paired with a surname field",
+    "Phonetic Search describes the Japanese syllable index; it is not an alphabetic name search",
+    "Game plus the original numeric sprite plus Complete preserves the native ordinal caption order"
+  ],
+  "partial_texture": {
+    "member": "PRAC_DEF.CHK",
+    "texture": "PRC_TR_shubirenshu_gauge.tsr",
+    "remaining": "Right-side text fragments require native sprite-composition review"
+  },
+  "interactive_validation": false,
+  "entire_game_english": false
+}

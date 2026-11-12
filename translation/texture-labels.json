@@ -15089,5 +15089,1113 @@
         "align": "center"
       }
     ]
+  },
+  "EDIT.CHK": {
+    "EDIT_ED_equipment_01.tsr": [
+      {
+        "rect": [
+          152,
+          4,
+          56,
+          30
+        ],
+        "text": "Details",
+        "source": "詳細",
+        "padding": 3,
+        "max_font_size": 28,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          239,
+          239,
+          239,
+          255
+        ],
+        "split_color_blocks": true
+      }
+    ],
+    "EDIT_ED_rookie_form_02.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          176,
+          32
+        ],
+        "text": "Select Form",
+        "source": "フォーム選択",
+        "padding": 3,
+        "max_font_size": 28,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          238,
+          238,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          180,
+          34,
+          76,
+          22
+        ],
+        "text": "Stance",
+        "source": "構え",
+        "padding": 3,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          238,
+          238,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          180,
+          58,
+          76,
+          26
+        ],
+        "text": "Form",
+        "source": "フォーム",
+        "padding": 3,
+        "max_font_size": 28,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          238,
+          238,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          96,
+          106,
+          76,
+          22
+        ],
+        "text": "Delivery",
+        "source": "投法",
+        "padding": 3,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          238,
+          238,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          180,
+          94,
+          72,
+          32
+        ],
+        "text": "R Stick\nRotate Model",
+        "source": "右スティック / モデル回転",
+        "padding": 3,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          239,
+          239,
+          239,
+          255
+        ],
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ],
+    "EDIT_ED_name_02.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          64,
+          24
+        ],
+        "text": "Last Name",
+        "source": "苗字",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          24,
+          64,
+          24
+        ],
+        "text": "First Name",
+        "source": "名前",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          48,
+          64,
+          24
+        ],
+        "text": "Roster Name",
+        "source": "登録名",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EDIT_ED_name_04.tsr": [
+      {
+        "rect": [
+          44,
+          8,
+          66,
+          32
+        ],
+        "text": "Convert",
+        "source": "変換",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          68,
+          68,
+          51,
+          255
+        ],
+        "background_sample_x": 112
+      },
+      {
+        "rect": [
+          44,
+          48,
+          66,
+          32
+        ],
+        "text": "No Convert",
+        "source": "無変換",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          68,
+          68,
+          51,
+          255
+        ],
+        "background_sample_x": 112
+      }
+    ],
+    "EDIT_ED_name_03.tsr": [
+      {
+        "rect": [
+          50,
+          34,
+          58,
+          22
+        ],
+        "text": "Fast Scroll",
+        "source": "早送り",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "foreground": [
+          68,
+          68,
+          51,
+          255
+        ],
+        "background_sample_x": 50
+      }
+    ],
+    "EDIT_ED_rookie_edit_01.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          104,
+          24
+        ],
+        "text": "Last Name",
+        "source": "苗字",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          24,
+          104,
+          24
+        ],
+        "text": "First Name",
+        "source": "名前",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          48,
+          104,
+          24
+        ],
+        "text": "Roster Name",
+        "source": "登録名",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          72,
+          104,
+          24
+        ],
+        "text": "Number",
+        "source": "背番号",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          104,
+          0,
+          104,
+          24
+        ],
+        "text": "Position",
+        "source": "ポジション",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          104,
+          24,
+          104,
+          24
+        ],
+        "text": "Throws",
+        "source": "利き腕",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          104,
+          48,
+          104,
+          24
+        ],
+        "text": "Bats",
+        "source": "打席",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          104,
+          72,
+          104,
+          24
+        ],
+        "text": "Player Type",
+        "source": "選手タイプ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          96,
+          184,
+          24
+        ],
+        "text": "Jersey Name",
+        "source": "ユニフォームネーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          120,
+          184,
+          24
+        ],
+        "text": "Name Audio",
+        "source": "選手名音声",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          144,
+          184,
+          24
+        ],
+        "text": "Catching Form",
+        "source": "捕手フォーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          168,
+          184,
+          24
+        ],
+        "text": "Batting Form",
+        "source": "打撃フォーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          192,
+          184,
+          24
+        ],
+        "text": "Pitching Form",
+        "source": "投球フォーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EDIT_ED_rookie_kikiude_03.tsr": [
+      {
+        "rect": [
+          8,
+          90,
+          96,
+          36
+        ],
+        "text": "Throws",
+        "source": "利き腕",
+        "padding": 3,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          132,
+          90,
+          80,
+          36
+        ],
+        "text": "Bats",
+        "source": "打席",
+        "padding": 3,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EDIT_ED_rookie_type_02.tsr": [
+      {
+        "rect": [
+          4,
+          0,
+          152,
+          32
+        ],
+        "text": "Player Type",
+        "source": "選手タイプ",
+        "padding": 3,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EDIT_ED_uninumber_01.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          216,
+          24
+        ],
+        "text": "Jersey Name",
+        "source": "ユニフォームネーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          24,
+          96,
+          26
+        ],
+        "text": "Number",
+        "source": "背番号",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EDIT_EDonsei_03a.tsr": [
+      {
+        "rect": [
+          36,
+          2,
+          90,
+          26
+        ],
+        "text": "No Voice",
+        "source": "音声なし",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 34
+      },
+      {
+        "rect": [
+          12,
+          36,
+          104,
+          34
+        ],
+        "text": "Phonetic",
+        "source": "50音",
+        "padding": 3,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          82,
+          77,
+          66,
+          255
+        ],
+        "foreground": [
+          198,
+          195,
+          165,
+          255
+        ],
+        "clear_rect": [
+          8,
+          34,
+          112,
+          74
+        ],
+        "clear_background": [
+          82,
+          77,
+          66,
+          255
+        ]
+      },
+      {
+        "rect": [
+          28,
+          70,
+          72,
+          34
+        ],
+        "text": "Search",
+        "source": "検索",
+        "padding": 3,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          82,
+          77,
+          66,
+          255
+        ],
+        "foreground": [
+          198,
+          195,
+          165,
+          255
+        ]
+      }
+    ],
+    "EDIT_EDonsei_03b.tsr": [
+      {
+        "rect": [
+          56,
+          2,
+          70,
+          22
+        ],
+        "text": "Test Audio",
+        "source": "音声チェック",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          99,
+          97,
+          99,
+          255
+        ]
+      },
+      {
+        "rect": [
+          8,
+          32,
+          112,
+          24
+        ],
+        "text": "Name Audio",
+        "source": "選手名音声",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          82,
+          81,
+          66,
+          255
+        ],
+        "foreground": [
+          198,
+          195,
+          165,
+          255
+        ],
+        "clear_rect": [
+          8,
+          32,
+          112,
+          76
+        ],
+        "clear_background": [
+          82,
+          81,
+          66,
+          255
+        ]
+      },
+      {
+        "rect": [
+          20,
+          56,
+          88,
+          44
+        ],
+        "text": "Select",
+        "source": "選択",
+        "padding": 3,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          82,
+          81,
+          66,
+          255
+        ],
+        "foreground": [
+          198,
+          195,
+          165,
+          255
+        ]
+      }
+    ],
+    "EDIT_EDonsei_02.tsr": [
+      {
+        "rect": [
+          12,
+          4,
+          132,
+          32
+        ],
+        "text": "Name Audio",
+        "source": "選手名音声",
+        "padding": 3,
+        "max_font_size": 30,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 0,
+        "adaptive_palette": true
+      }
+    ],
+    "EDIT_EDposition_02.tsr": [
+      {
+        "rect": [
+          12,
+          4,
+          104,
+          28
+        ],
+        "text": "Pitcher",
+        "source": "投手",
+        "padding": 3,
+        "max_font_size": 30,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 10
+      },
+      {
+        "rect": [
+          12,
+          54,
+          104,
+          28
+        ],
+        "text": "Fielder",
+        "source": "野手",
+        "padding": 3,
+        "max_font_size": 30,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 10
+      }
+    ]
+  },
+  "EMAINM.CHK": {
+    "EMAINM_RKpreseson_01.tsr": [
+      {
+        "rect": [
+          4,
+          3,
+          120,
+          25
+        ],
+        "text": "Preseason",
+        "source": "オープン戦",
+        "padding": 3,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EMAINM_RKpreseson_title.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          40,
+          40
+        ],
+        "text": "Game",
+        "source": "第",
+        "padding": 3,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          78,
+          0,
+          162,
+          40
+        ],
+        "text": "Complete",
+        "source": "試合終了",
+        "padding": 3,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      }
+    ]
+  },
+  "EGPRES.CHK": {
+    "EGPRES_RKpreseson_01.tsr": [
+      {
+        "rect": [
+          4,
+          3,
+          120,
+          25
+        ],
+        "text": "Preseason",
+        "source": "オープン戦",
+        "padding": 3,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ],
+    "EGPRES_RKpreseson_title.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          40,
+          40
+        ],
+        "text": "Game",
+        "source": "第",
+        "padding": 3,
+        "max_font_size": 36,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          78,
+          0,
+          162,
+          40
+        ],
+        "text": "Complete",
+        "source": "試合終了",
+        "padding": 3,
+        "max_font_size": 40,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 2
+      }
+    ]
+  },
+  "PRAC_BAT.CHK": {
+    "PRC_TR_dagekirenshu_moji.tsr": [
+      {
+        "rect": [
+          8,
+          4,
+          72,
+          20
+        ],
+        "text": "Results",
+        "source": "結果",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "adaptive_palette": true,
+        "background_sample_alpha": true
+      }
+    ]
+  },
+  "PRAC_DEF.CHK": {
+    "PRC_TR_shubirenshu_gauge.tsr": [
+      {
+        "rect": [
+          4,
+          3,
+          124,
+          20
+        ],
+        "text": "Batted Ball",
+        "source": "打球",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 16,
+        "adaptive_palette": true,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          90,
+          28,
+          36,
+          20
+        ],
+        "text": "High",
+        "source": "高い",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          182
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          90,
+          124,
+          36,
+          20
+        ],
+        "text": "Low",
+        "source": "低い",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          182
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          28,
+          176,
+          36,
+          20
+        ],
+        "text": "Weak",
+        "source": "弱い",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          72,
+          176,
+          36,
+          20
+        ],
+        "text": "Strong",
+        "source": "強い",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          28,
+          204,
+          68,
+          20
+        ],
+        "text": "Start Practice",
+        "source": "練習開始",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          182
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          28,
+          228,
+          100,
+          24
+        ],
+        "text": "Fielding Settings",
+        "source": "守備練習設定",
+        "padding": 3,
+        "max_font_size": 20,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          182
+        ],
+        "outline_width": 1
+      }
+    ]
+  },
+  "PRAC_PIT.CHK": {
+    "PRC_TR_tokyurenshu.tsr": [
+      {
+        "rect": [
+          40,
+          4,
+          108,
+          24
+        ],
+        "text": "Change Stance",
+        "source": "構え切り替え",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          182
+        ],
+        "outline_width": 1,
+        "adaptive_palette": true
+      }
+    ]
+  },
+  "PRAC_RUN.CHK": {
+    "PRC_TR_runnerselect00.tsr": [
+      {
+        "rect": [
+          8,
+          4,
+          112,
+          20
+        ],
+        "text": "Hit Direction",
+        "source": "打撃方向",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "adaptive_palette": true,
+        "background_sample_alpha": true
+      },
+      {
+        "rect": [
+          8,
+          104,
+          112,
+          20
+        ],
+        "text": "Runner",
+        "source": "ランナー",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 12,
+        "background_sample_alpha": true
+      }
+    ]
   }
 }

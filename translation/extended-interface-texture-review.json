@@ -19,156 +19,6 @@
   "decoder_reference": "Installed ReXGlue SDK xenos.h and texture info_formats.cpp",
   "pending_textures": [
     {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_equipment_01.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200153",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_rookie_form_02.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_name_02.tsr",
-      "width": 64,
-      "height": 128,
-      "format": "1a200153",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_name_04.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "18280143",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_name_03.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "18280143",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_rookie_edit_01.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "1a200153",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_rookie_kikiude_03.tsr",
-      "width": 256,
-      "height": 256,
-      "format": "18280143",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_rookie_type_02.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200153",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_ED_uninumber_01.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200153",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_EDonsei_03a.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1a200152",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_EDonsei_03b.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1a200152",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_EDonsei_02.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "1a200152",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EDIT.CHK",
-      "texture": "EDIT_EDposition_02.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "18280143",
-      "remaining_text": "Editor field headings, controls or player-voice selection labels",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EMAINM.CHK",
-      "texture": "EMAINM_RKpreseson_01.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "18280186",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EMAINM.CHK",
-      "texture": "EMAINM_RKpreseson_title.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "18280186",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "HRDERBY.CHK",
       "texture": "HRDERBY_SHO_reto.tsr",
       "width": 256,
@@ -299,42 +149,12 @@
       "interactive_validation": false
     },
     {
-      "member": "PRAC_BAT.CHK",
-      "texture": "PRC_TR_dagekirenshu_moji.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
       "member": "PRAC_DEF.CHK",
       "texture": "PRC_TR_shubirenshu_gauge.tsr",
       "width": 256,
       "height": 256,
       "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PRAC_PIT.CHK",
-      "texture": "PRC_TR_tokyurenshu.tsr",
-      "width": 256,
-      "height": 64,
-      "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "PRAC_RUN.CHK",
-      "texture": "PRC_TR_runnerselect00.tsr",
-      "width": 128,
-      "height": 256,
-      "format": "1a200154",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "remaining_text": "Seven main captions and controls replaced. Right-side Japanese phrase fragments still need native sprite-composition review.",
       "status": "pending",
       "interactive_validation": false
     },
@@ -424,26 +244,6 @@
       "width": 256,
       "height": 512,
       "format": "1a200152",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EGPRES.CHK",
-      "texture": "EGPRES_RKpreseson_01.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "18280186",
-      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
-      "status": "pending",
-      "interactive_validation": false
-    },
-    {
-      "member": "EGPRES.CHK",
-      "texture": "EGPRES_RKpreseson_title.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "18280186",
       "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "pending",
       "interactive_validation": false
@@ -865,6 +665,206 @@
       "width": 256,
       "height": 512,
       "format": "18280186",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_equipment_01.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_form_02.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_02.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_04.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_edit_01.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_kikiude_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_type_02.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_uninumber_01.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03a.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03b.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_02.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDposition_02.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_01.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_title.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_BAT.CHK",
+      "texture": "PRC_TR_dagekirenshu_moji.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_PIT.CHK",
+      "texture": "PRC_TR_tokyurenshu.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_RUN.CHK",
+      "texture": "PRC_TR_runnerselect00.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_01.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_title.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
       "status": "english_asset_built",
       "interactive_validation": false
     }

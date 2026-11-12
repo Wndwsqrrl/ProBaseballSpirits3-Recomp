@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "39 opening caption outputs and font limits checked",
-    "all 738 prior label specifications and 80 complete earlier atlas payloads unchanged",
-    "other opening textures and three unused regions unchanged",
-    "23 newly supported source textures decoded with native byte-extent checks",
-    "all 2223 archive members verified, including 2175 untouched members"
+    "56 new editor, preseason and practice label outputs and font limits checked",
+    "all 777 prior label specifications and 82 complete earlier atlas payloads unchanged",
+    "native button icons, gauges, numerals and English subtitles preserved in protected regions",
+    "adaptive palette and clean alpha sampling apply only to the new opt-in atlases",
+    "all 2223 archive members verified, including 2168 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live editor labels, name/audio controls, preseason caption assembly and practice headings; reconstruct remaining fielding-practice phrase fragments",
     "Live opening opponent, tournament and venue captions, including legacy stadium names",
     "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
@@ -261,14 +262,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 777,
-    "total_atlases": 82,
+    "total_labels": 833,
+    "total_atlases": 103,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2175,
+    "unchanged_archive_members_verified": 2168,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -419,9 +420,23 @@
     "textures": 212,
     "decoded_previews": 212,
     "new_decode_formats": 3,
-    "additional_pending_textures": 83,
+    "additional_pending_textures": 63,
     "broader_candidates_to_classify": 1127,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
+  },
+  "editor_and_practice_texture_review": {
+    "labels": 56,
+    "atlases": 21,
+    "editor_labels": 39,
+    "preseason_labels": 6,
+    "practice_labels": 11,
+    "previous_777_label_specs_unchanged": true,
+    "previous_82_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 39,
+    "source_control_graphics_preserved": true,
+    "adaptive_background_palette": true,
+    "report": "editor-practice-validation.json",
+    "interactive_validation": false
   }
 }
