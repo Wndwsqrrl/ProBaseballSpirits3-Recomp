@@ -7,7 +7,7 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 531,
+  "texture_labels": 679,
   "localized_archive_members": 46,
   "validation": [
     "native Windows build passed",
@@ -44,9 +44,11 @@
     "30 challenge, inning, status, result and waiting labels passed native decoding, font bounds and archive checks; all 390 prior labels remain byte-identical",
     "57 position, base, roster and pitch-chart labels passed font and native region checks; eight icon and unit regions pixel-identical",
     "All 420 prior texture labels remain byte-identical after adding optional horizontal text fitting",
-    "54 result, pitching, direction, date and newspaper labels passed font and native archive checks; 69 earlier atlas payloads and seven protected regions remain identical"
+    "54 result, pitching, direction, date and newspaper labels passed font and native archive checks; 69 earlier atlas payloads and seven protected regions remain identical",
+    "148 ability labels and badges passed original-cell font bounds and native archive checks; 74 earlier atlas payloads, empty badge centers and status buttons remain unchanged"
   ],
   "pending_validation": [
+    "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
     "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
     "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
@@ -80,7 +82,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "27 documented interface textures still need localization or native-context review; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "25 documented interface textures still need localization or native-context review; see interface-texture-review.json. Additional textures may remain undiscovered.",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -268,9 +270,9 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 531,
-    "total_atlases": 74,
-    "pending_texture_entries": 27,
+    "total_labels": 679,
+    "total_atlases": 76,
+    "pending_texture_entries": 25,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -379,6 +381,19 @@
     "previous_69_atlas_payloads_byte_identical": true,
     "protected_regions": 7,
     "report": "season-stat-validation.json",
+    "interactive_validation": false
+  },
+  "ability_badge_texture_review": {
+    "labels": 148,
+    "atlases": 2,
+    "situational_ability_labels": 74,
+    "compact_badges": 74,
+    "previous_531_label_specs_unchanged": true,
+    "previous_74_atlas_payloads_byte_identical": true,
+    "protected_regions": 16,
+    "numeric_grades_preserved": true,
+    "source_grade_anomaly_preserved": true,
+    "report": "ability-badge-validation.json",
     "interactive_validation": false
   }
 }

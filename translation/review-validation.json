@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "54 new label outputs and font limits checked",
-    "seven digit, year, numeric-direction and newspaper artwork regions pixel-identical",
-    "new native BC1, BC2 and RGBA4444 previews checked",
-    "all 477 prior label specifications and 69 earlier atlas payloads unchanged",
+    "148 new ability label and badge outputs and font limits checked",
+    "original numeric ability grades preserved",
+    "16 status-button, empty-badge and unused-artwork regions pixel-identical",
+    "all 531 prior label specifications and 74 earlier atlas payloads unchanged",
     "all 2223 archive members verified, including 2177 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
     "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
     "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
@@ -258,9 +259,9 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 531,
-    "total_atlases": 74,
-    "pending_texture_entries": 27,
+    "total_labels": 679,
+    "total_atlases": 76,
+    "pending_texture_entries": 25,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -369,6 +370,19 @@
     "previous_69_atlas_payloads_byte_identical": true,
     "protected_regions": 7,
     "report": "season-stat-validation.json",
+    "interactive_validation": false
+  },
+  "ability_badge_texture_review": {
+    "labels": 148,
+    "atlases": 2,
+    "situational_ability_labels": 74,
+    "compact_badges": 74,
+    "previous_531_label_specs_unchanged": true,
+    "previous_74_atlas_payloads_byte_identical": true,
+    "protected_regions": 16,
+    "numeric_grades_preserved": true,
+    "source_grade_anomaly_preserved": true,
+    "report": "ability-badge-validation.json",
     "interactive_validation": false
   }
 }

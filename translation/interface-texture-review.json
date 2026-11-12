@@ -50,16 +50,6 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_COM_rai.tsr",
-      "width": 512,
-      "height": 512,
-      "format": "1a200154",
-      "remaining_text": "Situational ability labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_GMlap_001.tsr",
       "width": 256,
       "height": 128,
@@ -106,16 +96,6 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Pitcher and batter stat abbreviations",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_MAT_toku00.tsr",
-      "width": 256,
-      "height": 512,
-      "format": "1a200152",
-      "remaining_text": "Special ability badges",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -821,6 +801,29 @@
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Batting and pitching table abbreviations",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_COM_rai.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Situational ability labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false,
+      "source_number_anomaly": "Original repeats Pinch 2 in the lower-left sprite; native grade context unverified"
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Special ability badges",
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false

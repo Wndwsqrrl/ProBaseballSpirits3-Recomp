@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 148,
+  "new_atlases": 2,
+  "protected_regions": [
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_COM_rai.tsr",
+      "rect": [
+        152,
+        288,
+        300,
+        314
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_COM_rai.tsr",
+      "rect": [
+        350,
+        0,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        0,
+        276,
+        256,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        4,
+        4,
+        29,
+        15
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        39,
+        4,
+        64,
+        15
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        39,
+        67,
+        64,
+        78
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        74,
+        109,
+        99,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        109,
+        109,
+        134,
+        120
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        4,
+        193,
+        29,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        39,
+        193,
+        64,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        74,
+        193,
+        99,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        109,
+        193,
+        134,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        144,
+        193,
+        169,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        179,
+        193,
+        204,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        214,
+        193,
+        239,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "rect": [
+        4,
+        214,
+        29,
+        225
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "numeric_ability_grades_preserved": 70,
+  "previous_label_specs_unchanged": 531,
+  "previous_atlas_payloads_byte_identical": 74,
+  "official_2026_reference": "Installed Japanese/English localization; ability context checked separately from match statistics",
+  "wording_policy": "Use short forms of reviewed ability names and contextual official equivalents within original cells",
+  "official_context_examples": [
+    {
+      "japanese": "威圧感",
+      "official": "Aura",
+      "badge": "Aura"
+    },
+    {
+      "japanese": "粘り打ち",
+      "official": "Tough Out",
+      "badge": "2Strike"
+    },
+    {
+      "japanese": "固め打ち",
+      "official": "Hot Hitter",
+      "badge": "HotHit"
+    },
+    {
+      "japanese": "ヘッドスライディング",
+      "official": "Headfirst",
+      "badge": "Head1st"
+    }
+  ],
+  "source_anomalies": [
+    {
+      "texture": "GAME_COM_rai.tsr",
+      "rect": [
+        0,
+        286,
+        50,
+        26
+      ],
+      "source": "ピンチ2",
+      "english": "Jam 2",
+      "note": "Original repeats grade 2 after grades 1 and 2. Preserved source number; native UV usage remains unverified."
+    }
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}
