@@ -13,15 +13,21 @@ cmp=importlib.util.module_from_spec(spec);spec.loader.exec_module(cmp)
 def decode(raw,w,h,fmt):
     if fmt=='18280186':
         return Image.frombytes('RGBA',(w,h),raw,'raw','ARGB')
+    if fmt=='04900102':
+        return Image.frombytes('L',(w,h),raw).convert('RGBA')
+    if fmt=='1a20017b':
+        swapped=b''.join(raw[i:i+2][::-1] for i in range(0,len(raw),2))
+        return Image.frombytes('L',(w,h),swapped,'bcn',(4,'BC4')).convert('RGBA')
     if fmt in ('1a200152','1a200153','1a200154'):
         swapped=b''.join(raw[i:i+2][::-1] for i in range(0,len(raw),2))
         codec={'1a200152':(1,'DXT1'),'1a200153':(2,'DXT3'),'1a200154':(3,'DXT5')}[fmt]
         return Image.frombytes('RGBA',(w,h),swapped,'bcn',codec)
-    if fmt not in ('1828014f','18280143'):return None
+    if fmt not in ('1828014f','18280143','28280144'):return None
     rgba=bytearray()
     for p, in struct.iter_unpack('>H',raw):
         if fmt=='1828014f':rgba.extend(((p>>8&15)*17,(p>>4&15)*17,(p&15)*17,(p>>12&15)*17))
-        else:rgba.extend(((p>>10&31)*255//31,(p>>5&31)*255//31,(p&31)*255//31,255 if p&0x8000 else 0))
+        elif fmt=='18280143':rgba.extend(((p>>10&31)*255//31,(p>>5&31)*255//31,(p&31)*255//31,255 if p&0x8000 else 0))
+        else:rgba.extend(((p>>11&31)*255//31,(p>>5&63)*255//63,(p&31)*255//31,255))
     return Image.frombytes('RGBA',(w,h),bytes(rgba))
 
 def main():

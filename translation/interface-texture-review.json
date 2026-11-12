@@ -3,10 +3,8 @@
   "scope": "Additional interface texture review. This is not a complete game-wide graphics inventory.",
   "source_members_reviewed": 88,
   "textures_inventoried": 327,
-  "decoded_previews_reviewed": 326,
-  "source_formats_not_decoded": [
-    "28280144"
-  ],
+  "decoded_previews_reviewed": 327,
+  "source_formats_not_decoded": [],
   "pending_textures": [
     {
       "member": "BB06TIT.CHK",
@@ -837,5 +835,6 @@
       "native_sprite_layout_verified": false,
       "channel_review": "RGB and alpha channels show gradient bars or a fill mask; no Japanese lettering"
     }
-  ]
+  ],
+  "additional_discovery_report": "extended-interface-texture-review.json"
 }

@@ -14459,5 +14459,635 @@
         ]
       }
     ]
+  },
+  "PRETEM.CHK": {
+    "GAME_COMte_tex_opening.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          256,
+          24
+        ],
+        "text": "vs Yomiuri Giants",
+        "source": "対読売ジャイアンツ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          25,
+          256,
+          24
+        ],
+        "text": "vs Chunichi Dragons",
+        "source": "対中日ドラゴンズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          50,
+          256,
+          24
+        ],
+        "text": "vs Hiroshima Toyo Carp",
+        "source": "対広島東洋カープ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          75,
+          256,
+          24
+        ],
+        "text": "vs Tokyo Yakult Swallows",
+        "source": "対東京ヤクルトスワローズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          100,
+          256,
+          24
+        ],
+        "text": "vs Yokohama BayStars",
+        "source": "対横浜ベイスターズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          125,
+          256,
+          24
+        ],
+        "text": "vs Hanshin Tigers",
+        "source": "対阪神タイガース",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          150,
+          256,
+          24
+        ],
+        "text": "vs Tohoku Rakuten Golden Eagles",
+        "source": "対東北楽天ゴールデンイーグルス",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          175,
+          256,
+          24
+        ],
+        "text": "vs Hokkaido Nippon-Ham Fighters",
+        "source": "対北海道日本ハムファイターズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          200,
+          256,
+          24
+        ],
+        "text": "vs Seibu Lions",
+        "source": "対西武ライオンズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          225,
+          256,
+          24
+        ],
+        "text": "vs ORIX Buffaloes",
+        "source": "対オリックス・バファローズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          250,
+          256,
+          24
+        ],
+        "text": "vs Chiba Lotte Marines",
+        "source": "対千葉ロッテマリーンズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          275,
+          256,
+          24
+        ],
+        "text": "vs Fukuoka SoftBank Hawks",
+        "source": "対福岡ソフトバンクホークス",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          300,
+          256,
+          24
+        ],
+        "text": "All-Star Game",
+        "source": "オールスターゲーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          325,
+          256,
+          24
+        ],
+        "text": "Fresh All-Star",
+        "source": "フレッシュオールスター",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          350,
+          256,
+          24
+        ],
+        "text": "Playoffs Stage 1",
+        "source": "プレーオフ第1ステージ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          375,
+          256,
+          24
+        ],
+        "text": "Playoffs Stage 2",
+        "source": "プレーオフ第2ステージ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          400,
+          256,
+          24
+        ],
+        "text": "Nippon Series",
+        "source": "日本シリーズ",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          425,
+          256,
+          24
+        ],
+        "text": "Farm Japan Championship",
+        "source": "ファーム日本選手権",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          256,
+          0,
+          256,
+          24
+        ],
+        "text": "vs Shonan Searex",
+        "source": "対湘南シーレックス",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          256,
+          25,
+          256,
+          24
+        ],
+        "text": "vs Invoice",
+        "source": "対インボイス",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          256,
+          50,
+          256,
+          24
+        ],
+        "text": "vs Surpass",
+        "source": "対サーパス",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      }
+    ],
+    "GAME_COMst_opening.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          256,
+          20
+        ],
+        "text": "Meiji Jingu Stadium",
+        "source": "明治神宮野球場",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          21,
+          256,
+          20
+        ],
+        "text": "Hiroshima Municipal Stadium",
+        "source": "広島市民球場",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          42,
+          256,
+          20
+        ],
+        "text": "Tokyo Dome",
+        "source": "東京ドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          63,
+          256,
+          20
+        ],
+        "text": "Yokohama Stadium",
+        "source": "横浜スタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          84,
+          256,
+          20
+        ],
+        "text": "Chiba Marine Stadium",
+        "source": "千葉マリンスタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          105,
+          256,
+          20
+        ],
+        "text": "Hanshin Koshien Stadium",
+        "source": "阪神甲子園球場",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          126,
+          256,
+          20
+        ],
+        "text": "Skymark Stadium",
+        "source": "スカイマークスタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          147,
+          256,
+          20
+        ],
+        "text": "Nagoya Dome",
+        "source": "ナゴヤドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          168,
+          256,
+          20
+        ],
+        "text": "Invoice Seibu Dome",
+        "source": "インボイス西武ドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          189,
+          256,
+          20
+        ],
+        "text": "Fukuoka Yahoo! JAPAN Dome",
+        "source": "福岡Yahoo!JAPANドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          210,
+          256,
+          20
+        ],
+        "text": "Osaka Dome",
+        "source": "大阪ドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          231,
+          256,
+          20
+        ],
+        "text": "Sapporo Dome",
+        "source": "札幌ドーム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          252,
+          256,
+          20
+        ],
+        "text": "Regional Stadium",
+        "source": "地方球場",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          273,
+          256,
+          20
+        ],
+        "text": "Municipal Stadium",
+        "source": "市民球場",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          294,
+          256,
+          20
+        ],
+        "text": "USA Stadium",
+        "source": "USAスタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          315,
+          256,
+          20
+        ],
+        "text": "Sanyo Stadium",
+        "source": "山陽スタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          336,
+          256,
+          20
+        ],
+        "text": "Shikoku Stadium",
+        "source": "四国スタジアム",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          357,
+          256,
+          20
+        ],
+        "text": "Fullcast Stadium Miyagi",
+        "source": "フルキャストスタジアム宮城",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "outline_width": 1,
+        "align": "center"
+      }
+    ]
   }
 }

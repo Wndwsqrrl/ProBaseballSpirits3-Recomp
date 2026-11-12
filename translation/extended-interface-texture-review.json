@@ -1,0 +1,875 @@
+{
+  "date": "2026-11-12",
+  "scope": "Additional interface discovery outside the MENU/GAME name conventions, plus previously undecoded legacy previews. This is not a complete game-wide text inventory.",
+  "source_members_catalogued": 49,
+  "textures_catalogued": 212,
+  "textures_decoded": 212,
+  "initial_contact_previews_checked": 189,
+  "additional_credit_page_previews_checked": 21,
+  "additional_nontext_format_previews_checked": 2,
+  "standard_named_texture_inventory_entries": 450,
+  "standard_named_members": 99,
+  "metadata_presence_does_not_prove_translation_or_visual_review": true,
+  "broader_candidates_remaining_for_classification": 1127,
+  "new_decode_formats": {
+    "1a20017b": "DXT5A / BC4 single-channel; Xbox 16-bit byte swap",
+    "04900102": "8-bit single-channel",
+    "28280144": "16-bit RGB565"
+  },
+  "decoder_reference": "Installed ReXGlue SDK xenos.h and texture info_formats.cpp",
+  "pending_textures": [
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_equipment_01.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_form_02.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_02.tsr",
+      "width": 64,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_04.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_name_03.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_edit_01.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_kikiude_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_rookie_type_02.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_ED_uninumber_01.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03a.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_03b.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDonsei_02.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EDIT.CHK",
+      "texture": "EDIT_EDposition_02.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280143",
+      "remaining_text": "Editor field headings, controls or player-voice selection labels",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_01.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EMAINM.CHK",
+      "texture": "EMAINM_RKpreseson_title.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_SHO_reto.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021_b.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi00.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi01.tsr",
+      "width": 512,
+      "height": 128,
+      "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SHOPAWAKE.CHK",
+      "texture": "shopawake_VPkakusei_lv.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_select.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_silhouette.ts",
+      "width": 512,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNRTLST.CHK",
+      "texture": "PENNANT_OR_rotation.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTDYIST.CHK",
+      "texture": "PENNANT_PE_kata_01.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_rank.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTEAMINFO.CHK",
+      "texture": "PNTEAMINFO_PEteaminfo_title.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PNDAYRES.CHK",
+      "texture": "PNDAYRES_PEkekka_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_BAT.CHK",
+      "texture": "PRC_TR_dagekirenshu_moji.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_DEF.CHK",
+      "texture": "PRC_TR_shubirenshu_gauge.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_PIT.CHK",
+      "texture": "PRC_TR_tokyurenshu.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRAC_RUN.CHK",
+      "texture": "PRC_TR_runnerselect00.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKcard_parts.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_ef_renke.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKregset.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_slotmoji.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKwin_iconset.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_pic.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_kiso_bs01.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SPCARD.CHK",
+      "texture": "SPCARD_RKtrcard_sp.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200152",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_01.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "EGPRES.CHK",
+      "texture": "EGPRES_RKpreseson_title.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Mode-specific menu, instructional, stat or card text visible in decoded preview",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO000.CHK",
+      "texture": "RKINFO000_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFO100.CHK",
+      "texture": "RKINFO100_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_01.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "RKINFOLAST.CHK",
+      "texture": "RKINFOlast_RKinfo_04.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "1a200153",
+      "remaining_text": "Spirits-mode onboarding, partner-card, training-card or special-card explanation",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT03.CHK",
+      "texture": "itempict03_VPitem_pict49_64.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT04.CHK",
+      "texture": "itempict04_VPitem_pict65_80.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ITEMPICT05.CHK",
+      "texture": "itempict05_VPitem_pict81_96.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "remaining_text": "Item-preview label tiles; identify the player or item before editing",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_01.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_02.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_03.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_04.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_05.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_06.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_07.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_08.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_09.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_10.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_11.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_12.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_13.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_14.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_15.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_16.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_17.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_18.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_19.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_20.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_21.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_22.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a20017b",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_23.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "ENDING.CHK",
+      "texture": "ENDING_sr_24.tsr",
+      "width": 1024,
+      "height": 1024,
+      "format": "1a200152",
+      "remaining_text": "Credits roles and names, title logo, or Japanese licensing copy; romanization and layout review required",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "TMFLAG.CHK",
+      "texture": "MENU_COMte_flg_l.tsr",
+      "width": 1028,
+      "height": 1028,
+      "format": "28280144",
+      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_emb_s.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "28280144",
+      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_emb_l.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "28280144",
+      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
+      "status": "pending",
+      "interactive_validation": false
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_flg_m.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "28280144",
+      "remaining_text": "Japanese country labels and selected team/affiliation marks in the interface; retain original emblem artwork",
+      "status": "pending",
+      "interactive_validation": false
+    }
+  ],
+  "translated_textures": [
+    {
+      "member": "PRETEM.CHK",
+      "texture": "GAME_COMte_tex_opening.tsr",
+      "width": 512,
+      "height": 512,
+      "format": "18280186",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    },
+    {
+      "member": "PRETEM.CHK",
+      "texture": "GAME_COMst_opening.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "18280186",
+      "status": "english_asset_built",
+      "interactive_validation": false
+    }
+  ],
+  "prior_pending_report": "interface-texture-review.json",
+  "protected_content": "Japanese in-stadium signs, sponsor ads and ballpark artwork remain original",
+  "entire_game_english": false
+}

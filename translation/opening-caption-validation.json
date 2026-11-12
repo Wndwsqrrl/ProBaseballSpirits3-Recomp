@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 39,
+  "atlases": 2,
+  "opponent_and_tournament_labels": 21,
+  "venue_labels": 18,
+  "previous_label_specs_unchanged": 738,
+  "previous_complete_atlas_payloads_byte_identical": 80,
+  "other_opening_atlas_payloads_unchanged": 4,
+  "protected_regions": [
+    {
+      "texture": "GAME_COMte_tex_opening.tsr",
+      "rect": [
+        256,
+        75,
+        512,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "texture": "GAME_COMte_tex_opening.tsr",
+      "rect": [
+        0,
+        450,
+        256,
+        512
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "texture": "GAME_COMst_opening.tsr",
+      "rect": [
+        0,
+        378,
+        256,
+        512
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "new_source_format_previews_verified": 23,
+  "new_source_format_extent_checks": true,
+  "source_reference": "2006 original opening-caption atlases; historical venue and team names retained",
+  "official_2026_terms": [
+    "Nippon Series",
+    "Farm Japan Championship",
+    "Fresh All-Star"
+  ],
+  "world_stadium_assets_modified": false,
+  "interactive_validation": false,
+  "entire_game_english": false
+}

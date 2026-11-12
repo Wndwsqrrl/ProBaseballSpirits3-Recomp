@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 738,
-  "localized_archive_members": 47,
+  "texture_labels": 777,
+  "localized_archive_members": 48,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -46,9 +46,12 @@
     "All 420 prior texture labels remain byte-identical after adding optional horizontal text fitting",
     "54 result, pitching, direction, date and newspaper labels passed font and native archive checks; 69 earlier atlas payloads and seven protected regions remain identical",
     "148 ability labels and badges passed original-cell font bounds and native archive checks; 74 earlier atlas payloads, empty badge centers and status buttons remain unchanged",
-    "59 newspaper, venue, team, fixture, date and rotation-calendar labels passed font and native archive checks; 75 earlier atlas payloads, 12 existing newspaper label regions and 14 control/artwork regions unchanged"
+    "59 newspaper, venue, team, fixture, date and rotation-calendar labels passed font and native archive checks; 75 earlier atlas payloads, 12 existing newspaper label regions and 14 control/artwork regions unchanged",
+    "39 opening opponent, tournament and venue captions passed native region and font checks; all 80 earlier atlas payloads unchanged",
+    "Three additional source texture formats decoded; 212 newly catalogued previews include previously unseen editor, practice, Spirits-card and credits text"
   ],
   "pending_validation": [
+    "Live opening opponent, tournament and venue captions, including legacy stadium names",
     "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
@@ -84,7 +87,8 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "18 documented interface textures still need localization or native-context review; see interface-texture-review.json. Additional textures may remain undiscovered.",
+    "18 pending textures in interface-texture-review.json plus 83 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "1127 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -269,17 +273,17 @@
   "interface_texture_review": {
     "source_members_reviewed": 88,
     "texture_records_inventoried": 327,
-    "decoded_previews_reviewed": 326,
+    "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 738,
-    "total_atlases": 80,
+    "total_labels": 777,
+    "total_atlases": 82,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2176,
+    "unchanged_archive_members_verified": 2175,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -413,5 +417,26 @@
     "nontext_textures_reviewed": 2,
     "report": "newspaper-texture-validation.json",
     "interactive_validation": false
+  },
+  "opening_caption_texture_review": {
+    "labels": 39,
+    "atlases": 2,
+    "opponent_and_tournament_labels": 21,
+    "venue_labels": 18,
+    "previous_738_label_specs_unchanged": true,
+    "previous_80_full_atlas_payloads_byte_identical": true,
+    "historical_2006_names_preserved": true,
+    "report": "opening-caption-validation.json",
+    "interactive_validation": false
+  },
+  "extended_interface_discovery": {
+    "source_members": 49,
+    "textures": 212,
+    "decoded_previews": 212,
+    "new_decode_formats": 3,
+    "additional_pending_textures": 83,
+    "broader_candidates_to_classify": 1127,
+    "report": "extended-interface-texture-review.json",
+    "scope": "Additional discovery, not a complete game-wide coverage denominator"
   }
 }

@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "59 new label outputs and font limits checked",
-    "75 full prior atlas payloads and all 679 prior label specifications unchanged",
-    "12 existing newspaper label regions pixel-identical in native RGBA4444",
-    "14 original button, panel, calendar, numeral and artwork regions pixel-identical",
-    "all 2223 archive members verified, including 2176 untouched members"
+    "39 opening caption outputs and font limits checked",
+    "all 738 prior label specifications and 80 complete earlier atlas payloads unchanged",
+    "other opening textures and three unused regions unchanged",
+    "23 newly supported source textures decoded with native byte-extent checks",
+    "all 2223 archive members verified, including 2175 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live opening opponent, tournament and venue captions, including legacy stadium names",
     "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
@@ -257,17 +258,17 @@
   "interface_texture_review": {
     "source_members_reviewed": 88,
     "texture_records_inventoried": 327,
-    "decoded_previews_reviewed": 326,
+    "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 738,
-    "total_atlases": 80,
+    "total_labels": 777,
+    "total_atlases": 82,
     "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2176,
+    "unchanged_archive_members_verified": 2175,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -401,5 +402,26 @@
     "nontext_textures_reviewed": 2,
     "report": "newspaper-texture-validation.json",
     "interactive_validation": false
+  },
+  "opening_caption_texture_review": {
+    "labels": 39,
+    "atlases": 2,
+    "opponent_and_tournament_labels": 21,
+    "venue_labels": 18,
+    "previous_738_label_specs_unchanged": true,
+    "previous_80_full_atlas_payloads_byte_identical": true,
+    "historical_2006_names_preserved": true,
+    "report": "opening-caption-validation.json",
+    "interactive_validation": false
+  },
+  "extended_interface_discovery": {
+    "source_members": 49,
+    "textures": 212,
+    "decoded_previews": 212,
+    "new_decode_formats": 3,
+    "additional_pending_textures": 83,
+    "broader_candidates_to_classify": 1127,
+    "report": "extended-interface-texture-review.json",
+    "scope": "Additional discovery, not a complete game-wide coverage denominator"
   }
 }
