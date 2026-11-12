@@ -16197,5 +16197,953 @@
         "background_sample_alpha": true
       }
     ]
+  },
+  "HRDERBY.CHK": {
+    "HRDERBY_SHO_reto.tsr": [
+      {
+        "rect": [
+          28,
+          36,
+          152,
+          28
+        ],
+        "text": "Base VP",
+        "source": "基本獲得VP",
+        "padding": 4,
+        "max_font_size": 28,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    ],
+    "HRDERBY_MUR_021.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          160,
+          21
+        ],
+        "text": "Yomiuri Giants",
+        "source": "読売ジャイアンツ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          168,
+          0,
+          88,
+          21
+        ],
+        "text": "Giants",
+        "source": "巨人",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          21,
+          160,
+          21
+        ],
+        "text": "Chunichi Dragons",
+        "source": "中日ドラゴンズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          21,
+          88,
+          21
+        ],
+        "text": "Chunichi",
+        "source": "中日",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          42,
+          160,
+          21
+        ],
+        "text": "Hiroshima Toyo Carp",
+        "source": "広島東洋カープ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          42,
+          88,
+          21
+        ],
+        "text": "Hiroshima",
+        "source": "広島",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          63,
+          160,
+          21
+        ],
+        "text": "Yakult Swallows",
+        "source": "ヤクルトスワローズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          63,
+          88,
+          21
+        ],
+        "text": "Yakult",
+        "source": "ヤクルト",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          84,
+          160,
+          21
+        ],
+        "text": "Yokohama BayStars",
+        "source": "横浜ベイスターズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          84,
+          88,
+          21
+        ],
+        "text": "Yokohama",
+        "source": "横浜",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          105,
+          160,
+          21
+        ],
+        "text": "Hanshin Tigers",
+        "source": "阪神タイガース",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          105,
+          88,
+          21
+        ],
+        "text": "Hanshin",
+        "source": "阪神",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          126,
+          160,
+          21
+        ],
+        "text": "Tohoku Rakuten Golden Eagles",
+        "source": "東北楽天ゴールデンイーグルス",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          126,
+          88,
+          21
+        ],
+        "text": "Rakuten",
+        "source": "楽天",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          147,
+          160,
+          21
+        ],
+        "text": "Hokkaido Nippon-Ham Fighters",
+        "source": "北海道日本ハムファイターズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          147,
+          88,
+          21
+        ],
+        "text": "Nippon-Ham",
+        "source": "日本ハム",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          168,
+          160,
+          21
+        ],
+        "text": "Seibu Lions",
+        "source": "西武ライオンズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          168,
+          88,
+          21
+        ],
+        "text": "Seibu",
+        "source": "西武",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          189,
+          160,
+          21
+        ],
+        "text": "ORIX Buffaloes",
+        "source": "オリックス・バファローズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          189,
+          88,
+          21
+        ],
+        "text": "ORIX",
+        "source": "オリックス",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          210,
+          160,
+          21
+        ],
+        "text": "Chiba Lotte Marines",
+        "source": "千葉ロッテマリーンズ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          210,
+          88,
+          21
+        ],
+        "text": "Lotte",
+        "source": "ロッテ",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          231,
+          160,
+          21
+        ],
+        "text": "Fukuoka SoftBank Hawks",
+        "source": "福岡ソフトバンクホークス",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          168,
+          231,
+          88,
+          21
+        ],
+        "text": "SoftBank",
+        "source": "ソフトバンク",
+        "padding": 4,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      }
+    ],
+    "HRDERBY_MUR_021_b.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          148,
+          22
+        ],
+        "text": "Original 1",
+        "source": "オリジナル1",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1,
+        "split_color_blocks": true
+      },
+      {
+        "rect": [
+          0,
+          22,
+          148,
+          22
+        ],
+        "text": "Original 2",
+        "source": "オリジナル2",
+        "padding": 4,
+        "max_font_size": 24,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "outline_width": 1
+      }
+    ]
+  },
+  "HRMPLT.CHK": {
+    "HRMPLT_HR_kaishi00.tsr": [
+      {
+        "rect": [
+          116,
+          154,
+          72,
+          28
+        ],
+        "text": "Balance",
+        "source": "所持金",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "background_sample_x": 192,
+        "background_sample_alpha": true,
+        "adaptive_palette": true
+      }
+    ],
+    "HRMPLT_HR_kaishi01.tsr": [
+      {
+        "rect": [
+          0,
+          8,
+          96,
+          32
+        ],
+        "text": "Challenge",
+        "source": "チャレンジ",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          104,
+          20,
+          96,
+          22
+        ],
+        "text": "Challenge",
+        "source": "チャレンジ",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          220,
+          18,
+          64,
+          28
+        ],
+        "text": "Quit",
+        "source": "終了",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          324,
+          32,
+          64,
+          28
+        ],
+        "text": "Controls",
+        "source": "操作",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          416,
+          16,
+          88,
+          32
+        ],
+        "text": "Play",
+        "source": "プレイ",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          0,
+          76,
+          184,
+          36
+        ],
+        "text": "Strike Pitch",
+        "source": "ストライクピッチ",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      },
+      {
+        "rect": [
+          196,
+          76,
+          168,
+          36
+        ],
+        "text": "Home Run Derby",
+        "source": "ホームラン競争",
+        "padding": 4,
+        "max_font_size": 26,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center",
+        "outline_width": 1
+      }
+    ]
+  },
+  "SHOPAWAKE.CHK": {
+    "shopawake_VPkakusei_lv.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          48,
+          20
+        ],
+        "text": "Normal",
+        "source": "通常",
+        "padding": 2,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      },
+      {
+        "rect": [
+          0,
+          20,
+          48,
+          20
+        ],
+        "text": "Boost",
+        "source": "覚醒",
+        "padding": 2,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ]
+  },
+  "PNRTLST.CHK": {
+    "PENNANT_OR_rotation.tsr": [
+      {
+        "rect": [
+          4,
+          20,
+          20,
+          20
+        ],
+        "text": "vs",
+        "source": "対",
+        "padding": 1,
+        "max_font_size": 22,
+        "min_font_size": 12,
+        "condense": true,
+        "align": "center"
+      }
+    ]
   }
 }

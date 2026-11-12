@@ -1,6 +1,6 @@
 {
   "archive_members": 2223,
-  "unchanged_members_verified": 2168,
+  "unchanged_members_verified": 2165,
   "localized_members": [
     "ARRANGE.CHK",
     "ARR_CHAN.CHK",
@@ -14,6 +14,7 @@
     "GAME2D.CHK",
     "HRBREC.CHK",
     "HRDERBY.CHK",
+    "HRMPLT.CHK",
     "HRRECD.CHK",
     "MAINMENU.CHK",
     "MENU2D.CHK",
@@ -33,6 +34,7 @@
     "PNCALENDAR.CHK",
     "PNDAILY.CHK",
     "PNPSS.CHK",
+    "PNRTLST.CHK",
     "PNTODAY06.CHK",
     "PNTRADE.CHK",
     "PRAC_BAT.CHK",
@@ -44,6 +46,7 @@
     "ROTCAL.CHK",
     "RSHAIQ.CHK",
     "SELECT.CHK",
+    "SHOPAWAKE.CHK",
     "SNDSET.CHK",
     "SOLOCONTR.CHK",
     "SOLOINFO.CHK",
@@ -58,8 +61,8 @@
     "UTYJMN.CHK",
     "UTYTOP.CHK"
   ],
-  "atlases": 103,
-  "labels": 833,
+  "atlases": 110,
+  "labels": 871,
   "outside_localized_regions_unchanged": true,
   "packed_text_slots": 83,
   "pennant_event_titles": 187,

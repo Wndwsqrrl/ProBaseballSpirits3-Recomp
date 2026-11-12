@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 38,
+  "new_atlases": 7,
+  "team_full_and_short_names": 24,
+  "custom_team_labels": 2,
+  "challenge_and_balance_labels": 9,
+  "boost_and_rotation_labels": 3,
+  "previous_label_specs_unchanged": 833,
+  "previous_complete_atlas_payloads_byte_identical": 103,
+  "protected_regions": [
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_SHO_reto.tsr",
+      "rect": [
+        208,
+        0,
+        256,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_SHO_reto.tsr",
+      "rect": [
+        12,
+        64,
+        184,
+        112
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021.tsr",
+      "rect": [
+        160,
+        0,
+        168,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021.tsr",
+      "rect": [
+        0,
+        252,
+        256,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021_b.tsr",
+      "rect": [
+        148,
+        0,
+        256,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRDERBY.CHK",
+      "texture": "HRDERBY_MUR_021_b.tsr",
+      "rect": [
+        0,
+        44,
+        256,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi00.tsr",
+      "rect": [
+        0,
+        0,
+        512,
+        140
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi00.tsr",
+      "rect": [
+        272,
+        160,
+        300,
+        180
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi01.tsr",
+      "rect": [
+        128,
+        0,
+        172,
+        20
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi01.tsr",
+      "rect": [
+        4,
+        44,
+        96,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "HRMPLT.CHK",
+      "texture": "HRMPLT_HR_kaishi01.tsr",
+      "rect": [
+        104,
+        44,
+        200,
+        64
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SHOPAWAKE.CHK",
+      "texture": "shopawake_VPkakusei_lv.tsr",
+      "rect": [
+        0,
+        40,
+        104,
+        100
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SHOPAWAKE.CHK",
+      "texture": "shopawake_VPkakusei_lv.tsr",
+      "rect": [
+        52,
+        0,
+        104,
+        80
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "SHOPAWAKE.CHK",
+      "texture": "shopawake_VPkakusei_lv.tsr",
+      "rect": [
+        0,
+        100,
+        104,
+        128
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNRTLST.CHK",
+      "texture": "PENNANT_OR_rotation.tsr",
+      "rect": [
+        0,
+        0,
+        64,
+        20
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNRTLST.CHK",
+      "texture": "PENNANT_OR_rotation.tsr",
+      "rect": [
+        28,
+        20,
+        40,
+        40
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNRTLST.CHK",
+      "texture": "PENNANT_OR_rotation.tsr",
+      "rect": [
+        0,
+        40,
+        64,
+        64
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "font_bounds_checked": true,
+  "native_compressed_previews_checked": true,
+  "official_2026_reference_terms": [
+    "Normal",
+    "Boost"
+  ],
+  "wording_notes": [
+    "2006 original team names and source abbreviations retained",
+    "Blue-backed team text cells use transparent black BC1 text masks to keep both the alpha and red mask backgrounds at zero; verify native shader use in the home-run menu",
+    "Balance retains the separate original VP unit; level numbers and price values are unchanged"
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}
