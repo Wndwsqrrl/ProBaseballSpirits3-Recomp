@@ -50,16 +50,6 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_GMlap_001.tsr",
-      "width": 256,
-      "height": 128,
-      "format": "18280186",
-      "remaining_text": "Date and order labels",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_GMplayer_data.tsr",
       "width": 128,
       "height": 64,
@@ -71,31 +61,11 @@
     },
     {
       "member": "GAME2D.CHK",
-      "texture": "GAME_GMplayer_sta.tsr",
-      "width": 64,
-      "height": 64,
-      "format": "1828014f",
-      "remaining_text": "Decoded texture contains a bar and fill mask; verify native use before treating it as text.",
-      "status": "native_context_pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
       "texture": "GAME_GMshift_index.tsr",
       "width": 64,
       "height": 64,
       "format": "1a200152",
       "remaining_text": "Defensive alignment tab fragments",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_GMstats_00.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1a200152",
-      "remaining_text": "Pitcher and batter stat abbreviations",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -131,36 +101,6 @@
       "native_sprite_layout_verified": false
     },
     {
-      "member": "PNTODAY06.CHK",
-      "texture": "MENU_PEtoday_gamecard.tsr",
-      "width": 512,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Fixture and tournament headings",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "PNTODAY06.CHK",
-      "texture": "MENU_PEtoday_stte.tsr",
-      "width": 512,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Weekdays, era caption, weekday heading, title badge and season status translated; vertical team, tournament and venue labels remain",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "PNTODAY06.CHK",
-      "texture": "MENU_PEtoday_title.tsr",
-      "width": 128,
-      "height": 256,
-      "format": "1828014f",
-      "remaining_text": "Newspaper masthead",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "PPRAC.CHK",
       "texture": "GAME_GM_pithelp.tsr",
       "width": 256,
@@ -177,16 +117,6 @@
       "height": 128,
       "format": "1a200152",
       "remaining_text": "Team initials and scorecard marks",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "ROTCAL.CHK",
-      "texture": "MENU_PE_tousyu_hiduke.tsr",
-      "width": 128,
-      "height": 128,
-      "format": "1828014f",
-      "remaining_text": "Rain and movement day fragments",
       "status": "pending",
       "native_sprite_layout_verified": false
     },
@@ -827,6 +757,85 @@
       "status": "english_asset_built",
       "native_sprite_layout_verified": false,
       "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMlap_001.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "18280186",
+      "remaining_text": "Date and order labels",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Fixture and tournament headings",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Weekdays, era caption, weekday heading, title badge and season status translated; vertical team, tournament and venue labels remain",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_title.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1828014f",
+      "remaining_text": "Newspaper masthead",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    },
+    {
+      "member": "ROTCAL.CHK",
+      "texture": "MENU_PE_tousyu_hiduke.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1828014f",
+      "remaining_text": "Rain and movement day fragments",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "interactive_validation": false
+    }
+  ],
+  "nontext_textures": [
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_sta.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1828014f",
+      "remaining_text": "Decoded texture contains a bar and fill mask; verify native use before treating it as text.",
+      "status": "nontext_graphic_reviewed",
+      "native_sprite_layout_verified": false,
+      "channel_review": "RGB and alpha channels show gradient bars or a fill mask; no Japanese lettering"
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMstats_00.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200152",
+      "remaining_text": "Pitcher and batter stat abbreviations",
+      "status": "nontext_graphic_reviewed",
+      "native_sprite_layout_verified": false,
+      "channel_review": "RGB and alpha channels show gradient bars or a fill mask; no Japanese lettering"
     }
   ]
 }

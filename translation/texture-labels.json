@@ -6915,6 +6915,38 @@
           255
         ]
       }
+    ],
+    "GAME_GMlap_001.tsr": [
+      {
+        "rect": [
+          73,
+          99,
+          15,
+          19
+        ],
+        "text": "M",
+        "source": "月",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "outline_width": 0.5
+      },
+      {
+        "rect": [
+          89,
+          99,
+          15,
+          19
+        ],
+        "text": "D",
+        "source": "日",
+        "padding": 1,
+        "max_font_size": 18,
+        "min_font_size": 10,
+        "condense": true,
+        "outline_width": 0.5
+      }
     ]
   },
   "UTYTOP.CHK": {
@@ -12721,6 +12753,1710 @@
           0
         ],
         "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          27,
+          1,
+          22,
+          48
+        ],
+        "text": "All-Star",
+        "source": "オールスター",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          51,
+          1,
+          22,
+          48
+        ],
+        "text": "Shikoku",
+        "source": "四国",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          75,
+          1,
+          22,
+          48
+        ],
+        "text": "Sanyo",
+        "source": "山陽",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          123,
+          1,
+          22,
+          48
+        ],
+        "text": "Municipal Park",
+        "source": "市民球場",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          147,
+          1,
+          22,
+          48
+        ],
+        "text": "Regional Park",
+        "source": "地方球場",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          171,
+          1,
+          22,
+          48
+        ],
+        "text": "Sapporo Dome",
+        "source": "札幌ドーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          195,
+          1,
+          22,
+          48
+        ],
+        "text": "Osaka Dome",
+        "source": "大阪ドーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          219,
+          1,
+          22,
+          48
+        ],
+        "text": "Yahoo! Dome",
+        "source": "ヤフードーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          243,
+          1,
+          22,
+          48
+        ],
+        "text": "Seibu Dome",
+        "source": "西武ドーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          267,
+          1,
+          22,
+          48
+        ],
+        "text": "Chiba Marine",
+        "source": "千葉マリン",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          291,
+          1,
+          22,
+          48
+        ],
+        "text": "Skymark",
+        "source": "スカイマーク",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          315,
+          1,
+          22,
+          48
+        ],
+        "text": "Koshien",
+        "source": "甲子園",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          339,
+          1,
+          22,
+          48
+        ],
+        "text": "Nagoya Dome",
+        "source": "ナゴヤドーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          363,
+          1,
+          22,
+          48
+        ],
+        "text": "Yokohama",
+        "source": "横浜",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          387,
+          1,
+          22,
+          48
+        ],
+        "text": "Tokyo Dome",
+        "source": "東京ドーム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          411,
+          1,
+          22,
+          48
+        ],
+        "text": "Hiroshima M.",
+        "source": "広島市民",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          435,
+          1,
+          22,
+          48
+        ],
+        "text": "Jingu",
+        "source": "神宮",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          27,
+          50,
+          26,
+          63
+        ],
+        "text": "SoftBank",
+        "source": "ソフトバンク",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          55,
+          50,
+          26,
+          63
+        ],
+        "text": "Lotte",
+        "source": "ロッテ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          83,
+          50,
+          26,
+          63
+        ],
+        "text": "ORIX",
+        "source": "オリックス",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          111,
+          50,
+          26,
+          63
+        ],
+        "text": "Seibu",
+        "source": "西武",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          139,
+          50,
+          26,
+          63
+        ],
+        "text": "Nippon-Ham",
+        "source": "日本ハム",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          167,
+          50,
+          26,
+          63
+        ],
+        "text": "Rakuten",
+        "source": "楽天",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          195,
+          50,
+          26,
+          63
+        ],
+        "text": "Hanshin",
+        "source": "阪神",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          223,
+          50,
+          26,
+          63
+        ],
+        "text": "Yokohama",
+        "source": "横浜",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          251,
+          50,
+          26,
+          63
+        ],
+        "text": "Yakult",
+        "source": "ヤクルト",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          279,
+          50,
+          26,
+          63
+        ],
+        "text": "Hiroshima",
+        "source": "広島",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          307,
+          50,
+          26,
+          63
+        ],
+        "text": "Chunichi",
+        "source": "中日",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          335,
+          50,
+          26,
+          63
+        ],
+        "text": "Giants",
+        "source": "巨人",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          27,
+          114,
+          26,
+          63
+        ],
+        "text": "Chinese Taipei",
+        "source": "中華台北",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          55,
+          114,
+          26,
+          63
+        ],
+        "text": "Korea",
+        "source": "韓国",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          83,
+          114,
+          26,
+          63
+        ],
+        "text": "China",
+        "source": "中国",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          111,
+          114,
+          26,
+          63
+        ],
+        "text": "West All-Stars",
+        "source": "全ウ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          139,
+          114,
+          26,
+          63
+        ],
+        "text": "East All-Stars",
+        "source": "全イ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          167,
+          114,
+          26,
+          63
+        ],
+        "text": "Surpass",
+        "source": "サーパス",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          195,
+          114,
+          26,
+          63
+        ],
+        "text": "Invoice",
+        "source": "インボイス",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          223,
+          114,
+          26,
+          63
+        ],
+        "text": "Shonan",
+        "source": "湘南",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          251,
+          114,
+          26,
+          63
+        ],
+        "text": "All-Pacific",
+        "source": "全パ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      },
+      {
+        "rect": [
+          279,
+          114,
+          26,
+          63
+        ],
+        "text": "All-Central",
+        "source": "全セ",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          85,
+          85,
+          255
+        ],
+        "foreground": [
+          85,
+          85,
+          85,
+          0
+        ],
+        "alpha_mask_only": true
+      }
+    ],
+    "MENU_PEtoday_gamecard.tsr": [
+      {
+        "rect": [
+          0,
+          0,
+          44,
+          106
+        ],
+        "text": "Fresh All-Star",
+        "source": "フレッシュオールスター",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          44,
+          0,
+          44,
+          106
+        ],
+        "text": "All-Star Game",
+        "source": "オールスターゲーム",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          88,
+          0,
+          44,
+          106
+        ],
+        "text": "Interleague",
+        "source": "交流戦",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          132,
+          0,
+          44,
+          106
+        ],
+        "text": "Interleague",
+        "source": "セ・パ交流戦",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          176,
+          0,
+          44,
+          106
+        ],
+        "text": "Regular Season",
+        "source": "レギュラーシーズン",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          0,
+          106,
+          44,
+          106
+        ],
+        "text": "Asia Series",
+        "source": "アジアシリーズ",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          44,
+          106,
+          44,
+          106
+        ],
+        "text": "Farm Japan\nChampionship",
+        "source": "ファーム日本選手権",
+        "padding": 42,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          88,
+          106,
+          44,
+          106
+        ],
+        "text": "Nippon Series",
+        "source": "日本シリーズ",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          132,
+          106,
+          44,
+          106
+        ],
+        "text": "Playoffs Stage 2",
+        "source": "プレーオフ第2ステージ",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          176,
+          106,
+          44,
+          106
+        ],
+        "text": "Playoffs Stage 1",
+        "source": "プレーオフ第1ステージ",
+        "padding": 22,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "background_keep_alpha": true,
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 0.5,
+        "outline": [
+          51,
+          85,
+          102,
+          255
+        ]
+      },
+      {
+        "rect": [
+          224,
+          8,
+          32,
+          72
+        ],
+        "text": "Yesterday's Games",
+        "source": "昨日の試合",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "background": [
+          170,
+          102,
+          102,
+          255
+        ],
+        "foreground": [
+          68,
+          68,
+          68,
+          255
+        ]
+      },
+      {
+        "rect": [
+          276,
+          108,
+          176,
+          14
+        ],
+        "text": "~ Standings ~",
+        "source": "～ 順 位 表 ～",
+        "padding": 2,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "background": [
+          85,
+          119,
+          153,
+          255
+        ],
+        "foreground": [
+          68,
+          68,
+          68,
+          255
+        ]
+      }
+    ],
+    "MENU_PEtoday_title.tsr": [
+      {
+        "rect": [
+          8,
+          2,
+          84,
+          26
+        ],
+        "text": "SPI SPORTS",
+        "source": "スピスポ",
+        "padding": 4,
+        "max_font_size": 20,
+        "min_font_size": 10,
+        "condense": true,
+        "outline_width": 2,
+        "outline": [
+          170,
+          102,
+          102,
+          255
+        ],
+        "background_sample_x": 4
+      },
+      {
+        "rect": [
+          62,
+          88,
+          24,
+          70
+        ],
+        "text": "Today's",
+        "source": "きょうの",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "foreground": [
+          255,
+          238,
+          85,
+          255
+        ],
+        "outline_width": 2,
+        "outline": [
+          85,
+          102,
+          187,
+          255
+        ],
+        "clear_rect": [
+          8,
+          80,
+          88,
+          160
+        ],
+        "clear_background": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "rect": [
+          16,
+          110,
+          48,
+          126
+        ],
+        "text": "Pro Baseball",
+        "source": "プロ野球",
+        "padding": 3,
+        "max_font_size": 24,
+        "min_font_size": 10,
+        "condense": true,
+        "text_rotation": 90,
+        "align": "center",
+        "foreground": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "outline_width": 2,
+        "outline": [
+          85,
+          102,
+          187,
+          255
+        ]
+      }
+    ]
+  },
+  "ROTCAL.CHK": {
+    "MENU_PE_tousyu_hiduke.tsr": [
+      {
+        "rect": [
+          36,
+          0,
+          18,
+          18
+        ],
+        "text": "Rain",
+        "source": "雨",
+        "padding": 1,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "condense": true,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          54,
+          0,
+          18,
+          18
+        ],
+        "text": "Trav",
+        "source": "移",
+        "padding": 1,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "condense": true,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
+      },
+      {
+        "rect": [
+          72,
+          0,
+          18,
+          18
+        ],
+        "text": "Tie",
+        "source": "分",
+        "padding": 1,
+        "max_font_size": 16,
+        "min_font_size": 10,
+        "condense": true,
+        "foreground": [
+          0,
+          0,
+          0,
+          255
+        ]
       }
     ]
   }

@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-12",
+  "label_occurrences": 59,
+  "new_atlases": 4,
+  "rotated_text_clockwise_degrees": 90,
+  "protected_regions": [
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "rect": [
+        99,
+        0,
+        121,
+        49
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_stte.tsr",
+      "rect": [
+        0,
+        178,
+        324,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "rect": [
+        228,
+        80,
+        254,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "rect": [
+        260,
+        8,
+        500,
+        104
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "rect": [
+        224,
+        124,
+        508,
+        204
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_gamecard.tsr",
+      "rect": [
+        140,
+        214,
+        208,
+        246
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_title.tsr",
+      "rect": [
+        100,
+        0,
+        108,
+        224
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "PNTODAY06.CHK",
+      "texture": "MENU_PEtoday_title.tsr",
+      "rect": [
+        100,
+        228,
+        128,
+        256
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMlap_001.tsr",
+      "rect": [
+        16,
+        60,
+        100,
+        96
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMlap_001.tsr",
+      "rect": [
+        104,
+        60,
+        124,
+        96
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMlap_001.tsr",
+      "rect": [
+        104,
+        104,
+        124,
+        116
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ROTCAL.CHK",
+      "texture": "MENU_PE_tousyu_hiduke.tsr",
+      "rect": [
+        0,
+        0,
+        36,
+        18
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ROTCAL.CHK",
+      "texture": "MENU_PE_tousyu_hiduke.tsr",
+      "rect": [
+        94,
+        0,
+        108,
+        18
+      ],
+      "pixels_unchanged": true
+    },
+    {
+      "member": "ROTCAL.CHK",
+      "texture": "MENU_PE_tousyu_hiduke.tsr",
+      "rect": [
+        0,
+        20,
+        128,
+        128
+      ],
+      "pixels_unchanged": true
+    }
+  ],
+  "previous_label_specs_unchanged": 679,
+  "previous_complete_atlas_payloads_byte_identical": 75,
+  "previous_newspaper_label_regions_pixel_identical": 12,
+  "alpha_only_texture_rgb_preserved": true,
+  "nontext_textures_checked": [
+    "GAME_GMstats_00.tsr",
+    "GAME_GMplayer_sta.tsr"
+  ],
+  "official_2026_matches": [
+    {
+      "japanese": "ファーム日本選手権",
+      "english": "Farm Japan Championship"
+    },
+    {
+      "japanese": "日本シリーズ",
+      "english": "Nippon Series"
+    },
+    {
+      "japanese": "セ・パ交流戦",
+      "english": "Interleague"
+    },
+    {
+      "japanese": "移動日",
+      "english": "Travel Day"
+    }
+  ],
+  "wording_notes": [
+    "2006 venue and minor-league team names retained, including Yahoo! Dome, Skymark, Surpass and Invoice",
+    "SPI SPORTS adapts the fictional Japanese newspaper brand; it is not a verified official English name",
+    "Hiroshima M. abbreviates Hiroshima Municipal in the narrow venue column",
+    "Rain, Trav and Tie replace the rotation-calendar glyphs; Trav abbreviates Travel Day"
+  ],
+  "interactive_validation": false,
+  "entire_game_english": false
+}

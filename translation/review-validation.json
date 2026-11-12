@@ -22,15 +22,16 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
-    "148 new ability label and badge outputs and font limits checked",
-    "original numeric ability grades preserved",
-    "16 status-button, empty-badge and unused-artwork regions pixel-identical",
-    "all 531 prior label specifications and 74 earlier atlas payloads unchanged",
-    "all 2223 archive members verified, including 2177 untouched members"
+    "59 new label outputs and font limits checked",
+    "75 full prior atlas payloads and all 679 prior label specifications unchanged",
+    "12 existing newspaper label regions pixel-identical in native RGBA4444",
+    "14 original button, panel, calendar, numeral and artwork regions pixel-identical",
+    "all 2223 archive members verified, including 2176 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
     "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
@@ -259,14 +260,14 @@
     "decoded_previews_reviewed": 326,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 679,
-    "total_atlases": 76,
-    "pending_texture_entries": 25,
+    "total_labels": 738,
+    "total_atlases": 80,
+    "pending_texture_entries": 18,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2177,
+    "unchanged_archive_members_verified": 2176,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -383,6 +384,22 @@
     "numeric_grades_preserved": true,
     "source_grade_anomaly_preserved": true,
     "report": "ability-badge-validation.json",
+    "interactive_validation": false
+  },
+  "newspaper_and_calendar_texture_review": {
+    "labels": 59,
+    "atlases": 5,
+    "new_atlases": 4,
+    "team_and_venue_columns": 39,
+    "fixture_headings": 12,
+    "masthead_labels": 3,
+    "date_and_rotation_markers": 5,
+    "previous_679_label_specs_unchanged": true,
+    "previous_75_full_atlas_payloads_byte_identical": true,
+    "previous_12_newspaper_label_regions_pixel_identical": true,
+    "protected_regions": 14,
+    "nontext_textures_reviewed": 2,
+    "report": "newspaper-texture-validation.json",
     "interactive_validation": false
   }
 }
