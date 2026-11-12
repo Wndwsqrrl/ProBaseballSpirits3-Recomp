@@ -257,6 +257,15 @@ def patch_chk(data, atlases, font_path, preview):
                                 stroke_width=stroke,
                                 stroke_fill=tuple(label.get('outline',(0,0,0,255))), **text_options)
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
+                    if 'transparent_rgb' in label:
+                        color = label['transparent_rgb']
+                        if len(color) != 3 or any(not isinstance(c, int) or not 0 <= c <= 255 for c in color):
+                            raise ValueError('Transparent RGB must contain three byte values')
+                        # DDS color fitting can include invisible black pixels in
+                        # a block palette. Keep their RGB near the outline tint.
+                        hidden = Image.new('RGBA', tile.size, tuple(color) + (0,))
+                        hidden.paste(tile, (0,0), tile.getchannel('A').point(lambda a: 255 if a else 0))
+                        tile = hidden
                     if label.get('alpha_mask_only'):
                         # Some newspaper sprites carry text only in alpha; RGB is a fixed tint.
                         original = image.crop((x,y,x+w,y+h))

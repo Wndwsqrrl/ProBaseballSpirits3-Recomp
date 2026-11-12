@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-12",
+  "scope": "Ten additional mode archives from the broader discovery queue; not a complete game-wide text inventory",
+  "source_members": 10,
+  "source_textures": 27,
+  "decoded_previews_reviewed": 26,
+  "normal_maps_classified_by_metadata": 1,
+  "translated_atlases": 5,
+  "preserved_texture_payloads": 22,
+  "textures": [
+    {
+      "member": "CHOUSEI.CHK",
+      "texture": "CHOUSEI_PEtoushuchousei_01.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "18280186",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_umpire_note.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray_nmap.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200171",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray_occ.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a20017b",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_base.tsr",
+      "width": 64,
+      "height": 64,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_konami.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_npb.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_dolby.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPlastlogo.tsr",
+      "width": 512,
+      "height": 64,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPkage.tsr",
+      "width": 64,
+      "height": 512,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPlogo.tsr",
+      "width": 512,
+      "height": 128,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPef_hikari01.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "ORDPNN.CHK",
+      "texture": "ORDPNN_SHO_tyosei.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200152",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1828014f",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "18280186",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_03.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_02.tsr",
+      "width": 128,
+      "height": 128,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpcopy_memo.tsr",
+      "width": 256,
+      "height": 128,
+      "format": "1a200153",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpcopy_moji.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1a200153",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpselect.tsr",
+      "width": 256,
+      "height": 64,
+      "format": "1a200152",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PChelp.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "1a200152",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "TRISEL.CHK",
+      "texture": "TR_STtop_icon.tsr",
+      "width": 256,
+      "height": 512,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "TRISEL.CHK",
+      "texture": "TR_STtop_map.tsr",
+      "width": 512,
+      "height": 256,
+      "format": "28280144",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_moji.tsr",
+      "width": 512,
+      "height": 128,
+      "format": "1a200154",
+      "status": "english_asset_built"
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_ha.tsr",
+      "width": 128,
+      "height": 256,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_ef.tsr",
+      "width": 256,
+      "height": 256,
+      "format": "1a200154",
+      "status": "original_decorative_model_effect_or_english_art"
+    }
+  ],
+  "control_note": "Trial icon atlas includes both R1 and RB variants; preserve original artwork until the active native branch is verified",
+  "report": "mode-discovery-validation.json",
+  "interactive_validation": false,
+  "entire_game_english": false
+}

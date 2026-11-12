@@ -7,8 +7,8 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 1995,
-  "localized_archive_members": 106,
+  "texture_labels": 2017,
+  "localized_archive_members": 109,
   "validation": [
     "native Windows build passed",
     "format safety checks passed",
@@ -58,9 +58,11 @@
     "104 Spirits slot/mode labels verified, with all 43 numeric and eight circle grades preserved; all 240 earlier atlas payloads, 14 original art/effect payloads and nine protected regions unchanged",
     "16 RGB565 team, country and affiliation captions verified at native widths 256, 512 and 1028; all 245 previous atlas payloads and 32 protected emblem/flag regions unchanged",
     "34 pitch-analysis labels passed font and native texture checks; all 249 previous atlas payloads and three control/separator regions unchanged",
-    "693 shared gameplay/editor material records classified using decoded previews and material-family metadata; both complete source members retained byte-identically"
+    "693 shared gameplay/editor material records classified using decoded previews and material-family metadata; both complete source members retained byte-identically",
+    "22 partner, role, record, copy-dialog and championship labels verified; all 250 earlier atlas payloads, 23 protected regions and 22 original decorative/effect texture payloads unchanged"
   ],
   "pending_validation": [
+    "Live partner categories/badges, pitcher roles, record banners, player-copy dialogs and championship captions; verify R1/RB trial icon branch",
     "Live pitch-analysis result-filter fragment assembly, legacy pitch-name terminology and source UV placement",
     "Live RGB565 country/team/affiliation captions, small Surpass emblems and team flag presentation",
     "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
@@ -107,7 +109,7 @@
   ],
   "remaining": [
     "17 pending textures in interface-texture-review.json plus 23 additional textures in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
-    "245 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
+    "218 broader texture candidates still need classification; many may be model or non-text graphics rather than translation targets",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
     "remaining catalogued draft wording",
@@ -295,14 +297,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1995,
-    "total_atlases": 250,
+    "total_labels": 2017,
+    "total_atlases": 255,
     "pending_texture_entries": 17,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2117,
+    "unchanged_archive_members_verified": 2114,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -454,7 +456,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 245,
+    "broader_candidates_to_classify": 218,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -607,5 +609,27 @@
     "normal_maps_classified_by_metadata": 26,
     "original_member_payloads_byte_identical": 2,
     "report": "shared-material-review.json"
+  },
+  "additional_mode_texture_review": {
+    "labels": 22,
+    "atlases": 5,
+    "new_archive_members": 3,
+    "partner_categories_and_badges": 12,
+    "pitcher_roles": 2,
+    "record_labels": 4,
+    "player_copy_dialogs": 2,
+    "championship_captions": 2,
+    "previous_1995_label_specs_unchanged": true,
+    "previous_250_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 23,
+    "preserved_texture_payloads": 22,
+    "discovery_members": 10,
+    "discovery_textures": 27,
+    "decoded_previews_reviewed": 26,
+    "normal_maps_classified_by_metadata": 1,
+    "record_banner_uses_exact_2026_term": true,
+    "report": "mode-discovery-validation.json",
+    "review_report": "mode-discovery-review.json",
+    "interactive_validation": false
   }
 }

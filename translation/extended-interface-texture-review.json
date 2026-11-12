@@ -10,7 +10,7 @@
   "standard_named_texture_inventory_entries": 450,
   "standard_named_members": 99,
   "metadata_presence_does_not_prove_translation_or_visual_review": true,
-  "broader_candidates_remaining_for_classification": 245,
+  "broader_candidates_remaining_for_classification": 218,
   "new_decode_formats": {
     "1a20017b": "DXT5A / BC4 single-channel; Xbox 16-bit byte swap",
     "04900102": "8-bit single-channel",
@@ -878,5 +878,6 @@
   ],
   "related_tutorial_family_report": "spirits-tutorial-validation.json",
   "related_slot_discovery_report": "slot-texture-review.json",
-  "related_material_review_report": "shared-material-review.json"
+  "related_material_review_report": "shared-material-review.json",
+  "related_mode_discovery_report": "mode-discovery-review.json"
 }

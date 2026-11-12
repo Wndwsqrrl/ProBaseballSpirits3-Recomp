@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-12",
+  "new_labels": 22,
+  "new_atlases": 5,
+  "new_archive_members": 3,
+  "partner_categories_and_badges": 12,
+  "pitcher_roles": 2,
+  "record_labels": 4,
+  "player_copy_dialogs": 2,
+  "championship_captions": 2,
+  "previous_label_specs_unchanged": 1995,
+  "previous_complete_atlas_payloads_byte_identical": 250,
+  "protected_regions": [
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        0,
+        0,
+        12,
+        20
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        56,
+        0,
+        70,
+        20
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        112,
+        0,
+        126,
+        20
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        168,
+        0,
+        182,
+        20
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        8,
+        24,
+        108,
+        46
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PARSEL.CHK",
+      "texture": "PARSEL_RKps.tsr",
+      "rect": [
+        118,
+        47,
+        190,
+        72
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "ORDPNN.CHK",
+      "texture": "ORDPNN_SHO_tyosei.tsr",
+      "rect": [
+        0,
+        0,
+        128,
+        32
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "ORDPNN.CHK",
+      "texture": "ORDPNN_SHO_tyosei.tsr",
+      "rect": [
+        0,
+        84,
+        128,
+        128
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        22,
+        24,
+        133,
+        54
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        216,
+        0,
+        232,
+        16
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        0,
+        0,
+        178,
+        22
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        134,
+        26,
+        182,
+        42
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        200,
+        154,
+        244,
+        181
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        108,
+        92,
+        244,
+        120
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_01.tsr",
+      "rect": [
+        150,
+        124,
+        252,
+        147
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PChelp.tsr",
+      "rect": [
+        8,
+        12,
+        150,
+        74
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PChelp.tsr",
+      "rect": [
+        168,
+        24,
+        312,
+        88
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PChelp.tsr",
+      "rect": [
+        0,
+        0,
+        8,
+        160
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PChelp.tsr",
+      "rect": [
+        152,
+        0,
+        168,
+        160
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_moji.tsr",
+      "rect": [
+        0,
+        0,
+        512,
+        30
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_moji.tsr",
+      "rect": [
+        0,
+        30,
+        148,
+        128
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_moji.tsr",
+      "rect": [
+        288,
+        30,
+        434,
+        90
+      ],
+      "pixels_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_moji.tsr",
+      "rect": [
+        436,
+        32,
+        512,
+        104
+      ],
+      "pixels_identical": true
+    }
+  ],
+  "preserved_texture_payloads": [
+    {
+      "member": "CHOUSEI.CHK",
+      "texture": "CHOUSEI_PEtoushuchousei_01.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_umpire_note.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray_nmap.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray_occ.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "INJURY.CHK",
+      "texture": "INJURY_spray.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_base.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_konami.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_npb.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "KLOGO.CHK",
+      "texture": "KLOGO_OPcredit_dolby.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPlastlogo.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPkage.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPlogo.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "OPDEMO.CHK",
+      "texture": "OPDEMO_OPef_hikari01.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_03.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "PENASTATS.CHK",
+      "texture": "PENASTATS_PE_record_02.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpcopy_memo.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpcopy_moji.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "PLRCPY.CHK",
+      "texture": "PLRCPY_PCpselect.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "TRISEL.CHK",
+      "texture": "TR_STtop_icon.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "TRISEL.CHK",
+      "texture": "TR_STtop_map.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_ha.tsr",
+      "full_payload_byte_identical": true
+    },
+    {
+      "member": "VLOGO.CHK",
+      "texture": "VLOGO_champ_ef.tsr",
+      "full_payload_byte_identical": true
+    }
+  ],
+  "record_reference": {
+    "source": "Installed eBaseball PRO SPIRIT 2026 localization",
+    "namespace": "Pennant",
+    "key": "pn_ui_record_bar_name002_00",
+    "japanese": "継続中！",
+    "english": "Ongoing!"
+  },
+  "transparent_palette_tint_used_for_gold_captions": true,
+  "font_bounds_checked": true,
+  "native_decoded_previews_checked": true,
+  "interactive_validation": false,
+  "entire_game_english": false
+}

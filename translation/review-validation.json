@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "22 additional mode labels passed font/native texture checks; all 250 prior complete atlas payloads and 23 protected artwork/control regions unchanged",
     "34 pitch-analysis labels passed font/native decoding checks; all 249 prior atlas payloads unchanged; 693 material records classified and source members retained",
     "16 RGB565 labels passed font/native pixel checks; all 245 prior atlas payloads and 32 original emblem/flag regions unchanged",
     "104 slot/mode labels passed font and native decoding checks; 43 numeric and eight circle grades preserved, 45 exact contextual matches to 2026 terminology, all 240 prior complete atlas payloads unchanged",
@@ -31,7 +32,7 @@
     "all 926 prior label specifications and 117 complete earlier atlas payloads unchanged",
     "60 original photo, illustration, English subtitle, counter and flag regions pixel-identical",
     "original SPECIAL TRAINING card frame payload unchanged",
-    "all 2223 archive members verified, including 2117 untouched members"
+    "all 2223 archive members verified, including 2114 untouched members"
   ],
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
@@ -270,14 +271,14 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 1995,
-    "total_atlases": 250,
+    "total_labels": 2017,
+    "total_atlases": 255,
     "pending_texture_entries": 17,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
     "rebuilt_bc1_and_argb_textures_decoded": true,
-    "unchanged_archive_members_verified": 2117,
+    "unchanged_archive_members_verified": 2114,
     "interactive_validation": false
   },
   "auto_game_and_results_texture_review": {
@@ -429,7 +430,7 @@
     "decoded_previews": 212,
     "new_decode_formats": 3,
     "additional_pending_textures": 23,
-    "broader_candidates_to_classify": 245,
+    "broader_candidates_to_classify": 218,
     "report": "extended-interface-texture-review.json",
     "scope": "Additional discovery, not a complete game-wide coverage denominator"
   },
@@ -582,5 +583,27 @@
     "normal_maps_classified_by_metadata": 26,
     "original_member_payloads_byte_identical": 2,
     "report": "shared-material-review.json"
+  },
+  "additional_mode_texture_review": {
+    "labels": 22,
+    "atlases": 5,
+    "new_archive_members": 3,
+    "partner_categories_and_badges": 12,
+    "pitcher_roles": 2,
+    "record_labels": 4,
+    "player_copy_dialogs": 2,
+    "championship_captions": 2,
+    "previous_1995_label_specs_unchanged": true,
+    "previous_250_full_atlas_payloads_byte_identical": true,
+    "protected_regions": 23,
+    "preserved_texture_payloads": 22,
+    "discovery_members": 10,
+    "discovery_textures": 27,
+    "decoded_previews_reviewed": 26,
+    "normal_maps_classified_by_metadata": 1,
+    "record_banner_uses_exact_2026_term": true,
+    "report": "mode-discovery-validation.json",
+    "review_report": "mode-discovery-review.json",
+    "interactive_validation": false
   }
 }
