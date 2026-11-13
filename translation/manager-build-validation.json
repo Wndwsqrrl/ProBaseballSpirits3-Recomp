@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "catalogue_sha256": "6850cbb5c48d87361822b1b4ee71bb01d47ac8d74d5947ead1b8149b22b4ec98",
+  "tested_and_built_header_sha256": "ef46a01926568c57308dfe69e63f586a2187158901dcec42668a2c5b671e21dd",
+  "staged_windows_compile_and_link_passed": true,
+  "staged_build_scope": "Same Ninja compile/link rules with a separate executable/map/import-library output; runtime DLL copying disabled",
+  "normal_windows_build_passed": true,
+  "normal_build_command": "cmd /c tools/build-port.cmd",
+  "staged_executable_sha256": "4f1eb269d53ab7e4ccb023467862be8a49a70be70ae74e243838d761f237c3db",
+  "normal_executable_sha256": "a81f42b3175e66c3bbbbc83d8eebc0d9634557efe7e981e9c315e867e26bc441",
+  "staged_executable_bytes": 38662144,
+  "normal_executable_bytes": 38662144,
+  "runtime_dll_hashes_unchanged": true,
+  "old_executable_hash_unchanged_during_staged_build": true,
+  "normal_executable_updated_after_game_process_exit": true,
+  "game_relaunched": false,
+  "compiled_match_caption_inputs_checked": 271,
+  "compiled_manager_verdict_inputs_checked": 82,
+  "compiled_pipeline_text_pieces_checked": 73,
+  "seeded_native_pipeline_cases": 15522,
+  "source_reports": [
+    "match-fallback-wording-validation.json",
+    "manager-verdict-wording-validation.json",
+    "manager-report-pipeline-validation.json"
+  ],
+  "runtime_validation": false,
+  "entire_game_english": false
+}

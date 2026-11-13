@@ -22,6 +22,8 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Updated caption and manager wording compiled and linked in a separate staged Windows build, then passed the normal Windows build after the game process exited; tested/generated header hashes match, runtime DLLs are unchanged, and no new game session was launched.",
+    "Native manager-report generation/sorting/selection exercised on 15522 seeded inputs; all 73 nonempty pieces matched compiled English, all 51 inner comments appeared, bounded piece/report sizes passed, and 30 independent no-highlight replays matched. Live wrapping and real-match statistics remain unchecked.",
     "Outer manager verdict checked through 30 seeded native no-highlight cases and 82 compiled lookups; Offense/Defense headings reviewed, 11 fallback phrases improved, 14 curation guards passed, and the 51 complete inner comments/4956 name aliases unchanged. Port rebuild remains deferred during play.",
     "55 match-caption fallback fragments improved and two 3+ hit-game templates clarified using 2026 Match terminology; 271 compiled lookups and 57 curation guards passed; all 4956 name aliases and catalogue statuses unchanged. Port rebuild deferred while the game is running.",
     "Player-data labels CON R/CON L/Power confirmed by native ability-grade paths; nine labels fit exact SBIB UV crops, all 262 other atlas payloads and 2112 untouched archive members unchanged",
@@ -52,8 +54,8 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
-    "Live outer manager verdict and offense/defense heading placement; nonempty highlight selection, sorting, rating calculation, mixed reports and rendered wrapping remain unverified",
-    "Rebuild the Windows port after the current play session; verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
+    "Live outer manager verdict and offense/defense heading placement; real-match event statistics, rating derivation and rendered wrapping remain unverified; seeded selection/sorting is checked offline",
+    "Verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
     "Live manager fallback and legacy wrapped newspaper/draft-option context, fragment boundaries and line placement",
     "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
     "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 250 provisional full-name readings and surname-only widget context",
@@ -844,8 +846,9 @@
     "compiled_lookup_inputs_checked": 271,
     "curation_status_guards_checked": 57,
     "report": "match-fallback-wording-validation.json",
-    "normal_windows_build_passed": false,
-    "interactive_validation": false
+    "normal_windows_build_passed": true,
+    "interactive_validation": false,
+    "windows_build_report": "manager-build-validation.json"
   },
   "manager_verdict_wording_review": {
     "draft_fallbacks_improved": 11,
@@ -856,7 +859,19 @@
     "compiled_lookup_inputs_checked": 82,
     "curation_status_guards_checked": 14,
     "report": "manager-verdict-wording-validation.json",
-    "normal_windows_build_passed": false,
-    "interactive_validation": false
+    "normal_windows_build_passed": true,
+    "interactive_validation": false,
+    "windows_build_report": "manager-build-validation.json"
+  },
+  "manager_report_pipeline_review": {
+    "native_cases": 15522,
+    "unique_text_pieces": 73,
+    "compiled_lookup_inputs_checked": 73,
+    "independent_native_instruction_replay_cases": 30,
+    "seeded_native_sorting_and_selection_checked": true,
+    "normal_windows_build_passed": true,
+    "interactive_validation": false,
+    "report": "manager-report-pipeline-validation.json",
+    "windows_build_report": "manager-build-validation.json"
   }
 }

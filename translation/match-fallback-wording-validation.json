@@ -547,8 +547,8 @@
   "estimated_font": "Arial 16 px; not a live layout guarantee",
   "fragment_assembly_status": "Drafts; changed fragments are fallbacks only. Complete caption templates retain priority. Word order, numeric joins and singular/plural behavior still need live checks.",
   "running_game_files_changed": false,
-  "normal_windows_build_passed": false,
-  "normal_windows_build_status": "Pending; game is running and the active executable is left untouched.",
+  "normal_windows_build_passed": true,
+  "normal_windows_build_status": "Passed after the earlier game process exited; updated executable not relaunched",
   "interactive_validation": false,
   "entire_game_english": false,
   "compiled_lookup_inputs_checked": 271,
@@ -565,5 +565,6 @@
     "reviewed": 9896,
     "draft": 3430,
     "game-roster-family": 5650
-  }
+  },
+  "windows_build_report": "manager-build-validation.json"
 }

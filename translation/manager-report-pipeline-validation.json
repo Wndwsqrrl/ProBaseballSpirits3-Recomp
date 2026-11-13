@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-13",
+  "scope": "Offline seeded manager-report assembly; not a live-match or rendered-layout guarantee",
+  "native_functions": [
+    {
+      "function": "0x825429F0",
+      "end_exclusive": "0x82543020",
+      "machine_code_sha256": "ad042b25ce93c46c7a64995c55c74afac741db2e7b2d10bfc404f2eb7641b660"
+    },
+    {
+      "function": "0x82543020",
+      "end_exclusive": "0x825434A0",
+      "machine_code_sha256": "b584003c7c8ccf2bfedbc92eecc3a8a34ab3830dbe4691dc3748a16587c4577c"
+    },
+    {
+      "function": "0x825434A0",
+      "end_exclusive": "0x82543B28",
+      "machine_code_sha256": "c352ac5cbed1e4a13b4bb0d46f704228083538e4a7d9c147131fd0f84770421d"
+    },
+    {
+      "function": "0x825F4998",
+      "end_exclusive": "0x825F4A10",
+      "machine_code_sha256": "d345af1e75191b1a752611fa51c1ecc9882f9604a34b32c7582cfef5531cfd5e"
+    },
+    {
+      "function": "0x825F4A10",
+      "end_exclusive": "0x825F4C10",
+      "machine_code_sha256": "6d7a4f7d6b9603175ce159d187e4b2f57421eed495b566041ab19a005cbcc2e2"
+    },
+    {
+      "function": "0x825F4C10",
+      "end_exclusive": "0x825F4D70",
+      "machine_code_sha256": "0c1fb7dc622b30225bb20c54f67f23fdcf41e3de369dc5fcdb79b8772560ecf1"
+    },
+    {
+      "function": "0x825F4D70",
+      "end_exclusive": "0x825F4ED0",
+      "machine_code_sha256": "24320a035e845f3413fbaa13d29f62aeb6de8481b65b0233a0184a399842dd3e"
+    }
+  ],
+  "native_cases": 15522,
+  "case_matrix": {
+    "sides": 2,
+    "score_comparisons": 3,
+    "empty_highlight_variants": 5,
+    "single_highlight_codes": 29,
+    "single_highlight_variants": 60,
+    "ordered_two_highlight_pairs_per_side_and_comparison": 841,
+    "ten_highlight_sort_cases": 6,
+    "excluded_reserved_inner_builder_codes": [
+      14,
+      23
+    ]
+  },
+  "original_generation_sorting_and_selection_bodies_executed": true,
+  "native_runtime_boundary_stubs": [
+    "Guest memset",
+    "Known %s formatter and append helper",
+    "Report output captures"
+  ],
+  "guest_abi": "Big-endian loads/stores and native nonvolatile register/LR stack save/restore offsets",
+  "floating_point_scope": "Only finite constants and integer-to-float paths in these seeded inputs; flush-mode method has no effect in the harness",
+  "seeded_input_limits": "Highlight records and the rating byte are provided directly. Event counters are zero-filled; mapping arbitrary real match statistics to highlights/ratings remains unchecked.",
+  "unique_nonempty_text_pieces": 73,
+  "compiled_lookup_inputs_checked": 73,
+  "compiled_lookup_results_matched": true,
+  "all_previous_51_complete_inner_comment_sources_exercised": true,
+  "newline_control_retained": true,
+  "empty_original_piece_occurrences_preserved": 0,
+  "translated_ascii_reports": 15522,
+  "max_piece_bytes_including_terminator_and_added_space": 131,
+  "max_report_bytes_including_terminator": 410,
+  "bounded_piece_and_report_sizes_passed": true,
+  "independent_native_instruction_replay_cases": 30,
+  "independent_no_highlight_replays_match": true,
+  "replay_output_sha256": "d02fe971b01b39639f9de13b5cf7ed7a65e1924d10d9e2721f34fd2ac947c990",
+  "normal_windows_build_passed": true,
+  "normal_windows_build_status": "Passed after the earlier game process exited; updated executable not relaunched",
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Real-match event counters and rating derivation",
+    "Native word wrapping and proportional-font line placement",
+    "Integration rebuild and live report transitions"
+  ],
+  "windows_build_report": "manager-build-validation.json"
+}

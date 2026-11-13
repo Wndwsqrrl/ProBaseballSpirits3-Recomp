@@ -151,13 +151,15 @@
   "native_no_highlight_cases": 30,
   "native_no_highlight_unique_reports": 15,
   "source_table": "0x827E0988",
-  "native_replay_scope": "Actual no-highlight verdict control flow, source pointers and side/comparison branches; excludes highlight selection, sorting, full mixed reports and live wrapping.",
-  "seeded_rating_field": "object + 0x98; the preceding rating calculation is stubbed, not validated here",
+  "native_replay_scope": "Actual no-highlight verdict control flow, native highlight generation with the specified zero-filled event counters, source pointers and side/comparison branches; excludes nonempty highlight selection/sorting, full mixed reports and live wrapping.",
+  "seeded_rating_field": "object + 0x98; supplied as an input. The native helper 0x825429F0 generates highlights and does not calculate this rating.",
   "native_cases": [
     {
       "side": 0,
       "comparison": -1,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A138",
@@ -169,6 +171,8 @@
       "side": 0,
       "comparison": -1,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0FC",
@@ -180,6 +184,8 @@
       "side": 0,
       "comparison": -1,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0DC",
@@ -191,6 +197,8 @@
       "side": 0,
       "comparison": -1,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1A8",
@@ -202,6 +210,8 @@
       "side": 0,
       "comparison": -1,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0B4",
@@ -213,6 +223,8 @@
       "side": 0,
       "comparison": 0,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A240",
@@ -224,6 +236,8 @@
       "side": 0,
       "comparison": 0,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A204",
@@ -235,6 +249,8 @@
       "side": 0,
       "comparison": 0,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1DC",
@@ -246,6 +262,8 @@
       "side": 0,
       "comparison": 0,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1A8",
@@ -257,6 +275,8 @@
       "side": 0,
       "comparison": 0,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A17C",
@@ -268,6 +288,8 @@
       "side": 0,
       "comparison": 1,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A330",
@@ -279,6 +301,8 @@
       "side": 0,
       "comparison": 1,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2F4",
@@ -290,6 +314,8 @@
       "side": 0,
       "comparison": 1,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2E0",
@@ -301,6 +327,8 @@
       "side": 0,
       "comparison": 1,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2B8",
@@ -312,6 +340,8 @@
       "side": 0,
       "comparison": 1,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A284",
@@ -323,6 +353,8 @@
       "side": 1,
       "comparison": -1,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A138",
@@ -334,6 +366,8 @@
       "side": 1,
       "comparison": -1,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0FC",
@@ -345,6 +379,8 @@
       "side": 1,
       "comparison": -1,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0DC",
@@ -356,6 +392,8 @@
       "side": 1,
       "comparison": -1,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1A8",
@@ -367,6 +405,8 @@
       "side": 1,
       "comparison": -1,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A0B4",
@@ -378,6 +418,8 @@
       "side": 1,
       "comparison": 0,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A240",
@@ -389,6 +431,8 @@
       "side": 1,
       "comparison": 0,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A204",
@@ -400,6 +444,8 @@
       "side": 1,
       "comparison": 0,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1DC",
@@ -411,6 +457,8 @@
       "side": 1,
       "comparison": 0,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A1A8",
@@ -422,6 +470,8 @@
       "side": 1,
       "comparison": 0,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A17C",
@@ -433,6 +483,8 @@
       "side": 1,
       "comparison": 1,
       "rating": 0,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A330",
@@ -444,6 +496,8 @@
       "side": 1,
       "comparison": 1,
       "rating": 1,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2F4",
@@ -455,6 +509,8 @@
       "side": 1,
       "comparison": 1,
       "rating": 2,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2E0",
@@ -466,6 +522,8 @@
       "side": 1,
       "comparison": 1,
       "rating": 3,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A2B8",
@@ -477,6 +535,8 @@
       "side": 1,
       "comparison": 1,
       "rating": 4,
+      "native_highlight_generation_executed": true,
+      "native_generated_highlights": 0,
       "source_addresses": [
         "0x8209A624",
         "0x8209A284",
@@ -566,8 +626,8 @@
   "source_fields_unchanged": true,
   "previous_complete_51_manager_comments_unchanged": true,
   "running_game_files_changed": false,
-  "normal_windows_build_passed": false,
-  "normal_windows_build_status": "Deferred while the current game session is open",
+  "normal_windows_build_passed": true,
+  "normal_windows_build_status": "Passed after the earlier game process exited; updated executable not relaunched",
   "interactive_validation": false,
   "entire_game_english": false,
   "compiled_lookup_inputs_checked": 82,
@@ -596,5 +656,10 @@
     "reviewed": 9898,
     "draft": 3428,
     "game-roster-family": 5650
-  }
+  },
+  "native_highlight_generation_helper": "0x825429F0",
+  "native_highlight_generation_helper_end_exclusive": "0x82543020",
+  "native_highlight_generation_machine_code_sha256": "ad042b25ce93c46c7a64995c55c74afac741db2e7b2d10bfc404f2eb7641b660",
+  "expanded_pipeline_report": "manager-report-pipeline-validation.json",
+  "windows_build_report": "manager-build-validation.json"
 }
