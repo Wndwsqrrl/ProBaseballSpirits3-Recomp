@@ -138,5 +138,93 @@
     "field": "family",
     "source_hash": "0A154407B685B4A3",
     "english": "Hori"
+  },
+  {
+    "record_address": "0x82041C14",
+    "record_id": "010007A1",
+    "field": "given",
+    "source_hash": "0A0B5A07B67D8580",
+    "english": "Takeshi",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82041C78",
+    "record_id": "01000916",
+    "field": "given",
+    "source_hash": "247A8524A497CA2E",
+    "english": "Taishi",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82041EE4",
+    "record_id": "01000937",
+    "field": "given",
+    "source_hash": "6F20423F969F7C3A",
+    "english": "Tatsuya",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82041F0C",
+    "record_id": "01000939",
+    "field": "given",
+    "source_hash": "E0B80A187E01DCC6",
+    "english": "Ryosuke",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82042060",
+    "record_id": "010007C8",
+    "field": "given",
+    "source_hash": "247B0324A498A048",
+    "english": "Daiki",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82042344",
+    "record_id": "010007B9",
+    "field": "given",
+    "source_hash": "09F5E907B66A6973",
+    "english": "Masaru",
+    "status": "reviewed"
+  },
+  {
+    "record_address": "0x820423F8",
+    "record_id": "010007D0",
+    "field": "given",
+    "source_hash": "09F03E07B6668E34",
+    "english": "Tsuyoshi",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82042448",
+    "record_id": "010007CC",
+    "field": "given",
+    "source_hash": "09F5E907B66A6973",
+    "english": "Masaru",
+    "status": "reviewed"
+  },
+  {
+    "record_address": "0x820424D4",
+    "record_id": "010007C3",
+    "field": "given",
+    "source_hash": "0A1C3B07B68BC406",
+    "english": "Jin",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x820425B0",
+    "record_id": "01000795",
+    "field": "given",
+    "source_hash": "09F3D307B669C13A",
+    "english": "Hikaru",
+    "status": "draft"
+  },
+  {
+    "record_address": "0x82042600",
+    "record_id": "0100079D",
+    "field": "given",
+    "source_hash": "0A0B5A07B67D8580",
+    "english": "Takeshi",
+    "status": "draft"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 15832,
-  "unique_fingerprints": 15538,
+  "catalogue_records": 16084,
+  "unique_fingerprints": 15790,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
   "changed_existing_translations": 6,
   "added_fingerprints": 4,
@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "2,064 compiled full-name lookups passed; Windows build passed; eight provisional given-name overrides remain drafts after curation; original roster evidence hashes and prior 1,812 aliases verified",
     "1814 compiled lookups and the normal Windows build passed for expanded name contexts and corrected ERA/K fragments; all original position-label mappings retained",
     "Native build and 1647 compiled lookups passed for 39 reviewed original entries and 1608 complete generated-name aliases; regeneration is repeatable",
     "Four print headings passed font/native decoding checks; 257 prior atlases and seven original regions unchanged. Title prompt verified already English against the original archive.",
@@ -43,7 +44,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
-    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 262 unresolved native name-pool records",
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 241 unmapped native name-pool records plus nine provisional full-name readings",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
@@ -713,13 +714,16 @@
   },
   "generated_name_pool_coverage": {
     "native_records": 413,
-    "complete_name_pairs_mapped": 151,
-    "unresolved_records": 262,
-    "complete_name_aliases": 1812,
+    "complete_name_pairs_mapped": 172,
+    "complete_reviewed_name_pairs": 163,
+    "provisional_name_pairs": 9,
+    "unmapped_records": 241,
+    "unresolved_records": 250,
+    "complete_name_aliases": 2064,
     "western_pairs_mapped": 66,
     "western_pairs": 66,
-    "contextual_field_overrides": 20,
-    "report": "name-context-expansion-validation.json",
+    "contextual_field_overrides": 31,
+    "report": "japanese-name-reading-validation.json",
     "interactive_validation": false
   },
   "name_context_expansion": {
@@ -732,5 +736,6 @@
     "original_fielding_position_labels_unchanged": true,
     "report": "name-context-expansion-validation.json",
     "interactive_validation": false
-  }
+  },
+  "reviewed_name_pool_entries": 418
 }

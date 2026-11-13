@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-12",
+  "reviewed_global_fields": 8,
+  "provisional_global_fields": 8,
+  "field_evidence": [
+    {
+      "address": "0x8208AFFC",
+      "source": "淳",
+      "english": "Jun",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x827599EB",
+          "source_hash": "714AA40813DAC8A0",
+          "english": "Jun"
+        }
+      ]
+    },
+    {
+      "address": "0x8208AFE0",
+      "source": "武治",
+      "english": "Takeharu",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x8274C6FB",
+          "source_hash": "1A476B64BE89E7FB",
+          "english": "Takeharu"
+        }
+      ]
+    },
+    {
+      "address": "0x8208AF80",
+      "source": "聡",
+      "english": "Satoshi",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x82755E8B",
+          "source_hash": "57FE2CE775FF7BDB",
+          "english": "Satoshi"
+        }
+      ]
+    },
+    {
+      "address": "0x8208AF54",
+      "source": "誠",
+      "english": "Makoto",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x82742F6B",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x8274E253",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x827556BB",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x8275EE4B",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x82760F1B",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x8274fb53",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        },
+        {
+          "address": "0x82750003",
+          "source_hash": "B9658ACDE39F3B62",
+          "english": "Makoto"
+        }
+      ]
+    },
+    {
+      "address": "0x8208A9B8",
+      "source": "亮",
+      "english": "Ryo",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x8274981B",
+          "source_hash": "5612ED9AD62AE9EC",
+          "english": "Ryo"
+        },
+        {
+          "address": "0x827609A3",
+          "source_hash": "5612ED9AD62AE9EC",
+          "english": "Ryo"
+        },
+        {
+          "address": "0x8274f8fb",
+          "source_hash": "5612ED9AD62AE9EC",
+          "english": "Ryo"
+        }
+      ]
+    },
+    {
+      "address": "0x8208A898",
+      "source": "太一",
+      "english": "Taichi",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x82750a2b",
+          "source_hash": "15ACE74509688920",
+          "english": "Taichi"
+        }
+      ]
+    },
+    {
+      "address": "0x8208A47C",
+      "source": "豊",
+      "english": "Yutaka",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x82750963",
+          "source_hash": "527112AC0434A71D",
+          "english": "Yutaka"
+        }
+      ]
+    },
+    {
+      "address": "0x8208A450",
+      "source": "悟",
+      "english": "Satoru",
+      "status": "reviewed",
+      "basis": "Canonical spelling shared with the unique given-name spelling in the original roster patch; not proof of the fictional player pronunciation",
+      "original_roster_evidence": [
+        {
+          "address": "0x8275C353",
+          "source_hash": "9427A0885518C19E",
+          "english": "Satoru"
+        }
+      ]
+    },
+    {
+      "address": "0x8208AF68",
+      "source": "武",
+      "english": "Takeshi",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_832",
+        "japanese": "武",
+        "english": "Takeshi"
+      }
+    },
+    {
+      "address": "0x8208AEF8",
+      "source": "大志",
+      "english": "Taishi",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_556",
+        "japanese": "大志",
+        "english": "Taishi"
+      }
+    },
+    {
+      "address": "0x8208ABFC",
+      "source": "達也",
+      "english": "Tatsuya",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_175",
+        "japanese": "達也",
+        "english": "Tatsuya"
+      }
+    },
+    {
+      "address": "0x8208ABC4",
+      "source": "遼介",
+      "english": "Ryosuke",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_1098",
+        "japanese": "遼介",
+        "english": "Ryosuke"
+      }
+    },
+    {
+      "address": "0x8208AA2C",
+      "source": "大樹",
+      "english": "Daiki",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_16",
+        "japanese": "大樹",
+        "english": "Daiki"
+      }
+    },
+    {
+      "address": "0x8208A5F0",
+      "source": "剛",
+      "english": "Tsuyoshi",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_510",
+        "japanese": "剛",
+        "english": "Tsuyoshi"
+      }
+    },
+    {
+      "address": "0x8208A4E0",
+      "source": "仁",
+      "english": "Jin",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_103",
+        "japanese": "仁",
+        "english": "Jin"
+      }
+    },
+    {
+      "address": "0x8208A3F4",
+      "source": "光",
+      "english": "Hikaru",
+      "status": "draft",
+      "basis": "Exact 2026 PersonName match; original generated-player pronunciation remains unconfirmed",
+      "official_2026_reference": {
+        "namespace": "PersonName",
+        "key": "common_player_name_114",
+        "japanese": "光",
+        "english": "Hikaru"
+      }
+    }
+  ],
+  "new_record_specific_fields": [
+    {
+      "record_address": "0x82041C14",
+      "record_id": "010007A1",
+      "field": "given",
+      "source_hash": "0A0B5A07B67D8580",
+      "english": "Takeshi",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82041C78",
+      "record_id": "01000916",
+      "field": "given",
+      "source_hash": "247A8524A497CA2E",
+      "english": "Taishi",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82041EE4",
+      "record_id": "01000937",
+      "field": "given",
+      "source_hash": "6F20423F969F7C3A",
+      "english": "Tatsuya",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82041F0C",
+      "record_id": "01000939",
+      "field": "given",
+      "source_hash": "E0B80A187E01DCC6",
+      "english": "Ryosuke",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82042060",
+      "record_id": "010007C8",
+      "field": "given",
+      "source_hash": "247B0324A498A048",
+      "english": "Daiki",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82042344",
+      "record_id": "010007B9",
+      "field": "given",
+      "source_hash": "09F5E907B66A6973",
+      "english": "Masaru",
+      "status": "reviewed"
+    },
+    {
+      "record_address": "0x820423F8",
+      "record_id": "010007D0",
+      "field": "given",
+      "source_hash": "09F03E07B6668E34",
+      "english": "Tsuyoshi",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82042448",
+      "record_id": "010007CC",
+      "field": "given",
+      "source_hash": "09F5E907B66A6973",
+      "english": "Masaru",
+      "status": "reviewed"
+    },
+    {
+      "record_address": "0x820424D4",
+      "record_id": "010007C3",
+      "field": "given",
+      "source_hash": "0A1C3B07B68BC406",
+      "english": "Jin",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x820425B0",
+      "record_id": "01000795",
+      "field": "given",
+      "source_hash": "09F3D307B669C13A",
+      "english": "Hikaru",
+      "status": "draft"
+    },
+    {
+      "record_address": "0x82042600",
+      "record_id": "0100079D",
+      "field": "given",
+      "source_hash": "0A0B5A07B67D8580",
+      "english": "Takeshi",
+      "status": "draft"
+    }
+  ],
+  "standalone_win_label_preserved": "W",
+  "original_pronunciations_not_inferred_from_2026": true,
+  "interactive_validation": false,
+  "native_records": 413,
+  "complete_reviewed_name_pairs": 163,
+  "provisional_name_pairs": 9,
+  "complete_name_pairs_mapped": 172,
+  "unmapped_name_pair_records": 241,
+  "accuracy_unresolved_name_pair_records": 250,
+  "complete_name_aliases": 2064,
+  "new_complete_name_aliases": 252,
+  "prior_1812_aliases_unchanged": true,
+  "original_source_fields_unchanged": true,
+  "prior_unedited_catalogue_rows_unchanged": 15821,
+  "compiled_lookup_results_matched": true,
+  "native_build_this_round": true,
+  "compiled_lookup_inputs_checked": 2064,
+  "alias_regeneration_repeatable": true,
+  "provisional_curation_does_not_promote_to_reviewed": true,
+  "original_roster_evidence_checked": true,
+  "normal_windows_build_passed": true,
+  "catalogue_status_counts": {
+    "reviewed": 9890,
+    "draft": 544,
+    "game-roster-family": 5650
+  },
+  "new_reviewed_pairs": 12,
+  "new_provisional_pairs": 9,
+  "original_fields_checked": 16,
+  "changed_original_rows": 11
+}

@@ -31,16 +31,20 @@ def main():
             excluded.append(row['address'])
             continue
         address_review=row['address'] in config['overrides']
+        address_provisional=not address_review and row['address'] in config.get('provisional_overrides', {})
+        if address_provisional:
+            row['english'] = config['provisional_overrides'][row['address']]
+            row['status'] = 'draft'
         if address_review:
             row['english'] = config['overrides'][row['address']]
             row['status'] = 'reviewed'
-        if not address_review and normalize(row['source']) in words:
+        if not address_review and not address_provisional and normalize(row['source']) in words:
             row['english'] = words[normalize(row['source'])]
             row['status'] = 'reviewed'
         parts = re.split(r'(<[^>]*>)', row['english'])
         source_parts = re.split(r'(<[^>]*>)', row['source'])
         for i in range(0,len(parts),2):
-            if not address_review and len(parts)==len(source_parts) and normalize(source_parts[i]) in words:
+            if not address_review and not address_provisional and len(parts)==len(source_parts) and normalize(source_parts[i]) in words:
                 parts[i]=words[normalize(source_parts[i])]
                 if source_parts[i].endswith(' '):parts[i]+=' '
             parts[i] = parts[i].replace('・','-').replace('【','[').replace('】',']')

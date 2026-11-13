@@ -6252,7 +6252,15 @@
     "0x8209833C": " IP",
     "0x82098340": " ERA",
     "0x8209834C": " K",
-    "0x8209174C": "Fielder Use"
+    "0x8209174C": "Fielder Use",
+    "0x8208AFFC": "Jun",
+    "0x8208AFE0": "Takeharu",
+    "0x8208AF80": "Satoshi",
+    "0x8208AF54": "Makoto",
+    "0x8208A9B8": "Ryo",
+    "0x8208A898": "Taichi",
+    "0x8208A47C": "Yutaka",
+    "0x8208A450": "Satoru"
   },
   "additional_strings": [
     {
@@ -8155,5 +8163,15 @@
   "exclude_address_notes": {
     "0x8209D088": "Numeric table bytes incorrectly decoded as CP932 text",
     "0x8209D820": "Numeric table bytes incorrectly decoded as CP932 text"
+  },
+  "provisional_overrides": {
+    "0x8208AF68": "Takeshi",
+    "0x8208AEF8": "Taishi",
+    "0x8208ABFC": "Tatsuya",
+    "0x8208ABC4": "Ryosuke",
+    "0x8208AA2C": "Daiki",
+    "0x8208A5F0": "Tsuyoshi",
+    "0x8208A4E0": "Jin",
+    "0x8208A3F4": "Hikaru"
   }
 }

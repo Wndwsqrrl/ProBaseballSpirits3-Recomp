@@ -15,9 +15,9 @@ This repository contains port source, executable analysis metadata, English tran
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 310 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
-- The name pool includes **410 reviewed name fields**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
+- The name pool includes **418 reviewed name fields**. The review uses native Latin surnames, the game's Japanese name dictionary, the original roster, and the original display spellings. Eight additional given-name choices use exact 2026 name-table matches and remain drafts where the original reading is uncertain.
 - The announcer-name selector has **1,256 English labels**, with 144 spelling overrides and phonetic transliteration for the remaining kana names. Its navigation grid displays 46 English syllables, fitted within the native cells. In-game placement still needs checking.
-- The main extracted list has **5,763 reviewed entries and 425 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- The main extracted list has **5,771 reviewed entries and 417 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
@@ -32,7 +32,7 @@ Pitching-practice instructions cover both Y/A button variants. Fielding-practice
 
 Magazine edition badges and the newspaper masthead/baseball tag have English headings. The original title prompt is already English and remains unchanged. Newspaper metadata and low-resolution notice print remain unresolved. See [print heading validation](translation/print-heading-validation.json).
 
-Generated-player name coverage includes **1,812 complete-name lookups for 151 native name pairs**, covering combined, spaced and mixed Latin/Japanese forms. Each lookup retains both name fields. All 66 Western-group pairs have complete-name mappings; another 262 native pairs still need reading or context review. Surname-only widgets and live placement remain unchecked. See [name context validation](translation/name-context-expansion-validation.json).
+Generated-player name coverage includes **2,064 complete-name lookups for 172 native name pairs**, covering combined, spaced and mixed Latin/Japanese forms. Of those pairs, 163 are reviewed and nine have provisional readings; 241 pairs remain unmapped. Each lookup retains both name fields. All 66 Western-group pairs have complete-name mappings. The given name Masaru uses record-specific mappings so the win-statistic label remains W. Surname-only widgets and live placement remain unchecked. See [Japanese name reading validation](translation/japanese-name-reading-validation.json).
 
 Localization remains unfinished. Credits may remain Japanese. The main title logo retains its original Japanese lettering, glow and shadow. The original in-stadium signs, sponsor ads and ballpark artwork are preserved; earlier English credit title and licensing captions are retained.
 

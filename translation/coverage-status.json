@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 15832,
-  "unique_fingerprints": 15538,
+  "catalogue_records": 16084,
+  "unique_fingerprints": 15790,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -10,6 +10,7 @@
   "texture_labels": 2087,
   "localized_archive_members": 111,
   "validation": [
+    "2,064 compiled full-name lookups passed; Windows build passed; eight provisional given-name overrides remain drafts after curation; original roster evidence hashes and prior 1,812 aliases verified",
     "native Windows build passed",
     "format safety checks passed",
     "NVIDIA startup confirmed",
@@ -69,7 +70,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
-    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 262 unresolved native name-pool records",
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 241 unmapped native name-pool records plus nine provisional full-name readings",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
@@ -120,7 +121,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "15 pending textures in interface-texture-review.json plus 1 additional texture in extended-interface-texture-review.json need localization or native-context review. These are partial inventories.",
+    "9 pending textures in interface-texture-review.json plus 1 unresolved slot strip in slot-texture-review.json need localization or native-context review. These are partial inventories.",
     "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -141,8 +142,8 @@
   "reviewed_management_entries": 421,
   "main_extracted_text": {
     "entries": 6188,
-    "reviewed": 5763,
-    "draft": 425
+    "reviewed": 5771,
+    "draft": 417
   },
   "reviewed_ui_addresses": 1996,
   "packed_ui_inventory": {
@@ -279,7 +280,7 @@
     "offline_trade_and_online_matches": 49,
     "interactive_validation": false
   },
-  "reviewed_name_pool_entries": 410,
+  "reviewed_name_pool_entries": 418,
   "announced_player_name_labels": {
     "member": "EDIT.CHK",
     "chunk": "VC00",
@@ -742,13 +743,16 @@
   },
   "generated_name_pool_coverage": {
     "native_records": 413,
-    "complete_name_pairs_mapped": 151,
-    "unresolved_records": 262,
-    "complete_name_aliases": 1812,
+    "complete_name_pairs_mapped": 172,
+    "complete_reviewed_name_pairs": 163,
+    "provisional_name_pairs": 9,
+    "unmapped_records": 241,
+    "unresolved_records": 250,
+    "complete_name_aliases": 2064,
     "western_pairs_mapped": 66,
     "western_pairs": 66,
-    "contextual_field_overrides": 20,
-    "report": "name-context-expansion-validation.json",
+    "contextual_field_overrides": 31,
+    "report": "japanese-name-reading-validation.json",
     "interactive_validation": false
   },
   "name_context_expansion": {

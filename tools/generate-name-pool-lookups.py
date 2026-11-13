@@ -1,4 +1,4 @@
-"""Build complete generated-player name lookups from reviewed native fields."""
+"""Build complete player-name lookups, retaining provisional reading status."""
 import argparse
 from collections import defaultdict
 import hashlib
@@ -48,11 +48,13 @@ def generate(image, reviews, existing, context):
             raise ValueError('Invalid native name-pool record')
         original = {'family':read(family), 'given':read(given)}
         values = {}
+        statuses = {}
         for role, pointer in [('family',family),('given',given)]:
             key = f'0x{pointer:08X}'
             row = reviewed.get(key)
             if key in reviews and row and row['status']=='reviewed' and row['english']==reviews[key]:
                 values[role] = row['english']
+                statuses[role] = 'reviewed'
             for override in context:
                 if override['record_address'] != f'0x{address:08X}' or override['field'] != role:
                     continue
@@ -60,6 +62,9 @@ def generate(image, reviews, existing, context):
                         or override['source_hash'] != fingerprint(original[role])):
                     raise ValueError('Contextual name override differs from the native record')
                 values[role] = override['english']
+                statuses[role] = override.get('status', 'reviewed')
+                if statuses[role] not in ('reviewed', 'draft'):
+                    raise ValueError('Name context status must be reviewed or draft')
                 used_context.add((override['record_address'],role))
         if len(values)!=2:
             unresolved.append(f'0x{address:08X}')
@@ -67,13 +72,15 @@ def generate(image, reviews, existing, context):
         english = values['family']+' '+values['given']
         if not english.isascii() or not all(values.values()):
             raise ValueError('Expected complete English name fields')
-        resolved.append(dict(record_address=f'0x{address:08X}',english=english))
+        status = 'draft' if 'draft' in statuses.values() else 'reviewed'
+        resolved.append(dict(record_address=f'0x{address:08X}',english=english,status=status))
         family_forms = {original['family'],values['family'].encode('ascii')}
         for family_form in family_forms:
             for separator in [b'',b' ',b'\x81\x40']:
                 for source in [family_form+separator+original['given'],
                                original['given']+separator+family_form]:
-                    proposals[source][english] = True
+                    previous = proposals[source].get(english)
+                    proposals[source][english] = 'reviewed' if previous=='reviewed' or status=='reviewed' else 'draft'
     if len(used_context)!=len(context):
         raise ValueError('Unused contextual name override')
     output=[];fixtures=[];conflicts=[];covered=0
@@ -83,16 +90,20 @@ def generate(image, reviews, existing, context):
             conflicts.append(key)
             continue
         english=next(iter(choices))
+        status=choices[english]
         if key in known:
             if known[key] == {english}:covered+=1
             else:
                 conflicts.append(key)
                 continue
         output.append(dict(address='0x00000000',source_size=len(source),source_hash=key,
-                           english=english,status='reviewed'))
+                           english=english,status=status))
         fixtures.append((source,english))
-    report=dict(native_name_records=COUNT,complete_reviewed_name_pairs=len(resolved),
-                unresolved_name_pair_records=len(unresolved),complete_name_aliases=len(output),
+    provisional=sum(r['status']=='draft' for r in resolved)
+    report=dict(native_name_records=COUNT,complete_reviewed_name_pairs=len(resolved)-provisional,
+                complete_name_pairs_mapped=len(resolved),provisional_name_pairs=provisional,
+                unmapped_name_pair_records=len(unresolved),
+                unresolved_name_pair_records=len(unresolved)+provisional,complete_name_aliases=len(output),
                 already_covered_aliases=covered,conflicting_aliases_not_added=len(conflicts),
                 table_sha256=TABLE_SHA256,resolved_records=resolved,unresolved_records=unresolved,
                 contextual_fields=len(context),no_given_name_fields_omitted=True)
@@ -113,7 +124,8 @@ def main():
     a.report.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     if a.fixtures:
         a.fixtures.write_text(''.join(f'0\t{source.hex()}\t{english}\n' for source,english in fixtures),encoding='utf-8')
-    print(f'{len(rows)} complete-name aliases from {report["complete_reviewed_name_pairs"]} reviewed pairs; '
-          f'{report["unresolved_name_pair_records"]} pairs still unresolved')
+    print(f'{len(rows)} complete-name aliases: {report["complete_reviewed_name_pairs"]} reviewed and '
+          f'{report["provisional_name_pairs"]} provisional pairs; '
+          f'{report["unmapped_name_pair_records"]} pairs still unmapped')
 
 if __name__=='__main__':main()
