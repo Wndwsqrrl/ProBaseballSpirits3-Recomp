@@ -1,13 +1,13 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 14020,
-  "unique_fingerprints": 13726,
+  "catalogue_records": 15628,
+  "unique_fingerprints": 15334,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
   "changed_existing_translations": 6,
   "added_fingerprints": 4,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 1991,
+    "ui": 1996,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 308,
@@ -18,10 +18,11 @@
     "management_entries": 421,
     "management_labels": 195,
     "management_runtime_patterns": 19,
-    "player_names": 376
+    "player_names": 410
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Native build and 1647 compiled lookups passed for 39 reviewed original entries and 1608 complete generated-name aliases; regeneration is repeatable",
     "Four print headings passed font/native decoding checks; 257 prior atlases and seven original regions unchanged. Title prompt verified already English against the original archive.",
     "14 practice label occurrences passed font/native texture checks; eight fielding sprites reconstructed, 255 other atlases, seven earlier labels/611 compressed blocks and 13 control/artwork regions unchanged",
     "45 compact stat labels passed native texture/font checks; all 14 earlier label regions and 520 compressed blocks preserved, alongside 255 other complete atlases",
@@ -41,6 +42,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 279 unresolved native name-pool records",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
@@ -687,6 +689,18 @@
     "already_english_title_prompt_verified_against_original_archive": true,
     "low_resolution_print_still_unresolved": true,
     "report": "print-heading-validation.json",
+    "interactive_validation": false
+  },
+  "name_pool_context_review": {
+    "native_name_records": 413,
+    "new_complete_name_aliases": 1608,
+    "complete_reviewed_name_pairs": 134,
+    "unresolved_name_pair_records": 279,
+    "reviewed_name_fields": 34,
+    "reviewed_stat_and_menu_fields": 5,
+    "compiled_lookup_checks": 1647,
+    "previous_unedited_catalogue_rows_unchanged": 13981,
+    "report": "name-pool-validation.json",
     "interactive_validation": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 14020,
-  "unique_fingerprints": 13726,
+  "catalogue_records": 15628,
+  "unique_fingerprints": 15334,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -64,9 +64,11 @@
     "Remaining 218 nonstandard-name texture candidates classified from decoded previews, index-map shapes and normal-map metadata; all 169 complete source members byte-identical",
     "45 compact stat/split/position/team labels verified; 255 other atlas payloads, all 14 earlier stat labels/520 compressed blocks and 10 numeric/control regions unchanged",
     "14 pitching/fielding practice label occurrences verified; native fielding sprite strips reconstructed, 255 other atlas payloads, seven earlier English labels/611 compressed blocks and 13 protected regions unchanged",
-    "Four magazine/newspaper headings verified; 257 prior full atlas payloads and seven original regions unchanged. Original title prompt confirmed already English and retained."
+    "Four magazine/newspaper headings verified; 257 prior full atlas payloads and seven original regions unchanged. Original title prompt confirmed already English and retained.",
+    "39 original name/stat/menu entries reviewed and 1608 complete-name aliases added from 134 native pairs; all 1647 compiled lookup checks passed and 13981 other original catalogue rows unchanged"
   ],
   "pending_validation": [
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 279 unresolved native name-pool records",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
@@ -138,10 +140,10 @@
   "reviewed_management_entries": 421,
   "main_extracted_text": {
     "entries": 6188,
-    "reviewed": 5724,
-    "draft": 464
+    "reviewed": 5763,
+    "draft": 425
   },
-  "reviewed_ui_addresses": 1991,
+  "reviewed_ui_addresses": 1996,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -276,7 +278,7 @@
     "offline_trade_and_online_matches": 49,
     "interactive_validation": false
   },
-  "reviewed_name_pool_entries": 376,
+  "reviewed_name_pool_entries": 410,
   "announced_player_name_labels": {
     "member": "EDIT.CHK",
     "chunk": "VC00",
@@ -716,6 +718,18 @@
     "already_english_title_prompt_verified_against_original_archive": true,
     "low_resolution_print_still_unresolved": true,
     "report": "print-heading-validation.json",
+    "interactive_validation": false
+  },
+  "name_pool_context_review": {
+    "native_name_records": 413,
+    "new_complete_name_aliases": 1608,
+    "complete_reviewed_name_pairs": 134,
+    "unresolved_name_pair_records": 279,
+    "reviewed_name_fields": 34,
+    "reviewed_stat_and_menu_fields": 5,
+    "compiled_lookup_checks": 1647,
+    "previous_unedited_catalogue_rows_unchanged": 13981,
+    "report": "name-pool-validation.json",
     "interactive_validation": false
   }
 }

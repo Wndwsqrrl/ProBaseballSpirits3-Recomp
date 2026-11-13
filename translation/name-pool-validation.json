@@ -1,0 +1,1295 @@
+{
+  "date": "2026-11-12",
+  "original_rows_reviewed": 39,
+  "name_fields_reviewed": 34,
+  "stat_and_menu_labels_reviewed": 5,
+  "changed_english_values": 26,
+  "previous_unedited_rows_byte_for_byte_in_json_values": 13981,
+  "native_pool": {
+    "native_name_records": 413,
+    "complete_reviewed_name_pairs": 134,
+    "unresolved_name_pair_records": 279,
+    "complete_name_aliases": 1608,
+    "already_covered_aliases": 0,
+    "conflicting_aliases_not_added": 0,
+    "table_sha256": "ec7a6b9ab3740da6d32d023d5bba76905db280114c929d11996ad34efcee5d16",
+    "resolved_records": [
+      {
+        "record_address": "0x820416B0",
+        "english": "Sand Earl"
+      },
+      {
+        "record_address": "0x820416C4",
+        "english": "Sarty Alan"
+      },
+      {
+        "record_address": "0x820416EC",
+        "english": "Stan Isaac"
+      },
+      {
+        "record_address": "0x82041714",
+        "english": "Froy Keith"
+      },
+      {
+        "record_address": "0x82041728",
+        "english": "Kid Troy"
+      },
+      {
+        "record_address": "0x82041750",
+        "english": "Caldwell Eddie"
+      },
+      {
+        "record_address": "0x82041764",
+        "english": "Rafael Colt"
+      },
+      {
+        "record_address": "0x82041778",
+        "english": "Circle Zeno"
+      },
+      {
+        "record_address": "0x8204178C",
+        "english": "Arton Clay"
+      },
+      {
+        "record_address": "0x820417A0",
+        "english": "Markess Jonathan"
+      },
+      {
+        "record_address": "0x820417B4",
+        "english": "Jarvis Larry"
+      },
+      {
+        "record_address": "0x820417C8",
+        "english": "Tarsen Trew"
+      },
+      {
+        "record_address": "0x820417DC",
+        "english": "Shalay Fastian"
+      },
+      {
+        "record_address": "0x820417F0",
+        "english": "Santana Fino"
+      },
+      {
+        "record_address": "0x82041804",
+        "english": "Karnal Chuck"
+      },
+      {
+        "record_address": "0x82041818",
+        "english": "Welay Dickey"
+      },
+      {
+        "record_address": "0x8204182C",
+        "english": "Stewart Simon"
+      },
+      {
+        "record_address": "0x82041840",
+        "english": "Tyler Jeff"
+      },
+      {
+        "record_address": "0x82041854",
+        "english": "Dalton Billy"
+      },
+      {
+        "record_address": "0x8204187C",
+        "english": "Jefferson Tilt"
+      },
+      {
+        "record_address": "0x82041890",
+        "english": "Hald Nadi"
+      },
+      {
+        "record_address": "0x820418A4",
+        "english": "Bress Sarto"
+      },
+      {
+        "record_address": "0x820418B8",
+        "english": "Macdhin Beau"
+      },
+      {
+        "record_address": "0x820418CC",
+        "english": "Elthman Connie"
+      },
+      {
+        "record_address": "0x820418E0",
+        "english": "Reiss Kirk"
+      },
+      {
+        "record_address": "0x820418F4",
+        "english": "Nicholson Ciaran"
+      },
+      {
+        "record_address": "0x8204191C",
+        "english": "Pullman Jasper"
+      },
+      {
+        "record_address": "0x82041930",
+        "english": "Ford Allen"
+      },
+      {
+        "record_address": "0x8204196C",
+        "english": "Ericsson Brett"
+      },
+      {
+        "record_address": "0x82041980",
+        "english": "Maldo Attar"
+      },
+      {
+        "record_address": "0x82041994",
+        "english": "Barton Terry"
+      },
+      {
+        "record_address": "0x820419A8",
+        "english": "Davis Nat"
+      },
+      {
+        "record_address": "0x820419BC",
+        "english": "Nichol Warren"
+      },
+      {
+        "record_address": "0x820419D0",
+        "english": "Maddison Taurus"
+      },
+      {
+        "record_address": "0x820419E4",
+        "english": "Malone Frank"
+      },
+      {
+        "record_address": "0x82041A0C",
+        "english": "Moon David"
+      },
+      {
+        "record_address": "0x82041A34",
+        "english": "O'Neill Ricky"
+      },
+      {
+        "record_address": "0x82041A48",
+        "english": "Ring Bobby"
+      },
+      {
+        "record_address": "0x82041A5C",
+        "english": "Lewis Edgar"
+      },
+      {
+        "record_address": "0x82041A70",
+        "english": "Saint Reggie"
+      },
+      {
+        "record_address": "0x82041A84",
+        "english": "Robart Tim"
+      },
+      {
+        "record_address": "0x82041AAC",
+        "english": "Thome Mark"
+      },
+      {
+        "record_address": "0x82041AC0",
+        "english": "Hawk Corey"
+      },
+      {
+        "record_address": "0x82041AD4",
+        "english": "Said Nolan"
+      },
+      {
+        "record_address": "0x82041AFC",
+        "english": "Hardaway Chris"
+      },
+      {
+        "record_address": "0x82041B10",
+        "english": "Felix Jason"
+      },
+      {
+        "record_address": "0x82041B24",
+        "english": "Rupert Bob"
+      },
+      {
+        "record_address": "0x82041B4C",
+        "english": "Bledsoe John"
+      },
+      {
+        "record_address": "0x82041B60",
+        "english": "Halbert Bronco"
+      },
+      {
+        "record_address": "0x82041B88",
+        "english": "Helton Beck"
+      },
+      {
+        "record_address": "0x82041BD8",
+        "english": "Rokoh Chiharu"
+      },
+      {
+        "record_address": "0x82041BEC",
+        "english": "Sugihara Joji"
+      },
+      {
+        "record_address": "0x82041C8C",
+        "english": "Katashimo Tsunanori"
+      },
+      {
+        "record_address": "0x82041CF0",
+        "english": "Kusakabe Hisashi"
+      },
+      {
+        "record_address": "0x82041D04",
+        "english": "Kurihara Motomu"
+      },
+      {
+        "record_address": "0x82041D18",
+        "english": "Kurokawa Kenichi"
+      },
+      {
+        "record_address": "0x82041D2C",
+        "english": "Sugitani Shogo"
+      },
+      {
+        "record_address": "0x82041D40",
+        "english": "Johjima Daisuke"
+      },
+      {
+        "record_address": "0x82041D54",
+        "english": "Shimomura Norio"
+      },
+      {
+        "record_address": "0x82041D7C",
+        "english": "Shigetake Akira"
+      },
+      {
+        "record_address": "0x82041D90",
+        "english": "Satohara Naoki"
+      },
+      {
+        "record_address": "0x82041DA4",
+        "english": "Satake Hiroki"
+      },
+      {
+        "record_address": "0x82041DB8",
+        "english": "Sakakibara Kuniyuki"
+      },
+      {
+        "record_address": "0x82041DCC",
+        "english": "Gotoh Takafumi"
+      },
+      {
+        "record_address": "0x82041E08",
+        "english": "Kenzan Toshiaki"
+      },
+      {
+        "record_address": "0x82041E1C",
+        "english": "Dei Shigeya"
+      },
+      {
+        "record_address": "0x82041E44",
+        "english": "Kusunogi Naoki"
+      },
+      {
+        "record_address": "0x82041E58",
+        "english": "Hosizono Hideaki"
+      },
+      {
+        "record_address": "0x82041E94",
+        "english": "Tatsumi Hironobu"
+      },
+      {
+        "record_address": "0x82041EA8",
+        "english": "Orihara Yasuhiko"
+      },
+      {
+        "record_address": "0x82041EBC",
+        "english": "Sasamura Susumu"
+      },
+      {
+        "record_address": "0x82041ED0",
+        "english": "Amemiya Wataru"
+      },
+      {
+        "record_address": "0x82041EF8",
+        "english": "Nikaidou Seiya"
+      },
+      {
+        "record_address": "0x82041F20",
+        "english": "Kanzaki Ryuichi"
+      },
+      {
+        "record_address": "0x82041F48",
+        "english": "Narumi Yoichi"
+      },
+      {
+        "record_address": "0x82041F5C",
+        "english": "Miyaoka Takaaki"
+      },
+      {
+        "record_address": "0x82041FC0",
+        "english": "Mai Masaya"
+      },
+      {
+        "record_address": "0x82041FD4",
+        "english": "Mizukane Chikai"
+      },
+      {
+        "record_address": "0x82041FFC",
+        "english": "Yushima Makito"
+      },
+      {
+        "record_address": "0x82042010",
+        "english": "Kabeya Toru"
+      },
+      {
+        "record_address": "0x82042024",
+        "english": "Umiduki Kenji"
+      },
+      {
+        "record_address": "0x82042038",
+        "english": "Kohinata Nobuhiko"
+      },
+      {
+        "record_address": "0x8204204C",
+        "english": "Ishioka Kinjiro"
+      },
+      {
+        "record_address": "0x82042074",
+        "english": "Retsuyama Haruaki"
+      },
+      {
+        "record_address": "0x82042088",
+        "english": "Mine Daigo"
+      },
+      {
+        "record_address": "0x8204209C",
+        "english": "Mizuguchi Manabu"
+      },
+      {
+        "record_address": "0x820420B0",
+        "english": "Mikihara Naoki"
+      },
+      {
+        "record_address": "0x82042128",
+        "english": "Heitan Eikichi"
+      },
+      {
+        "record_address": "0x8204213C",
+        "english": "Fujita Nobuaki"
+      },
+      {
+        "record_address": "0x82042178",
+        "english": "Mukaiyama Keiji"
+      },
+      {
+        "record_address": "0x8204218C",
+        "english": "Mutsu Nobuaki"
+      },
+      {
+        "record_address": "0x820421C8",
+        "english": "Riki Michinari"
+      },
+      {
+        "record_address": "0x82042204",
+        "english": "Yokozeki Taro"
+      },
+      {
+        "record_address": "0x82042218",
+        "english": "Yumeshima Sho"
+      },
+      {
+        "record_address": "0x8204222C",
+        "english": "Yukiyama Takeaki"
+      },
+      {
+        "record_address": "0x82042240",
+        "english": "Yamada Ryohei"
+      },
+      {
+        "record_address": "0x82042254",
+        "english": "Yata Kazushi"
+      },
+      {
+        "record_address": "0x82042268",
+        "english": "Yakusugi Noboru"
+      },
+      {
+        "record_address": "0x8204227C",
+        "english": "Morishima Mamoru"
+      },
+      {
+        "record_address": "0x82042290",
+        "english": "Morikawa Harumoto"
+      },
+      {
+        "record_address": "0x820422B8",
+        "english": "Hiramatsu Keita"
+      },
+      {
+        "record_address": "0x820422E0",
+        "english": "Tezuka Noriaki"
+      },
+      {
+        "record_address": "0x820422F4",
+        "english": "Tsumura Atsushi"
+      },
+      {
+        "record_address": "0x82042308",
+        "english": "Tsukahara Akinobu"
+      },
+      {
+        "record_address": "0x8204231C",
+        "english": "Chihara Toshiyuki"
+      },
+      {
+        "record_address": "0x82042330",
+        "english": "Tayama Eikichi"
+      },
+      {
+        "record_address": "0x82042358",
+        "english": "Tagawa Hideki"
+      },
+      {
+        "record_address": "0x82042380",
+        "english": "Sonohara Manabu"
+      },
+      {
+        "record_address": "0x82042394",
+        "english": "Sonoda Kotaro"
+      },
+      {
+        "record_address": "0x820423A8",
+        "english": "Setohara Takumi"
+      },
+      {
+        "record_address": "0x820423BC",
+        "english": "Tendouji Shuhei"
+      },
+      {
+        "record_address": "0x820423D0",
+        "english": "Dohkai Atsushi"
+      },
+      {
+        "record_address": "0x820423E4",
+        "english": "Tokuyama Kiyoaki"
+      },
+      {
+        "record_address": "0x8204240C",
+        "english": "Harada Shinichi"
+      },
+      {
+        "record_address": "0x82042420",
+        "english": "Baba Hiroki"
+      },
+      {
+        "record_address": "0x82042434",
+        "english": "Hanafuchi Takuya"
+      },
+      {
+        "record_address": "0x8204245C",
+        "english": "Nonoyama Keita"
+      },
+      {
+        "record_address": "0x82042470",
+        "english": "Nedachi Takashi"
+      },
+      {
+        "record_address": "0x82042484",
+        "english": "Nukihara Junya"
+      },
+      {
+        "record_address": "0x82042498",
+        "english": "Narihara Motoya"
+      },
+      {
+        "record_address": "0x820424AC",
+        "english": "Nagi Tadashi"
+      },
+      {
+        "record_address": "0x820424C0",
+        "english": "Nagayama Keisuke"
+      },
+      {
+        "record_address": "0x820424E8",
+        "english": "Seki Teruo"
+      },
+      {
+        "record_address": "0x820424FC",
+        "english": "Sekibashi Homare"
+      },
+      {
+        "record_address": "0x82042510",
+        "english": "Uekusa Iori"
+      },
+      {
+        "record_address": "0x82042524",
+        "english": "Iba Hideo"
+      },
+      {
+        "record_address": "0x82042574",
+        "english": "Amoh Hiroshi"
+      },
+      {
+        "record_address": "0x8204259C",
+        "english": "Kikuchihara Shunsuke"
+      },
+      {
+        "record_address": "0x820425C4",
+        "english": "Eguchi Daisuke"
+      },
+      {
+        "record_address": "0x820425D8",
+        "english": "Eshima Yuji"
+      },
+      {
+        "record_address": "0x82042614",
+        "english": "Kaieda Shingo"
+      },
+      {
+        "record_address": "0x82042628",
+        "english": "Oda Koji"
+      },
+      {
+        "record_address": "0x82042650",
+        "english": "Oku Eiji"
+      },
+      {
+        "record_address": "0x82042664",
+        "english": "Ohyama Goro"
+      }
+    ],
+    "unresolved_records": [
+      "0x82041110",
+      "0x82041124",
+      "0x82041138",
+      "0x8204114C",
+      "0x82041160",
+      "0x82041174",
+      "0x82041188",
+      "0x8204119C",
+      "0x820411B0",
+      "0x820411C4",
+      "0x820411D8",
+      "0x820411EC",
+      "0x82041200",
+      "0x82041214",
+      "0x82041228",
+      "0x8204123C",
+      "0x82041250",
+      "0x82041264",
+      "0x82041278",
+      "0x8204128C",
+      "0x820412A0",
+      "0x820412B4",
+      "0x820412C8",
+      "0x820412DC",
+      "0x820412F0",
+      "0x82041304",
+      "0x82041318",
+      "0x8204132C",
+      "0x82041340",
+      "0x82041354",
+      "0x82041368",
+      "0x8204137C",
+      "0x82041390",
+      "0x820413A4",
+      "0x820413B8",
+      "0x820413CC",
+      "0x820413E0",
+      "0x820413F4",
+      "0x82041408",
+      "0x8204141C",
+      "0x82041430",
+      "0x82041444",
+      "0x82041458",
+      "0x8204146C",
+      "0x82041480",
+      "0x82041494",
+      "0x820414A8",
+      "0x820414BC",
+      "0x820414D0",
+      "0x820414E4",
+      "0x820414F8",
+      "0x8204150C",
+      "0x82041520",
+      "0x82041534",
+      "0x82041548",
+      "0x8204155C",
+      "0x82041570",
+      "0x82041584",
+      "0x82041598",
+      "0x820415AC",
+      "0x820415C0",
+      "0x820415D4",
+      "0x820415E8",
+      "0x820415FC",
+      "0x82041610",
+      "0x82041624",
+      "0x82041638",
+      "0x8204164C",
+      "0x82041660",
+      "0x82041674",
+      "0x82041688",
+      "0x8204169C",
+      "0x820416D8",
+      "0x82041700",
+      "0x8204173C",
+      "0x82041868",
+      "0x82041908",
+      "0x82041944",
+      "0x82041958",
+      "0x820419F8",
+      "0x82041A20",
+      "0x82041A98",
+      "0x82041AE8",
+      "0x82041B38",
+      "0x82041B74",
+      "0x82041B9C",
+      "0x82041BB0",
+      "0x82041BC4",
+      "0x82041C00",
+      "0x82041C14",
+      "0x82041C28",
+      "0x82041C3C",
+      "0x82041C50",
+      "0x82041C64",
+      "0x82041C78",
+      "0x82041CA0",
+      "0x82041CB4",
+      "0x82041CC8",
+      "0x82041CDC",
+      "0x82041D68",
+      "0x82041DE0",
+      "0x82041DF4",
+      "0x82041E30",
+      "0x82041E6C",
+      "0x82041E80",
+      "0x82041EE4",
+      "0x82041F0C",
+      "0x82041F34",
+      "0x82041F70",
+      "0x82041F84",
+      "0x82041F98",
+      "0x82041FAC",
+      "0x82041FE8",
+      "0x82042060",
+      "0x820420C4",
+      "0x820420D8",
+      "0x820420EC",
+      "0x82042100",
+      "0x82042114",
+      "0x82042150",
+      "0x82042164",
+      "0x820421A0",
+      "0x820421B4",
+      "0x820421DC",
+      "0x820421F0",
+      "0x820422A4",
+      "0x820422CC",
+      "0x82042344",
+      "0x8204236C",
+      "0x820423F8",
+      "0x82042448",
+      "0x820424D4",
+      "0x82042538",
+      "0x8204254C",
+      "0x82042560",
+      "0x82042588",
+      "0x820425B0",
+      "0x820425EC",
+      "0x82042600",
+      "0x8204263C",
+      "0x82042678",
+      "0x8204268C",
+      "0x820426A0",
+      "0x820426B4",
+      "0x820426C8",
+      "0x820426DC",
+      "0x820426F0",
+      "0x82042704",
+      "0x82042718",
+      "0x8204272C",
+      "0x82042740",
+      "0x82042754",
+      "0x82042768",
+      "0x8204277C",
+      "0x82042790",
+      "0x820427A4",
+      "0x820427B8",
+      "0x820427CC",
+      "0x820427E0",
+      "0x820427F4",
+      "0x82042808",
+      "0x8204281C",
+      "0x82042830",
+      "0x82042844",
+      "0x82042858",
+      "0x8204286C",
+      "0x82042880",
+      "0x82042894",
+      "0x820428A8",
+      "0x820428BC",
+      "0x820428D0",
+      "0x820428E4",
+      "0x820428F8",
+      "0x8204290C",
+      "0x82042920",
+      "0x82042934",
+      "0x82042948",
+      "0x8204295C",
+      "0x82042970",
+      "0x82042984",
+      "0x82042998",
+      "0x820429AC",
+      "0x820429C0",
+      "0x820429D4",
+      "0x820429E8",
+      "0x820429FC",
+      "0x82042A10",
+      "0x82042A24",
+      "0x82042A38",
+      "0x82042A4C",
+      "0x82042A60",
+      "0x82042A74",
+      "0x82042A88",
+      "0x82042A9C",
+      "0x82042AB0",
+      "0x82042AC4",
+      "0x82042AD8",
+      "0x82042AEC",
+      "0x82042B00",
+      "0x82042B14",
+      "0x82042B28",
+      "0x82042B3C",
+      "0x82042B50",
+      "0x82042B64",
+      "0x82042B78",
+      "0x82042B8C",
+      "0x82042BA0",
+      "0x82042BB4",
+      "0x82042BC8",
+      "0x82042BDC",
+      "0x82042BF0",
+      "0x82042C04",
+      "0x82042C18",
+      "0x82042C2C",
+      "0x82042C40",
+      "0x82042C54",
+      "0x82042C68",
+      "0x82042C7C",
+      "0x82042C90",
+      "0x82042CA4",
+      "0x82042CB8",
+      "0x82042CCC",
+      "0x82042CE0",
+      "0x82042CF4",
+      "0x82042D08",
+      "0x82042D1C",
+      "0x82042D30",
+      "0x82042D44",
+      "0x82042D58",
+      "0x82042D6C",
+      "0x82042D80",
+      "0x82042D94",
+      "0x82042DA8",
+      "0x82042DBC",
+      "0x82042DD0",
+      "0x82042DE4",
+      "0x82042DF8",
+      "0x82042E0C",
+      "0x82042E20",
+      "0x82042E34",
+      "0x82042E48",
+      "0x82042E5C",
+      "0x82042E70",
+      "0x82042E84",
+      "0x82042E98",
+      "0x82042EAC",
+      "0x82042EC0",
+      "0x82042ED4",
+      "0x82042EE8",
+      "0x82042EFC",
+      "0x82042F10",
+      "0x82042F24",
+      "0x82042F38",
+      "0x82042F4C",
+      "0x82042F60",
+      "0x82042F74",
+      "0x82042F88",
+      "0x82042F9C",
+      "0x82042FB0",
+      "0x82042FC4",
+      "0x82042FD8",
+      "0x82042FEC",
+      "0x82043000",
+      "0x82043014",
+      "0x82043028",
+      "0x8204303C",
+      "0x82043050",
+      "0x82043064",
+      "0x82043078",
+      "0x8204308C",
+      "0x820430A0",
+      "0x820430B4",
+      "0x820430C8",
+      "0x820430DC",
+      "0x820430F0",
+      "0x82043104",
+      "0x82043118",
+      "0x8204312C",
+      "0x82043140"
+    ],
+    "contextual_fields": 2,
+    "no_given_name_fields_omitted": true
+  },
+  "complete_name_alias_records": 1608,
+  "compiled_lookup_inputs_checked": 1647,
+  "all_compiled_lookups_matched_expected_english": true,
+  "original_name_dictionary_redecoded_and_matched": true,
+  "native_build_passed": true,
+  "alias_generation_repeatable": true,
+  "catalogue_records": 15628,
+  "unique_fingerprints": 15334,
+  "catalogue_statuses": {
+    "reviewed": 9532,
+    "draft": 446,
+    "game-roster-family": 5650
+  },
+  "reviewed_names": [
+    {
+      "address": "0x82089C2C",
+      "source": "ラ",
+      "previous": "La",
+      "english": "Luo",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "LUO"
+      ]
+    },
+    {
+      "address": "0x82089D70",
+      "source": "リ",
+      "previous": "Li",
+      "english": "Li",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "LI"
+      ]
+    },
+    {
+      "address": "0x82089D98",
+      "source": "カ",
+      "previous": "Ka",
+      "english": "He",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "HE"
+      ]
+    },
+    {
+      "address": "0x82089E1C",
+      "source": "ト",
+      "previous": "G",
+      "english": "Du",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "DU"
+      ]
+    },
+    {
+      "address": "0x82089E80",
+      "source": "コ",
+      "previous": "Ko",
+      "english": "Hu",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "HU"
+      ]
+    },
+    {
+      "address": "0x82089FC0",
+      "source": "ナ",
+      "previous": "Na",
+      "english": "Na",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "NA"
+      ]
+    },
+    {
+      "address": "0x8208A034",
+      "source": "ベ",
+      "previous": "Be",
+      "english": "Bae",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "BAE"
+      ]
+    },
+    {
+      "address": "0x8208A0D8",
+      "source": "オ",
+      "previous": "O",
+      "english": "Oh",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "OH"
+      ]
+    },
+    {
+      "address": "0x8208A138",
+      "source": "ド",
+      "previous": "de",
+      "english": "Do",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "DO"
+      ]
+    },
+    {
+      "address": "0x8208A354",
+      "source": "奥",
+      "previous": "Back",
+      "english": "Oku",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "OKU"
+      ]
+    },
+    {
+      "address": "0x8208A43C",
+      "source": "宏",
+      "previous": "Hiroshi",
+      "english": "Hiroshi",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "ひろし"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A4C0",
+      "source": "誉",
+      "previous": "honor",
+      "english": "Homare",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "ほまれ"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A4DC",
+      "source": "関",
+      "previous": "Seki",
+      "english": "Seki",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "SEKI"
+      ]
+    },
+    {
+      "address": "0x8208A560",
+      "source": "孝",
+      "previous": "filial piety",
+      "english": "Takashi",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "たかし"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A620",
+      "source": "厚",
+      "previous": "thickness",
+      "english": "Atsushi",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "あつし"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A710",
+      "source": "篤",
+      "previous": "Atsushi",
+      "english": "Atsushi",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "あつし"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A7A8",
+      "source": "衛",
+      "previous": "Mamoru",
+      "english": "Mamoru",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "まもる"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A7C0",
+      "source": "昇",
+      "previous": "Noboru",
+      "english": "Noboru",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "のぼる"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A824",
+      "source": "翔",
+      "previous": "Sho",
+      "english": "Sho",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "しょう"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208A88C",
+      "source": "力",
+      "previous": "power",
+      "english": "Riki",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "RIKI"
+      ]
+    },
+    {
+      "address": "0x8208A9E4",
+      "source": "学",
+      "previous": "studies",
+      "english": "Manabu",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "まなぶ"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208AA00",
+      "source": "峰",
+      "previous": "peak",
+      "english": "Mine",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "MINE"
+      ]
+    },
+    {
+      "address": "0x8208AA90",
+      "source": "透",
+      "previous": "Tooru",
+      "english": "Toru",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "とおる"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208AADC",
+      "source": "誓",
+      "previous": "oath",
+      "english": "Chikai",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "ちかい"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208AAF0",
+      "source": "舞",
+      "previous": "Mai",
+      "english": "Mai",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "MAI"
+      ]
+    },
+    {
+      "address": "0x8208AC14",
+      "source": "渉",
+      "previous": "Wataru",
+      "english": "Wataru",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "わたる"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208AC2C",
+      "source": "進",
+      "previous": "Susumu",
+      "english": "Susumu",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "すすむ"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208ADA4",
+      "source": "昭",
+      "previous": "Akira",
+      "english": "Akira",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "あきら"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208AE40",
+      "source": "求",
+      "previous": "request",
+      "english": "Motomu",
+      "basis": "unique original given-name dictionary reading",
+      "original_given_readings": [
+        "もとむ"
+      ],
+      "native_family_spellings": []
+    },
+    {
+      "address": "0x8208B0AC",
+      "source": "プポート",
+      "previous": "port",
+      "english": "Rupert",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "RUPERT"
+      ]
+    },
+    {
+      "address": "0x8208B9A0",
+      "source": "マ",
+      "previous": "Ma",
+      "english": "Ma",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "MA"
+      ]
+    },
+    {
+      "address": "0x8208BA2C",
+      "source": "ス",
+      "previous": "S",
+      "english": "Si",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "SI"
+      ]
+    },
+    {
+      "address": "0x8208BB2C",
+      "source": "チ",
+      "previous": "Chi",
+      "english": "Qi",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "QI"
+      ]
+    },
+    {
+      "address": "0x8208BC64",
+      "source": "ダ",
+      "previous": "da",
+      "english": "Da",
+      "basis": "native Latin family spelling",
+      "original_given_readings": [],
+      "native_family_spellings": [
+        "DA"
+      ]
+    }
+  ],
+  "contextual_name_fields": [
+    {
+      "record_address": "0x82041700",
+      "record_id": "01000815",
+      "field": "given",
+      "source_hash": "A8D541B5BF307788",
+      "english": "Ray"
+    },
+    {
+      "record_address": "0x82041B4C",
+      "record_id": "01000833",
+      "field": "given",
+      "source_hash": "EE4F962F8D2AFA97",
+      "english": "John"
+    }
+  ],
+  "unresolved_conflict": [
+    {
+      "address": "0x8208BD28",
+      "proposed": "Cheng",
+      "retained": "Chen",
+      "reason": "The same source fingerprint is used by a real-roster alias; retain the existing value until context can distinguish them"
+    }
+  ],
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_season_record_personal_fielder_43",
+      "japanese": "均野数",
+      "english": "Fielder Use"
+    },
+    {
+      "namespace": "ButtonGuide",
+      "key": "btg_common_pl",
+      "japanese": "選手",
+      "english": "Player"
+    }
+  ],
+  "reference_policy": "Name readings from the original dictionary take precedence over unrelated 2026 players with the same kanji. Western given names are assigned only to their complete native records when a shared kana spelling has other meanings.",
+  "entire_game_english": false,
+  "interactive_validation": false,
+  "remaining": "279 native name-pool pairs still require given-name or family-context review; runtime placement and newly created-player screens remain untested",
+  "offline_width_estimate": {
+    "font": "Arial 16 px",
+    "widest_complete_names": [
+      [
+        161.0,
+        "Kikuchihara Shunsuke"
+      ],
+      [
+        151.98,
+        "Katashimo Tsunanori"
+      ],
+      [
+        147.0,
+        "Sakakibara Kuniyuki"
+      ],
+      [
+        143.0,
+        "Morikawa Harumoto"
+      ],
+      [
+        141.0,
+        "Retsuyama Haruaki"
+      ]
+    ],
+    "live_rectangles_not_verified": true
+  }
+}

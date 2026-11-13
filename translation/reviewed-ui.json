@@ -1989,5 +1989,10 @@
   "0x8208FED4": "Your team would have too few pitchers.",
   "0x8208FEF8": "The other team would have too many pitchers.",
   "0x8208FF1C": "Your team would have too many pitchers.",
-  "0x8208FF3C": "Propose this trade?"
+  "0x8208FF3C": "Propose this trade?",
+  "0x82067F94": "Player",
+  "0x8209833C": " IP",
+  "0x82098340": " ERA",
+  "0x8209834C": " K",
+  "0x8209174C": "Fielder Use"
 }

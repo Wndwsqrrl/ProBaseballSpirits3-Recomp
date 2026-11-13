@@ -9,15 +9,15 @@ This repository contains port source, executable analysis metadata, English tran
 - Boots on Windows with Direct3D 12 and prefers NVIDIA when available.
 - Reaches the main menu, Exhibition setup, lineups, stadium introductions, and live pitching.
 - English replaces native text through the game renderers, rather than a separate overlay.
-- Current catalogue: **14,020 records / 13,726 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
+- Current catalogue: **15,628 records / 15,334 unique fingerprints**. Counts include aliases and fragments. The catalogue excludes input codebooks.
 - **2,087 texture label occurrences** across 259 atlases cover menu modes, umpire calls, pause menus, positions, editor and name-audio controls, practice captions, lineup legends, situational ability badges, handedness comparisons, utility and sound settings, opening opponent, venue and tournament captions, auto-game roles, pitcher order, result tables, pitching panels, calendar and newspaper status labels, DH lineup presets, batting-first controls, and country/custom-team labels.
 - All 13 stadium-selection cards have English venue names and surface/dimension headings in their day and night views. Checks preserve the stadium model regions and original dimensions. In-game placement is pending.
 - Given-name patches cover all **648 roster records**, including two names stored with custom game characters. Historical records verify 549 non-Hanshin given names. Another 45 use the game's name dictionary, and the Hanshin readings are documented separately.
 - Includes 308 newspaper lines/patterns and support for changing numbers and names in formatted messages.
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
-- The name pool includes **376 reviewed names**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
+- The name pool includes **410 reviewed name fields**. The review uses native Latin surnames, the game's Japanese name dictionary, and the original display spellings.
 - The announcer-name selector has **1,256 English labels**, with 144 spelling overrides and phonetic transliteration for the remaining kana names. Its navigation grid displays 46 English syllables, fitted within the native cells. In-game placement still needs checking.
-- The main extracted list has **5,724 reviewed entries and 464 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- The main extracted list has **5,763 reviewed entries and 425 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
@@ -31,6 +31,8 @@ This repository contains port source, executable analysis metadata, English tran
 Pitching-practice instructions cover both Y/A button variants. Fielding-practice “Hit Again” and “Re-Do Last Practice” use the official 2026 wording, fitted across the original joined sprite strips. Offline checks preserve the controls and earlier English labels; live checks remain. See [practice help validation](translation/practice-help-validation.json).
 
 Magazine edition badges and the newspaper masthead/baseball tag have English headings. The original title prompt is already English and remains unchanged. Newspaper metadata and low-resolution notice print remain unresolved. See [print heading validation](translation/print-heading-validation.json).
+
+Generated-player name coverage includes **1,608 complete-name lookups for 134 native name pairs**, covering combined, spaced and mixed Latin/Japanese forms. Each lookup retains both name fields. Another 279 native pairs still need reading or context review. See [name pool validation](translation/name-pool-validation.json).
 
 Localization remains unfinished. Credits may remain Japanese. The original in-stadium signs, sponsor ads and ballpark artwork are preserved; earlier English credit title and licensing captions are retained.
 
@@ -100,7 +102,8 @@ The launcher selects Direct3D 12, adapter index 1 on the tested system, and the 
 - `draft-translation.py`: create cached translation drafts. Only extracted game text is submitted to Google Translate's public endpoint. Control tags and format arguments are protected; results require review.
 - `curate-draft.py`: apply wording corrections and validate control-tag and printf-argument order.
 - `apply-reviewed-ui.py`: merge the maintained `reviewed-ui.json`, `reviewed-abilities.json`, `reviewed-headlines.json`, `reviewed-settings.json`, `reviewed-modes.json`, and `reviewed-management.json` corrections into the curation table before regenerating local drafts. Reviewed paragraphs may reflow line breaks; button prompts, color controls, and printf arguments remain protected.
-- `generate-full-text.py` builds the English render table and source-fingerprint catalogue. It retains short runtime patterns where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for packed UI lookups, `--extra-catalogue translation/manager-report-lookups.json` for manager comments, and the output of `generate-match-captions.py` for live stat captions.
+- `generate-name-pool-lookups.py` builds complete-name lookups from the supported loaded image, reviewed fields, contextual overrides and the original 413-record name table. It retains unresolved names for further review.
+- `generate-full-text.py` builds the English render table and source-fingerprint catalogue. It retains short runtime patterns where required. When regenerating from local draft inputs, include `--extra-catalogue translation/reviewed-asset-text.json` for packed UI lookups, `--extra-catalogue translation/manager-report-lookups.json` for manager comments, the output of `generate-match-captions.py` for live stat captions, and `--extra-catalogue translation/generated-name-lookups.json` for complete generated-player names.
 - `generate-match-captions.py IMAGE translation/match-captions.json OUTPUT` reconstructs native stat-caption patterns from the supported loaded image and the English caption list.
 - `generate-headline-patterns.py`: create bounded name/number aliases for filled newspaper headlines, preserving the original field order.
 - `check-text-layout.py`: check reviewed settings text against an approximate Arial width and line budget. Requires Pillow; this is an offline estimate, not a measurement of game rectangles.
