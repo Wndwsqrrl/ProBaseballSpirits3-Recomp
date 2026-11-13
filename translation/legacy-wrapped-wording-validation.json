@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-13",
+  "corrected_partial_news_fragments": 6,
+  "reviewed_draft_option_fragments": 4,
+  "evidence": [
+    {
+      "source_hash": "E40D38DE9D13743F",
+      "source": "中日vs阪神の試合は、両チームなかなか引き",
+      "previous_english": "The match between Chunichi and Hanshin was quite close for both teams.",
+      "english": "Chunichi vs. Hanshin was a close contest, with",
+      "status": "draft",
+      "estimated_width_px": 332.0
+    },
+    {
+      "source_hash": "6D4B9CB32C2C9C13",
+      "source": "離せない苦しい展開の末、阪神が6対7でなん",
+      "previous_english": "After a difficult and difficult game, Hanshin won 6-7.",
+      "english": "neither side able to pull away. Hanshin, 6-7, ...",
+      "status": "draft",
+      "estimated_width_px": 326.0
+    },
+    {
+      "source_hash": "48E9D28B07196940",
+      "source": "阪神は8回表、1アウトランナー2塁からNa",
+      "previous_english": "Hanshin started the top of the 8th inning with one out and a runner on second base.",
+      "english": "Top 8th, Hanshin: one out, runner on 2nd. Na",
+      "status": "draft",
+      "estimated_width_px": 319.0
+    },
+    {
+      "source_hash": "3A11B4514F65B17C",
+      "source": "kamuraYuのライトへのタイムリーヒッ",
+      "previous_english": "KamuraYu's timely hit to right field",
+      "english": "kamuraYu's RBI hit to right",
+      "status": "draft",
+      "estimated_width_px": 188.0
+    },
+    {
+      "source_hash": "E98F614581121A7E",
+      "source": "トで貴重な勝ち越し点をあげた。",
+      "previous_english": "He scored the valuable go-ahead goal.",
+      "english": " drove in the crucial go-ahead run.",
+      "status": "draft",
+      "estimated_width_px": 241.0
+    },
+    {
+      "source_hash": "5E08E5A9FF637480",
+      "source": "投げては、Kubotaが1回を0点に抑える",
+      "previous_english": "When it comes to pitching, Kubota holds the first inning to zero points.",
+      "english": "On the mound, Kubota pitched one scoreless inning",
+      "status": "draft",
+      "estimated_width_px": 366.0
+    },
+    {
+      "source_hash": "8CCB0C2A5BF5BD2E",
+      "source": "２００５年実際にドラフトに参加した実在ルーキー選手をドラフトに参",
+      "previous_english": "A list of real rookie players who actually participated in the 2005 draft.",
+      "english": "Include the real rookies from the 2005 draft. ",
+      "status": "reviewed",
+      "estimated_width_px": 309.0
+    },
+    {
+      "source_hash": "7F91C8A534DF3AC5",
+      "source": "加させます。（個別に参加させることはできません。）",
+      "previous_english": "I'll add it. (Individual participation is not possible.)",
+      "english": "They enter as a group, with no individual selection.",
+      "status": "reviewed",
+      "estimated_width_px": 359.0
+    },
+    {
+      "source_hash": "EC3DF285F74BED32",
+      "source": "２００５年実際に行われたドラフトの指名を再現します。実在ルーキー",
+      "previous_english": "We will recreate the draft picks that actually took place in 2005. real rookie",
+      "english": "Recreate the actual 2005 draft picks. All real rookies ",
+      "status": "reviewed",
+      "estimated_width_px": 372.0
+    },
+    {
+      "source_hash": "45E1B0AFAB956B1E",
+      "source": "選手は全員ドラフトには参加せず、史実通りの球団に所属します。",
+      "previous_english": "All players do not participate in the draft and belong to their historical teams.",
+      "english": "join their historical clubs instead of entering this draft.",
+      "status": "reviewed",
+      "estimated_width_px": 374.0
+    }
+  ],
+  "original_6_7_score_order_preserved": true,
+  "winner_not_inferred_from_incomplete_source": true,
+  "one_scoreless_inning_not_first_inning": true,
+  "go_ahead_run_not_goal": true,
+  "split_player_name_boundary_preserved": "Na + kamuraYu",
+  "complete_2005_option_meanings_reviewed_as_paired_fragments": true,
+  "partial_newspaper_sources_remain_drafts": true,
+  "interactive_validation": false,
+  "compiled_lookup_inputs_checked": 104,
+  "compiled_lookup_results_matched": true,
+  "source_and_address_curation_status_guards_passed": true,
+  "estimated_font": "Arial 16 px; not a live layout guarantee",
+  "normal_windows_build_passed": true
+}

@@ -32112,28 +32112,28 @@
     "address": "0x82099DB0",
     "source_size": 14,
     "source_hash": "03ABC20A1768F1E0",
-    "english": "Appointed as a reliever",
+    "english": "Reliever use ",
     "status": "draft"
   },
   {
     "address": "0x82099DC0",
     "source_size": 22,
     "source_hash": "1721502078E38B2A",
-    "english": "Appointment of pitchers from second onwards",
+    "english": "Pitching changes after the starter ",
     "status": "draft"
   },
   {
     "address": "0x82099DD8",
     "source_size": 28,
     "source_hash": "384C901FC8D0FF4D",
-    "english": "This arrangement is based on trust in the starting pitcher.",
+    "english": "The decision to trust the starter ",
     "status": "draft"
   },
   {
     "address": "0x82099DF8",
     "source_size": 16,
     "source_hash": "D6822137E105F9C6",
-    "english": "I couldn't hold on,",
+    "english": "could not hold on, ",
     "status": "draft"
   },
   {
@@ -32147,42 +32147,42 @@
     "address": "0x82099E24",
     "source_size": 18,
     "source_hash": "AC119D83E5D67EB1",
-    "english": "Showing tenacious pitching,",
+    "english": "battled through the innings, ",
     "status": "draft"
   },
   {
     "address": "0x82099E38",
     "source_size": 22,
     "source_hash": "1F4B93414E9F3346",
-    "english": "There were no hits during that time,",
+    "english": "allowed no hits during that stretch, ",
     "status": "draft"
   },
   {
     "address": "0x82099E50",
     "source_size": 36,
     "source_hash": "1AB8A84024981CB4",
-    "english": "In the second half, he pitched tenaciously with few runs allowed.",
+    "english": "limited the damage in the later innings, ",
     "status": "draft"
   },
   {
     "address": "0x82099E78",
     "source_size": 34,
     "source_hash": "1FAB66EB1130594C",
-    "english": "In the second half, he pitched tenaciously without giving up any runs.",
+    "english": "kept runs off the board in the later innings, ",
     "status": "draft"
   },
   {
     "address": "0x82099E9C",
     "source_size": 28,
     "source_hash": "917B5A0D67C4D046",
-    "english": "I held out the starting pitcher for a long time, but",
+    "english": "The starter was left in longer, but ",
     "status": "draft"
   },
   {
     "address": "0x82099EBC",
     "source_size": 24,
     "source_hash": "266B3A179CE9A946",
-    "english": "Appointment without much consideration of compatibility",
+    "english": "Decisions that overlooked the matchup ",
     "status": "draft"
   },
   {
@@ -32196,28 +32196,28 @@
     "address": "0x82099EF0",
     "source_size": 30,
     "source_hash": "133D427F00F3C1B2",
-    "english": "I didn't let the other team do anything.",
+    "english": "keeping the opposing lineup quiet ",
     "status": "draft"
   },
   {
     "address": "0x82099F10",
     "source_size": 20,
     "source_hash": "A0A089D73614088A",
-    "english": "I didn't allow any hits.",
+    "english": "not allowing a hit ",
     "status": "draft"
   },
   {
     "address": "0x82099F28",
     "source_size": 40,
     "source_hash": "BCC08715471DC737",
-    "english": "Appointment based on compatibility with opposing team batters",
+    "english": "Decisions that considered pitcher-batter matchups ",
     "status": "draft"
   },
   {
     "address": "0x82099F54",
     "source_size": 22,
     "source_hash": "444A6A93677AD6E2",
-    "english": "I allowed myself to be shot.",
+    "english": "allowing a home run ",
     "status": "draft"
   },
   {
@@ -32231,14 +32231,14 @@
     "address": "0x82099F88",
     "source_size": 22,
     "source_hash": "EC827BDDCFB95358",
-    "english": "I allowed him to get on base.",
+    "english": "allowing a runner to reach base ",
     "status": "draft"
   },
   {
     "address": "0x82099FA0",
     "source_size": 36,
     "source_hash": "A4552B955ED21FE6",
-    "english": "I made a few hits",
+    "english": "allowing several hits ",
     "status": "draft"
   },
   {
@@ -32252,49 +32252,49 @@
     "address": "0x82099FE8",
     "source_size": 18,
     "source_hash": "D9880184303AD38D",
-    "english": "A runner on base",
+    "english": "runners who reached base ",
     "status": "draft"
   },
   {
     "address": "0x82099FFC",
     "source_size": 42,
     "source_hash": "9EDE9EAA8AF037CC",
-    "english": "It's all about using the pinch hitter who hit the game-winning hit.",
+    "english": "The pinch hitter's decisive hit made all the difference",
     "status": "draft"
   },
   {
     "address": "0x8209A028",
     "source_size": 42,
     "source_hash": "7C6A4D464D2601E6",
-    "english": "The appointment of a pinch hitter at the end of a close game",
+    "english": "Using a pinch hitter late in a close game ",
     "status": "draft"
   },
   {
     "address": "0x8209A054",
     "source_size": 12,
     "source_hash": "DEF77A63431DD8F3",
-    "english": "Appointment of pinch hitter",
+    "english": "The pinch-hitting decision ",
     "status": "draft"
   },
   {
     "address": "0x8209A064",
     "source_size": 16,
     "source_hash": "BBDC07FC92F898F5",
-    "english": "bunt success rate",
+    "english": "The bunt success rate ",
     "status": "draft"
   },
   {
     "address": "0x8209A078",
     "source_size": 28,
     "source_hash": "0B80010B51497ED7",
-    "english": "The score in the inning in which the first batter is on base is",
+    "english": "Run production after the leadoff hitter reached ",
     "status": "draft"
   },
   {
     "address": "0x8209A098",
     "source_size": 24,
     "source_hash": "F927BC13BEE74A74",
-    "english": "Runners who advance into scoring position",
+    "english": "runners in scoring position ",
     "status": "draft"
   },
   {
@@ -32427,91 +32427,91 @@
     "address": "0x8209A410",
     "source_size": 28,
     "source_hash": "80319BE6636A7486",
-    "english": "I hope they will take advantage of this in future matches.",
+    "english": "Learn from this for future games.",
     "status": "draft"
   },
   {
     "address": "0x8209A430",
     "source_size": 28,
     "source_hash": "51210093E1A46CA9",
-    "english": "This is an area that should be corrected in the future.",
+    "english": "This needs improvement.",
     "status": "draft"
   },
   {
     "address": "0x8209A450",
     "source_size": 22,
     "source_hash": "036DACA51911809D",
-    "english": "This is something that leaves me with some doubts.",
+    "english": "The decision was questionable.",
     "status": "draft"
   },
   {
     "address": "0x8209A468",
     "source_size": 14,
     "source_hash": "65940881B0E14534",
-    "english": "That's a disappointing result.",
+    "english": "A disappointing result.",
     "status": "draft"
   },
   {
     "address": "0x8209A478",
     "source_size": 20,
     "source_hash": "D086DAC23849317B",
-    "english": "It backfired.",
+    "english": "The decision backfired.",
     "status": "draft"
   },
   {
     "address": "0x8209A490",
     "source_size": 8,
     "source_hash": "AB8D1D00DF40A791",
-    "english": "It's stunning.",
+    "english": "Excellent.",
     "status": "draft"
   },
   {
     "address": "0x8209A49C",
     "source_size": 12,
     "source_hash": "7FC2ABD94D8612C7",
-    "english": "It can be evaluated.",
+    "english": "Worth credit.",
     "status": "draft"
   },
   {
     "address": "0x8209A4AC",
     "source_size": 10,
     "source_hash": "D6CEDCBB99EF2F88",
-    "english": "as a result",
+    "english": "As a result, ",
     "status": "draft"
   },
   {
     "address": "0x8209A4B8",
     "source_size": 16,
     "source_hash": "7686A6736CF48BFF",
-    "english": "I hit the nail on the head.",
+    "english": "what worked exactly as intended",
     "status": "draft"
   },
   {
     "address": "0x8209A4CC",
     "source_size": 20,
     "source_hash": "D443E1B77D01F270",
-    "english": "What didn't go well",
+    "english": "what did not work out",
     "status": "draft"
   },
   {
     "address": "0x8209A4E4",
     "source_size": 14,
     "source_hash": "F7EF28DAC753CCF6",
-    "english": "What went well",
+    "english": "what worked well",
     "status": "draft"
   },
   {
     "address": "0x8209A4F4",
     "source_size": 32,
     "source_hash": "1A51E9E6D47E40D2",
-    "english": "I couldn't quite connect the dots.",
+    "english": "failing to turn chances into runs ",
     "status": "draft"
   },
   {
     "address": "0x8209A518",
     "source_size": 40,
     "source_hash": "47CE7DDA00B7A45E",
-    "english": "Where I was able to connect the dots efficiently",
+    "english": "making the most of scoring chances ",
     "status": "draft"
   },
   {
@@ -32525,14 +32525,14 @@
     "address": "0x8209A554",
     "source_size": 14,
     "source_hash": "0122BD842777C4FC",
-    "english": "What was good about it",
+    "english": "what went well",
     "status": "draft"
   },
   {
     "address": "0x8209A564",
     "source_size": 16,
     "source_hash": "03FEEF54A2CAB204",
-    "english": "Where there was less",
+    "english": "the low total",
     "status": "draft"
   },
   {
@@ -32546,21 +32546,21 @@
     "address": "0x8209A588",
     "source_size": 10,
     "source_hash": "D9E3EBBA3AE048FB",
-    "english": "Low point",
+    "english": "the low figure",
     "status": "draft"
   },
   {
     "address": "0x8209A594",
     "source_size": 10,
     "source_hash": "8EADB75BF1D114A1",
-    "english": "High points",
+    "english": "the high figure",
     "status": "draft"
   },
   {
     "address": "0x8209A5A0",
     "source_size": 18,
     "source_hash": "A51E673C62779AD2",
-    "english": "The command in that scene was",
+    "english": "The decision in that situation ",
     "status": "draft"
   },
   {
@@ -32616,14 +32616,14 @@
     "address": "0x8209A60C",
     "source_size": 4,
     "source_hash": "2462CB24A483AF3F",
-    "english": "very difficult",
+    "english": "particularly ",
     "status": "draft"
   },
   {
     "address": "0x8209A614",
     "source_size": 12,
     "source_hash": "4DFFF772CA6D2DD6",
-    "english": "After all",
+    "english": "Above all, ",
     "status": "draft"
   },
   {
@@ -83270,14 +83270,14 @@
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "E40D38DE9D13743F",
-    "english": "The match between Chunichi and Hanshin was quite close for both teams.",
+    "english": "Chunichi vs. Hanshin was a close contest, with",
     "status": "draft"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "6D4B9CB32C2C9C13",
-    "english": "After a difficult and difficult game, Hanshin won 6-7.",
+    "english": "neither side able to pull away. Hanshin, 6-7, ...",
     "status": "draft"
   },
   {
@@ -83291,28 +83291,28 @@
     "address": "0x00000000",
     "source_size": 37,
     "source_hash": "48E9D28B07196940",
-    "english": "Hanshin started the top of the 8th inning with one out and a runner on second base.",
+    "english": "Top 8th, Hanshin: one out, runner on 2nd. Na",
     "status": "draft"
   },
   {
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "3A11B4514F65B17C",
-    "english": "KamuraYu's timely hit to right field",
+    "english": "kamuraYu's RBI hit to right",
     "status": "draft"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "E98F614581121A7E",
-    "english": "He scored the valuable go-ahead goal.",
+    "english": " drove in the crucial go-ahead run.",
     "status": "draft"
   },
   {
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "5E08E5A9FF637480",
-    "english": "When it comes to pitching, Kubota holds the first inning to zero points.",
+    "english": "On the mound, Kubota pitched one scoreless inning",
     "status": "draft"
   },
   {
@@ -83466,15 +83466,15 @@
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "8CCB0C2A5BF5BD2E",
-    "english": "A list of real rookie players who actually participated in the 2005 draft.",
-    "status": "draft"
+    "english": "Include the real rookies from the 2005 draft. ",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 50,
     "source_hash": "7F91C8A534DF3AC5",
-    "english": "I'll add it. (Individual participation is not possible.)",
-    "status": "draft"
+    "english": "They enter as a group, with no individual selection.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
@@ -83494,15 +83494,15 @@
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "EC3DF285F74BED32",
-    "english": "We will recreate the draft picks that actually took place in 2005. real rookie",
-    "status": "draft"
+    "english": "Recreate the actual 2005 draft picks. All real rookies ",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 60,
     "source_hash": "45E1B0AFAB956B1E",
-    "english": "All players do not participate in the draft and belong to their historical teams.",
-    "status": "draft"
+    "english": "join their historical clubs instead of entering this draft.",
+    "status": "reviewed"
   },
   {
     "address": "0x00000000",

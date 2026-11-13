@@ -617,7 +617,11 @@
     "奪三率": "SO Rate",
     "奪三": "SO",
     "登板": "G",
-    "投球回数": "IP"
+    "投球回数": "IP",
+    "２００５年実際にドラフトに参加した実在ルーキー選手をドラフトに参": "Include the real rookies from the 2005 draft. ",
+    "加させます。（個別に参加させることはできません。）": "They enter as a group, with no individual selection.",
+    "２００５年実際に行われたドラフトの指名を再現します。実在ルーキー": "Recreate the actual 2005 draft picks. All real rookies ",
+    "選手は全員ドラフトには参加せず、史実通りの球団に所属します。": "join their historical clubs instead of entering this draft."
   },
   "runtime_patterns": [
     {

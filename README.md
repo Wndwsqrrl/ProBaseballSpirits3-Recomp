@@ -22,7 +22,8 @@ This repository contains port source, executable analysis metadata, English tran
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.
-- Match recaps include **51 complete manager comments** assembled from the game's phrase table.
+- Match recaps include **51 complete manager comments** assembled from the game's phrase table. Forty-three fallback phrases have revised baseball wording and remain drafts pending live context checks. See [manager fallback validation](translation/manager-fallback-wording-validation.json).
+- Legacy newspaper snippets use baseball wording for a scoreless inning and a go-ahead run. Four 2005 draft-option snippets distinguish grouped rookie entry from historical club assignment. Incomplete newspaper sources remain drafts. See [wrapped text validation](translation/legacy-wrapped-wording-validation.json).
 - All 12 club previews have reviewed English. The latest preview and pregame help lines pass offline width and line-budget checks. In-game placement is pending.
 - **83 packed text slots** in 15 archive members cover the scoreboard, calendar, stats, trade, contract, and trial screens. Each edit fits the original slot. The verifier confirmed 2,112 unmodified archive members match the original bytes.
 - **374 packed menu lookups** include 177 menu defaults checked against their original rectangles. Five character grids in the parsed menu text are kept for native name input.

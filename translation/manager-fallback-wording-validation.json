@@ -1,0 +1,414 @@
+{
+  "date": "2026-11-13",
+  "draft_fragments_improved": 43,
+  "fragment_evidence": [
+    {
+      "address": "0x82099DB0",
+      "source": "リリーフ起用が",
+      "previous_english": "Appointed as a reliever",
+      "english": "Reliever use ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 94.0
+    },
+    {
+      "address": "0x82099DC0",
+      "source": "２番手以降の投手起用が",
+      "previous_english": "Appointment of pitchers from second onwards",
+      "english": "Pitching changes after the starter ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 236.0
+    },
+    {
+      "address": "0x82099DD8",
+      "source": "先発投手を信頼したこの采配は",
+      "previous_english": "This arrangement is based on trust in the starting pitcher.",
+      "english": "The decision to trust the starter ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 221.0
+    },
+    {
+      "address": "0x82099DF8",
+      "source": "踏ん張りきれず、",
+      "previous_english": "I couldn't hold on,",
+      "english": "could not hold on, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 130.0
+    },
+    {
+      "address": "0x82099E24",
+      "source": "粘りの投球をみせ、",
+      "previous_english": "Showing tenacious pitching,",
+      "english": "battled through the innings, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 196.0
+    },
+    {
+      "address": "0x82099E38",
+      "source": "その間の被安打もなく、",
+      "previous_english": "There were no hits during that time,",
+      "english": "allowed no hits during that stretch, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 245.0
+    },
+    {
+      "address": "0x82099E50",
+      "source": "後半は失点も少なく粘りの投球をみせ、",
+      "previous_english": "In the second half, he pitched tenaciously with few runs allowed.",
+      "english": "limited the damage in the later innings, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 277.0
+    },
+    {
+      "address": "0x82099E78",
+      "source": "後半は失点もなく粘りの投球をみせ、",
+      "previous_english": "In the second half, he pitched tenaciously without giving up any runs.",
+      "english": "kept runs off the board in the later innings, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 299.0
+    },
+    {
+      "address": "0x82099E9C",
+      "source": "先発投手を長めに引っ張ったが",
+      "previous_english": "I held out the starting pitcher for a long time, but",
+      "english": "The starter was left in longer, but ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 234.0
+    },
+    {
+      "address": "0x82099EBC",
+      "source": "相性をあまり考えない起用",
+      "previous_english": "Appointment without much consideration of compatibility",
+      "english": "Decisions that overlooked the matchup ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 279.0
+    },
+    {
+      "address": "0x82099EF0",
+      "source": "相手チームに何もさせなかったの",
+      "previous_english": "I didn't let the other team do anything.",
+      "english": "keeping the opposing lineup quiet ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 244.0
+    },
+    {
+      "address": "0x82099F10",
+      "source": "安打を許さなかったの",
+      "previous_english": "I didn't allow any hits.",
+      "english": "not allowing a hit ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 124.0
+    },
+    {
+      "address": "0x82099F28",
+      "source": "相手チーム打者との相性をうまく考えた起用",
+      "previous_english": "Appointment based on compatibility with opposing team batters",
+      "english": "Decisions that considered pitcher-batter matchups ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 358.0
+    },
+    {
+      "address": "0x82099F54",
+      "source": "被弾を許してしまったの",
+      "previous_english": "I allowed myself to be shot.",
+      "english": "allowing a home run ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 148.0
+    },
+    {
+      "address": "0x82099F88",
+      "source": "出塁を許してしまったの",
+      "previous_english": "I allowed him to get on base.",
+      "english": "allowing a runner to reach base ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 227.0
+    },
+    {
+      "address": "0x82099FA0",
+      "source": "幾つかヒットを打たせてしまったところ",
+      "previous_english": "I made a few hits",
+      "english": "allowing several hits ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 149.0
+    },
+    {
+      "address": "0x82099FE8",
+      "source": "出塁したランナーを",
+      "previous_english": "A runner on base",
+      "english": "runners who reached base ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 193.0
+    },
+    {
+      "address": "0x82099FFC",
+      "source": "試合を決めた一打を放った代打の起用がすべて",
+      "previous_english": "It's all about using the pinch hitter who hit the game-winning hit.",
+      "english": "The pinch hitter's decisive hit made all the difference",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 370.0
+    },
+    {
+      "address": "0x8209A028",
+      "source": "接戦状態での試合終盤に行なった代打の起用が",
+      "previous_english": "The appointment of a pinch hitter at the end of a close game",
+      "english": "Using a pinch hitter late in a close game ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 287.0
+    },
+    {
+      "address": "0x8209A054",
+      "source": "代打の起用が",
+      "previous_english": "Appointment of pinch hitter",
+      "english": "The pinch-hitting decision ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 187.0
+    },
+    {
+      "address": "0x8209A064",
+      "source": "バントの成功率が",
+      "previous_english": "bunt success rate",
+      "english": "The bunt success rate ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 160.0
+    },
+    {
+      "address": "0x8209A078",
+      "source": "先頭打者が出塁した回の得点が",
+      "previous_english": "The score in the inning in which the first batter is on base is",
+      "english": "Run production after the leadoff hitter reached ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 327.0
+    },
+    {
+      "address": "0x8209A098",
+      "source": "得点圏に進んだランナーを",
+      "previous_english": "Runners who advance into scoring position",
+      "english": "runners in scoring position ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 191.0
+    },
+    {
+      "address": "0x8209A410",
+      "source": "今後の試合に活かしてほしい。",
+      "previous_english": "I hope they will take advantage of this in future matches.",
+      "english": "Learn from this for future games.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 227.0
+    },
+    {
+      "address": "0x8209A430",
+      "source": "今後修正していくべき箇所だ。",
+      "previous_english": "This is an area that should be corrected in the future.",
+      "english": "This needs improvement.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 179.0
+    },
+    {
+      "address": "0x8209A450",
+      "source": "少し疑問の残る内容だ。",
+      "previous_english": "This is something that leaves me with some doubts.",
+      "english": "The decision was questionable.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 225.0
+    },
+    {
+      "address": "0x8209A468",
+      "source": "残念な結果だ。",
+      "previous_english": "That's a disappointing result.",
+      "english": "A disappointing result.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 158.0
+    },
+    {
+      "address": "0x8209A478",
+      "source": "裏目に出てしまった。",
+      "previous_english": "It backfired.",
+      "english": "The decision backfired.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 165.0
+    },
+    {
+      "address": "0x8209A490",
+      "source": "見事だ。",
+      "previous_english": "It's stunning.",
+      "english": "Excellent.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 70.0
+    },
+    {
+      "address": "0x8209A49C",
+      "source": "評価できる。",
+      "previous_english": "It can be evaluated.",
+      "english": "Worth credit.",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 89.0
+    },
+    {
+      "address": "0x8209A4AC",
+      "source": "結果として",
+      "previous_english": "as a result",
+      "english": "As a result, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 83.0
+    },
+    {
+      "address": "0x8209A4B8",
+      "source": "ずばり的中した点",
+      "previous_english": "I hit the nail on the head.",
+      "english": "what worked exactly as intended",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 231.0
+    },
+    {
+      "address": "0x8209A4CC",
+      "source": "うまくいかなかった点",
+      "previous_english": "What didn't go well",
+      "english": "what did not work out",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 150.0
+    },
+    {
+      "address": "0x8209A4E4",
+      "source": "うまくいった点",
+      "previous_english": "What went well",
+      "english": "what worked well",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 123.0
+    },
+    {
+      "address": "0x8209A4F4",
+      "source": "うまく点に結びつけられなかったの",
+      "previous_english": "I couldn't quite connect the dots.",
+      "english": "failing to turn chances into runs ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 224.0
+    },
+    {
+      "address": "0x8209A518",
+      "source": "効率良く点に結びつけることができたところ",
+      "previous_english": "Where I was able to connect the dots efficiently",
+      "english": "making the most of scoring chances ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 257.0
+    },
+    {
+      "address": "0x8209A554",
+      "source": "良かったところ",
+      "previous_english": "What was good about it",
+      "english": "what went well",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 105.0
+    },
+    {
+      "address": "0x8209A564",
+      "source": "少なかったところ",
+      "previous_english": "Where there was less",
+      "english": "the low total",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 85.0
+    },
+    {
+      "address": "0x8209A588",
+      "source": "低かった点",
+      "previous_english": "Low point",
+      "english": "the low figure",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 95.0
+    },
+    {
+      "address": "0x8209A594",
+      "source": "高かった点",
+      "previous_english": "High points",
+      "english": "the high figure",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 101.0
+    },
+    {
+      "address": "0x8209A5A0",
+      "source": "あの場面での采配は",
+      "previous_english": "The command in that scene was",
+      "english": "The decision in that situation ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 207.0
+    },
+    {
+      "address": "0x8209A60C",
+      "source": "大変",
+      "previous_english": "very difficult",
+      "english": "particularly ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 82.0
+    },
+    {
+      "address": "0x8209A614",
+      "source": "何といっても",
+      "previous_english": "After all",
+      "english": "Above all, ",
+      "status": "draft",
+      "native_builder_reference": "0x825434A0",
+      "estimated_width_px": 75.0
+    }
+  ],
+  "complete_native_report_lookups": 51,
+  "complete_sentence_translations_not_replaced_by_fragments": true,
+  "source_addresses_in_native_replay": true,
+  "wording_not_promoted_to_reviewed": true,
+  "estimated_font": "Arial 16 px; not a live layout guarantee",
+  "interactive_validation": false,
+  "native_paths_replayed": 1860,
+  "nonempty_complete_native_sentences": 51,
+  "compiled_lookup_inputs_checked": 104,
+  "compiled_lookup_results_matched": true,
+  "curation_status_guards_checked": 292,
+  "original_source_fields_unchanged": true,
+  "complete_4956_name_aliases_unchanged": true,
+  "prior_unedited_catalogue_rows_unchanged": 18923,
+  "catalogue_status_counts": {
+    "reviewed": 9894,
+    "draft": 3432,
+    "game-roster-family": 5650
+  },
+  "partial_newspaper_and_draft_option_report": "legacy-wrapped-wording-validation.json",
+  "normal_windows_build_passed": true
+}

@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "53 manager/newspaper/draft-option fragments improved; 104 compiled lookups, 292 curation status guards, 1860 native manager paths and the Windows build passed; complete comments and all 4956 name aliases unchanged",
     "All 413 generated-player full names have mappings: 163 reviewed and 250 provisional; 5195 compiled lookups and the Windows build passed, with all prior 2904 aliases retained",
     "70 Korean-group names have provisional complete-name mappings using native Latin surnames; 2970 compiled lookups and the Windows build passed, with all 2064 prior aliases retained",
     "Four stadium photo captions rendered and decoded at 32 px without horizontal compression; 259 prior atlases, 2112 untouched archive members and photo pixels outside caption rectangles unchanged",
@@ -47,6 +48,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live manager fallback and legacy wrapped newspaper/draft-option context, fragment boundaries and line placement",
     "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
     "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 250 provisional full-name readings and surname-only widget context",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
@@ -798,6 +800,18 @@
     "corrected_existing_draft_fields": 83,
     "compiled_lookup_inputs_checked": 5195,
     "report": "complete-name-pool-validation.json",
+    "interactive_validation": false
+  },
+  "wording_accuracy_round": {
+    "manager_fallback_fragments_improved": 43,
+    "partial_newspaper_fragments_improved": 6,
+    "reviewed_2005_draft_option_fragments": 4,
+    "complete_native_manager_sentences_unchanged": 51,
+    "native_paths_replayed": 1860,
+    "compiled_lookup_inputs_checked": 104,
+    "curation_status_guards_checked": 292,
+    "existing_name_aliases_unchanged": 4956,
+    "report": "manager-fallback-wording-validation.json",
     "interactive_validation": false
   }
 }
