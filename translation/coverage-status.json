@@ -10,6 +10,7 @@
   "texture_labels": 2091,
   "localized_archive_members": 111,
   "validation": [
+    "Slot concealment graphic classified from 500 native instruction cases matching 500 generated-function cases; exact frame/page/UV binding and four preserved source regions verified; no game asset changes",
     "Player-data labels CON R/CON L/Power confirmed by native ability-grade paths; nine labels fit exact SBIB UV crops, all 262 other atlas payloads and 2112 untouched archive members unchanged",
     "Native code confirms the L/R counters are hits allowed and Fielder Use is appearances per team game; 12 native replay cases and three compiled lookup/status checks passed; original numeric data unchanged",
     "53 manager/newspaper/draft-option fragments improved; 104 compiled lookups, 292 curation status guards, 1860 native manager paths and the Windows build passed; complete comments and all 4956 name aliases unchanged",
@@ -86,7 +87,7 @@
     "Live partner categories/badges, pitcher roles, record banners, player-copy dialogs and championship captions; verify R1/RB trial icon branch",
     "Live pitch-analysis result-filter fragment assembly, legacy pitch-name terminology and source UV placement",
     "Live RGB565 country/team/affiliation captions, small Surpass emblems and team flag presentation",
-    "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and the original blurred strip in slot-texture-review.json",
+    "Live Spirits slot reels, ability grades, duplicate Pickoff source cells, mode headings and native concealment transitions in slot-texture-review.json",
     "Live player-use instructions, season competition captions, VP Shop coach/voucher labels",
     "Live Spirits tutorial page headings, partner diagram, angled card captions, card categories and preseason completion heading across team/scenario variants",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
@@ -587,10 +588,13 @@
     "protected_regions": 9,
     "unmodified_art_and_effect_payloads": 14,
     "duplicated_original_pickoff_cells_preserved": true,
-    "pending_texture_classification": 1,
+    "pending_texture_classification": 0,
     "review_report": "slot-texture-review.json",
     "report": "spirits-slot-validation.json",
-    "interactive_validation": false
+    "interactive_validation": false,
+    "concealment_classification_report": "slot-concealment-validation.json",
+    "native_selector_cases": 500,
+    "original_concealment_effect_preserved": true
   },
   "rgb565_team_flag_texture_review": {
     "labels": 16,

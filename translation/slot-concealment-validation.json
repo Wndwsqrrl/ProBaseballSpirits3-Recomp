@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-13",
+  "member": "SLOT.CHK",
+  "texture": "SLOT_RKslot_tk_d.tsr",
+  "classification": "Intentional unreadable ability-label concealment graphic; preserve the original effect",
+  "evidence": {
+    "selector": "0x825B8760",
+    "selector_end_exclusive": "0x825B8C68",
+    "machine_code_sha256": "51f1f83cc397b2a28ad83afd9c02b460a43a4ce2a3ddf6623ce00086e0d9abdc",
+    "condition": "r6 equals 3; r5 is the ability ID. IDs 0..98 select frame 135; ID 99 retains frame 134.",
+    "second_output_word": "Unchanged for all tested inputs; ability metadata is retained",
+    "unclassified_mode_semantics": "The name of mode 3 and the live trigger are not established by this offline replay.",
+    "native_instruction_replay_cases": 500,
+    "generated_function_replay_cases": 500,
+    "independent_replays_identical": true,
+    "tested_modes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "tested_ability_ids": [
+      0,
+      99
+    ],
+    "concealed_cases": 99,
+    "exception_id": 99,
+    "uv_resolver": "0x825B8C68",
+    "uv_resolver_end_exclusive": "0x825B8D0C",
+    "uv_resolver_machine_code_sha256": "132903c50e68483494f23be532935b350610b9bba5fd9a40ad16c725837fff2e",
+    "uv_resource": "TXC00",
+    "uv_chunk": "0x94d20",
+    "uv_chunk_sha256": "a4b1d17e1a4822a320bb0ef10107c2931fafa776fdf94f87126fe5ae917603aa",
+    "uv_entry_count": 144,
+    "uv_frame": 135,
+    "uv_xyxy": [
+      340,
+      120,
+      510,
+      160
+    ],
+    "page_rule": "0 below 36; 1 below 72; 2 below 108; otherwise 3",
+    "sprite_resource": "TCP00",
+    "sprite_model": 3,
+    "sprite_model_count": 4,
+    "sprite_scale": [
+      1.5,
+      1.600000023841858
+    ],
+    "visual_review": "The selected cell contains deliberately smeared strokes, with no reliably legible source wording. This is a common replacement for distinct ability labels, not a recoverable sentence."
+  },
+  "preserved_regions": [
+    {
+      "frame": 132,
+      "uv_xyxy": [
+        340,
+        0,
+        510,
+        40
+      ],
+      "decoded_rgba_sha256": "a635ec976021892bae25757c241f5402e6dbbc97ebf01cfc185a291fa425b165",
+      "pixels_unchanged": true
+    },
+    {
+      "frame": 133,
+      "uv_xyxy": [
+        340,
+        40,
+        510,
+        80
+      ],
+      "decoded_rgba_sha256": "2d40872f862871c584f99665fe24300e430c875e784a385977b002c7f1c96c77",
+      "pixels_unchanged": true
+    },
+    {
+      "frame": 134,
+      "uv_xyxy": [
+        340,
+        80,
+        510,
+        120
+      ],
+      "decoded_rgba_sha256": "14e031a10c7910634e06608e94390048f0995b0159ef8d206090c9299cfdd59e",
+      "pixels_unchanged": true
+    },
+    {
+      "frame": 135,
+      "uv_xyxy": [
+        340,
+        120,
+        510,
+        160
+      ],
+      "decoded_rgba_sha256": "36d067f2ae0c55a683581fa932a9e84f46df0116a25ecb64ce4b2520871aa5dd",
+      "pixels_unchanged": true
+    }
+  ],
+  "original_english_bonus_labels_preserved": true,
+  "changes_to_game_assets": false,
+  "new_english_label_occurrences": 0,
+  "discovery_classification_resolved": true,
+  "interactive_validation": false,
+  "remaining_validation": "Verify the concealment transition and translated ability cells in the live Spirits slot mode.",
+  "entire_game_english": false
+}

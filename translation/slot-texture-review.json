@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "scope": "Spirits slot reels and mode-transition graphics, a partial inventory",
   "source_members": 2,
   "source_textures": 19,
@@ -117,7 +117,8 @@
       "width": 512,
       "height": 512,
       "format": "1a200152",
-      "status": "partial_english_asset_built"
+      "status": "english_asset_built_with_original_concealment_effect",
+      "concealment_classification_report": "slot-concealment-validation.json"
     },
     {
       "member": "SLOT.CHK",
@@ -160,21 +161,23 @@
       "status": "english_asset_built"
     }
   ],
-  "pending_textures": [
+  "pending_textures": [],
+  "protected_content": "Original stadium background scenes, signs and ads preserved",
+  "report": "spirits-slot-validation.json",
+  "entire_game_english": false,
+  "preserved_concealment_effects": [
     {
       "member": "SLOT.CHK",
       "texture": "SLOT_RKslot_tk_d.tsr",
-      "remaining": "One blurred strip needs animation/native source-context classification; five readable Japanese labels are translated",
-      "rect": [
+      "rect_xyxy": [
         340,
         120,
-        512,
+        510,
         160
       ],
+      "status": "Native selector replaces ability labels with this unreadable concealment graphic in mode 3; original pixels preserved",
+      "report": "slot-concealment-validation.json",
       "interactive_validation": false
     }
-  ],
-  "protected_content": "Original stadium background scenes, signs and ads preserved",
-  "report": "spirits-slot-validation.json",
-  "entire_game_english": false
+  ]
 }
