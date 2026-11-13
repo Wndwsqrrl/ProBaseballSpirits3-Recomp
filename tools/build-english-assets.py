@@ -4,6 +4,7 @@ The original extracted disc is read only. Unchanged files are hard links;
 baseball.fbd is rebuilt as a separate file, with updated sector offsets.
 """
 import argparse
+from collections import deque
 import hashlib
 import io
 import math
@@ -30,6 +31,81 @@ def block_has_color(image, bx, by):
             if alpha>=128 and max(red,green,blue)-min(red,green,blue)>8:
                 return True
     return False
+
+
+def read_caption_reference(data, name, expected_hash):
+    """Read the original companion photo, before any labels are applied."""
+    at = 16
+    while at + 16 <= len(data) and data[at:at+8] != b'CHUNKEND':
+        _, _, allocated, actual = struct.unpack_from('>4sIII', data, at)
+        if allocated < 16 or actual > allocated or at + allocated > len(data):
+            raise ValueError('Invalid caption-reference chunk')
+        payload = at + 16
+        if (data[payload:payload+8] == b'X360SUR '
+                and data[payload+16:payload+48].split(b'\0')[0].decode('ascii') == name):
+            width, height = struct.unpack_from('>II', data, payload+48)
+            raw = data[payload+100:payload+actual-1]
+            if (data[payload+68:payload+72].hex() != '1a200152'
+                    or len(raw) != width * height // 2
+                    or hashlib.sha256(raw).hexdigest() != expected_hash):
+                raise ValueError('Caption reference differs from the reviewed BC1 photo')
+            swapped = b''.join(raw[i:i+2][::-1] for i in range(0, len(raw), 2))
+            return Image.frombytes('RGBA', (width, height), swapped, 'bcn', (1, 'DXT1'))
+        at += allocated
+    raise ValueError(f'Missing original caption-reference photo: {name}')
+
+
+def restore_photo_caption(image, reference, options, label_rect):
+    """Remove old white caption glyphs using the companion photo and local pixels."""
+    if image.size != reference.size:
+        raise ValueError('Caption photos must have identical dimensions')
+    def mask_for(photo, rect):
+        x, y, w, h = rect
+        if not 0 <= x < x+w <= photo.width or not 0 <= y < y+h <= photo.height:
+            raise ValueError('Caption cleanup rectangle outside photo')
+        mask = Image.new('L', photo.size)
+        pixels = mask.load()
+        for py in range(y, y+h):
+            for px in range(x, x+w):
+                r, g, b, a = photo.getpixel((px, py))
+                if min(r, g, b) >= 170 and max(r, g, b)-min(r, g, b) <= 85 and a >= 128:
+                    pixels[px, py] = 255
+        return mask.filter(ImageFilter.MaxFilter(9))
+    target_mask = mask_for(image, options['erase_rect'])
+    reference_mask = mask_for(reference, options['reference_erase_rect'])
+    bounds = target_mask.getbbox()
+    x, y, w, h = label_rect
+    if bounds and not (x <= bounds[0] < bounds[2] <= x+w and y <= bounds[1] < bounds[3] <= y+h):
+        raise ValueError('Caption glyph cleanup must remain inside its label rectangle')
+    result = image.copy()
+    pending = set()
+    if bounds:
+        for py in range(bounds[1], bounds[3]):
+            for px in range(bounds[0], bounds[2]):
+                if target_mask.getpixel((px, py)):
+                    if reference_mask.getpixel((px, py)):
+                        pending.add((px, py))
+                    else:
+                        result.putpixel((px, py), reference.getpixel((px, py)))
+    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    wave = deque((px, py) for px, py in sorted(pending)
+                 if any((px+dx, py+dy) not in pending for dx, dy in directions))
+    while wave:
+        px, py = wave.popleft()
+        if (px, py) not in pending:
+            continue
+        neighbors = [(px+dx, py+dy) for dx, dy in directions
+                     if 0 <= px+dx < image.width and 0 <= py+dy < image.height
+                     and (px+dx, py+dy) not in pending]
+        if not neighbors:
+            continue
+        values = [result.getpixel(point) for point in neighbors]
+        result.putpixel((px, py), tuple(round(sum(v[c] for v in values)/len(values)) for c in range(4)))
+        pending.remove((px, py))
+        wave.extend((px+dx, py+dy) for dx, dy in directions if (px+dx, py+dy) in pending)
+    if pending:
+        raise ValueError('Caption cleanup could not resolve overlapping glyphs')
+    return result
 
 
 def draw_rotated_label(tile, label, font_path, scale):
@@ -199,6 +275,17 @@ def patch_chk(data, atlases, font_path, preview):
                     x, y, w, h = label['rect']
                     if not 0 <= x < x+w <= width or not 0 <= y < y+h <= height:
                         raise ValueError('Label rectangle outside atlas')
+                    if 'photo_caption' in label:
+                        options = label['photo_caption']
+                        if (pixel_format != '1a200152' or any(key in label for key in (
+                                'background_sample_x', 'background_sample_rect', 'text_slice', 'edit_polygon',
+                                'alpha_mask_only', 'background_keep_alpha', 'clear_rect'))
+                                or hashlib.sha256(raw).hexdigest() != options['source_sha256']):
+                            raise ValueError('Photo captions require an unchanged reviewed BC1 source')
+                        reference = read_caption_reference(data, options['reference_texture'],
+                                                           options['reference_sha256'])
+                        original_photo = image.copy()
+                        image = restore_photo_caption(image, reference, options, label['rect'])
                     if 'clear_rect' in label:
                         cx,cy,cw,ch = label['clear_rect']
                         if not 0 <= cx < cx+cw <= width or not 0 <= cy < cy+ch <= height:
@@ -281,6 +368,10 @@ def patch_chk(data, atlases, font_path, preview):
                                 stroke_width=stroke,
                                 stroke_fill=tuple(label.get('outline',(0,0,0,255))), **text_options)
                     tile = tile.resize((w,h), Image.Resampling.LANCZOS)
+                    if 'photo_caption' in label:
+                        photo_tile = image.crop((x,y,x+w,y+h))
+                        photo_tile.alpha_composite(tile)
+                        tile = photo_tile
                     if 'text_slice' in label:
                         tile = tile.crop((slice_offset, 0, slice_offset+slice_width, h))
                         w = slice_width
@@ -311,6 +402,10 @@ def patch_chk(data, atlases, font_path, preview):
                     else:
                         image.paste(tile, (x,y))
                     label_blocks = {(bx,by) for by in range(y//4,(y+h+3)//4) for bx in range(x//4,(x+w+3)//4)}
+                    if 'photo_caption' in label:
+                        label_blocks = {block for block in label_blocks
+                            if original_photo.crop((block[0]*4,block[1]*4,block[0]*4+4,block[1]*4+4)).tobytes()
+                            != image.crop((block[0]*4,block[1]*4,block[0]*4+4,block[1]*4+4)).tobytes()}
                     dirty_blocks.update(label_blocks)
                     if label.get('tint_mask'):
                         if (pixel_format != '1a200152' or any(n%4 for n in (x,y,w,h))

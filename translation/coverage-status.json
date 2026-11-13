@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "catalogue_records": 16084,
   "unique_fingerprints": 15790,
   "roster_records": 648,
@@ -7,9 +7,10 @@
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 2087,
+  "texture_labels": 2091,
   "localized_archive_members": 111,
   "validation": [
+    "Four stadium photo captions rendered and decoded at 32 px without horizontal compression; 259 prior atlases, 2112 untouched archive members and photo pixels outside caption rectangles unchanged",
     "2,064 compiled full-name lookups passed; Windows build passed; eight provisional given-name overrides remain drafts after curation; original roster evidence hashes and prior 1,812 aliases verified",
     "native Windows build passed",
     "format safety checks passed",
@@ -70,6 +71,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
     "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 241 unmapped native name-pool records plus nine provisional full-name readings",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
@@ -121,7 +123,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "9 pending textures in interface-texture-review.json plus 1 unresolved slot strip in slot-texture-review.json need localization or native-context review. These are partial inventories.",
+    "5 pending textures in interface-texture-review.json plus 1 unresolved slot strip in slot-texture-review.json need localization or native-context review. These are partial inventories.",
     "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -310,9 +312,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2087,
-    "total_atlases": 259,
-    "pending_texture_entries": 9,
+    "total_labels": 2091,
+    "total_atlases": 263,
+    "pending_texture_entries": 5,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -764,6 +766,17 @@
     "prior_catalogue_rows_unchanged": 15626,
     "original_fielding_position_labels_unchanged": true,
     "report": "name-context-expansion-validation.json",
+    "interactive_validation": false
+  },
+  "stadium_photo_caption_review": {
+    "new_labels": 4,
+    "new_atlases": 4,
+    "original_companion_photo_sources_hash_verified": true,
+    "prior_259_atlas_payloads_unchanged": true,
+    "photo_pixels_outside_caption_rectangles_unchanged": true,
+    "reconstructed_caption_background_previews_inspected": true,
+    "pending_interface_textures": 5,
+    "report": "stadium-photo-caption-validation.json",
     "interactive_validation": false
   }
 }

@@ -8787,6 +8787,134 @@
         ],
         "padding": 4
       }
+    ],
+    "MENU_EXst_day12.tsr": [
+      {
+        "rect": [
+          292,
+          144,
+          508,
+          52
+        ],
+        "text": "(Temp.) Regional Stadium - Day",
+        "max_font_size": 32,
+        "min_font_size": 32,
+        "padding": 8,
+        "outline_width": 1,
+        "photo_caption": {
+          "erase_rect": [
+            471,
+            150,
+            327,
+            42
+          ],
+          "reference_erase_rect": [
+            298,
+            150,
+            500,
+            42
+          ],
+          "reference_texture": "MENU_EXst_day14.tsr",
+          "source_sha256": "a4e338b54c9861cf123af13b401cba7b35f3573e65ac738dec2026faa4920ab9",
+          "reference_sha256": "0d414caf6e92856c99c4fc515ca15e7dc48bde68e201b1fc6e62df433ce4e905"
+        }
+      }
+    ],
+    "MENU_EXst_day14.tsr": [
+      {
+        "rect": [
+          292,
+          144,
+          508,
+          52
+        ],
+        "text": "(Temp.) USA Stadium - Day",
+        "max_font_size": 32,
+        "min_font_size": 32,
+        "padding": 8,
+        "outline_width": 1,
+        "photo_caption": {
+          "erase_rect": [
+            298,
+            150,
+            500,
+            42
+          ],
+          "reference_erase_rect": [
+            471,
+            150,
+            327,
+            42
+          ],
+          "reference_texture": "MENU_EXst_day12.tsr",
+          "source_sha256": "0d414caf6e92856c99c4fc515ca15e7dc48bde68e201b1fc6e62df433ce4e905",
+          "reference_sha256": "a4e338b54c9861cf123af13b401cba7b35f3573e65ac738dec2026faa4920ab9"
+        }
+      }
+    ],
+    "MENU_EXst_nit12.tsr": [
+      {
+        "rect": [
+          292,
+          144,
+          508,
+          52
+        ],
+        "text": "(Temp.) Regional Stadium - Night",
+        "max_font_size": 32,
+        "min_font_size": 32,
+        "padding": 8,
+        "outline_width": 1,
+        "photo_caption": {
+          "erase_rect": [
+            471,
+            150,
+            327,
+            42
+          ],
+          "reference_erase_rect": [
+            298,
+            150,
+            500,
+            42
+          ],
+          "reference_texture": "MENU_EXst_nit14.tsr",
+          "source_sha256": "a81f1df5171baa86ff4477f929a6f3cab9df3bee72db648ab32dfe49f1d752c2",
+          "reference_sha256": "07592cae02abf61af76a255fc5c9987a62efac142dced9a619a780225f03f312"
+        }
+      }
+    ],
+    "MENU_EXst_nit14.tsr": [
+      {
+        "rect": [
+          292,
+          144,
+          508,
+          52
+        ],
+        "text": "(Temp.) USA Stadium - Night",
+        "max_font_size": 32,
+        "min_font_size": 32,
+        "padding": 8,
+        "outline_width": 1,
+        "photo_caption": {
+          "erase_rect": [
+            298,
+            150,
+            500,
+            42
+          ],
+          "reference_erase_rect": [
+            471,
+            150,
+            327,
+            42
+          ],
+          "reference_texture": "MENU_EXst_nit12.tsr",
+          "source_sha256": "07592cae02abf61af76a255fc5c9987a62efac142dced9a619a780225f03f312",
+          "reference_sha256": "a81f1df5171baa86ff4477f929a6f3cab9df3bee72db648ab32dfe49f1d752c2"
+        }
+      }
     ]
   },
   "ARRANGE.CHK": {

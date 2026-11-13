@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "catalogue_records": 16084,
   "unique_fingerprints": 15790,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Four stadium photo captions rendered and decoded at 32 px without horizontal compression; 259 prior atlases, 2112 untouched archive members and photo pixels outside caption rectangles unchanged",
     "2,064 compiled full-name lookups passed; Windows build passed; eight provisional given-name overrides remain drafts after curation; original roster evidence hashes and prior 1,812 aliases verified",
     "1814 compiled lookups and the normal Windows build passed for expanded name contexts and corrected ERA/K fragments; all original position-label mappings retained",
     "Native build and 1647 compiled lookups passed for 39 reviewed original entries and 1608 complete generated-name aliases; regeneration is repeatable",
@@ -44,6 +45,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
     "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 241 unmapped native name-pool records plus nine provisional full-name readings",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
@@ -281,9 +283,9 @@
     "decoded_previews_reviewed": 327,
     "new_labels": 64,
     "new_atlases": 12,
-    "total_labels": 2087,
-    "total_atlases": 259,
-    "pending_texture_entries": 9,
+    "total_labels": 2091,
+    "total_atlases": 263,
+    "pending_texture_entries": 5,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -737,5 +739,16 @@
     "report": "name-context-expansion-validation.json",
     "interactive_validation": false
   },
-  "reviewed_name_pool_entries": 418
+  "reviewed_name_pool_entries": 418,
+  "stadium_photo_caption_review": {
+    "new_labels": 4,
+    "new_atlases": 4,
+    "original_companion_photo_sources_hash_verified": true,
+    "prior_259_atlas_payloads_unchanged": true,
+    "photo_pixels_outside_caption_rectangles_unchanged": true,
+    "reconstructed_caption_background_previews_inspected": true,
+    "pending_interface_textures": 5,
+    "report": "stadium-photo-caption-validation.json",
+    "interactive_validation": false
+  }
 }

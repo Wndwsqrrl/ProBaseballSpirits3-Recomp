@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-13",
+  "new_label_occurrences": 4,
+  "new_atlases": 4,
+  "source_member": "STSEL.CHK",
+  "source_reference": "Original Japanese photo captions; provisional (仮) qualifier retained as (Temp.)",
+  "captions": [
+    {
+      "texture": "MENU_EXst_day12.tsr",
+      "caption": "(Temp.) Regional Stadium - Day",
+      "original_caption": "(仮) 地方球場 昼",
+      "label_rect": [
+        292,
+        144,
+        508,
+        52
+      ],
+      "protected_rectangles": [
+        [
+          0,
+          0,
+          1024,
+          144
+        ],
+        [
+          0,
+          144,
+          292,
+          196
+        ],
+        [
+          800,
+          144,
+          1024,
+          196
+        ],
+        [
+          0,
+          196,
+          1024,
+          256
+        ]
+      ],
+      "outside_caption_pixels_unchanged": true,
+      "changed_bc1_blocks": 985,
+      "font_size": 32,
+      "horizontal_text_compression": false,
+      "rebuilt_preview_inspected": true
+    },
+    {
+      "texture": "MENU_EXst_day14.tsr",
+      "caption": "(Temp.) USA Stadium - Day",
+      "original_caption": "(仮) USAスタジアム 昼",
+      "label_rect": [
+        292,
+        144,
+        508,
+        52
+      ],
+      "protected_rectangles": [
+        [
+          0,
+          0,
+          1024,
+          144
+        ],
+        [
+          0,
+          144,
+          292,
+          196
+        ],
+        [
+          800,
+          144,
+          1024,
+          196
+        ],
+        [
+          0,
+          196,
+          1024,
+          256
+        ]
+      ],
+      "outside_caption_pixels_unchanged": true,
+      "changed_bc1_blocks": 1061,
+      "font_size": 32,
+      "horizontal_text_compression": false,
+      "rebuilt_preview_inspected": true
+    },
+    {
+      "texture": "MENU_EXst_nit12.tsr",
+      "caption": "(Temp.) Regional Stadium - Night",
+      "original_caption": "(仮) 地方球場 夜",
+      "label_rect": [
+        292,
+        144,
+        508,
+        52
+      ],
+      "protected_rectangles": [
+        [
+          0,
+          0,
+          1024,
+          144
+        ],
+        [
+          0,
+          144,
+          292,
+          196
+        ],
+        [
+          800,
+          144,
+          1024,
+          196
+        ],
+        [
+          0,
+          196,
+          1024,
+          256
+        ]
+      ],
+      "outside_caption_pixels_unchanged": true,
+      "changed_bc1_blocks": 993,
+      "font_size": 32,
+      "horizontal_text_compression": false,
+      "rebuilt_preview_inspected": true
+    },
+    {
+      "texture": "MENU_EXst_nit14.tsr",
+      "caption": "(Temp.) USA Stadium - Night",
+      "original_caption": "(仮) USAスタジアム 夜",
+      "label_rect": [
+        292,
+        144,
+        508,
+        52
+      ],
+      "protected_rectangles": [
+        [
+          0,
+          0,
+          1024,
+          144
+        ],
+        [
+          0,
+          144,
+          292,
+          196
+        ],
+        [
+          800,
+          144,
+          1024,
+          196
+        ],
+        [
+          0,
+          196,
+          1024,
+          256
+        ]
+      ],
+      "outside_caption_pixels_unchanged": true,
+      "changed_bc1_blocks": 1055,
+      "font_size": 32,
+      "horizontal_text_compression": false,
+      "rebuilt_preview_inspected": true
+    }
+  ],
+  "original_member_sha256": "add450463fd8ec9413fcebd7d5f2b3941d765dee7e5e4ef99ac7277aacb51909",
+  "source_archive_unchanged": true,
+  "all_prior_2087_label_specs_unchanged": true,
+  "prior_stadium_selection_atlases_unchanged": true,
+  "other_stadium_selection_atlases_byte_identical": 33,
+  "caption_cleanup_uses_original_companion_photos": true,
+  "overlapping_old_glyph_pixels_reconstructed_from_local_neighbors": true,
+  "pixel_identity_claim_excludes_caption_rectangles": true,
+  "photo_background_outside_caption_rectangles_pixel_identical": true,
+  "output_repeatable": true,
+  "wrong_reference_hash_rejected": true,
+  "archive_index_unchanged": true,
+  "localized_archive_member_count_unchanged": true,
+  "interactive_validation": false,
+  "full_archive_verification_pending": false,
+  "full_archive_members_verified": 2223,
+  "untouched_archive_members_byte_identical": 2112,
+  "complete_prior_259_atlas_payloads_unchanged": true,
+  "localized_archive_members": 111,
+  "total_texture_labels": 2091,
+  "total_texture_atlases": 263
+}

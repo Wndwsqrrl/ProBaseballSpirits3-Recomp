@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "scope": "Additional interface texture review. This is not a complete game-wide graphics inventory.",
   "source_members_reviewed": 88,
   "textures_inventoried": 327,
@@ -61,46 +61,6 @@
       "status": "partly_translated",
       "native_sprite_layout_verified": false,
       "interactive_validation": false
-    },
-    {
-      "member": "STSEL.CHK",
-      "texture": "MENU_EXst_day12.tsr",
-      "width": 1024,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "Venue label over photograph; preserve the photograph",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STSEL.CHK",
-      "texture": "MENU_EXst_day14.tsr",
-      "width": 1024,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "Venue label over photograph; preserve the photograph",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STSEL.CHK",
-      "texture": "MENU_EXst_nit12.tsr",
-      "width": 1024,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "Venue label over photograph; preserve the photograph",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "STSEL.CHK",
-      "texture": "MENU_EXst_nit14.tsr",
-      "width": 1024,
-      "height": 256,
-      "format": "1a200152",
-      "remaining_text": "Venue label over photograph; preserve the photograph",
-      "status": "pending",
-      "native_sprite_layout_verified": false
     }
   ],
   "preserved_artwork": "In-stadium signs, sponsor advertisements and ballpark artwork remain Japanese. Photographs and rendered stadium models are preserved when interface labels are localized.",
@@ -779,6 +739,58 @@
       "interactive_validation": false,
       "validation_report": "print-heading-validation.json",
       "translated_labels": 2
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day12.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "translated_text": "(Temp.) Regional Stadium - Day",
+      "validation_report": "stadium-photo-caption-validation.json",
+      "photo_pixels_outside_caption_rectangle_identical": true,
+      "interactive_validation": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day14.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "translated_text": "(Temp.) USA Stadium - Day",
+      "validation_report": "stadium-photo-caption-validation.json",
+      "photo_pixels_outside_caption_rectangle_identical": true,
+      "interactive_validation": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit12.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "translated_text": "(Temp.) Regional Stadium - Night",
+      "validation_report": "stadium-photo-caption-validation.json",
+      "photo_pixels_outside_caption_rectangle_identical": true,
+      "interactive_validation": false
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit14.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200152",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": false,
+      "translated_text": "(Temp.) USA Stadium - Night",
+      "validation_report": "stadium-photo-caption-validation.json",
+      "photo_pixels_outside_caption_rectangle_identical": true,
+      "interactive_validation": false
     }
   ],
   "nontext_textures": [
