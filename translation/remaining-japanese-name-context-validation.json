@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-13",
+  "native_records": 33,
+  "provisional_given_name_fields": 32,
+  "record_evidence": [
+    {
+      "record_address": "0x82041BC4",
+      "record_id": "010007F0",
+      "given_address": "0x8208AFC8",
+      "given_source": "聡樹",
+      "given_english": "Satoki",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041C3C",
+      "record_id": "01000913",
+      "given_address": "0x8208AF3C",
+      "given_source": "日取",
+      "given_english": "Hitori",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041C50",
+      "record_id": "01000914",
+      "given_address": "0x8208AF20",
+      "given_source": "枠敏",
+      "given_english": "Wakutoshi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041C64",
+      "record_id": "01000915",
+      "given_address": "0x8208AF10",
+      "given_source": "断",
+      "given_english": "Dan",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041CA0",
+      "record_id": "01000918",
+      "given_address": "0x8208AEC4",
+      "given_source": "勝二",
+      "given_english": "Katsuji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "かつじ",
+        "しょうじ"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041CB4",
+      "record_id": "01000919",
+      "given_address": "0x8208AEAC",
+      "given_source": "勘太",
+      "given_english": "Kanta",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041CC8",
+      "record_id": "0100091A",
+      "given_address": "0x8208AE90",
+      "given_source": "託児",
+      "given_english": "Takuji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041CDC",
+      "record_id": "0100091C",
+      "given_address": "0x8208AE74",
+      "given_source": "正志",
+      "given_english": "Masashi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "ただし",
+        "まさし"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041D68",
+      "record_id": "010007AE",
+      "given_address": "0x8208ADB8",
+      "given_source": "英司",
+      "given_english": "Eiji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "えいじ",
+        "ひでし",
+        "ひでじ"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041DE0",
+      "record_id": "010007A8",
+      "given_address": "0x8208AD20",
+      "given_source": "信治",
+      "given_english": "Shinji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "しんじ",
+        "のぶじ",
+        "のぶはる"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041DF4",
+      "record_id": "010007A7",
+      "given_address": "0x8208AD08",
+      "given_source": "茂",
+      "given_english": "Shigeru",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "しげる",
+        "つとむ"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041E30",
+      "record_id": "0100091E",
+      "given_address": "0x8208ACC4",
+      "given_source": "竹彦",
+      "given_english": "Takehiko",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041E6C",
+      "record_id": "01000931",
+      "given_address": "0x8208AC84",
+      "given_source": "保",
+      "given_english": "Tamotsu",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "たもつ",
+        "やすし"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041F34",
+      "record_id": "0100092D",
+      "given_address": "0x8208AB94",
+      "given_source": "杉光",
+      "given_english": "Sugimitsu",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041F70",
+      "record_id": "0100091F",
+      "given_address": "0x8208AB48",
+      "given_source": "平時",
+      "given_english": "Heiji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041F84",
+      "record_id": "01000920",
+      "given_address": "0x8208AB30",
+      "given_source": "才蔵",
+      "given_english": "Saizo",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041F98",
+      "record_id": "01000921",
+      "given_address": "0x8208AB18",
+      "given_source": "暮斗",
+      "given_english": "Kureto",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041FAC",
+      "record_id": "01000922",
+      "given_address": "0x8208AAFC",
+      "given_source": "来敏",
+      "given_english": "Raitoshi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82041FE8",
+      "record_id": "01000925",
+      "given_address": "0x8208AAC0",
+      "given_source": "元治",
+      "given_english": "Motoharu",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "もとじ",
+        "もとはる"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820420D8",
+      "record_id": "010007DA",
+      "given_address": "0x8208A9A0",
+      "given_source": "考史",
+      "given_english": "Takafumi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820420EC",
+      "record_id": "010007D9",
+      "given_address": "0x8208A984",
+      "given_source": "洋介山",
+      "given_english": "Yosukeyama",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82042114",
+      "record_id": "010007D7",
+      "given_address": "0x8208A954",
+      "given_source": "直吉",
+      "given_english": "Naoyoshi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "なおきち",
+        "なおよし"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82042150",
+      "record_id": "010007D4",
+      "given_address": "0x8208A90C",
+      "given_source": "連也",
+      "given_english": "Renya",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820421A0",
+      "record_id": "010007E1",
+      "given_address": "0x8208A8B0",
+      "given_source": "双",
+      "given_english": "So",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820421DC",
+      "record_id": "010007EB",
+      "given_address": "0x8208A870",
+      "given_source": "実",
+      "given_english": "Minoru",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "まこと",
+        "みのる"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820421F0",
+      "record_id": "010007EA",
+      "given_address": "0x8208A858",
+      "given_source": "仁哉",
+      "given_english": "Jinya",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820422A4",
+      "record_id": "010007D2",
+      "given_address": "0x8208A770",
+      "given_source": "信夫",
+      "given_english": "Nobuo",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "しのぶ",
+        "のぶお"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820422CC",
+      "record_id": "010007BF",
+      "given_address": "0x8208A73C",
+      "given_source": "広喜",
+      "given_english": "Hiroki",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x8204236C",
+      "record_id": "010007B7",
+      "given_address": "0x8208A69C",
+      "given_source": "幹久",
+      "given_english": "Mikihisa",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "みきひさ",
+        "もとひさ"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x8204254C",
+      "record_id": "01000791",
+      "given_address": "0x8208A468",
+      "given_source": "隆",
+      "given_english": "Takashi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "たかし",
+        "りゅう"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x82042588",
+      "record_id": "0100078E",
+      "given_address": "0x8208A424",
+      "given_source": "寛治",
+      "given_english": "Kanji",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "かんじ",
+        "ひろはる"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x820425EC",
+      "record_id": "0100079E",
+      "given_address": "0x8208A3B4",
+      "given_source": "宗明",
+      "given_english": "Muneaki",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    },
+    {
+      "record_address": "0x8204263C",
+      "record_id": "0100079A",
+      "given_address": "0x8208A468",
+      "given_source": "隆",
+      "given_english": "Takashi",
+      "status": "draft",
+      "original_given_name_dictionary_candidates": [
+        "たかし",
+        "りゅう"
+      ],
+      "basis": "Provisional name reading; dictionary alternatives retained where present. The individual fictional player reading remains unconfirmed"
+    }
+  ],
+  "incomplete_names_not_replaced_with_surnames_only": true,
+  "dictionary_alternatives_not_hidden": true,
+  "individual_player_readings_unconfirmed": true,
+  "interactive_validation": false,
+  "combined_validation_report": "complete-name-pool-validation.json"
+}

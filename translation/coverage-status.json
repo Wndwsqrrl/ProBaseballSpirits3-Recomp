@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "catalogue_records": 16924,
-  "unique_fingerprints": 16630,
+  "catalogue_records": 18976,
+  "unique_fingerprints": 18682,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -10,6 +10,7 @@
   "texture_labels": 2091,
   "localized_archive_members": 111,
   "validation": [
+    "All 413 generated-player full names have mappings: 163 reviewed and 250 provisional; 5195 compiled lookups and the Windows build passed, with all prior 2904 aliases retained",
     "70 Korean-group names have provisional complete-name mappings using native Latin surnames; 2970 compiled lookups and the Windows build passed, with all 2064 prior aliases retained",
     "Four stadium photo captions rendered and decoded at 32 px without horizontal compression; 259 prior atlases, 2112 untouched archive members and photo pixels outside caption rectangles unchanged",
     "2,064 compiled full-name lookups passed; Windows build passed; eight provisional given-name overrides remain drafts after curation; original roster evidence hashes and prior 1,812 aliases verified",
@@ -73,7 +74,7 @@
   ],
   "pending_validation": [
     "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
-    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 171 unmapped native name-pool records plus 79 provisional full-name readings",
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 250 provisional full-name readings and surname-only widget context",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
@@ -746,18 +747,42 @@
   },
   "generated_name_pool_coverage": {
     "native_records": 413,
-    "complete_name_pairs_mapped": 242,
+    "complete_name_pairs_mapped": 413,
     "complete_reviewed_name_pairs": 163,
-    "provisional_name_pairs": 79,
-    "unmapped_records": 171,
+    "provisional_name_pairs": 250,
+    "unmapped_records": 0,
     "unresolved_records": 250,
-    "complete_name_aliases": 2904,
-    "western_pairs_mapped": 66,
-    "western_pairs": 66,
-    "korean_pairs_mapped": 70,
-    "korean_pairs": 70,
-    "contextual_field_overrides": 123,
-    "report": "korean-name-context-validation.json",
+    "accuracy_unresolved_records": 250,
+    "complete_name_aliases": 4956,
+    "by_native_group": {
+      "0": {
+        "records": 69,
+        "reviewed": 0,
+        "provisional": 69
+      },
+      "1": {
+        "records": 66,
+        "reviewed": 66,
+        "provisional": 0
+      },
+      "2": {
+        "records": 139,
+        "reviewed": 97,
+        "provisional": 42
+      },
+      "3": {
+        "records": 70,
+        "reviewed": 0,
+        "provisional": 70
+      },
+      "4": {
+        "records": 69,
+        "reviewed": 0,
+        "provisional": 69
+      }
+    },
+    "contextual_field_overrides": 336,
+    "report": "complete-name-pool-validation.json",
     "interactive_validation": false
   },
   "name_context_expansion": {
@@ -793,6 +818,14 @@
     "native_latin_surnames_verified": true,
     "original_global_fan_source_unchanged": true,
     "report": "korean-name-context-validation.json",
+    "interactive_validation": false
+  },
+  "complete_name_pool_review": {
+    "new_provisional_pairs": 171,
+    "new_provisional_aliases": 2052,
+    "corrected_existing_draft_fields": 83,
+    "compiled_lookup_inputs_checked": 5195,
+    "report": "complete-name-pool-validation.json",
     "interactive_validation": false
   }
 }

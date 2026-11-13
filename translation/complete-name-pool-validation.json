@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-13",
+  "native_name_records": 413,
+  "complete_name_pairs_mapped": 413,
+  "complete_reviewed_name_pairs": 163,
+  "provisional_name_pairs": 250,
+  "accuracy_unresolved_name_pair_records": 250,
+  "unmapped_name_pair_records": 0,
+  "complete_name_aliases": 4956,
+  "new_complete_name_aliases": 2052,
+  "new_aliases_are_provisional": true,
+  "prior_2904_aliases_unchanged": true,
+  "conflicting_aliases": 0,
+  "contextual_field_overrides": 336,
+  "changed_existing_draft_fields": 83,
+  "prior_unedited_catalogue_rows_unchanged": 16841,
+  "original_source_fields_unchanged": true,
+  "catalogue_status_counts": {
+    "reviewed": 9890,
+    "draft": 3436,
+    "game-roster-family": 5650
+  },
+  "original_table_sha256": "ec7a6b9ab3740da6d32d023d5bba76905db280114c929d11996ad34efcee5d16",
+  "whole_game_translation_complete": false,
+  "no_claim_of_preferred_chinese_spellings": true,
+  "surname_only_widgets_unverified": true,
+  "interactive_validation": false,
+  "compiled_lookup_inputs_checked": 5195,
+  "compiled_lookup_results_matched": true,
+  "provisional_address_overrides_checked": 239,
+  "provisional_statuses_preserved_after_curation": true,
+  "normal_windows_build_passed": true,
+  "alias_regeneration_repeatable": true,
+  "by_native_group": {
+    "0": {
+      "records": 69,
+      "reviewed": 0,
+      "provisional": 69
+    },
+    "1": {
+      "records": 66,
+      "reviewed": 66,
+      "provisional": 0
+    },
+    "2": {
+      "records": 139,
+      "reviewed": 97,
+      "provisional": 42
+    },
+    "3": {
+      "records": 70,
+      "reviewed": 0,
+      "provisional": 70
+    },
+    "4": {
+      "records": 69,
+      "reviewed": 0,
+      "provisional": 69
+    }
+  }
+}
