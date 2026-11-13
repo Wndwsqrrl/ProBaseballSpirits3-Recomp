@@ -281,7 +281,7 @@
     "new_atlases": 12,
     "total_labels": 2087,
     "total_atlases": 259,
-    "pending_texture_entries": 12,
+    "pending_texture_entries": 9,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -702,5 +702,12 @@
     "previous_unedited_catalogue_rows_unchanged": 13981,
     "report": "name-pool-validation.json",
     "interactive_validation": false
+  },
+  "title_logo_scope": {
+    "japanese_allowed_by_user": true,
+    "required_logo_translation": false,
+    "original_color_glow_and_shadow_atlases_byte_identical": 3,
+    "complete_original_title_member_byte_identical": true,
+    "report": "title-logo-scope-validation.json"
   }
 }

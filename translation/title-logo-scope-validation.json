@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-12",
+  "scope": "User permits the original Japanese main title logo",
+  "japanese_title_logo_allowed": true,
+  "required_title_logo_translation": false,
+  "original_color_glow_and_shadow_atlases_retained": 3,
+  "original_complete_title_member_byte_identical": true,
+  "original_member_sha256": "162d493b79cb0f5049aae985dce66914ff76aaea9278f0948599d56444c2381d",
+  "english_member_sha256": "162d493b79cb0f5049aae985dce66914ff76aaea9278f0948599d56444c2381d",
+  "uncommitted_title_label_edits_removed": 6,
+  "title_only_renderer_changes_reverted": true,
+  "original_press_start_prompt_retained": true,
+  "report_scope": "Main title wordmark and effects only; remaining interface and gameplay text stay in scope"
+}

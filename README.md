@@ -34,9 +34,9 @@ Magazine edition badges and the newspaper masthead/baseball tag have English hea
 
 Generated-player name coverage includes **1,608 complete-name lookups for 134 native name pairs**, covering combined, spaced and mixed Latin/Japanese forms. Each lookup retains both name fields. Another 279 native pairs still need reading or context review. See [name pool validation](translation/name-pool-validation.json).
 
-Localization remains unfinished. Credits may remain Japanese. The original in-stadium signs, sponsor ads and ballpark artwork are preserved; earlier English credit title and licensing captions are retained.
+Localization remains unfinished. Credits may remain Japanese. The main title logo retains its original Japanese lettering, glow and shadow. The original in-stadium signs, sponsor ads and ballpark artwork are preserved; earlier English credit title and licensing captions are retained.
 
-The partial interface review documents [12 textures awaiting localization or native-context review](translation/interface-texture-review.json). The [extended review](translation/extended-interface-texture-review.json) has no untranslated candidates left in its current inventory; live placement checks remain. A [slot-reel strip](translation/slot-texture-review.json) still needs classification. These are partial inventories, not a full-game coverage denominator.
+The partial interface review documents [9 textures awaiting localization or native-context review](translation/interface-texture-review.json). The [extended review](translation/extended-interface-texture-review.json) has no untranslated candidates left in its current inventory; live placement checks remain. A [slot-reel strip](translation/slot-texture-review.json) still needs classification. These are partial inventories, not a full-game coverage denominator.
 
 The earlier nonstandard-name candidate queue is now classified; the final pass inspected 218 records and preserved all 169 source members byte-identically. See [remaining family review](translation/remaining-family-review.json). Translation accuracy, ambiguous name aliases, live layouts, unvisited branches and the final comparison review remain. Full-match stability and graphics performance are not established, and some gameplay geometry is missing. See [coverage status](translation/coverage-status.json).
 

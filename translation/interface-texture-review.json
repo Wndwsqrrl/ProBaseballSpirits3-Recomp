@@ -7,36 +7,6 @@
   "source_formats_not_decoded": [],
   "pending_textures": [
     {
-      "member": "BB06TIT.CHK",
-      "texture": "MENU_OPtitle_a.tsr",
-      "width": 1024,
-      "height": 512,
-      "format": "1a200154",
-      "remaining_text": "Main title logo",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "BB06TIT.CHK",
-      "texture": "MENU_OPtitle_b.tsr",
-      "width": 1024,
-      "height": 512,
-      "format": "1a200154",
-      "remaining_text": "Glowing main title logo",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
-      "member": "BB06TIT.CHK",
-      "texture": "MENU_OPtitle_d.tsr",
-      "width": 1024,
-      "height": 256,
-      "format": "1a200153",
-      "remaining_text": "Title logo shadow",
-      "status": "pending",
-      "native_sprite_layout_verified": false
-    },
-    {
       "member": "GAME2D.CHK",
       "texture": "GAME_GMplayer_data.tsr",
       "width": 128,
@@ -850,6 +820,44 @@
       "visible_text": "PRESS START Button",
       "original_archive_verified": true,
       "original_payload_preserved": true
+    }
+  ],
+  "allowed_japanese_logo_textures": [
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_a.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200154",
+      "status": "original_japanese_logo_allowed",
+      "native_sprite_layout_verified": false,
+      "translation_required": false,
+      "original_payload_byte_identical": true,
+      "validation_report": "title-logo-scope-validation.json"
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_b.tsr",
+      "width": 1024,
+      "height": 512,
+      "format": "1a200154",
+      "status": "original_japanese_logo_allowed",
+      "native_sprite_layout_verified": false,
+      "translation_required": false,
+      "original_payload_byte_identical": true,
+      "validation_report": "title-logo-scope-validation.json"
+    },
+    {
+      "member": "BB06TIT.CHK",
+      "texture": "MENU_OPtitle_d.tsr",
+      "width": 1024,
+      "height": 256,
+      "format": "1a200153",
+      "status": "original_japanese_logo_allowed",
+      "native_sprite_layout_verified": false,
+      "translation_required": false,
+      "original_payload_byte_identical": true,
+      "validation_report": "title-logo-scope-validation.json"
     }
   ]
 }
