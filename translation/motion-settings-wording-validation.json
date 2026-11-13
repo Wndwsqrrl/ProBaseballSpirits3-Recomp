@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-13",
+  "english_records_updated": 20,
+  "underhand_labels_and_compounds_updated": 16,
+  "speed_labels_updated": 2,
+  "cpu_label_and_help_updated": 2,
+  "record_evidence": [
+    {
+      "address": "0x82065178",
+      "source": "下投：",
+      "source_hash": "C1B1F5FE1CDBC4D0",
+      "previous_english": "Underhand:",
+      "english": "Submarine:",
+      "estimated_width_px": 82.0
+    },
+    {
+      "address": "0x82073E70",
+      "source": "アンダースロー",
+      "source_hash": "667F56FA3C51B3BE",
+      "previous_english": "Underhand",
+      "english": "Submarine",
+      "estimated_width_px": 78.0
+    },
+    {
+      "address": "0x8207D270",
+      "source": "\\c7難しさ＞ＣＯＭの強さ<BR>コンピュータの強さを変更できます。<BR>カスタムを選ぶと、投・打・走・守のレベルを個別に設定できます。",
+      "source_hash": "8D2E8A65AEE525DB",
+      "previous_english": "\\c7Difficulty / CPU Strength<BR>Choose the CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
+      "english": "\\c7Difficulty > CPU Difficulty<BR>Choose CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
+      "estimated_width_px": null
+    },
+    {
+      "address": "0x8207D9DC",
+      "source": "ミドルスピード＋",
+      "source_hash": "2D6958EBE95A445B",
+      "previous_english": "Middle Speed+",
+      "english": "Medium Speed+",
+      "estimated_width_px": 117.0
+    },
+    {
+      "address": "0x8207D9F0",
+      "source": "ミドルスピード",
+      "source_hash": "C77DC1DF5FA941B7",
+      "previous_english": "Middle Speed",
+      "english": "Medium Speed",
+      "estimated_width_px": 108.0
+    },
+    {
+      "address": "0x8207DC98",
+      "source": "COMの強さ",
+      "source_hash": "E0D21E02DF849FAB",
+      "previous_english": "CPU Strength",
+      "english": "CPU Difficulty",
+      "estimated_width_px": 100.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：",
+      "source_hash": "F8741D7D26CB8C6E",
+      "previous_english": "R Underhand:",
+      "english": "R Submarine:",
+      "estimated_width_px": 98.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：",
+      "source_hash": "27E3BA72599B7113",
+      "previous_english": "L Underhand:",
+      "english": "L Submarine:",
+      "estimated_width_px": 95.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：リリーフ調整中",
+      "source_hash": "8CAC62363ECEF57B",
+      "previous_english": "R Underhand: Warming Up (Relief)",
+      "english": "R Submarine: Warming Up (Relief)",
+      "estimated_width_px": 247.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：先発準備完了",
+      "source_hash": "AEBC08AC2A80A373",
+      "previous_english": "R Underhand: Starter Ready",
+      "english": "R Submarine: Starter Ready",
+      "estimated_width_px": 200.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：リリーフ調整中",
+      "source_hash": "CF6CAEFDC4C89F2A",
+      "previous_english": "L Underhand: Warming Up (Relief)",
+      "english": "L Submarine: Warming Up (Relief)",
+      "estimated_width_px": 244.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：先発準備完了",
+      "source_hash": "651B7BE4062DE332",
+      "previous_english": "L Underhand: Starter Ready",
+      "english": "L Submarine: Starter Ready",
+      "estimated_width_px": 197.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：休息中",
+      "source_hash": "5869A045F0F8B05D",
+      "previous_english": "R Underhand: Resting",
+      "english": "R Submarine: Resting",
+      "estimated_width_px": 157.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：休息中",
+      "source_hash": "DDBDEC4CE0678984",
+      "previous_english": "L Underhand: Resting",
+      "english": "L Submarine: Resting",
+      "estimated_width_px": 154.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：先発タイプ",
+      "source_hash": "7100413E4A791BD9",
+      "previous_english": "R Underhand: Starter",
+      "english": "R Submarine: Starter",
+      "estimated_width_px": 149.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：中継ぎタイプ",
+      "source_hash": "36542AABF8068C5E",
+      "previous_english": "R Underhand: Reliever",
+      "english": "R Submarine: Reliever",
+      "estimated_width_px": 162.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "右下投：抑えタイプ",
+      "source_hash": "9C1E3D2FC0FD75B4",
+      "previous_english": "R Underhand: Closer",
+      "english": "R Submarine: Closer",
+      "estimated_width_px": 149.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：先発タイプ",
+      "source_hash": "811D91B849B63374",
+      "previous_english": "L Underhand: Starter",
+      "english": "L Submarine: Starter",
+      "estimated_width_px": 146.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：中継ぎタイプ",
+      "source_hash": "B5FFDBBA2065688F",
+      "previous_english": "L Underhand: Reliever",
+      "english": "L Submarine: Reliever",
+      "estimated_width_px": 159.0
+    },
+    {
+      "address": "0x00000000",
+      "source": "左下投：抑えタイプ",
+      "source_hash": "5E1F30E06FC308A1",
+      "previous_english": "L Underhand: Closer",
+      "english": "L Submarine: Closer",
+      "estimated_width_px": 146.0
+    }
+  ],
+  "official_2026_contextual_matches": [
+    {
+      "namespace": "Common",
+      "key": "common_form_util_text_03",
+      "japanese": "アンダースロー",
+      "english": "Submarine"
+    },
+    {
+      "namespace": "Settings",
+      "key": "settings_user_menu_message_type_43",
+      "japanese": "COMの強さ",
+      "english": "CPU Difficulty"
+    },
+    {
+      "namespace": "Settings",
+      "key": "settings_user_pitching_level_msg_04",
+      "japanese": "ミドルスピード",
+      "english": "Medium Speed"
+    },
+    {
+      "namespace": "Settings",
+      "key": "settings_user_pitching_level_msg_05",
+      "japanese": "ミドルスピード＋",
+      "english": "Medium Speed+"
+    }
+  ],
+  "catalogue_statuses_unchanged": true,
+  "generation_maps_updated": [
+    "tools/refine-ui-wording.py",
+    "tools/expand-runtime-coverage.py"
+  ],
+  "existing_pitch_names_retained": true,
+  "texture_specs_unchanged": true,
+  "help_line_widths_px": [
+    178.0,
+    304.0,
+    300.0,
+    78.0
+  ],
+  "help_estimate_font": "Arial 16 px; native placement remains unchecked",
+  "normal_windows_build_passed": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "compiled_lookup_inputs_checked": 28,
+  "compiled_lookup_results_matched": true,
+  "prior_pitcher_usage_lookups_retained": 8,
+  "curation_status_guards_checked": 20,
+  "curation_status_guards_passed": true,
+  "prior_unedited_catalogue_rows_unchanged": 18956,
+  "complete_4956_name_aliases_unchanged": true,
+  "no_legacy_underhand_middle_speed_or_cpu_strength_values_remaining_in_catalogue": true,
+  "generation_maps_syntax_checked": true,
+  "help_color_and_break_controls_unchanged": true,
+  "help_line_width_budget_px": 320,
+  "normal_build_command": "cmd /c tools/build-port.cmd",
+  "catalogue_sha256": "c5743b66f0c29acae5e648b518b9602d295fa4c4767f980070c234939188f482",
+  "tested_and_built_header_sha256": "2994f3c668c8a3723fbad806a20a9d61e00072e76caed3470bf687c5886ffd51",
+  "normal_executable_sha256": "305852bcf5a2aaf224acc511c04b52b2bea68dcd6cfe448e42b8ba2792c62a25",
+  "game_relaunched": false,
+  "original_source_strings_and_metadata_unchanged": true,
+  "comparison_commit": "4d78c58b8746f4c76aff3e2ee27ab62105afb129",
+  "submarine_alias_source_overrides": 14,
+  "new_compound_source_override_keys": 12
+}

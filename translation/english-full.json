@@ -3097,7 +3097,7 @@
     "address": "0x82065178",
     "source_size": 6,
     "source_hash": "C1B1F5FE1CDBC4D0",
-    "english": "Underhand:",
+    "english": "Submarine:",
     "status": "reviewed"
   },
   {
@@ -7633,7 +7633,7 @@
     "address": "0x82073E70",
     "source_size": 14,
     "source_hash": "667F56FA3C51B3BE",
-    "english": "Underhand",
+    "english": "Submarine",
     "status": "reviewed"
   },
   {
@@ -12946,7 +12946,7 @@
     "address": "0x8207D270",
     "source_size": 127,
     "source_hash": "8D2E8A65AEE525DB",
-    "english": "\\c7Difficulty / CPU Strength<BR>Choose the CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
+    "english": "\\c7Difficulty > CPU Difficulty<BR>Choose CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
     "status": "reviewed"
   },
   {
@@ -13324,14 +13324,14 @@
     "address": "0x8207D9DC",
     "source_size": 16,
     "source_hash": "2D6958EBE95A445B",
-    "english": "Middle Speed+",
+    "english": "Medium Speed+",
     "status": "reviewed"
   },
   {
     "address": "0x8207D9F0",
     "source_size": 14,
     "source_hash": "C77DC1DF5FA941B7",
-    "english": "Middle Speed",
+    "english": "Medium Speed",
     "status": "reviewed"
   },
   {
@@ -13639,7 +13639,7 @@
     "address": "0x8207DC98",
     "source_size": 9,
     "source_hash": "E0D21E02DF849FAB",
-    "english": "CPU Strength",
+    "english": "CPU Difficulty",
     "status": "reviewed"
   },
   {
@@ -41326,14 +41326,14 @@
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "F8741D7D26CB8C6E",
-    "english": "R Underhand:",
+    "english": "R Submarine:",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 8,
     "source_hash": "27E3BA72599B7113",
-    "english": "L Underhand:",
+    "english": "L Submarine:",
     "status": "reviewed"
   },
   {
@@ -41452,14 +41452,14 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "8CAC62363ECEF57B",
-    "english": "R Underhand: Warming Up (Relief)",
+    "english": "R Submarine: Warming Up (Relief)",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "AEBC08AC2A80A373",
-    "english": "R Underhand: Starter Ready",
+    "english": "R Submarine: Starter Ready",
     "status": "reviewed"
   },
   {
@@ -41508,14 +41508,14 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "CF6CAEFDC4C89F2A",
-    "english": "L Underhand: Warming Up (Relief)",
+    "english": "L Submarine: Warming Up (Relief)",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "651B7BE4062DE332",
-    "english": "L Underhand: Starter Ready",
+    "english": "L Submarine: Starter Ready",
     "status": "reviewed"
   },
   {
@@ -42936,7 +42936,7 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "5869A045F0F8B05D",
-    "english": "R Underhand: Resting",
+    "english": "R Submarine: Resting",
     "status": "reviewed"
   },
   {
@@ -42964,7 +42964,7 @@
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "DDBDEC4CE0678984",
-    "english": "L Underhand: Resting",
+    "english": "L Submarine: Resting",
     "status": "reviewed"
   },
   {
@@ -43107,21 +43107,21 @@
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "7100413E4A791BD9",
-    "english": "R Underhand: Starter",
+    "english": "R Submarine: Starter",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "36542AABF8068C5E",
-    "english": "R Underhand: Reliever",
+    "english": "R Submarine: Reliever",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "9C1E3D2FC0FD75B4",
-    "english": "R Underhand: Closer",
+    "english": "R Submarine: Closer",
     "status": "reviewed"
   },
   {
@@ -43191,21 +43191,21 @@
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "811D91B849B63374",
-    "english": "L Underhand: Starter",
+    "english": "L Submarine: Starter",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "B5FFDBBA2065688F",
-    "english": "L Underhand: Reliever",
+    "english": "L Submarine: Reliever",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "5E1F30E06FC308A1",
-    "english": "L Underhand: Closer",
+    "english": "L Submarine: Closer",
     "status": "reviewed"
   },
   {

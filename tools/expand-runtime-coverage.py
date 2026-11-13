@@ -13,7 +13,7 @@ labels={
     '右上投：':'R Overhand:','左上投：':'L Overhand:',
     '右横投：':'R Sidearm:','左横投：':'L Sidearm:',
     '右ス投：':'R Three-quarter:','左ス投：':'L Three-quarter:',
-    '右下投：':'R Underhand:','左下投：':'L Underhand:',
+    '右下投：':'R Submarine:','左下投：':'L Submarine:',
     'リリーフ調整中':'Warming Up (Relief)','先発準備完了':'Starter Ready',
     '走塁無視':'Ignore Baserunners','汎用16フォント':'Standard 16 Font',
     '球種名10文字':'Pitch Name (10 chars)','ＳＦＦ':'Splitter',
@@ -84,6 +84,8 @@ for hand in ('右','左'):
 existing={r['source']:r for r in config['additional_strings']}
 added=0
 for source,english in labels.items():
+    if source.startswith(('右下投：','左下投：')):
+        config.setdefault('word_overrides',{})[source]=english
     if source in existing:
         existing[source]['english']=english
         continue

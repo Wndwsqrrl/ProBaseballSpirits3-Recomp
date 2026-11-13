@@ -10,6 +10,7 @@
   "texture_labels": 2091,
   "localized_archive_members": 111,
   "validation": [
+    "Submarine, Medium Speed and CPU Difficulty terminology aligned across 20 entries and generation maps using four 2026 references; 28 compiled lookups, 20 curation guards and the Windows build passed. CPU-help text fits its 320 px estimate budget; source fields, controls, statuses and all name aliases unchanged.",
     "Seven team-editor pitcher-order labels shortened to native-width ordinals; Avg P corrected to Pitcher Use from the native appearance-count/game-count calculation and 2026 Pennant reference. Six native replay cases, eight compiled lookups/curation guards and the Windows build passed; all source fields, statuses and name aliases unchanged.",
     "Updated caption and manager wording compiled and linked in a separate staged Windows build, then passed the normal Windows build after the game process exited; tested/generated header hashes match, runtime DLLs are unchanged, and no new game session was launched.",
     "Native manager-report generation/sorting/selection exercised on 15522 seeded inputs; all 73 nonempty pieces matched compiled English, all 51 inner comments appeared, bounded piece/report sizes passed, and 30 independent no-highlight replays matched. Live wrapping and real-match statistics remain unchecked.",
@@ -82,6 +83,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Live Submarine motion headings and pitcher-role compounds, Medium Speed settings and CPU Difficulty help placement",
     "Live team pitcher-use editor ordinal placement across starter/reliever/closer columns, and Pitcher Use stat header width/formatting",
     "Live outer manager verdict and offense/defense heading placement; real-match event statistics, rating derivation and rendered wrapping remain unverified; seeded selection/sorting is checked offline",
     "Verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
@@ -925,5 +927,17 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "pitcher-usage-wording-validation.json"
+  "latest_windows_build_report": "motion-settings-wording-validation.json",
+  "motion_settings_wording_review": {
+    "english_records_updated": 20,
+    "submarine_labels_and_compounds": 16,
+    "medium_speed_labels": 2,
+    "cpu_label_and_help": 2,
+    "official_2026_contextual_matches": 4,
+    "compiled_lookup_inputs_checked": 28,
+    "curation_status_guards_checked": 20,
+    "normal_windows_build_passed": true,
+    "interactive_validation": false,
+    "report": "motion-settings-wording-validation.json"
+  }
 }

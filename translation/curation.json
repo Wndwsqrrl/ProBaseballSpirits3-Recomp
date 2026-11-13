@@ -152,8 +152,8 @@
     "左横投：": "L Sidearm:",
     "右ス投：": "R Three-quarter:",
     "左ス投：": "L Three-quarter:",
-    "右下投：": "R Underhand:",
-    "左下投：": "L Underhand:",
+    "右下投：": "R Submarine:",
+    "左下投：": "L Submarine:",
     "リリーフ調整中": "Warming Up (Relief)",
     "先発準備完了": "Starter Ready",
     "走塁無視": "Ignore Baserunners",
@@ -355,11 +355,11 @@
     "上投：": "Overhand:",
     "ス投：": "Three-quarter:",
     "横投：": "Sidearm:",
-    "下投：": "Underhand:",
+    "下投：": "Submarine:",
     "両投": "Ambidextrous",
     "オーバースロー": "Overhand",
     "サイドスロー": "Sidearm",
-    "アンダースロー": "Underhand",
+    "アンダースロー": "Submarine",
     "高速スライダー": "Hard Slider",
     "カットボール": "Cutter",
     "高速シンカー": "Hard Sinker",
@@ -889,8 +889,8 @@
     "球団別": "By Team",
     "少なめ": "Fewer",
     "隠す": "Hidden",
-    "ミドルスピード＋": "Middle Speed+",
-    "ミドルスピード": "Middle Speed",
+    "ミドルスピード＋": "Medium Speed+",
+    "ミドルスピード": "Medium Speed",
     "ベーシックスピード＋": "Basic Speed+",
     "ベーシックスピード": "Basic Speed",
     "スロースピード＋": "Slow Speed+",
@@ -1097,7 +1097,7 @@
     "COMの強さ（打）": "CPU Batting",
     "COMの強さ（投）": "CPU Pitching",
     "COMの強さ（監）": "CPU Manager",
-    "COMの強さ": "CPU Strength",
+    "COMの強さ": "CPU Difficulty",
     "ライブ（クイック）": "Live (Quick)",
     "速報": "Live Results",
     "ライブ": "Live Play",
@@ -1499,7 +1499,19 @@
     "２００５年実際に行われたドラフトの指名を再現します。実在ルーキー": "Recreate the actual 2005 draft picks. All real rookies ",
     "選手は全員ドラフトには参加せず、史実通りの球団に所属します。": "join their historical clubs instead of entering this draft.",
     "シーズン%d度目の猛打賞まで後１本！": "One hit shy of 3+ hit game #%d!",
-    "昨シーズンは%d度の猛打賞を記録。この打席でも猛打賞なるか！": "%d games with 3+ hits last season. Can he do it again?"
+    "昨シーズンは%d度の猛打賞を記録。この打席でも猛打賞なるか！": "%d games with 3+ hits last season. Can he do it again?",
+    "右下投：リリーフ調整中": "R Submarine: Warming Up (Relief)",
+    "右下投：先発準備完了": "R Submarine: Starter Ready",
+    "左下投：リリーフ調整中": "L Submarine: Warming Up (Relief)",
+    "左下投：先発準備完了": "L Submarine: Starter Ready",
+    "右下投：休息中": "R Submarine: Resting",
+    "左下投：休息中": "L Submarine: Resting",
+    "右下投：先発タイプ": "R Submarine: Starter",
+    "右下投：中継ぎタイプ": "R Submarine: Reliever",
+    "右下投：抑えタイプ": "R Submarine: Closer",
+    "左下投：先発タイプ": "L Submarine: Starter",
+    "左下投：中継ぎタイプ": "L Submarine: Reliever",
+    "左下投：抑えタイプ": "L Submarine: Closer"
   },
   "overrides": {
     "0x82096CE8": "Condition: After %d games, start %s and win the game.",
@@ -2635,7 +2647,7 @@
     "0x8207D170": "\\c7Difficulty / CPU Baserunning<BR>Change the CPU's baserunning ability.",
     "0x8207D1C0": "\\c7Difficulty / CPU Batting<BR>Change the CPU's batting ability.",
     "0x8207D210": "\\c7Difficulty / CPU Pitching<BR>Change the CPU's pitching ability.",
-    "0x8207D270": "\\c7Difficulty / CPU Strength<BR>Choose the CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
+    "0x8207D270": "\\c7Difficulty > CPU Difficulty<BR>Choose CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
     "0x8207D2F0": "\\c7Difficulty / Pitch Speed<BR>Choose pitch speed for the batter-side view. Buy<BR>Pitch Speed Expansion in the VP Shop to unlock<BR>more levels.<BR>Note: TV cameras always use Real Speed.",
     "0x8207D3D8": "\\c7Information Settings<BR>Customize the information displayed during<BR>games.",
     "0x8207D438": "\\c7Tactics Settings<BR>Choose how tactical instructions are given.",
@@ -6450,13 +6462,13 @@
     {
       "address": "0x00000000",
       "source": "右下投：",
-      "english": "R Underhand:",
+      "english": "R Submarine:",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "左下投：",
-      "english": "L Underhand:",
+      "english": "L Submarine:",
       "status": "reviewed"
     },
     {
@@ -6558,13 +6570,13 @@
     {
       "address": "0x00000000",
       "source": "右下投：リリーフ調整中",
-      "english": "R Underhand: Warming Up (Relief)",
+      "english": "R Submarine: Warming Up (Relief)",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "右下投：先発準備完了",
-      "english": "R Underhand: Starter Ready",
+      "english": "R Submarine: Starter Ready",
       "status": "reviewed"
     },
     {
@@ -6606,13 +6618,13 @@
     {
       "address": "0x00000000",
       "source": "左下投：リリーフ調整中",
-      "english": "L Underhand: Warming Up (Relief)",
+      "english": "L Submarine: Warming Up (Relief)",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "左下投：先発準備完了",
-      "english": "L Underhand: Starter Ready",
+      "english": "L Submarine: Starter Ready",
       "status": "reviewed"
     },
     {
@@ -7818,7 +7830,7 @@
     {
       "address": "0x00000000",
       "source": "右下投：休息中",
-      "english": "R Underhand: Resting",
+      "english": "R Submarine: Resting",
       "status": "reviewed"
     },
     {
@@ -7842,7 +7854,7 @@
     {
       "address": "0x00000000",
       "source": "左下投：休息中",
-      "english": "L Underhand: Resting",
+      "english": "L Submarine: Resting",
       "status": "reviewed"
     },
     {
@@ -7962,19 +7974,19 @@
     {
       "address": "0x00000000",
       "source": "右下投：先発タイプ",
-      "english": "R Underhand: Starter",
+      "english": "R Submarine: Starter",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "右下投：中継ぎタイプ",
-      "english": "R Underhand: Reliever",
+      "english": "R Submarine: Reliever",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "右下投：抑えタイプ",
-      "english": "R Underhand: Closer",
+      "english": "R Submarine: Closer",
       "status": "reviewed"
     },
     {
@@ -8034,19 +8046,19 @@
     {
       "address": "0x00000000",
       "source": "左下投：先発タイプ",
-      "english": "L Underhand: Starter",
+      "english": "L Submarine: Starter",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "左下投：中継ぎタイプ",
-      "english": "L Underhand: Reliever",
+      "english": "L Submarine: Reliever",
       "status": "reviewed"
     },
     {
       "address": "0x00000000",
       "source": "左下投：抑えタイプ",
-      "english": "L Underhand: Closer",
+      "english": "L Submarine: Closer",
       "status": "reviewed"
     },
     {
