@@ -4996,7 +4996,7 @@
     "0x8209A3CC": "The team will look to keep the wins coming.",
     "0x8209A5EC": "However,",
     "0x8209A5F8": "In addition,",
-    "0x8209A624": "In today's game,",
+    "0x8209A624": "Today's game:",
     "0x82096290": "<RGB 0x41507a>Pennant Setup Help<RGB 0x7f7f7f>",
     "0x82096810": "[<RGB 0x00785f>Review Your Roster<RGB 0x7f7f7f>]<BR>Look over your roster to see where you need help.<BR><BR>Fill those gaps to improve your shot at the pennant.<BOTTOM><+LR>Page<○>Close        1/1",
     "0x820968FC": "<RGB 0x41507a>Tryout Help<RGB 0x7f7f7f>",
@@ -6268,7 +6268,9 @@
     "0x8208A47C": "Yutaka",
     "0x8208A450": "Satoru",
     "0x82091844": "H vs L",
-    "0x82091854": "H vs R"
+    "0x82091854": "H vs R",
+    "0x8209A5CC": "Offense:",
+    "0x8209A5B4": "Defense:"
   },
   "additional_strings": [
     {
@@ -8509,7 +8511,18 @@
     "0x8206D32C": " with the bases loaded! He thrives here!",
     "0x8206D33C": "He thrives with the bases loaded! AVG: ",
     "0x8206D360": ". A run producer!",
-    "0x8206CC24": " strikeouts."
+    "0x8206CC24": " strikeouts.",
+    "0x82099D00": "were hit hard throughout, ",
+    "0x82099D18": "could not fulfill their roles, ",
+    "0x82099D40": "kept things running smoothly, ",
+    "0x82099D58": "each fulfilled his role, ",
+    "0x82099D78": "including a combined shutout, ",
+    "0x82099D90": "The pitchers used in today's game ",
+    "0x82099FC8": "The lineup's ability to sustain rallies ",
+    "0x8209A400": "opposing hitters",
+    "0x8209A544": "what went poorly",
+    "0x8209A578": "the high total",
+    "0x8209A5E0": "against "
   },
   "provisional_word_overrides": {
     "中日vs阪神の試合は、両チームなかなか引き": "Chunichi vs. Hanshin was a close contest, with",

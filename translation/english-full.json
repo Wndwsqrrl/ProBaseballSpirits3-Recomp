@@ -32070,42 +32070,42 @@
     "address": "0x82099D00",
     "source_size": 22,
     "source_hash": "3DAC08533F68A937",
-    "english": "Everything is hammered into it,",
+    "english": "were hit hard throughout, ",
     "status": "draft"
   },
   {
     "address": "0x82099D18",
     "source_size": 36,
     "source_hash": "0B357F82519D2CB8",
-    "english": "each cannot fulfill their role,",
+    "english": "could not fulfill their roles, ",
     "status": "draft"
   },
   {
     "address": "0x82099D40",
     "source_size": 20,
     "source_hash": "BC7404ECFF3E4238",
-    "english": "Connect smoothly,",
+    "english": "kept things running smoothly, ",
     "status": "draft"
   },
   {
     "address": "0x82099D58",
     "source_size": 30,
     "source_hash": "D8A7552EA6A5E77F",
-    "english": "They played their respective roles perfectly,",
+    "english": "each fulfilled his role, ",
     "status": "draft"
   },
   {
     "address": "0x82099D78",
     "source_size": 22,
     "source_hash": "E5982DFEBCC5942E",
-    "english": "Such as holding a shutout relay,",
+    "english": "including a combined shutout, ",
     "status": "draft"
   },
   {
     "address": "0x82099D90",
     "source_size": 28,
     "source_hash": "C03D7FD905CBAA61",
-    "english": "The pitcher who pitched in today's game was",
+    "english": "The pitchers used in today's game ",
     "status": "draft"
   },
   {
@@ -32245,7 +32245,7 @@
     "address": "0x82099FC8",
     "source_size": 28,
     "source_hash": "030EE889CA186854",
-    "english": "The connection between the batting lineup throughout the game",
+    "english": "The lineup's ability to sustain rallies ",
     "status": "draft"
   },
   {
@@ -32420,7 +32420,7 @@
     "address": "0x8209A400",
     "source_size": 14,
     "source_hash": "1BA16F86996EE762",
-    "english": "opposing team batter",
+    "english": "opposing hitters",
     "status": "draft"
   },
   {
@@ -32518,7 +32518,7 @@
     "address": "0x8209A544",
     "source_size": 14,
     "source_hash": "59F79034DEC21833",
-    "english": "What was bad",
+    "english": "what went poorly",
     "status": "draft"
   },
   {
@@ -32539,7 +32539,7 @@
     "address": "0x8209A578",
     "source_size": 14,
     "source_hash": "D22A3980B5136E0C",
-    "english": "Where there were many",
+    "english": "the high total",
     "status": "draft"
   },
   {
@@ -32567,21 +32567,21 @@
     "address": "0x8209A5B4",
     "source_size": 20,
     "source_hash": "7183E8B6E92F9319",
-    "english": "In terms of defense,",
-    "status": "draft"
+    "english": "Defense:",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A5CC",
     "source_size": 18,
     "source_hash": "C786B2C78D5C66B7",
-    "english": "In terms of attack,",
-    "status": "draft"
+    "english": "Offense:",
+    "status": "reviewed"
   },
   {
     "address": "0x8209A5E0",
     "source_size": 8,
     "source_hash": "578A8812C633B40C",
-    "english": "against",
+    "english": "against ",
     "status": "draft"
   },
   {
@@ -32630,7 +32630,7 @@
     "address": "0x8209A624",
     "source_size": 14,
     "source_hash": "2FF20DC7352DF4F2",
-    "english": "In today's game,",
+    "english": "Today's game:",
     "status": "reviewed"
   },
   {

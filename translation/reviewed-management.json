@@ -422,7 +422,10 @@
     "0x8209F208": " VP earned!",
     "0x8209C048": "Sign this player?",
     "0x82091844": "H vs L",
-    "0x82091854": "H vs R"
+    "0x82091854": "H vs R",
+    "0x8209A5CC": "Offense:",
+    "0x8209A5B4": "Defense:",
+    "0x8209A624": "Today's game:"
   },
   "labels": {
     "通算": "All Time",

@@ -1508,7 +1508,7 @@
   "0x8209A3CC": "The team will look to keep the wins coming.",
   "0x8209A5EC": "However,",
   "0x8209A5F8": "In addition,",
-  "0x8209A624": "In today's game,",
+  "0x8209A624": "Today's game:",
   "0x82096290": "<RGB 0x41507a>Pennant Setup Help<RGB 0x7f7f7f>",
   "0x82096810": "[<RGB 0x00785f>Review Your Roster<RGB 0x7f7f7f>]<BR>Look over your roster to see where you need help.<BR><BR>Fill those gaps to improve your shot at the pennant.<BOTTOM><+LR>Page<○>Close        1/1",
   "0x820968FC": "<RGB 0x41507a>Tryout Help<RGB 0x7f7f7f>",
@@ -1994,5 +1994,7 @@
   "0x8209833C": " IP",
   "0x82098340": " ERA",
   "0x8209834C": " K",
-  "0x8209174C": "Fielder Use"
+  "0x8209174C": "Fielder Use",
+  "0x8209A5CC": "Offense:",
+  "0x8209A5B4": "Defense:"
 }

@@ -1,0 +1,600 @@
+{
+  "date": "2026-11-13",
+  "draft_fallbacks_improved": 11,
+  "new_reviewed_headings": 2,
+  "reviewed_prefix_reformatted": 1,
+  "evidence": [
+    {
+      "address": "0x82099D00",
+      "source": "ことごとく打ち込まれ、",
+      "source_hash": "3DAC08533F68A937",
+      "previous_english": "Everything is hammered into it,",
+      "english": "were hit hard throughout, ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 180.0
+    },
+    {
+      "address": "0x82099D18",
+      "source": "それぞれが役割を果たすことができず、",
+      "source_hash": "0B357F82519D2CB8",
+      "previous_english": "each cannot fulfill their role,",
+      "english": "could not fulfill their roles, ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 184.0
+    },
+    {
+      "address": "0x82099D40",
+      "source": "順調につないでいき、",
+      "source_hash": "BC7404ECFF3E4238",
+      "previous_english": "Connect smoothly,",
+      "english": "kept things running smoothly, ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 211.0
+    },
+    {
+      "address": "0x82099D58",
+      "source": "それぞれの役割を見事に果たし、",
+      "source_hash": "D8A7552EA6A5E77F",
+      "previous_english": "They played their respective roles perfectly,",
+      "english": "each fulfilled his role, ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 154.0
+    },
+    {
+      "address": "0x82099D78",
+      "source": "完封リレーを行うなど、",
+      "source_hash": "E5982DFEBCC5942E",
+      "previous_english": "Such as holding a shutout relay,",
+      "english": "including a combined shutout, ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 216.0
+    },
+    {
+      "address": "0x82099D90",
+      "source": "今日の試合で登板させた投手が",
+      "source_hash": "C03D7FD905CBAA61",
+      "previous_english": "The pitcher who pitched in today's game was",
+      "english": "The pitchers used in today's game ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 246.0
+    },
+    {
+      "address": "0x82099FC8",
+      "source": "試合を通して打線のつながりが",
+      "source_hash": "030EE889CA186854",
+      "previous_english": "The connection between the batting lineup throughout the game",
+      "english": "The lineup's ability to sustain rallies ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 256.0
+    },
+    {
+      "address": "0x8209A400",
+      "source": "相手チーム打者",
+      "source_hash": "1BA16F86996EE762",
+      "previous_english": "opposing team batter",
+      "english": "opposing hitters",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 113.0
+    },
+    {
+      "address": "0x8209A544",
+      "source": "悪かったところ",
+      "source_hash": "59F79034DEC21833",
+      "previous_english": "What was bad",
+      "english": "what went poorly",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 120.0
+    },
+    {
+      "address": "0x8209A578",
+      "source": "多かったところ",
+      "source_hash": "D22A3980B5136E0C",
+      "previous_english": "Where there were many",
+      "english": "the high total",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 91.0
+    },
+    {
+      "address": "0x8209A5E0",
+      "source": "に対して",
+      "source_hash": "578A8812C633B40C",
+      "previous_english": "against",
+      "english": "against ",
+      "status": "draft",
+      "source_context": "Native manager phrase table at 0x827E0988; these fallback strings were not emitted by the earlier inner-builder replay",
+      "estimated_width_px": 56.0
+    },
+    {
+      "address": "0x8209A5CC",
+      "source": "攻撃面においては、",
+      "source_hash": "C786B2C78D5C66B7",
+      "previous_english": "In terms of attack,",
+      "english": "Offense:",
+      "status": "reviewed",
+      "source_context": "Native outer report prefix/headings at 0x8254321C/0x82543320/0x82543408",
+      "estimated_width_px": 59.0
+    },
+    {
+      "address": "0x8209A5B4",
+      "source": "守備の面においては、",
+      "source_hash": "7183E8B6E92F9319",
+      "previous_english": "In terms of defense,",
+      "english": "Defense:",
+      "status": "reviewed",
+      "source_context": "Native outer report prefix/headings at 0x8254321C/0x82543320/0x82543408",
+      "estimated_width_px": 64.0
+    },
+    {
+      "address": "0x8209A624",
+      "source": "本日の試合は、",
+      "source_hash": "2FF20DC7352DF4F2",
+      "previous_english": "In today's game,",
+      "english": "Today's game:",
+      "status": "reviewed",
+      "source_context": "Native outer report prefix/headings at 0x8254321C/0x82543320/0x82543408",
+      "estimated_width_px": 104.0
+    }
+  ],
+  "native_outer_builder": "0x82543020",
+  "native_outer_builder_end_exclusive": "0x825434A0",
+  "machine_code_sha256": "b584003c7c8ccf2bfedbc92eecc3a8a34ab3830dbe4691dc3748a16587c4577c",
+  "native_no_highlight_cases": 30,
+  "native_no_highlight_unique_reports": 15,
+  "source_table": "0x827E0988",
+  "native_replay_scope": "Actual no-highlight verdict control flow, source pointers and side/comparison branches; excludes highlight selection, sorting, full mixed reports and live wrapping.",
+  "seeded_rating_field": "object + 0x98; the preceding rating calculation is stubbed, not validated here",
+  "native_cases": [
+    {
+      "side": 0,
+      "comparison": -1,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A138",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、負けはしたが、監督の采配に関しては非常に評価できるものがあった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": -1,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0FC",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、監督の采配を活かすことができない結果となってしまった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": -1,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0DC",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、残念な結果となってしまった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": -1,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1A8",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、ゲームの流れに監督の采配がうまくはまらなかった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": -1,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0B4",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、監督の采配に疑問を覚える敗戦であった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": 0,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A240",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、引き分けたが、監督の采配に関しては非常に評価できるものがあった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 0,
+      "comparison": 0,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A204",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、監督の采配を活かすのにあと一歩及ばない結果となった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 0,
+      "comparison": 0,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1DC",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、お互いが譲らない緊迫した試合だった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 0,
+      "comparison": 0,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1A8",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、ゲームの流れに監督の采配がうまくはまらなかった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 0,
+      "comparison": 0,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A17C",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、監督の采配に疑問を覚える引き分けであった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 0,
+      "comparison": 1,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A330",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、監督の采配が見事的中した良いゲーム展開だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": 1,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2F4",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、選手の活躍もあったが、監督の手腕によるものが大きかった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": 1,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2E0",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、見事な勝利だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": 1,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2B8",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、選手たちの活躍により勝てた試合だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 0,
+      "comparison": 1,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A284",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、勝ちはしたものの、監督の采配には少し疑問が残った。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": -1,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A138",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、負けはしたが、監督の采配に関しては非常に評価できるものがあった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": -1,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0FC",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、監督の采配を活かすことができない結果となってしまった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": -1,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0DC",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、残念な結果となってしまった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": -1,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1A8",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、ゲームの流れに監督の采配がうまくはまらなかった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": -1,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A0B4",
+        "0x8209A360"
+      ],
+      "source": "本日の試合は、監督の采配に疑問を覚える敗戦であった。今日の敗戦を今後の戦いに活かせるようにしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": 0,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A240",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、引き分けたが、監督の采配に関しては非常に評価できるものがあった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 1,
+      "comparison": 0,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A204",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、監督の采配を活かすのにあと一歩及ばない結果となった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 1,
+      "comparison": 0,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1DC",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、お互いが譲らない緊迫した試合だった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 1,
+      "comparison": 0,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A1A8",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、ゲームの流れに監督の采配がうまくはまらなかった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 1,
+      "comparison": 0,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A17C",
+        "0x8209A398"
+      ],
+      "source": "本日の試合は、監督の采配に疑問を覚える引き分けであった。次こそ勝利をもたらせられるような戦いに期待したい。"
+    },
+    {
+      "side": 1,
+      "comparison": 1,
+      "rating": 0,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A330",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、監督の采配が見事的中した良いゲーム展開だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": 1,
+      "rating": 1,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2F4",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、選手の活躍もあったが、監督の手腕によるものが大きかった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": 1,
+      "rating": 2,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2E0",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、見事な勝利だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": 1,
+      "rating": 3,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A2B8",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、選手たちの活躍により勝てた試合だった。今後も勝利が続いていくような戦いをしてもらいたい。"
+    },
+    {
+      "side": 1,
+      "comparison": 1,
+      "rating": 4,
+      "source_addresses": [
+        "0x8209A624",
+        "0x8209A284",
+        "0x8209A3CC"
+      ],
+      "source": "本日の試合は、勝ちはしたものの、監督の采配には少し疑問が残った。今後も勝利が続いていくような戦いをしてもらいたい。"
+    }
+  ],
+  "generated_english_reports": [
+    {
+      "comparison": -1,
+      "rating": 0,
+      "english": "Today's game: The manager made some excellent calls despite the loss. The team can learn from today's loss and carry those lessons forward."
+    },
+    {
+      "comparison": -1,
+      "rating": 1,
+      "english": "Today's game: The team couldn't capitalize on the manager's decisions. The team can learn from today's loss and carry those lessons forward."
+    },
+    {
+      "comparison": -1,
+      "rating": 2,
+      "english": "Today's game: It was a disappointing loss. The team can learn from today's loss and carry those lessons forward."
+    },
+    {
+      "comparison": -1,
+      "rating": 3,
+      "english": "Today's game: The manager's moves didn't fit how the game played out. The team can learn from today's loss and carry those lessons forward."
+    },
+    {
+      "comparison": -1,
+      "rating": 4,
+      "english": "Today's game: The manager's decisions came into question in the loss. The team can learn from today's loss and carry those lessons forward."
+    },
+    {
+      "comparison": 0,
+      "rating": 0,
+      "english": "Today's game: The game ended in a tie, but the manager made some excellent calls. The team will look to turn that effort into a win next time."
+    },
+    {
+      "comparison": 0,
+      "rating": 1,
+      "english": "Today's game: The team fell just short of making the manager's calls count. The team will look to turn that effort into a win next time."
+    },
+    {
+      "comparison": 0,
+      "rating": 2,
+      "english": "Today's game: It was a tense game and neither side gave an inch. The team will look to turn that effort into a win next time."
+    },
+    {
+      "comparison": 0,
+      "rating": 3,
+      "english": "Today's game: The manager's moves didn't fit how the game played out. The team will look to turn that effort into a win next time."
+    },
+    {
+      "comparison": 0,
+      "rating": 4,
+      "english": "Today's game: The tie raised questions about the manager's calls. The team will look to turn that effort into a win next time."
+    },
+    {
+      "comparison": 1,
+      "rating": 0,
+      "english": "Today's game: The manager's calls paid off throughout the game. The team will look to keep the wins coming."
+    },
+    {
+      "comparison": 1,
+      "rating": 1,
+      "english": "Today's game: The players came through, and the manager's decisions made the difference. The team will look to keep the wins coming."
+    },
+    {
+      "comparison": 1,
+      "rating": 2,
+      "english": "Today's game: It was an excellent win. The team will look to keep the wins coming."
+    },
+    {
+      "comparison": 1,
+      "rating": 3,
+      "english": "Today's game: The players came through to earn the win. The team will look to keep the wins coming."
+    },
+    {
+      "comparison": 1,
+      "rating": 4,
+      "english": "Today's game: The team won, though some of the manager's calls were questionable. The team will look to keep the wins coming."
+    }
+  ],
+  "compiled_lookup_inputs_expected": 82,
+  "source_fields_unchanged": true,
+  "previous_complete_51_manager_comments_unchanged": true,
+  "running_game_files_changed": false,
+  "normal_windows_build_passed": false,
+  "normal_windows_build_status": "Deferred while the current game session is open",
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "compiled_lookup_inputs_checked": 82,
+  "compiled_lookup_results_matched": true,
+  "curation_status_guards_checked": 14,
+  "curation_status_guards_passed": true,
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Match",
+      "key": "match_deban_plate_defence",
+      "japanese": "守備",
+      "english": "Defense"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_deban_plate_offense",
+      "japanese": "攻撃",
+      "english": "Offense"
+    }
+  ],
+  "prior_unedited_catalogue_rows_unchanged": 18962,
+  "complete_4956_name_aliases_unchanged": true,
+  "native_piece_format_capacity_checks_passed": true,
+  "native_piece_capacity_scope": "The 30 seeded no-highlight cases and their 15 unique reports only; this does not verify highlight sorting or rendered line breaks.",
+  "catalogue_status_counts": {
+    "reviewed": 9898,
+    "draft": 3428,
+    "game-roster-family": 5650
+  }
+}

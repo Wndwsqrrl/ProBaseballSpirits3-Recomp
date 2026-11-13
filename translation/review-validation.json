@@ -7,7 +7,7 @@
   "added_fingerprints": 4,
   "removed_fragment_or_codebook_fingerprints": 0,
   "review_entries": {
-    "ui": 1996,
+    "ui": 1998,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
     "newspaper_lines_and_patterns": 310,
@@ -15,13 +15,14 @@
     "settings_labels": 48,
     "mode_and_menu_entries": 1021,
     "mode_and_menu_labels": 412,
-    "management_entries": 421,
+    "management_entries": 426,
     "management_labels": 195,
     "management_runtime_patterns": 19,
     "player_names": 410
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Outer manager verdict checked through 30 seeded native no-highlight cases and 82 compiled lookups; Offense/Defense headings reviewed, 11 fallback phrases improved, 14 curation guards passed, and the 51 complete inner comments/4956 name aliases unchanged. Port rebuild remains deferred during play.",
     "55 match-caption fallback fragments improved and two 3+ hit-game templates clarified using 2026 Match terminology; 271 compiled lookups and 57 curation guards passed; all 4956 name aliases and catalogue statuses unchanged. Port rebuild deferred while the game is running.",
     "Player-data labels CON R/CON L/Power confirmed by native ability-grade paths; nine labels fit exact SBIB UV crops, all 262 other atlas payloads and 2112 untouched archive members unchanged",
     "Native code confirms the L/R counters are hits allowed and Fielder Use is appearances per team game; 12 native replay cases and three compiled lookup/status checks passed; original numeric data unchanged",
@@ -51,6 +52,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live outer manager verdict and offense/defense heading placement; nonempty highlight selection, sorting, rating calculation, mixed reports and rendered wrapping remain unverified",
     "Rebuild the Windows port after the current play session; verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
     "Live manager fallback and legacy wrapped newspaper/draft-option context, fragment boundaries and line placement",
     "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
@@ -842,6 +844,18 @@
     "compiled_lookup_inputs_checked": 271,
     "curation_status_guards_checked": 57,
     "report": "match-fallback-wording-validation.json",
+    "normal_windows_build_passed": false,
+    "interactive_validation": false
+  },
+  "manager_verdict_wording_review": {
+    "draft_fallbacks_improved": 11,
+    "new_reviewed_headings": 2,
+    "reviewed_prefix_reformatted": 1,
+    "native_no_highlight_cases": 30,
+    "native_no_highlight_unique_reports": 15,
+    "compiled_lookup_inputs_checked": 82,
+    "curation_status_guards_checked": 14,
+    "report": "manager-verdict-wording-validation.json",
     "normal_windows_build_passed": false,
     "interactive_validation": false
   }
