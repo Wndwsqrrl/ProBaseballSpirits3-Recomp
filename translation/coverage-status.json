@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 15628,
-  "unique_fingerprints": 15334,
+  "catalogue_records": 15832,
+  "unique_fingerprints": 15538,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -65,10 +65,11 @@
     "45 compact stat/split/position/team labels verified; 255 other atlas payloads, all 14 earlier stat labels/520 compressed blocks and 10 numeric/control regions unchanged",
     "14 pitching/fielding practice label occurrences verified; native fielding sprite strips reconstructed, 255 other atlas payloads, seven earlier English labels/611 compressed blocks and 13 protected regions unchanged",
     "Four magazine/newspaper headings verified; 257 prior full atlas payloads and seven original regions unchanged. Original title prompt confirmed already English and retained.",
-    "39 original name/stat/menu entries reviewed and 1608 complete-name aliases added from 134 native pairs; all 1647 compiled lookup checks passed and 13981 other original catalogue rows unchanged"
+    "39 original name/stat/menu entries reviewed and 1608 complete-name aliases added from 134 native pairs; all 1647 compiled lookup checks passed and 13981 other original catalogue rows unchanged",
+    "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
-    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 279 unresolved native name-pool records",
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 262 unresolved native name-pool records",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live compact stat atlas: season/year context, source UV assembly, SB%/CS%/RISP/FLD %, position abbreviations and legacy team labels",
@@ -134,7 +135,7 @@
   ],
   "entire_game_english": false,
   "latest_offline_review": "review-validation.json",
-  "reviewed_newspaper_lines": 308,
+  "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1021,
   "reviewed_management_entries": 421,
@@ -738,5 +739,27 @@
     "original_color_glow_and_shadow_atlases_byte_identical": 3,
     "complete_original_title_member_byte_identical": true,
     "report": "title-logo-scope-validation.json"
+  },
+  "generated_name_pool_coverage": {
+    "native_records": 413,
+    "complete_name_pairs_mapped": 151,
+    "unresolved_records": 262,
+    "complete_name_aliases": 1812,
+    "western_pairs_mapped": 66,
+    "western_pairs": 66,
+    "contextual_field_overrides": 20,
+    "report": "name-context-expansion-validation.json",
+    "interactive_validation": false
+  },
+  "name_context_expansion": {
+    "new_contextual_fields": 18,
+    "new_name_pairs": 17,
+    "new_aliases": 204,
+    "corrected_stat_fragments": 2,
+    "compiled_lookup_checks": 1814,
+    "prior_catalogue_rows_unchanged": 15626,
+    "original_fielding_position_labels_unchanged": true,
+    "report": "name-context-expansion-validation.json",
+    "interactive_validation": false
   }
 }

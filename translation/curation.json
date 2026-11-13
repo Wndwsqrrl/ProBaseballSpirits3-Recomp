@@ -1491,7 +1491,9 @@
     "奪三率": "SO Rate",
     "奪三": "SO",
     "登板": "G",
-    "投球回数": "IP"
+    "投球回数": "IP",
+    "防": "ERA",
+    "振": "K"
   },
   "overrides": {
     "0x82096CE8": "Condition: After %d games, start %s and win the game.",

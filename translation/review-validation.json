@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "catalogue_records": 15628,
-  "unique_fingerprints": 15334,
+  "catalogue_records": 15832,
+  "unique_fingerprints": 15538,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
   "changed_existing_translations": 6,
   "added_fingerprints": 4,
@@ -10,7 +10,7 @@
     "ui": 1996,
     "ability_descriptions_and_requirements": 337,
     "labels_and_short_text": 294,
-    "newspaper_lines_and_patterns": 308,
+    "newspaper_lines_and_patterns": 310,
     "settings_descriptions": 207,
     "settings_labels": 48,
     "mode_and_menu_entries": 1021,
@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "1814 compiled lookups and the normal Windows build passed for expanded name contexts and corrected ERA/K fragments; all original position-label mappings retained",
     "Native build and 1647 compiled lookups passed for 39 reviewed original entries and 1608 complete generated-name aliases; regeneration is repeatable",
     "Four print headings passed font/native decoding checks; 257 prior atlases and seven original regions unchanged. Title prompt verified already English against the original archive.",
     "14 practice label occurrences passed font/native texture checks; eight fielding sprites reconstructed, 255 other atlases, seven earlier labels/611 compressed blocks and 13 control/artwork regions unchanged",
@@ -42,7 +43,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
-    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 279 unresolved native name-pool records",
+    "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and the 262 unresolved native name-pool records",
     "Live magazine badge and newspaper masthead/tag placement; remaining newspaper metadata and pinned-notice print require stronger source evidence",
     "Live pitching-practice timing instructions for both Y/A variants and fielding-practice Hit Again/Re-Do Last Practice strip assembly",
     "Live slot messages and counters, four-part boost-week animation, link effects, wrapped training icons and basic/bonus card headings",
@@ -709,5 +710,27 @@
     "original_color_glow_and_shadow_atlases_byte_identical": 3,
     "complete_original_title_member_byte_identical": true,
     "report": "title-logo-scope-validation.json"
+  },
+  "generated_name_pool_coverage": {
+    "native_records": 413,
+    "complete_name_pairs_mapped": 151,
+    "unresolved_records": 262,
+    "complete_name_aliases": 1812,
+    "western_pairs_mapped": 66,
+    "western_pairs": 66,
+    "contextual_field_overrides": 20,
+    "report": "name-context-expansion-validation.json",
+    "interactive_validation": false
+  },
+  "name_context_expansion": {
+    "new_contextual_fields": 18,
+    "new_name_pairs": 17,
+    "new_aliases": 204,
+    "corrected_stat_fragments": 2,
+    "compiled_lookup_checks": 1814,
+    "prior_catalogue_rows_unchanged": 15626,
+    "original_fielding_position_labels_unchanged": true,
+    "report": "name-context-expansion-validation.json",
+    "interactive_validation": false
   }
 }

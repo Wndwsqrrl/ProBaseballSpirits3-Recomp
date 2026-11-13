@@ -309,6 +309,8 @@
     "不名誉な記録をきざむ%d連敗…": "%d Straight Losses Leave an Unwanted Record",
     "今年の%sは球団史上最弱？": "Is This the Worst %s Team Ever?",
     "%d連敗にファン激怒！": "Fans Furious at %d Straight Losses!",
-    "天中殺か？%d連敗": "Cursed? %d Straight Losses"
+    "天中殺か？%d連敗": "Cursed? %d Straight Losses",
+    "防": "ERA",
+    "振": "K"
   }
 }

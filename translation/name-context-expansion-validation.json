@@ -1,0 +1,381 @@
+{
+  "date": "2026-11-12",
+  "new_contextual_name_fields": 18,
+  "new_complete_name_pairs": 17,
+  "new_complete_name_aliases": 204,
+  "existing_1608_name_aliases_unchanged": true,
+  "prior_catalogue_rows_unchanged": 15626,
+  "corrected_runtime_stat_fragments": 2,
+  "compiled_lookup_inputs_checked": 1814,
+  "compiled_lookup_results_matched": true,
+  "original_name_table_records": 413,
+  "complete_name_pairs_mapped": 151,
+  "unresolved_name_pair_records": 262,
+  "western_name_group_pairs": 66,
+  "western_name_group_complete_pairs_mapped": 66,
+  "standalone_right_field_label_retained": "RF",
+  "no_name_fields_omitted": true,
+  "native_registered_latin_fields_unchanged": true,
+  "context_fields": [
+    {
+      "record_address": "0x82041674",
+      "record_id": "01000814",
+      "country_flag": 1,
+      "field": "family",
+      "source": "ライト",
+      "english": "Wright",
+      "native_registered_latin": "ORDOL",
+      "basis": "Display-kana spelling; the native Latin registration uses the given name",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "can_42_kana",
+          "japanese": "ライト",
+          "english": "Wright"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041688",
+      "record_id": "01000813",
+      "country_flag": 1,
+      "field": "family",
+      "source": "エリオット",
+      "english": "Elliot",
+      "native_registered_latin": "ELLIOT",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "aus_03_kana",
+          "japanese": "エリオット",
+          "english": "Elliott"
+        }
+      ]
+    },
+    {
+      "record_address": "0x8204169C",
+      "record_id": "01000812",
+      "country_flag": 1,
+      "field": "given",
+      "source": "エース",
+      "english": "Ace",
+      "native_registered_latin": "ACE",
+      "basis": "Display kana and native Latin registration both identify the given name Ace",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "common_script_name_142",
+          "japanese": "エース",
+          "english": "Ace"
+        }
+      ]
+    },
+    {
+      "record_address": "0x820416D8",
+      "record_id": "01000819",
+      "country_flag": 1,
+      "field": "family",
+      "source": "キャメロン",
+      "english": "Cameron",
+      "native_registered_latin": "CAMERON",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "can_07_kana",
+          "japanese": "キャメロン",
+          "english": "Cameron"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041700",
+      "record_id": "01000815",
+      "country_flag": 1,
+      "field": "family",
+      "source": "ガルシア",
+      "english": "Garcia",
+      "native_registered_latin": "GARCIA",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "cub_39_kana",
+          "japanese": "ガルシア",
+          "english": "Garcia"
+        },
+        {
+          "namespace": "PersonName",
+          "key": "usa_12_kana",
+          "japanese": "ガルシア",
+          "english": "Garcia"
+        }
+      ]
+    },
+    {
+      "record_address": "0x8204173C",
+      "record_id": "0100081A",
+      "country_flag": 1,
+      "field": "family",
+      "source": "クーパー",
+      "english": "Cooper",
+      "native_registered_latin": "COOPER",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "usa_15_kana",
+          "japanese": "クーパー",
+          "english": "Cooper"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041868",
+      "record_id": "01000826",
+      "country_flag": 1,
+      "field": "family",
+      "source": "レイ",
+      "english": "Ray",
+      "native_registered_latin": "CHARLIE",
+      "basis": "Display-kana spelling; the native Latin registration uses the given name",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "chn_66_kana",
+          "japanese": "レイ",
+          "english": "Lei"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041908",
+      "record_id": "0100094A",
+      "country_flag": 1,
+      "field": "family",
+      "source": "ウォーカー",
+      "english": "Walker",
+      "native_registered_latin": "WALKER",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "usa_05_kana",
+          "japanese": "ウォーカー",
+          "english": "Walker"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041944",
+      "record_id": "01000947",
+      "country_flag": 1,
+      "field": "family",
+      "source": "べグリー",
+      "english": "Begley",
+      "native_registered_latin": "BEGLEY",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": []
+    },
+    {
+      "record_address": "0x82041958",
+      "record_id": "01000946",
+      "country_flag": 1,
+      "field": "family",
+      "source": "オブライエン",
+      "english": "O'Brien",
+      "native_registered_latin": "OBRYIEN",
+      "basis": "Conventional English spelling of the displayed kana; native Latin registration retained",
+      "official_2026_person_name_references": []
+    },
+    {
+      "record_address": "0x82041958",
+      "record_id": "01000946",
+      "country_flag": 1,
+      "field": "given",
+      "source": "ジョセフ",
+      "english": "Joseph",
+      "native_registered_latin": "OBRYIEN",
+      "basis": "Conventional English spelling of the displayed kana; native Latin registration retained",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "common_script_name_112",
+          "japanese": "ジョセフ",
+          "english": "Joseph"
+        }
+      ]
+    },
+    {
+      "record_address": "0x820419F8",
+      "record_id": "0100083B",
+      "country_flag": 1,
+      "field": "family",
+      "source": "ミラー",
+      "english": "Miller",
+      "native_registered_latin": "MILLER",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "can_37_kana",
+          "japanese": "ミラー",
+          "english": "Miller"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041A20",
+      "record_id": "0100083D",
+      "country_flag": 1,
+      "field": "family",
+      "source": "メイソン",
+      "english": "Mason",
+      "native_registered_latin": "MASON",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "aus_29_kana",
+          "japanese": "メイソン",
+          "english": "Mason"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041A98",
+      "record_id": "0100081D",
+      "country_flag": 1,
+      "field": "family",
+      "source": "サンダース",
+      "english": "Sanders",
+      "native_registered_latin": "SANDERS",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "usa_24_kana",
+          "japanese": "サンダース",
+          "english": "Sanders"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041AE8",
+      "record_id": "0100082D",
+      "country_flag": 1,
+      "field": "family",
+      "source": "パーカー",
+      "english": "Parker",
+      "native_registered_latin": "PARKER",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "usa_42_kana",
+          "japanese": "パーカー",
+          "english": "Parker"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041B38",
+      "record_id": "01000832",
+      "country_flag": 1,
+      "field": "family",
+      "source": "プリンス",
+      "english": "Prince",
+      "native_registered_latin": "PRINCE",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "ned_59_kana",
+          "japanese": "プリンス",
+          "english": "Prins"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82041B74",
+      "record_id": "01000835",
+      "country_flag": 1,
+      "field": "family",
+      "source": "ベイカー",
+      "english": "Baker",
+      "native_registered_latin": "BAKER",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": [
+        {
+          "namespace": "PersonName",
+          "key": "can_27_kana",
+          "japanese": "ベイカー",
+          "english": "Baker"
+        }
+      ]
+    },
+    {
+      "record_address": "0x82042100",
+      "record_id": "010007D8",
+      "country_flag": 2,
+      "field": "family",
+      "source": "堀",
+      "english": "Hori",
+      "native_registered_latin": "HORI",
+      "basis": "Native registered Latin spelling agrees with the display kana",
+      "official_2026_person_name_references": []
+    }
+  ],
+  "stat_fragment_corrections": [
+    {
+      "source": "防",
+      "previous": "prevention",
+      "english": "ERA",
+      "source_hash": "0A153407B6859973"
+    },
+    {
+      "source": "振",
+      "previous": "Shake",
+      "english": "K",
+      "source_hash": "0A1C3307B68BB66E"
+    }
+  ],
+  "reference_exceptions": [
+    {
+      "japanese": "エリオット",
+      "official_2026": "Elliott",
+      "chosen": "Elliot",
+      "reason": "Original record explicitly registers ELLIOT"
+    },
+    {
+      "japanese": "プリンス",
+      "official_2026": "Prins",
+      "chosen": "Prince",
+      "reason": "Original record explicitly registers PRINCE; the 2026 entry is a Dutch surname"
+    },
+    {
+      "japanese": "レイ",
+      "official_2026": "Lei",
+      "chosen": "Ray",
+      "reason": "The 2026 entry is a Chinese surname; these original records use Western names"
+    }
+  ],
+  "current_catalogue_records": 15832,
+  "current_unique_fingerprints": 15538,
+  "catalogue_statuses": {
+    "reviewed": 9738,
+    "draft": 444,
+    "game-roster-family": 5650
+  },
+  "native_build_passed": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "live_checks": [
+    "Complete-name rendering in player creation and draft screens",
+    "Surname-only widgets where a kana spelling is also a fielding-position label",
+    "Spacing for mixed Latin/Japanese name forms"
+  ],
+  "background_test_experiment_stopped": true,
+  "normal_windowed_entry_point_restored": true
+}
