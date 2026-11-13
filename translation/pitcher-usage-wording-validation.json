@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-13",
+  "reviewed_pitcher_order_labels": 7,
+  "reviewed_stat_labels_corrected": 1,
+  "order_labels": [
+    {
+      "address": "0x8207F0A4",
+      "source": "1番手",
+      "previous_english": "1 in Order",
+      "english": "1st",
+      "record_address": "0x827F54D8",
+      "rect_index": 4,
+      "rect_xywh": [
+        233,
+        245,
+        72,
+        26
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 34.0
+    },
+    {
+      "address": "0x8207F09C",
+      "source": "2番手",
+      "previous_english": "2 in Order",
+      "english": "2nd",
+      "record_address": "0x827F54F4",
+      "rect_index": 5,
+      "rect_xywh": [
+        233,
+        297,
+        72,
+        26
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 42.0
+    },
+    {
+      "address": "0x8207F094",
+      "source": "3番手",
+      "previous_english": "3 in Order",
+      "english": "3rd",
+      "record_address": "0x827F5510",
+      "rect_index": 6,
+      "rect_xywh": [
+        233,
+        348,
+        72,
+        26
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 37.0
+    },
+    {
+      "address": "0x8207F08C",
+      "source": "4番手",
+      "previous_english": "4 in Order",
+      "english": "4th",
+      "record_address": "0x827F552C",
+      "rect_index": 7,
+      "rect_xywh": [
+        233,
+        400,
+        72,
+        25
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 35.0
+    },
+    {
+      "address": "0x8207F084",
+      "source": "5番手",
+      "previous_english": "5 in Order",
+      "english": "5th",
+      "record_address": "0x827F5548",
+      "rect_index": 8,
+      "rect_xywh": [
+        233,
+        451,
+        72,
+        26
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 35.0
+    },
+    {
+      "address": "0x8207F07C",
+      "source": "6番手",
+      "previous_english": "6 in Order",
+      "english": "6th",
+      "record_address": "0x827F5564",
+      "rect_index": 9,
+      "rect_xywh": [
+        233,
+        503,
+        72,
+        25
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 35.0
+    },
+    {
+      "address": "0x8207F074",
+      "source": "7番手",
+      "previous_english": "7 in Order",
+      "english": "7th",
+      "record_address": "0x827F5580",
+      "rect_index": 10,
+      "rect_xywh": [
+        233,
+        554,
+        72,
+        26
+      ],
+      "font_id": 1,
+      "estimated_font": "Arial 26 px; live native font metrics remain unchecked",
+      "estimated_width_px": 35.0
+    }
+  ],
+  "order_context": "Ordinal rows align with separate starter, reliever and closer columns in the team pitcher-usage editor.",
+  "native_text_resource": "0x827F5628",
+  "native_text_resource_machine_data_sha256": "608c360fd6895d5d55c6117b1b97d9b2e0e1218fc1536b8870201248e27cd76a",
+  "native_reader": "0x823CDDF8",
+  "native_reader_resource_load": "0x823CDE0C..0x823CDE30",
+  "role_columns": [
+    {
+      "source": "先発要員",
+      "rect_xywh": [
+        359,
+        178,
+        96,
+        26
+      ]
+    },
+    {
+      "source": "中継ぎ要員",
+      "rect_xywh": [
+        518,
+        178,
+        120,
+        26
+      ]
+    },
+    {
+      "source": "抑え要員",
+      "rect_xywh": [
+        701,
+        178,
+        96,
+        26
+      ]
+    }
+  ],
+  "same_japanese_2026_match_labels_not_copied": [
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_2nd_place",
+      "japanese": "2番手",
+      "english": "Relief 1"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_3rd_place",
+      "japanese": "3番手",
+      "english": "Relief 2"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_4th_place",
+      "japanese": "4番手",
+      "english": "Relief 3"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_5th_place",
+      "japanese": "5番手",
+      "english": "Relief 4"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_6th_place",
+      "japanese": "6番手",
+      "english": "Relief 5"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_7th_place",
+      "japanese": "7番手",
+      "english": "Relief 6"
+    }
+  ],
+  "context_decision": "2026 Match uses Relief 1..6, but these 2006 editor rows apply across the three role columns; use 1st..7th.",
+  "pitcher_use": {
+    "address": "0x82091804",
+    "source": "均投数",
+    "previous_english": "Avg P",
+    "english": "Pitcher Use",
+    "definition": "Average number of pitchers used per game",
+    "estimated_font": "Arial 16 px; live placement remains unchecked",
+    "estimated_width_px": 83.0,
+    "native_evidence": {
+      "native_stat_function": "0x824D2928",
+      "block": "0x824D2F88",
+      "block_end_exclusive": "0x824D304C",
+      "block_machine_code_sha256": "257db2dd777de9ca42c45be22c9d4f3ec9c25eb3e01ae1d0cbfbc92513494b77",
+      "label_table": "0x82032978",
+      "label_table_sha256": "1f1405c5ec39783db9c018119eabc55ec860d1f2770769ee3f49121057c60247",
+      "label_index": 33,
+      "label_address": "0x82091804",
+      "float_value_base_offset": "0x0C",
+      "float_value_offset": "0x90",
+      "value_index_equation": "0x0C + 33 * 4 = 0x90",
+      "appearance_byte_offset": "0x518",
+      "appearance_record_stride": "0xF8",
+      "fielder_comparison_offset": "0x511",
+      "total_appearances_output_offset": "0x2C",
+      "game_count_helper": "0x825357C8",
+      "game_count_helper_end_exclusive": "0x82535828",
+      "game_count_helper_sha256": "1f722cb824fd4d0acb940fb2c0a7f0335942109035a70e22347449fa38e05fcd",
+      "shared_games_counter_proof": "The same three-byte sum from helper 0x825357C8 is stored as Games Played by the fielder builder at 0x824D0410..0x824D0444.",
+      "fielder_games_counter_machine_code_sha256": "3eeb5a90af9d0ddfcf99ad710a5535d76a61a6b6feadfe32f4e1b51de91a42ba",
+      "formula": "Sum of pitcher appearance bytes divided by team games, stored with the native factor 1000",
+      "native_scale_constant": "0x820A7AA0",
+      "native_scale": 1000,
+      "no_games_sentinel": -1,
+      "definition": "Average number of pitchers used per game",
+      "interactive_validation": false
+    },
+    "native_replay_cases": 6,
+    "replay_results": [
+      [
+        0.0,
+        13.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        3.0,
+        3000.0,
+        3.0
+      ],
+      [
+        10.0,
+        20.0,
+        2000.0,
+        20.0
+      ],
+      [
+        144.0,
+        432.0,
+        3000.0,
+        432.0
+      ],
+      [
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        5.0,
+        1666.67,
+        5.0
+      ]
+    ],
+    "unrelated_fielder_appearance_bytes_seeded_to_255": true,
+    "official_2026_contextual_matches": [
+      {
+        "namespace": "Pennant",
+        "key": "pn_memorial_season_record_personal_pitcher_38",
+        "japanese": "均投数",
+        "english": "Pitcher Use"
+      }
+    ]
+  },
+  "texture_labels_unchanged": true,
+  "original_data_and_source_fields_unchanged": true,
+  "catalogue_statuses_unchanged": true,
+  "normal_windows_build_passed": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "compiled_lookup_inputs_checked": 8,
+  "compiled_lookup_results_matched": true,
+  "curation_status_guards_checked": 8,
+  "curation_status_guards_passed": true,
+  "prior_unedited_catalogue_rows_unchanged": 18968,
+  "complete_4956_name_aliases_unchanged": true,
+  "native_pitcher_use_replay_assertions_passed": true,
+  "native_replay_console_precision": "Six significant digits; the executable compares the complete float results exactly before printing",
+  "normal_build_command": "cmd /c tools/build-port.cmd",
+  "tested_and_built_header_sha256": "351859f65dee221939bbd3ede39c96679241caee16432ba5099b8bdd6e4ea666",
+  "catalogue_sha256": "d7fc1e5eba03645efc883dd78de51e45f9aad7a4f10d22c0c0e0c38a0be59be3",
+  "normal_executable_sha256": "ef5b3a61c75a199d4bd29f40e370dd32939d71c25e696664d9124953e71ca980",
+  "game_relaunched": false
+}

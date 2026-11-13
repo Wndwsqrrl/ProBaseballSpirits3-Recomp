@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Seven team-editor pitcher-order labels shortened to native-width ordinals; Avg P corrected to Pitcher Use from the native appearance-count/game-count calculation and 2026 Pennant reference. Six native replay cases, eight compiled lookups/curation guards and the Windows build passed; all source fields, statuses and name aliases unchanged.",
     "Updated caption and manager wording compiled and linked in a separate staged Windows build, then passed the normal Windows build after the game process exited; tested/generated header hashes match, runtime DLLs are unchanged, and no new game session was launched.",
     "Native manager-report generation/sorting/selection exercised on 15522 seeded inputs; all 73 nonempty pieces matched compiled English, all 51 inner comments appeared, bounded piece/report sizes passed, and 30 independent no-highlight replays matched. Live wrapping and real-match statistics remain unchecked.",
     "Outer manager verdict checked through 30 seeded native no-highlight cases and 82 compiled lookups; Offense/Defense headings reviewed, 11 fallback phrases improved, 14 curation guards passed, and the 51 complete inner comments/4956 name aliases unchanged. Port rebuild remains deferred during play.",
@@ -54,6 +55,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live team pitcher-use editor ordinal placement across starter/reliever/closer columns, and Pitcher Use stat header width/formatting",
     "Live outer manager verdict and offense/defense heading placement; real-match event statistics, rating derivation and rendered wrapping remain unverified; seeded selection/sorting is checked offline",
     "Verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
     "Live manager fallback and legacy wrapped newspaper/draft-option context, fragment boundaries and line placement",
@@ -873,5 +875,19 @@
     "interactive_validation": false,
     "report": "manager-report-pipeline-validation.json",
     "windows_build_report": "manager-build-validation.json"
-  }
+  },
+  "pitcher_usage_wording_review": {
+    "reviewed_order_labels_refitted": 7,
+    "reviewed_stat_labels_clarified": 1,
+    "native_pitcher_use_cases": 6,
+    "native_editor_rows_verified": 7,
+    "compiled_lookup_inputs_checked": 8,
+    "curation_status_guards_checked": 8,
+    "official_2026_stat_match": true,
+    "contextually_different_2026_relief_labels_not_copied": true,
+    "normal_windows_build_passed": true,
+    "interactive_validation": false,
+    "report": "pitcher-usage-wording-validation.json"
+  },
+  "latest_windows_build_report": "pitcher-usage-wording-validation.json"
 }

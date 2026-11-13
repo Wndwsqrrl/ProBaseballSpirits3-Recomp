@@ -607,7 +607,7 @@
     "圏安打": "RISP H",
     "圏打数": "RISP AB",
     "単打": "1B",
-    "均投数": "Avg P",
+    "均投数": "Pitcher Use",
     "許盗率": "Opp. SB %",
     "許盗数": "Opp. SB",
     "被盗企": "Opp. SBA",
@@ -757,6 +757,10 @@
     "0x8209174C": {
       "definition": "Average number of fielders used per game",
       "validation_report": "native-stat-definition-validation.json"
+    },
+    "0x82091804": {
+      "definition": "Average number of pitchers used per game",
+      "validation_report": "pitcher-usage-wording-validation.json"
     }
   }
 }
