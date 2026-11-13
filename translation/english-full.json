@@ -6436,84 +6436,84 @@
     "address": "0x8206CC34",
     "source_size": 14,
     "source_hash": "BADC8AE3E6697648",
-    "english": "Record save.",
+    "english": " saves.",
     "status": "draft"
   },
   {
     "address": "0x8206CC44",
     "source_size": 36,
     "source_hash": "599CD89BBC04E1C9",
-    "english": "Mark save. How about pitching today?",
+    "english": " saves. How will he pitch today?",
     "status": "draft"
   },
   {
     "address": "0x8206CC6C",
     "source_size": 10,
     "source_hash": "130E9689C62DAE14",
-    "english": "Record a loss.",
+    "english": " losses.",
     "status": "draft"
   },
   {
     "address": "0x8206CC78",
     "source_size": 10,
     "source_hash": "5316A27326B0B2C7",
-    "english": "Record a win.",
+    "english": " wins.",
     "status": "draft"
   },
   {
     "address": "0x8206CC84",
     "source_size": 24,
     "source_hash": "65182C1BFA9B1BA5",
-    "english": "Victory. How about pitching today?",
+    "english": " wins. How will he pitch today?",
     "status": "draft"
   },
   {
     "address": "0x8206CCA0",
     "source_size": 12,
     "source_hash": "96198B318912386A",
-    "english": "Total so far",
+    "english": "Career total: ",
     "status": "draft"
   },
   {
     "address": "0x8206CCB0",
     "source_size": 66,
     "source_hash": "FC20CAD835E9A1BB",
-    "english": "Consecutive scoreless innings record continues! Will you be able to mark 0 on the scoreboard today? ?",
+    "english": " straight scoreless innings! Can he put up another zero today?",
     "status": "draft"
   },
   {
     "address": "0x8206CCF4",
     "source_size": 24,
     "source_hash": "0D2C588C5F0DD039",
-    "english": "Recording consecutive saves in pitching.",
+    "english": " straight outings with a save.",
     "status": "draft"
   },
   {
     "address": "0x8206CD10",
     "source_size": 44,
     "source_hash": "C28263221BE69B12",
-    "english": "A pitcher with consecutive losses. Will the losing streak stop today?",
+    "english": " straight losses. Can he end the skid today?",
     "status": "draft"
   },
   {
     "address": "0x8206CD40",
     "source_size": 8,
     "source_hash": "105E787BA970BD2F",
-    "english": "Be the starter",
+    "english": "In his starts, ",
     "status": "draft"
   },
   {
     "address": "0x8206CD4C",
     "source_size": 44,
     "source_hash": "D126F9015A364380",
-    "english": "Consecutive starter wins! Will you extend your winning streak even further? ?",
+    "english": " straight wins as a starter! Can he extend the streak?",
     "status": "draft"
   },
   {
     "address": "0x8206CD7C",
     "source_size": 26,
     "source_hash": "7AFACF0BF5250B30",
-    "english": ". How about a showdown here? ?",
+    "english": ". Who will win this matchup?",
     "status": "draft"
   },
   {
@@ -6527,7 +6527,7 @@
     "address": "0x8206CDA4",
     "source_size": 32,
     "source_hash": "28A469E966367864",
-    "english": "A left-handed killer who shows outstanding strength!",
+    "english": " against lefties. A tough matchup!",
     "status": "draft"
   },
   {
@@ -6541,28 +6541,28 @@
     "address": "0x8206CDD8",
     "source_size": 48,
     "source_hash": "F1590E45C0035F6B",
-    "english": "I can see my weakness in a pinch. Would you like to appear here? ?",
+    "english": " in tight spots. Can he deliver here?",
     "status": "draft"
   },
   {
     "address": "0x8206CE0C",
     "source_size": 34,
     "source_hash": "C8E6A797B8EF5BEE",
-    "english": "The batting average with runners in scoring position is",
+    "english": "Opp. AVG with RISP: ",
     "status": "draft"
   },
   {
     "address": "0x8206CE30",
     "source_size": 42,
     "source_hash": "43AA92BA8DA01C86",
-    "english": ". Will you be able to get through this pinch? !",
+    "english": ". Can he escape this jam?",
     "status": "draft"
   },
   {
     "address": "0x8206CE5C",
     "source_size": 46,
     "source_hash": "E7362537A34147C9",
-    "english": ". Will he be able to overcome the crisis and meet the director's expectations? !",
+    "english": ". Can he escape another jam and reward the manager's faith?",
     "status": "draft"
   },
   {
@@ -6583,147 +6583,147 @@
     "address": "0x8206CEA8",
     "source_size": 34,
     "source_hash": "D26FB7D714A234FE",
-    "english": "Lifetime batting average as of the end of the 2005 season",
+    "english": "Career AVG through 2005: ",
     "status": "draft"
   },
   {
     "address": "0x8206CECC",
     "source_size": 12,
     "source_hash": "B639F1B2E3C009BC",
-    "english": "Recorded a stolen base.",
+    "english": " stolen bases.",
     "status": "draft"
   },
   {
     "address": "0x8206CEDC",
     "source_size": 44,
     "source_hash": "EAB608B6F3FB54AE",
-    "english": "One more step to steal a base! Will I be able to run today too? ?",
+    "english": " steals! Just one more. Will he run today?",
     "status": "draft"
   },
   {
     "address": "0x8206CF0C",
     "source_size": 28,
     "source_hash": "AFBD0606288DCC4A",
-    "english": "I ran hard until this game, and my total",
+    "english": "Career stolen bases entering this game: ",
     "status": "draft"
   },
   {
     "address": "0x8206CF2C",
     "source_size": 48,
     "source_hash": "690F72A232668E3F",
-    "english": "Stolen base. Can you decide to steal the break today?",
+    "english": " stolen bases. Can he reach a milestone today?",
     "status": "draft"
   },
   {
     "address": "0x8206CF60",
     "source_size": 8,
     "source_hash": "B1F82822D33262FB",
-    "english": "at the moment",
+    "english": "Currently: ",
     "status": "draft"
   },
   {
     "address": "0x8206CF6C",
     "source_size": 14,
     "source_hash": "508FC5E21B695546",
-    "english": "Recorded a home run.",
+    "english": " home runs.",
     "status": "draft"
   },
   {
     "address": "0x8206CF7C",
     "source_size": 62,
     "source_hash": "004A57A2B494C56B",
-    "english": "Home run achieved! Will you be able to launch a commemorative gun salute at this turn of bat? ?",
+    "english": " homers! Can he mark the milestone with a blast here?",
     "status": "draft"
   },
   {
     "address": "0x8206CFBC",
     "source_size": 12,
     "source_hash": "34DD2FF1AEB901D4",
-    "english": "Total with 1 more",
+    "english": "One homer shy of a career total of ",
     "status": "draft"
   },
   {
     "address": "0x8206CFCC",
     "source_size": 28,
     "source_hash": "E74FA7BC6851BC08",
-    "english": "Book. Can you fire the decisive shot?",
+    "english": " homers. Can he hit the milestone homer?",
     "status": "draft"
   },
   {
     "address": "0x8206CFEC",
     "source_size": 26,
     "source_hash": "1FF07988AC7FCF92",
-    "english": "The home runs hit so far are",
+    "english": "Home runs so far: ",
     "status": "draft"
   },
   {
     "address": "0x8206D008",
     "source_size": 12,
     "source_hash": "3DEFB5DAF8A0F6DF",
-    "english": "Recorded a hit.",
+    "english": " hits.",
     "status": "draft"
   },
   {
     "address": "0x8206D018",
     "source_size": 30,
     "source_hash": "FDAEFE1880B545C2",
-    "english": "Total as of the end of the 2005 season",
+    "english": "Career total through 2005: ",
     "status": "draft"
   },
   {
     "address": "0x8206D038",
     "source_size": 44,
     "source_hash": "800298BCCD2B563E",
-    "english": "One hit left! Will this at-bat set a record? ?",
+    "english": " hits! Just one more. Can he reach the mark here?",
     "status": "draft"
   },
   {
     "address": "0x8206D068",
     "source_size": 28,
     "source_hash": "25EF85593915360A",
-    "english": "Hit. This is the deciding one that will come out! !",
+    "english": " hits. Will he get the milestone hit?",
     "status": "draft"
   },
   {
     "address": "0x8206D088",
     "source_size": 24,
     "source_hash": "9CE87B5E05CE0956",
-    "english": "The total number of hits I have accumulated is",
+    "english": "Career hits: ",
     "status": "draft"
   },
   {
     "address": "0x8206D0A4",
     "source_size": 14,
     "source_hash": "E6B23C2D91FD748E",
-    "english": "Home run achieved! !",
+    "english": " home runs!",
     "status": "draft"
   },
   {
     "address": "0x8206D0B4",
     "source_size": 30,
     "source_hash": "C789768A87FB59E1",
-    "english": "Continuing from last year with the home run I mentioned earlier.",
+    "english": "That homer makes it two straight years with ",
     "status": "draft"
   },
   {
     "address": "0x8206D0D4",
     "source_size": 30,
     "source_hash": "850529C12CE5260F",
-    "english": "Books! How far can you extend the numbers?",
+    "english": "! How high can he go?",
     "status": "draft"
   },
   {
     "address": "0x8206D0F4",
     "source_size": 34,
     "source_hash": "0A6EC6BEBE5A99B5",
-    "english": "How many hits have you accumulated this season?",
+    "english": "Hits this season: ",
     "status": "draft"
   },
   {
     "address": "0x8206D118",
     "source_size": 44,
     "source_hash": "B18529E17B57B44A",
-    "english": "Recorded the highest batting award. Will this turn at bat be a great hit?",
+    "english": " games with 3+ hits. Can he do it again today?",
     "status": "draft"
   },
   {
@@ -6737,7 +6737,7 @@
     "address": "0x8206D158",
     "source_size": 24,
     "source_hash": "B1AD4E807166CD0C",
-    "english": "One more shot left until the second hard hitting award!",
+    "english": " in games with 3+ hits! Just one more hit.",
     "status": "draft"
   },
   {
@@ -6751,49 +6751,49 @@
     "address": "0x8206D180",
     "source_size": 62,
     "source_hash": "D0D8A456604062B6",
-    "english": "Mark the first batter's home run. A slashing captain who won't be pushed or pushed! !",
+    "english": " leadoff homers. He sets the tone!",
     "status": "draft"
   },
   {
     "address": "0x8206D1C0",
     "source_size": 8,
     "source_hash": "CFF37D3B517627D6",
-    "english": "So far",
+    "english": "So far: ",
     "status": "draft"
   },
   {
     "address": "0x8206D1CC",
     "source_size": 50,
     "source_hash": "51F8BE7B168AF01C",
-    "english": "The record for consecutive games on base continues! Will he get on base in this game? ?",
+    "english": " straight games on base! Can he keep it going?",
     "status": "draft"
   },
   {
     "address": "0x8206D200",
     "source_size": 36,
     "source_hash": "DA566492EFBB57C7",
-    "english": "Consecutive home runs in games! Looking forward to another shot today! !",
+    "english": " straight games with a homer! Can he go deep again?",
     "status": "draft"
   },
   {
     "address": "0x8206D228",
     "source_size": 12,
     "source_hash": "88D56801374F868B",
-    "english": "As of today",
+    "english": "As of today: ",
     "status": "draft"
   },
   {
     "address": "0x8206D238",
     "source_size": 26,
     "source_hash": "2F4EE72AF0ADF8F5",
-    "english": "Continuing the record for consecutive hits in games!",
+    "english": "-game hitting streak!",
     "status": "draft"
   },
   {
     "address": "0x8206D254",
     "source_size": 40,
     "source_hash": "96A0225373AFF6EA",
-    "english": "Consecutive hits! How far will the record last? !",
+    "english": " straight at-bats with a hit! How long can it last?",
     "status": "draft"
   },
   {
@@ -6807,7 +6807,7 @@
     "address": "0x8206D288",
     "source_size": 26,
     "source_hash": "C3F3C8A12759726A",
-    "english": "Specialist against left-handed pitchers!",
+    "english": "A specialist against left-handed pitchers!",
     "status": "draft"
   },
   {
@@ -6821,49 +6821,49 @@
     "address": "0x8206D2B4",
     "source_size": 24,
     "source_hash": "8004D56FCBD04617",
-    "english": "Check out the super left killer! !",
+    "english": "A nightmare matchup for left-handed pitchers!",
     "status": "draft"
   },
   {
     "address": "0x8206D2D0",
     "source_size": 18,
     "source_hash": "CB2A1691FA782CDA",
-    "english": "Threatening batting average against left-handed pitchers",
+    "english": "A formidable AVG against left-handed pitchers: ",
     "status": "draft"
   },
   {
     "address": "0x8206D2E4",
     "source_size": 28,
     "source_hash": "CF85FBEF632A7707",
-    "english": "Sayonara will show his true character as a man! ?",
+    "english": "Can this walk-off specialist deliver?",
     "status": "draft"
   },
   {
     "address": "0x8206D304",
     "source_size": 38,
     "source_hash": "FE77265ACB7E5241",
-    "english": "Great chance for a walk-off win! walk-off batting average",
+    "english": "A great walk-off chance! AVG in this spot: ",
     "status": "draft"
   },
   {
     "address": "0x8206D32C",
     "source_size": 12,
     "source_hash": "ED6A85C989256149",
-    "english": "The bases loaded man! !",
+    "english": " with the bases loaded! He thrives here!",
     "status": "draft"
   },
   {
     "address": "0x8206D33C",
     "source_size": 32,
     "source_hash": "B6F0F78CDFD7DCFB",
-    "english": "Burning up when the bases are loaded! Bases loaded batting average",
+    "english": "He thrives with the bases loaded! AVG: ",
     "status": "draft"
   },
   {
     "address": "0x8206D360",
     "source_size": 22,
     "source_hash": "BB84D837B0A3C4B5",
-    "english": "Point getter proud of",
+    "english": ". A run producer!",
     "status": "draft"
   },
   {
@@ -40771,7 +40771,7 @@
     "address": "0x8206CC24",
     "source_size": 14,
     "source_hash": "E40ADA8351CAA99B",
-    "english": "Recorded a strikeout.",
+    "english": " strikeouts.",
     "status": "draft"
   },
   {
@@ -89423,7 +89423,7 @@
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "FCB6A545F69FF17E",
-    "english": "One hit shy of 3-hit game #%d!",
+    "english": "One hit shy of 3+ hit game #%d!",
     "status": "reviewed",
     "format_source": "シーズン%d度目の猛打賞まで後１本！"
   },
@@ -89431,7 +89431,7 @@
     "address": "0x00000000",
     "source_size": 58,
     "source_hash": "755BB426AF1141D0",
-    "english": "%d three-hit games last season. Can he get three today?",
+    "english": "%d games with 3+ hits last season. Can he do it again?",
     "status": "reviewed",
     "format_source": "昨シーズンは%d度の猛打賞を記録。この打席でも猛打賞なるか！"
   },

@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "55 match-caption fallback fragments improved and two 3+ hit-game templates clarified using 2026 Match terminology; 271 compiled lookups and 57 curation guards passed; all 4956 name aliases and catalogue statuses unchanged. Port rebuild deferred while the game is running.",
     "Player-data labels CON R/CON L/Power confirmed by native ability-grade paths; nine labels fit exact SBIB UV crops, all 262 other atlas payloads and 2112 untouched archive members unchanged",
     "Native code confirms the L/R counters are hits allowed and Fielder Use is appearances per team game; 12 native replay cases and three compiled lookup/status checks passed; original numeric data unchanged",
     "53 manager/newspaper/draft-option fragments improved; 104 compiled lookups, 292 curation status guards, 1860 native manager paths and the Windows build passed; complete comments and all 4956 name aliases unchanged",
@@ -50,6 +51,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Rebuild the Windows port after the current play session; verify match-caption fallback assembly, numeric joins, singular/plural wording and live 3+ hit-game caption placement",
     "Live manager fallback and legacy wrapped newspaper/draft-option context, fragment boundaries and line placement",
     "Live stadium photo caption placement, provisional venue wording, and reconstructed backgrounds near old caption glyphs",
     "Generated-player full-name placement, mixed Latin/Japanese fields, regional surname ambiguity and 250 provisional full-name readings and surname-only widget context",
@@ -831,6 +833,16 @@
     "original_k_kmh_bp_pixels_unchanged": true,
     "untouched_archive_members_verified": 2112,
     "report": "player-data-label-validation.json",
+    "interactive_validation": false
+  },
+  "match_fallback_wording_review": {
+    "draft_fragments_improved": 55,
+    "complete_templates_clarified": 2,
+    "expanded_caption_patterns_checked": 72,
+    "compiled_lookup_inputs_checked": 271,
+    "curation_status_guards_checked": 57,
+    "report": "match-fallback-wording-validation.json",
+    "normal_windows_build_passed": false,
     "interactive_validation": false
   }
 }

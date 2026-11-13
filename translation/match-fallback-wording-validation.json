@@ -1,0 +1,569 @@
+{
+  "date": "2026-11-13",
+  "draft_fragments_improved": 55,
+  "reviewed_caption_templates_clarified": 2,
+  "fragment_evidence": [
+    {
+      "address": "0x8206CC34",
+      "source": "セーブを記録。",
+      "source_hash": "BADC8AE3E6697648",
+      "previous_english": "Record save.",
+      "english": " saves.",
+      "status": "draft",
+      "estimated_width_px": 50.0
+    },
+    {
+      "address": "0x8206CC44",
+      "source": "セーブをマーク。今日の登板はどうか？",
+      "source_hash": "599CD89BBC04E1C9",
+      "previous_english": "Mark save. How about pitching today?",
+      "english": " saves. How will he pitch today?",
+      "status": "draft",
+      "estimated_width_px": 227.0
+    },
+    {
+      "address": "0x8206CC6C",
+      "source": "敗を記録。",
+      "source_hash": "130E9689C62DAE14",
+      "previous_english": "Record a loss.",
+      "english": " losses.",
+      "status": "draft",
+      "estimated_width_px": 54.0
+    },
+    {
+      "address": "0x8206CC78",
+      "source": "勝を記録。",
+      "source_hash": "5316A27326B0B2C7",
+      "previous_english": "Record a win.",
+      "english": " wins.",
+      "status": "draft",
+      "estimated_width_px": 41.0
+    },
+    {
+      "address": "0x8206CC84",
+      "source": "勝。今日の登板はどうか？",
+      "source_hash": "65182C1BFA9B1BA5",
+      "previous_english": "Victory. How about pitching today?",
+      "english": " wins. How will he pitch today?",
+      "status": "draft",
+      "estimated_width_px": 218.0
+    },
+    {
+      "address": "0x8206CCA0",
+      "source": "ここまで通算",
+      "source_hash": "96198B318912386A",
+      "previous_english": "Total so far",
+      "english": "Career total: ",
+      "status": "draft",
+      "estimated_width_px": 91.0
+    },
+    {
+      "address": "0x8206CCB0",
+      "source": "イニング連続無失点記録継続中！今日もスコアボードに０を刻めるか！？",
+      "source_hash": "FC20CAD835E9A1BB",
+      "previous_english": "Consecutive scoreless innings record continues! Will you be able to mark 0 on the scoreboard today? ?",
+      "english": " straight scoreless innings! Can he put up another zero today?",
+      "status": "draft",
+      "estimated_width_px": 437.0
+    },
+    {
+      "address": "0x8206CCF4",
+      "source": "登板連続セーブを記録中。",
+      "source_hash": "0D2C588C5F0DD039",
+      "previous_english": "Recording consecutive saves in pitching.",
+      "english": " straight outings with a save.",
+      "status": "draft",
+      "estimated_width_px": 200.0
+    },
+    {
+      "address": "0x8206CD10",
+      "source": "戦連続敗戦投手。今日こそ連敗ＳＴＯＰなるか！",
+      "source_hash": "C28263221BE69B12",
+      "previous_english": "A pitcher with consecutive losses. Will the losing streak stop today?",
+      "english": " straight losses. Can he end the skid today?",
+      "status": "draft",
+      "estimated_width_px": 308.0
+    },
+    {
+      "address": "0x8206CD40",
+      "source": "先発して",
+      "source_hash": "105E787BA970BD2F",
+      "previous_english": "Be the starter",
+      "english": "In his starts, ",
+      "status": "draft",
+      "estimated_width_px": 88.0
+    },
+    {
+      "address": "0x8206CD4C",
+      "source": "連続先発勝利中！さらに連勝記録を伸ばすか！？",
+      "source_hash": "D126F9015A364380",
+      "previous_english": "Consecutive starter wins! Will you extend your winning streak even further? ?",
+      "english": " straight wins as a starter! Can he extend the streak?",
+      "status": "draft",
+      "estimated_width_px": 369.0
+    },
+    {
+      "address": "0x8206CD7C",
+      "source": "。ここでの対決はどうか！？",
+      "source_hash": "7AFACF0BF5250B30",
+      "previous_english": ". How about a showdown here? ?",
+      "english": ". Who will win this matchup?",
+      "status": "draft",
+      "estimated_width_px": 201.0
+    },
+    {
+      "address": "0x8206CDA4",
+      "source": "と抜群の強さを発揮する左キラー！",
+      "source_hash": "28A469E966367864",
+      "previous_english": "A left-handed killer who shows outstanding strength!",
+      "english": " against lefties. A tough matchup!",
+      "status": "draft",
+      "estimated_width_px": 234.0
+    },
+    {
+      "address": "0x8206CDD8",
+      "source": "とピンチで弱さが見える。ここでの登板はどうか！？",
+      "source_hash": "F1590E45C0035F6B",
+      "previous_english": "I can see my weakness in a pinch. Would you like to appear here? ?",
+      "english": " in tight spots. Can he deliver here?",
+      "status": "draft",
+      "estimated_width_px": 250.0
+    },
+    {
+      "address": "0x8206CE0C",
+      "source": "得点圏にランナーを置いての被打率は",
+      "source_hash": "C8E6A797B8EF5BEE",
+      "previous_english": "The batting average with runners in scoring position is",
+      "english": "Opp. AVG with RISP: ",
+      "status": "draft",
+      "estimated_width_px": 155.0
+    },
+    {
+      "address": "0x8206CE30",
+      "source": "。このピンチを切り抜けることが出来るか！！",
+      "source_hash": "43AA92BA8DA01C86",
+      "previous_english": ". Will you be able to get through this pinch? !",
+      "english": ". Can he escape this jam?",
+      "status": "draft",
+      "estimated_width_px": 184.0
+    },
+    {
+      "address": "0x8206CE5C",
+      "source": "。ここもピンチを凌ぎ、監督の期待に応えるか！！",
+      "source_hash": "E7362537A34147C9",
+      "previous_english": ". Will he be able to overcome the crisis and meet the director's expectations? !",
+      "english": ". Can he escape another jam and reward the manager's faith?",
+      "status": "draft",
+      "estimated_width_px": 435.0
+    },
+    {
+      "address": "0x8206CEA8",
+      "source": "２００５シーズン終了時点で生涯打率",
+      "source_hash": "D26FB7D714A234FE",
+      "previous_english": "Lifetime batting average as of the end of the 2005 season",
+      "english": "Career AVG through 2005: ",
+      "status": "draft",
+      "estimated_width_px": 193.0
+    },
+    {
+      "address": "0x8206CECC",
+      "source": "盗塁を記録。",
+      "source_hash": "B639F1B2E3C009BC",
+      "previous_english": "Recorded a stolen base.",
+      "english": " stolen bases.",
+      "status": "draft",
+      "estimated_width_px": 98.0
+    },
+    {
+      "address": "0x8206CEDC",
+      "source": "盗塁まで後一つ！今日も走ることが出来るか！？",
+      "source_hash": "EAB608B6F3FB54AE",
+      "previous_english": "One more step to steal a base! Will I be able to run today too? ?",
+      "english": " steals! Just one more. Will he run today?",
+      "status": "draft",
+      "estimated_width_px": 290.0
+    },
+    {
+      "address": "0x8206CF0C",
+      "source": "この試合まで走りに走り、通算",
+      "source_hash": "AFBD0606288DCC4A",
+      "previous_english": "I ran hard until this game, and my total",
+      "english": "Career stolen bases entering this game: ",
+      "status": "draft",
+      "estimated_width_px": 286.0
+    },
+    {
+      "address": "0x8206CF2C",
+      "source": "盗塁。今日、区切りの盗塁を決めることが出来るか？",
+      "source_hash": "690F72A232668E3F",
+      "previous_english": "Stolen base. Can you decide to steal the break today?",
+      "english": " stolen bases. Can he reach a milestone today?",
+      "status": "draft",
+      "estimated_width_px": 336.0
+    },
+    {
+      "address": "0x8206CF60",
+      "source": "現時点で",
+      "source_hash": "B1F82822D33262FB",
+      "previous_english": "at the moment",
+      "english": "Currently: ",
+      "status": "draft",
+      "estimated_width_px": 73.0
+    },
+    {
+      "address": "0x8206CF6C",
+      "source": "本塁打を記録。",
+      "source_hash": "508FC5E21B695546",
+      "previous_english": "Recorded a home run.",
+      "english": " home runs.",
+      "status": "draft",
+      "estimated_width_px": 83.0
+    },
+    {
+      "address": "0x8206CF7C",
+      "source": "本塁打達成！この打席で記念の祝砲を打ち上げることが出来るか！？",
+      "source_hash": "004A57A2B494C56B",
+      "previous_english": "Home run achieved! Will you be able to launch a commemorative gun salute at this turn of bat? ?",
+      "english": " homers! Can he mark the milestone with a blast here?",
+      "status": "draft",
+      "estimated_width_px": 384.0
+    },
+    {
+      "address": "0x8206CFBC",
+      "source": "後１本で通算",
+      "source_hash": "34DD2FF1AEB901D4",
+      "previous_english": "Total with 1 more",
+      "english": "One homer shy of a career total of ",
+      "status": "draft",
+      "estimated_width_px": 242.0
+    },
+    {
+      "address": "0x8206CFCC",
+      "source": "本。区切りの一発を放てるか！",
+      "source_hash": "E74FA7BC6851BC08",
+      "previous_english": "Book. Can you fire the decisive shot?",
+      "english": " homers. Can he hit the milestone homer?",
+      "status": "draft",
+      "estimated_width_px": 295.0
+    },
+    {
+      "address": "0x8206CFEC",
+      "source": "ここまで放ってきた本塁打は",
+      "source_hash": "1FF07988AC7FCF92",
+      "previous_english": "The home runs hit so far are",
+      "english": "Home runs so far: ",
+      "status": "draft",
+      "estimated_width_px": 129.0
+    },
+    {
+      "address": "0x8206D008",
+      "source": "安打を記録。",
+      "source_hash": "3DEFB5DAF8A0F6DF",
+      "previous_english": "Recorded a hit.",
+      "english": " hits.",
+      "status": "draft",
+      "estimated_width_px": 33.0
+    },
+    {
+      "address": "0x8206D018",
+      "source": "２００５シーズン終了時点で通算",
+      "source_hash": "FDAEFE1880B545C2",
+      "previous_english": "Total as of the end of the 2005 season",
+      "english": "Career total through 2005: ",
+      "status": "draft",
+      "estimated_width_px": 189.0
+    },
+    {
+      "address": "0x8206D038",
+      "source": "安打まで後１本！この打席で記録達成なるか！？",
+      "source_hash": "800298BCCD2B563E",
+      "previous_english": "One hit left! Will this at-bat set a record? ?",
+      "english": " hits! Just one more. Can he reach the mark here?",
+      "status": "draft",
+      "estimated_width_px": 351.0
+    },
+    {
+      "address": "0x8206D068",
+      "source": "安打。出るか区切りの１本！！",
+      "source_hash": "25EF85593915360A",
+      "previous_english": "Hit. This is the deciding one that will come out! !",
+      "english": " hits. Will he get the milestone hit?",
+      "status": "draft",
+      "estimated_width_px": 241.0
+    },
+    {
+      "address": "0x8206D088",
+      "source": "積み重ねてきた安打は通算",
+      "source_hash": "9CE87B5E05CE0956",
+      "previous_english": "The total number of hits I have accumulated is",
+      "english": "Career hits: ",
+      "status": "draft",
+      "estimated_width_px": 86.0
+    },
+    {
+      "address": "0x8206D0A4",
+      "source": "本塁打達成！！",
+      "source_hash": "E6B23C2D91FD748E",
+      "previous_english": "Home run achieved! !",
+      "english": " home runs!",
+      "status": "draft",
+      "estimated_width_px": 83.0
+    },
+    {
+      "address": "0x8206D0B4",
+      "source": "先ほどの本塁打で昨年に引き続き",
+      "source_hash": "C789768A87FB59E1",
+      "previous_english": "Continuing from last year with the home run I mentioned earlier.",
+      "english": "That homer makes it two straight years with ",
+      "status": "draft",
+      "estimated_width_px": 309.0
+    },
+    {
+      "address": "0x8206D0D4",
+      "source": "本！何処まで数字を伸ばせるか！",
+      "source_hash": "850529C12CE5260F",
+      "previous_english": "Books! How far can you extend the numbers?",
+      "english": "! How high can he go?",
+      "status": "draft",
+      "estimated_width_px": 159.0
+    },
+    {
+      "address": "0x8206D0F4",
+      "source": "今シーズン積み重ねて来た安打の数は",
+      "source_hash": "0A6EC6BEBE5A99B5",
+      "previous_english": "How many hits have you accumulated this season?",
+      "english": "Hits this season: ",
+      "status": "draft",
+      "estimated_width_px": 121.0
+    },
+    {
+      "address": "0x8206D118",
+      "source": "度の猛打賞を記録。この打席でも猛打賞なるか！",
+      "source_hash": "B18529E17B57B44A",
+      "previous_english": "Recorded the highest batting award. Will this turn at bat be a great hit?",
+      "english": " games with 3+ hits. Can he do it again today?",
+      "status": "draft",
+      "estimated_width_px": 326.0
+    },
+    {
+      "address": "0x8206D158",
+      "source": "度目の猛打賞まで後１本！",
+      "source_hash": "B1AD4E807166CD0C",
+      "previous_english": "One more shot left until the second hard hitting award!",
+      "english": " in games with 3+ hits! Just one more hit.",
+      "status": "draft",
+      "estimated_width_px": 286.0
+    },
+    {
+      "address": "0x8206D180",
+      "source": "本の先頭打者本塁打をマーク。押しも押されもせぬ斬り込み隊長！！",
+      "source_hash": "D0D8A456604062B6",
+      "previous_english": "Mark the first batter's home run. A slashing captain who won't be pushed or pushed! !",
+      "english": " leadoff homers. He sets the tone!",
+      "status": "draft",
+      "estimated_width_px": 236.0
+    },
+    {
+      "address": "0x8206D1C0",
+      "source": "ここまで",
+      "source_hash": "CFF37D3B517627D6",
+      "previous_english": "So far",
+      "english": "So far: ",
+      "status": "draft",
+      "estimated_width_px": 50.0
+    },
+    {
+      "address": "0x8206D1CC",
+      "source": "試合連続出塁記録継続中！この試合でも出塁なるか！？",
+      "source_hash": "51F8BE7B168AF01C",
+      "previous_english": "The record for consecutive games on base continues! Will he get on base in this game? ?",
+      "english": " straight games on base! Can he keep it going?",
+      "status": "draft",
+      "estimated_width_px": 333.0
+    },
+    {
+      "address": "0x8206D200",
+      "source": "試合連続本塁打！今日も一発に期待！！",
+      "source_hash": "DA566492EFBB57C7",
+      "previous_english": "Consecutive home runs in games! Looking forward to another shot today! !",
+      "english": " straight games with a homer! Can he go deep again?",
+      "status": "draft",
+      "estimated_width_px": 378.0
+    },
+    {
+      "address": "0x8206D228",
+      "source": "今日の時点で",
+      "source_hash": "88D56801374F868B",
+      "previous_english": "As of today",
+      "english": "As of today: ",
+      "status": "draft",
+      "estimated_width_px": 87.0
+    },
+    {
+      "address": "0x8206D238",
+      "source": "試合連続安打記録を継続中！",
+      "source_hash": "2F4EE72AF0ADF8F5",
+      "previous_english": "Continuing the record for consecutive hits in games!",
+      "english": "-game hitting streak!",
+      "status": "draft",
+      "estimated_width_px": 143.0
+    },
+    {
+      "address": "0x8206D254",
+      "source": "打数連続安打中！記録は何処まで続くか！！",
+      "source_hash": "96A0225373AFF6EA",
+      "previous_english": "Consecutive hits! How far will the record last? !",
+      "english": " straight at-bats with a hit! How long can it last?",
+      "status": "draft",
+      "estimated_width_px": 331.0
+    },
+    {
+      "address": "0x8206D288",
+      "source": "対左投手のスペシャリスト！",
+      "source_hash": "C3F3C8A12759726A",
+      "previous_english": "Specialist against left-handed pitchers!",
+      "english": "A specialist against left-handed pitchers!",
+      "status": "draft",
+      "estimated_width_px": 286.0
+    },
+    {
+      "address": "0x8206D2B4",
+      "source": "スーパー左キラー見参！！",
+      "source_hash": "8004D56FCBD04617",
+      "previous_english": "Check out the super left killer! !",
+      "english": "A nightmare matchup for left-handed pitchers!",
+      "status": "draft",
+      "estimated_width_px": 321.0
+    },
+    {
+      "address": "0x8206D2D0",
+      "source": "脅威の対左投手打率",
+      "source_hash": "CB2A1691FA782CDA",
+      "previous_english": "Threatening batting average against left-handed pitchers",
+      "english": "A formidable AVG against left-handed pitchers: ",
+      "status": "draft",
+      "estimated_width_px": 336.0
+    },
+    {
+      "address": "0x8206D2E4",
+      "source": "サヨナラ男本領発揮なるか！？",
+      "source_hash": "CF85FBEF632A7707",
+      "previous_english": "Sayonara will show his true character as a man! ?",
+      "english": "Can this walk-off specialist deliver?",
+      "status": "draft",
+      "estimated_width_px": 250.0
+    },
+    {
+      "address": "0x8206D304",
+      "source": "サヨナラ勝ちの大チャンス！サヨナラ打率",
+      "source_hash": "FE77265ACB7E5241",
+      "previous_english": "Great chance for a walk-off win! walk-off batting average",
+      "english": "A great walk-off chance! AVG in this spot: ",
+      "status": "draft",
+      "estimated_width_px": 296.0
+    },
+    {
+      "address": "0x8206D32C",
+      "source": "の満塁男！！",
+      "source_hash": "ED6A85C989256149",
+      "previous_english": "The bases loaded man! !",
+      "english": " with the bases loaded! He thrives here!",
+      "status": "draft",
+      "estimated_width_px": 279.0
+    },
+    {
+      "address": "0x8206D33C",
+      "source": "満塁の場面で燃え上がる！満塁打率",
+      "source_hash": "B6F0F78CDFD7DCFB",
+      "previous_english": "Burning up when the bases are loaded! Bases loaded batting average",
+      "english": "He thrives with the bases loaded! AVG: ",
+      "status": "draft",
+      "estimated_width_px": 281.0
+    },
+    {
+      "address": "0x8206D360",
+      "source": "を誇るポイントゲッター",
+      "source_hash": "BB84D837B0A3C4B5",
+      "previous_english": "Point getter proud of",
+      "english": ". A run producer!",
+      "status": "draft",
+      "estimated_width_px": 117.0
+    },
+    {
+      "address": "0x8206CC24",
+      "source": "奪三振を記録。",
+      "source_hash": "E40ADA8351CAA99B",
+      "previous_english": "Recorded a strikeout.",
+      "english": " strikeouts.",
+      "status": "draft",
+      "estimated_width_px": 76.0
+    }
+  ],
+  "caption_template_evidence": [
+    {
+      "source": "シーズン%d度目の猛打賞まで後１本！",
+      "source_hash": "FCB6A545F69FF17E",
+      "previous_english": "One hit shy of 3-hit game #%d!",
+      "english": "One hit shy of 3+ hit game #%d!",
+      "status": "reviewed"
+    },
+    {
+      "source": "昨シーズンは%d度の猛打賞を記録。この打席でも猛打賞なるか！",
+      "source_hash": "755BB426AF1141D0",
+      "previous_english": "%d three-hit games last season. Can he get three today?",
+      "english": "%d games with 3+ hits last season. Can he do it again?",
+      "status": "reviewed"
+    }
+  ],
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Match",
+      "key": "match_report_mvp_point_batting_situation_03",
+      "japanese": "サヨナラ",
+      "english": "Walk-Off"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_strikeout_2",
+      "japanese": "奪三振",
+      "english": "Strikeouts"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_batting_average_in_scoring_position",
+      "japanese": "得点圏打率",
+      "english": "AVG/RISP"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_report_mvp_point_game_result_02",
+      "japanese": "猛打賞",
+      "english": "3+ Hit Game"
+    }
+  ],
+  "curation_statuses_unchanged": true,
+  "original_source_fields_unchanged": true,
+  "expanded_caption_patterns_checked": 72,
+  "estimated_font": "Arial 16 px; not a live layout guarantee",
+  "fragment_assembly_status": "Drafts; changed fragments are fallbacks only. Complete caption templates retain priority. Word order, numeric joins and singular/plural behavior still need live checks.",
+  "running_game_files_changed": false,
+  "normal_windows_build_passed": false,
+  "normal_windows_build_status": "Pending; game is running and the active executable is left untouched.",
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "compiled_lookup_inputs_checked": 271,
+  "compiled_lookup_results_matched": true,
+  "compiled_result_types": {
+    "exact": 55,
+    "formatted": 216
+  },
+  "curation_status_guards_checked": 57,
+  "curation_status_guards_passed": true,
+  "prior_unedited_catalogue_rows_unchanged": 18919,
+  "complete_4956_name_aliases_unchanged": true,
+  "catalogue_status_counts": {
+    "reviewed": 9896,
+    "draft": 3430,
+    "game-roster-family": 5650
+  }
+}
