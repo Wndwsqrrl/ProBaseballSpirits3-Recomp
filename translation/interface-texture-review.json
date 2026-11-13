@@ -7,17 +7,6 @@
   "source_formats_not_decoded": [],
   "pending_textures": [
     {
-      "member": "GAME2D.CHK",
-      "texture": "GAME_GMplayer_data.tsr",
-      "width": 128,
-      "height": 64,
-      "format": "1828014f",
-      "remaining_text": "Nine labels replaced in English. Verify Long Hit and pitch-stat value context in the native display.",
-      "status": "context_review_pending",
-      "native_sprite_layout_verified": false,
-      "interactive_validation": false
-    },
-    {
       "member": "PNTODAY06.CHK",
       "texture": "MENU_PEtoday_base.tsr",
       "width": 1024,
@@ -791,6 +780,19 @@
       "validation_report": "stadium-photo-caption-validation.json",
       "photo_pixels_outside_caption_rectangle_identical": true,
       "interactive_validation": false
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_GMplayer_data.tsr",
+      "width": 128,
+      "height": 64,
+      "format": "1828014f",
+      "status": "english_asset_built",
+      "native_sprite_layout_verified": true,
+      "interactive_validation": false,
+      "translated_text": "AVG / HR / RBI / ERA / P / SB / CON R / CON L / Power",
+      "ability_value_context_verified": true,
+      "validation_report": "player-data-label-validation.json"
     }
   ],
   "nontext_textures": [

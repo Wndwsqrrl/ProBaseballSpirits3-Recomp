@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Player-data labels CON R/CON L/Power confirmed by native ability-grade paths; nine labels fit exact SBIB UV crops, all 262 other atlas payloads and 2112 untouched archive members unchanged",
     "Native code confirms the L/R counters are hits allowed and Fielder Use is appearances per team game; 12 native replay cases and three compiled lookup/status checks passed; original numeric data unchanged",
     "53 manager/newspaper/draft-option fragments improved; 104 compiled lookups, 292 curation status guards, 1860 native manager paths and the Windows build passed; complete comments and all 4956 name aliases unchanged",
     "All 413 generated-player full names have mappings: 163 reviewed and 250 provisional; 5195 compiled lookups and the Windows build passed, with all prior 2904 aliases retained",
@@ -62,7 +63,7 @@
     "Live newspaper columns, fixture banners, masthead, month/day markers and rotation calendar legend",
     "Live situational abilities and compact grade badges; verify the duplicated Pinch 2 source sprite mapping",
     "Live result columns, pitching panel, outfield directions, calendar markers and newspaper date/status layout; verify combined BB/HBP counts",
-    "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; verify Long Hit value context",
+    "Live position cells, base buttons, batting-first controls, pitch-chart legends and result filters; check CON R/CON L/Power grade placement",
     "Live home-run counters and number order, Top/Bot inning markers, match statuses, W/L badges and opponent-lineup waiting message",
     "Live stadium-selection card layout, legacy venue names, and time/wind controls",
     "Live pitcher and batter stat headings and fielding/tactic selector labels",
@@ -286,7 +287,7 @@
     "new_atlases": 12,
     "total_labels": 2091,
     "total_atlases": 263,
-    "pending_texture_entries": 5,
+    "pending_texture_entries": 4,
     "report": "interface-texture-review.json",
     "font_bounds_checked": true,
     "rendered_previews_checked": true,
@@ -377,10 +378,11 @@
     "pitch_result_filters": 11,
     "minimum_horizontal_text_scale": 0.55,
     "protected_region_checks": 8,
-    "player_data_value_context_verified": false,
+    "player_data_value_context_verified": true,
     "report": "position-chart-validation.json",
     "interactive_validation": false,
-    "previous_420_labels_byte_identical": true
+    "previous_420_labels_byte_identical": true,
+    "latest_player_data_report": "player-data-label-validation.json"
   },
   "season_and_stat_texture_review": {
     "labels": 54,
@@ -818,6 +820,17 @@
     "native_fielder_use_cases": 5,
     "compiled_lookup_inputs_checked": 3,
     "report": "native-stat-definition-validation.json",
+    "interactive_validation": false
+  },
+  "player_data_label_review": {
+    "refitted_labels": 9,
+    "ability_labels_corrected": 3,
+    "native_uv_crops_verified": true,
+    "player_ability_value_context_verified": true,
+    "other_262_atlas_payloads_unchanged": true,
+    "original_k_kmh_bp_pixels_unchanged": true,
+    "untouched_archive_members_verified": 2112,
+    "report": "player-data-label-validation.json",
     "interactive_validation": false
   }
 }

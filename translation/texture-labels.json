@@ -3713,7 +3713,7 @@
         "rect": [
           0,
           0,
-          17,
+          16,
           18
         ],
         "text": "AVG",
@@ -3722,13 +3722,19 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          0,
+          0,
+          17,
+          18
+        ]
       },
       {
         "rect": [
           17,
           0,
-          17,
+          16,
           18
         ],
         "text": "HR",
@@ -3737,13 +3743,19 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          17,
+          0,
+          17,
+          18
+        ]
       },
       {
         "rect": [
           34,
           0,
-          17,
+          16,
           18
         ],
         "text": "RBI",
@@ -3752,13 +3764,19 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          34,
+          0,
+          17,
+          18
+        ]
       },
       {
         "rect": [
           51,
           0,
-          17,
+          16,
           18
         ],
         "text": "ERA",
@@ -3767,13 +3785,19 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          51,
+          0,
+          17,
+          18
+        ]
       },
       {
         "rect": [
           85,
           0,
-          17,
+          16,
           18
         ],
         "text": "P",
@@ -3782,14 +3806,20 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          85,
+          0,
+          17,
+          18
+        ]
       },
       {
         "rect": [
-          68,
-          18,
-          40,
-          20
+          70,
+          19,
+          34,
+          18
         ],
         "text": "SB",
         "source": "盗塁",
@@ -3797,31 +3827,43 @@
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          68,
+          18,
+          40,
+          20
+        ]
       },
       {
         "rect": [
           0,
           38,
           34,
-          20
+          18
         ],
-        "text": "vs R",
+        "text": "CON R",
         "source": "対右",
         "padding": 2,
         "condense": true,
         "outline_width": 1,
         "max_font_size": 18,
-        "min_font_size": 11
+        "min_font_size": 11,
+        "clear_rect": [
+          0,
+          38,
+          108,
+          20
+        ]
       },
       {
         "rect": [
-          34,
+          35,
           38,
           34,
-          20
+          18
         ],
-        "text": "vs L",
+        "text": "CON L",
         "source": "対左",
         "padding": 2,
         "condense": true,
@@ -3831,12 +3873,12 @@
       },
       {
         "rect": [
-          68,
+          70,
           38,
-          40,
-          20
+          34,
+          18
         ],
-        "text": "Long Hit",
+        "text": "Power",
         "source": "長打",
         "padding": 2,
         "condense": true,
