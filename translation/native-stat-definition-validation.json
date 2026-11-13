@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-13",
+  "comparison_commit": "22f146a6e38ac66fb97e24af3c29b49a481707d7",
+  "labels": [
+    {
+      "address": "0x82091844",
+      "source": "左被数",
+      "previous_english": "left digit",
+      "english": "H vs L",
+      "definition": "Hits allowed against left-handed batters",
+      "status": "reviewed",
+      "estimated_font": "Arial 16 px",
+      "previous_estimated_width_px": 55.0,
+      "estimated_width_px": 45.0
+    },
+    {
+      "address": "0x82091854",
+      "source": "右被数",
+      "previous_english": "right digit",
+      "english": "H vs R",
+      "definition": "Hits allowed against right-handed batters",
+      "status": "reviewed",
+      "estimated_font": "Arial 16 px",
+      "previous_estimated_width_px": 65.0,
+      "estimated_width_px": 48.0
+    }
+  ],
+  "fielder_use_existing_english_retained": true,
+  "confirmed_fielder_use_definition": "Average number of fielders used per game",
+  "native_source_evidence": {
+    "date": "2026-11-13",
+    "original_pitching_label_table": "0x82032978",
+    "table_sha256": "1f1405c5ec39783db9c018119eabc55ec860d1f2770769ee3f49121057c60247",
+    "original_counter_block": "0x824D2B88",
+    "counter_block_end": "0x824D2BC4",
+    "counter_block_sha256": "7aae22e4ea50160b3862ffaa9e2122d26d169521045d6191c2210b883fd255ac",
+    "original_function": "0x824D2928",
+    "native_instructions_checked": 15,
+    "label_indices": {
+      "19": "0x8209186C",
+      "21": "0x8209185C",
+      "22": "0x82091854",
+      "23": "0x8209184C",
+      "24": "0x82091844"
+    },
+    "total_hits_allowed_source_offset": "0x58",
+    "left_hits_allowed_source_offset": "0x38",
+    "total_hits_output_offset": "0x38",
+    "left_hits_output_offset": "0x4C",
+    "right_hits_output_offset": "0x44",
+    "left_average_numerator_source": "left_hits_output_offset",
+    "left_at_bats_source_offset": "0x34",
+    "left_average_calculation_code": [
+      "0x824D2D6C",
+      "0x824D2D94"
+    ],
+    "right_average_calculation_code": [
+      "0x824D2DA0",
+      "0x824D2DEC"
+    ],
+    "right_hits_calculation": "total hits allowed minus left-side hits allowed",
+    "individual_and_historical_tables_reference_same_source_labels": true,
+    "source_scope": "Native team pitching table and stat row builder; no live screen validation",
+    "interactive_validation": false,
+    "fielder_use_label_table": "0x82032A00",
+    "fielder_use_label_index": 36,
+    "fielder_use_table_sha256": "ff57bb21bb78f2dad2311bfec1006b14e7d00a5d8d957a9f6dfa3d3487d63a98",
+    "games_label_index": 1,
+    "games_source_register": "r29",
+    "games_counter_store": "0x824D0444",
+    "fielder_use_block": "0x824D0AD4",
+    "fielder_use_block_end": "0x824D0B50",
+    "fielder_use_block_sha256": "448d03d7b862ce9c10bd0359acd67c4db2958f62191f035547edba4e16cf588c",
+    "fielder_records_stride": "0xF8",
+    "appearance_count_byte_offset": "0x511",
+    "fielder_use_calculation": "Sum of fielder appearance counts divided by team games played",
+    "no_games_sentinel": -1
+  },
+  "native_hit_counter_replay_cases": 7,
+  "native_fielder_use_replay_cases": 5,
+  "native_replay_results": [
+    "0\t0\t0\t0\t0",
+    "1\t0\t1\t0\t1",
+    "1\t1\t1\t1\t0",
+    "37\t11\t37\t11\t26",
+    "100\t40\t100\t40\t60",
+    "100\t100\t100\t100\t0",
+    "123456\t45678\t123456\t45678\t77778",
+    "fielder-use\t0\t0\t-1",
+    "fielder-use\t1\t9\t9",
+    "fielder-use\t10\t105\t10.5",
+    "fielder-use\t144\t1376\t9.55556",
+    "fielder-use\t4\t0\t0"
+  ],
+  "native_replay_assertions_passed": true,
+  "different_at_bat_inputs_do_not_change_hit_counter_outputs": true,
+  "zero_game_fielder_use_sentinel_preserved": -1,
+  "official_2026_references": [
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_season_record_personal_pitcher_26",
+      "japanese": "右被安",
+      "english": "Hits VS. RHB"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_season_record_personal_fielder_43",
+      "japanese": "均野数",
+      "english": "Fielder Use"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_season_record_personal_pitcher_29",
+      "japanese": "左被安",
+      "english": "Hits VS. LHB"
+    },
+    {
+      "namespace": "Pennant",
+      "key": "pn_memorial_rekidai_batting_help_30",
+      "japanese": "平均野手起用数。1試合あたりに起用した野手の人数。",
+      "english": "The average number of fielders used per game."
+    }
+  ],
+  "official_2026_corpus_sha256": "897196d9ff1b8d536d237b823fca96b0e475e61889eed0feddd9f7fbf3fabc1c",
+  "hits_term_adapted_to_compact_pitching_column": true,
+  "three_pending_native_stat_definitions_resolved": true,
+  "numeric_stat_data_and_guest_instructions_unchanged": true,
+  "interactive_validation": false,
+  "compiled_lookup_inputs_checked": 3,
+  "compiled_lookup_results_matched": true,
+  "curation_review_status_guards_passed": true,
+  "prior_unedited_catalogue_rows_unchanged": 18974,
+  "catalogue_status_counts": {
+    "reviewed": 9896,
+    "draft": 3430,
+    "game-roster-family": 5650
+  },
+  "original_source_fields_unchanged": true,
+  "games_denominator_label_verified": "試合",
+  "existing_4956_name_aliases_unchanged": true,
+  "normal_windows_build_passed": true
+}

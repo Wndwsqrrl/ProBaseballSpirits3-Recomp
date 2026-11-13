@@ -18,7 +18,8 @@ This repository contains port source, executable analysis metadata, English tran
 - The patch includes **77 reviewed menu and matchup entries**, including team records and mode descriptions.
 - The name pool includes **418 reviewed name fields**. The review uses native Latin surnames, the game's Japanese name dictionary, the original roster, and the original display spellings. Provisional given-name choices remain drafts where an individual reading or preferred spelling cannot be confirmed.
 - The announcer-name selector has **1,256 English labels**, with 144 spelling overrides and phonetic transliteration for the remaining kana names. Its navigation grid displays 46 English syllables, fitted within the native cells. In-game placement still needs checking.
-- The main extracted list has **5,771 reviewed entries and 417 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- The main extracted list has **5,773 reviewed entries and 415 drafts**. It includes reviewed Xbox Live dialogs, pitch names, team and venue labels, standings, and milestone text.
+- Pitching columns **H vs L** and **H vs R** count hits allowed against left- and right-handed batters. **Fielder Use** is the average number of fielders used per game. These meanings were checked against native calculations and the 2026 terminology. See [native stat validation](translation/native-stat-definition-validation.json).
 - **39 match captions** have English templates for live streaks, milestones, and batting averages. The templates passed offline tests with values assembled in the native format.
 - **213 pitching delivery and batting stance labels** matched their intended English in offline checks.
 - **118 career dialogue lines** cover coaching feedback, pregame instructions, and roster notices. Career rows reach the proportional Latin font as complete lines.

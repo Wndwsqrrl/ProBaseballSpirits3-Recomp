@@ -10,6 +10,7 @@
   "texture_labels": 2091,
   "localized_archive_members": 111,
   "validation": [
+    "Native code confirms the L/R counters are hits allowed and Fielder Use is appearances per team game; 12 native replay cases and three compiled lookup/status checks passed; original numeric data unchanged",
     "53 manager/newspaper/draft-option fragments improved; 104 compiled lookups, 292 curation status guards, 1860 native manager paths and the Windows build passed; complete comments and all 4956 name aliases unchanged",
     "All 413 generated-player full names have mappings: 163 reviewed and 250 provisional; 5195 compiled lookups and the Windows build passed, with all prior 2904 aliases retained",
     "70 Korean-group names have provisional complete-name mappings using native Latin surnames; 2970 compiled lookups and the Windows build passed, with all 2064 prior aliases retained",
@@ -145,11 +146,11 @@
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1021,
-  "reviewed_management_entries": 421,
+  "reviewed_management_entries": 423,
   "main_extracted_text": {
     "entries": 6188,
-    "reviewed": 5771,
-    "draft": 417
+    "reviewed": 5773,
+    "draft": 415
   },
   "reviewed_ui_addresses": 1996,
   "packed_ui_inventory": {
@@ -840,6 +841,15 @@
     "curation_status_guards_checked": 292,
     "existing_name_aliases_unchanged": 4956,
     "report": "manager-fallback-wording-validation.json",
+    "interactive_validation": false
+  },
+  "native_stat_definition_review": {
+    "new_reviewed_labels": 2,
+    "native_stat_definitions_resolved": 3,
+    "native_hit_split_cases": 7,
+    "native_fielder_use_cases": 5,
+    "compiled_lookup_inputs_checked": 3,
+    "report": "native-stat-definition-validation.json",
     "interactive_validation": false
   }
 }

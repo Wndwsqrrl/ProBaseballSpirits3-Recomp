@@ -26400,8 +26400,8 @@
     "address": "0x82091844",
     "source_size": 6,
     "source_hash": "71D0032268BD6B51",
-    "english": "left digit",
-    "status": "draft"
+    "english": "H vs L",
+    "status": "reviewed"
   },
   {
     "address": "0x8209184C",
@@ -26414,8 +26414,8 @@
     "address": "0x82091854",
     "source_size": 6,
     "source_hash": "B75FF02999ECA544",
-    "english": "right digit",
-    "status": "draft"
+    "english": "H vs R",
+    "status": "reviewed"
   },
   {
     "address": "0x8209185C",

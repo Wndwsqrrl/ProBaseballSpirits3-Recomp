@@ -420,7 +420,9 @@
     "0x8209F1CC": "Player Rating: ",
     "0x8209F1EC": " stars\n\nVP Bonus: ",
     "0x8209F208": " VP earned!",
-    "0x8209C048": "Sign this player?"
+    "0x8209C048": "Sign this player?",
+    "0x82091844": "H vs L",
+    "0x82091854": "H vs R"
   },
   "labels": {
     "通算": "All Time",
@@ -739,9 +741,19 @@
       "status": "reviewed"
     }
   ],
-  "pending_stat_definitions": {
-    "0x8209174C": "Confirm the statistic represented by the abbreviated field label before assigning an English abbreviation.",
-    "0x82091844": "Confirm whether the left-handed split counter is hits allowed or at-bats faced.",
-    "0x82091854": "Confirm whether the right-handed split counter is hits allowed or at-bats faced."
+  "pending_stat_definitions": {},
+  "resolved_stat_definitions": {
+    "0x82091844": {
+      "definition": "Hits allowed against left-handed batters",
+      "validation_report": "native-stat-definition-validation.json"
+    },
+    "0x82091854": {
+      "definition": "Hits allowed against right-handed batters",
+      "validation_report": "native-stat-definition-validation.json"
+    },
+    "0x8209174C": {
+      "definition": "Average number of fielders used per game",
+      "validation_report": "native-stat-definition-validation.json"
+    }
   }
 }
