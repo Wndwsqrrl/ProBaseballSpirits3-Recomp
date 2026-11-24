@@ -248,5 +248,17 @@
     "Review the 76 formatting-sensitive examples for meaning; do not insert returned markup into the patch.",
     "Validate any accepted wording changes and their live placement.",
     "Extend the comparison for any newly discovered player-facing text."
-  ]
+  ],
+  "accuracy_review_batches": [
+    {
+      "area": "Spirits training data table",
+      "records": 56,
+      "fields": 112,
+      "unique_source_fingerprints": 108,
+      "report": "spirits-training-accuracy-validation.json",
+      "native_display_route_verified": false
+    }
+  ],
+  "distinct_deepl_input_sources_context_reviewed": 117,
+  "reviewed_training_fields_not_requiring_deepl": 1
 }

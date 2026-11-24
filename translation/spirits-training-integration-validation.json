@@ -1160,5 +1160,8 @@
   "remaining_unintegrated_scope": "13 save-section metadata labels and one hidden startup placeholder; no display consumer confirmed.",
   "display_route_investigation": "The copied-record accessor is virtual slot +0x20 of the training-card vtable at 0x820A2948. A scan found 84 nearby-slot indirect call sites in 77 generated functions, but did not establish a training name/description call to a renderer. This is not proof the fields are unused.",
   "live_game_started": false,
-  "final_deepl_comparison_completed": false
+  "final_deepl_comparison_completed": false,
+  "accuracy_review_follow_up": "spirits-training-accuracy-validation.json",
+  "current_catalogue_review_status": "reviewed",
+  "live_display_route_and_placement_remain_unverified": true
 }
