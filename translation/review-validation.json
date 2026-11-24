@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "catalogue_records": 19018,
-  "unique_fingerprints": 18723,
+  "catalogue_records": 19130,
+  "unique_fingerprints": 18831,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
   "changed_existing_translations": 6,
   "added_fingerprints": 4,
@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Integrated exact renderer lookups for all 112 Spirits training names/descriptions (108 unique sources). The compiled audit and Windows build passed, with all prior catalogue rows and native table data preserved. The training-card display route and live wrapping remain unverified.",
     "All three Spirits start-demo headings and six mission heading variants now fit their declared alternate UV tiles. Compound mission labels use separate prefix/suffix tiles. Decoded crop comparisons and all 2223 archive members passed; live animation and assembled placement still need testing.",
     "Twelve clipped labels refitted to native sprite crops across 11 atlases/7 members. Decoded crop comparisons and the full 2223-member archive check passed; 2112 untouched members, packed text and unrelated surfaces remain unchanged. Complete uses joined strips; mission/start-demo animations still require UV-state checks.",
     "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
@@ -60,6 +61,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Confirm the Spirits training table display route and all 56 names/56 descriptions in game; exact lookups are compiled but placement is unverified",
     "Live confirmation of the 12 static crop repairs plus all mission prefix/suffix and Spirits start-demo animation states",
     "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
     "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
@@ -935,13 +937,16 @@
   "native_ui_integration": {
     "integrated_confirmed_ui_fields": 36,
     "integrated_additional_menu_headers": 3,
-    "staged_spirits_training_fields": 112,
+    "staged_spirits_training_fields": 0,
     "staged_context_dependent_fields": 14,
     "compiled_lookup_checks": 74,
     "native_offseason_replays": 45,
     "windows_build_passed": true,
     "live_screen_placement_checked": false,
-    "report": "headless-formatting-validation.json"
+    "report": "headless-formatting-validation.json",
+    "integrated_spirits_training_lookup_fields": 112,
+    "spirits_training_display_route_verified": false,
+    "spirits_training_report": "spirits-training-integration-validation.json"
   },
   "static_sprite_crop_review": {
     "labels_refitted": 12,
@@ -973,5 +978,17 @@
     "interactive_validation": false,
     "full_animation_frame_coverage": false,
     "report": "alternate-sprite-crop-validation.json"
+  },
+  "spirits_training_lookup_integration": {
+    "records": 56,
+    "compiled_fields": 112,
+    "unique_exact_fingerprints": 108,
+    "compiled_unique_lookup_checks": 108,
+    "curation_reproduction_checks": 112,
+    "windows_build_passed": true,
+    "original_record_data_unchanged": true,
+    "native_display_route_verified": false,
+    "live_screen_placement_checked": false,
+    "report": "spirits-training-integration-validation.json"
   }
 }

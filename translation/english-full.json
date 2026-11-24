@@ -133338,5 +133338,789 @@
     "source_hash": "DE6E8836E8D10829",
     "english": "Preseason Results<RIGHT><○>Confirm",
     "status": "draft"
+  },
+  {
+    "address": "0x827D8914",
+    "source_size": 11,
+    "source_hash": "E32067887BCCECAC",
+    "english": "Pitching Practice",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8928",
+    "source_size": 130,
+    "source_hash": "DADA203BAF4F3642",
+    "english": "Pitching, Stamina, and Focus up.\n\nPartner Level +1.\n\nBuild overall pitching ability.\n\nResults depend heavily on your partner.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8A0C",
+    "source_size": 10,
+    "source_hash": "0AF62586141AF651",
+    "english": "Breaking Practice",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8A20",
+    "source_size": 134,
+    "source_hash": "4AFCE345AC25FCCD",
+    "english": "Pitch Type, Stamina, and Focus up.\n\nPartner Level +1.\n\nWork on your breaking pitches.\n\nResults depend heavily on your partner.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8B04",
+    "source_size": 11,
+    "source_hash": "7DE498ED964BFDD7",
+    "english": "Batting Practice",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8B18",
+    "source_size": 114,
+    "source_hash": "30693075E0205432",
+    "english": "Contact and Power up.\n\nPartner Level +1.\n\nBuild your batting ability.\n\nResults depend heavily on your partner.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8BFC",
+    "source_size": 12,
+    "source_hash": "B1209FFB093D75FC",
+    "english": "Fielding/Running",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8C10",
+    "source_size": 118,
+    "source_hash": "26332DBC479AB9D8",
+    "english": "Speed and Defense up.\n\nPartner Level +1.\n\nBuild your fielding and baserunning skills.\n\nResults depend heavily on your partner.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8CF4",
+    "source_size": 11,
+    "source_hash": "56D3C0A38E782AD9",
+    "english": "Group Training",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8D08",
+    "source_size": 136,
+    "source_hash": "7406D3F2C884CDB9",
+    "english": "All abilities up. Chance at a Spirits bonus.\n\nPartner XP +1.\n\nTrain together to build overall ability.\n\nEarn a Spirits bonus if a link activates.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8DEC",
+    "source_size": 6,
+    "source_hash": "FE5CE6C4CE941A97",
+    "english": "Ability Steal",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8E00",
+    "source_size": 134,
+    "source_hash": "809B7AB1F35DEA19",
+    "english": "Win a special ability if you succeed.\n\nOther bonuses are also possible.\n\nMatch symbols on the slot reels to earn\n\nan ability or bonus from your opponent.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8EE4",
+    "source_size": 13,
+    "source_hash": "55B0153C61970464",
+    "english": "Pitching Practice+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8EF8",
+    "source_size": 134,
+    "source_hash": "ACE85EDDB2BCDDEE",
+    "english": "Pitching, Stamina, and Focus up.\n\nPartner Level +2 and other gains.\n\nBuild overall pitching ability.\n\nMore effective than regular Pitching Practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8FDC",
+    "source_size": 12,
+    "source_hash": "F28489830ECB4BB1",
+    "english": "Breaking Practice+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D8FF0",
+    "source_size": 140,
+    "source_hash": "C37A0062CBCCB32C",
+    "english": "Pitch Type, Stamina, and Focus up.\n\nPartner Level +2 and other gains.\n\nWork on your breaking pitches.\n\nMore effective than regular Breaking Practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D90D4",
+    "source_size": 13,
+    "source_hash": "4E04D1EA6E7B323B",
+    "english": "Batting Practice+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D90E8",
+    "source_size": 118,
+    "source_hash": "CA2E8C4FB4AAAF33",
+    "english": "Contact and Power up.\n\nPartner Level +2 and other gains.\n\nBuild your batting ability.\n\nMore effective than regular Batting Practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D91CC",
+    "source_size": 14,
+    "source_hash": "6951CDE0E4FF2894",
+    "english": "Fielding/Running+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D91E0",
+    "source_size": 126,
+    "source_hash": "D981CF13ED2C4DC0",
+    "english": "Speed and Defense up.\n\nPartner Level +2 and other gains.\n\nBuild your fielding and baserunning skills.\n\nMore effective than regular Fielding/Running.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D92C4",
+    "source_size": 13,
+    "source_hash": "8CE97976B37B85E9",
+    "english": "Group Training+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D92D8",
+    "source_size": 130,
+    "source_hash": "B9BB8AC45FFA472D",
+    "english": "All abilities up. Chance at a Spirits bonus.\n\nPartner XP +2.\n\nTrain together to build overall ability.\n\nMore effective than regular Group Training.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D93BC",
+    "source_size": 8,
+    "source_hash": "3BB190DA9D05337B",
+    "english": "Ability Steal+",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D93D0",
+    "source_size": 136,
+    "source_hash": "6A7C3A3DC8A695B7",
+    "english": "The full-spin slots guarantee\n\na special ability or bonus.\n\nMatch symbols on the reels to earn\n\nan ability or bonus from your opponent.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D94B4",
+    "source_size": 8,
+    "source_hash": "879166476BB19F3C",
+    "english": "Divine Steal",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D94C8",
+    "source_size": 132,
+    "source_hash": "03A212062972BC45",
+    "english": "Win a special ability if you succeed.\n\nOther bonuses are also possible.\n\nMatch symbols on the slot reels to earn\n\nan ability or bonus from the god.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D95AC",
+    "source_size": 8,
+    "source_hash": "4B296F26FE39E81F",
+    "english": "Super Ability Steal",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D95C0",
+    "source_size": 136,
+    "source_hash": "6A7C3A3DC8A695B7",
+    "english": "The full-spin slots guarantee\n\na special ability or bonus.\n\nMatch symbols on the reels to earn\n\nan ability or bonus from your opponent.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D96A4",
+    "source_size": 11,
+    "source_hash": "46AE1379978BDC78",
+    "english": "Super Divine Steal",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D96B8",
+    "source_size": 134,
+    "source_hash": "C6B1668AACFB34D7",
+    "english": "The full-spin slots guarantee\n\na special ability or bonus.\n\nMatch symbols on the reels to earn\n\nan ability or bonus from the god.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D979C",
+    "source_size": 8,
+    "source_hash": "A3A3EDE32CCF2F41",
+    "english": "Dream Ability Steal",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D97B0",
+    "source_size": 134,
+    "source_hash": "809B7AB1F35DEA19",
+    "english": "Win a special ability if you succeed.\n\nOther bonuses are also possible.\n\nMatch symbols on the slot reels to earn\n\nan ability or bonus from your opponent.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9894",
+    "source_size": 11,
+    "source_hash": "417E5742518C42B2",
+    "english": "Barbell",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D98A8",
+    "source_size": 120,
+    "source_hash": "F236C5BA11DD7678",
+    "english": "Power up.\n\nGains vary.\n\nSolo training.\n\nLift weights for a guaranteed Power gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D998C",
+    "source_size": 6,
+    "source_hash": "17E60BA8260CA1CF",
+    "english": "Extra Batting",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D99A0",
+    "source_size": 92,
+    "source_hash": "2DF4498FB2D52811",
+    "english": "Contact up.\n\nGains vary.\n\nSolo training.\n\nExtra batting practice always builds Contact.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9A84",
+    "source_size": 12,
+    "source_hash": "CFD5B9ECD0BF40B3",
+    "english": "Sand Sprints",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9A98",
+    "source_size": 98,
+    "source_hash": "1694079D5DA3A131",
+    "english": "Speed up.\n\nGains vary.\n\nSolo training.\n\nRun sprints in sand for a guaranteed Speed gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9B7C",
+    "source_size": 10,
+    "source_hash": "5260187851D33FCA",
+    "english": "Situational Defense",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9B90",
+    "source_size": 98,
+    "source_hash": "14BD184F64E2ECDF",
+    "english": "Defense up.\n\nGains vary.\n\nSolo training.\n\nFielding drills always build Defense.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9C74",
+    "source_size": 8,
+    "source_hash": "EAA8EFDA0266CF88",
+    "english": "PNF",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9C88",
+    "source_size": 92,
+    "source_hash": "83ED4F3EA8BD25EC",
+    "english": "Pitching up.\n\nGains vary.\n\nSolo training.\n\nDo PNF exercises for a guaranteed Pitching gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9D6C",
+    "source_size": 10,
+    "source_hash": "4094AEE2699B3178",
+    "english": "15 km Run",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9D80",
+    "source_size": 100,
+    "source_hash": "5BB18A8BCE5BDC6E",
+    "english": "Stamina up.\n\nGains vary.\n\nSolo training.\n\nRun 15 km for a guaranteed Stamina gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9E64",
+    "source_size": 11,
+    "source_hash": "32C36A9C767C93C4",
+    "english": "Focus Drills",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9E78",
+    "source_size": 98,
+    "source_hash": "CD9A76324BF25A7A",
+    "english": "Focus up.\n\nGains vary.\n\nSolo training.\n\nDo mental training for a guaranteed Focus gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9F5C",
+    "source_size": 12,
+    "source_hash": "41D5B124B76D8549",
+    "english": "Intense Breaking",
+    "status": "draft"
+  },
+  {
+    "address": "0x827D9F70",
+    "source_size": 100,
+    "source_hash": "5F30CBFE4340FE27",
+    "english": "Pitch Type up.\n\nGains vary.\n\nSolo training.\n\nBreaking-pitch drills always build Pitch Type.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA054",
+    "source_size": 10,
+    "source_hash": "6496D9EE0B688E0A",
+    "english": "Baseball Spirit",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA068",
+    "source_size": 114,
+    "source_hash": "39C0D9285680D08A",
+    "english": "Spirits up.\n\nGains vary.\n\nSolo training.\n\nFire yourself up for a guaranteed Spirits gain.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA14C",
+    "source_size": 8,
+    "source_hash": "065820D8E3EE041E",
+    "english": "P Batting",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA160",
+    "source_size": 118,
+    "source_hash": "11E5D4761818A55C",
+    "english": "Contact and Power up.\n\nPartner Level +1.\n\nRequires a partner.\n\nMore effective than regular practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA244",
+    "source_size": 10,
+    "source_hash": "37A6190073A12D9F",
+    "english": "P Fielding/Running",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA258",
+    "source_size": 116,
+    "source_hash": "6C9E77E39FAB02D1",
+    "english": "Speed and Defense up.\n\nPartner Level +1.\n\nRequires a partner.\n\nMore effective than regular practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA33C",
+    "source_size": 8,
+    "source_hash": "9EBD7D56F6C445B9",
+    "english": "P Pitching",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA350",
+    "source_size": 128,
+    "source_hash": "22B1836FCFC966C5",
+    "english": "Pitching, Stamina, and Focus up.\n\nPartner Level +1.\n\nRequires a partner.\n\nMore effective than regular practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA434",
+    "source_size": 11,
+    "source_hash": "52275FEFD5E7B7D2",
+    "english": "P Breaking",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA448",
+    "source_size": 128,
+    "source_hash": "74D056BC95BB0A0B",
+    "english": "Pitch Type, Stamina, and Focus up.\n\nPartner Level +1.\n\nRequires a partner.\n\nMore effective than regular practice.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA52C",
+    "source_size": 11,
+    "source_hash": "B33CC08ADAE27B94",
+    "english": "All P Batting",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA540",
+    "source_size": 118,
+    "source_hash": "E076CCD141B5B357",
+    "english": "Contact and Power up.\n\nAll Partner Levels +1.\n\nRequires a partner.\n\nTrain with all partners at once.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA624",
+    "source_size": 12,
+    "source_hash": "8832A329A0917687",
+    "english": "All P Field/Run",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA638",
+    "source_size": 116,
+    "source_hash": "55DBCD7A8C8270AE",
+    "english": "Speed and Defense up.\n\nAll Partner Levels +1.\n\nRequires a partner.\n\nTrain with all partners at once.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA71C",
+    "source_size": 11,
+    "source_hash": "2DEC857F4003477F",
+    "english": "All P Pitching",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA730",
+    "source_size": 128,
+    "source_hash": "682EDC768C6F08DA",
+    "english": "Pitching, Stamina, and Focus up.\n\nAll Partner Levels +1.\n\nRequires a partner.\n\nTrain with all partners at once.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA814",
+    "source_size": 10,
+    "source_hash": "8663A0FF6427994E",
+    "english": "All P Breaking",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA828",
+    "source_size": 128,
+    "source_hash": "AEA0A4A155881354",
+    "english": "Pitch Type, Stamina, and Focus up.\n\nAll Partner Levels +1.\n\nRequires a partner.\n\nTrain with all partners at once.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA90C",
+    "source_size": 11,
+    "source_hash": "894461E0AE199DA6",
+    "english": "Yakitori",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DA920",
+    "source_size": 108,
+    "source_hash": "054D4AEF1C7E631D",
+    "english": "Partner Level +2.\n\nRequires a partner.\n\nRecharge over yakitori with a partner.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAA04",
+    "source_size": 6,
+    "source_hash": "D00F00DDAC12E7A0",
+    "english": "Yakiniku",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAA18",
+    "source_size": 104,
+    "source_hash": "5E6D4186EE2BFD0F",
+    "english": "All Partner Levels +1.\n\nRequires a partner.\n\nRecharge over yakiniku together.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAAFC",
+    "source_size": 12,
+    "source_hash": "2BB157981178D8D5",
+    "english": "Shabu-shabu",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAB10",
+    "source_size": 112,
+    "source_hash": "DF07F453244F381D",
+    "english": "All Partner Levels +2.\n\nRequires a partner.\n\nRecharge over shabu-shabu together.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DABF4",
+    "source_size": 10,
+    "source_hash": "0236DD9AB0D58438",
+    "english": "Coach Instruction",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAC08",
+    "source_size": 114,
+    "source_hash": "BB393A184C76444C",
+    "english": "Moderate boost to all four core stats.\n\nGains vary.\n\nWork directly with the coach\n\nto improve your overall ability.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DACEC",
+    "source_size": 11,
+    "source_hash": "E3B6627514A08F85",
+    "english": "Manager Instruction",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAD00",
+    "source_size": 112,
+    "source_hash": "08F03FE96CD913E3",
+    "english": "Large boost to all four core stats.\n\nGains vary.\n\nWork directly with the manager\n\nto improve your overall ability.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DADE4",
+    "source_size": 12,
+    "source_hash": "26CC77E81CD28004",
+    "english": "Batting Boost Week",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DADF8",
+    "source_size": 116,
+    "source_hash": "02BD754FD317BA04",
+    "english": "For the next 3 turns,\n\nplayers do only batting practice.\n\nThis makes it easier to focus\n\non batting drills.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAEDC",
+    "source_size": 12,
+    "source_hash": "26B449E81CBD9FF9",
+    "english": "Fielding Boost Week",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAEF0",
+    "source_size": 116,
+    "source_hash": "1C973AF49FD5CC40",
+    "english": "For the next 3 turns,\n\nplayers do only fielding practice.\n\nThis makes it easier to focus\n\non fielding drills.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAFD4",
+    "source_size": 12,
+    "source_hash": "26CC4AE81CD2338D",
+    "english": "Running Boost Week",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DAFE8",
+    "source_size": 116,
+    "source_hash": "F35F81B77C1040A9",
+    "english": "For the next 3 turns,\n\nplayers do only baserunning practice.\n\nThis makes it easier to focus\n\non baserunning drills.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB0CC",
+    "source_size": 12,
+    "source_hash": "26C46EE81CCA9F0B",
+    "english": "Pitching Boost Week",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB0E0",
+    "source_size": 116,
+    "source_hash": "2FA1ED75E801DA29",
+    "english": "For the next 3 turns,\n\nplayers do only pitching practice.\n\nThis makes it easier to focus\n\non pitching drills.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB1C4",
+    "source_size": 12,
+    "source_hash": "26D891E81CDB838E",
+    "english": "Breaking Boost Week",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB1D8",
+    "source_size": 118,
+    "source_hash": "3B968EE69030F6F8",
+    "english": "For the next 3 turns,\n\nplayers do only breaking-pitch practice.\n\nThis makes it easier to focus\n\non breaking-pitch drills.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB2BC",
+    "source_size": 8,
+    "source_hash": "287BBA83E371814C",
+    "english": "Intra-squad Game",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB2D0",
+    "source_size": 140,
+    "source_hash": "06D9DEF6431E8F11",
+    "english": "All abilities up. Chance at a Spirits bonus.\n\nPartner XP +2.\n\nPlay an intra-squad game to build ability.\n\nEarn a Spirits bonus if a link activates.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB3B4",
+    "source_size": 10,
+    "source_hash": "EEFA529A53821403",
+    "english": "Tag Training",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB3C8",
+    "source_size": 94,
+    "source_hash": "097707E988498297",
+    "english": "All stats up.\n\nChoose 1 training partner.\n\nGains reflect that player's overall ability.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB4AC",
+    "source_size": 14,
+    "source_hash": "47559A9D416F2B9D",
+    "english": "Tag Training x2",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB4C0",
+    "source_size": 94,
+    "source_hash": "8687C5B7F29254D4",
+    "english": "All stats up.\n\nChoose 2 training partners.\n\nGains reflect their overall ability.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB5A4",
+    "source_size": 14,
+    "source_hash": "4755979D416F2684",
+    "english": "Tag Training x3",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB5B8",
+    "source_size": 94,
+    "source_hash": "B1FDD6E9862612A9",
+    "english": "All stats up.\n\nChoose 3 training partners.\n\nGains reflect their overall ability.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB69C",
+    "source_size": 10,
+    "source_hash": "649A51EE0B6B8FC9",
+    "english": "Baseball Dog",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB6B0",
+    "source_size": 90,
+    "source_hash": "F7A218EBAD0F7D53",
+    "english": "Gain 1 turn.\n\nTime with the dog helps you recharge\n\nso you can fit in more training.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB794",
+    "source_size": 11,
+    "source_hash": "7C34806480514F0B",
+    "english": "Fired Up",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB7A8",
+    "source_size": 112,
+    "source_hash": "7087AF57C7314E30",
+    "english": "Spirits up.\n\nThe gain depends on the star rating.\n\nGet fired up by a player you choose\n\nfor a big Spirits boost.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB88C",
+    "source_size": 10,
+    "source_hash": "E1B65FBB838BB886",
+    "english": "P Boost",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB8A0",
+    "source_size": 104,
+    "source_hash": "314D1DF6EBBD2E62",
+    "english": "Boost a partner.\n\nLasts until the end of camp.\n\nAvailable for partners\n\nwho aren't custom players.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB984",
+    "source_size": 11,
+    "source_hash": "F8E18E9AB6703ED2",
+    "english": "Bat Breakthrough",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DB998",
+    "source_size": 100,
+    "source_hash": "53B89DF38177D813",
+    "english": "Training gains up.\n\nApplies to Contact and Power.\n\nOnly your next practice gets\n\nthe extra batting gains.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBA7C",
+    "source_size": 12,
+    "source_hash": "084C1892E1E46799",
+    "english": "F/R Breakthrough",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBA90",
+    "source_size": 102,
+    "source_hash": "A6F381C0321C64C3",
+    "english": "Training gains up.\n\nApplies to Speed and Defense.\n\nOnly your next practice gets\n\nthe extra fielding and baserunning gains.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBB74",
+    "source_size": 11,
+    "source_hash": "8B9FABBD7552E545",
+    "english": "Pitch Breakthrough",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBB88",
+    "source_size": 110,
+    "source_hash": "294B6F00DE466C6F",
+    "english": "Training gains up.\n\nApplies to Pitching, Stamina, and Focus.\n\nOnly your next practice gets\n\nthe extra pitching gains.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBC6C",
+    "source_size": 10,
+    "source_hash": "573EDBE8570B0B5C",
+    "english": "BRK Breakthrough",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBC80",
+    "source_size": 112,
+    "source_hash": "62055ADDFD8DB1CC",
+    "english": "Training gains up.\n\nApplies to Pitch Type, Stamina, and Focus.\n\nOnly your next practice gets\n\nthe extra breaking-pitch gains.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBD64",
+    "source_size": 10,
+    "source_hash": "AB71A90657567336",
+    "english": "Invalid Selection",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBD78",
+    "source_size": 34,
+    "source_hash": "DC2DE80AC00B8259",
+    "english": "Too many Specials selected.",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBE5C",
+    "source_size": 10,
+    "source_hash": "AB71A90657567336",
+    "english": "Invalid Selection",
+    "status": "draft"
+  },
+  {
+    "address": "0x827DBE70",
+    "source_size": 34,
+    "source_hash": "DC2DE80AC00B8259",
+    "english": "Too many Specials selected.",
+    "status": "draft"
   }
 ]

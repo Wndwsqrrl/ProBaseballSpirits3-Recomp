@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "catalogue_records": 19018,
-  "unique_fingerprints": 18723,
+  "catalogue_records": 19130,
+  "unique_fingerprints": 18831,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Integrated exact renderer lookups for all 112 Spirits training names/descriptions (108 unique sources). The compiled audit and Windows build passed, with all prior catalogue rows and native table data preserved. The training-card display route and live wrapping remain unverified.",
     "All three Spirits start-demo headings and six mission heading variants now fit their declared alternate UV tiles. Compound mission labels use separate prefix/suffix tiles. Decoded crop comparisons and all 2223 archive members passed; live animation and assembled placement still need testing.",
     "Twelve clipped labels refitted to native sprite crops across 11 atlases/7 members. Decoded crop comparisons and the full 2223-member archive check passed; 2112 untouched members, packed text and unrelated surfaces remain unchanged. Complete uses joined strips; mission/start-demo animations still require UV-state checks.",
     "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
@@ -87,6 +88,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Confirm the Spirits training table display route and all 56 names/56 descriptions in game; exact lookups are compiled but placement is unverified",
     "Live confirmation of the 12 static crop repairs plus all mission prefix/suffix and Spirits start-demo animation states",
     "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
     "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
@@ -167,9 +169,10 @@
   "reviewed_mode_and_menu_entries": 1021,
   "reviewed_management_entries": 426,
   "main_extracted_text": {
-    "entries": 6188,
-    "reviewed": 5773,
-    "draft": 415
+    "entries": 6297,
+    "reviewed": 5758,
+    "draft": 539,
+    "scope": "Current address-backed entries from english-full.json, including the training data table; this is not a whole-game denominator."
   },
   "reviewed_ui_addresses": 1998,
   "packed_ui_inventory": {
@@ -969,9 +972,9 @@
     "interactive_blocker": "The game window opened, but Windows returned GetCursorPos access denied when activating the window or sending keyboard input."
   },
   "executable_backed_text": {
-    "entries": 6185,
+    "entries": 6297,
     "reviewed": 5758,
-    "draft": 427
+    "draft": 539
   },
   "file_based_gap_audit": {
     "report": "coverage-discovery.md",
@@ -1018,9 +1021,9 @@
   "native_ui_integration": {
     "integrated_confirmed_ui_fields": 36,
     "integrated_additional_menu_headers": 3,
-    "staged_spirits_training_fields": 112,
+    "staged_spirits_training_fields": 0,
     "staged_context_dependent_fields": 14,
-    "remaining_drafts_verified_against_native_records": 126,
+    "remaining_drafts_verified_against_native_records": 14,
     "staged_save_section_metadata_labels": 13,
     "staged_hidden_startup_placeholders": 1,
     "final_draft_report": "final-draft-validation.json",
@@ -1028,7 +1031,10 @@
     "native_offseason_replays": 45,
     "windows_build_passed": true,
     "live_screen_placement_checked": false,
-    "report": "headless-formatting-validation.json"
+    "report": "headless-formatting-validation.json",
+    "integrated_spirits_training_lookup_fields": 112,
+    "spirits_training_display_route_verified": false,
+    "spirits_training_report": "spirits-training-integration-validation.json"
   },
   "static_sprite_crop_review": {
     "labels_refitted": 12,
@@ -1060,5 +1066,17 @@
     "interactive_validation": false,
     "full_animation_frame_coverage": false,
     "report": "alternate-sprite-crop-validation.json"
+  },
+  "spirits_training_lookup_integration": {
+    "records": 56,
+    "compiled_fields": 112,
+    "unique_exact_fingerprints": 108,
+    "compiled_unique_lookup_checks": 108,
+    "curation_reproduction_checks": 112,
+    "windows_build_passed": true,
+    "original_record_data_unchanged": true,
+    "native_display_route_verified": false,
+    "live_screen_placement_checked": false,
+    "report": "spirits-training-integration-validation.json"
   }
 }

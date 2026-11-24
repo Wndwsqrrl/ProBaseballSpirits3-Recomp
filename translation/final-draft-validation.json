@@ -161,5 +161,7 @@
     "english": "Dummy Title<RIGHT><+UD>Select<○>Confirm<×>Back",
     "button_tags_preserved": true,
     "native_evidence": "The header assigned at 0x823A04E4 is hidden on the same object at 0x823A04F0 before startup state advances."
-  }
+  },
+  "training_lookup_integration_follow_up": "spirits-training-integration-validation.json",
+  "training_lookup_integration_status": "All 112 fields now have compiled exact lookups; original native data remains intact and display-route/live checks remain pending."
 }
