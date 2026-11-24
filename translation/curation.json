@@ -9132,6 +9132,12 @@
       "source": "スペシャルの数がオーバーしているよ",
       "english": "Too many Specials selected.",
       "status": "draft"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d万円",
+      "english": "%d x 10,000 yen",
+      "status": "reviewed"
     }
   ],
   "exclude_address_notes": {

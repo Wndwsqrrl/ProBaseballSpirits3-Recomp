@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "1d350486d518314cfc5ff54db2187509b44df155",
+  "added_runtime_pattern": {
+    "address": "0x00000000",
+    "source": "%d万円",
+    "english": "%d x 10,000 yen",
+    "status": "reviewed"
+  },
+  "existing_short_pattern_preserved": "%d万",
+  "native_sources": [
+    {
+      "address": "0x8209BFB4",
+      "japanese": "万円",
+      "meaning": "ten-thousand-yen unit"
+    },
+    {
+      "address": "0x8209BF68",
+      "japanese": "万",
+      "meaning": "ten-thousand unit in the salary display"
+    }
+  ],
+  "native_consumers": [
+    {
+      "function": "0x8254E5B0",
+      "unit_load": "0x8254E62C",
+      "append_call": "0x8254E70C",
+      "context": "Contract options append the full 万円 suffix after the amount."
+    },
+    {
+      "function": "0x82550148",
+      "unit_load": "0x82550214",
+      "append_calls": [
+        "0x825502A4",
+        "0x8255033C",
+        "0x825503EC",
+        "0x82550480",
+        "0x82550528",
+        "0x82550594",
+        "0x825505C4",
+        "0x825505EC"
+      ],
+      "context": "Contract-renewal summary salary amounts use the full 万円 suffix."
+    }
+  ],
+  "official_2026_contextual_reference": [
+    {
+      "namespace": "Mvp",
+      "key": "mvp_shop_text_4300",
+      "japanese": "万円",
+      "english": "0,000 yen"
+    }
+  ],
+  "context_decision": "Keep the existing explicit multiplier notation used for the short salary suffix; 2026 confirms the monetary scale but its appended-zero presentation is not copied blindly.",
+  "native_amount_buffers_unchanged": true,
+  "post_format_translation_only": true,
+  "texture_and_game_archive_unchanged": true,
+  "interactive_validation": false,
+  "compiled_lookup_verification_passed": true,
+  "normal_windows_build_passed": true,
+  "entire_game_english": false,
+  "compiled_cases": [
+    {
+      "source": "0万円",
+      "state": "formatted",
+      "english": "0 x 10,000 yen"
+    },
+    {
+      "source": "1万円",
+      "state": "formatted",
+      "english": "1 x 10,000 yen"
+    },
+    {
+      "source": "3000万円",
+      "state": "formatted",
+      "english": "3000 x 10,000 yen"
+    },
+    {
+      "source": "０万円",
+      "state": "formatted",
+      "english": "0 x 10,000 yen"
+    },
+    {
+      "source": "１万円",
+      "state": "formatted",
+      "english": "1 x 10,000 yen"
+    },
+    {
+      "source": "３０００万円",
+      "state": "formatted",
+      "english": "3000 x 10,000 yen"
+    },
+    {
+      "source": "999999万円",
+      "state": "formatted",
+      "english": "999999 x 10,000 yen"
+    },
+    {
+      "source": "３０００万",
+      "state": "formatted",
+      "english": "3000 x 10,000 yen"
+    },
+    {
+      "source": "3000万",
+      "state": "formatted",
+      "english": "3000 x 10,000 yen"
+    },
+    {
+      "source": "3000円",
+      "state": "unknown",
+      "english": ""
+    },
+    {
+      "source": "foo万円",
+      "state": "unknown",
+      "english": ""
+    },
+    {
+      "source": "3.5万円",
+      "state": "unknown",
+      "english": ""
+    },
+    {
+      "source": "-1万円",
+      "state": "formatted",
+      "english": "-1 x 10,000 yen"
+    }
+  ],
+  "newly_covered_numeric_cases": 8,
+  "existing_short_suffix_cases_unchanged": 2,
+  "unrelated_noninteger_cases_unchanged": 3,
+  "all_prior_catalogue_rows_unchanged": 19130,
+  "catalogue_records": 19131,
+  "unique_fingerprints": 18832,
+  "status_counts": {
+    "reviewed": 9924,
+    "draft": 3557,
+    "game-roster-family": 5650
+  },
+  "windows_executable_sha256": "2747541873ec3d4f7313694b0614de4e09465af2c095cb2322a04a3f951c196c",
+  "generated_header_sha256": "5377db18250b5413bb6c136428e8ebcd47b198f0d612e1e10efefdec0433fb5f",
+  "pending": "Live contract amount placement and wrapping. No live game or performance test was run."
+}

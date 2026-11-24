@@ -134122,5 +134122,13 @@
     "source_hash": "DC2DE80AC00B8259",
     "english": "Too many Specials selected.",
     "status": "draft"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "22A74A82DB0A8049",
+    "english": "%d x 10,000 yen",
+    "status": "reviewed",
+    "format_source": "%d万円"
   }
 ]

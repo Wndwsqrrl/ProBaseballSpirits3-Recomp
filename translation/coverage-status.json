@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "catalogue_records": 19130,
-  "unique_fingerprints": 18831,
+  "catalogue_records": 19131,
+  "unique_fingerprints": 18832,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Contract-renewal amounts ending in 万円 now have a full numeric renderer pattern, using the existing x 10,000 yen notation. Eight newly covered numeric cases, two short-suffix regressions and three unrelated nonmatches passed the compiled audit; the Windows build passed. Native amount buffers are unchanged.",
     "Integrated exact renderer lookups for all 112 Spirits training names/descriptions (108 unique sources). The compiled audit and Windows build passed, with all prior catalogue rows and native table data preserved. The training-card display route and live wrapping remain unverified.",
     "All three Spirits start-demo headings and six mission heading variants now fit their declared alternate UV tiles. Compound mission labels use separate prefix/suffix tiles. Decoded crop comparisons and all 2223 archive members passed; live animation and assembled placement still need testing.",
     "Twelve clipped labels refitted to native sprite crops across 11 atlases/7 members. Decoded crop comparisons and the full 2223-member archive check passed; 2112 untouched members, packed text and unrelated surfaces remain unchanged. Complete uses joined strips; mission/start-demo animations still require UV-state checks.",
@@ -88,6 +89,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Live contract-renewal salary amounts, including the full 万円 suffix, amount-column spacing and wrapping",
     "Confirm the Spirits training table display route and all 56 names/56 descriptions in game; exact lookups are compiled but placement is unverified",
     "Live confirmation of the 12 static crop repairs plus all mission prefix/suffix and Spirits start-demo animation states",
     "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
@@ -1078,5 +1080,16 @@
     "native_display_route_verified": false,
     "live_screen_placement_checked": false,
     "report": "spirits-training-integration-validation.json"
+  },
+  "contract_currency_review": {
+    "runtime_patterns_added": 1,
+    "compiled_cases": 13,
+    "new_numeric_cases_covered": 8,
+    "short_suffix_regression_cases": 2,
+    "unrelated_nonmatches_preserved": 3,
+    "windows_build_passed": true,
+    "native_buffers_unchanged": true,
+    "interactive_validation": false,
+    "report": "contract-currency-validation.json"
   }
 }

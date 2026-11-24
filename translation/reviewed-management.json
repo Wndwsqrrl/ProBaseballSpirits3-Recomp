@@ -742,6 +742,12 @@
       "source": "%sと契約しますか？",
       "english": "Sign %s?",
       "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d万円",
+      "english": "%d x 10,000 yen",
+      "status": "reviewed"
     }
   ],
   "pending_stat_definitions": {},
