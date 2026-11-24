@@ -23432,7 +23432,7 @@
     "address": "0x8208C000",
     "source_size": 365,
     "source_hash": "7005EE5E0D66B239",
-    "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Earn them by completing designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock<RGB 0x7d5300> Awakening missions that improve<BR>player abilities<RGB 0x7f7f7f> and help players make major progress!<BOTTOM><+LR>Switch <○>Close     3/4",
+    "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Earn them by completing designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock<RGB 0x7d5300> Boost missions that improve<BR>player abilities<RGB 0x7f7f7f> and help players make major progress!<BOTTOM><+LR>Switch <○>Close     3/4",
     "status": "reviewed"
   },
   {
@@ -23467,7 +23467,7 @@
     "address": "0x8208CA70",
     "source_size": 349,
     "source_hash": "B310085B24DDDBD4",
-    "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Any top-team position player can earn them through<BR>designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock an<RGB 0x7d5300> Awakening mission<RGB 0x7f7f7f>!<BOTTOM><+LR>Switch <○>Close     4/6",
+    "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Any position player on the active roster can earn<BR>points through designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock an<RGB 0x7d5300> Boost mission<RGB 0x7f7f7f>!<BOTTOM><+LR>Switch <○>Close     4/6",
     "status": "reviewed"
   },
   {
@@ -23516,21 +23516,21 @@
     "address": "0x8208D610",
     "source_size": 312,
     "source_hash": "3936BC3AC6143C4B",
-    "english": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Condition<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
+    "english": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Form<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
     "status": "reviewed"
   },
   {
     "address": "0x8208D750",
     "source_size": 426,
     "source_hash": "EB88CFCB43BA8ABD",
-    "english": "[<RGB 0x00785f>Selecting Missions<RGB 0x7f7f7f>]<BR>Assess your team and choose the<RGB 0x7d5300> missions<RGB 0x7f7f7f> it needs.<BR><BR>Take on as many<RGB 0x00785f> Coach Capacity<RGB 0x7f7f7f> allows, selecting<RGB 0x7d5300><BR>missions<RGB 0x7f7f7f> to suit your plans.<BR><BR>However,<RGB 0x7d5300> each player can have only one training<BR>assignment<RGB 0x7f7f7f>. Choose carefully.<BOTTOM><+LR>Switch <○>Close     2/5",
+    "english": "[<RGB 0x00785f>Selecting Missions<RGB 0x7f7f7f>]<BR>Assess your team and choose the<RGB 0x7d5300> missions<RGB 0x7f7f7f> it needs.<BR><BR>Take on as many as<RGB 0x00785f> Coach Capacity<RGB 0x7f7f7f> allows. Select<RGB 0x7d5300><BR>missions<RGB 0x7f7f7f> to suit your plans.<BR><BR>However,<RGB 0x7d5300> each player can have only one training<BR>assignment<RGB 0x7f7f7f>. Choose carefully.<BOTTOM><+LR>Switch <○>Close     2/5",
     "status": "reviewed"
   },
   {
     "address": "0x8208D900",
     "source_size": 514,
     "source_hash": "5E322035E0397512",
-    "english": "[<RGB 0x00785f>Spring Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Action Points<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
+    "english": "[<RGB 0x00785f>Training Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Capacity<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
     "status": "reviewed"
   },
   {
@@ -31188,7 +31188,7 @@
     "address": "0x82099328",
     "source_size": 22,
     "source_hash": "75F3A5690BF271C8",
-    "english": "%s's Awakening Mission",
+    "english": "%s's Boost Mission",
     "status": "reviewed"
   },
   {
@@ -95042,7 +95042,7 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E1B30BFF7D8393B6",
-    "english": "Coach Action Points",
+    "english": "Coach Capacity",
     "status": "reviewed"
   },
   {

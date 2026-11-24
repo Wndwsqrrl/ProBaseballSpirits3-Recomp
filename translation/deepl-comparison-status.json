@@ -257,8 +257,19 @@
       "unique_source_fingerprints": 108,
       "report": "spirits-training-accuracy-validation.json",
       "native_display_route_verified": false
+    },
+    {
+      "area": "Pennant mission, camp, preparation and offseason help",
+      "help_pages_context_reviewed": 34,
+      "help_pages_with_stat_naming_follow_up": 2,
+      "catalogue_rows_corrected": 7,
+      "compiled_cases": 40,
+      "curation_reproduction_checks": 35,
+      "report": "mission-help-accuracy-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 117,
-  "reviewed_training_fields_not_requiring_deepl": 1
+  "distinct_deepl_input_sources_context_reviewed": 153,
+  "reviewed_training_fields_not_requiring_deepl": 1,
+  "context_reviewed_sources_with_wording_follow_up": 2
 }

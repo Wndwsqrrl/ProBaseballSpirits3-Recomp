@@ -1,0 +1,498 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "d27e7cf97ade7706eb11124e3a220f540d211150",
+  "catalogue_rows_corrected": 7,
+  "address_backed_rows_corrected": 6,
+  "fragment_rows_corrected": 1,
+  "changes": [
+    {
+      "address": "0x8208C000",
+      "source_hash": "7005EE5E0D66B239",
+      "previous_english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Earn them by completing designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock<RGB 0x7d5300> Awakening missions that improve<BR>player abilities<RGB 0x7f7f7f> and help players make major progress!<BOTTOM><+LR>Switch <○>Close     3/4",
+      "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Earn them by completing designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock<RGB 0x7d5300> Boost missions that improve<BR>player abilities<RGB 0x7f7f7f> and help players make major progress!<BOTTOM><+LR>Switch <○>Close     3/4",
+      "previous_layout_estimate": {
+        "lines": 7,
+        "widest_line_px": 544.0
+      },
+      "new_layout_estimate": {
+        "lines": 7,
+        "widest_line_px": 544.0
+      }
+    },
+    {
+      "address": "0x8208CA70",
+      "source_hash": "B310085B24DDDBD4",
+      "previous_english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Any top-team position player can earn them through<BR>designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock an<RGB 0x7d5300> Awakening mission<RGB 0x7f7f7f>!<BOTTOM><+LR>Switch <○>Close     4/6",
+      "english": "[<RGB 0x00785f>MCP<RGB 0x7f7f7f>]<BR>Short for<RGB 0x7d5300> Mission Clear Points<RGB 0x7f7f7f>.<BR><BR>Any position player on the active roster can earn<BR>points through designated<RGB 0x7d5300> MCP missions<RGB 0x7f7f7f>.<BR><BR>Collect enough to unlock an<RGB 0x7d5300> Boost mission<RGB 0x7f7f7f>!<BOTTOM><+LR>Switch <○>Close     4/6",
+      "previous_layout_estimate": {
+        "lines": 7,
+        "widest_line_px": 507.0
+      },
+      "new_layout_estimate": {
+        "lines": 7,
+        "widest_line_px": 468.0
+      }
+    },
+    {
+      "address": "0x8208D610",
+      "source_hash": "3936BC3AC6143C4B",
+      "previous_english": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Condition<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
+      "english": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Form<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 1117.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 1085.0
+      }
+    },
+    {
+      "address": "0x8208D750",
+      "source_hash": "EB88CFCB43BA8ABD",
+      "previous_english": "[<RGB 0x00785f>Selecting Missions<RGB 0x7f7f7f>]<BR>Assess your team and choose the<RGB 0x7d5300> missions<RGB 0x7f7f7f> it needs.<BR><BR>Take on as many<RGB 0x00785f> Coach Capacity<RGB 0x7f7f7f> allows, selecting<RGB 0x7d5300><BR>missions<RGB 0x7f7f7f> to suit your plans.<BR><BR>However,<RGB 0x7d5300> each player can have only one training<BR>assignment<RGB 0x7f7f7f>. Choose carefully.<BOTTOM><+LR>Switch <○>Close     2/5",
+      "english": "[<RGB 0x00785f>Selecting Missions<RGB 0x7f7f7f>]<BR>Assess your team and choose the<RGB 0x7d5300> missions<RGB 0x7f7f7f> it needs.<BR><BR>Take on as many as<RGB 0x00785f> Coach Capacity<RGB 0x7f7f7f> allows. Select<RGB 0x7d5300><BR>missions<RGB 0x7f7f7f> to suit your plans.<BR><BR>However,<RGB 0x7d5300> each player can have only one training<BR>assignment<RGB 0x7f7f7f>. Choose carefully.<BOTTOM><+LR>Switch <○>Close     2/5",
+      "previous_layout_estimate": {
+        "lines": 8,
+        "widest_line_px": 376.0
+      },
+      "new_layout_estimate": {
+        "lines": 8,
+        "widest_line_px": 376.0
+      }
+    },
+    {
+      "address": "0x8208D900",
+      "source_hash": "5E322035E0397512",
+      "previous_english": "[<RGB 0x00785f>Spring Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Action Points<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
+      "english": "[<RGB 0x00785f>Training Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Capacity<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
+      "previous_layout_estimate": {
+        "lines": 6,
+        "widest_line_px": 785.0
+      },
+      "new_layout_estimate": {
+        "lines": 6,
+        "widest_line_px": 754.0
+      }
+    },
+    {
+      "address": "0x82099328",
+      "source_hash": "75F3A5690BF271C8",
+      "previous_english": "%s's Awakening Mission",
+      "english": "%s's Boost Mission",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 176.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 137.0
+      }
+    },
+    {
+      "address": "0x00000000",
+      "source_hash": "E1B30BFF7D8393B6",
+      "source": "コーチ行動力",
+      "previous_english": "Coach Action Points",
+      "english": "Coach Capacity"
+    }
+  ],
+  "official_2026_boost_reference": [
+    {
+      "namespace": "Common",
+      "key": "common_playerdata_awake",
+      "japanese": "覚醒",
+      "english": "Boost"
+    }
+  ],
+  "context_decisions": [
+    "Coach Capacity is the reserved-star mission budget; the native help says stars return when a mission ends. Retain that meaning instead of copying the DeepL sentence that suggests points are spent on completion.",
+    "Boost mission follows the established Boost terminology for 覚醒.",
+    "The MCP eligibility restriction means a position player registered on the active roster.",
+    "Training Camp and Form align these help pages with the existing interface terms.",
+    "Add the missing as in the mission-capacity sentence without changing controls or line breaks."
+  ],
+  "control_token_order_and_counts_preserved": true,
+  "printf_arguments_preserved": true,
+  "line_counts_unchanged": true,
+  "changed_page_maximum_line_width_not_increased": true,
+  "layout_estimate_scope": "Arial 16 px; comparative offline estimates only. Native font scaling, wrapping and live placement remain unchecked.",
+  "unrelated_catalogue_rows_unchanged": true,
+  "source_fields_and_statuses_unchanged": true,
+  "curation_checks_passed": true,
+  "compiled_checks_passed": true,
+  "windows_build_passed": true,
+  "original_game_tables_or_code_unchanged": true,
+  "texture_assets_unchanged": true,
+  "interactive_validation": false,
+  "full_manual_accuracy_review_complete": false,
+  "entire_game_english": false,
+  "pending": [
+    "Live help-page wrapping and the formatted Boost Mission name with actual players.",
+    "Unify Starter Prep/Starter Recovery against the Starter Conditioning reference after checking all affected stat labels and layouts."
+  ],
+  "curation_reproduction_checks": 35,
+  "compiled_cases": 40,
+  "compiled_exact_cases": 36,
+  "compiled_filled_mission_name_cases": 4,
+  "windows_executable_sha256": "eb6c50be4647f8747231d862f668050e7d7ee14626a230db1ef69defce48a8cf",
+  "generated_header_sha256": "4f81bd178410d85665df4b7d5cbbe29cd56bb6e11aac0306d75025f91b494cb1",
+  "help_pages_context_reviewed": 34,
+  "help_pages_with_stat_naming_follow_up": 2,
+  "help_page_reviews": [
+    {
+      "fallback_index": 22,
+      "address": "0x8208CA70",
+      "source_hash": "B310085B24DDDBD4",
+      "deepl_meaning_example_id": "c5f4733e6ec7ea39a8cd23e409d173c2e4d3a2bd2e3674b5c1aeb318dfc9062b",
+      "source_meaning_checked": true,
+      "current_english_hash": "63c4a1d84d3b50cfd254211329909c5b3efecc8dd0f94b5d29da94e742110f18",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 23,
+      "address": "0x8208C000",
+      "source_hash": "7005EE5E0D66B239",
+      "deepl_meaning_example_id": "24e7b2b2b70287670051b79497f59202d210b692c2b4a2fb6f16e9ea123b61d7",
+      "source_meaning_checked": true,
+      "current_english_hash": "36d9f8db0610cb995758b9a057a203a455fc7f1819cb1e2e9238572b5f358acf",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 24,
+      "address": "0x8208BD58",
+      "source_hash": "98410DD478F556D1",
+      "deepl_meaning_example_id": "f42dbf13f83148dc7da199fc1c81e82bfa09144af59d465df0c0e2ee77c91d13",
+      "source_meaning_checked": true,
+      "current_english_hash": "f26ac0986edb6fa99d0c46f30080da1153f1cdf5f0e6998fc13a5f25375de53b",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 25,
+      "address": "0x8208C7C8",
+      "source_hash": "9FFCA2D47D1334E0",
+      "deepl_meaning_example_id": "6fc2041459dc2b3b0ffb591f145d74b992b3e96584c8a124b65794d0f70b5539",
+      "source_meaning_checked": true,
+      "current_english_hash": "432ec978704fe520a8325b24277440ccfa689d6e8f008418a78c9a92fa858404",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 26,
+      "address": "0x82093D50",
+      "source_hash": "1D34B12649ED670D",
+      "deepl_meaning_example_id": "839d08225b733b4ebb7fe930e31a452d86b76c25da5fe56a0d7bfe802efd0ee7",
+      "source_meaning_checked": true,
+      "current_english_hash": "ad11c542fcdf10b51253345a7b5c5ae365bc9f258752dd40a11575c8fb18caec",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 27,
+      "address": "0x820944E0",
+      "source_hash": "0377B97995C5C086",
+      "deepl_meaning_example_id": "8ce73e820695fda26f99e084ab0cf910888f2490303390727aabeaa78917b0dc",
+      "source_meaning_checked": true,
+      "current_english_hash": "61b1ca72e6c2e75dd5b9e3eb44397804bcaec111f951a589436687818527379b",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 28,
+      "address": "0x820952C8",
+      "source_hash": "724393F47AF74B68",
+      "deepl_meaning_example_id": "2394b6eb24aaace6cddebbbfdced4d9efd14d446ee6bd6c068823ab4f7b6bf21",
+      "source_meaning_checked": true,
+      "current_english_hash": "15949a524076bcfc756de0e19598d81a0617263a3b33dcfe3b39db39fd7767a2",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 29,
+      "address": "0x820959A8",
+      "source_hash": "6553B6546E9601D2",
+      "deepl_meaning_example_id": "e3e9c1b7af2f1668c7854452ed40406013fd5361243b7416251867e7f8ed080e",
+      "source_meaning_checked": true,
+      "current_english_hash": "4ff77fea5640bd5ac97fde3ee6ce62075f4fffda151315a6675513b53e7e886a",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 30,
+      "address": "0x8208D900",
+      "source_hash": "5E322035E0397512",
+      "deepl_meaning_example_id": "b0e1285b87d587322b1c9c8f9e40e70c2c6f73dc800b80a0c86f0d758844768b",
+      "source_meaning_checked": true,
+      "current_english_hash": "d2b496345a148ec3e96b8a1ca69e25a1b3f26e5ec5d977785cefa8dc46c38474",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 31,
+      "address": "0x8208C5E0",
+      "source_hash": "4579DD47357CEE72",
+      "deepl_meaning_example_id": "736f6b4f17dae5be67dae304cb77dd448012f122af69942e4ce457921df05d0d",
+      "source_meaning_checked": true,
+      "current_english_hash": "8a52559811c98bae7d64baeb139771ef584ff476511dadfe4ca5db8ce8d392a3",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 32,
+      "address": "0x8209C9C8",
+      "source_hash": "FA52CB742A77F364",
+      "deepl_meaning_example_id": "611dc309412a0be9cd9956102136834f5a87159ecae335bc9340c64d01f02945",
+      "source_meaning_checked": true,
+      "current_english_hash": "441173137d441c994ad1346ca1f6b79a622b297502084a31126a902834284873",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 33,
+      "address": "0x820966E0",
+      "source_hash": "C7E9B212EE0F4CA6",
+      "deepl_meaning_example_id": "4eda5b104a906fccdd62f483a47072f38d77f77db212d3132a43c8a1916a1410",
+      "source_meaning_checked": true,
+      "current_english_hash": "6607c69b328794d54f6aee9397b66ef82b9ac44a1cc9f17f65d2d1a722e54e87",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 34,
+      "address": "0x82095E50",
+      "source_hash": "ACCF73DF8C9333D5",
+      "deepl_meaning_example_id": "e74cf6dcfd4a38a8052e1675361e8d4fb267c31507031b798cb18c61bfc50737",
+      "source_meaning_checked": true,
+      "current_english_hash": "54240883dc64d197df7bc222879dcad8348485138b0d7e098c52c6ce6c80378d",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 35,
+      "address": "0x82093E88",
+      "source_hash": "7DA98AE87804FD8A",
+      "deepl_meaning_example_id": "8cfaa86d04f8ca2edf8250a6d6aa1e373444b61b09c6557a76e3e6c140efde01",
+      "source_meaning_checked": true,
+      "current_english_hash": "3b2d2a36b53cfb6e686fca0613fab40fb2a5ba22eabcb5bd1040037d165f64e2",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 36,
+      "address": "0x82095C30",
+      "source_hash": "ADA437CEB5DE85AB",
+      "deepl_meaning_example_id": "5f6f9b97efa6a89369fd196e6c1b6e44e003f6fe906d903e77211b69b4959a34",
+      "source_meaning_checked": true,
+      "current_english_hash": "5eb40a25cd7d9b759dc14a238fa8f2dc684cc330577566fb0e8ecd79f3fd3896",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 37,
+      "address": "0x82096070",
+      "source_hash": "759C5CFEBB4FA2E6",
+      "deepl_meaning_example_id": "98d4e46f4928e18736243c93852efa268e4c2b80e363ace93d3d333b89a56c87",
+      "source_meaning_checked": true,
+      "current_english_hash": "02ab31a6aba7489e05da6a2f812a1d472652225d092b2b617310cb7835bd1b9c",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 38,
+      "address": "0x8208CFC8",
+      "source_hash": "150E6BB57645FBC8",
+      "deepl_meaning_example_id": "7e3754225886aafd5745e20c50385826ea381a3df0195861af03dcb15a41f8b8",
+      "source_meaning_checked": true,
+      "current_english_hash": "a05789b59fb794be9e43b49db27fb6d6fbf27780b93b860561eec81af0945d58",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 39,
+      "address": "0x8208C170",
+      "source_hash": "64DAA4AEB8CDF9E4",
+      "deepl_meaning_example_id": "d8752c58925ea16edbd3619b1bf4e235d04026a8976ead57991173673d470e9d",
+      "source_meaning_checked": true,
+      "current_english_hash": "d9920a93230790c96e990b86200d9c9abd8c3266deb70acdd7238b3491aa901b",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 40,
+      "address": "0x8208CBD0",
+      "source_hash": "5C45EFAEB3F7F4B5",
+      "deepl_meaning_example_id": "72ac93d9ec4b4a3865c9422ce8590dc0602ef83d2dcd970ff8c61ff17e4e856b",
+      "source_meaning_checked": true,
+      "current_english_hash": "6db638e75b0e7f8a6e8556bc179b9b85703d4b8c54f7057aeb1808e0e3713212",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 41,
+      "address": "0x8208D750",
+      "source_hash": "EB88CFCB43BA8ABD",
+      "deepl_meaning_example_id": "8bc83d30d0abe822ad33a8b49b7de12039e02812fcf235485c008f191dbec74a",
+      "source_meaning_checked": true,
+      "current_english_hash": "d109132903c961d7dc043545ad404e83cbcbc00c36f8dc61c4def8143ccaf689",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 42,
+      "address": "0x8208CDE8",
+      "source_hash": "1908E6F185E4D102",
+      "deepl_meaning_example_id": "b67139394194e16b486747fab39f57e58373ec80111b39fc56b16ad283bd92bc",
+      "source_meaning_checked": true,
+      "current_english_hash": "9f758e58caa215a276aee33a38e81a42bc882b382556dd42ffaa86cb2eb277e0",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 43,
+      "address": "0x82088FD8",
+      "source_hash": "D90EB494A7FD1CCD",
+      "deepl_meaning_example_id": "744799603223a2eece22bbb91c27908730c2da4428a21a7e2c2866a3aad47c59",
+      "source_meaning_checked": true,
+      "current_english_hash": "851cb54a61c65e58d7fe65b03de65073afb04ece0bf7ff81553d388363dfaeb4",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 44,
+      "address": "0x82088D08",
+      "source_hash": "AD23EC8B6168C420",
+      "deepl_meaning_example_id": "d5fc012be6a9a43fc10834c279c14c3de278b4d07ba6c91503a5ab132aba6f78",
+      "source_meaning_checked": true,
+      "current_english_hash": "76f59f277ee21c779ad3e3d6fb5aeff6bcc038a2f392b92233cae1bf2de855ef",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 45,
+      "address": "0x82089250",
+      "source_hash": "60287DD783E54A52",
+      "deepl_meaning_example_id": "7836d4097d4343d90414c2bade27b58c87558220055b306d9d035fb547c422fc",
+      "source_meaning_checked": true,
+      "current_english_hash": "1650c03c224959a36e8df143e9678b08feb1c1ca5a4708f370dd49b60817d900",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 46,
+      "address": "0x820889B0",
+      "source_hash": "5872A18F556087B3",
+      "deepl_meaning_example_id": "cee387f6ebeeb50d746ee1c763627902f31d41bf805bb4fab191efd3f4d9d9ef",
+      "source_meaning_checked": true,
+      "current_english_hash": "48cbf035501502c9a3502fb9c29ac88d1d2267c35d9726be6cff7dfddd7e7e72",
+      "terminology_follow_up_required": true,
+      "decision": "Source mechanics retained; starter-stat naming still requires the recorded cross-interface terminology follow-up."
+    },
+    {
+      "fallback_index": 47,
+      "address": "0x8209C810",
+      "source_hash": "38E0744CEAD2AD92",
+      "deepl_meaning_example_id": "853d4d56a1cdf16bbb44c4bb5ddb0b5610318601da3100b7ae73f4214a96b747",
+      "source_meaning_checked": true,
+      "current_english_hash": "551b919ccb67ffc44bbcd8662719d39d8ce38a9d96e37923220a77b7679867ad",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 48,
+      "address": "0x82094040",
+      "source_hash": "664EF5C5BD89DD0D",
+      "deepl_meaning_example_id": "594d257ffde4c4408b174a656c0f516da7779e556373ad1a20f0a2c20f16e8c5",
+      "source_meaning_checked": true,
+      "current_english_hash": "7533128f9dda9b857108d55a3521eefed4bfebf6679af2a9d35445f92736238e",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 49,
+      "address": "0x82095060",
+      "source_hash": "B0989848FAF68BA8",
+      "deepl_meaning_example_id": "2069754c022e6279c9493ef5d4b9dc6733656358132d2ab2476425fc3a993d9b",
+      "source_meaning_checked": true,
+      "current_english_hash": "c9f5b781e162ccf15d8683dbbf252bad4120917aaf53960dadb240e3dd5c413f",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 50,
+      "address": "0x8208D220",
+      "source_hash": "CE8F47F5BFF7C0AB",
+      "deepl_meaning_example_id": "0611d52b86b073b339bae9cd139131cd3b469d3d5e2a229f56851daa36cdf8c0",
+      "source_meaning_checked": true,
+      "current_english_hash": "27762ad3bbca4796fd5d64ad2bd0c88c7d912d649ef51986af92238cadf409ca",
+      "terminology_follow_up_required": true,
+      "decision": "Source mechanics retained; starter-stat naming still requires the recorded cross-interface terminology follow-up."
+    },
+    {
+      "fallback_index": 51,
+      "address": "0x8209C458",
+      "source_hash": "A0AB87EDDA5EC6EE",
+      "deepl_meaning_example_id": "a0093987f04262bb4ecbcaa7e62c95c161bdeafe3deb3ce1e4d444e281860740",
+      "source_meaning_checked": true,
+      "current_english_hash": "362c5a702349f64fe40a40ec6484895c0d41444cad2b8dc19d5f458430c35294",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 52,
+      "address": "0x8209C610",
+      "source_hash": "82E0E7ED2189A872",
+      "deepl_meaning_example_id": "4622a9f74055335cc9fd49b9e88ee8f47c6493eee09f10e9b1379b0c50ef9f4e",
+      "source_meaning_checked": true,
+      "current_english_hash": "1e72cba8690f6366dfa2d00b89e97608020e6d2cabbdac71886db73d65568dae",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 53,
+      "address": "0x82094398",
+      "source_hash": "295D6CCFF8B50A91",
+      "deepl_meaning_example_id": "9686507e0577e3134defa4bb7869cadc6bf7629cb17c88796b0b6904f9597742",
+      "source_meaning_checked": true,
+      "current_english_hash": "3b933a9433302836c6ebba254a49b1cfa0431e175f3c638cf70336a8905fe736",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 54,
+      "address": "0x8208D400",
+      "source_hash": "4A1526A9C2D21EC1",
+      "deepl_meaning_example_id": "c460fca83073589a6bd7e3b3c682ca1d0a57c730266f1f4d15d6271d3b87b452",
+      "source_meaning_checked": true,
+      "current_english_hash": "9f9df742b5cc3880192900b30da29ac6208e55537f012ed91d4adcff0a312cb9",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    },
+    {
+      "fallback_index": 55,
+      "address": "0x8208D610",
+      "source_hash": "3936BC3AC6143C4B",
+      "deepl_meaning_example_id": "a55d00bb413acf862b26b4cf3a4f03f846377993fe7b766b8aa0733cc3d2730f",
+      "source_meaning_checked": true,
+      "current_english_hash": "c4323adb29042b616d1d39d0dff8950db50e39dec02b5745e00720aa55fc630e",
+      "terminology_follow_up_required": false,
+      "decision": "Source requirements, effects and warnings preserved; returned DeepL markup is not used."
+    }
+  ],
+  "deepl_cache_only": true,
+  "no_new_service_requests": true,
+  "reviewed_mechanics": [
+    "MCP eligibility and timed objectives; failure ends a chain and rewards grow with successive clears.",
+    "Coach stars are reserved for active missions and return when a mission ends.",
+    "Game-count deadlines advance on played games; day-count deadlines also advance on rainouts and travel days.",
+    "Waiver order uses the source game's prior-season standings and alternates leagues; retain the 2005-era rule.",
+    "Custom draft players must be Japanese; the free-agency help does not state that restriction.",
+    "Real-player 2005 draft and free-agent entry is grouped, not individual; historical results differ from a what-if replay.",
+    "Starter Stamina builds daily and is lost on an appearance or changing away from Starter preparation.",
+    "Relief preparation recovers little fatigue on game days but behaves like Rest on days without games.",
+    "Pitching while assigned to Rest reduces both expected performance and fatigue recovery.",
+    "Fielder conversion slightly reduces defense at the original position and improves with repeated camps."
+  ]
+}
