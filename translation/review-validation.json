@@ -22,6 +22,8 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "DeepL comparison responses received for all 9559 distinct known inputs. All 25410 comparison records have source text. Fifty-four XML-control and 22 additional Pennant-control cases have separate meaning-only examples. Ten initial texture-context decisions retain verified baseball terminology; the full manual accuracy review and live placement remain pending.",
+    "Corrected the lineup inactive-status legend (previously Tired), clarified Power and both stamina bars using 2026 terminology, and changed batting-order labels to Bat First/Bat Last. All 57 missing original texture sources were transcribed from decoded crops. All 2098 localized texture occurrences now have source metadata; all 2223 archive members passed verification.",
     "Contract-renewal amounts ending in 万円 now have a full numeric renderer pattern, using the existing x 10,000 yen notation. Eight newly covered numeric cases, two short-suffix regressions and three unrelated nonmatches passed the compiled audit; the Windows build passed. Native amount buffers are unchanged.",
     "Integrated exact renderer lookups for all 112 Spirits training names/descriptions (108 unique sources). The compiled audit and Windows build passed, with all prior catalogue rows and native table data preserved. The training-card display route and live wrapping remain unverified.",
     "All three Spirits start-demo headings and six mission heading variants now fit their declared alternate UV tiles. Compound mission labels use separate prefix/suffix tiles. Decoded crop comparisons and all 2223 archive members passed; live animation and assembled placement still need testing.",
@@ -62,6 +64,8 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Complete the manual DeepL accuracy review, including 76 formatting-sensitive meaning examples; service responses alone do not approve wording or placement",
+    "Live Inact./Power/Basic Stamina/Starter Stamina legend readability and Bat First/Bat Last team-selection placement",
     "Live contract-renewal salary amounts, including the full 万円 suffix, amount-column spacing and wrapping",
     "Confirm the Spirits training table display route and all 56 names/56 descriptions in game; exact lookups are compiled but placement is unverified",
     "Live confirmation of the 12 static crop repairs plus all mission prefix/suffix and Spirits start-demo animation states",
@@ -964,7 +968,7 @@
     "interactive_validation": false,
     "follow_up_report": "alternate-sprite-crop-validation.json"
   },
-  "latest_asset_layout_report": "alternate-sprite-crop-validation.json",
+  "latest_asset_layout_report": "texture-source-wording-validation.json",
   "alternate_sprite_crop_review": {
     "source_heading_variants": 9,
     "output_sprite_tiles": 15,
@@ -1003,5 +1007,29 @@
     "native_buffers_unchanged": true,
     "interactive_validation": false,
     "report": "contract-currency-validation.json"
+  },
+  "texture_source_and_wording_review": {
+    "source_transcriptions_added": 57,
+    "localized_texture_occurrences_with_source": 2098,
+    "localized_texture_occurrences_missing_source": 0,
+    "english_labels_corrected": 6,
+    "atlases_updated": 2,
+    "archive_members_verified": 2223,
+    "untouched_archive_members_verified": 2112,
+    "decoded_previews_checked": true,
+    "interactive_validation": false,
+    "report": "texture-source-wording-validation.json"
+  },
+  "deepl_comparison": {
+    "inventory_records": 25410,
+    "inventory_records_with_source": 25410,
+    "distinct_deepl_inputs": 9559,
+    "responses_received": 9559,
+    "meaning_only_fallback_examples": 76,
+    "service_pass_complete": true,
+    "full_manual_accuracy_review_complete": false,
+    "automatic_patch_replacements": 0,
+    "initial_context_sources_reviewed": 10,
+    "report": "deepl-comparison-status.json"
   }
 }

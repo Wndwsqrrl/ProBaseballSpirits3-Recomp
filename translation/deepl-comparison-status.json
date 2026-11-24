@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "108119c8d4144a39eaa4dec8df4caa6f3c3fbc71",
+  "inventory_records": 25410,
+  "inventory_records_with_source": 25410,
+  "localized_texture_source_records": 2098,
+  "distinct_deepl_inputs": 9559,
+  "source_characters_before_control_protection": 170493,
+  "responses_received": 9559,
+  "protected_xml_control_flags": 54,
+  "additional_pennant_control_flags": 22,
+  "meaning_only_fallback_examples": 76,
+  "all_flagged_sources_have_meaning_examples": true,
+  "service_pass_complete": true,
+  "full_manual_accuracy_review_complete": false,
+  "initial_context_decisions": [
+    {
+      "source": "アベレージヒッター",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "SLOT.CHK/SLOT_RKslot_tk_a.tsr/0",
+          "english": "Consistent"
+        }
+      ],
+      "deepl_comparison": "Average Hitter",
+      "decision": "Retain Consistent for the slot ability, matching the official Spirits ability rather than the generic settings label.",
+      "official_2026_reference": [
+        {
+          "namespace": "Spirits",
+          "key": "spirits_abi_name_average_hitter",
+          "japanese": "アベレージヒッター",
+          "english": "Consistent"
+        }
+      ]
+    },
+    {
+      "source": "おかわり",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "SLOT.CHK/SLOT_RKslot_tk_b.tsr/0",
+          "english": "Power Surge"
+        }
+      ],
+      "deepl_comparison": "More",
+      "decision": "Retain Power Surge for the ability; a literal More or Refill loses the skill context.",
+      "official_2026_reference": [
+        {
+          "namespace": "Common",
+          "key": "common_ui_com_okawari",
+          "japanese": "おかわり",
+          "english": "Power Surge"
+        }
+      ]
+    },
+    {
+      "source": "球威",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_ORhelp.tsr/7",
+          "english": "Power"
+        }
+      ],
+      "deepl_comparison": "Pitch Power",
+      "decision": "Use Power in the compact pitcher legend; the official expanded term is Pitch Power.",
+      "official_2026_reference": [
+        {
+          "namespace": "Common",
+          "key": "common_ui_or_ball_power",
+          "japanese": "球威",
+          "english": "Pitch Power"
+        }
+      ]
+    },
+    {
+      "source": "基礎スタミナ",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_ORhelp.tsr/9",
+          "english": "Basic Stamina"
+        }
+      ],
+      "deepl_comparison": "Basic Stamina",
+      "decision": "Use Basic Stamina to distinguish the first stamina bar.",
+      "official_2026_reference": [
+        {
+          "namespace": "Common",
+          "key": "common_ui_or_basic_stamina",
+          "japanese": "基礎スタミナ",
+          "english": "Basic Stamina"
+        }
+      ]
+    },
+    {
+      "source": "先発スタミナ",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_ORhelp.tsr/10",
+          "english": "Starter Stamina"
+        }
+      ],
+      "deepl_comparison": "Starting Pitcher Stamina",
+      "decision": "Use Starter Stamina to distinguish the starter-specific bar.",
+      "official_2026_reference": [
+        {
+          "namespace": "Common",
+          "key": "common_ui_or_starting_stamina",
+          "japanese": "先発スタミナ",
+          "english": "Starter Stamina"
+        }
+      ]
+    },
+    {
+      "source": "抹消",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_ORhelp.tsr/4",
+          "english": "Inact."
+        }
+      ],
+      "deepl_comparison": "Removed from the roster",
+      "decision": "Use Inact. in the compact roster legend; this means active-roster removal, not tiredness or a Delete command.",
+      "official_2026_reference": []
+    },
+    {
+      "source": "先攻",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_OR_deco_01.tsr/1",
+          "english": "Bat 1st"
+        },
+        {
+          "locator": "TMSEL.CHK/MENU_EXtesele.tsr/0",
+          "english": "Bat First"
+        },
+        {
+          "locator": "STORDER.CHK/GAME_GMstarter_unum.tsr/0",
+          "english": "Bat 1st"
+        },
+        {
+          "locator": "NTORDL.CHK/MENU_OR_deco_01.tsr/1",
+          "english": "Bat 1st"
+        }
+      ],
+      "deepl_comparison": "Batting first",
+      "decision": "Use batting-first wording for batting-order selection; team-selection labels were corrected to Bat First.",
+      "official_2026_reference": []
+    },
+    {
+      "source": "後攻",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "ORDERD.CHK/MENU_OR_deco_01.tsr/0",
+          "english": "Bat 2nd"
+        },
+        {
+          "locator": "TMSEL.CHK/MENU_EXtesele.tsr/1",
+          "english": "Bat Last"
+        },
+        {
+          "locator": "STORDER.CHK/GAME_GMstarter_unum.tsr/1",
+          "english": "Bat 2nd"
+        },
+        {
+          "locator": "NTORDL.CHK/MENU_OR_deco_01.tsr/0",
+          "english": "Bat 2nd"
+        }
+      ],
+      "deepl_comparison": "Batting second",
+      "decision": "Use batting-last wording for batting-order selection; team-selection labels were corrected to Bat Last.",
+      "official_2026_reference": []
+    },
+    {
+      "source": "ウラ",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "GAME2D.CHK/GAME_GM_inning.tsr/2",
+          "english": "Bot"
+        },
+        {
+          "locator": "GAME2D.CHK/GAME_GMframe_inning.tsr/1",
+          "english": "Bot"
+        }
+      ],
+      "deepl_comparison": "Back",
+      "decision": "Retain Bot in the inning HUD: bottom half of the inning, not Back.",
+      "official_2026_reference": []
+    },
+    {
+      "source": "表",
+      "scope": "The listed texture labels only; this is not a global source-string override.",
+      "current_texture_labels": [
+        {
+          "locator": "GAME2D.CHK/GAME_GM_inning.tsr/1",
+          "english": "Top"
+        },
+        {
+          "locator": "GAME2D.CHK/GAME_GMframe_inning.tsr/0",
+          "english": "Top"
+        }
+      ],
+      "deepl_comparison": "Table",
+      "decision": "Retain Top in the inning HUD: top half of the inning, not a table or Front.",
+      "official_2026_reference": []
+    }
+  ],
+  "initial_context_sources_reviewed": 10,
+  "initial_context_label_occurrences_reviewed": 18,
+  "automatic_patch_replacements": 0,
+  "account_characters_used": 160731,
+  "account_character_allowance": 1000000,
+  "credentials_in_repository": false,
+  "review_outputs_kept_local": true,
+  "raw_result_sha256": "6c5a61b66ff1e44c1183adc3d785621a33b084d0ca57a5fa5ec66e0a7058df5c",
+  "input_queue_sha256": "08628bceafbc27aefddbb7c8d1c4342e545304b2be2b395db74d7fca0e330ae6",
+  "meaning_example_sha256": "9cb059489d7d2c0465e15df10e19f7a83ff9c3a7f5bcb2c1ffd021eaa8e9666a",
+  "proper_name_aliases_not_submitted_as_separate_inputs": true,
+  "proper_name_scope": "Generated aliases, roster aliases/fields and announcer-name labels are excluded from standalone requests. Names incidentally sharing runtime sources may still occur. Readings remain checked against native and player references.",
+  "custom_name_source_normalization": [
+    {
+      "native_bytes": "FC54",
+      "comparison_character": "視",
+      "player": "Katayama Hiroshi",
+      "source": "https://npb.jp/bis/players/31535112.html"
+    },
+    {
+      "native_bytes": "FC51",
+      "comparison_character": "渚",
+      "player": "Arakaki Nagisa",
+      "source": "https://npb.jp/bis/players/91195117.html"
+    }
+  ],
+  "exact_average_caption_sources_recovered": 11,
+  "original_game_tables_or_code_modified_by_comparison": false,
+  "protected_stadium_artwork_unchanged": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Review the remaining prose, prompts and context-dependent terminology against DeepL, original Japanese and the official 2026 references.",
+    "Review the 76 formatting-sensitive examples for meaning; do not insert returned markup into the patch.",
+    "Validate any accepted wording changes and their live placement.",
+    "Extend the comparison for any newly discovered player-facing text."
+  ]
+}

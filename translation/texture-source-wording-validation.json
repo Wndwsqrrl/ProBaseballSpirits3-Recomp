@@ -1,0 +1,525 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "108119c8d4144a39eaa4dec8df4caa6f3c3fbc71",
+  "source_transcriptions_added": 57,
+  "source_crops_visually_inspected": true,
+  "transcriptions": [
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 0,
+      "source": "マジペナント",
+      "english": "Pennant"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 1,
+      "source": "MVPペナント",
+      "english": "MVP Pennant"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 2,
+      "source": "名将ペナント",
+      "english": "Manager"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 3,
+      "source": "フリーペナント",
+      "english": "Free Pennant"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 4,
+      "source": "フルメニュー",
+      "english": "Full Menu"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 5,
+      "source": "対戦",
+      "english": "Exhibition"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 6,
+      "source": "トライアル",
+      "english": "Trial"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 7,
+      "source": "ストライクピッチ",
+      "english": "Strike Pitch"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 8,
+      "source": "ホームラン競争",
+      "english": "Home Run Derby"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 9,
+      "source": "クイック対戦",
+      "english": "Quick Match"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 10,
+      "source": "スピリッツ",
+      "english": "Spirits"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 11,
+      "source": "トレーニング",
+      "english": "Training"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 12,
+      "source": "VPショップ",
+      "english": "VP Shop"
+    },
+    {
+      "member": "MAINMENU.CHK",
+      "texture": "MENU_EXmm_mode.tsr",
+      "label_index": 13,
+      "source": "ユーティリティ",
+      "english": "Utility"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 0,
+      "source": "一",
+      "english": "1B"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 1,
+      "source": "二",
+      "english": "2B"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 2,
+      "source": "三",
+      "english": "3B"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 3,
+      "source": "遊",
+      "english": "SS"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 4,
+      "source": "投",
+      "english": "P"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 5,
+      "source": "捕",
+      "english": "C"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 6,
+      "source": "右",
+      "english": "RF"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 7,
+      "source": "中",
+      "english": "CF"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 8,
+      "source": "左",
+      "english": "LF"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 9,
+      "source": "指",
+      "english": "DH"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 10,
+      "source": "右",
+      "english": "R"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 11,
+      "source": "左",
+      "english": "L"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 12,
+      "source": "両",
+      "english": "S"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 13,
+      "source": "打",
+      "english": "PH"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 14,
+      "source": "走",
+      "english": "PR"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 15,
+      "source": "先",
+      "english": "SP"
+    },
+    {
+      "member": "MENU2D.CHK",
+      "texture": "UNION_COM_00posi.tsr",
+      "label_index": 16,
+      "source": "継",
+      "english": "RP"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 0,
+      "source": "絶好調",
+      "english": "Best"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 1,
+      "source": "絶不調",
+      "english": "Worst"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 2,
+      "source": "軽傷",
+      "english": "Minor"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 3,
+      "source": "重症",
+      "english": "Major"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 4,
+      "source": "抹消",
+      "english": "Tired"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 5,
+      "source": "隠す",
+      "english": "Hide"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 6,
+      "source": "コントロール",
+      "english": "Control"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 7,
+      "source": "球威",
+      "english": "Stuff"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 8,
+      "source": "変化量",
+      "english": "Break"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 9,
+      "source": "基礎スタミナ",
+      "english": "Stamina"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "label_index": 10,
+      "source": "先発スタミナ",
+      "english": "Starter"
+    },
+    {
+      "member": "BBMENU.CHK",
+      "texture": "MENU_ETC_nblock_deco2.tsr",
+      "label_index": 0,
+      "source": "対左",
+      "english": "vs L"
+    },
+    {
+      "member": "BBMENU.CHK",
+      "texture": "MENU_ETC_nblock_deco2.tsr",
+      "label_index": 1,
+      "source": "対右",
+      "english": "vs R"
+    },
+    {
+      "member": "TMSEL.CHK",
+      "texture": "MENU_EXtesele.tsr",
+      "label_index": 0,
+      "source": "先攻",
+      "english": "Away"
+    },
+    {
+      "member": "TMSEL.CHK",
+      "texture": "MENU_EXtesele.tsr",
+      "label_index": 1,
+      "source": "後攻",
+      "english": "Home"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_MAT_pw03.tsr",
+      "label_index": 0,
+      "source": "戻る",
+      "english": "Back"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_log_64.tsr",
+      "label_index": 0,
+      "source": "中国",
+      "english": "China"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_log_64.tsr",
+      "label_index": 1,
+      "source": "韓国",
+      "english": "Korea"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_log_64.tsr",
+      "label_index": 2,
+      "source": "中華台北",
+      "english": "Chinese\nTaipei"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COMte_log_64.tsr",
+      "label_index": 3,
+      "source": "無所属",
+      "english": "Unaffiliated"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COM_flag_m.tsr",
+      "label_index": 0,
+      "source": "オリジナル",
+      "english": "Custom"
+    },
+    {
+      "member": "SELECT.CHK",
+      "texture": "MENU_COM_flag_m.tsr",
+      "label_index": 1,
+      "source": "オリジナル",
+      "english": "Custom"
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day12.tsr",
+      "label_index": 0,
+      "source": "（仮） 地方球場 昼",
+      "english": "(Temp.) Regional Stadium - Day"
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_day14.tsr",
+      "label_index": 0,
+      "source": "（仮） USAスタジアム 昼",
+      "english": "(Temp.) USA Stadium - Day"
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit12.tsr",
+      "label_index": 0,
+      "source": "（仮） 地方球場 夜",
+      "english": "(Temp.) Regional Stadium - Night"
+    },
+    {
+      "member": "STSEL.CHK",
+      "texture": "MENU_EXst_nit14.tsr",
+      "label_index": 0,
+      "source": "（仮） USAスタジアム 夜",
+      "english": "(Temp.) USA Stadium - Night"
+    }
+  ],
+  "english_labels_corrected": 6,
+  "changes": [
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "index": 4,
+      "source": "抹消",
+      "previous_english": "Tired",
+      "english": "Inact."
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "index": 7,
+      "source": "球威",
+      "previous_english": "Stuff",
+      "english": "Power"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "index": 9,
+      "source": "基礎スタミナ",
+      "previous_english": "Stamina",
+      "english": "Basic Stamina"
+    },
+    {
+      "member": "ORDERD.CHK",
+      "texture": "MENU_ORhelp.tsr",
+      "index": 10,
+      "source": "先発スタミナ",
+      "previous_english": "Starter",
+      "english": "Starter Stamina"
+    },
+    {
+      "member": "TMSEL.CHK",
+      "texture": "MENU_EXtesele.tsr",
+      "index": 0,
+      "source": "先攻",
+      "previous_english": "Away",
+      "english": "Bat First"
+    },
+    {
+      "member": "TMSEL.CHK",
+      "texture": "MENU_EXtesele.tsr",
+      "index": 1,
+      "source": "後攻",
+      "previous_english": "Home",
+      "english": "Bat Last"
+    }
+  ],
+  "official_2026_contextual_references": [
+    {
+      "namespace": "Common",
+      "key": "common_ui_or_starting_stamina",
+      "japanese": "先発スタミナ",
+      "english": "Starter Stamina"
+    },
+    {
+      "namespace": "Common",
+      "key": "common_ui_or_basic_stamina",
+      "japanese": "基礎スタミナ",
+      "english": "Basic Stamina"
+    },
+    {
+      "namespace": "Common",
+      "key": "common_ui_or_ball_power",
+      "japanese": "球威",
+      "english": "Pitch Power"
+    }
+  ],
+  "context_decisions": [
+    "抹消 denotes active-roster removal, not tiredness. Inact. is a compact legend label for inactive status.",
+    "球威 is Pitch Power in the official English terminology; the compact pitching panel uses Power.",
+    "Both stamina bars retain their distinct Basic Stamina / Starter Stamina names.",
+    "先攻/後攻 specify batting order; Bat First / Bat Last preserves that meaning."
+  ],
+  "staged_members": [
+    {
+      "member": "ORDERD.CHK",
+      "offset": 1098829824,
+      "size": 266688,
+      "before_sha256": "44dd669121cf9b6e55bf823d0e659d6b8bf7c02f69df8431a146dea6fac3b827",
+      "after_sha256": "ee084526f02883774db278e03c6fe49c6932b5c0ee3da2fed3ce71d3f657fb5e",
+      "revised_atlases": [
+        "MENU_ORhelp.tsr"
+      ],
+      "other_surface_payloads_unchanged": 1
+    },
+    {
+      "member": "TMSEL.CHK",
+      "offset": 1555376128,
+      "size": 9500704,
+      "before_sha256": "b35e3f3f9a3a8481199c66728edfd66d713e08001f1438e8afb69ebb41350b44",
+      "after_sha256": "15b37b12809b929ec259b3921cab7193584a8454dbd6f6a4af005cc5b1ef0c22",
+      "revised_atlases": [
+        "MENU_EXtesele.tsr"
+      ],
+      "other_surface_payloads_unchanged": 14
+    }
+  ],
+  "original_rectangles_and_other_english_wording_unchanged": true,
+  "original_nontexture_chunks_and_unrelated_atlases_unchanged": true,
+  "protected_stadium_ad_credit_logo_pixels_unchanged": true,
+  "source_metadata_has_no_rendering_effect": true,
+  "interactive_validation": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "entire_game_english": false,
+  "archive_index_unchanged": true,
+  "decoded_english_atlases_visually_inspected": true,
+  "executable_rebuild_required": false,
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "localized_atlases": 263,
+  "localized_label_occurrences": 2098,
+  "all_localized_labels_have_source_metadata": true,
+  "pending": "Live lineup-legend readability, distinct stamina-bar labels and Bat First/Bat Last selection-screen placement. The source metadata does not establish previously unbound native draw routes."
+}

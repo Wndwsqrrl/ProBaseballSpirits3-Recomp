@@ -8,7 +8,8 @@
           256,
           45
         ],
-        "text": "Pennant"
+        "text": "Pennant",
+        "source": "マジペナント"
       },
       {
         "rect": [
@@ -17,7 +18,8 @@
           256,
           45
         ],
-        "text": "MVP Pennant"
+        "text": "MVP Pennant",
+        "source": "MVPペナント"
       },
       {
         "rect": [
@@ -26,7 +28,8 @@
           256,
           45
         ],
-        "text": "Manager"
+        "text": "Manager",
+        "source": "名将ペナント"
       },
       {
         "rect": [
@@ -35,7 +38,8 @@
           256,
           45
         ],
-        "text": "Free Pennant"
+        "text": "Free Pennant",
+        "source": "フリーペナント"
       },
       {
         "rect": [
@@ -44,7 +48,8 @@
           256,
           45
         ],
-        "text": "Full Menu"
+        "text": "Full Menu",
+        "source": "フルメニュー"
       },
       {
         "rect": [
@@ -53,7 +58,8 @@
           256,
           45
         ],
-        "text": "Exhibition"
+        "text": "Exhibition",
+        "source": "対戦"
       },
       {
         "rect": [
@@ -62,7 +68,8 @@
           256,
           45
         ],
-        "text": "Trial"
+        "text": "Trial",
+        "source": "トライアル"
       },
       {
         "rect": [
@@ -71,7 +78,8 @@
           256,
           45
         ],
-        "text": "Strike Pitch"
+        "text": "Strike Pitch",
+        "source": "ストライクピッチ"
       },
       {
         "rect": [
@@ -80,7 +88,8 @@
           256,
           45
         ],
-        "text": "Home Run Derby"
+        "text": "Home Run Derby",
+        "source": "ホームラン競争"
       },
       {
         "rect": [
@@ -89,7 +98,8 @@
           256,
           45
         ],
-        "text": "Quick Match"
+        "text": "Quick Match",
+        "source": "クイック対戦"
       },
       {
         "rect": [
@@ -98,7 +108,8 @@
           256,
           45
         ],
-        "text": "Spirits"
+        "text": "Spirits",
+        "source": "スピリッツ"
       },
       {
         "rect": [
@@ -107,7 +118,8 @@
           256,
           45
         ],
-        "text": "Training"
+        "text": "Training",
+        "source": "トレーニング"
       },
       {
         "rect": [
@@ -116,7 +128,8 @@
           256,
           45
         ],
-        "text": "VP Shop"
+        "text": "VP Shop",
+        "source": "VPショップ"
       },
       {
         "rect": [
@@ -125,7 +138,8 @@
           256,
           45
         ],
-        "text": "Utility"
+        "text": "Utility",
+        "source": "ユーティリティ"
       }
     ]
   },
@@ -139,7 +153,8 @@
           42
         ],
         "text": "1B",
-        "padding": 4
+        "padding": 4,
+        "source": "一"
       },
       {
         "rect": [
@@ -149,7 +164,8 @@
           42
         ],
         "text": "2B",
-        "padding": 4
+        "padding": 4,
+        "source": "二"
       },
       {
         "rect": [
@@ -159,7 +175,8 @@
           42
         ],
         "text": "3B",
-        "padding": 4
+        "padding": 4,
+        "source": "三"
       },
       {
         "rect": [
@@ -169,7 +186,8 @@
           42
         ],
         "text": "SS",
-        "padding": 4
+        "padding": 4,
+        "source": "遊"
       },
       {
         "rect": [
@@ -179,7 +197,8 @@
           42
         ],
         "text": "P",
-        "padding": 4
+        "padding": 4,
+        "source": "投"
       },
       {
         "rect": [
@@ -189,7 +208,8 @@
           42
         ],
         "text": "C",
-        "padding": 4
+        "padding": 4,
+        "source": "捕"
       },
       {
         "rect": [
@@ -199,7 +219,8 @@
           42
         ],
         "text": "RF",
-        "padding": 4
+        "padding": 4,
+        "source": "右"
       },
       {
         "rect": [
@@ -209,7 +230,8 @@
           42
         ],
         "text": "CF",
-        "padding": 4
+        "padding": 4,
+        "source": "中"
       },
       {
         "rect": [
@@ -219,7 +241,8 @@
           42
         ],
         "text": "LF",
-        "padding": 4
+        "padding": 4,
+        "source": "左"
       },
       {
         "rect": [
@@ -229,7 +252,8 @@
           42
         ],
         "text": "DH",
-        "padding": 4
+        "padding": 4,
+        "source": "指"
       },
       {
         "rect": [
@@ -239,7 +263,8 @@
           42
         ],
         "text": "R",
-        "padding": 4
+        "padding": 4,
+        "source": "右"
       },
       {
         "rect": [
@@ -249,7 +274,8 @@
           42
         ],
         "text": "L",
-        "padding": 4
+        "padding": 4,
+        "source": "左"
       },
       {
         "rect": [
@@ -259,7 +285,8 @@
           42
         ],
         "text": "S",
-        "padding": 4
+        "padding": 4,
+        "source": "両"
       },
       {
         "rect": [
@@ -269,7 +296,8 @@
           42
         ],
         "text": "PH",
-        "padding": 4
+        "padding": 4,
+        "source": "打"
       },
       {
         "rect": [
@@ -279,7 +307,8 @@
           42
         ],
         "text": "PR",
-        "padding": 4
+        "padding": 4,
+        "source": "走"
       },
       {
         "rect": [
@@ -289,7 +318,8 @@
           42
         ],
         "text": "SP",
-        "padding": 4
+        "padding": 4,
+        "source": "先"
       },
       {
         "rect": [
@@ -299,7 +329,8 @@
           42
         ],
         "text": "RP",
-        "padding": 4
+        "padding": 4,
+        "source": "継"
       }
     ]
   },
@@ -319,7 +350,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "絶好調"
       },
       {
         "rect": [
@@ -335,7 +367,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "絶不調"
       },
       {
         "rect": [
@@ -351,7 +384,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "軽傷"
       },
       {
         "rect": [
@@ -367,7 +401,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "重症"
       },
       {
         "rect": [
@@ -376,14 +411,18 @@
           32,
           16
         ],
-        "text": "Tired",
+        "text": "Inact.",
         "padding": 2,
         "background": [
           74,
           74,
           74,
           255
-        ]
+        ],
+        "source": "抹消",
+        "condense": true,
+        "max_font_size": 16,
+        "min_font_size": 13
       },
       {
         "rect": [
@@ -399,7 +438,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "隠す"
       },
       {
         "rect": [
@@ -415,7 +455,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "コントロール"
       },
       {
         "rect": [
@@ -424,14 +465,18 @@
           33,
           17
         ],
-        "text": "Stuff",
+        "text": "Power",
         "padding": 2,
         "background": [
           74,
           74,
           74,
           255
-        ]
+        ],
+        "source": "球威",
+        "condense": true,
+        "max_font_size": 16,
+        "min_font_size": 13
       },
       {
         "rect": [
@@ -447,7 +492,8 @@
           74,
           74,
           255
-        ]
+        ],
+        "source": "変化量"
       },
       {
         "rect": [
@@ -456,14 +502,18 @@
           71,
           17
         ],
-        "text": "Stamina",
+        "text": "Basic Stamina",
         "padding": 2,
         "background": [
           74,
           74,
           74,
           255
-        ]
+        ],
+        "source": "基礎スタミナ",
+        "condense": true,
+        "max_font_size": 16,
+        "min_font_size": 13
       },
       {
         "rect": [
@@ -472,14 +522,18 @@
           73,
           17
         ],
-        "text": "Starter",
+        "text": "Starter Stamina",
         "padding": 2,
         "background": [
           74,
           74,
           74,
           255
-        ]
+        ],
+        "source": "先発スタミナ",
+        "condense": true,
+        "max_font_size": 16,
+        "min_font_size": 13
       }
     ],
     "MENU_OR_deco_01.tsr": [
@@ -559,7 +613,8 @@
           0,
           0,
           255
-        ]
+        ],
+        "source": "対左"
       },
       {
         "rect": [
@@ -575,7 +630,8 @@
           0,
           0,
           255
-        ]
+        ],
+        "source": "対右"
       }
     ]
   },
@@ -588,14 +644,15 @@
           70,
           28
         ],
-        "text": "Away",
+        "text": "Bat First",
         "padding": 2,
         "foreground": [
           68,
           68,
           68,
           255
-        ]
+        ],
+        "source": "先攻"
       },
       {
         "rect": [
@@ -604,14 +661,15 @@
           70,
           28
         ],
-        "text": "Home",
+        "text": "Bat Last",
         "padding": 2,
         "foreground": [
           68,
           68,
           68,
           255
-        ]
+        ],
+        "source": "後攻"
       }
     ]
   },
@@ -626,7 +684,8 @@
         ],
         "text": "Back",
         "padding": 2,
-        "outline_width": 1
+        "outline_width": 1,
+        "source": "戻る"
       }
     ],
     "MENU_COMte_log_64.tsr": [
@@ -651,7 +710,8 @@
           255,
           255,
           255
-        ]
+        ],
+        "source": "中国"
       },
       {
         "rect": [
@@ -674,7 +734,8 @@
           255,
           255,
           255
-        ]
+        ],
+        "source": "韓国"
       },
       {
         "rect": [
@@ -698,7 +759,8 @@
           255,
           255
         ],
-        "align": "center"
+        "align": "center",
+        "source": "中華台北"
       },
       {
         "rect": [
@@ -721,7 +783,8 @@
           68,
           68,
           255
-        ]
+        ],
+        "source": "無所属"
       }
     ],
     "MENU_COM_flag_m.tsr": [
@@ -739,7 +802,8 @@
           110,
           110,
           255
-        ]
+        ],
+        "source": "オリジナル"
       },
       {
         "rect": [
@@ -755,7 +819,8 @@
           110,
           110,
           255
-        ]
+        ],
+        "source": "オリジナル"
       }
     ],
     "MENU_COMte_flg_m.tsr": [
@@ -8859,7 +8924,8 @@
           "reference_texture": "MENU_EXst_day14.tsr",
           "source_sha256": "a4e338b54c9861cf123af13b401cba7b35f3573e65ac738dec2026faa4920ab9",
           "reference_sha256": "0d414caf6e92856c99c4fc515ca15e7dc48bde68e201b1fc6e62df433ce4e905"
-        }
+        },
+        "source": "（仮） 地方球場 昼"
       }
     ],
     "MENU_EXst_day14.tsr": [
@@ -8891,7 +8957,8 @@
           "reference_texture": "MENU_EXst_day12.tsr",
           "source_sha256": "0d414caf6e92856c99c4fc515ca15e7dc48bde68e201b1fc6e62df433ce4e905",
           "reference_sha256": "a4e338b54c9861cf123af13b401cba7b35f3573e65ac738dec2026faa4920ab9"
-        }
+        },
+        "source": "（仮） USAスタジアム 昼"
       }
     ],
     "MENU_EXst_nit12.tsr": [
@@ -8923,7 +8990,8 @@
           "reference_texture": "MENU_EXst_nit14.tsr",
           "source_sha256": "a81f1df5171baa86ff4477f929a6f3cab9df3bee72db648ab32dfe49f1d752c2",
           "reference_sha256": "07592cae02abf61af76a255fc5c9987a62efac142dced9a619a780225f03f312"
-        }
+        },
+        "source": "（仮） 地方球場 夜"
       }
     ],
     "MENU_EXst_nit14.tsr": [
@@ -8955,7 +9023,8 @@
           "reference_texture": "MENU_EXst_nit12.tsr",
           "source_sha256": "07592cae02abf61af76a255fc5c9987a62efac142dced9a619a780225f03f312",
           "reference_sha256": "a81f1df5171baa86ff4477f929a6f3cab9df3bee72db648ab32dfe49f1d752c2"
-        }
+        },
+        "source": "（仮） USAスタジアム 夜"
       }
     ]
   },
