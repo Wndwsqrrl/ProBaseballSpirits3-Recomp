@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-24",
   "catalogue_records": 19018,
   "unique_fingerprints": 18723,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Twelve clipped labels refitted to native sprite crops across 11 atlases/7 members. Decoded crop comparisons and the full 2223-member archive check passed; 2112 untouched members, packed text and unrelated surfaces remain unchanged. Complete uses joined strips; mission/start-demo animations still require UV-state checks.",
     "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
     "Updated 21 existing entries, added four runtime templates for dates, nominee counts and inning labels, and corrected the pitching heading pointer. The Windows build and 33 compiled lookups passed. The newspaper postal label fits the atlas and 2,112 untouched archive members were verified.",
     "Submarine, Medium Speed and CPU Difficulty terminology aligned across 20 entries and generation maps using four 2026 references; 28 compiled lookups, 20 curation guards and the Windows build passed. CPU-help text fits its 320 px estimate budget; source fields, controls, statuses and all name aliases unchanged.",
@@ -58,6 +59,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live confirmation of 12 static crop repairs; animated mission-card prefix/suffix headings and all Spirits start-demo heading states remain unverified",
     "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
     "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
     "Live Submarine motion headings and pitcher-role compounds, Medium Speed settings and CPU Difficulty help placement",
@@ -939,5 +941,19 @@
     "windows_build_passed": true,
     "live_screen_placement_checked": false,
     "report": "headless-formatting-validation.json"
-  }
+  },
+  "static_sprite_crop_review": {
+    "labels_refitted": 12,
+    "atlases_refitted": 11,
+    "archive_members_updated": 7,
+    "native_default_uv_references_checked": true,
+    "native_crops_visually_inspected": true,
+    "all_archive_members_verified": 2223,
+    "untouched_archive_members_verified": 2112,
+    "pending_dynamic_default_cases": 3,
+    "pending_dynamic_atlas_families": 2,
+    "report": "static-sprite-crop-validation.json",
+    "interactive_validation": false
+  },
+  "latest_asset_layout_report": "static-sprite-crop-validation.json"
 }
