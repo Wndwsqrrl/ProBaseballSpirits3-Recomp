@@ -16884,6 +16884,28 @@
           255
         ],
         "adaptive_palette": true
+      },
+      {
+        "rect": [
+          712,
+          36,
+          96,
+          16
+        ],
+        "text": "Third-Class Mail",
+        "source": "第3種郵便認可",
+        "padding": 2,
+        "max_font_size": 12,
+        "min_font_size": 10,
+        "align": "center",
+        "foreground": [
+          78,
+          79,
+          75,
+          255
+        ],
+        "adaptive_palette": true,
+        "background_sample_x": 708
       }
     ]
   },

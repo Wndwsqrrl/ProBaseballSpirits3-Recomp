@@ -5127,22 +5127,22 @@
     "address": "0x82068458",
     "source_size": 2,
     "source_hash": "09F00A07B66635D8",
-    "english": "soul",
-    "status": "draft"
+    "english": "Spirit",
+    "status": "reviewed"
   },
   {
     "address": "0x8206845C",
     "source_size": 12,
     "source_hash": "A320A6AEE7F10724",
-    "english": "Good luck! !",
-    "status": "draft"
+    "english": "Keep it up!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206846C",
     "source_size": 20,
     "source_hash": "A9474849683CB589",
-    "english": "I love you Tigers",
-    "status": "draft"
+    "english": "We love you, Tigers!",
+    "status": "reviewed"
   },
   {
     "address": "0x82068484",
@@ -5169,36 +5169,36 @@
     "address": "0x82068490",
     "source_size": 10,
     "source_hash": "E016EE71350B4925",
-    "english": "Fighting Spirit Tiger Corps",
-    "status": "draft"
+    "english": "Fight on, Tigers!",
+    "status": "reviewed"
   },
   {
     "address": "0x8206849C",
     "source_size": 18,
     "source_hash": "D78213A71562BD86",
-    "english": "Beast King Invincible Tigers",
-    "status": "draft"
+    "english": "The Tigers are unbeatable!",
+    "status": "reviewed"
   },
   {
     "address": "0x820684B0",
     "source_size": 10,
     "source_hash": "941949AA20A9D34B",
-    "english": "I love you",
-    "status": "draft"
+    "english": "We love you!",
+    "status": "reviewed"
   },
   {
     "address": "0x820684BC",
     "source_size": 4,
     "source_hash": "BDA8093BBF85600F",
-    "english": "fighting spirit",
-    "status": "draft"
+    "english": "Fighting Spirit",
+    "status": "reviewed"
   },
   {
     "address": "0x820684C4",
     "source_size": 4,
     "source_hash": "6C1955CD8E8D1DF8",
-    "english": "corps",
-    "status": "draft"
+    "english": "Squad",
+    "status": "reviewed"
   },
   {
     "address": "0x82068564",
@@ -18301,15 +18301,15 @@
     "address": "0x8208896C",
     "source_size": 2,
     "source_hash": "09F39A07B669605F",
-    "english": "moon",
-    "status": "draft"
+    "english": "Month",
+    "status": "reviewed"
   },
   {
     "address": "0x82088970",
     "source_size": 2,
     "source_hash": "0A1FC407B68EE2A8",
-    "english": "day",
-    "status": "draft"
+    "english": "Day",
+    "status": "reviewed"
   },
   {
     "address": "0x82088974",
@@ -18336,8 +18336,8 @@
     "address": "0x8208898C",
     "source_size": 2,
     "source_hash": "09FDC307B671FA8F",
-    "english": "times",
-    "status": "draft"
+    "english": "Inning",
+    "status": "reviewed"
   },
   {
     "address": "0x82088990",
@@ -19057,7 +19057,7 @@
     "address": "0x82089E30",
     "source_size": 6,
     "source_hash": "3DCA1261F047692C",
-    "english": "butterfly",
+    "english": "Jang",
     "status": "draft"
   },
   {
@@ -26008,15 +26008,15 @@
     "address": "0x82091464",
     "source_size": 4,
     "source_hash": "4175AB8E75764905",
-    "english": "- Others",
-    "status": "draft"
+    "english": "- Plus ",
+    "status": "reviewed"
   },
   {
     "address": "0x8209146C",
     "source_size": 4,
     "source_hash": "B143DA21811F6AF0",
-    "english": "Name -",
-    "status": "draft"
+    "english": " more -",
+    "status": "reviewed"
   },
   {
     "address": "0x82091474",
@@ -28332,8 +28332,8 @@
     "address": "0x82093BB8",
     "source_size": 4,
     "source_hash": "FD777FE9D8577381",
-    "english": "Place (",
-    "status": "draft"
+    "english": " place (",
+    "status": "reviewed"
   },
   {
     "address": "0x82093BC0",
@@ -28346,8 +28346,8 @@
     "address": "0x82093BD0",
     "source_size": 3,
     "source_hash": "5336091AF5D2D2A6",
-    "english": "pieces)",
-    "status": "draft"
+    "english": ")",
+    "status": "reviewed"
   },
   {
     "address": "0x82093BD4",
@@ -28374,8 +28374,8 @@
     "address": "0x82093C10",
     "source_size": 3,
     "source_hash": "5744521AF6D103EE",
-    "english": "win)",
-    "status": "draft"
+    "english": " W)",
+    "status": "reviewed"
   },
   {
     "address": "0x82093C14",
@@ -28423,8 +28423,8 @@
     "address": "0x82093C7C",
     "source_size": 5,
     "source_hash": "06DB1F97C2F2C8A3",
-    "english": "stolen base)",
-    "status": "draft"
+    "english": " SB)",
+    "status": "reviewed"
   },
   {
     "address": "0x82093C84",
@@ -28472,8 +28472,8 @@
     "address": "0x82093CE8",
     "source_size": 3,
     "source_hash": "A7DACB1B253519CD",
-    "english": "book)",
-    "status": "draft"
+    "english": " HR)",
+    "status": "reviewed"
   },
   {
     "address": "0x82093CEC",
@@ -28493,8 +28493,8 @@
     "address": "0x82093D10",
     "source_size": 3,
     "source_hash": "70DE361B053545FD",
-    "english": "Place(",
-    "status": "draft"
+    "english": " place (",
+    "status": "reviewed"
   },
   {
     "address": "0x82093D14",
@@ -31078,13 +31078,6 @@
     "source_hash": "5152B86695497719",
     "english": "Manager Approval: %d percent",
     "status": "reviewed"
-  },
-  {
-    "address": "0x820991E0",
-    "source_size": 12,
-    "source_hash": "6D687C2DC08286A2",
-    "english": "5^X pitcher category",
-    "status": "draft"
   },
   {
     "address": "0x820991F0",
@@ -39812,8 +39805,8 @@
     "address": "0x820A6488",
     "source_size": 16,
     "source_hash": "6AFA9BDC4D3C3B08",
-    "english": "A2 full cast",
-    "status": "draft"
+    "english": "A2 Fullcast",
+    "status": "reviewed"
   },
   {
     "address": "0x820A649C",
@@ -133039,6 +133032,311 @@
     "source_size": 8,
     "source_hash": "BEEF73E7D4046FC9",
     "english": "Isa Wakutoshi",
+    "status": "draft"
+  },
+  {
+    "address": "0x820991E4",
+    "source_size": 8,
+    "source_hash": "2ED8EB479D0D58CA",
+    "english": "Pitchers",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 8,
+    "source_hash": "65EC72BFE823E526",
+    "english": "%d/%d",
+    "status": "reviewed",
+    "format_source": "%d月%d日"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 13,
+    "source_hash": "AEFEE5C60FF96F05",
+    "english": "As of %d/%d",
+    "status": "reviewed",
+    "format_source": "%d月%d日 現在"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "64D4F9E0B18A555D",
+    "english": "- %d more -",
+    "status": "reviewed",
+    "format_source": "- 他%d名 -"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 6,
+    "source_hash": "E365ECD050B91525",
+    "english": "Bottom %d",
+    "status": "reviewed",
+    "format_source": "%d回裏"
+  },
+  {
+    "address": "0x820638E8",
+    "source_size": 6,
+    "source_hash": "FB20605A428324AB",
+    "english": "Player Name",
+    "status": "draft"
+  },
+  {
+    "address": "0x82065020",
+    "source_size": 10,
+    "source_hash": "DB17621EA1FC1B77",
+    "english": "Contact vs RHP",
+    "status": "draft"
+  },
+  {
+    "address": "0x82068400",
+    "source_size": 67,
+    "source_hash": "E9AE0F8EE37E4232",
+    "english": "Reconnect the controller and press A to continue.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82076280",
+    "source_size": 16,
+    "source_hash": "BFDE2E916EF9EDA1",
+    "english": "Get one out!",
+    "status": "draft"
+  },
+  {
+    "address": "0x8207E320",
+    "source_size": 50,
+    "source_hash": "74925A6D64D6C3D3",
+    "english": "Arrange Menu<RIGHT><+UD>Select <○>Confirm <×>Back",
+    "status": "draft"
+  },
+  {
+    "address": "0x820852FC",
+    "source_size": 46,
+    "source_hash": "594C20E5A838EDE7",
+    "english": "Match Conditions<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x820857AC",
+    "source_size": 48,
+    "source_hash": "D104D6D679BF1C4A",
+    "english": "Search Filters<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x82085EB4",
+    "source_size": 50,
+    "source_hash": "B9D6B4979825EB99",
+    "english": "Select Search Type<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x82085EF8",
+    "source_size": 66,
+    "source_hash": "89591CD181C66F6A",
+    "english": "Team Rankings (Stats Service Discontinued)<RIGHT> <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x820860E8",
+    "source_size": 49,
+    "source_hash": "7922AC5E7A8BE6BD",
+    "english": "Xbox Live Mode<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x820864D8",
+    "source_size": 12,
+    "source_hash": "43C1153FE6EC562C",
+    "english": "Ranked Match",
+    "status": "draft"
+  },
+  {
+    "address": "0x82091070",
+    "source_size": 6,
+    "source_hash": "B7381D3D8FBCFB22",
+    "english": "All Teams",
+    "status": "draft"
+  },
+  {
+    "address": "0x82091A28",
+    "source_size": 4,
+    "source_hash": "8E942B4D1159EF12",
+    "english": "%d",
+    "status": "draft"
+  },
+  {
+    "address": "0x820946F8",
+    "source_size": 60,
+    "source_hash": "22E9B38145C26732",
+    "english": "%s\nPassed. (\u000bRounds left: %d\u000b)\nProceed to the next pick.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094770",
+    "source_size": 97,
+    "source_hash": "15EA7F0674829426",
+    "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094820",
+    "source_size": 65,
+    "source_hash": "ABA6ED8FE92D91E7",
+    "english": "\u000b%s\u000b\ndrafted \u000b%s\u000b.\nNext pick. (\u000bRounds left: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094868",
+    "source_size": 102,
+    "source_hash": "DE400E64930645B2",
+    "english": "Picks follow \u000bwaiver order\u000b.\n\u000b%s\u000b\nPicking. (\u000bRounds left: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x820948D0",
+    "source_size": 69,
+    "source_hash": "D6AD88A1163E0485",
+    "english": "Draft in \u000bwaiver order\u000b.\nSelect a player.\n(\u000bRounds left: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094918",
+    "source_size": 67,
+    "source_hash": "1A627C57BCBDFAA2",
+    "english": "Another team is making its\n\u000bFree Acquisition Slot pick\u000b.\nPlease wait.",
+    "status": "draft"
+  },
+  {
+    "address": "0x8209495C",
+    "source_size": 53,
+    "source_hash": "52FBD8254F89FA3D",
+    "english": "This pick uses the\n\u000bFree Acquisition Slot\u000b.\nSelect a player.",
+    "status": "draft"
+  },
+  {
+    "address": "0x820949E0",
+    "source_size": 86,
+    "source_hash": "AEE657E05D3AB1A1",
+    "english": "Add \u000bfictional players\u000b to the\ndraft. Choose the \u000bfictional\nplayers\u000b you want to enter.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094A38",
+    "source_size": 132,
+    "source_hash": "EE5C521A52344D93",
+    "english": "Replay the \u000b2005 draft\u000b \u000bpicks\u000b.\n\u000bAll\u000b real rookies skip the draft\nand join their \u000boriginal clubs\u000b.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094AC0",
+    "source_size": 116,
+    "source_hash": "20E8B9727A02B3DE",
+    "english": "Enter the \u000breal 2005 rookies\u000b\nas a group. You cannot\npick them individually.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82094B38",
+    "source_size": 124,
+    "source_hash": "732B45DAE9437C60",
+    "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in the draft. Choose\nwhich \u000bcustom players\u000b to enter.",
+    "status": "draft"
+  },
+  {
+    "address": "0x820954BC",
+    "source_size": 48,
+    "source_hash": "DBF535BF6E70F087",
+    "english": "%s\nPassed. (\u000bPicks left: %d\u000b)\nProceed to the next selection.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82095560",
+    "source_size": 59,
+    "source_hash": "07545F141901A5ED",
+    "english": "\u000b%s\u000b\nsigned \u000b%s\u000b.\nNext selection. (\u000bLeft: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x820955A0",
+    "source_size": 70,
+    "source_hash": "3B51B23B29AFC069",
+    "english": "\u000b%s\u000b\nSelecting a player. Please wait.\n(\u000bPicks left: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x820955E8",
+    "source_size": 44,
+    "source_hash": "3D4C15723C333945",
+    "english": "Select a player to sign.\n(\u000bPicks left: %d\u000b)",
+    "status": "draft"
+  },
+  {
+    "address": "0x82095618",
+    "source_size": 61,
+    "source_hash": "7B720EAB525E4F21",
+    "english": "Another team is choosing\na \u000bplayer to sign\u000b.\nPlease wait.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82095678",
+    "source_size": 162,
+    "source_hash": "F9A5D2D56A94F1A5",
+    "english": "\u000bReplay\u000b the \u000b2005 signings\u000b.\n\u000bAll\u000b real free agents skip FA\nand join their \u000boriginal clubs\u000b.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82095720",
+    "source_size": 138,
+    "source_hash": "15D63F84C5E46775",
+    "english": "Enter the \u000breal 2005 free\nagents\u000b as a group. You cannot\npick them individually.",
+    "status": "draft"
+  },
+  {
+    "address": "0x820957B0",
+    "source_size": 144,
+    "source_hash": "59EDC4DA385777D4",
+    "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in free agency. Choose\nwhich \u000bcustom players\u000b to enter.",
+    "status": "draft"
+  },
+  {
+    "address": "0x82096968",
+    "source_size": 99,
+    "source_hash": "839DFDBDC028A597",
+    "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+    "status": "draft"
+  },
+  {
+    "address": "0x820969CC",
+    "source_size": 57,
+    "source_hash": "9D16004B02B3567A",
+    "english": "Another team is selecting a\n\u000bplayer\u000b. Please wait.",
+    "status": "draft"
+  },
+  {
+    "address": "0x820A2810",
+    "source_size": 17,
+    "source_hash": "EFCF6B96334CAC52",
+    "english": "Custom Player 1",
+    "status": "draft"
+  },
+  {
+    "address": "0x8207F210",
+    "source_size": 40,
+    "source_hash": "830403FC6FAC8B9F",
+    "english": "Game Settings<RIGHT><+>Select <○>Confirm <×>Back",
+    "status": "draft"
+  },
+  {
+    "address": "0x82085C60",
+    "source_size": 64,
+    "source_hash": "D3DDB87CC7DEB57B",
+    "english": "Ranked Match Lobby<RIGHT> <+>Select <□>Search Again <○>Confirm <×>Back ",
+    "status": "draft"
+  },
+  {
+    "address": "0x8209F10C",
+    "source_size": 29,
+    "source_hash": "DE6E8836E8D10829",
+    "english": "Preseason Results<RIGHT><○>Confirm",
     "status": "draft"
   }
 ]

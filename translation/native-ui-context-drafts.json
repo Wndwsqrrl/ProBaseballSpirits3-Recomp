@@ -1,0 +1,19 @@
+[
+  {"address": "0x8207684C", "status": "draft", "english": "Dummy Title<RIGHT><+UD>Select<○>Confirm<×>Back"},
+  {"address": "0x8207F210", "status": "draft", "english": "Game Settings<RIGHT><+>Select <○>Confirm <×>Back"},
+  {"address": "0x82085C60", "status": "draft", "english": "Ranked Match Lobby<RIGHT> <+>Select <□>Search Again <○>Confirm <×>Back "},
+  {"address": "0x8209F10C", "status": "draft", "english": "Preseason Results<RIGHT><○>Confirm"},
+  {"address": "0x820A6E3C", "status": "draft", "encoding": "utf-16-be", "english": "Pennant 3"},
+  {"address": "0x820A6E54", "status": "draft", "encoding": "utf-16-be", "english": "Pennant 2"},
+  {"address": "0x820A6E6C", "status": "draft", "encoding": "utf-16-be", "english": "Pennant 1"},
+  {"address": "0x820A6E84", "status": "draft", "encoding": "utf-16-be", "english": "Pennant 0"},
+  {"address": "0x820A6E9C", "status": "draft", "encoding": "utf-16-be", "english": "Edit Defaults"},
+  {"address": "0x820A6EBC", "status": "draft", "encoding": "utf-16-be", "english": "Options"},
+  {"address": "0x820A6ED4", "status": "draft", "encoding": "utf-16-be", "english": "Sound Settings"},
+  {"address": "0x820A6EEC", "status": "draft", "encoding": "utf-16-be", "english": "Team Arrangement"},
+  {"address": "0x820A6F0C", "status": "draft", "encoding": "utf-16-be", "english": "Trial"},
+  {"address": "0x820A6F20", "status": "draft", "encoding": "utf-16-be", "english": "Strike Pitch"},
+  {"address": "0x820A6F40", "status": "draft", "encoding": "utf-16-be", "english": "Home Run Derby"},
+  {"address": "0x820A6F60", "status": "draft", "encoding": "utf-16-be", "english": "VP"},
+  {"address": "0x820A6F78", "status": "draft", "encoding": "utf-16-be", "english": "Edited Players"}
+]

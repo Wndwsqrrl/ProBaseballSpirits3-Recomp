@@ -1,15 +1,17 @@
 {
   "date": "2026-11-13",
-  "catalogue_records": 18976,
-  "unique_fingerprints": 18682,
+  "catalogue_records": 19018,
+  "unique_fingerprints": 18723,
   "roster_records": 648,
   "roster_aliases": 5650,
   "reviewed_hanshin_fields": 110,
   "other_bounded_roster_fields": 1208,
   "additional_given_names_from_unambiguous_dictionary_readings": 45,
-  "texture_labels": 2091,
+  "texture_labels": 2092,
   "localized_archive_members": 111,
   "validation": [
+    "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
+    "Updated 21 existing entries, added four runtime templates for dates, nominee counts and inning labels, and corrected the pitching heading pointer. The Windows build and 33 compiled lookups passed. The newspaper postal label fits the atlas and 2,112 untouched archive members were verified.",
     "Submarine, Medium Speed and CPU Difficulty terminology aligned across 20 entries and generation maps using four 2026 references; 28 compiled lookups, 20 curation guards and the Windows build passed. CPU-help text fits its 320 px estimate budget; source fields, controls, statuses and all name aliases unchanged.",
     "Seven team-editor pitcher-order labels shortened to native-width ordinals; Avg P corrected to Pitcher Use from the native appearance-count/game-count calculation and 2026 Pennant reference. Six native replay cases, eight compiled lookups/curation guards and the Windows build passed; all source fields, statuses and name aliases unchanged.",
     "Updated caption and manager wording compiled and linked in a separate staged Windows build, then passed the normal Windows build after the game process exited; tested/generated header hashes match, runtime DLLs are unchanged, and no new game session was launched.",
@@ -83,6 +85,8 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
+    "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
     "Live Submarine motion headings and pitcher-role compounds, Medium Speed settings and CPU Difficulty help placement",
     "Live team pitcher-use editor ordinal placement across starter/reliever/closer columns, and Pitcher Use stat header width/formatting",
     "Live outer manager verdict and offense/defense heading placement; real-match event statistics, rating derivation and rendered wrapping remain unverified; seeded selection/sorting is checked offline",
@@ -140,7 +144,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "4 pending textures in interface-texture-review.json plus 1 unresolved slot strip in slot-texture-review.json need localization or native-context review. These are partial inventories.",
+    "All 36 confirmed gaps and three full headers are integrated as drafts. The 112 Spirits training fields and 14 context-dependent labels have draft English and still need display-route confirmation.",
     "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -927,7 +931,7 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "motion-settings-wording-validation.json",
+  "latest_windows_build_report": "headless-formatting-validation.json",
   "motion_settings_wording_review": {
     "english_records_updated": 20,
     "submarine_labels_and_compounds": 16,
@@ -939,5 +943,88 @@
     "normal_windows_build_passed": true,
     "interactive_validation": false,
     "report": "motion-settings-wording-validation.json"
+  },
+  "november_19_localization_review": {
+    "date": "2026-11-19",
+    "existing_wording_updates": 21,
+    "existing_drafts_reviewed": 20,
+    "surname_only_fallback": "Jang is provisional for a shared Japanese source. Complete name lookups keep native record-specific spellings.",
+    "vtable_entry_removed": "0x820991E0",
+    "native_pitching_heading": "0x820991E4",
+    "new_runtime_patterns": 4,
+    "compiled_lookup_checks": {
+      "exact": 22,
+      "formatted": 11
+    },
+    "curation_status_checks": 21,
+    "catalogue_source_fingerprints_checked_against_loaded_image": true,
+    "windows_build_passed": true,
+    "standard_launch_executable_sha256": "daa371d7644ef2b7aa4eae417313fac1593f92ebd9858aaaa93f71215281e375",
+    "new_postal_label": true,
+    "unchanged_archive_members_verified": 2112,
+    "interactive_validation": false,
+    "interactive_blocker": "The game window opened, but Windows returned GetCursorPos access denied when activating the window or sending keyboard input."
+  },
+  "executable_backed_text": {
+    "entries": 6185,
+    "reviewed": 5758,
+    "draft": 427
+  },
+  "file_based_gap_audit": {
+    "report": "coverage-discovery.md",
+    "native_sources_with_missing_english": {
+      "ordinary_cp932": 13,
+      "offseason_controlled_messages": 21,
+      "utf16_system_prompt": 1,
+      "generated_year_format": 1
+    },
+    "fragment_covered_headers_without_complete_lookup": 3,
+    "offseason_sources_with_some_compiled_fragments": 9,
+    "packed_japanese_records_with_reviewed_lookup": 961,
+    "packed_japanese_records_with_direct_patch": 83,
+    "packed_japanese_records_with_draft_lookup": 1,
+    "packed_pitch_name_grid_rows_preserved": 5,
+    "distinct_historical_trace_inputs": 464,
+    "unmatched_historical_trace_inputs": 1,
+    "unmatched_historical_trace_is_square_glyph": true,
+    "game_wide_discovery_complete": false,
+    "staged_native_drafts": 36,
+    "generated_code_followup": {
+      "functions_with_target_calls": 1088,
+      "recognized_call_locations_or_tail_call_blocks": 2639,
+      "japanese_text_and_route_pairs": 342,
+      "spirits_training_records": 56,
+      "spirits_training_names_without_whole_field_lookup": 53,
+      "spirits_training_descriptions_without_whole_field_lookup": 56,
+      "spirits_training_fields_display_path_verified": false,
+      "sbib_chunks_prose_scanned": 293,
+      "gsnb_chunks_prose_scanned": 2520
+    },
+    "staged_readable_audit_fields": {
+      "confirmed_native_ui": 36,
+      "spirits_training_names": 56,
+      "spirits_training_descriptions": 56,
+      "context_dependent_headers": 4,
+      "context_dependent_save_labels": 13,
+      "total": 165
+    },
+    "all_itemized_readable_in_scope_sources_have_draft_or_existing_english": true,
+    "spirits_drafts_fit_native_byte_slots_and_line_counts": true,
+    "integrated_draft_fields": 39
+  },
+  "native_ui_integration": {
+    "integrated_confirmed_ui_fields": 36,
+    "integrated_additional_menu_headers": 3,
+    "staged_spirits_training_fields": 112,
+    "staged_context_dependent_fields": 14,
+    "remaining_drafts_verified_against_native_records": 126,
+    "staged_save_section_metadata_labels": 13,
+    "staged_hidden_startup_placeholders": 1,
+    "final_draft_report": "final-draft-validation.json",
+    "compiled_lookup_checks": 74,
+    "native_offseason_replays": 45,
+    "windows_build_passed": true,
+    "live_screen_placement_checked": false,
+    "report": "headless-formatting-validation.json"
   }
 }

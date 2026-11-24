@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "catalogue_records": 18976,
-  "unique_fingerprints": 18682,
+  "catalogue_records": 19018,
+  "unique_fingerprints": 18723,
   "comparison_commit": "1998ef896087dc5f554790c142cef3cc9f09b95d",
   "changed_existing_translations": 6,
   "added_fingerprints": 4,
@@ -22,6 +22,8 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
+    "Updated 21 existing entries, added four runtime templates for dates, nominee counts and inning labels, and corrected the pitching heading pointer. The Windows build and 33 compiled lookups passed. The newspaper postal label fits the atlas and 2,112 untouched archive members were verified.",
     "Submarine, Medium Speed and CPU Difficulty terminology aligned across 20 entries and generation maps using four 2026 references; 28 compiled lookups, 20 curation guards and the Windows build passed. CPU-help text fits its 320 px estimate budget; source fields, controls, statuses and all name aliases unchanged.",
     "Seven team-editor pitcher-order labels shortened to native-width ordinals; Avg P corrected to Pitcher Use from the native appearance-count/game-count calculation and 2026 Pennant reference. Six native replay cases, eight compiled lookups/curation guards and the Windows build passed; all source fields, statuses and name aliases unchanged.",
     "Updated caption and manager wording compiled and linked in a separate staged Windows build, then passed the normal Windows build after the game process exited; tested/generated header hashes match, runtime DLLs are unchanged, and no new game session was launched.",
@@ -56,6 +58,8 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
+    "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
     "Live Submarine motion headings and pitcher-role compounds, Medium Speed settings and CPU Difficulty help placement",
     "Live team pitcher-use editor ordinal placement across starter/reliever/closer columns, and Pitcher Use stat header width/formatting",
     "Live outer manager verdict and offense/defense heading placement; real-match event statistics, rating derivation and rendered wrapping remain unverified; seeded selection/sorting is checked offline",
@@ -891,7 +895,7 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "motion-settings-wording-validation.json",
+  "latest_windows_build_report": "headless-formatting-validation.json",
   "motion_settings_wording_review": {
     "english_records_updated": 20,
     "submarine_labels_and_compounds": 16,
@@ -903,5 +907,37 @@
     "normal_windows_build_passed": true,
     "interactive_validation": false,
     "report": "motion-settings-wording-validation.json"
+  },
+  "november_19_localization_review": {
+    "date": "2026-11-19",
+    "existing_wording_updates": 21,
+    "existing_drafts_reviewed": 20,
+    "surname_only_fallback": "Jang is provisional for a shared Japanese source. Complete name lookups keep native record-specific spellings.",
+    "vtable_entry_removed": "0x820991E0",
+    "native_pitching_heading": "0x820991E4",
+    "new_runtime_patterns": 4,
+    "compiled_lookup_checks": {
+      "exact": 22,
+      "formatted": 11
+    },
+    "curation_status_checks": 21,
+    "catalogue_source_fingerprints_checked_against_loaded_image": true,
+    "windows_build_passed": true,
+    "standard_launch_executable_sha256": "daa371d7644ef2b7aa4eae417313fac1593f92ebd9858aaaa93f71215281e375",
+    "new_postal_label": true,
+    "unchanged_archive_members_verified": 2112,
+    "interactive_validation": false,
+    "interactive_blocker": "The game window opened, but Windows returned GetCursorPos access denied when activating the window or sending keyboard input."
+  },
+  "native_ui_integration": {
+    "integrated_confirmed_ui_fields": 36,
+    "integrated_additional_menu_headers": 3,
+    "staged_spirits_training_fields": 112,
+    "staged_context_dependent_fields": 14,
+    "compiled_lookup_checks": 74,
+    "native_offseason_replays": 45,
+    "windows_build_passed": true,
+    "live_screen_placement_checked": false,
+    "report": "headless-formatting-validation.json"
   }
 }

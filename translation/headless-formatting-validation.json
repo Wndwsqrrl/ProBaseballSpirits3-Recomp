@@ -1,0 +1,32 @@
+{
+  "catalogue_lookups": {
+    "exact": 38,
+    "formatted": 36
+  },
+  "curation_status_and_control_guards": 38,
+  "native_offseason_splitter_replayed_messages": 45,
+  "native_offseason_rows_maximum": 3,
+  "native_offseason_columns_maximum": 32,
+  "offseason_estimated_widest_line_px": 225.0,
+  "menu_headers_estimated": 9,
+  "menu_heading_estimated_widest_px": 319.0,
+  "menu_prompts_estimated_widest_px": 306.0,
+  "ip_description_utf16be_bytes_including_terminator": 74,
+  "spirits_training_staged_fields_checked": 112,
+  "spirits_training_estimated_widest_line_px": 351.0,
+  "estimated_font": "Arial 16 px, summed glyph advances with an icon allowance",
+  "estimate_budget_px": 360,
+  "windows_staged_build_passed": true,
+  "game_launched": false,
+  "date": "2026-11-19",
+  "integrated_confirmed_ui_fields": 36,
+  "integrated_additional_menu_headers": 3,
+  "remaining_staged_fields": 126,
+  "format_translation_test_passed": true,
+  "manager_report_translation_test_passed": true,
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "standard_launch_executable_sha256": "716806807ff557206b8e0ef2652baeb1f48e5933d81eecc720bbb510a7a5df88",
+  "live_screen_placement_checked": false,
+  "scope": "The harness executes the generated offseason splitter with native constants and host stubs for sprintf and row assignment. Pixel widths are offline estimates."
+}

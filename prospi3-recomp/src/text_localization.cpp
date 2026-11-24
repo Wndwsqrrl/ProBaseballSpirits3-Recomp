@@ -3,6 +3,7 @@
 #include "latin_font.h"
 #include "performance.h"
 #include "format_translation.h"
+#include "offseason_text.h"
 #include "text_layout.h"
 #include "report_translation.h"
 #include "generated/translation/full_text.h"
@@ -36,6 +37,9 @@ REX_EXTERN(__imp__sub_82548958);
 REX_EXTERN(__imp__sub_8254C0A8);
 REX_EXTERN(__imp__sub_826BA910);
 REX_EXTERN(__imp__sub_8262FB40);
+REX_EXTERN(__imp__sub_8262F7D8);
+REX_EXTERN(__imp__sub_824F4630);
+REX_EXTERN(__imp__sub_82430D90);
 REX_EXTERN(__imp__sub_82135D68);
 REX_EXTERN(__imp__sub_823825F8);
 REX_EXTERN(__imp__sub_82382B10);
@@ -64,6 +68,8 @@ std::mutex dynamic_mutex;
 std::unordered_map<std::string,uint32_t> dynamic_cache;
 uint32_t dynamic_pool=0,dynamic_used=0;
 constexpr uint32_t kDynamicPoolSize=8*1024*1024;
+std::unordered_map<uint32_t,uint32_t> offseason_formats;
+uint32_t test_pc_ip_description = 0;
 struct QuadCapacity {uint32_t original;bool exceeded=false;};
 std::mutex quad_mutex;
 std::unordered_map<uint32_t,QuadCapacity> quad_capacities;
@@ -221,6 +227,28 @@ uint32_t Translate(uint32_t address,bool whole_run=false,uint32_t caller=0) {
   return address;
 }
 
+uint32_t OffseasonFormat(uint32_t translated) {
+  std::lock_guard guard(dynamic_mutex);
+  if (const auto cached = offseason_formats.find(translated); cached != offseason_formats.end()) {
+    return cached->second;
+  }
+  // Repeated draws use the same stable guest address. Keep the cache bounded
+  // independently of the general formatted-text cache.
+  if (offseason_formats.size() >= 1024) return 0;
+  const auto* text = reinterpret_cast<const char*>(memory->TranslateVirtual(translated));
+  const auto format = localization::PrepareOffseasonMessage(text);
+  uint32_t address = 0;
+  if (format && *format == text) {
+    address = translated;
+  } else if (format && dynamic_pool && format->size() + 1 <= kDynamicPoolSize - dynamic_used) {
+    address = dynamic_pool + dynamic_used;
+    std::memcpy(memory->TranslateVirtual(address), format->c_str(), format->size() + 1);
+    dynamic_used += static_cast<uint32_t>(format->size() + 1);
+  }
+  offseason_formats.emplace(translated, address);
+  return address;
+}
+
 void RenderLocalized(PPCContext& ctx, uint8_t* base, PPCFunc* original) {
   TextProfileScope profile(TextPhase::Raster);
   struct ActiveText {
@@ -348,7 +376,7 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
   const auto* latin_font=std::getenv("PROSPI3_LATIN_FONT");
   latin_font_enabled=!latin_font || std::string_view(latin_font)!="0";
   REXLOG_INFO("Custom Latin font: {}",latin_font_enabled?"enabled":"disabled (diagnostic)");
-  size_t bytes=0;
+  size_t bytes=sizeof(localization::kTestPcIpDescription);
   for (const auto& entry : kFullTranslations) bytes += entry.english.size()+1;
   for (const auto& entry : kAnnouncedNames) bytes += entry.english.size()+1;
   for (const auto& entry : kAnnouncedKana) bytes += entry.english.size()+1;
@@ -395,6 +423,12 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     target[entry.english.size()] = 0;
     announced_kana.emplace(entry.source_code, position);
     position += static_cast<uint32_t>(entry.english.size() + 1);
+  }
+  test_pc_ip_description = position;
+  auto* wide = memory->TranslateVirtual(position);
+  for (const char16_t unit : localization::kTestPcIpDescription) {
+    *wide++ = static_cast<uint8_t>(unit >> 8);
+    *wide++ = static_cast<uint8_t>(unit);
   }
   dynamic_pool=memory->SystemHeapAlloc(kDynamicPoolSize);
   if(!dynamic_pool)throw std::runtime_error("Cannot allocate formatted translation pool");
@@ -504,6 +538,53 @@ REX_EXTERN(sub_8262FB40) {
   if (std::memcmp(content->display_name_raw.uint, original_title, sizeof(original_title)) == 0) {
     content->set_display_name(u"Pro Yakyuu Spirits 3");
   }
+}
+
+REX_EXTERN(sub_8262F7D8) {
+  constexpr uint32_t kDescription = 0x82086190;
+  if (memory && test_pc_ip_description && ctx.lr == 0x8246D624 && ctx.r7.u32 == kDescription) {
+    const auto* source = reinterpret_cast<const char*>(memory->TranslateVirtual(kDescription));
+    if (Fingerprint(std::string_view(source, 48)) == 0x0D286DA628430B39ULL) {
+      ctx.r7.u64 = test_pc_ip_description;
+    }
+  }
+  __imp__sub_8262F7D8(ctx, base);
+}
+
+REX_EXTERN(sub_824F4630) {
+  const uint32_t source = ctx.r4.u32;
+  if (memory && source) {
+    const auto* text = reinterpret_cast<const char*>(memory->TranslateVirtual(source));
+    // Native callers may pass a formatted buffer. Handle the highlighted
+    // messages as complete text, before the original splits them into rows.
+    const size_t length = strnlen(text, 0x280);
+    if (length < 0x280 && std::string_view(text, length).find('\v') != std::string_view::npos) {
+      const uint32_t translated = Translate(source, true);
+      if (translated != source) {
+        if (const uint32_t format = OffseasonFormat(translated)) ctx.r4.u64 = format;
+      }
+    }
+  }
+  __imp__sub_824F4630(ctx, base);
+}
+
+REX_EXTERN(sub_82430D90) {
+  // Translate the audited header variants before their native parser consumes
+  // the layout and controller tokens. Other callers use the existing paths.
+  switch (ctx.r4.u32) {
+    case 0x8207E320:
+    case 0x8207F210:
+    case 0x820852FC:
+    case 0x820857AC:
+    case 0x82085C60:
+    case 0x82085EB4:
+    case 0x82085EF8:
+    case 0x820860E8:
+    case 0x8209F10C:
+      ctx.r4.u64 = Translate(ctx.r4.u32, true);
+      break;
+  }
+  __imp__sub_82430D90(ctx, base);
 }
 
 REX_EXTERN(sub_8260E870) { RenderLocalized(ctx,base,__imp__sub_8260E870); }

@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 
-TAG = re.compile(r'<[^>]*>|\\(?:c[0-9a-fA-F]|C[0-9a-fA-F]{6})')
+TAG = re.compile(r'<[^>]*>|\\(?:c[0-9a-fA-F]|C[0-9a-fA-F]{6})|\x0b')
 FORMAT = re.compile(r'%(?:\d+\$)?[-+# 0]*(?:\d+|\*)?(?:\.(?:\d+|\*))?[hlL]*[diuoxXfFeEgGcsSpn%]')
 JAPANESE = re.compile(r'[\u3041-\u30fa\u3400-\u9fff]')
 

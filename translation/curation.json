@@ -54,7 +54,8 @@
     "0x82075DC8",
     "0x82075DF4",
     "0x820A7954",
-    "0x820A7B70"
+    "0x820A7B70",
+    "0x820991E0"
   ],
   "source_corrections": {
     "0x820634DF": {
@@ -6282,7 +6283,28 @@
     "0x82091844": "H vs L",
     "0x82091854": "H vs R",
     "0x8209A5CC": "Offense:",
-    "0x8209A5B4": "Defense:"
+    "0x8209A5B4": "Defense:",
+    "0x82068458": "Spirit",
+    "0x8206845C": "Keep it up!",
+    "0x8206846C": "We love you, Tigers!",
+    "0x82068490": "Fight on, Tigers!",
+    "0x8206849C": "The Tigers are unbeatable!",
+    "0x820684B0": "We love you!",
+    "0x820684BC": "Fighting Spirit",
+    "0x820684C4": "Squad",
+    "0x8208896C": "Month",
+    "0x82088970": "Day",
+    "0x8208898C": "Inning",
+    "0x82091464": "- Plus ",
+    "0x8209146C": " more -",
+    "0x82093BB8": " place (",
+    "0x82093BD0": ")",
+    "0x82093C10": " W)",
+    "0x82093C7C": " SB)",
+    "0x82093CE8": " HR)",
+    "0x82093D10": " place (",
+    "0x820A6488": "A2 Fullcast",
+    "0x820991E4": "Pitchers"
   },
   "additional_strings": [
     {
@@ -8180,11 +8202,270 @@
       "source": "%sと契約しますか？",
       "english": "Sign %s?",
       "status": "reviewed"
+    },
+    {
+      "address": "0x820991E4",
+      "source": "投手部門",
+      "english": "Pitchers",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d月%d日",
+      "english": "%d/%d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d月%d日 現在",
+      "english": "As of %d/%d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "- 他%d名 -",
+      "english": "- %d more -",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x00000000",
+      "source": "%d回裏",
+      "english": "Bottom %d",
+      "status": "reviewed"
+    },
+    {
+      "address": "0x820638E8",
+      "status": "draft",
+      "english": "Player Name",
+      "source": "選手名"
+    },
+    {
+      "address": "0x82065020",
+      "status": "draft",
+      "english": "Contact vs RHP",
+      "source": "対右ミート"
+    },
+    {
+      "address": "0x82068400",
+      "status": "draft",
+      "english": "Reconnect the controller and press A to continue.",
+      "source": "ゲームを継続するにはコントローラーを差してAボタンを押してください。"
+    },
+    {
+      "address": "0x82076280",
+      "status": "draft",
+      "english": "Get one out!",
+      "source": "１アウトを取れ！"
+    },
+    {
+      "address": "0x8207E320",
+      "status": "draft",
+      "english": "Arrange Menu<RIGHT><+UD>Select <○>Confirm <×>Back",
+      "source": "アレンジメニュー<RIGHT><+UD>選択 <○>決定 <×>戻る"
+    },
+    {
+      "address": "0x820852FC",
+      "status": "draft",
+      "english": "Match Conditions<RIGHT> <+>Select <○>Confirm <×>Back ",
+      "source": "対戦条件設定<RIGHT> <+>選択 <○>決定 <×>戻る "
+    },
+    {
+      "address": "0x820857AC",
+      "status": "draft",
+      "english": "Search Filters<RIGHT> <+>Select <○>Confirm <×>Back ",
+      "source": "検索絞込み設定<RIGHT> <+>選択 <○>決定 <×>戻る "
+    },
+    {
+      "address": "0x82085EB4",
+      "status": "draft",
+      "english": "Select Search Type<RIGHT> <+>Select <○>Confirm <×>Back ",
+      "source": "サーチタイプ選択<RIGHT> <+>選択 <○>決定 <×>戻る "
+    },
+    {
+      "address": "0x82085EF8",
+      "status": "draft",
+      "english": "Team Rankings (Stats Service Discontinued)<RIGHT> <×>Back ",
+      "source": "チームランキング (統計サービスは終了いたしました)<RIGHT> <×>戻る "
+    },
+    {
+      "address": "0x820860E8",
+      "status": "draft",
+      "english": "Xbox Live Mode<RIGHT> <+>Select <○>Confirm <×>Back ",
+      "source": "Xbox Liveモード<RIGHT> <+>選択 <○>決定 <×>戻る "
+    },
+    {
+      "address": "0x820864D8",
+      "status": "draft",
+      "english": "Ranked Match",
+      "source": "ランクマッチ"
+    },
+    {
+      "address": "0x82091070",
+      "status": "draft",
+      "english": "All Teams",
+      "source": "全球団"
+    },
+    {
+      "address": "0x82091A28",
+      "status": "draft",
+      "english": "%d",
+      "source": "%d年"
+    },
+    {
+      "address": "0x820946F8",
+      "status": "draft",
+      "english": "%s\nPassed. (\u000bRounds left: %d\u000b)\nProceed to the next pick.",
+      "source": "%sは指名をパスしました。\n（\u000bあと%d巡\u000b）\n次の指名へ進みます。"
+    },
+    {
+      "address": "0x82094770",
+      "status": "draft",
+      "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+      "source": "自チームの現在の\u000b戦力\u000bを確認します。\n（選手にカーソルを合わせると、\u000b能力\u000bを見ることができます。）"
+    },
+    {
+      "address": "0x82094820",
+      "status": "draft",
+      "english": "\u000b%s\u000b\ndrafted \u000b%s\u000b.\nNext pick. (\u000bRounds left: %d\u000b)",
+      "source": "\u000b%s\u000bが\u000b%s\u000b選手を指名しました。\n次の指名へ進みます。（\u000bあと%d巡\u000b）"
+    },
+    {
+      "address": "0x82094868",
+      "status": "draft",
+      "english": "Picks follow \u000bwaiver order\u000b.\n\u000b%s\u000b\nPicking. (\u000bRounds left: %d\u000b)",
+      "source": "\u000bウェーバー順\u000bでの選手指名です。\u000b%s\u000bが選手を指名していますので、しばらくお待ちください。（\u000bあと%d巡\u000b）"
+    },
+    {
+      "address": "0x820948D0",
+      "status": "draft",
+      "english": "Draft in \u000bwaiver order\u000b.\nSelect a player.\n(\u000bRounds left: %d\u000b)",
+      "source": "\u000bウェーバー順\u000bでの選手指名です。\n選手を選択して下さい。（\u000bあと%d巡\u000b）"
+    },
+    {
+      "address": "0x82094918",
+      "status": "draft",
+      "english": "Another team is making its\n\u000bFree Acquisition Slot pick\u000b.\nPlease wait.",
+      "source": "他チームが\u000b自由獲得枠選手\u000bを指名しています。\nしばらくお待ち下さい。"
+    },
+    {
+      "address": "0x8209495C",
+      "status": "draft",
+      "english": "This pick uses the\n\u000bFree Acquisition Slot\u000b.\nSelect a player.",
+      "source": "\u000b自由獲得枠\u000bでの選手指名です。\n選手を選択して下さい。"
+    },
+    {
+      "address": "0x820949E0",
+      "status": "draft",
+      "english": "Add \u000bfictional players\u000b to the\ndraft. Choose the \u000bfictional\nplayers\u000b you want to enter.",
+      "source": "\u000b架空選手\u000bをドラフトに参加させます。ドラフトに参加させたい\u000b架空選手\u000bを選択して下さい。"
+    },
+    {
+      "address": "0x82094A38",
+      "status": "draft",
+      "english": "Replay the \u000b2005 draft\u000b \u000bpicks\u000b.\n\u000bAll\u000b real rookies skip the draft\nand join their \u000boriginal clubs\u000b.",
+      "source": "\u000b２００５年実際に行われたドラフト\u000bの指名を\u000b再現\u000bします。実在ルーキー選手は\u000b全員\u000bドラフトには参加せず、\u000b史実\u000b通りの球団に所属します。"
+    },
+    {
+      "address": "0x82094AC0",
+      "status": "draft",
+      "english": "Enter the \u000breal 2005 rookies\u000b\nas a group. You cannot\npick them individually.",
+      "source": "\u000b２００５年実際にドラフトに参加した実在ルーキー選手\u000bをドラフトに参加させます。（個別に参加させることはできません。）"
+    },
+    {
+      "address": "0x82094B38",
+      "status": "draft",
+      "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in the draft. Choose\nwhich \u000bcustom players\u000b to enter.",
+      "source": "\u000bスピリッツモード\u000bで作った\u000bオリジナル\u000b選手をドラフトに参加させます。ドラフトに参加させたい\u000bオリジナル\u000b選手を選択して下さい。"
+    },
+    {
+      "address": "0x820954BC",
+      "status": "draft",
+      "english": "%s\nPassed. (\u000bPicks left: %d\u000b)\nProceed to the next selection.",
+      "source": "%sはパスしました。\n（\u000bあと%d回\u000b）\n次へ進みます。"
+    },
+    {
+      "address": "0x82095560",
+      "status": "draft",
+      "english": "\u000b%s\u000b\nsigned \u000b%s\u000b.\nNext selection. (\u000bLeft: %d\u000b)",
+      "source": "\u000b%s\u000bが\u000b%s\u000b選手を獲得しました。\n次へ進みます。（\u000bあと%d回\u000b）"
+    },
+    {
+      "address": "0x820955A0",
+      "status": "draft",
+      "english": "\u000b%s\u000b\nSelecting a player. Please wait.\n(\u000bPicks left: %d\u000b)",
+      "source": "\u000b%s\u000bが選手を選択していますので、しばらくお待ちください。（\u000bあと%d回\u000b）"
+    },
+    {
+      "address": "0x820955E8",
+      "status": "draft",
+      "english": "Select a player to sign.\n(\u000bPicks left: %d\u000b)",
+      "source": "獲得する選手を選択して下さい。（\u000bあと%d回\u000b）"
+    },
+    {
+      "address": "0x82095618",
+      "status": "draft",
+      "english": "Another team is choosing\na \u000bplayer to sign\u000b.\nPlease wait.",
+      "source": "他チームが\u000b獲得選手\u000bを選択しています。\nしばらくお待ち下さい。"
+    },
+    {
+      "address": "0x82095678",
+      "status": "draft",
+      "english": "\u000bReplay\u000b the \u000b2005 signings\u000b.\n\u000bAll\u000b real free agents skip FA\nand join their \u000boriginal clubs\u000b.",
+      "source": "\u000b２００５年実際に行われたフリーエージェント\u000bの獲得を\u000b再現\u000bします。実在フリーエージェント選手は\u000b全員\u000bフリーエージェントには参加せず、\u000b史実\u000b通りの球団に所属します。"
+    },
+    {
+      "address": "0x82095720",
+      "status": "draft",
+      "english": "Enter the \u000breal 2005 free\nagents\u000b as a group. You cannot\npick them individually.",
+      "source": "\u000b２００５年時点でフリーエージェントの権利を取得している実在選手\u000bをフリーエージェントに参加させます。（個別に参加させることはできません。）"
+    },
+    {
+      "address": "0x820957B0",
+      "status": "draft",
+      "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in free agency. Choose\nwhich \u000bcustom players\u000b to enter.",
+      "source": "\u000bスピリッツモード\u000bで作った\u000bオリジナル\u000b選手をフリーエージェントに参加させます。フリーエージェントに参加させたい\u000bオリジナル\u000b選手を選択して下さい。"
+    },
+    {
+      "address": "0x82096968",
+      "status": "draft",
+      "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+      "source": "自チームの現在の\u000b戦力\u000bを確認できます。\n（選手にカーソルを合わせると、\u000b能力\u000bを見ることができます。）"
+    },
+    {
+      "address": "0x820969CC",
+      "status": "draft",
+      "english": "Another team is selecting a\n\u000bplayer\u000b. Please wait.",
+      "source": "他チームが\u000b選手\u000bを選択しています。\nしばらくお待ち下さい。"
+    },
+    {
+      "address": "0x820A2810",
+      "status": "draft",
+      "english": "Custom Player 1",
+      "source": "オリジナル選手 １"
+    },
+    {
+      "address": "0x8207F210",
+      "status": "draft",
+      "english": "Game Settings<RIGHT><+>Select <○>Confirm <×>Back",
+      "source": "試合設定<RIGHT><+>選択 <○>決定 <×>戻る"
+    },
+    {
+      "address": "0x82085C60",
+      "status": "draft",
+      "english": "Ranked Match Lobby<RIGHT> <+>Select <□>Search Again <○>Confirm <×>Back ",
+      "source": "ランクマッチ ロビー<RIGHT> <+>選択 <□>再検索 <○>決定 <×>戻る "
+    },
+    {
+      "address": "0x8209F10C",
+      "status": "draft",
+      "english": "Preseason Results<RIGHT><○>Confirm",
+      "source": "オープン戦結果<RIGHT><○>決定"
     }
   ],
   "exclude_address_notes": {
     "0x8209D088": "Numeric table bytes incorrectly decoded as CP932 text",
-    "0x8209D820": "Numeric table bytes incorrectly decoded as CP932 text"
+    "0x8209D820": "Numeric table bytes incorrectly decoded as CP932 text",
+    "0x820991E0": "Vtable entry immediately before the pitching heading."
   },
   "provisional_overrides": {
     "0x8208AF68": "Takeshi",
@@ -8534,7 +8815,46 @@
     "0x8209A400": "opposing hitters",
     "0x8209A544": "what went poorly",
     "0x8209A578": "the high total",
-    "0x8209A5E0": "against "
+    "0x8209A5E0": "against ",
+    "0x82089E30": "Jang",
+    "0x820638E8": "Player Name",
+    "0x82065020": "Contact vs RHP",
+    "0x82068400": "Reconnect the controller and press A to continue.",
+    "0x82076280": "Get one out!",
+    "0x8207E320": "Arrange Menu<RIGHT><+UD>Select <○>Confirm <×>Back",
+    "0x820852FC": "Match Conditions<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "0x820857AC": "Search Filters<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "0x82085EB4": "Select Search Type<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "0x82085EF8": "Team Rankings (Stats Service Discontinued)<RIGHT> <×>Back ",
+    "0x820860E8": "Xbox Live Mode<RIGHT> <+>Select <○>Confirm <×>Back ",
+    "0x820864D8": "Ranked Match",
+    "0x82091070": "All Teams",
+    "0x82091A28": "%d",
+    "0x820946F8": "%s\nPassed. (\u000bRounds left: %d\u000b)\nProceed to the next pick.",
+    "0x82094770": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+    "0x82094820": "\u000b%s\u000b\ndrafted \u000b%s\u000b.\nNext pick. (\u000bRounds left: %d\u000b)",
+    "0x82094868": "Picks follow \u000bwaiver order\u000b.\n\u000b%s\u000b\nPicking. (\u000bRounds left: %d\u000b)",
+    "0x820948D0": "Draft in \u000bwaiver order\u000b.\nSelect a player.\n(\u000bRounds left: %d\u000b)",
+    "0x82094918": "Another team is making its\n\u000bFree Acquisition Slot pick\u000b.\nPlease wait.",
+    "0x8209495C": "This pick uses the\n\u000bFree Acquisition Slot\u000b.\nSelect a player.",
+    "0x820949E0": "Add \u000bfictional players\u000b to the\ndraft. Choose the \u000bfictional\nplayers\u000b you want to enter.",
+    "0x82094A38": "Replay the \u000b2005 draft\u000b \u000bpicks\u000b.\n\u000bAll\u000b real rookies skip the draft\nand join their \u000boriginal clubs\u000b.",
+    "0x82094AC0": "Enter the \u000breal 2005 rookies\u000b\nas a group. You cannot\npick them individually.",
+    "0x82094B38": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in the draft. Choose\nwhich \u000bcustom players\u000b to enter.",
+    "0x820954BC": "%s\nPassed. (\u000bPicks left: %d\u000b)\nProceed to the next selection.",
+    "0x82095560": "\u000b%s\u000b\nsigned \u000b%s\u000b.\nNext selection. (\u000bLeft: %d\u000b)",
+    "0x820955A0": "\u000b%s\u000b\nSelecting a player. Please wait.\n(\u000bPicks left: %d\u000b)",
+    "0x820955E8": "Select a player to sign.\n(\u000bPicks left: %d\u000b)",
+    "0x82095618": "Another team is choosing\na \u000bplayer to sign\u000b.\nPlease wait.",
+    "0x82095678": "\u000bReplay\u000b the \u000b2005 signings\u000b.\n\u000bAll\u000b real free agents skip FA\nand join their \u000boriginal clubs\u000b.",
+    "0x82095720": "Enter the \u000breal 2005 free\nagents\u000b as a group. You cannot\npick them individually.",
+    "0x820957B0": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in free agency. Choose\nwhich \u000bcustom players\u000b to enter.",
+    "0x82096968": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
+    "0x820969CC": "Another team is selecting a\n\u000bplayer\u000b. Please wait.",
+    "0x820A2810": "Custom Player 1",
+    "0x8207F210": "Game Settings<RIGHT><+>Select <○>Confirm <×>Back",
+    "0x82085C60": "Ranked Match Lobby<RIGHT> <+>Select <□>Search Again <○>Confirm <×>Back ",
+    "0x8209F10C": "Preseason Results<RIGHT><○>Confirm"
   },
   "provisional_word_overrides": {
     "中日vs阪神の試合は、両チームなかなか引き": "Chunichi vs. Hanshin was a close contest, with",

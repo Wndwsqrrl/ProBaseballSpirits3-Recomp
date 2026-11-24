@@ -1,4 +1,5 @@
 #include "../prospi3-recomp/src/format_translation.h"
+#include "../prospi3-recomp/src/offseason_text.h"
 #include "../prospi3-recomp/src/text_layout.h"
 #include "../prospi3-recomp/src/report_translation.h"
 #include <cassert>
@@ -6,6 +7,15 @@
 
 int main() {
   using localization::FormatTranslation;
+  using localization::PrepareOffseasonMessage;
+  const auto offseason=PrepareOffseasonMessage("100% Stars passed.\n(\vPicks left: 2\v)\nNext selection.");
+  assert(offseason=="100%% Stars passed.\n(\vPicks left: 2\v)\nNext selection.");
+  assert(PrepareOffseasonMessage(std::string(32,'A')+"\nNext.").has_value());
+  assert(!PrepareOffseasonMessage(std::string(32,'A')+"\v\nNext."));
+  assert(!PrepareOffseasonMessage(std::string(33,'A')));
+  assert(!PrepareOffseasonMessage("One\nTwo\nThree\nFour"));
+  assert(!PrepareOffseasonMessage("One\n\nThree"));
+  assert(!PrepareOffseasonMessage("\x8f\x9f"));
   assert(localization::NormalizeFullwidthAscii("Igawa\x81\x40Kei")=="Igawa Kei");
   assert(localization::NormalizeFullwidthAscii("\x82\x50\x82\x51\x82\x51\x81\x44\x82\x4f\x82\x8d")=="122.0m");
   assert(!localization::NormalizeFullwidthAscii("\x8f\x9f"));

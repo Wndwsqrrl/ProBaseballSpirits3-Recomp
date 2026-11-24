@@ -1,0 +1,165 @@
+{
+  "date": "2026-11-22",
+  "verified_draft_fields": 126,
+  "game_launched": false,
+  "live_screen_placement_checked": false,
+  "input_sha256": {
+    "spirits-training-drafts.json": "56c607f562554d2f277ee6634a0c0b8d607ee9dad3fca73ea418b6b754f225cf",
+    "native-ui-context-drafts.json": "5b81dacdc6ed63d2100cc516a92d234f8e46b0b6cf652031dc02788d379baac8"
+  },
+  "spirits_training": {
+    "draft_file": "spirits-training-drafts.json",
+    "record_count": 56,
+    "fields": {
+      "name": {
+        "verified": 56,
+        "maximum_draft_bytes_with_terminator": 20,
+        "minimum_safe_prefix_bytes": 20,
+        "widest_line_estimate_px": 154.0
+      },
+      "description": {
+        "verified": 56,
+        "maximum_draft_bytes_with_terminator": 154,
+        "minimum_safe_prefix_bytes": 203,
+        "widest_line_estimate_px": 351.0
+      }
+    },
+    "descriptions_with_nonzero_tail_preserved_in_memory": 52,
+    "all_drafts_preserve_or_reduce_source_line_count": true,
+    "width_estimate": "Arial 16 px, summed glyph advances. The 360 px check is an offline estimate.",
+    "native_evidence": "The card routine at 0x825AFB90 copies a record at 0x825B0218. The virtual accessor at 0x821E15B8 returns the copy at object +0x5C. The link from that accessor to a screen renderer remains unverified."
+  },
+  "save_sections": {
+    "draft_file": "native-ui-context-drafts.json",
+    "native_evidence": "The table pairs ASCII section keys with UTF-16BE labels. The traced save-data processing call at 0x82614748 uses size and offset fields. The package display title is read separately from 0x820A6F94 at 0x826123E8 and already has an English patch.",
+    "user_visible_consumer_verified": false,
+    "labels_requiring_relocation_for_in_place_slot_overflow": 10,
+    "labels": [
+      {
+        "address": "0x820A6E3C",
+        "section_key": "PENNANT3",
+        "japanese": "ペナント3",
+        "english": "Pennant 3",
+        "available_bytes": 12,
+        "required_bytes_with_terminator": 20,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6E54",
+        "section_key": "PENNANT2",
+        "japanese": "ペナント2",
+        "english": "Pennant 2",
+        "available_bytes": 12,
+        "required_bytes_with_terminator": 20,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6E6C",
+        "section_key": "PENNANT1",
+        "japanese": "ペナント1",
+        "english": "Pennant 1",
+        "available_bytes": 12,
+        "required_bytes_with_terminator": 20,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6E84",
+        "section_key": "PENNANT0",
+        "japanese": "ペナント0",
+        "english": "Pennant 0",
+        "available_bytes": 12,
+        "required_bytes_with_terminator": 20,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6E9C",
+        "section_key": "EDITPARAM",
+        "japanese": "エディット初期値",
+        "english": "Edit Defaults",
+        "available_bytes": 20,
+        "required_bytes_with_terminator": 28,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6EBC",
+        "section_key": "OPTIONS",
+        "japanese": "オプション設定",
+        "english": "Options",
+        "available_bytes": 16,
+        "required_bytes_with_terminator": 16,
+        "fits_before_section_key": true
+      },
+      {
+        "address": "0x820A6ED4",
+        "section_key": "SOUND",
+        "japanese": "サウンド設定",
+        "english": "Sound Settings",
+        "available_bytes": 16,
+        "required_bytes_with_terminator": 30,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6EEC",
+        "section_key": "ORGANIZATION",
+        "japanese": "選手組み合わせ",
+        "english": "Team Arrangement",
+        "available_bytes": 16,
+        "required_bytes_with_terminator": 34,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6F0C",
+        "section_key": "TRIAL",
+        "japanese": "トライアル",
+        "english": "Trial",
+        "available_bytes": 12,
+        "required_bytes_with_terminator": 12,
+        "fits_before_section_key": true
+      },
+      {
+        "address": "0x820A6F20",
+        "section_key": "STRIKEPITCH",
+        "japanese": "ストライクピッチ",
+        "english": "Strike Pitch",
+        "available_bytes": 20,
+        "required_bytes_with_terminator": 26,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6F40",
+        "section_key": "HOMERUNDERBY",
+        "japanese": "ホームラン競争",
+        "english": "Home Run Derby",
+        "available_bytes": 16,
+        "required_bytes_with_terminator": 30,
+        "fits_before_section_key": false
+      },
+      {
+        "address": "0x820A6F60",
+        "section_key": "VICTORYPOINT",
+        "japanese": "ＶＰ",
+        "english": "VP",
+        "available_bytes": 8,
+        "required_bytes_with_terminator": 6,
+        "fits_before_section_key": true
+      },
+      {
+        "address": "0x820A6F78",
+        "section_key": "EDITPLAYERS",
+        "japanese": "エディット選手",
+        "english": "Edited Players",
+        "available_bytes": 16,
+        "required_bytes_with_terminator": 30,
+        "fits_before_section_key": false
+      }
+    ]
+  },
+  "startup_placeholder": {
+    "draft_file": "native-ui-context-drafts.json",
+    "address": "0x8207684C",
+    "japanese": "ダミータイトル<RIGHT><+UD>選択<○>決定<×>戻る",
+    "english": "Dummy Title<RIGHT><+UD>Select<○>Confirm<×>Back",
+    "button_tags_preserved": true,
+    "native_evidence": "The header assigned at 0x823A04E4 is hidden on the same object at 0x823A04F0 before startup state advances."
+  }
+}

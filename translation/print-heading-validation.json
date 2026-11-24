@@ -134,7 +134,7 @@
     {
       "member": "PNTODAY06.CHK",
       "texture": "MENU_PEtoday_base.tsr",
-      "remaining": "Small postal metadata and low-resolution background columns"
+      "remaining": "Blurred edition marks and low-resolution background columns."
     },
     {
       "member": "SOLOINFO.CHK",
@@ -156,5 +156,23 @@
   "font_bounds_checked": true,
   "native_bc1_previews_checked": true,
   "interactive_validation": false,
-  "entire_game_english": false
+  "entire_game_english": false,
+  "postal_classification_review": {
+    "date": "2026-11-19",
+    "member": "PNTODAY06.CHK",
+    "texture": "MENU_PEtoday_base.tsr",
+    "japanese": "第3種郵便認可",
+    "english": "Third-Class Mail",
+    "rect": [
+      712,
+      36,
+      96,
+      16
+    ],
+    "sample_column": 708,
+    "decoded_preview_inspected": true,
+    "previous_member_bytes_outside_new_bc1_blocks_identical": true,
+    "total_archive_labels": 2092,
+    "interactive_validation": false
+  }
 }

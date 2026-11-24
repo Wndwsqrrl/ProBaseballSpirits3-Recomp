@@ -12,10 +12,10 @@
       "width": 1024,
       "height": 512,
       "format": "1a200152",
-      "remaining_text": "Masthead and baseball tag replaced. Small postal metadata and low-resolution background columns unresolved.",
+      "remaining_text": "Masthead, baseball tag and postal classification localized. Blurred edition marks and background columns remain unresolved.",
       "status": "partially_translated",
       "native_sprite_layout_verified": false,
-      "translated_labels": 2,
+      "translated_labels": 3,
       "validation_report": "print-heading-validation.json",
       "interactive_validation": false
     },
