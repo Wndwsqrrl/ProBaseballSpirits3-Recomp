@@ -1,0 +1,424 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "586be7e4dbc461913f06b3adce881338b9b2c444",
+  "source_headings": 9,
+  "output_sprite_tiles": 15,
+  "additional_label_occurrences": 6,
+  "localized_label_occurrences": 2098,
+  "atlases_refitted": 2,
+  "archive_members": 2,
+  "evidence": [
+    {
+      "member": "RKSTDM.CHK",
+      "texture": "SPIRITS_RKdemo.tsr",
+      "txc_resource": "TXC00",
+      "txc_payload_offset": 525392,
+      "source_uv_table": [
+        [
+          1,
+          49,
+          279,
+          83
+        ],
+        [
+          1,
+          85,
+          279,
+          119
+        ],
+        [
+          1,
+          121,
+          279,
+          155
+        ]
+      ],
+      "label_mapping": [
+        {
+          "label_index": 0,
+          "uv_index": 0,
+          "text": "Training Camp Begins",
+          "native_uv_xyxy": [
+            1,
+            49,
+            279,
+            83
+          ]
+        },
+        {
+          "label_index": 1,
+          "uv_index": 1,
+          "text": "Preseason Game",
+          "native_uv_xyxy": [
+            1,
+            85,
+            279,
+            119
+          ]
+        },
+        {
+          "label_index": 2,
+          "uv_index": 2,
+          "text": "Boost Challenge",
+          "native_uv_xyxy": [
+            1,
+            121,
+            279,
+            155
+          ]
+        }
+      ],
+      "source_member_sha256": "7cab730a944548e26b335ed80ca2cefade1208f4f4c7bd4bd8f4da63033eb761",
+      "txc_payload_sha256": "514fb024bf793fdc8e801d220d0bd0ff55f632a3a22cd7febb224aecd51e90d1"
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "texture": "PENNANT_PE_mission_silhouette.ts",
+      "txc_resource": "TXC04",
+      "txc_payload_offset": 794976,
+      "source_uv_table": [
+        [
+          157,
+          74,
+          224,
+          96
+        ],
+        [
+          157,
+          100,
+          224,
+          122
+        ],
+        [
+          98,
+          74,
+          114,
+          91
+        ],
+        [
+          118,
+          74,
+          134,
+          91
+        ],
+        [
+          1,
+          1,
+          255,
+          255
+        ],
+        [
+          257,
+          1,
+          511,
+          255
+        ],
+        [
+          1,
+          257,
+          255,
+          511
+        ],
+        [
+          1,
+          1,
+          255,
+          255
+        ],
+        [
+          257,
+          1,
+          511,
+          255
+        ],
+        [
+          1,
+          257,
+          255,
+          511
+        ],
+        [
+          257,
+          296,
+          383,
+          341
+        ],
+        [
+          257,
+          381,
+          383,
+          426
+        ],
+        [
+          257,
+          466,
+          383,
+          511
+        ],
+        [
+          385,
+          296,
+          511,
+          341
+        ],
+        [
+          385,
+          381,
+          511,
+          426
+        ],
+        [
+          385,
+          466,
+          511,
+          511
+        ],
+        [
+          257,
+          257,
+          383,
+          295
+        ],
+        [
+          257,
+          342,
+          383,
+          380
+        ],
+        [
+          257,
+          427,
+          383,
+          465
+        ],
+        [
+          385,
+          257,
+          511,
+          295
+        ],
+        [
+          385,
+          342,
+          511,
+          380
+        ],
+        [
+          385,
+          427,
+          511,
+          465
+        ]
+      ],
+      "label_mapping": [
+        {
+          "label_index": 0,
+          "uv_index": 16,
+          "text": "MCP",
+          "bold": false,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            257,
+            383,
+            295
+          ]
+        },
+        {
+          "label_index": 1,
+          "uv_index": 19,
+          "text": "Extra",
+          "bold": false,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            257,
+            511,
+            295
+          ]
+        },
+        {
+          "label_index": 2,
+          "uv_index": 10,
+          "text": "MCP",
+          "bold": true,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            296,
+            383,
+            341
+          ]
+        },
+        {
+          "label_index": 3,
+          "uv_index": 13,
+          "text": "Extra",
+          "bold": true,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            296,
+            511,
+            341
+          ]
+        },
+        {
+          "label_index": 4,
+          "uv_index": 17,
+          "text": "Boost",
+          "bold": false,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            342,
+            383,
+            380
+          ]
+        },
+        {
+          "label_index": 5,
+          "uv_index": 20,
+          "text": "Special",
+          "bold": false,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            342,
+            511,
+            380
+          ]
+        },
+        {
+          "label_index": 6,
+          "uv_index": 11,
+          "text": "Boost",
+          "bold": true,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            381,
+            383,
+            426
+          ]
+        },
+        {
+          "label_index": 7,
+          "uv_index": 14,
+          "text": "Special",
+          "bold": true,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            381,
+            511,
+            426
+          ]
+        },
+        {
+          "label_index": 8,
+          "uv_index": 18,
+          "text": "Team",
+          "bold": false,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            427,
+            383,
+            465
+          ]
+        },
+        {
+          "label_index": 9,
+          "uv_index": 21,
+          "text": "Chain",
+          "bold": false,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            427,
+            511,
+            465
+          ]
+        },
+        {
+          "label_index": 10,
+          "uv_index": 12,
+          "text": "Team",
+          "bold": true,
+          "part": "prefix",
+          "native_uv_xyxy": [
+            257,
+            466,
+            383,
+            511
+          ]
+        },
+        {
+          "label_index": 11,
+          "uv_index": 15,
+          "text": "Chain",
+          "bold": true,
+          "part": "suffix",
+          "native_uv_xyxy": [
+            385,
+            466,
+            511,
+            511
+          ]
+        }
+      ],
+      "source_member_sha256": "21af24142ea4053b0dc2960140b6d5f2791438316e27da76262d25b546eafc78",
+      "txc_payload_sha256": "8d38c6792c73883bd71dd1a8ccf54bc4230b9327d8b7f5bfc0656ae13ff3719f"
+    }
+  ],
+  "staged_members": [
+    {
+      "member": "RKSTDM.CHK",
+      "offset": 1297385472,
+      "size": 525536,
+      "before_sha256": "9666fd0326bc5eaccc179217da8eee9e839f0ba91b26a19338454c39afae8b27",
+      "after_sha256": "a6033be84e9fdb4841a5a93fd869998a3aa1c2a9dc20a54433b0cad3111450cc",
+      "revised_atlases": [
+        "SPIRITS_RKdemo.tsr"
+      ],
+      "other_surface_payloads_byte_identical": 3
+    },
+    {
+      "member": "PEMUSERCON.CHK",
+      "offset": 1099472896,
+      "size": 797072,
+      "before_sha256": "223c6faad833b19ea5045c686cf9610348110ded4c5fb1c95745881f00131069",
+      "after_sha256": "d6a204498aaaadf169aedeb1196cbe1edfbdc77c49dd02f8c3ba1b1b0c9dd245",
+      "revised_atlases": [
+        "PENNANT_PE_mission_silhouette.ts"
+      ],
+      "other_surface_payloads_byte_identical": 1
+    }
+  ],
+  "native_uv_tables_unchanged": true,
+  "native_animation_data_unchanged": true,
+  "other_atlas_payloads_and_packed_text_unchanged": true,
+  "interactive_validation": false,
+  "full_animation_frame_coverage": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "entire_game_english": false,
+  "archive_index_unchanged": true,
+  "decoded_crops_visually_inspected": true,
+  "executable_rebuild_required": false,
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "packed_text_slots_verified": 83,
+  "pending_live_validation": "All three Spirits start-demo headings and the mission prefix/suffix assembly, tint, spacing and animated states. Asset crop checks do not establish live placement.",
+  "native_uv_mapping_scope": "Every declared heading rectangle in RKSTDM/TXC00 (3) and PEMUSERCON/TXC04 (12 heading tiles); full motion-frame simulation is not performed.",
+  "remaining_static_ink_warnings": 1,
+  "remaining_warning": "Complete is split into two adjoining native draws; preserved as previously verified.",
+  "geometric_crop_candidates": 73,
+  "protected_artwork_unchanged": true,
+  "protected_scope": "No stadium signage, advertisements, ballpark artwork, credits or title logo changed.",
+  "source_heading_wording_unchanged": true,
+  "label_count_change_explanation": "Six compound mission occurrences are represented as twelve prefix/suffix tiles; no additional source headings were discovered.",
+  "source_code_and_executable_unchanged": true,
+  "reference_scope": "Existing English wording retained; this batch changes tile boundaries and fit only."
+}

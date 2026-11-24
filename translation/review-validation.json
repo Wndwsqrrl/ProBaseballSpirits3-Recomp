@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "All three Spirits start-demo headings and six mission heading variants now fit their declared alternate UV tiles. Compound mission labels use separate prefix/suffix tiles. Decoded crop comparisons and all 2223 archive members passed; live animation and assembled placement still need testing.",
     "Twelve clipped labels refitted to native sprite crops across 11 atlases/7 members. Decoded crop comparisons and the full 2223-member archive check passed; 2112 untouched members, packed text and unrelated surfaces remain unchanged. Complete uses joined strips; mission/start-demo animations still require UV-state checks.",
     "Integrated the 36 confirmed UI drafts and three complete menu headers. Seventy-four catalogue lookups, 45 native offseason row replays, header and Spirits width estimates, and the Windows build passed.",
     "Updated 21 existing entries, added four runtime templates for dates, nominee counts and inning labels, and corrected the pitching heading pointer. The Windows build and 33 compiled lookups passed. The newspaper postal label fits the atlas and 2,112 untouched archive members were verified.",
@@ -59,7 +60,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
-    "Live confirmation of 12 static crop repairs; animated mission-card prefix/suffix headings and all Spirits start-demo heading states remain unverified",
+    "Live confirmation of the 12 static crop repairs plus all mission prefix/suffix and Spirits start-demo animation states",
     "Live placement and coverage for integrated CP932 UI, native offseason rows, and the UTF-16BE IP dialog.",
     "Check the updated Pennant dates, nominee counts, inning strings, award text and newspaper postal line in game.",
     "Live Submarine motion headings and pitcher-role compounds, Medium Speed settings and CPU Difficulty help placement",
@@ -953,7 +954,24 @@
     "pending_dynamic_default_cases": 3,
     "pending_dynamic_atlas_families": 2,
     "report": "static-sprite-crop-validation.json",
-    "interactive_validation": false
+    "interactive_validation": false,
+    "follow_up_report": "alternate-sprite-crop-validation.json"
   },
-  "latest_asset_layout_report": "static-sprite-crop-validation.json"
+  "latest_asset_layout_report": "alternate-sprite-crop-validation.json",
+  "alternate_sprite_crop_review": {
+    "source_heading_variants": 9,
+    "output_sprite_tiles": 15,
+    "atlases_refitted": 2,
+    "archive_members_updated": 2,
+    "native_alternate_uv_tables_checked": true,
+    "decoded_crops_visually_inspected": true,
+    "all_archive_members_verified": 2223,
+    "untouched_archive_members_verified": 2112,
+    "localized_label_occurrences": 2098,
+    "remaining_static_ink_warnings": 1,
+    "remaining_warning_is_joined_word": true,
+    "interactive_validation": false,
+    "full_animation_frame_coverage": false,
+    "report": "alternate-sprite-crop-validation.json"
+  }
 }

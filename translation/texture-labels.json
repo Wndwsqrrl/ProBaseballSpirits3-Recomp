@@ -19854,17 +19854,17 @@
     "PENNANT_PE_mission_silhouette.ts": [
       {
         "rect": [
-          256,
-          256,
-          256,
-          42
+          257,
+          257,
+          126,
+          38
         ],
-        "text": "MCP Extra",
-        "source": "MCP エクストラ",
+        "text": "MCP",
+        "source": "MCP",
         "padding": 4,
-        "max_font_size": 40,
+        "max_font_size": 32,
         "min_font_size": 12,
-        "condense": true,
+        "condense": false,
         "align": "center",
         "background": [
           204,
@@ -19889,17 +19889,52 @@
       },
       {
         "rect": [
-          256,
-          298,
-          256,
-          42
+          385,
+          257,
+          126,
+          38
         ],
-        "text": "MCP Extra",
-        "source": "MCP エクストラ",
+        "text": "Extra",
+        "source": "エクストラ",
         "padding": 4,
-        "max_font_size": 40,
+        "max_font_size": 32,
         "min_font_size": 12,
-        "condense": true,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          257,
+          296,
+          126,
+          45
+        ],
+        "text": "MCP",
+        "source": "MCP",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
         "align": "center",
         "background": [
           204,
@@ -19924,52 +19959,17 @@
       },
       {
         "rect": [
-          256,
-          340,
-          256,
-          42
+          385,
+          296,
+          126,
+          45
         ],
-        "text": "Boost Special",
-        "source": "覚醒 スペシャル",
+        "text": "Extra",
+        "source": "エクストラ",
         "padding": 4,
-        "max_font_size": 40,
+        "max_font_size": 32,
         "min_font_size": 12,
-        "condense": true,
-        "align": "center",
-        "background": [
-          204,
-          204,
-          204,
-          0
-        ],
-        "foreground": [
-          204,
-          204,
-          204,
-          204
-        ],
-        "alpha_mask_only": true,
-        "outline_width": 0,
-        "outline": [
-          204,
-          204,
-          204,
-          255
-        ]
-      },
-      {
-        "rect": [
-          256,
-          382,
-          256,
-          42
-        ],
-        "text": "Boost Special",
-        "source": "覚醒 スペシャル",
-        "padding": 4,
-        "max_font_size": 40,
-        "min_font_size": 12,
-        "condense": true,
+        "condense": false,
         "align": "center",
         "background": [
           204,
@@ -19994,17 +19994,17 @@
       },
       {
         "rect": [
-          256,
-          424,
-          256,
-          42
+          257,
+          342,
+          126,
+          38
         ],
-        "text": "Team Chain",
-        "source": "チーム チェイン",
+        "text": "Boost",
+        "source": "覚醒",
         "padding": 4,
-        "max_font_size": 40,
+        "max_font_size": 32,
         "min_font_size": 12,
-        "condense": true,
+        "condense": false,
         "align": "center",
         "background": [
           204,
@@ -20029,17 +20029,227 @@
       },
       {
         "rect": [
-          256,
+          385,
+          342,
+          126,
+          38
+        ],
+        "text": "Special",
+        "source": "スペシャル",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          257,
+          381,
+          126,
+          45
+        ],
+        "text": "Boost",
+        "source": "覚醒",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          385,
+          381,
+          126,
+          45
+        ],
+        "text": "Special",
+        "source": "スペシャル",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          257,
+          427,
+          126,
+          38
+        ],
+        "text": "Team",
+        "source": "チーム",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          385,
+          427,
+          126,
+          38
+        ],
+        "text": "Chain",
+        "source": "チェイン",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          204
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 0,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          257,
           466,
-          256,
-          46
+          126,
+          45
         ],
-        "text": "Team Chain",
-        "source": "チーム チェイン",
+        "text": "Team",
+        "source": "チーム",
         "padding": 4,
-        "max_font_size": 40,
+        "max_font_size": 32,
         "min_font_size": 12,
-        "condense": true,
+        "condense": false,
+        "align": "center",
+        "background": [
+          204,
+          204,
+          204,
+          0
+        ],
+        "foreground": [
+          204,
+          204,
+          204,
+          255
+        ],
+        "alpha_mask_only": true,
+        "outline_width": 1,
+        "outline": [
+          204,
+          204,
+          204,
+          255
+        ]
+      },
+      {
+        "rect": [
+          385,
+          466,
+          126,
+          45
+        ],
+        "text": "Chain",
+        "source": "チェイン",
+        "padding": 4,
+        "max_font_size": 32,
+        "min_font_size": 12,
+        "condense": false,
         "align": "center",
         "background": [
           204,
@@ -46827,15 +47037,15 @@
     "SPIRITS_RKdemo.tsr": [
       {
         "rect": [
-          0,
-          48,
-          512,
-          40
+          1,
+          49,
+          278,
+          34
         ],
         "text": "Training Camp Begins",
         "source": "キャンプイン",
         "padding": 6,
-        "max_font_size": 36,
+        "max_font_size": 30,
         "min_font_size": 22,
         "outline_width": 1,
         "background": [
@@ -46847,15 +47057,15 @@
       },
       {
         "rect": [
-          0,
-          88,
-          512,
-          40
+          1,
+          85,
+          278,
+          34
         ],
         "text": "Preseason Game",
         "source": "オープン戦",
         "padding": 6,
-        "max_font_size": 36,
+        "max_font_size": 30,
         "min_font_size": 22,
         "outline_width": 1,
         "background": [
@@ -46867,15 +47077,15 @@
       },
       {
         "rect": [
-          0,
-          128,
-          512,
-          40
+          1,
+          121,
+          278,
+          34
         ],
         "text": "Boost Challenge",
         "source": "覚醒チャレンジ",
         "padding": 6,
-        "max_font_size": 36,
+        "max_font_size": 30,
         "min_font_size": 22,
         "outline_width": 1,
         "background": [

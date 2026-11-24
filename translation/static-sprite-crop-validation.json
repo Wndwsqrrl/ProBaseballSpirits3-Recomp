@@ -801,5 +801,7 @@
     }
   ],
   "native_animation_routes_checked": "SpiritsStartDemoProc uses motion data through 0x825BB6B8 and 0x820D1350; a static default crop does not establish later frame bounds.",
-  "full_archive_validation_scope": "All 2223 archive members, current localized areas, packed slots and Pennant fields; this does not establish all live sprite states or mode coverage."
+  "full_archive_validation_scope": "All 2223 archive members, current localized areas, packed slots and Pennant fields; this does not establish all live sprite states or mode coverage.",
+  "dynamic_crop_follow_up_report": "alternate-sprite-crop-validation.json",
+  "dynamic_crop_follow_up_status": "All declared heading rectangles have been refitted and verified; full motion-frame and live assembly checks remain pending."
 }
