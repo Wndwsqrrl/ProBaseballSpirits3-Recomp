@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "18adfb85ec3949e19d8628e8b341c40455bb6196",
+  "scope": "Trace the 13 staged UTF-16BE save-section references and verify the existing storage-title hook without executing a real save/display API.",
+  "native_save_record_table": {
+    "address": "0x8273E098",
+    "records": 14,
+    "stride": 20,
+    "fields": [
+      {
+        "offset": 0,
+        "name": "ASCII section-key pointer"
+      },
+      {
+        "offset": 4,
+        "name": "UTF-16BE label pointer"
+      },
+      {
+        "offset": 8,
+        "name": "computed payload offset"
+      },
+      {
+        "offset": 12,
+        "name": "payload byte count"
+      },
+      {
+        "offset": 16,
+        "name": "padded span including checksum"
+      }
+    ],
+    "padded_payload_bytes": 4425756
+  },
+  "records": [
+    {
+      "index": 0,
+      "record_address": "0x8273E098",
+      "ascii_section_key": "Save Data",
+      "ascii_key_address": "0x820A6FAC",
+      "wide_label_address": "0x820A6F94",
+      "wide_label": "プロ野球スピリッツ３",
+      "english_reference": "Pro Yakyuu Spirits 3",
+      "native_payload_bytes": 29608,
+      "padded_span_bytes": 29612,
+      "computed_payload_offset": 0,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 1,
+      "record_address": "0x8273E0AC",
+      "ascii_section_key": "EDITPLAYERS",
+      "ascii_key_address": "0x820A6F88",
+      "wide_label_address": "0x820A6F78",
+      "wide_label": "エディット選手",
+      "english_reference": "Edited Players",
+      "native_payload_bytes": 116,
+      "padded_span_bytes": 120,
+      "computed_payload_offset": 29612,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 2,
+      "record_address": "0x8273E0C0",
+      "ascii_section_key": "VICTORYPOINT",
+      "ascii_key_address": "0x820A6F68",
+      "wide_label_address": "0x820A6F60",
+      "wide_label": "ＶＰ",
+      "english_reference": "VP",
+      "native_payload_bytes": 1348,
+      "padded_span_bytes": 1352,
+      "computed_payload_offset": 29732,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 3,
+      "record_address": "0x8273E0D4",
+      "ascii_section_key": "HOMERUNDERBY",
+      "ascii_key_address": "0x820A6F50",
+      "wide_label_address": "0x820A6F40",
+      "wide_label": "ホームラン競争",
+      "english_reference": "Home Run Derby",
+      "native_payload_bytes": 824,
+      "padded_span_bytes": 828,
+      "computed_payload_offset": 31084,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 4,
+      "record_address": "0x8273E0E8",
+      "ascii_section_key": "STRIKEPITCH",
+      "ascii_key_address": "0x820A6F34",
+      "wide_label_address": "0x820A6F20",
+      "wide_label": "ストライクピッチ",
+      "english_reference": "Strike Pitch",
+      "native_payload_bytes": 23,
+      "padded_span_bytes": 28,
+      "computed_payload_offset": 31912,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 5,
+      "record_address": "0x8273E0FC",
+      "ascii_section_key": "TRIAL",
+      "ascii_key_address": "0x820A6F18",
+      "wide_label_address": "0x820A6F0C",
+      "wide_label": "トライアル",
+      "english_reference": "Trial",
+      "native_payload_bytes": 55560,
+      "padded_span_bytes": 55564,
+      "computed_payload_offset": 31940,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 6,
+      "record_address": "0x8273E110",
+      "ascii_section_key": "ORGANIZATION",
+      "ascii_key_address": "0x820A6EFC",
+      "wide_label_address": "0x820A6EEC",
+      "wide_label": "選手組み合わせ",
+      "english_reference": "Team Arrangement",
+      "native_payload_bytes": 12,
+      "padded_span_bytes": 16,
+      "computed_payload_offset": 87504,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 7,
+      "record_address": "0x8273E124",
+      "ascii_section_key": "SOUND",
+      "ascii_key_address": "0x820A6EE4",
+      "wide_label_address": "0x820A6ED4",
+      "wide_label": "サウンド設定",
+      "english_reference": "Sound Settings",
+      "native_payload_bytes": 564,
+      "padded_span_bytes": 568,
+      "computed_payload_offset": 87520,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 8,
+      "record_address": "0x8273E138",
+      "ascii_section_key": "OPTIONS",
+      "ascii_key_address": "0x820A6ECC",
+      "wide_label_address": "0x820A6EBC",
+      "wide_label": "オプション設定",
+      "english_reference": "Options",
+      "native_payload_bytes": 140,
+      "padded_span_bytes": 144,
+      "computed_payload_offset": 88088,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 9,
+      "record_address": "0x8273E14C",
+      "ascii_section_key": "EDITPARAM",
+      "ascii_key_address": "0x820A6EB0",
+      "wide_label_address": "0x820A6E9C",
+      "wide_label": "エディット初期値",
+      "english_reference": "Edit Defaults",
+      "native_payload_bytes": 1069156,
+      "padded_span_bytes": 1069160,
+      "computed_payload_offset": 88232,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 10,
+      "record_address": "0x8273E160",
+      "ascii_section_key": "PENNANT0",
+      "ascii_key_address": "0x820A6E90",
+      "wide_label_address": "0x820A6E84",
+      "wide_label": "ペナント0",
+      "english_reference": "Pennant 0",
+      "native_payload_bytes": 1069156,
+      "padded_span_bytes": 1069160,
+      "computed_payload_offset": 1157392,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 11,
+      "record_address": "0x8273E174",
+      "ascii_section_key": "PENNANT1",
+      "ascii_key_address": "0x820A6E78",
+      "wide_label_address": "0x820A6E6C",
+      "wide_label": "ペナント1",
+      "english_reference": "Pennant 1",
+      "native_payload_bytes": 1069156,
+      "padded_span_bytes": 1069160,
+      "computed_payload_offset": 2226552,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 12,
+      "record_address": "0x8273E188",
+      "ascii_section_key": "PENNANT2",
+      "ascii_key_address": "0x820A6E60",
+      "wide_label_address": "0x820A6E54",
+      "wide_label": "ペナント2",
+      "english_reference": "Pennant 2",
+      "native_payload_bytes": 1069156,
+      "padded_span_bytes": 1069160,
+      "computed_payload_offset": 3295712,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    },
+    {
+      "index": 13,
+      "record_address": "0x8273E19C",
+      "ascii_section_key": "PENNANT3",
+      "ascii_key_address": "0x820A6E48",
+      "wide_label_address": "0x820A6E3C",
+      "wide_label": "ペナント3",
+      "english_reference": "Pennant 3",
+      "native_payload_bytes": 60880,
+      "padded_span_bytes": 60884,
+      "computed_payload_offset": 4364872,
+      "original_offset_sentinel": "0xFFFFFFFF",
+      "original_span": 0
+    }
+  ],
+  "native_table_cross_references": [
+    {
+      "pc": "0x825639B4",
+      "function": "0x825638E0",
+      "target": "0x8273E07C",
+      "op": 14,
+      "partition": 77
+    },
+    {
+      "pc": "0x82612438",
+      "function": "0x82612368",
+      "target": "0x8273E07C",
+      "op": 14,
+      "partition": 28
+    },
+    {
+      "pc": "0x82612558",
+      "function": "0x82612508",
+      "target": "0x8273E07C",
+      "op": 14,
+      "partition": 40
+    },
+    {
+      "pc": "0x82612618",
+      "function": "0x826125D0",
+      "target": "0x8273E084",
+      "op": 14,
+      "partition": 20
+    },
+    {
+      "pc": "0x826128CC",
+      "function": "0x82612710",
+      "target": "0x8273E084",
+      "op": 14,
+      "partition": 23
+    },
+    {
+      "pc": "0x82612F9C",
+      "function": "0x82612F30",
+      "target": "0x8273E07C",
+      "op": 14,
+      "partition": 80
+    },
+    {
+      "pc": "0x8261312C",
+      "function": "0x82612F30",
+      "target": "0x8273E07C",
+      "op": 14,
+      "partition": 80
+    },
+    {
+      "pc": "0x82613300",
+      "function": "0x826132D8",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 63
+    },
+    {
+      "pc": "0x826133CC",
+      "function": "0x82613398",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 9
+    },
+    {
+      "pc": "0x826134DC",
+      "function": "0x826134C8",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 2
+    },
+    {
+      "pc": "0x82613574",
+      "function": "0x82613570",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 39
+    },
+    {
+      "pc": "0x82613604",
+      "function": "0x826135E0",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 55
+    },
+    {
+      "pc": "0x82613980",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613AE4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613B10",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613B3C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613B68",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613B94",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613BC0",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613BEC",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613C1C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613D74",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613DF4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613E98",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613EC4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613F20",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613F4C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613FA8",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82613FD4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82614030",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x8261405C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82614088",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x826140B4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82614110",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x8261413C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82614198",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x826141C4",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x82614220",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x8261424C",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x826142A8",
+      "function": "0x82613868",
+      "target": "0x8273E0A0",
+      "op": 14,
+      "partition": 54
+    },
+    {
+      "pc": "0x826173E8",
+      "function": "0x826173B0",
+      "target": "0x8273E01C",
+      "op": 14,
+      "partition": 14
+    },
+    {
+      "pc": "0x8261743C",
+      "function": "0x826173B0",
+      "target": "0x8273E01C",
+      "op": 14,
+      "partition": 14
+    }
+  ],
+  "native_replays": [
+    {
+      "function": "0x82613570",
+      "purpose": "Initialize per-record offsets/spans and return total padded size.",
+      "passed": true
+    },
+    {
+      "function": "0x826132D8",
+      "purpose": "Validate the native alternating add/XOR per-section checksum.",
+      "passed": true
+    },
+    {
+      "function": "0x82612368",
+      "purpose": "Build XCONTENT_DATA and call the stubbed content API using the current translation hook.",
+      "passed": true
+    }
+  ],
+  "replay_checks": [
+    "Native offsets/spans match independent round-to-four-plus-checksum calculations for all 14 records.",
+    "The size and checksum paths succeed even when both name-pointer columns reference unmapped guest addresses or zero.",
+    "Valid payload passes; a changed payload byte and a changed checksum byte are each rejected.",
+    "Checksum and size checks leave the constructed payload bytes unchanged.",
+    "The original title factory creates a 308-byte XCONTENT_DATA descriptor.",
+    "The content API receives the English display title Pro Yakyuu Spirits 3 and the unchanged Save Data file key.",
+    "The device ID and content type retain their native byte layout.",
+    "The hook changes only the 128-unit UTF-16BE display-name field; filename and other descriptor bytes stay intact.",
+    "A different caller or a different source bypasses the title translation."
+  ],
+  "existing_storage_title_hook": {
+    "copy_hook": "0x8262FB40",
+    "native_caller": "0x82612368",
+    "copy_return_address": "0x826123EC",
+    "expected_source": "0x820A6F94",
+    "descriptor_size_bytes": 308,
+    "display_field_offset": 8,
+    "display_field_code_units": 128,
+    "file_name_field_offset": 264,
+    "file_name_field_bytes": 42,
+    "english_display_name": "Pro Yakyuu Spirits 3",
+    "preserved_file_key": "Save Data",
+    "current_hook_source_sha256": "568940f0452dd2f726622f64a5bbd079d2efaf726de75e6394e8ff5423d4ccac"
+  },
+  "harness_imports": {
+    "native_initializer_for_checksum_stubbed": "0x826134C8 (records preinitialized by the real size routine)",
+    "memset_modeled": "0x826BC220",
+    "user_index_provider_stubbed": "0x823B2DD8",
+    "wide_copy_modeled": "__imp__sub_8262FB40",
+    "content_api_stubbed": "0x8262FB48",
+    "sdk_display_name_setter": "Actual installed SDK XCONTENT_DATA inline setter/getter",
+    "sdk_byte_swap_helpers": "Local SDK AMD64 function bodies, with alignment assertions expressed through the harness assertions."
+  },
+  "interpretation": [
+    "The 13 staged labels are columns in the internal save-section directory; they are not the XCONTENT_DATA display-title field.",
+    "The tested layout/checksum paths do not read those labels. This is not a proof that no other game path displays them.",
+    "Keep the 13 English references staged until a display consumer and its destination capacity are established.",
+    "The actual platform display-title route already translates its separate source through a bounded descriptor field."
+  ],
+  "staged_save_labels": 13,
+  "save_section_display_consumer_verified": false,
+  "source_table_and_original_wide_strings_unchanged": true,
+  "existing_user_saves_read_or_modified": false,
+  "real_save_or_display_api_executed": false,
+  "game_launched": false,
+  "normal_game_rebuild_required": false,
+  "normal_executable_unchanged": true,
+  "normal_executable_sha256": "0f317bd9506bc0f78fc883b159a7e392c8a5c8cc2f92b65abb30e512cd49c04d",
+  "generated_header_unchanged": true,
+  "generated_header_sha256": "48951909aede3af18f966c412063e74f785d2fb43fe4b50bfc8b8f22534f1efa",
+  "translation_catalogue_unchanged": true,
+  "texture_assets_unchanged": true,
+  "credentials_accessed": false,
+  "new_service_requests": 0,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Any actual display consumer of the 13 internal section labels, if one exists.",
+    "Live storage-dialog presentation and saves created by the game.",
+    "Remaining training display-route, mode/event discovery and placement/accuracy review."
+  ]
+}

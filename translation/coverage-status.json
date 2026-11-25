@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "catalogue_records": 19128,
   "unique_fingerprints": 18829,
   "roster_records": 648,
@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Traced the 14-record save-section directory and replayed native size, checksum and content-initialization routines. The 4425756-byte layout and valid checksums passed with name pointers invalid or zero; damaged data/checksum cases failed. The existing title hook reached the stubbed storage API with Pro Yakyuu Spirits 3 and unchanged Save Data key. Caller/source and descriptor-boundary checks passed. The 13 section labels remain unintegrated with no confirmed display consumer; no real saves, game assets or normal executable changed.",
     "Reviewed the remaining 254 ability editor fields, completing source/context review of 337 maintained descriptions. Corrected ten native entries, the Pull Tendency erratum fragment and three Late Flame labels. Native name/description pointer associations and the 2026 glossary resolve the two text discrepancies without changing ability logic. Passed 259 compiled lookups, 257 curation checks, erratum reproduction, the Windows build and full 2223-member archive verification; 2112 untouched members and all 2098 texture labels are verified. Live behavior and placement remain open.",
     "Reviewed the first 83 ability descriptions and 10 additional pitching/label fields. Corrected 15 native entries and 18 fragments for Pitch Power, Power Surge, Consistent, accountability and team-win wording. Passed 112 compiled lookups, 93 curation checks, 18 fragment regeneration/curation checks, the complete review merger and the Windows build. The Okawari nickname and two contradictory native source conditions are preserved; mechanics and live placement remain open.",
     "Reviewed 261 settings fragment sources and corrected 79 source-meaning mappings. The 258 explicit runs replace positional inference for all 207 settings paragraphs. Three incomplete word endings are excluded only from inferred address-zero lookups. All 6297 native fields and full formatted paragraphs are unchanged. Passed 465 compiled lookups, 258 regeneration/curation checks, native-field/exclusion regressions, the full review merger and the Windows build.",
@@ -182,7 +183,7 @@
     "some missing gameplay geometry"
   ],
   "entire_game_english": false,
-  "latest_offline_review": "ability-editor-accuracy-validation.json",
+  "latest_offline_review": "save-section-routing-validation.json",
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1024,
@@ -1254,5 +1255,18 @@
     "live_screen_placement_checked": false,
     "report": "ability-editor-accuracy-validation.json",
     "full_archive_verified": true
+  },
+  "save_section_routing_review": {
+    "native_records": 14,
+    "staged_section_labels": 13,
+    "padded_payload_bytes": 4425756,
+    "native_layout_checksum_and_title_factory_replays_passed": true,
+    "existing_storage_title_hook_verified": true,
+    "file_key_and_descriptor_boundaries_preserved": true,
+    "section_label_display_consumer_verified": false,
+    "section_labels_integrated": false,
+    "real_save_or_display_api_executed": false,
+    "normal_game_rebuild_required": false,
+    "report": "save-section-routing-validation.json"
   }
 }
