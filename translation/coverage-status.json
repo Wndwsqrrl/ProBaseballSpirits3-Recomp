@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Separated all 31 compact team-ID labels from shared glyphs. Chunichi/China and Invoice/All-Eastern now receive distinct two-byte labels without altering the original center-field or other source strings. Corrected six catalogue fields including Searex spelling, promoted four drafts, and reviewed 107 native fields. Native concatenation, invalid-input guards, protected-page access, 109 compiled lookups, 107 curation checks and the Windows build passed. Runtime-only pointer changes preserve all original text and disc/asset files; live placement remains open.",
     "Reviewed 195 Spirits tutorial and VP Shop fields against original source and cached DeepL comparisons. Twelve corrections specify high-school links, match Bat First/Bat Last selectors and distinguish generic Municipal Stadium from Hiroshima. All 195 compiled lookups, 195 curation checks, the complete review merger and the Windows build passed. Source metadata and texture assets are unchanged; live tutorial/shop placement remains open.",
     "Completed source/context review of all 940 populated Pennant event fields. The title/description and narrative/notice follow-ups correct 23 fields and resolve the All-Star MVP question using the original explicit objective. All 2223 archive members and 2112 untouched members passed verification after each asset batch. Live event wrapping, pagination and native placeholder expansion remain open.",
     "Reviewed all 187 Pennant rewards and 187 objectives (191 source/English pairs). Eight bounded corrections align coach capacity, unlocked command names, contact targets and event-period totals. All 18 unlock names match the native command menu. The original resource has exactly 940 populated fields and each has English; None references are exclusively empty slots. All 2223 archive members passed, including 2112 untouched members. The later narrative review resolves event 5 MVP wording against the explicit original objective; live placement remains open.",
@@ -23,7 +24,7 @@
     "Aligned the Starter Conditioning attribute (Starter Cond. in compact labels) with its official 2026 reference, keeping Starter Prep commands distinct. Nine runtime rows and one bounded Pennant reward changed. Fifteen compiled cases, six curation checks, the Windows build and all 2223 archive members passed. Live label fit, especially the +1 bonus, remains pending.",
     "Reviewed 34 formatting-sensitive mission/camp/offseason help pages against source and DeepL examples. Corrected seven catalogue rows for Coach Capacity, Boost missions, active-roster eligibility and consistent camp/form wording. Forty compiled cases and 35 curation checks passed; control order, line counts and source metadata are unchanged. Starter-stat terminology was resolved in the conditioning follow-up; live placement remains open.",
     "Completed the source/DeepL accuracy review of all 56 Spirits training names and 56 descriptions. Preserved level-versus-XP gains, partner requirements, three-turn limits, one-practice bonuses and the custom-player exclusion. Wording is unchanged, with Focus/Pitch Type/Defense following 2026 references. All 112 maintained overrides and 108 compiled lookups passed; display routing and placement remain open.",
-    "DeepL comparison responses received for all 9559 distinct known inputs. All 25410 comparison records have source text. Fifty-four XML-control and 22 additional Pennant-control cases have separate meaning-only examples. Ten initial texture-context decisions retain verified baseball terminology; the full manual accuracy review and live placement remain pending.",
+    "DeepL comparison responses are cached for all 9556 current distinct inputs. All 25438 current comparison records have source text, including 31 context-specific team-ID labels. The original service pass returned 9559 responses before three invalid standalone fragments were excluded. Fifty-four XML-control and 22 additional Pennant-control cases have separate meaning-only examples. Ten initial texture-context decisions retain verified baseball terminology; the full manual accuracy review and live placement remain pending.",
     "Corrected the lineup inactive-status legend (previously Tired), clarified Power and both stamina bars using 2026 terminology, and changed batting-order labels to Bat First/Bat Last. All 57 missing original texture sources were transcribed from decoded crops. All 2098 localized texture occurrences now have source metadata; all 2223 archive members passed verification.",
     "Contract-renewal amounts ending in 万円 now have a full numeric renderer pattern, using the existing x 10,000 yen notation. Eight newly covered numeric cases, two short-suffix regressions and three unrelated nonmatches passed the compiled audit; the Windows build passed. Native amount buffers are unchanged.",
     "Integrated exact renderer lookups for all 112 Spirits training names/descriptions (108 unique sources). The compiled audit and Windows build passed, with all prior catalogue rows and native table data preserved. The training-card display route and live wrapping remain unverified.",
@@ -190,7 +191,7 @@
   "latest_offline_review": "pennant-objective-reward-accuracy-validation.json",
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
-  "reviewed_mode_and_menu_entries": 1024,
+  "reviewed_mode_and_menu_entries": 1028,
   "reviewed_management_entries": 426,
   "main_extracted_text": {
     "entries": 6297,
@@ -1003,8 +1004,8 @@
   },
   "executable_backed_text": {
     "entries": 6297,
-    "reviewed": 5870,
-    "draft": 427
+    "reviewed": 5911,
+    "draft": 386
   },
   "file_based_gap_audit": {
     "report": "coverage-discovery.md",
@@ -1136,8 +1137,8 @@
     "report": "texture-source-wording-validation.json"
   },
   "deepl_comparison": {
-    "inventory_records": 25407,
-    "inventory_records_with_source": 25407,
+    "inventory_records": 25438,
+    "inventory_records_with_source": 25438,
     "distinct_deepl_inputs": 9556,
     "responses_received": 9556,
     "meaning_only_fallback_examples": 76,
@@ -1146,9 +1147,10 @@
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
     "report": "deepl-comparison-status.json",
-    "distinct_input_sources_context_reviewed": 1801,
+    "distinct_input_sources_context_reviewed": 1914,
     "initial_cached_response_records": 9559,
-    "context_reviewed_sources_with_wording_follow_up": 0
+    "context_reviewed_sources_with_wording_follow_up": 0,
+    "contextual_team_abbreviation_records": 31
   },
   "spirits_training_accuracy_review": {
     "records_reviewed": 56,
@@ -1322,5 +1324,23 @@
     "windows_build_passed": true,
     "interactive_validation": false,
     "report": "spirits-shop-accuracy-validation.json"
+  },
+  "catalogue_status_counts": {
+    "reviewed": 10074,
+    "draft": 3404,
+    "game-roster-family": 5650
+  },
+  "team_label_context_review": {
+    "native_fields_reviewed": 107,
+    "compact_team_id_records": 31,
+    "native_text_corrections": 6,
+    "draft_promotions": 4,
+    "shared_source_collisions_resolved": 2,
+    "native_consumer_loop_replay_passed": true,
+    "compiled_cases": 109,
+    "curation_checks": 107,
+    "windows_build_passed": true,
+    "interactive_validation": false,
+    "report": "team-label-context-validation.json"
   }
 }

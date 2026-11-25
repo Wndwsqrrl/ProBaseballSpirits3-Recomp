@@ -6423,12 +6423,12 @@
     "0x820A67E4": "Chunichi",
     "0x820A67EC": "Giants",
     "0x820A6824": "Hama",
-    "0x820A6840": "Sealex",
+    "0x820A6840": "Searex",
     "0x820A685C": "Marines",
     "0x820A6894": "Golden Eagles",
     "0x820A68F8": "All-Western",
     "0x820A690C": "All-Eastern",
-    "0x820A6920": "Shonan Sealex",
+    "0x820A6920": "Shonan Searex",
     "0x820A6934": "All-Pacific",
     "0x820A6948": "All-Central",
     "0x820A695C": "Hokkaido Nippon-Ham Fighters",
@@ -6737,7 +6737,11 @@
     "0x820A1CE0": "Power +1",
     "0x82066BE0": "Power Surge",
     "0x82066C44": "Consistent",
-    "0x82066948": "Late Flame"
+    "0x82066948": "Late Flame",
+    "0x820A674C": "CT",
+    "0x820A6758": "SU",
+    "0x820A675C": "SR",
+    "0x820A6774": "YB"
   },
   "additional_strings": [
     {

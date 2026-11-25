@@ -6,6 +6,7 @@
 #include "offseason_text.h"
 #include "text_layout.h"
 #include "report_translation.h"
+#include "team_abbreviations.h"
 #include "generated/translation/full_text.h"
 #include <cstdlib>
 #include <bit>
@@ -376,7 +377,8 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
   const auto* latin_font=std::getenv("PROSPI3_LATIN_FONT");
   latin_font_enabled=!latin_font || std::string_view(latin_font)!="0";
   REXLOG_INFO("Custom Latin font: {}",latin_font_enabled?"enabled":"disabled (diagnostic)");
-  size_t bytes=sizeof(localization::kTestPcIpDescription);
+  size_t bytes=sizeof(localization::kTestPcIpDescription) +
+               localization::kTeamAbbreviationPoolSize;
   for (const auto& entry : kFullTranslations) bytes += entry.english.size()+1;
   for (const auto& entry : kAnnouncedNames) bytes += entry.english.size()+1;
   for (const auto& entry : kAnnouncedKana) bytes += entry.english.size()+1;
@@ -430,6 +432,27 @@ void InitializeTextLocalization(rex::Runtime& runtime) {
     *wide++ = static_cast<uint8_t>(unit >> 8);
     *wide++ = static_cast<uint8_t>(unit);
   }
+  position += sizeof(localization::kTestPcIpDescription);
+  if (!localization::IsOriginalTeamAbbreviationTable(Read32))
+    throw std::runtime_error("Team abbreviation table differs");
+  // Shared single-glyph strings cannot identify the team. Redirect only the
+  // audited team-ID column; compact copies remain at most two bytes plus NUL.
+  constexpr uint32_t team_page = localization::kTeamAbbreviationTable & ~0xFFFu;
+  auto* team_heap = memory->LookupHeap(team_page);
+  uint32_t team_protection = 0;
+  if (!team_heap || !team_heap->Protect(team_page, 0x1000,
+      rex::memory::kMemoryProtectRead | rex::memory::kMemoryProtectWrite,
+      &team_protection))
+    throw std::runtime_error("Cannot prepare team abbreviation table");
+  const bool team_installed = localization::InstallTeamAbbreviations(
+      position, Read32, Write32, [](uint32_t address, uint8_t value) {
+        *memory->TranslateVirtual(address) = value;
+      });
+  if (!team_heap->Protect(team_page, 0x1000, team_protection))
+    throw std::runtime_error("Cannot restore team abbreviation protection");
+  if (!team_installed)
+    throw std::runtime_error("Cannot install team abbreviations");
+  REXLOG_INFO("Localized {} compact team labels", localization::kTeamAbbreviations.size());
   dynamic_pool=memory->SystemHeapAlloc(kDynamicPoolSize);
   if(!dynamic_pool)throw std::runtime_error("Cannot allocate formatted translation pool");
   REXLOG_INFO("Formatted English text: {} templates, {} bytes bounded output cache",format_translations.size(),kDynamicPoolSize);

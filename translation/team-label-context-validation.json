@@ -1,0 +1,1185 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "0778d1a207e08b8a8b321ff88c96c62804218741",
+  "native_fields_source_context_reviewed": 107,
+  "distinct_sources_with_cached_deepl_response": 107,
+  "newly_context_reviewed_deepl_inputs": 113,
+  "total_context_reviewed_deepl_inputs": 1914,
+  "native_text_corrections": 6,
+  "native_fields_promoted_from_draft": 4,
+  "text_changes": [
+    {
+      "address": "0x820A674C",
+      "source": "台",
+      "previous_english": "stand",
+      "english": "CT",
+      "previous_status": "draft"
+    },
+    {
+      "address": "0x820A6758",
+      "source": "サ",
+      "previous_english": "Sa",
+      "english": "SU",
+      "previous_status": "draft"
+    },
+    {
+      "address": "0x820A675C",
+      "source": "湘",
+      "previous_english": "Xiang",
+      "english": "SR",
+      "previous_status": "draft"
+    },
+    {
+      "address": "0x820A6774",
+      "source": "横",
+      "previous_english": "Horizontal",
+      "english": "YB",
+      "previous_status": "draft"
+    },
+    {
+      "address": "0x820A6840",
+      "source": "シーレックス",
+      "previous_english": "Sealex",
+      "english": "Searex",
+      "previous_status": "reviewed"
+    },
+    {
+      "address": "0x820A6920",
+      "source": "湘南シーレックス",
+      "previous_english": "Shonan Sealex",
+      "english": "Shonan Searex",
+      "previous_status": "reviewed"
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "address": "0x820A6488",
+      "source": "Ａ2 フルキャスト",
+      "english": "A2 Fullcast",
+      "deepl_comparison": "A2 Full Cast",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A649C",
+      "source": "四国",
+      "english": "Shikoku",
+      "deepl_comparison": "Shikoku",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64A4",
+      "source": "山陽",
+      "english": "Sanyo",
+      "deepl_comparison": "Sanyo",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64B4",
+      "source": "ヤフードーム",
+      "english": "Yahoo! Dome",
+      "deepl_comparison": "Yahoo! Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64C4",
+      "source": "千葉マリン",
+      "english": "Chiba Marine",
+      "deepl_comparison": "Chiba Marine",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64D0",
+      "source": "スカイマーク",
+      "english": "Skymark",
+      "deepl_comparison": "Skymark",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64E0",
+      "source": "甲子園",
+      "english": "Koshien",
+      "deepl_comparison": "Koshien",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64E8",
+      "source": "広島市民",
+      "english": "Hiroshima Municipal",
+      "deepl_comparison": "Hiroshima Citizens",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64F4",
+      "source": "神宮",
+      "english": "Jingu",
+      "deepl_comparison": "Jingu",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A64FC",
+      "source": "フルキャストスタジアム宮城",
+      "english": "Fullcast Stadium Miyagi",
+      "deepl_comparison": "Fullcast Stadium Miyagi",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6518",
+      "source": "地方球場",
+      "english": "Local Ballpark",
+      "deepl_comparison": "Regional Ballparks",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6524",
+      "source": "札幌ドーム",
+      "english": "Sapporo Dome",
+      "deepl_comparison": "Sapporo Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6530",
+      "source": "大阪ドーム",
+      "english": "Osaka Dome",
+      "deepl_comparison": "Osaka Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A653C",
+      "source": "福岡Ｙａｈｏｏ！ＪＡＰＡＮドーム",
+      "english": "Fukuoka Yahoo! Japan Dome",
+      "deepl_comparison": "Fukuoka Yahoo! JAPAN Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6560",
+      "source": "インボイスＳＥＩＢＵドーム",
+      "english": "Invoice Seibu Dome",
+      "deepl_comparison": "Invoice SEIBU Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A657C",
+      "source": "千葉マリンスタジアム",
+      "english": "Chiba Marine Stadium",
+      "deepl_comparison": "Chiba Marine Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6594",
+      "source": "スカイマークスタジアム",
+      "english": "Skymark Stadium",
+      "deepl_comparison": "Skymark Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65AC",
+      "source": "阪神甲子園球場",
+      "english": "Hanshin Koshien Stadium",
+      "deepl_comparison": "Hanshin Koshien Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65BC",
+      "source": "ナゴヤドーム",
+      "english": "Nagoya Dome",
+      "deepl_comparison": "Nagoya Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65CC",
+      "source": "横浜スタジアム",
+      "english": "Yokohama Stadium",
+      "deepl_comparison": "Yokohama Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65DC",
+      "source": "東京ドーム",
+      "english": "TOKYO DOME",
+      "deepl_comparison": "Tokyo Dome",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65E8",
+      "source": "広島市民球場",
+      "english": "Hiroshima Municipal Stadium",
+      "deepl_comparison": "Hiroshima Municipal Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A65F8",
+      "source": "明治神宮野球場",
+      "english": "Meiji Jingu Stadium",
+      "deepl_comparison": "Meiji Jingu Baseball Stadium",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A674C",
+      "source": "台",
+      "english": "CT",
+      "deepl_comparison": "Unit",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6750",
+      "source": "韓",
+      "english": "KOR",
+      "deepl_comparison": "Korean",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6754",
+      "source": "ウ",
+      "english": "WL",
+      "deepl_comparison": "U",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6758",
+      "source": "サ",
+      "english": "SU",
+      "deepl_comparison": "Sa",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A675C",
+      "source": "湘",
+      "english": "SR",
+      "deepl_comparison": "Shō",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6760",
+      "source": "パ",
+      "english": "PL",
+      "deepl_comparison": "Pa",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6764",
+      "source": "セ",
+      "english": "CL",
+      "deepl_comparison": "Se",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6768",
+      "source": "西",
+      "english": "L",
+      "deepl_comparison": "West",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A676C",
+      "source": "楽",
+      "english": "E",
+      "deepl_comparison": "Fun",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6770",
+      "source": "神",
+      "english": "T",
+      "deepl_comparison": "God",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6774",
+      "source": "横",
+      "english": "YB",
+      "deepl_comparison": "Horizontal",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6778",
+      "source": "ヤ",
+      "english": "S",
+      "deepl_comparison": "Ya",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A677C",
+      "source": "広",
+      "english": "C",
+      "deepl_comparison": "Hiro",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6780",
+      "source": "巨",
+      "english": "G",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6784",
+      "source": "韓　国",
+      "english": "Korea",
+      "deepl_comparison": "South Korea",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A678C",
+      "source": "中　国",
+      "english": "China",
+      "deepl_comparison": "China",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6794",
+      "source": "全　ウ",
+      "english": "All-Western",
+      "deepl_comparison": "All　U",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A679C",
+      "source": "全　イ",
+      "english": "All-Eastern",
+      "deepl_comparison": "All I",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67A4",
+      "source": "湘　南",
+      "english": "Shonan",
+      "deepl_comparison": "Shonan",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67AC",
+      "source": "全　パ",
+      "english": "All-Pacific",
+      "deepl_comparison": "All Pacific League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67B4",
+      "source": "全　セ",
+      "english": "All-Central",
+      "deepl_comparison": "Central League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67BC",
+      "source": "西　武",
+      "english": "Seibu",
+      "deepl_comparison": "Seibu",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67C4",
+      "source": "楽　天",
+      "english": "Rakuten",
+      "deepl_comparison": "Rakuten",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67CC",
+      "source": "阪　神",
+      "english": "Hanshin",
+      "deepl_comparison": "Hanshin",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67D4",
+      "source": "横　浜",
+      "english": "Yokohama",
+      "deepl_comparison": "Yokohama",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67DC",
+      "source": "広　島",
+      "english": "Hiroshima",
+      "deepl_comparison": "Hiroshima",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67E4",
+      "source": "中　日",
+      "english": "Chunichi",
+      "deepl_comparison": "Chunichi",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67EC",
+      "source": "巨　人",
+      "english": "Giants",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67F4",
+      "source": "若鷹",
+      "english": "Young Hawks",
+      "deepl_comparison": "Young Hawks",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A67FC",
+      "source": "猛牛",
+      "english": "Raging Bulls",
+      "deepl_comparison": "Mōgyū",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6804",
+      "source": "獅子",
+      "english": "Lions",
+      "deepl_comparison": "Lions",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A680C",
+      "source": "日ハム",
+      "english": "Nippon-Ham",
+      "deepl_comparison": "Nippon Ham",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6814",
+      "source": "狗鷲",
+      "english": "Golden Eagles",
+      "deepl_comparison": "Dog Eagle",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A681C",
+      "source": "猛虎",
+      "english": "Fierce Tigers",
+      "deepl_comparison": "Tigers",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6824",
+      "source": "ハマ",
+      "english": "Hama",
+      "deepl_comparison": "Hama",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A682C",
+      "source": "燕",
+      "english": "Swallows",
+      "deepl_comparison": "Swallows",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6830",
+      "source": "赤ヘル",
+      "english": "Red Helmets",
+      "deepl_comparison": "Red Helmets",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6838",
+      "source": "強竜",
+      "english": "Mighty Dragons",
+      "deepl_comparison": "Strong Dragons",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6840",
+      "source": "シーレックス",
+      "english": "Searex",
+      "deepl_comparison": "Sealex",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6850",
+      "source": "ホークス",
+      "english": "Hawks",
+      "deepl_comparison": "Hawks",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A685C",
+      "source": "マリーンズ",
+      "english": "Marines",
+      "deepl_comparison": "Marines",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6868",
+      "source": "バファローズ",
+      "english": "Buffaloes",
+      "deepl_comparison": "Buffaloes",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6878",
+      "source": "ライオンズ",
+      "english": "Lions",
+      "deepl_comparison": "Lions",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6884",
+      "source": "ファイターズ",
+      "english": "Fighters",
+      "deepl_comparison": "Fighters",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6894",
+      "source": "ゴールデンイーグルス",
+      "english": "Golden Eagles",
+      "deepl_comparison": "Golden Eagles",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68AC",
+      "source": "タイガース",
+      "english": "Tigers",
+      "deepl_comparison": "Tigers",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68B8",
+      "source": "ベイスターズ",
+      "english": "BayStars",
+      "deepl_comparison": "BayStars",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68C8",
+      "source": "スワローズ",
+      "english": "Swallows",
+      "deepl_comparison": "Swallows",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68D4",
+      "source": "カープ",
+      "english": "Carp",
+      "deepl_comparison": "Carp",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68DC",
+      "source": "ドラゴンズ",
+      "english": "Dragons",
+      "deepl_comparison": "Dragons",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68E8",
+      "source": "ジャイアンツ",
+      "english": "Giants",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A68F8",
+      "source": "オールウエスタン",
+      "english": "All-Western",
+      "deepl_comparison": "All-Western",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A690C",
+      "source": "オールイースタン",
+      "english": "All-Eastern",
+      "deepl_comparison": "All-Eastern",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6920",
+      "source": "湘南シーレックス",
+      "english": "Shonan Searex",
+      "deepl_comparison": "Shonan Sealex",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6934",
+      "source": "オールパシフィック",
+      "english": "All-Pacific",
+      "deepl_comparison": "All-Pacific",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6948",
+      "source": "オールセントラル",
+      "english": "All-Central",
+      "deepl_comparison": "All Central",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A695C",
+      "source": "北海道日本ハムファイターズ",
+      "english": "Hokkaido Nippon-Ham Fighters",
+      "deepl_comparison": "Hokkaido Nippon-Ham Fighters",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6978",
+      "source": "広島東洋カープ",
+      "english": "Hiroshima Toyo Carp",
+      "deepl_comparison": "Hiroshima Toyo Carp",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6988",
+      "source": "中華台北",
+      "english": "Chinese Taipei",
+      "deepl_comparison": "Chinese Taipei",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6994",
+      "source": "韓国",
+      "english": "Korea",
+      "deepl_comparison": "South Korea",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A699C",
+      "source": "中国",
+      "english": "China",
+      "deepl_comparison": "China",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69A4",
+      "source": "全ウ",
+      "english": "All-Western",
+      "deepl_comparison": "All-Japan",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69AC",
+      "source": "全イ",
+      "english": "All-Eastern",
+      "deepl_comparison": "All I",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69B4",
+      "source": "サーパス",
+      "english": "Surpass",
+      "deepl_comparison": "Surpass",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69C0",
+      "source": "インボイス",
+      "english": "Invoice",
+      "deepl_comparison": "Invoice",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69CC",
+      "source": "湘南",
+      "english": "Shonan",
+      "deepl_comparison": "Shonan",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69D4",
+      "source": "全パ",
+      "english": "All-Pacific",
+      "deepl_comparison": "All Pacific League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69DC",
+      "source": "全セ",
+      "english": "All-Central",
+      "deepl_comparison": "Central League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69E4",
+      "source": "ソフトバンク",
+      "english": "SoftBank",
+      "deepl_comparison": "SoftBank",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69F4",
+      "source": "ロッテ",
+      "english": "Lotte",
+      "deepl_comparison": "Lotte",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A69FC",
+      "source": "オリックス",
+      "english": "Orix",
+      "deepl_comparison": "Orix",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A08",
+      "source": "西武",
+      "english": "Seibu",
+      "deepl_comparison": "Seibu",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A10",
+      "source": "日本ハム",
+      "english": "Nippon-Ham",
+      "deepl_comparison": "Nippon Ham",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A1C",
+      "source": "楽天",
+      "english": "Rakuten",
+      "deepl_comparison": "Rakuten",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A24",
+      "source": "阪神",
+      "english": "Hanshin",
+      "deepl_comparison": "Hanshin",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A2C",
+      "source": "横浜",
+      "english": "Yokohama",
+      "deepl_comparison": "Yokohama",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A34",
+      "source": "ヤクルト",
+      "english": "Yakult",
+      "deepl_comparison": "Yakult",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A40",
+      "source": "広島",
+      "english": "Hiroshima",
+      "deepl_comparison": "Hiroshima",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A48",
+      "source": "中日",
+      "english": "Chunichi",
+      "deepl_comparison": "Chunichi",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A50",
+      "source": "巨人",
+      "english": "Giants",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A58",
+      "source": "ウェスタンリーグ",
+      "english": "Western League",
+      "deepl_comparison": "Western League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A6C",
+      "source": "イースタンリーグ",
+      "english": "Eastern League",
+      "deepl_comparison": "Eastern League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A80",
+      "source": "パシフィックリーグ",
+      "english": "Pacific League",
+      "deepl_comparison": "Pacific League",
+      "source_context_reviewed": true
+    },
+    {
+      "address": "0x820A6A94",
+      "source": "セントラルリーグ",
+      "english": "Central League",
+      "deepl_comparison": "Central League",
+      "source_context_reviewed": true
+    }
+  ],
+  "table_address": "0x8273E668",
+  "parallel_full_name_table_address": "0x8273E428",
+  "native_compact_team_records": [
+    {
+      "team_id": 0,
+      "full_name_source": "読売ジャイアンツ",
+      "abbreviation_source": "巨",
+      "original_pointer": "0x820A6780",
+      "english": "G",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 1,
+      "full_name_source": "中日ドラゴンズ",
+      "abbreviation_source": "中",
+      "original_pointer": "0x820830E0",
+      "english": "D",
+      "deepl_comparison": "Middle",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 2,
+      "full_name_source": "広島東洋カープ",
+      "abbreviation_source": "広",
+      "original_pointer": "0x820A677C",
+      "english": "C",
+      "deepl_comparison": "Hiro",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 3,
+      "full_name_source": "東京ヤクルトスワローズ",
+      "abbreviation_source": "ヤ",
+      "original_pointer": "0x820A6778",
+      "english": "YS",
+      "deepl_comparison": "Ya",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 4,
+      "full_name_source": "横浜ベイスターズ",
+      "abbreviation_source": "横",
+      "original_pointer": "0x820A6774",
+      "english": "YB",
+      "deepl_comparison": "Horizontal",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 5,
+      "full_name_source": "阪神タイガース",
+      "abbreviation_source": "神",
+      "original_pointer": "0x820A6770",
+      "english": "T",
+      "deepl_comparison": "God",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 6,
+      "full_name_source": "東北楽天ゴールデンイーグルス",
+      "abbreviation_source": "楽",
+      "original_pointer": "0x820A676C",
+      "english": "E",
+      "deepl_comparison": "Fun",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 7,
+      "full_name_source": "北海道日本ハムファイターズ",
+      "abbreviation_source": "日",
+      "original_pointer": "0x82088970",
+      "english": "F",
+      "deepl_comparison": "Sun",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 8,
+      "full_name_source": "西武ライオンズ",
+      "abbreviation_source": "西",
+      "original_pointer": "0x820A6768",
+      "english": "L",
+      "deepl_comparison": "West",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 9,
+      "full_name_source": "オリックス・バファローズ",
+      "abbreviation_source": "オ",
+      "original_pointer": "0x8208A0D8",
+      "english": "Bs",
+      "deepl_comparison": "O",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 10,
+      "full_name_source": "千葉ロッテマリーンズ",
+      "abbreviation_source": "ロ",
+      "original_pointer": "0x82089C8C",
+      "english": "M",
+      "deepl_comparison": "Ro",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 11,
+      "full_name_source": "福岡ソフトバンクホークス",
+      "abbreviation_source": "ソ",
+      "original_pointer": "0x8208A0A0",
+      "english": "H",
+      "deepl_comparison": "So",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 12,
+      "full_name_source": "オールセントラル",
+      "abbreviation_source": "セ",
+      "original_pointer": "0x820A6764",
+      "english": "CL",
+      "deepl_comparison": "Se",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 13,
+      "full_name_source": "オールパシフィック",
+      "abbreviation_source": "パ",
+      "original_pointer": "0x820A6760",
+      "english": "PL",
+      "deepl_comparison": "Pa",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 14,
+      "full_name_source": "読売ジャイアンツ",
+      "abbreviation_source": "巨",
+      "original_pointer": "0x820A6780",
+      "english": "G",
+      "deepl_comparison": "Giants",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 15,
+      "full_name_source": "中日ドラゴンズ",
+      "abbreviation_source": "中",
+      "original_pointer": "0x820830E0",
+      "english": "D",
+      "deepl_comparison": "Middle",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 16,
+      "full_name_source": "広島東洋カープ",
+      "abbreviation_source": "広",
+      "original_pointer": "0x820A677C",
+      "english": "C",
+      "deepl_comparison": "Hiro",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 17,
+      "full_name_source": "東京ヤクルトスワローズ",
+      "abbreviation_source": "ヤ",
+      "original_pointer": "0x820A6778",
+      "english": "YS",
+      "deepl_comparison": "Ya",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 18,
+      "full_name_source": "湘南シーレックス",
+      "abbreviation_source": "湘",
+      "original_pointer": "0x820A675C",
+      "english": "SR",
+      "deepl_comparison": "Shō",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 19,
+      "full_name_source": "阪神タイガース",
+      "abbreviation_source": "神",
+      "original_pointer": "0x820A6770",
+      "english": "T",
+      "deepl_comparison": "God",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 20,
+      "full_name_source": "東北楽天ゴールデンイーグルス",
+      "abbreviation_source": "楽",
+      "original_pointer": "0x820A676C",
+      "english": "E",
+      "deepl_comparison": "Fun",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 21,
+      "full_name_source": "北海道日本ハムファイターズ",
+      "abbreviation_source": "日",
+      "original_pointer": "0x82088970",
+      "english": "F",
+      "deepl_comparison": "Sun",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 22,
+      "full_name_source": "インボイス",
+      "abbreviation_source": "イ",
+      "original_pointer": "0x8208BCD8",
+      "english": "I",
+      "deepl_comparison": "I",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 23,
+      "full_name_source": "サーパス",
+      "abbreviation_source": "サ",
+      "original_pointer": "0x820A6758",
+      "english": "SU",
+      "deepl_comparison": "Sa",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 24,
+      "full_name_source": "千葉ロッテマリーンズ",
+      "abbreviation_source": "ロ",
+      "original_pointer": "0x82089C8C",
+      "english": "M",
+      "deepl_comparison": "Ro",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 25,
+      "full_name_source": "福岡ソフトバンクホークス",
+      "abbreviation_source": "ソ",
+      "original_pointer": "0x8208A0A0",
+      "english": "H",
+      "deepl_comparison": "So",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 26,
+      "full_name_source": "オールイースタン",
+      "abbreviation_source": "イ",
+      "original_pointer": "0x8208BCD8",
+      "english": "EL",
+      "deepl_comparison": "I",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 27,
+      "full_name_source": "オールウエスタン",
+      "abbreviation_source": "ウ",
+      "original_pointer": "0x820A6754",
+      "english": "WL",
+      "deepl_comparison": "U",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 28,
+      "full_name_source": "中国",
+      "abbreviation_source": "中",
+      "original_pointer": "0x820830E0",
+      "english": "CN",
+      "deepl_comparison": "Middle",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 29,
+      "full_name_source": "韓国",
+      "abbreviation_source": "韓",
+      "original_pointer": "0x820A6750",
+      "english": "KR",
+      "deepl_comparison": "Korean",
+      "source_context_reviewed": true
+    },
+    {
+      "team_id": 30,
+      "full_name_source": "中華台北",
+      "abbreviation_source": "台",
+      "original_pointer": "0x820A674C",
+      "english": "CT",
+      "deepl_comparison": "Unit",
+      "source_context_reviewed": true
+    }
+  ],
+  "runtime_pointer_slots_replaced": 31,
+  "runtime_text_pool_bytes": 93,
+  "maximum_compact_english_bytes": 2,
+  "shared_source_collisions_resolved": [
+    {
+      "source": "中",
+      "native_source_address": "0x820830E0",
+      "team_ids": [
+        1,
+        15,
+        28
+      ],
+      "team_english": [
+        "D",
+        "D",
+        "CN"
+      ],
+      "ordinary_position_english_unchanged": "CF"
+    },
+    {
+      "source": "イ",
+      "native_source_address": "0x8208BCD8",
+      "team_ids": [
+        22,
+        26
+      ],
+      "team_english": [
+        "I",
+        "EL"
+      ]
+    }
+  ],
+  "regression_lookups": [
+    {
+      "address": "0x820830E0",
+      "source": "中",
+      "english": "CF"
+    },
+    {
+      "address": "0x8208BCD8",
+      "source": "イ",
+      "english": "I"
+    }
+  ],
+  "proper_name_reference": {
+    "title": "BayStars historical Searex merchandise announcement",
+    "url": "https://www.baystars.co.jp/news/2019/08/0815_04.php",
+    "source_date": "2019-08-15",
+    "scope": "Official spelling Searex and identification as the 2000-2010 farm team."
+  },
+  "review_decisions": [
+    "Compact names are selected by native team ID rather than a content-only translation of a shared glyph.",
+    "CT denotes Chinese Taipei in the two-byte native compact column; the full team name remains Chinese Taipei.",
+    "Searex follows the club historical reference, avoiding the unrelated spelling Sealex.",
+    "Native source text and player-position lookup CF remain intact.",
+    "Only English mode installs the pointer-column patch; the general static-pointer diagnostic remains disabled.",
+    "Both source-table checks and pool bounds/overlap checks run before the helper writes any bytes."
+  ],
+  "native_consumer_replay": {
+    "concat_function": "0x825E57A0",
+    "consumer_function": "0x824A8860",
+    "consumer_block_start": "0x824A8BE4",
+    "consumer_block_end": "0x824A8C00",
+    "concat_sha256": "fc6a89165771ca4b3235e7124d2d4c5dfccf9844c433252e2c46c240101f3d57",
+    "consumer_loop_sha256": "5e92d340685f28d9fcdacc6b5c5f5c657a2ac8ed5904ed87247c44c40af896d4",
+    "consumer_block_last_instruction": "0x824A8C00",
+    "consumer_block_exclusive_end": "0x824A8C04"
+  },
+  "native_append_and_consumer_loop_passed": true,
+  "native_image_unchanged_outside_pointer_column": true,
+  "original_source_strings_unchanged": true,
+  "source_mismatch_and_invalid_pool_checks_passed": true,
+  "windows_page_protection_checked": true,
+  "compiled_expected_exact_cases": 109,
+  "compiled_checks_passed": true,
+  "curation_reproduction_checks": 107,
+  "curation_checks_passed": true,
+  "review_merger_check_passed": true,
+  "windows_build_passed": true,
+  "original_disc_and_asset_files_unchanged": true,
+  "cache_only_comparison": true,
+  "no_new_service_requests": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Live compact-team label and Searex-name placement in scoreboard, standings and selection screens.",
+    "The five native club slogans need their own historical/context review, including the Mix Modern batting-lineup nickname.",
+    "Uninitialized placeholder labels are outside this batch; remaining mode/catalogue discovery and accuracy work continue."
+  ],
+  "only_six_catalogue_fields_and_four_statuses_changed": true,
+  "windows_executable_sha256": "5e80372c0b515ce243e49a4cb5ea804f59b7d4d081a4d3dcb97d718ed51e31da",
+  "generated_header_sha256": "54be2f2458a0463d609503934a79cd669bfed728e31b149583516847622edb1d",
+  "additional_native_table_source_inputs_reviewed": 6,
+  "contextual_comparison_inventory_records_added": 31,
+  "distinct_sources_with_cached_deepl_response_including_team_contexts": 113,
+  "reproducible_helper_audit": "tools/audit-team-abbreviations.cpp",
+  "reproducible_helper_audit_passed": true
+}

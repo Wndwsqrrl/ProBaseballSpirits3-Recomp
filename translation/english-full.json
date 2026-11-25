@@ -40001,8 +40001,8 @@
     "address": "0x820A674C",
     "source_size": 2,
     "source_hash": "0A17DE07B6873D28",
-    "english": "stand",
-    "status": "draft"
+    "english": "CT",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6750",
@@ -40022,15 +40022,15 @@
     "address": "0x820A6758",
     "source_size": 2,
     "source_hash": "09E92207B6603FF2",
-    "english": "Sa",
-    "status": "draft"
+    "english": "SU",
+    "status": "reviewed"
   },
   {
     "address": "0x820A675C",
     "source_size": 2,
     "source_hash": "09F5C507B66A2C47",
-    "english": "Xiang",
-    "status": "draft"
+    "english": "SR",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6760",
@@ -40071,8 +40071,8 @@
     "address": "0x820A6774",
     "source_size": 2,
     "source_hash": "09FDF307B6724C1F",
-    "english": "Horizontal",
-    "status": "draft"
+    "english": "YB",
+    "status": "reviewed"
   },
   {
     "address": "0x820A6778",
@@ -40267,7 +40267,7 @@
     "address": "0x820A6840",
     "source_size": 12,
     "source_hash": "D7747CA4ABBE8690",
-    "english": "Sealex",
+    "english": "Searex",
     "status": "reviewed"
   },
   {
@@ -40372,7 +40372,7 @@
     "address": "0x820A6920",
     "source_size": 16,
     "source_hash": "860C2253902AE5B9",
-    "english": "Shonan Sealex",
+    "english": "Shonan Searex",
     "status": "reviewed"
   },
   {

@@ -1,8 +1,8 @@
 {
   "date": "2026-11-24",
   "comparison_commit": "108119c8d4144a39eaa4dec8df4caa6f3c3fbc71",
-  "inventory_records": 25407,
-  "inventory_records_with_source": 25407,
+  "inventory_records": 25438,
+  "inventory_records_with_source": 25438,
   "localized_texture_source_records": 2098,
   "distinct_deepl_inputs": 9556,
   "source_characters_before_control_protection": 170480,
@@ -397,12 +397,26 @@
       "curation_reproduction_checks": 195,
       "report": "spirits-shop-accuracy-validation.json",
       "interactive_validation": false
+    },
+    {
+      "area": "Team-name contexts, compact team-ID labels and venue names",
+      "native_fields_source_reviewed": 107,
+      "native_team_id_records": 31,
+      "native_text_corrections": 6,
+      "native_fields_promoted_from_draft": 4,
+      "shared_source_collisions_resolved": 2,
+      "compiled_exact_cases": 109,
+      "curation_reproduction_checks": 107,
+      "native_consumer_loop_replayed": true,
+      "original_source_strings_unchanged": true,
+      "report": "team-label-context-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 1801,
+  "distinct_deepl_input_sources_context_reviewed": 1914,
   "reviewed_training_fields_not_requiring_deepl": 1,
   "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "9322066cbdf8a3e7894a21622708aab10bea959cf73f2a173ad2ea9d3d140380",
+  "context_reviewed_input_ids_sha256": "7abeee7537bae0a946dacbec5e3cc8726622a3461e46ccc50eb2fb3e062752f5",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
   "initial_service_pass_characters_used": 160731,
@@ -418,5 +432,6 @@
   "excluded_fragment_report": "settings-fragment-accuracy-validation.json",
   "all_active_inputs_have_cached_responses": true,
   "wording_follow_up_reports": [],
-  "last_context_review_date": "2026-11-25"
+  "last_context_review_date": "2026-11-25",
+  "contextual_team_abbreviation_records": 31
 }

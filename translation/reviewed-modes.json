@@ -937,12 +937,12 @@
     "0x820A67E4": "Chunichi",
     "0x820A67EC": "Giants",
     "0x820A6824": "Hama",
-    "0x820A6840": "Sealex",
+    "0x820A6840": "Searex",
     "0x820A685C": "Marines",
     "0x820A6894": "Golden Eagles",
     "0x820A68F8": "All-Western",
     "0x820A690C": "All-Eastern",
-    "0x820A6920": "Shonan Sealex",
+    "0x820A6920": "Shonan Searex",
     "0x820A6934": "All-Pacific",
     "0x820A6948": "All-Central",
     "0x820A695C": "Hokkaido Nippon-Ham Fighters",
@@ -1023,7 +1023,11 @@
     "0x8205F8B0": "Matsunaka",
     "0x8208D610": "[<RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f>]<BR>Prepare for <RGB 0x7d5300>Opening Day<RGB 0x7f7f7f> by improving <RGB 0x7d5300>Form<RGB 0x7f7f7f>. Give your opening-day starter <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> so the team can <RGB 0x7d5300>start strong<RGB 0x7f7f7f>.<BOTTOM><+LR>Pages<○>Close        3/5",
     "0x8208D900": "[<RGB 0x00785f>Training Camp<RGB 0x7f7f7f>]<BR><RGB 0x00785f>Camp<RGB 0x7f7f7f> offers two main tasks: <RGB 0x00785f>Opening Day Preparation<RGB 0x7f7f7f> and <RGB 0x00785f>Position Changes<RGB 0x7f7f7f>.<BR><BR>Your pennant campaign begins in <RGB 0x00785f>Camp<RGB 0x7f7f7f>. Plan carefully to gain an advantage.<BR><BR>On the <RGB 0x00785f>Mission Selection screen<RGB 0x7f7f7f>, check <RGB 0x00785f>Coach Capacity<RGB 0x7f7f7f> before choosing missions.<BOTTOM><+LR>Pages<○>Close        1/5",
-    "0x820889B0": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> determine suitability for <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>High <RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> restores Starter Stamina sooner with <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5"
+    "0x820889B0": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> determine suitability for <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>High <RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> restores Starter Stamina sooner with <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
+    "0x820A674C": "CT",
+    "0x820A6758": "SU",
+    "0x820A675C": "SR",
+    "0x820A6774": "YB"
   },
   "labels": {
     "アイテム購入": "Buy Items",
