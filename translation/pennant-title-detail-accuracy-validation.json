@@ -1,0 +1,4111 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "73e4f541a67486024b3731b202160af75d9d9321",
+  "title_fields_source_reviewed": 187,
+  "description_fields_source_reviewed": 187,
+  "distinct_source_english_pairs_reviewed": 356,
+  "distinct_sources_with_cached_deepl_response": 356,
+  "newly_context_reviewed_deepl_inputs": 343,
+  "total_context_reviewed_deepl_inputs": 1460,
+  "changed_fields": 10,
+  "changes": [
+    {
+      "field": "title",
+      "event": 89,
+      "relative_offset": 290144,
+      "width": 24,
+      "source": "マウンド度胸",
+      "previous_english": "Nerves on the Mound",
+      "english": "Poise on the Mound",
+      "reason": "Express mound composure rather than anxiety.",
+      "english_bytes": 18,
+      "previous_estimated_width_px": 152.0,
+      "estimated_width_px": 142.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 25,
+      "relative_offset": 99080,
+      "width": 143,
+      "source": "積み重ねてきた数多の安打もついに@x本間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career hits.@nGo make history!",
+      "english": "Closing in on @x career hits.@nGo make history!",
+      "reason": "Keep the milestone subject neutral, consistent with events 27 and 30.",
+      "english_bytes": 47,
+      "previous_estimated_width_px": 394.0,
+      "estimated_width_px": 348.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 26,
+      "relative_offset": 99223,
+      "width": 143,
+      "source": "積み重ねてきた数多の本塁打もついに@x本間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career home runs.@nGo make history!",
+      "english": "Closing in on @x career home runs.@nGo make history!",
+      "reason": "Keep the milestone subject neutral.",
+      "english_bytes": 52,
+      "previous_estimated_width_px": 444.0,
+      "estimated_width_px": 398.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 28,
+      "relative_offset": 99509,
+      "width": 143,
+      "source": "積み重ねてきた数多の勝ち星もついに@x勝間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career wins.@nGo make history!",
+      "english": "Closing in on @x career wins.@nGo make history!",
+      "reason": "Keep the milestone subject neutral.",
+      "english_bytes": 47,
+      "previous_estimated_width_px": 402.0,
+      "estimated_width_px": 356.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 29,
+      "relative_offset": 99652,
+      "width": 143,
+      "source": "積み重ねてきた数多のセーブもついに@xセーブ間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career saves.@nGo make history!",
+      "english": "Closing in on @x career saves.@nGo make history!",
+      "reason": "Keep the milestone subject neutral.",
+      "english_bytes": 48,
+      "previous_estimated_width_px": 411.0,
+      "estimated_width_px": 365.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 56,
+      "relative_offset": 103513,
+      "width": 143,
+      "source": "スタメン出場機会の減っていた@t選手ですが、調子を崩し本来の力が発揮できていないようです。一度結果を出す機会を与えてはどうでしょうか。",
+      "previous_english": "With fewer starts, @t has lost form and hasn't shown what that player can do. Give another start and see what happens.",
+      "english": "@t has had fewer starts and lost form. Give him a chance to show what he can do.",
+      "reason": "Avoid the awkward imperative Give another start and retain the selection/form context.",
+      "english_bytes": 80,
+      "previous_estimated_width_px": 837.0,
+      "estimated_width_px": 576.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 82,
+      "relative_offset": 107231,
+      "width": 143,
+      "source": "出塁・犠打・走塁、ホームに帰ってくるまでにはチーム全員の協力が必要です。@t選手のチームプレーを試してみます。",
+      "previous_english": "It takes the whole team to get a runner home. Test @t's ability to get on, advance, and score.",
+      "english": "Getting on base, sacrifice bunts, and baserunning help bring runners home. Test @t's teamwork.",
+      "reason": "Restore the explicit sacrifice-bunt component of the teamwork explanation.",
+      "english_bytes": 94,
+      "previous_estimated_width_px": 648.0,
+      "estimated_width_px": 678.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 90,
+      "relative_offset": 108375,
+      "width": 143,
+      "source": "大事なゲームでピシャリと抑えられるリリーフは、チームに多大な安定感を与えます。@t選手の安定感をテストします。",
+      "previous_english": "A dependable reliever makes a big difference in tight games. Let's see if @t can be that pitcher.",
+      "english": "A dependable reliever brings stability in important games. Let's test @t's reliability.",
+      "reason": "Do not narrow important games to close-score games.",
+      "english_bytes": 87,
+      "previous_estimated_width_px": 669.0,
+      "estimated_width_px": 579.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 107,
+      "relative_offset": 110806,
+      "width": 143,
+      "source": "@t選手に先発に重点を置いた指導をします。疲労は回復しにくくなりますが、ローテーションの調整がうまくなると思います。",
+      "previous_english": "Train @t as a starter. Recovery will be slower, but preparing for turns in the rotation will get easier.",
+      "english": "Train @t as a starter. Fatigue recovery will be slower, but preparing for turns in the rotation will get easier.",
+      "reason": "Specify fatigue recovery rather than injury recovery; preserve starter-conditioning trade-off.",
+      "english_bytes": 112,
+      "previous_estimated_width_px": 689.0,
+      "estimated_width_px": 740.0
+    },
+    {
+      "field": "goal_detail",
+      "event": 108,
+      "relative_offset": 110949,
+      "width": 143,
+      "source": "@t選手をリリーフとして指導します。先発には向きませんが、連投がきくように疲労の抜き方がうまくなると思います。",
+      "previous_english": "Train @t as a reliever. Starting will be a poor fit, but quicker recovery will help with back-to-back outings.",
+      "english": "Train @t as a reliever. Starting will be a poor fit, but faster fatigue recovery will help with back-to-back outings.",
+      "reason": "Specify fatigue recovery and preserve consecutive-outing benefit.",
+      "english_bytes": 117,
+      "previous_estimated_width_px": 732.0,
+      "estimated_width_px": 771.0
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "field": "title",
+      "events": [
+        1
+      ],
+      "source": "双頂",
+      "english": "Twin Peaks",
+      "deepl_comparison": "Dual Leaders",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        2
+      ],
+      "source": "決戦",
+      "english": "Playoff Showdown",
+      "deepl_comparison": "Decisive Battle",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        3
+      ],
+      "source": "頂",
+      "english": "Japan Series Glory",
+      "deepl_comparison": "Top",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        4
+      ],
+      "source": "けじめ",
+      "english": "Finish Strong",
+      "deepl_comparison": "A Clear Line",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        5
+      ],
+      "source": "夢舞台",
+      "english": "Dream Stage",
+      "deepl_comparison": "Dream Stage",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        6
+      ],
+      "source": "一勝の重み",
+      "english": "One Win Matters",
+      "deepl_comparison": "The Weight of a Single Win",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        7
+      ],
+      "source": "桜散る",
+      "english": "Falling Blossoms",
+      "deepl_comparison": "Cherry Blossoms Fall",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        8
+      ],
+      "source": "噂の真相",
+      "english": "Behind the Rumors",
+      "deepl_comparison": "The Truth Behind the Rumors",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        9
+      ],
+      "source": "改革の成果は？",
+      "english": "Is Reform Working?",
+      "deepl_comparison": "What are the results of the reforms?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        10
+      ],
+      "source": "伝わるメッセージ",
+      "english": "Message Received",
+      "deepl_comparison": "The Message That Resonates",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        11
+      ],
+      "source": "新しい血",
+      "english": "New Blood",
+      "deepl_comparison": "New Blood",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        12
+      ],
+      "source": "カンフル剤",
+      "english": "A Shot in the Arm",
+      "deepl_comparison": "A pick-me-up",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        13
+      ],
+      "source": "ヒーロー誕生",
+      "english": "A Hero Emerges",
+      "deepl_comparison": "The Birth of a Hero",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        14
+      ],
+      "source": "鉄腕たちの休日",
+      "english": "A Day Off for the Arms",
+      "deepl_comparison": "A Day Off for the Iron Arms",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        15
+      ],
+      "source": "支え",
+      "english": "Picking Up the Slack",
+      "deepl_comparison": "Support",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        16
+      ],
+      "source": "こころの中",
+      "english": "What's on His Mind",
+      "deepl_comparison": "Inside My Heart",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        17
+      ],
+      "source": "敵地の洗礼",
+      "english": "Road Baptism",
+      "deepl_comparison": "The Baptism of the Road",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        18
+      ],
+      "source": "柱",
+      "english": "The Staff Anchor",
+      "deepl_comparison": "Main Sections",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        19
+      ],
+      "source": "繋ぐタスキ",
+      "english": "Pass the Baton",
+      "deepl_comparison": "Passing the Baton",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        20
+      ],
+      "source": "加速",
+      "english": "Picking Up Speed",
+      "deepl_comparison": "Acceleration",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        21
+      ],
+      "source": "公約",
+      "english": "A Promise to the Fans",
+      "deepl_comparison": "Pledges",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        22
+      ],
+      "source": "花火",
+      "english": "Fireworks",
+      "deepl_comparison": "Fireworks",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        23
+      ],
+      "source": "感謝の気持ち",
+      "english": "A Show of Thanks",
+      "deepl_comparison": "A Note of Thanks",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        24
+      ],
+      "source": "一つになる心",
+      "english": "Coming Together",
+      "deepl_comparison": "Hearts as One",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        25
+      ],
+      "source": "記録達成:安打",
+      "english": "Milestone: Hits",
+      "deepl_comparison": "Achievement: Hits",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        26
+      ],
+      "source": "記録達成:本塁打",
+      "english": "Milestone: Home Runs",
+      "deepl_comparison": "Record Achieved: Home Runs",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        27
+      ],
+      "source": "記録達成:盗塁",
+      "english": "Milestone: Steals",
+      "deepl_comparison": "Achievement: Stolen Base",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        28
+      ],
+      "source": "記録達成:勝ち星",
+      "english": "Milestone: Wins",
+      "deepl_comparison": "Achievement: Wins",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        29
+      ],
+      "source": "記録達成:セーブ",
+      "english": "Milestone: Saves",
+      "deepl_comparison": "Achievement: Save",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        30
+      ],
+      "source": "記録達成:奪三振",
+      "english": "Milestone: Strikeouts",
+      "deepl_comparison": "Record Achieved: Strikeouts",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        31
+      ],
+      "source": "不協和音",
+      "english": "Discord",
+      "deepl_comparison": "Dissonance",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        32
+      ],
+      "source": "苦手意識",
+      "english": "Facing a Nemesis",
+      "deepl_comparison": "Feeling of Inadequacy",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        33
+      ],
+      "source": "防波堤",
+      "english": "Stopping the Flood",
+      "deepl_comparison": "Seawall",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        34
+      ],
+      "source": "迫りくる不安",
+      "english": "Growing Unease",
+      "deepl_comparison": "Looming Anxiety",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        35
+      ],
+      "source": "停滞",
+      "english": "Stalled",
+      "deepl_comparison": "Stagnation",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        36
+      ],
+      "source": "試練",
+      "english": "The Test",
+      "deepl_comparison": "Trials",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        37
+      ],
+      "source": "５割復帰",
+      "english": "Back to .500",
+      "deepl_comparison": "Back to a .500 Winning Percentage",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        38
+      ],
+      "source": "リベンジ",
+      "english": "Revenge",
+      "deepl_comparison": "Revenge",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        39
+      ],
+      "source": "アピール",
+      "english": "Make an Impression",
+      "deepl_comparison": "Features",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        40
+      ],
+      "source": "新人対決",
+      "english": "Rookie Showdown",
+      "deepl_comparison": "Rookie Showdown",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        41
+      ],
+      "source": "借り",
+      "english": "A Debt to Repay",
+      "deepl_comparison": "Borrow",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        42
+      ],
+      "source": "謝罪",
+      "english": "An Apology",
+      "deepl_comparison": "Apology",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        43
+      ],
+      "source": "泥沼からの脱出",
+      "english": "Out of the Cellar",
+      "deepl_comparison": "Escape from the Quagmire",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        44
+      ],
+      "source": "偉大な一本",
+      "english": "A Hit to Remember",
+      "deepl_comparison": "The Great Hit",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        45
+      ],
+      "source": "偉大な一勝",
+      "english": "A Win to Remember",
+      "deepl_comparison": "A Great Victory",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        46
+      ],
+      "source": "真のファンサービス",
+      "english": "Giving Back to the Fans",
+      "deepl_comparison": "True Fan Service",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        47
+      ],
+      "source": "エースの貫禄",
+      "english": "The Mark of an Ace",
+      "deepl_comparison": "The Dignity of an Ace",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        48
+      ],
+      "source": "ご褒美",
+      "english": "A Well-Earned Reward",
+      "deepl_comparison": "Reward",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        49
+      ],
+      "source": "汗から掴む感覚",
+      "english": "Finding Your Swing",
+      "deepl_comparison": "The Feeling You Get from Sweat",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        50,
+        184
+      ],
+      "source": "絶え間無い努力",
+      "english": "Relentless Work",
+      "deepl_comparison": "Relentless Effort",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        51,
+        185
+      ],
+      "source": "匠の技",
+      "english": "Master of the Craft",
+      "deepl_comparison": "Masterful Skills",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        52,
+        186
+      ],
+      "source": "豪腕継承",
+      "english": "Passing Down the Heat",
+      "deepl_comparison": "Inheriting the Power Arm",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        53,
+        187
+      ],
+      "source": "師弟のきずな",
+      "english": "Mentor and Pupil",
+      "deepl_comparison": "The Bond Between Mentor and Protégé",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        54
+      ],
+      "source": "ゼロからの再出発",
+      "english": "Starting from Scratch",
+      "deepl_comparison": "A Fresh Start from Scratch",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        55
+      ],
+      "source": "豪腕再び",
+      "english": "The Big Arm Returns",
+      "deepl_comparison": "The Power Pitcher Returns",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        56,
+        110
+      ],
+      "source": "プロの誇り",
+      "english": "Pro Pride",
+      "deepl_comparison": "Professional Pride",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        57
+      ],
+      "source": "プロの意地",
+      "english": "A Pro's Resolve",
+      "deepl_comparison": "Professional Pride",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        58
+      ],
+      "source": "つかむべきチャンス",
+      "english": "Seize the Chance",
+      "deepl_comparison": "Opportunities to Seize",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        59
+      ],
+      "source": "サバイバル",
+      "english": "Survival",
+      "deepl_comparison": "Survival",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        60
+      ],
+      "source": "孤独な戦い",
+      "english": "A Lonely Fight",
+      "deepl_comparison": "A Lonely Battle",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        61
+      ],
+      "source": "最後の挑戦",
+      "english": "One Last Challenge",
+      "deepl_comparison": "The Final Challenge",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        62
+      ],
+      "source": "ライバルの覚醒",
+      "english": "A Rival Awakens",
+      "deepl_comparison": "The Rival's Awakening",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        63
+      ],
+      "source": "ライバルの脅威",
+      "english": "A Rival's Threat",
+      "deepl_comparison": "The Threat of Rivals",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        64
+      ],
+      "source": "最初の試練",
+      "english": "First Test",
+      "deepl_comparison": "The First Trial",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        65
+      ],
+      "source": "プロの壁",
+      "english": "The Pro-Level Hurdle",
+      "deepl_comparison": "The Professional Barrier",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        66
+      ],
+      "source": "若葉の芽吹き",
+      "english": "New Growth",
+      "deepl_comparison": "The Budding of Young Leaves",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        67
+      ],
+      "source": "つぼみ開く時",
+      "english": "Coming into Bloom",
+      "deepl_comparison": "When the Bud Blooms",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        68
+      ],
+      "source": "打撃改造",
+      "english": "Rebuilding the Swing",
+      "deepl_comparison": "Batting Overhaul",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        69
+      ],
+      "source": "一流の証明",
+      "english": "Prove You're Elite",
+      "deepl_comparison": "Proof of Excellence",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        70
+      ],
+      "source": "天高く",
+      "english": "Soaring High",
+      "deepl_comparison": "High in the Sky",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        71
+      ],
+      "source": "マウンドの感触",
+      "english": "Back on the Mound",
+      "deepl_comparison": "The Feel of the Mound",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        72
+      ],
+      "source": "きっかけ",
+      "english": "A Turning Point",
+      "deepl_comparison": "How It All Began",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        73
+      ],
+      "source": "自信",
+      "english": "Confidence",
+      "deepl_comparison": "Confidence",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        74
+      ],
+      "source": "プライド",
+      "english": "Pride",
+      "deepl_comparison": "Pride",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        75
+      ],
+      "source": "飛翔",
+      "english": "Taking Flight",
+      "deepl_comparison": "Soaring",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        76
+      ],
+      "source": "エース",
+      "english": "Ace",
+      "deepl_comparison": "Ace",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        77
+      ],
+      "source": "伝説の投手",
+      "english": "A Pitching Legend",
+      "deepl_comparison": "Legendary Pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        78
+      ],
+      "source": "出場機会",
+      "english": "A Chance to Play",
+      "deepl_comparison": "Playing Time",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        79
+      ],
+      "source": "野球の基本",
+      "english": "Baseball Basics",
+      "deepl_comparison": "Baseball Basics",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        80
+      ],
+      "source": "熱いまなざし",
+      "english": "Eyes on the Prize",
+      "deepl_comparison": "Intensive Stare",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        81
+      ],
+      "source": "疾風",
+      "english": "Lightning Speed",
+      "deepl_comparison": "Gale",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        82
+      ],
+      "source": "チームプレー",
+      "english": "Team Play",
+      "deepl_comparison": "Team Play",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        83
+      ],
+      "source": "あくなき向上",
+      "english": "Always Improving",
+      "deepl_comparison": "Relentless Pursuit of Improvement",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        84
+      ],
+      "source": "集中力",
+      "english": "Focus",
+      "deepl_comparison": "Concentration",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        85
+      ],
+      "source": "一振りの力",
+      "english": "One Mighty Swing",
+      "deepl_comparison": "The Power of a Single Swing",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        86
+      ],
+      "source": "ビッグバン",
+      "english": "Big Bang",
+      "deepl_comparison": "Big Bang",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        87
+      ],
+      "source": "挑戦",
+      "english": "The Challenge",
+      "deepl_comparison": "Challenge",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        88
+      ],
+      "source": "期待に応える力",
+      "english": "Meet Expectations",
+      "deepl_comparison": "The Power to Live Up to Expectations",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        89
+      ],
+      "source": "マウンド度胸",
+      "english": "Poise on the Mound",
+      "deepl_comparison": "Guts on the Mound",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        90
+      ],
+      "source": "頼れる存在",
+      "english": "Someone to Count On",
+      "deepl_comparison": "A Reliable Presence",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        91
+      ],
+      "source": "エースへの道のり",
+      "english": "The Road to Ace",
+      "deepl_comparison": "The Road to Becoming an Ace",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        92
+      ],
+      "source": "基本中の基本",
+      "english": "The First Rule",
+      "deepl_comparison": "The Basics of the Basics",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        93
+      ],
+      "source": "研ぎ澄まされた武器",
+      "english": "A Sharpened Weapon",
+      "deepl_comparison": "Sharpened Weapons",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        94
+      ],
+      "source": "投手の理想",
+      "english": "A Pitcher's Ideal",
+      "deepl_comparison": "The Ideal Pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        95
+      ],
+      "source": "守護神",
+      "english": "The Guardian",
+      "deepl_comparison": "Closer",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        96
+      ],
+      "source": "負けないエース",
+      "english": "An Ace Who Won't Lose",
+      "deepl_comparison": "The Unbeatable Ace",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        97
+      ],
+      "source": "求められるもの",
+      "english": "What's Expected",
+      "deepl_comparison": "Requirements",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        98,
+        106
+      ],
+      "source": "開幕調整",
+      "english": "Opening Day Prep",
+      "deepl_comparison": "Pre-Season Preparation",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        99
+      ],
+      "source": "コンバート:一塁手",
+      "english": "Switch to 1B",
+      "deepl_comparison": "Position: First baseman",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        100
+      ],
+      "source": "コンバート:二塁手",
+      "english": "Switch to 2B",
+      "deepl_comparison": "Position: Second baseman",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        101
+      ],
+      "source": "コンバート:三塁手",
+      "english": "Switch to 3B",
+      "deepl_comparison": "Position: Third Baseman",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        102
+      ],
+      "source": "コンバート:遊撃手",
+      "english": "Switch to SS",
+      "deepl_comparison": "Position: Shortstop",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        103
+      ],
+      "source": "コンバート:左翼手",
+      "english": "Switch to LF",
+      "deepl_comparison": "Position: Left Fielder",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        104
+      ],
+      "source": "コンバート:中堅手",
+      "english": "Switch to CF",
+      "deepl_comparison": "Position: Center Fielder",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        105
+      ],
+      "source": "コンバート:右翼手",
+      "english": "Switch to RF",
+      "deepl_comparison": "Position: Right Fielder",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        107
+      ],
+      "source": "コンバート：先発",
+      "english": "Move to Rotation",
+      "deepl_comparison": "Converted: Starting Pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        108
+      ],
+      "source": "コンバート：リリーフ",
+      "english": "Move to Bullpen",
+      "deepl_comparison": "Converted: Relief",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        109
+      ],
+      "source": "団結とは",
+      "english": "What Unity Means",
+      "deepl_comparison": "What Is Teamwork?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        111
+      ],
+      "source": "それぞれの役割",
+      "english": "Everyone Has a Role",
+      "deepl_comparison": "Each Player's Role",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        112
+      ],
+      "source": "皆は一人のために",
+      "english": "All for One",
+      "deepl_comparison": "Everyone for One",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        113
+      ],
+      "source": "さらなる飛躍",
+      "english": "The Next Leap",
+      "deepl_comparison": "Taking It to the Next Level",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        114
+      ],
+      "source": "ベテランの技",
+      "english": "Veteran Craft",
+      "deepl_comparison": "Veteran Skills",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        115
+      ],
+      "source": "受け継ぐ者",
+      "english": "Heir to the Role",
+      "deepl_comparison": "The Heir",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        116
+      ],
+      "source": "アジアの頂",
+      "english": "On Top of Asia",
+      "deepl_comparison": "The Top of Asia",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        117
+      ],
+      "source": "首位打者への道",
+      "english": "Chase the Batting Title",
+      "deepl_comparison": "The Road to Becoming the Batting Champion",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        118
+      ],
+      "source": "打点王への道",
+      "english": "Chase the RBI Title",
+      "deepl_comparison": "The Road to the RBI Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        119
+      ],
+      "source": "本塁打王への道",
+      "english": "Chase the HR Title",
+      "deepl_comparison": "The Road to the Home Run Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        120
+      ],
+      "source": "三冠王への道",
+      "english": "Chase the Triple Crown",
+      "deepl_comparison": "The Road to the Triple Crown",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        121
+      ],
+      "source": "最優秀防御率への道",
+      "english": "Chase the ERA Title",
+      "deepl_comparison": "The Road to the Best ERA",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        122
+      ],
+      "source": "奪三振王への道",
+      "english": "Chase the K Title",
+      "deepl_comparison": "The Road to the Strikeout Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        123
+      ],
+      "source": "最多勝への道",
+      "english": "Chase the Wins Title",
+      "deepl_comparison": "The Road to the Most Wins",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        124
+      ],
+      "source": "投手三冠への道",
+      "english": "Pitching Triple Crown",
+      "deepl_comparison": "The Road to the Pitcher's Triple Crown",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        125
+      ],
+      "source": "虹1",
+      "english": "Rainbow 1",
+      "deepl_comparison": "Rainbow 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        126
+      ],
+      "source": "虹2",
+      "english": "Rainbow 2",
+      "deepl_comparison": "Rainbow 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        127
+      ],
+      "source": "虹F",
+      "english": "Rainbow Finale",
+      "deepl_comparison": "Niji F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        128
+      ],
+      "source": "疾走1",
+      "english": "Full Speed 1",
+      "deepl_comparison": "Sprint 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        129
+      ],
+      "source": "疾走2",
+      "english": "Full Speed 2",
+      "deepl_comparison": "Sprint 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        130
+      ],
+      "source": "疾走F",
+      "english": "Full Speed Finale",
+      "deepl_comparison": "Dash F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        131
+      ],
+      "source": "打撃進化論1",
+      "english": "Hitting Evolution 1",
+      "deepl_comparison": "The Theory of Batting Evolution 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        132
+      ],
+      "source": "打撃進化論2",
+      "english": "Hitting Evolution 2",
+      "deepl_comparison": "The Theory of Batting Evolution 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        133
+      ],
+      "source": "打撃進化論F",
+      "english": "Hitting Evolution Final",
+      "deepl_comparison": "The Theory of Batting Evolution F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        134
+      ],
+      "source": "責任と重圧1",
+      "english": "Duty and Pressure 1",
+      "deepl_comparison": "Responsibility and Pressure 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        135
+      ],
+      "source": "責任と重圧2",
+      "english": "Duty and Pressure 2",
+      "deepl_comparison": "Responsibility and Pressure 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        136
+      ],
+      "source": "責任と重圧F",
+      "english": "Duty and Pressure Final",
+      "deepl_comparison": "Responsibility and Pressure F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        137
+      ],
+      "source": "信頼の土壌1",
+      "english": "Earning Trust 1",
+      "deepl_comparison": "A Foundation of Trust 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        138
+      ],
+      "source": "信頼の土壌2",
+      "english": "Earning Trust 2",
+      "deepl_comparison": "Soil of Trust 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        139
+      ],
+      "source": "信頼の土壌F",
+      "english": "Earning Trust Finale",
+      "deepl_comparison": "Soil of Trust F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        140
+      ],
+      "source": "コンプリートプレイヤー1",
+      "english": "Complete Player 1",
+      "deepl_comparison": "Complete Player 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        141
+      ],
+      "source": "コンプリートプレイヤー2",
+      "english": "Complete Player 2",
+      "deepl_comparison": "Complete Player 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        142
+      ],
+      "source": "コンプリートプレイヤー3",
+      "english": "Complete Player 3",
+      "deepl_comparison": "Complete Player 3",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        143
+      ],
+      "source": "コンプリートプレイヤー4",
+      "english": "Complete Player 4",
+      "deepl_comparison": "Complete Player 4",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        144
+      ],
+      "source": "コンプリートプレイヤー5",
+      "english": "Complete Player 5",
+      "deepl_comparison": "Complete Player 5",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        145
+      ],
+      "source": "コンプリートプレイヤーF",
+      "english": "Complete Player Finale",
+      "deepl_comparison": "Complete Player F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        146
+      ],
+      "source": "スラッガー1",
+      "english": "Slugger 1",
+      "deepl_comparison": "Slugger 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        147
+      ],
+      "source": "スラッガー2",
+      "english": "Slugger 2",
+      "deepl_comparison": "Slugger 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        148
+      ],
+      "source": "スラッガー3",
+      "english": "Slugger 3",
+      "deepl_comparison": "Slugger 3",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        149
+      ],
+      "source": "スラッガー4",
+      "english": "Slugger 4",
+      "deepl_comparison": "Slugger 4",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        150
+      ],
+      "source": "スラッガー5",
+      "english": "Slugger 5",
+      "deepl_comparison": "Slugger 5",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        151
+      ],
+      "source": "スラッガーF",
+      "english": "Slugger Finale",
+      "deepl_comparison": "Slugger F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        152
+      ],
+      "source": "打撃の真髄1",
+      "english": "Art of Hitting 1",
+      "deepl_comparison": "The Essence of Batting 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        153
+      ],
+      "source": "打撃の真髄2",
+      "english": "Art of Hitting 2",
+      "deepl_comparison": "The Essence of Hitting 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        154
+      ],
+      "source": "打撃の真髄3",
+      "english": "Art of Hitting 3",
+      "deepl_comparison": "The Essence of Hitting 3",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        155
+      ],
+      "source": "打撃の真髄4",
+      "english": "Art of Hitting 4",
+      "deepl_comparison": "The Essence of Batting 4",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        156
+      ],
+      "source": "打撃の真髄5",
+      "english": "Art of Hitting 5",
+      "deepl_comparison": "The Essence of Batting 5",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        157
+      ],
+      "source": "打撃の真髄F",
+      "english": "Art of Hitting Finale",
+      "deepl_comparison": "The Essence of Batting F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        158
+      ],
+      "source": "足を使うということ1",
+      "english": "Using Your Speed 1",
+      "deepl_comparison": "Using Your Feet 1",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        159
+      ],
+      "source": "足を使うということ2",
+      "english": "Using Your Speed 2",
+      "deepl_comparison": "Using Your Feet, Part 2",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        160
+      ],
+      "source": "足を使うということ3",
+      "english": "Using Your Speed 3",
+      "deepl_comparison": "Using Your Feet, Part 3",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        161
+      ],
+      "source": "足を使うということ4",
+      "english": "Using Your Speed 4",
+      "deepl_comparison": "Using Your Feet, Part 4",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        162
+      ],
+      "source": "足を使うということ5",
+      "english": "Using Your Speed 5",
+      "deepl_comparison": "Using Your Feet, Part 5",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        163
+      ],
+      "source": "足を使うということF",
+      "english": "Using Your Speed Finale",
+      "deepl_comparison": "Using Your Feet F",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        164
+      ],
+      "source": "意識改革",
+      "english": "A Change in Approach",
+      "deepl_comparison": "A Change in Mindset",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        165
+      ],
+      "source": "タイミング",
+      "english": "Timing",
+      "deepl_comparison": "Timing",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        166
+      ],
+      "source": "好機",
+      "english": "An Opening",
+      "deepl_comparison": "Opportunity",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        167,
+        168
+      ],
+      "source": "勲章",
+      "english": "Badge of Honor",
+      "deepl_comparison": "Medals",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        169
+      ],
+      "source": "強気の証明",
+      "english": "Pitch with Conviction",
+      "deepl_comparison": "Proof of Aggression",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        170
+      ],
+      "source": "省エネピッチ",
+      "english": "Pitch Efficiency",
+      "deepl_comparison": "Energy-Saving Pitch",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        171
+      ],
+      "source": "経験と糧",
+      "english": "Learning by Doing",
+      "deepl_comparison": "Experience and Lessons Learned",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        172
+      ],
+      "source": "一球入魂",
+      "english": "Every Pitch Counts",
+      "deepl_comparison": "Put Your Heart and Soul into Every Pitch",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        173
+      ],
+      "source": "活きた投球",
+      "english": "Pitching with Purpose",
+      "deepl_comparison": "Dynamic Pitching",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        174
+      ],
+      "source": "栄冠（首位打者）",
+      "english": "Batting Crown",
+      "deepl_comparison": "Honor (Batting Champion)",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        175
+      ],
+      "source": "栄冠（本塁打王）",
+      "english": "Home Run Crown",
+      "deepl_comparison": "Glory (Home Run King)",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        176
+      ],
+      "source": "栄冠（打点王）",
+      "english": "RBI Crown",
+      "deepl_comparison": "Glory (RBI Leader)",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        177
+      ],
+      "source": "栄冠（盗塁王）",
+      "english": "Stolen Base Crown",
+      "deepl_comparison": "Honor (Stolen Base Leader)",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        178,
+        179
+      ],
+      "source": "再生工場",
+      "english": "Career Revival",
+      "deepl_comparison": "Recycling Plant",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        180
+      ],
+      "source": "交流戦の覇者は？",
+      "english": "Interleague Champion?",
+      "deepl_comparison": "Who will win the Interleague Series?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        181
+      ],
+      "source": "正念場",
+      "english": "The Crucial Stretch",
+      "deepl_comparison": "The Decisive Moment",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "title",
+      "events": [
+        182,
+        183
+      ],
+      "source": "巣立ち",
+      "english": "Leaving the Nest",
+      "deepl_comparison": "Leaving the Nest",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        1
+      ],
+      "source": "最終局面を迎えたペナントレース、ここまできて大魚を逸するわけにはいかない。今こそ最後の力を振り絞るときだ！",
+      "english": "The pennant race is down to the wire. We have come too far to let it slip away. Give it everything you have left!",
+      "deepl_comparison": "The pennant race has reached its final stages—we can’t let the big prize slip away now that we’ve come this far. Now is the time to give it everything we’ve got!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        2
+      ],
+      "source": "ついに迎えたプレーオフ。すべてのプレイにわずかな隙も許されない。今こそリーグの王者をかけての頂上決戦！",
+      "english": "The playoffs are here. Every play counts as we fight for the league title.",
+      "deepl_comparison": "The playoffs are finally here. There’s no room for even the slightest mistake in every play. Now is the time for the ultimate showdown to determine the league champion!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        3
+      ],
+      "source": "「日本一」の称号をえることができる真の王者はただ１チーム。@eは強敵だが頂に最後に立つのはわがチームだ！",
+      "english": "Only one team can be Japan Series champion. @e will be tough, but we can take the title.",
+      "deepl_comparison": "Only one team can earn the title of “Japan’s Best.” @e is a formidable opponent, but in the end, it will be our team standing at the top!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        4
+      ],
+      "source": "ついに前半戦もこの@eとの対決を最後に終了。後半戦を気持ちよく滑り出すためにもこの対決はなんとかモノにしたい。",
+      "english": "The series against @e closes out the first half. Win it and carry that momentum into the second half.",
+      "deepl_comparison": "The first half of the season finally comes to an end with this matchup against @e. We need to win this game to get the second half off to a strong start.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        5
+      ],
+      "source": "夢の競演・オールスターにわがチームからも@t選手が出場することとなった。チームの代表として恥ずかしくない結果を残してきてほしい。",
+      "english": "@t will represent us at the All-Star Game. Let's see what our player can do on that stage.",
+      "deepl_comparison": "@t from our team will be participating in the All-Star Game, a dream showdown. We hope he’ll deliver results that do our team proud.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        6
+      ],
+      "source": "ついに開幕するペナントレース。「開幕の１勝」はただの１勝ではない@n何としてもこの一戦は勝利をつかみ取る！",
+      "english": "Opening Day is here, and the first win means more than any other.@nFind a way to win this one!",
+      "deepl_comparison": "The pennant race is finally kicking off. “That first win of the season” isn’t just any win—@nwe must secure victory in this game at all costs!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        7
+      ],
+      "source": "今シーズン初対決を迎える@e。出鼻をくじいて苦手意識をうえ付けるためにもこの初対決、引く訳にはいかない！",
+      "english": "This is our first series against @e. Get off to a strong start and give them a reason to worry next time.",
+      "deepl_comparison": "@e and I are set to face off for the first time this season. To knock the wind out of their sails right from the start and instill a sense of fear in them, I absolutely cannot back down in this first matchup!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        8
+      ],
+      "source": "なに気なく見た新聞記事に「足を引っ張る@t選手、監督も見限り」といった見出しが躍っていた。せめてこの記事を発奮材料に奮起してくれれば…",
+      "english": "The papers say @t is holding us back and has lost the manager's trust. Let's hope the headline lights a fire.",
+      "deepl_comparison": "I happened to glance at a newspaper article with a headline that read, “Player @t is holding the team back; even the manager has given up on him.” I just hope he’ll use this article as motivation to pull himself together…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        9
+      ],
+      "source": "野手コーチの提案で走塁の新しいトレーニングを導入することにした。果たして選手たちへの効果はどうだろうか。",
+      "english": "The fielding coach suggested a new baserunning drill. Let's see how much it helps the team.",
+      "deepl_comparison": "Based on a suggestion from the fielding coach, we decided to introduce a new baserunning training regimen. I wonder how effective it will be for the players.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        10
+      ],
+      "source": "さまざまな事件を経て野球人気の低迷が叫ばれる昨今、われわれにできることはファンが喜ぶプレイをすること。ファンには勝利で応えたい！",
+      "english": "Baseball's popularity is slipping. We can give fans something to cheer about by winning and playing well.",
+      "deepl_comparison": "With baseball’s popularity said to be on the decline following various incidents, what we can do is play in a way that delights our fans. We want to repay our fans with victories!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        11
+      ],
+      "source": "投手陣の不調が問題となっている。本社は戦力を放出してのトレードも画策中のようだ。まだ優勝が狙えるチームだと証明せねば。",
+      "english": "Our pitchers are struggling, and ownership is considering a trade. Show them this roster can still contend.",
+      "deepl_comparison": "The pitching staff’s slump has become a problem. Headquarters appears to be planning trades that would involve releasing players. We must prove that this team can still contend for the championship.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        12
+      ],
+      "source": "今ひとつ波に乗り切れないチームにテコ入れをということか、フロントは新外国人の獲得を通知してきた。新戦力の加入は悪いことではないのだが…",
+      "english": "The front office signed a foreign player to shake up a struggling team. Let's see what the new arrival can do.",
+      "deepl_comparison": "Perhaps in an effort to turn things around for a team that hasn’t quite found its stride, the front office has announced the signing of a new foreign player. While adding a new player to the roster isn’t a bad thing, though…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        13
+      ],
+      "source": "連敗で沈滞ムードの中、大きな声を出しムードを変えようとしている@t選手がいた。こういう選手が活躍すれば流れも変わるのだが。",
+      "english": "The losing streak has made the clubhouse quiet, but @t is trying to lift the mood. A big game could turn things around.",
+      "deepl_comparison": "Amid a slump caused by a losing streak, Player @t was trying to lift the team’s spirits by shouting loudly. If a player like this can step up, it might just turn the tide.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        14
+      ],
+      "source": "リリーフ陣に疲れの色が見え始めている。この状況を打開するためにも、先発陣を完投させリリーフの負担を減らすことができれば…",
+      "english": "The bullpen is wearing down. A complete game from a starter would give our relievers a much-needed break.",
+      "deepl_comparison": "Signs of fatigue are beginning to show among the relief pitchers. To turn this situation around, if only we could get our starting pitchers to go the distance and reduce the burden on the relief corps…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        15
+      ],
+      "source": "過酷なペナントでの戦いで選手達の疲労もたまってきている。@t選手は特にその色が濃く出ている様子。何とか休養を与えてやりたいが。",
+      "english": "The season is taking a toll, especially on @t. Find a way to give that player a day off.",
+      "deepl_comparison": "Fatigue is starting to set in among the players as they battle through the grueling pennant race. Player @t seems to be showing particularly strong signs of it. I really want to find a way to give him some rest.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        16
+      ],
+      "source": "最近若い投手達が同じような冊子を持っているのに気付き、話を聞くと「コーチに貰った教材だ」と言う。良い効果が出ることを期待しよう。",
+      "english": "The young pitchers are studying a booklet from their coach. Let's see if the lessons show up on the field.",
+      "deepl_comparison": "I recently noticed that some young pitchers have similar booklets, and when I asked them about it, they said, “Our coach gave them to us as study materials.” Let’s hope this has a positive effect.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        17
+      ],
+      "source": "チームはこれからしばらく敵地での試合が続くことになる。敵地のファンを黙らせるようなゲームをしてチームに勢いをつけたいものだが。",
+      "english": "We have a long road trip ahead. Silence the home crowds and use those wins to build momentum.",
+      "deepl_comparison": "The team will be playing a series of away games for the foreseeable future. We’d like to play well enough to silence the opposing fans and build momentum for the team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        18
+      ],
+      "source": "過酷さを増すペナントレース。投手コーチより、苦しい調整が続く@t選手には次回の先発日を早めに通知しておくのはどうかという提案があった。",
+      "english": "@t has struggled to get ready between starts. The pitching coach suggests announcing the next start early.",
+      "deepl_comparison": "The pennant race is becoming increasingly grueling. The pitching coach suggested that, since Player @t has been struggling with his adjustments, perhaps they should notify him of his next start date a little earlier.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        19
+      ],
+      "source": "どうしても落としたくない@eとのこの一戦。投手コーチは、先発に初回から飛ばさせて５回以降を継投で乗り切るという作戦を提案してきた。",
+      "english": "We need this win against @e. The pitching coach wants the starter to go hard early, then use the bullpen from the fifth on.",
+      "deepl_comparison": "This is a game against @e that we absolutely cannot lose. The pitching coach has proposed a strategy where the starting pitcher goes all out from the first inning, and we’ll rely on relief pitchers to get through the fifth inning and beyond.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        20
+      ],
+      "source": "連勝で勢いにのるチーム。試合前の選手たちの表情もやわらかい。そんな中唯一思い悩んだ顔をする@t選手がいた。いち早い復活が待たれるのだが…",
+      "english": "The winning streak has lifted everyone except @t, who still looks worried. We need that player back in form soon.",
+      "deepl_comparison": "The team is riding a wave of momentum with a winning streak. The players look relaxed before the game. Amidst this, however, one player—@t—was the only one with a worried look on his face. We’re hoping for his quick return…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        21
+      ],
+      "source": "球団側はファンサービスとして、チームの連勝につき球場内で販売する飲食品の値段を３％ずつ引いていくというキャンペーンを始めたようだ。",
+      "english": "The team is cutting ballpark food and drink prices by 3 percent for each win in the streak. Keep it going for the fans.",
+      "deepl_comparison": "It appears the team has launched a fan appreciation campaign in which the prices of food and beverages sold at the stadium are reduced by 3% for each consecutive win the team achieves.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        22
+      ],
+      "source": "夏真っ盛り、選手たちもスタンドに混じる子供の声が気になるようで「がんばれ～！ホームランだぁ！」といった声に気合が入っているようだ。",
+      "english": "It's midsummer, and the kids in the stands are calling for home runs. The players are fired up to give them one.",
+      "deepl_comparison": "It’s the height of summer, and the players seem to be paying attention to the children’s voices in the stands; shouts like “Go for it! Home run!” seem to be spurring them on.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        23
+      ],
+      "source": "昨年度の観客動員をまもなく上回る見込みらしく、球団は新たなサービスも考えているらしい。現場も勝利という形でバックアップしたいものだ。",
+      "english": "We're about to top last year's attendance. The club is looking for ways to thank the fans. Let's give them a win.",
+      "deepl_comparison": "It appears attendance is on track to surpass last year’s figures shortly, and the team is reportedly considering new services. We hope the players on the field will back this up with victories.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        24
+      ],
+      "source": "連敗。緊急ミーティングではチームの置かれている状況について厳しい話が相次ぎ、選手たちの元気のなさが気になるという意見が相次いだ。",
+      "english": "We called an emergency meeting about the losing streak. The players look flat, and everyone knows we need a spark.",
+      "deepl_comparison": "A losing streak. At an emergency meeting, a series of harsh comments were made about the team’s current situation, and many expressed concern about the players’ lack of energy.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        25
+      ],
+      "source": "積み重ねてきた数多の安打もついに@x本間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career hits.@nGo make history!",
+      "deepl_comparison": "The countless hits I’ve racked up are finally nearing @x. @n I’ll achieve this great milestone with my own two hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        26
+      ],
+      "source": "積み重ねてきた数多の本塁打もついに@x本間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career home runs.@nGo make history!",
+      "deepl_comparison": "The countless home runs I’ve hit over the years are finally nearing @x. @n I’ll achieve this great milestone with my own two hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        27
+      ],
+      "source": "積み重ねてきた数多の盗塁もついに@x個間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career stolen bases.@nGo make history!",
+      "deepl_comparison": "The countless stolen bases I’ve racked up are finally nearing @x. I’ll achieve this great milestone with my own two hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        28
+      ],
+      "source": "積み重ねてきた数多の勝ち星もついに@x勝間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career wins.@nGo make history!",
+      "deepl_comparison": "With countless victories under our belt, we’re finally on the verge of @x wins. @n Let’s achieve this monumental milestone with our own hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        29
+      ],
+      "source": "積み重ねてきた数多のセーブもついに@xセーブ間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career saves.@nGo make history!",
+      "deepl_comparison": "With countless saves under my belt, I’m finally nearing @x saves. @n I’ll achieve this monumental record with my own two hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        30
+      ],
+      "source": "積み重ねてきた数多の奪三振もついに@x個間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career strikeouts.@nGo make history!",
+      "deepl_comparison": "The countless strikeouts I’ve racked up are finally nearing @x. I’ll achieve this great milestone with my own two hands!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        31
+      ],
+      "source": "スタメンとして出場し続けている@t選手ですが、結果が出ず他選手から起用に不満が上がっているようです。何らかの対策が必要かもしれません。",
+      "english": "@t keeps starting without producing, and teammates are questioning the decision. It may be time to act.",
+      "deepl_comparison": "Player @t has been a regular starter, but since he hasn’t been producing results, other players seem to be voicing dissatisfaction with his continued selection. Some kind of action may be necessary.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        32
+      ],
+      "source": "現在@eにはかなり負け越して勢いをそがれている。変な苦手意識を選手が持たないようにするためにも今節対戦では勝ち越しを狙っていく！",
+      "english": "@e has had our number this season. Win this series before our players start expecting to lose.",
+      "deepl_comparison": "We’re currently trailing @e by quite a bit, which has dampened our momentum. To prevent our players from developing an irrational fear of them, we’re aiming to come out on top in this round’s matchup!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        33
+      ],
+      "source": "３連敗はチームのムードを悪くし、勢いをなくしてしまう。そして何よりもファンのためにも避けなければならない。次の試合は必勝の態勢で臨む！！",
+      "english": "A third straight loss would hurt morale and cost us momentum. For the fans and the team, we have to win the next game.",
+      "deepl_comparison": "Three consecutive losses dampen the team’s morale and sap its momentum. Above all, we must avoid this for the sake of our fans. We’ll approach the next game with a must-win attitude!!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        34
+      ],
+      "source": "最近思うような結果が出ていない@t選手ですが、かなり深刻に悩んでいるようです。僅かでも結果が出れば上昇のきっかけを掴めると思うのですが。",
+      "english": "@t is taking this slump hard. Even a small success could help turn it around.",
+      "deepl_comparison": "Player @t hasn’t been producing the results he’d hoped for lately, and he seems to be taking it quite hard. I think even the slightest improvement in his performance could give him the momentum he needs to turn things around.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        35
+      ],
+      "source": "最近の@t選手は考えすぎで、思うようなピッチングができていないようです。深刻な事態になる前に、何かきっかけをつかんでくれればよいのですが。",
+      "english": "@t is overthinking on the mound. One good outing could help before the problem gets worse.",
+      "deepl_comparison": "Lately, Player @t seems to be overthinking things and isn’t pitching the way he’d like to. I hope he can find a way to turn things around before the situation gets serious.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        36
+      ],
+      "source": "次の相手はすぐ上位にいる@e。この戦いの結果でチームはＡクラスにグッと近くなる。長いペナントを戦い抜くには、こういった節目での勝負強さがほしい。",
+      "english": "@e is just ahead of us. A good series would move us closer to the top three. These are the games a contender has to win.",
+      "deepl_comparison": "Our next opponent is @e, who is right above us in the standings. The outcome of this game will bring our team much closer to the A Class. To make it through the long pennant race, we need to show resilience in crucial moments like this.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        37
+      ],
+      "source": "次のカードの結果次第で、５割復帰が見えてくる。まずは５割復帰をめざせ！",
+      "english": "A strong series could get us back to .500. Start there.",
+      "deepl_comparison": "Depending on the outcome of the next game, a return to a .500 record is within reach. First, aim for that .500 record!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        38
+      ],
+      "source": "前回の対戦で叩きのめした@eがリベンジに燃えているらしい。返り討ちにして、実力の違いを見せ付けろ！",
+      "english": "@e is out for revenge after our last series. Beat them again and show them it wasn't a fluke.",
+      "deepl_comparison": "@e, whom you soundly defeated in your last matchup, seems to be out for revenge. Turn the tables on them and show them the difference in your skill!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        39
+      ],
+      "source": "２軍の@t選手の最近の２軍成績はすばらしく、１軍昇格に強烈にアピールしている。一度１軍で試してはどうだろうか。",
+      "english": "@t has been excellent on the farm and is making a strong case for a call-up. Give that player a chance with the first team.",
+      "deepl_comparison": "Player @t’s recent performance in the minor leagues has been outstanding, and he’s making a strong case for a promotion to the major league team. Why not give him a try in the majors?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        40
+      ],
+      "source": "世間では今回のカードで実現される、@t選手と@u選手の黄金のルーキー対決に注目が集まる。ファンの期待に応えたい！！",
+      "english": "Fans are watching the rookie showdown between @t and @u. Give them a series worth remembering.",
+      "deepl_comparison": "Public attention is focused on the “golden rookie showdown” between @t and @u that will take place in this matchup. We want to live up to the fans’ expectations!!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        41
+      ],
+      "source": "前回対決では手酷い負け方をさせられた@eとの対決がまた巡ってきた。今度こそはキッチリと借りを返してチームに弾みをつけたい。",
+      "english": "@e handed us a rough loss last time. Even the score and give the team a lift.",
+      "deepl_comparison": "It’s time to face @e again—the opponent who handed us a crushing defeat in our last matchup. This time, I want to settle the score once and for all and give the team a boost.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        42
+      ],
+      "source": "連敗続きの悪い流れに、ファンの怒りも頂点に達している。プロとして、これ以上は負けられない。ファンへの謝罪の意味をこめて、今日は必勝だ！",
+      "english": "The fans have had enough of this losing streak. Give them the best apology we can offer: a win today.",
+      "deepl_comparison": "With the team stuck in a losing streak, the fans’ frustration has reached a boiling point. As professionals, we simply cannot afford to lose any more games. To make amends to the fans, we absolutely must win today!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        43
+      ],
+      "source": "次の@eとのカードには、最下位脱出がかかっている。いつまでもこの位置に甘んじているわけにはいかない！",
+      "english": "This series against @e is our chance to climb out of last place. We can't stay here any longer.",
+      "deepl_comparison": "Our next series against @e is crucial for us to climb out of last place. We can’t just settle for this position forever!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        44
+      ],
+      "source": "ファンは@t選手の、一刻も早い初ヒットを待っている！自信をつけさせるためにも、ぜひ達成させたい！！",
+      "english": "The fans are waiting for @t to get a first hit. Getting it soon would be a real confidence boost.",
+      "deepl_comparison": "Fans are eagerly awaiting Player @t’s first hit! We really want him to get it as soon as possible to boost his confidence!!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        45
+      ],
+      "source": "ファンは@t選手の、一刻も早い初勝利を待っている！自信をつけさせるためにも、ぜひ達成させたい！！",
+      "english": "The fans are waiting for @t to earn a first win. Getting it soon would be a real confidence boost.",
+      "deepl_comparison": "Fans are eagerly awaiting Player @t’s first win! We really want him to get that win to boost his confidence!!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        46
+      ],
+      "source": "ファンサービスの一環として始球式に著名人を招待するらしい。当日はかなりの集客が見込めるだけに、恥ずかしくない試合をしたいところだが…",
+      "english": "A celebrity will throw out the first pitch, and a big crowd is expected. Give them a game worth coming for.",
+      "deepl_comparison": "Apparently, as part of their fan outreach efforts, they’re inviting celebrities to throw the first pitch. Since a large crowd is expected on the day of the game, we’d like to put on a performance we can be proud of…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        47
+      ],
+      "source": "現在連敗続きでチーム状態は思わしくないですが、@t選手は連敗ストップに燃えているようです。",
+      "english": "We're in a skid, but @t is determined to stop it.",
+      "deepl_comparison": "Although the team is currently on a losing streak and not in great shape, Player @t seems determined to end the losing streak.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        48
+      ],
+      "source": "先日の@t選手の活躍がオーナーの目にも止まったようだ。次の試合はオーナー自ら観戦、活躍次第ではボーナスも出すという。",
+      "english": "The owner noticed @t's last performance and will attend the next game. Another good showing could earn a bonus.",
+      "deepl_comparison": "It seems Player @t’s strong performance the other day caught the owner’s eye. The owner will be attending the next game in person and has said he’ll even award a bonus depending on how the player performs.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        49
+      ],
+      "source": "最近調子下降気味の@t選手ですが、いち早く感覚を取り戻させるためにも早出特打をさせて不振の脱出を図らせたいのですが。",
+      "english": "@t has been slipping lately. Extra batting practice before the game could help bring back the feel for hitting.",
+      "deepl_comparison": "Player @t has been slumping lately, so I’d like to have him do some early-morning batting practice to help him regain his form as quickly as possible and break out of this slump.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        50,
+        184
+      ],
+      "source": "長打力が持ち味の@u選手のトレーニングに@t選手が入門したそうです。日々の鍛錬を学び、一皮むけてくれると思います。",
+      "english": "@u has power to spare, and @t is joining those workouts. The daily work could lead to a breakthrough.",
+      "deepl_comparison": "It seems that Player @t has begun training under Player @u, who is known for his power hitting. I think Player @t will learn from his daily training and take his game to the next level.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        51,
+        185
+      ],
+      "source": "最近@u選手と@t選手がバッティング練習中に話しているのを見かけます。@t選手が@u選手の技術をうまく盗めると面白いですよ。",
+      "english": "@u and @t have been talking during batting practice. If @t picks up some of @u's technique, we could see a real jump.",
+      "deepl_comparison": "Lately, I’ve been seeing @u and @t chatting during batting practice. It would be interesting if @t could successfully pick up @u’s techniques.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        52
+      ],
+      "source": "豪腕で知られる@u選手ですが、最近@t選手にアドバイスしているみたいです。優れた技術を若い世代が吸収していってくれればと思います。",
+      "english": "@u is known for a powerful arm and has been giving @t advice. Let's see what the younger pitcher picks up.",
+      "deepl_comparison": "Player @u is known for his powerful arm, but it seems he’s been giving advice to Player @t lately. I hope the younger generation will absorb these excellent skills.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        53
+      ],
+      "source": "@u選手の衰え知らずのスタミナを学ぼうと、@t選手が調整法など熱心に話を聞いているようです。どんな結果が出るのか私も楽しみです。",
+      "english": "@u never seems to tire, and @t has been asking about that routine. I'm looking forward to seeing whether it pays off.",
+      "deepl_comparison": "It seems that @t is listening intently to @u’s advice on training methods, hoping to learn from his seemingly inexhaustible stamina. I’m looking forward to seeing what results this brings.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        54
+      ],
+      "source": "@t選手の怪我はだいぶ良くなりましたが、まだ全力プレイに迷いが見えます。実戦で活躍できれば本来の自信を取り戻せると思うのですが。",
+      "english": "@t is healing but still holds back. Playing well in a real game could bring back that confidence.",
+      "deepl_comparison": "@t’s injury has improved significantly, but he still seems hesitant to play at full strength. I think he’ll regain his usual confidence once he starts performing well in actual games.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        55
+      ],
+      "source": "@t選手の怪我も良くなってきましたが、まだ違和感があるようです。本来のピッチングを取り戻すには、実戦が一番だと思うのですが。",
+      "english": "@t is recovering but still feels some discomfort. Game action may be the best way to get back in rhythm.",
+      "deepl_comparison": "@t's injury has improved, but he still seems to be feeling some discomfort. I think actual game action is the best way for him to regain his usual form on the mound.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        56
+      ],
+      "source": "スタメン出場機会の減っていた@t選手ですが、調子を崩し本来の力が発揮できていないようです。一度結果を出す機会を与えてはどうでしょうか。",
+      "english": "@t has had fewer starts and lost form. Give him a chance to show what he can do.",
+      "deepl_comparison": "Player @t has been seeing fewer opportunities to start, and it seems he’s lost his form and isn’t performing at his usual level. Why not give him a chance to prove himself?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        57
+      ],
+      "source": "１軍試合出場機会の減っている@t選手ですが、調整がうまくできておらず、試合勘が鈍っているようです。一度出場機会を与えてはどうでしょうか。",
+      "english": "@t hasn't played much with the first team and looks rusty. Give that player some game time.",
+      "deepl_comparison": "Player @t has been getting fewer opportunities to play in first-team games, and it seems he hasn’t been able to stay in shape and has lost his game sense. Why not give him a chance to play?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        58
+      ],
+      "source": "試合から離れて久しい@t選手ですが、どうもモチベーションが低下してきているようです。一度活躍の機会を与えてはどうでしょうか。",
+      "english": "@t has been out of the lineup a long time and is losing motivation. Give that player a chance to contribute.",
+      "deepl_comparison": "Player @t hasn’t played in a game for quite some time, and it seems his motivation is starting to wane. Why not give him a chance to shine again?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        59
+      ],
+      "source": "最近登板機会の減った@t選手ですが、もう一度認められようと必死で練習しています。一度チャンスを与えたいのですが。",
+      "english": "@t has had fewer chances to pitch and is working hard to earn another shot. Let's give that pitcher a chance.",
+      "deepl_comparison": "Player @t hasn’t been getting much playing time lately, but he’s practicing desperately to prove himself again. I’d like to give him another chance.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        60
+      ],
+      "source": "長い間ブルペンだけでの投球が続いている@t選手。マウンド感覚が鈍ってきているようです。登板機会を与えてみてはいかがでしょうか？",
+      "english": "@t has pitched only in the bullpen for a while and looks rusty on the mound. Try giving that pitcher a game appearance.",
+      "deepl_comparison": "Player @t has been pitching exclusively from the bullpen for quite some time. It seems his feel for the mound is starting to fade. Why not give him a chance to pitch in a game?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        61
+      ],
+      "source": "試合から離れて久しい@t選手ですが、最近少し元気をなくしているようです。一度機会を与えてみてはどうでしょうか？",
+      "english": "@t hasn't seen game action in a while and looks discouraged. Give that player a chance to get back out there.",
+      "deepl_comparison": "Player @t hasn’t played in a game for quite some time, and he seems to have lost some of his enthusiasm lately. Why not give him another chance?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        62
+      ],
+      "source": "今日対戦する@eの@u選手は、最近バッティングが良くなっているそうです。今日の対戦で勢いを止めることができればよいのですが。",
+      "english": "Today's opponent is @e, and @u has been swinging the bat well. Let's see if we can cool that hitter off.",
+      "deepl_comparison": "I hear that @u from @e, whom we’re facing today, has been hitting well lately. I hope we can stop his momentum in today’s game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        63
+      ],
+      "source": "情報によると、@eの@u選手は最近調子を上げてきているようです。脅威となる前に、今日打ち崩しておきたいところです。",
+      "english": "Scouts say @e's @u is coming into form. Get to that pitcher today before the matchup gets any tougher.",
+      "deepl_comparison": "According to reports, @e’s @u player seems to be hitting his stride lately. We’d like to shut him down today before he becomes a threat.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        64
+      ],
+      "source": "まだまだ実戦経験が少ない@t選手ですが、プロとして必要な基礎は身につきつつあります。ここらで実戦を積ませていきたいのですが。",
+      "english": "@t lacks game experience but is learning the fundamentals. Let's get some real plate appearances.",
+      "deepl_comparison": "Although Player @t still has limited game experience, he is gradually mastering the fundamentals required of a professional. I’d like to start giving him more playing time around now.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        65
+      ],
+      "source": "ようやく試合に順応してきた@t選手なのですが、プロの変化球に戸惑っているようです。徹底したミート指導を行おうと思うのですが。",
+      "english": "@t is adjusting to pro ball but still struggles with breaking pitches. We'll focus on making solid contact.",
+      "deepl_comparison": "Player @t has finally started to adjust to the games, but seems to be struggling with the pros’ breaking balls. I’m thinking of providing thorough instruction on making solid contact.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        66
+      ],
+      "source": "着実な成長で１軍定着も見えてきた@t選手ですがどうも精神的に弱い所があります。少しでも結果が出せれば自信がつくと思うのですが。",
+      "english": "@t is close to earning a regular spot on the first team, but confidence is still shaky. A good game could help.",
+      "deepl_comparison": "Player @t has been making steady progress and seems poised to secure a spot on the first team, but he does seem to have some mental weaknesses. I think he’d gain confidence if he could just produce even a little bit of results.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        67
+      ],
+      "source": "計算できる戦力となりつつある@t選手ですが、より高度な打撃の布石として「しっかりと球を捉える」ことを意識した指導をしたいと思います。",
+      "english": "@t is becoming a player we can count on. We'll build on that by teaching how to square up the ball.",
+      "deepl_comparison": "Player @t is becoming a reliable asset to the team, but as part of a more advanced batting strategy, I would like to focus my coaching on helping him “make solid contact with the ball.”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        68
+      ],
+      "source": "チームの主力となりつつある@t選手ですが、さらに高みを見据えた技術を身に付けるために、スイング軌道を修正するフォーム改造を考えてます。",
+      "english": "@t is growing into a key hitter. To take the next step, we'll work on the swing path.",
+      "deepl_comparison": "Player @t is becoming a key member of the team, but to acquire skills that will take him to the next level, we’re considering a form adjustment to correct his swing path.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        69
+      ],
+      "source": "すでにチームを代表する選手の@t選手ですが、向上心が高く打撃フォームを修正したいようです。私もつきっきりで手伝いたいのですが。",
+      "english": "@t is already one of our best hitters and wants to refine that swing. I'll work on it with that player.",
+      "deepl_comparison": "Player @t is already a star on the team, but he’s highly motivated to improve and seems eager to refine his batting form. I’d love to work with him one-on-one to help him out.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        70
+      ],
+      "source": "球界屈指の選手となった@t選手ですが、打撃を極めたいというその姿勢に終わりはないようです。彼がどこまで達するのか楽しみです。",
+      "english": "@t is one of the league's best and still wants to master hitting. Let's see how far that drive can take a player.",
+      "deepl_comparison": "Player @t has become one of the top players in the league, but his determination to master the art of hitting seems to know no bounds. I look forward to seeing just how far he can go.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        71
+      ],
+      "source": "今の@t選手に一番不足しているのは経験です。一度実戦のマウンドを経験させたいのですが、いかがでしょうか？",
+      "english": "What @t needs most is experience. Let's give that pitcher a chance on the mound in a real game.",
+      "deepl_comparison": "What @t player lacks most right now is experience. I’d like to have him take the mound in an actual game—what do you think?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        72
+      ],
+      "source": "@t選手は最近ピッチングが良くなってきています。何かきっかけがあれば１軍でも通用する可能性があると思うのですが。",
+      "english": "@t has been pitching better. One breakthrough could be enough to earn a spot with the first team.",
+      "deepl_comparison": "@t's pitching has been improving lately. I think if the right opportunity comes along, he might be able to hold his own on the first team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        73
+      ],
+      "source": "@t選手は１軍でもだいぶ生きた球を投げられるようになってきました。あとは本人が自信を持ってくれればよいのですが。",
+      "english": "@t is throwing with more life against first-team hitters. The next step is trusting that stuff.",
+      "deepl_comparison": "@t has really started to throw some lively pitches even on the first team. Now he just needs to gain some confidence.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        74
+      ],
+      "source": "チームでも役立つ存在となってきた@t選手ですが少し勝負弱いところがあります。彼のプライドを高めるように指導したいと思います。",
+      "english": "@t is becoming valuable to the team but needs more poise in big spots. Let's work on building that confidence.",
+      "deepl_comparison": "Player @t has become a valuable asset to the team, but he tends to falter a bit in high-stakes situations. I plan to coach him in a way that boosts his pride.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        75
+      ],
+      "source": "@t選手はチームには欠かせない投手ですが最近壁を感じているようです。さらに上をめざすためのきっかけを与えてやりたいのですが。",
+      "english": "@t is essential to the staff but seems to have hit a wall. Find a way to help that pitcher take the next step.",
+      "deepl_comparison": "@t is an indispensable pitcher for the team, but he seems to have hit a wall recently. I’d like to give him a chance to take his game to the next level.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        76
+      ],
+      "source": "チームの中心選手である@t選手なのですが、これからは周囲の信頼を意識しエースとして責任のあるピッチングを期待してもよい頃でしょう。",
+      "english": "The team trusts @t. It's time to pitch with the responsibility that comes with being the ace.",
+      "deepl_comparison": "Player @t is a key member of the team, and now is the time for him to be mindful of the trust placed in him by his teammates and deliver responsible pitching as the ace.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        77
+      ],
+      "source": "球界を代表する投手となった@t選手ですが、まだやり残したことがあるそうです。これ以上どんなピッチングを見せてくれるのか私も楽しみです。",
+      "english": "@t is one of the league's top pitchers and still has unfinished business. I'm looking forward to what comes next.",
+      "deepl_comparison": "Player @t has become one of the league’s top pitchers, but it seems he still has unfinished business. I, too, am looking forward to seeing what kind of pitching he’ll show us next.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        78
+      ],
+      "source": "まずは普段どおりのプレーができるように試合に慣れることです。@t選手を試合に出場させて経験を積ませましょう。",
+      "english": "Get @t into games. Experience will help that player bring the same game-day performance as in practice.",
+      "deepl_comparison": "First, you need to get used to the game so you can play as you normally would. Let’s put Player @t in the game to gain some experience.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        79
+      ],
+      "source": "野球の基本は守備です。@t選手の実戦での守備力はどうかテストします。",
+      "english": "Fielding comes first. Let's see how @t handles it in a real game.",
+      "deepl_comparison": "Defense is the foundation of baseball. Let’s test Player @t’s defensive skills in a real game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        80
+      ],
+      "source": "何が何でも出塁するという姿勢がないとプロでは通用しません。@t選手の出塁能力はどうでしょうか。",
+      "english": "Getting on base any way you can is essential in pro ball. Let's see how @t measures up.",
+      "deepl_comparison": "You won’t make it in the pros unless you have the mindset to get on base no matter what. How is Player @t’s ability to get on base?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        81
+      ],
+      "source": "シーズンを通して安定した攻撃力を発揮できるスピードは、大きな武器となります。@t選手の走塁力をきたえなおします。",
+      "english": "Speed helps sustain the offense all season. We'll work on @t's baserunning.",
+      "deepl_comparison": "Speed, which allows for consistent offensive performance throughout the season, is a major asset. We will retrain Player @t’s base-running skills.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        82
+      ],
+      "source": "出塁・犠打・走塁、ホームに帰ってくるまでにはチーム全員の協力が必要です。@t選手のチームプレーを試してみます。",
+      "english": "Getting on base, sacrifice bunts, and baserunning help bring runners home. Test @t's teamwork.",
+      "deepl_comparison": "Reaching base, sacrifice bunts, and base running—it takes the cooperation of the entire team to make it home. Let’s try out Player @t’s team play.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        83
+      ],
+      "source": "バッティング技術の向上は普段の練習はもとより、成果が出ることが自信につながります。@t選手の飛躍に期待しましょう。",
+      "english": "Practice builds hitting skill, and game results build confidence. Let's see if @t takes a step forward.",
+      "deepl_comparison": "Improving your batting skills requires regular practice, and seeing results builds confidence. Let’s look forward to Player @t’s breakthrough.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        84
+      ],
+      "source": "点を取れるときに取っておくことは大変重要です。@t選手にチャンスでのバッティングを意識させます。",
+      "english": "Take advantage of scoring chances. Get @t to focus on driving in runners when the opportunity comes.",
+      "deepl_comparison": "It’s very important to score runs when you have the chance. I’ll make sure Player @t focuses on batting effectively in key situations.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        85
+      ],
+      "source": "長いペナントレース、ひと振りで試合を決めてくれる選手は大きな戦力になります。@t選手の長打力に期待しましょう。",
+      "english": "One swing can decide a game in a long season. Give @t the chance to put that power to work.",
+      "deepl_comparison": "In the long pennant race, a player who can decide the game with a single swing is a major asset. Let’s look forward to Player @t’s power-hitting ability.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        86
+      ],
+      "source": "優れた打撃能力は何よりの武器です。@t選手の総合的な打撃力をテストします。",
+      "english": "A strong bat is a major asset. Let's test @t's all-around hitting.",
+      "deepl_comparison": "Excellent batting ability is your greatest asset. We’ll test Player @t’s overall batting skills.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        87
+      ],
+      "source": "@t選手が連続試合安打に挑戦しています。どこまで続くか私も楽しみです。",
+      "english": "@t is on a hitting streak. I'm curious to see how long it can last.",
+      "deepl_comparison": "@t is trying to set a record for consecutive games with a hit. I’m looking forward to seeing how long this streak lasts.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        88
+      ],
+      "source": "@t選手の持つ能力すべてが試されます。特訓の成果に期待してください。",
+      "english": "This is a test of everything @t can do. Let's see what the extra work has produced.",
+      "deepl_comparison": "@t Player’s abilities will be put to the test. Stay tuned to see the results of their special training.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        89
+      ],
+      "source": "まずはマウンドで自分の投球をすることが重要です。@t選手がマウンドで能力を発揮できるかテストします。",
+      "english": "Pitching well starts with trusting your own game. Let's see what @t can do on the mound.",
+      "deepl_comparison": "First and foremost, it’s important to pitch on the mound yourself. We’ll test whether Player @t can perform to his full potential on the mound.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        90
+      ],
+      "source": "大事なゲームでピシャリと抑えられるリリーフは、チームに多大な安定感を与えます。@t選手の安定感をテストします。",
+      "english": "A dependable reliever brings stability in important games. Let's test @t's reliability.",
+      "deepl_comparison": "A relief pitcher who can shut down the opposition in a crucial game brings tremendous stability to the team. Let’s test Player @t’s reliability.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        91
+      ],
+      "source": "長いペナントを戦うには、きっちりと計算できる先発の存在が不可欠です。@t選手の先発としての能力をテストします。",
+      "english": "A reliable starter is essential over a long season. Let's put @t to the test.",
+      "deepl_comparison": "To compete in a long pennant race, having a reliable starting pitcher is essential. We’ll test Player @t’s abilities as a starter.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        92
+      ],
+      "source": "四死球は投手が最も気をつけなければならない、いわば基本です。@t選手に安定感のあるピッチングを心がけさせましょう。",
+      "english": "Avoiding walks and hit batters is fundamental. Help @t pitch with more consistency.",
+      "deepl_comparison": "Walks are the most important thing a pitcher must watch out for—they’re the basics, so to speak. Let’s have Player @t focus on delivering consistent pitching.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        93
+      ],
+      "source": "三振を取れるというのはピッチャーの大きな武器の一つです。@t選手に三振を取れるピッチングの組み立てを叩きこみます。",
+      "english": "Strikeouts are a pitcher's weapon. Teach @t how to sequence pitches to finish hitters.",
+      "deepl_comparison": "The ability to strike out batters is one of a pitcher’s greatest weapons. I’ll drill into Player @t the pitching strategy needed to strike out batters.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        94
+      ],
+      "source": "自分が点を取られなければ試合には負けない。最もシンプルで最も難しい投手の理想です。@t選手の記録に注目が集まります。",
+      "english": "Keeping runs off the board is a simple goal and a hard one. Keep an eye on @t's scoreless streak.",
+      "deepl_comparison": "If you don’t give up any runs, you won’t lose the game. That’s the simplest—and most difficult—ideal for a pitcher. All eyes are on Player @t’s stats.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        95
+      ],
+      "source": "セーブが付くような大事な場面で任せられてこそ一人前のリリーフです。@t選手の飽くなき挑戦に期待しましょう。",
+      "english": "A reliever earns trust by protecting leads in save situations. See how far @t can take this streak.",
+      "deepl_comparison": "A relief pitcher is only considered a true professional when entrusted with crucial situations that can secure a save. Let’s look forward to Player @t’s relentless pursuit of excellence.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        96
+      ],
+      "source": "負けないエース。その称号を勝ち取るため@t選手の挑戦は続きます。そしてその挑戦はきっとチームに結果を残してくれるでしょう。",
+      "english": "@t is trying to earn a reputation as an ace who never loses. That pursuit can only help the team.",
+      "deepl_comparison": "The Unbeatable Ace. Player @t’s quest to earn that title continues. And that quest is sure to bring results for the team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        97
+      ],
+      "source": "勝つためにはピッチングだけでなく、ランナーへの対応、守備等、さまざまな要素が重要です。@t選手の総合的な投手力をテストします。",
+      "english": "Pitching, holding runners, and fielding all matter. Let's test @t's all-around work on the mound.",
+      "deepl_comparison": "To win, it’s not just pitching that matters—various factors, such as handling runners and defense, are also crucial. This test evaluates Player @t’s overall pitching ability.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        98,
+        106
+      ],
+      "source": "開幕に合わせて@t選手の調子を上げていけるよう調整します。",
+      "english": "Get @t in form for Opening Day.",
+      "deepl_comparison": "We’ll make adjustments so that Player @t can get into top form in time for the season opener.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        99
+      ],
+      "source": "@t選手にファーストの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice first base. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice at first base. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        100
+      ],
+      "source": "@t選手にセカンドの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice second base. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice at second base. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        101
+      ],
+      "source": "@t選手にサードの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice third base. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice at third base. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        102
+      ],
+      "source": "@t選手にショートの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice shortstop. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice at shortstop. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        103
+      ],
+      "source": "@t選手にレフトの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice left field. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice in left field. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        104
+      ],
+      "source": "@t選手にセンターの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice center field. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice center field. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        105
+      ],
+      "source": "@t選手にライトの練習をさせます。ただし、他のポジションの練習量は落ちてしまいますが・・・",
+      "english": "Have @t practice right field. There will be less time to train at other positions.",
+      "deepl_comparison": "I’ll have Player @t practice in right field. However, this will reduce the amount of practice time for other positions...",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        107
+      ],
+      "source": "@t選手に先発に重点を置いた指導をします。疲労は回復しにくくなりますが、ローテーションの調整がうまくなると思います。",
+      "english": "Train @t as a starter. Fatigue recovery will be slower, but preparing for turns in the rotation will get easier.",
+      "deepl_comparison": "@t I will focus my coaching on making Player T a starting pitcher. While it will be harder for him to recover from fatigue, I believe he’ll become better at managing the rotation.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        108
+      ],
+      "source": "@t選手をリリーフとして指導します。先発には向きませんが、連投がきくように疲労の抜き方がうまくなると思います。",
+      "english": "Train @t as a reliever. Starting will be a poor fit, but faster fatigue recovery will help with back-to-back outings.",
+      "deepl_comparison": "I’ll coach Player @t as a reliever. While he isn’t suited to be a starter, I think he’ll learn how to recover from fatigue effectively so he can pitch multiple days in a row.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        109
+      ],
+      "source": "成長著しい@t選手だが、最近スタンドプレイがめだっている。チームプレイの重要性を説き、ひと皮むけた選手に成長してもらいたい。",
+      "english": "@t is improving fast but has been showboating. Teach that player how to play for the team.",
+      "deepl_comparison": "Player @t is showing remarkable growth, but his tendency to play for the stands has been particularly noticeable lately. I want to emphasize the importance of team play and help him mature into a more well-rounded player.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        110
+      ],
+      "source": "ここ最近試合出場のない@tだが、試合勘が鈍り、すっかり自信をなくしてしまっているようだ。結果が出れば自信の回復も望めるが。",
+      "english": "@t hasn't played lately and has lost confidence. A good game could bring it back.",
+      "deepl_comparison": "@t hasn’t played in any games recently, and it seems his game sense has dulled and he’s completely lost his confidence. Hopefully, if he starts producing results, he’ll be able to regain his confidence.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        111
+      ],
+      "source": "起用方針に疑問があるらしく、チーム内に不満を漏らしている@t選手。彼の不満を解消できるとよいのだが。",
+      "english": "@t has been voicing doubts about playing time in the clubhouse. Find a way to address those concerns.",
+      "deepl_comparison": "Player @t seems to have doubts about the team’s lineup strategy and has been voicing his dissatisfaction within the team. I hope we can resolve his concerns.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        112
+      ],
+      "source": "一時離脱せざるを得なくなった@t選手。早期復帰をめざしている彼を安心させるためにも、チーム一丸で穴を埋めねば。",
+      "english": "@t is working to return soon. The whole team needs to fill that player's shoes in the meantime.",
+      "deepl_comparison": "Player @t has been forced to take a temporary leave of absence. To reassure him as he aims for an early return, the team must pull together to fill the gap.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        113
+      ],
+      "source": "最近成長著しい@t選手。さらなる飛躍を促すためにも、本人の自覚とそれに応じた役割を与えた方がよいのではないだろうか。",
+      "english": "@t has improved quickly. Give that player a bigger role to build on that progress.",
+      "deepl_comparison": "Player @t has been showing remarkable growth recently. To help him take his game to the next level, wouldn’t it be better to foster his sense of responsibility and assign him a role that matches it?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        114
+      ],
+      "source": "円熟期を迎えた@t選手だが、いまだ年齢を感じさせない活躍を続けている。@tに、若手の手本となる素晴らしいを技術を見せ付けてもらおう。",
+      "english": "@t is a seasoned player who still delivers. Let @t show the younger players how it's done.",
+      "deepl_comparison": "Although Player @t has reached his prime, he continues to perform at a level that belies his age. Let’s watch @t showcase his outstanding skills and serve as a role model for the younger players.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        115
+      ],
+      "source": "選手として大きな飛躍を遂げつつある@t選手。彼を真の中心選手に育て上げるのは私の使命だ。",
+      "english": "@t is making a big leap. It's my job to help that player become the heart of this team.",
+      "deepl_comparison": "Player @t is making great strides as a player. It is my mission to develop him into a true star player.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        116
+      ],
+      "source": "数々の強敵を打ち破り、わがチームは見事日本一の称号を手にした。だが日本の外にも強敵はいる。日本一の名に恥じない戦いをみせよう。",
+      "english": "We beat tough clubs to win the Japan Series. Now let's prove we can live up to the title against the best from abroad.",
+      "deepl_comparison": "After defeating numerous formidable opponents, our team successfully claimed the title of Japan’s best. But there are strong rivals outside Japan as well. Let’s put on a performance worthy of the title of Japan’s best.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        117
+      ],
+      "source": "@t選手ですが、今シーズンは打撃好調で首位打者も夢ではありません。タイトル奪取のためにはここらで固め打ちがほしいところです。",
+      "english": "@t is hitting well enough to win the batting title. A few multi-hit games could make the difference.",
+      "deepl_comparison": "@Player T has been hitting well this season, and the batting title is not out of reach. To clinch the title, he’ll need to put together a string of hits around this time.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        118
+      ],
+      "source": "@t選手ですが、今シーズンは勝負強い打撃でチームを引っ張っています。この調子ならば打点王のタイトルも充分圏内です。",
+      "english": "@t has carried the team with timely hitting. Keep it up and the RBI title is well within reach.",
+      "deepl_comparison": "@t has been leading the team this season with his clutch hitting. If he keeps this up, he’s well within reach of the RBI title.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        119
+      ],
+      "source": "@t選手ですが、今シーズンはまさにチームの主砲として恥じない成績を残しています。このままいけばタイトル奪取も夢ではありません。",
+      "english": "@t has been everything we need in a power hitter. The home run title is in reach at this pace.",
+      "deepl_comparison": "@Player T has truly lived up to his reputation as the team’s top slugger this season. If he keeps this up, winning a title is not just a dream.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        120
+      ],
+      "source": "@t選手ですが、打撃三部門で高成績を残し、三冠同時奪取がみえてきました。ここまできたら三冠王として歴史に名を残しましょう。",
+      "english": "@t is near the top in all three batting categories. Let's make history and win the Triple Crown.",
+      "deepl_comparison": "@t has posted strong results in all three batting categories, and a simultaneous sweep of the Triple Crown is now within reach. Now that we’ve come this far, let’s make history as the Triple Crown winner.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        121
+      ],
+      "source": "@t選手ですが、今シーズンはすばらしい投球をし、まさにチームの大黒柱。このまま活躍を続ければ、大きな勲章が得られるでしょう。",
+      "english": "@t has anchored the staff with excellent pitching. Keep it up and the ERA title is within reach.",
+      "deepl_comparison": "@Player T has pitched brilliantly this season and is truly the backbone of the team. If he continues to perform at this level, he’ll surely earn a major award.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        122
+      ],
+      "source": "@t選手ですが、ここまで力強い投球で、三振の山を築いています。力ある投手の証でもある奪三振。このタイトルも狙えるか。",
+      "english": "@t has racked up strikeouts with overpowering stuff. Can that arm take the league strikeout title?",
+      "deepl_comparison": "@t has been pitching with such power so far, racking up a mountain of strikeouts. Strikeouts are a hallmark of a powerful pitcher. Could he be in the running for this title as well?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        123
+      ],
+      "source": "@t選手ですが、今季は多くの勝ち星をもたらしチームに貢献しています。チームとしても彼のタイトル獲得をあと押ししたいところです。",
+      "english": "@t has won a lot of games for us this season. Let's do our part to help secure the wins title.",
+      "deepl_comparison": "@t has contributed greatly to the team this season by racking up many wins. As a team, we’d like to help him win a title.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        124
+      ],
+      "source": "@t選手ですが、今季は大車輪の活躍で、主要な投手タイトルを総なめにしそうな勢いです。彼には球界に名を残してもらいたい。",
+      "english": "@t has been outstanding and could sweep the major pitching titles. That would be a season to remember.",
+      "deepl_comparison": "@Player T has been on a roll this season and looks poised to sweep all the major pitching titles. I hope he goes down in baseball history.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        125
+      ],
+      "source": "着実に成長し、今やチーム屈指の飛距離を誇る@t選手ですが、次のステップを踏むために今一度確実性のある打撃を教えたいと思います。",
+      "english": "@t already hits the ball as far as anyone on the team. To take the next step, we'll work on making consistent contact.",
+      "deepl_comparison": "Player @t has grown steadily and now boasts one of the longest hits on the team, but to help him take the next step, I want to teach him how to hit with more consistency.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        126
+      ],
+      "source": "確実性も身につき、相手にとって脅威の打者となりつつある@t選手ですが、メンタル面も鍛え直し、さらなる成長を期待したい。",
+      "english": "@t has become a dangerous, consistent hitter. More work on the mental side could take that bat even further.",
+      "deepl_comparison": "Player @t is becoming a threat to opposing teams as he gains consistency, and we hope he will continue to grow by strengthening his mental game as well.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        127
+      ],
+      "source": "精神面も成長し、打者として完成されつつある@t選手。これからもスタンドに向けて虹のアーチをかけてくれるに違いありません。",
+      "english": "@t is maturing as a hitter. Expect plenty more balls to arc into the stands.",
+      "deepl_comparison": "Player @t has grown mentally and is becoming a well-rounded hitter. There’s no doubt he’ll continue to send rainbow arcs soaring into the stands.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        128
+      ],
+      "source": "脚力を活かしリードオフマンとしての地位を固めたい@t選手ですが、そのためにはとにかく塁にでる確率を上げねばなりません。",
+      "english": "@t has the speed to be our leadoff hitter. To hold that spot, that player needs to reach base more often.",
+      "deepl_comparison": "Player @t wants to solidify his position as a leadoff hitter by making the most of his speed, but to do so, he must above all increase his on-base percentage.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        129
+      ],
+      "source": "打席でのしぶとさが身についてきた@t選手。さらにチームの得点源となるために、打球を見てからのスタートの技術をみがいていきます。",
+      "english": "@t is tougher to retire now. We'll work on getting a good jump when the ball is put in play so that speed leads to runs.",
+      "deepl_comparison": "Player @t has developed a tenacious approach at the plate. To become an even greater source of runs for the team, he will continue to hone his technique for timing his start after watching the ball.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        130
+      ],
+      "source": "最も塁に出したくない選手の一人としてマークされつつある@t選手。このマークを跳ね除けてこそ真のリードオフマンではないだろうか。",
+      "english": "Opponents hate putting @t on base. A true leadoff hitter finds a way to produce even under that kind of attention.",
+      "deepl_comparison": "Player @t is increasingly being labeled as one of the players opponents least want to get on base. Isn’t a true leadoff hitter someone who can shake off that label?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        131
+      ],
+      "source": "着実に成長し、隙のない打者となりつつある@t選手ですが、さらなる高みをめざすために、今一度打撃フォームのチェックを行います。",
+      "english": "@t is becoming a complete hitter. We'll review the swing again to see what can still improve.",
+      "deepl_comparison": "Player @t is steadily improving and is on his way to becoming a well-rounded hitter, but to reach even greater heights, we’ll take another look at his batting form.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        132
+      ],
+      "source": "さらなる高みをめざし、さまざまな試行錯誤を行なっている@t選手。今は結果が出るまで、まさに我慢のときではないでしょうか。",
+      "english": "@t is experimenting to reach the next level. Give the changes time to produce results.",
+      "deepl_comparison": "Player @t is undergoing various trials and errors in pursuit of even greater heights. Isn’t this truly a time to be patient until results start to show?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        133
+      ],
+      "source": "新スタイルも固まりつつある@t選手。しかし僅かですが、打球の捉える感覚に違和感があるようです。もう少しでそれもなくなりそうですが。",
+      "english": "@t is settling into a new approach, but contact still feels a little off. That should improve with more work.",
+      "deepl_comparison": "Player @t is starting to settle into his new style. However, he still seems to feel a slight discomfort when making contact with the ball. It looks like that will go away soon, though.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        134
+      ],
+      "source": "ローテーションの一角として確実に成長を遂げる@t選手ですが、投手として１ステージ上の存在になるための投球を身につけさせます。",
+      "english": "@t has earned a regular turn in the rotation. Now we'll work on the pitching needed to reach the next level.",
+      "deepl_comparison": "Player @t is steadily developing into a key member of the rotation, but we’ll help him master the pitching skills he needs to take his game to the next level.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        135
+      ],
+      "source": "頼もしい投球でチームに不可欠な存在になりつつある@t選手。結果を残すことでエースとしての自覚と責任が身につけばよいのですが。",
+      "english": "@t is becoming indispensable. Strong results can help that pitcher embrace the responsibility of being the ace.",
+      "deepl_comparison": "Player @t is becoming an indispensable part of the team with his reliable pitching. Hopefully, by delivering results, he will develop the awareness and sense of responsibility expected of an ace pitcher.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        136
+      ],
+      "source": "先発投手として勝星の計算に大きな影響を及ぼす存在となった@t選手。彼が投げればチームは勝利。そんな風格も現れ始めました。",
+      "english": "@t is developing into the kind of starter who makes the whole team expect to win.",
+      "deepl_comparison": "Player @t has become a key factor in the team’s win total as a starting pitcher. When he takes the mound, the team wins. He’s even starting to exude that kind of presence.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        137
+      ],
+      "source": "過酷なペナントレースの中、チームの救援投手として貴重な働きをする@t選手。彼に救われる試合も増えてゆくのではないでしょうか。",
+      "english": "@t has been a valuable reliever in a demanding season. Expect that arm to bail us out more often.",
+      "deepl_comparison": "Amid the grueling pennant race, Player @t is making invaluable contributions as the team’s relief pitcher. Won’t the number of games he saves continue to increase?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        138
+      ],
+      "source": "安定したマウンドさばきでチーム内の選手からの信頼も勝ち取りつつある@t選手。投げるほど信頼は増していくことでしょう。",
+      "english": "@t is earning the clubhouse's trust with steady work on the mound. Each outing is another chance to build on it.",
+      "deepl_comparison": "Player @t is gradually earning the trust of his teammates with his steady performance on the mound. The more he pitches, the more that trust is sure to grow.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        139
+      ],
+      "source": "勝利の方程式の一角ともいえる@t選手。彼の登板は、相手チームに絶望感を与え、自チームに大きな勇気を与えるでしょう。",
+      "english": "@t is part of our late-inning plan. Seeing that pitcher come in lifts our team and puts doubt in the other dugout.",
+      "deepl_comparison": "Player @t is a key component of the formula for victory. When he takes the mound, he instills a sense of despair in the opposing team and gives his own team a huge boost of courage.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        140
+      ],
+      "source": "「すべてにおいて非の打ちどころがない」選手をめざすことは容易ではありません。@t選手はその高みに挑戦するようです。",
+      "english": "An all-around player has to excel at everything. @t is taking on that challenge.",
+      "deepl_comparison": "It is no easy task to aim to be a player who is “flawless in every respect.” Player @t seems to be taking on that challenge.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        141
+      ],
+      "source": "先の塁を盗むこと。万能選手をめざす上で、盗塁とは不可欠なものだと思います。@t選手は走ることを次のテーマとします。",
+      "english": "Stealing bases is part of being a complete player. @t will focus on taking the next base.",
+      "deepl_comparison": "Stealing the next base. I believe stealing bases is essential for becoming an all-around player. Player @t will make running his next focus.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        142
+      ],
+      "source": "自分が出塁したからには、より多くの塁を進むことが大切です。@t選手はそれを次の試合での課題とします。",
+      "english": "Once on base, try to advance as far as you can. That's the next challenge for @t.",
+      "deepl_comparison": "Once you’ve reached base, it’s important to advance as far as possible. Player @t has made this a priority for the next game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        143
+      ],
+      "source": "あらゆる形での出塁パターンが考えられるのも万能選手の魅力の1つです。@t選手はより多く出塁することを次の試合の目標とします。",
+      "english": "A complete hitter can reach base in many ways. In the next game, @t will try to get on base as often as possible.",
+      "deepl_comparison": "One of the appeals of an all-around player is that they can get on base in all sorts of ways. Player @t has set getting on base more often as his goal for the next game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        144
+      ],
+      "source": "@t選手に、1試合の間に何度も盗塁する実績があれば、相手バッテリーへの影響力も上がり、ますます隙のない選手になるでしょう。",
+      "english": "If @t can steal several bases in one game, the opposing pitcher and catcher will have to pay even more attention.",
+      "deepl_comparison": "If Player @t has a track record of stealing multiple bases in a single game, their influence on the opposing battery will increase, making them an even more formidable player.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        145
+      ],
+      "source": "安打、長打、走塁とすべてにおいてハイレベルな@t選手。他チームにとって脅威の存在となる証をみせつけましょう。",
+      "english": "@t can hit, hit for power, and run. Now show the other teams how much trouble that combination can cause.",
+      "deepl_comparison": "Player @t excels in every aspect—hitting, power, and baserunning. Prove that he’s a threat to opposing teams.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        146
+      ],
+      "source": "「もっと遠くへ」。この思いはどの打者も同じではないでしょうか。@t選手は最強のスラッガーをめざし、歩み始めました。",
+      "english": "Every hitter wants to drive the ball farther. @t is taking the first step toward becoming a top slugger.",
+      "deepl_comparison": "“Reach even further.” Isn’t this the aspiration shared by every batter? Player @t has set out on a journey to become the greatest slugger.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        147
+      ],
+      "source": "強打者には当然打点を挙げることも求められます。@t選手は走者を返すバッティングを意識して試合に臨みます。",
+      "english": "Power hitters have to drive in runs. @t will focus on bringing runners home.",
+      "deepl_comparison": "Naturally, power hitters are expected to drive in runs. Player @t approaches each game with a focus on hitting to bring runners home.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        148
+      ],
+      "source": "長打を打てるというのも強打者の魅力の1つです。@t選手は次の試合で長打への意識を高めます。",
+      "english": "Extra-base hits are a big part of a slugger's game. In the next game, @t will look for a pitch to drive.",
+      "deepl_comparison": "The ability to hit for power is one of the attractions of a power hitter. Player @t will focus more on hitting for power in the next game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        149
+      ],
+      "source": "強打者のイメージとは、何といっても本塁打です。ここぞの場面で一発が打てれば、@t選手は相手に対して脅威となるでしょう。",
+      "english": "Home runs define a slugger. If @t goes deep when it matters, pitchers will have one more reason to be careful.",
+      "deepl_comparison": "When you think of a power hitter, home runs are the first thing that comes to mind. If Player @t can hit a home run in a clutch situation, he’ll be a real threat to the opposing team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        150
+      ],
+      "source": "チャンスでの長打は、チームの勝利に大きく影響します。そういった勝負強さも@t選手が一流の強打者になるために必要だと思います。",
+      "english": "An extra-base hit with runners on can decide a game. @t needs that kind of clutch hitting to become an elite slugger.",
+      "deepl_comparison": "Hitting for power in clutch situations has a major impact on a team’s victory. I believe that kind of clutch performance is essential for @t to become a top-tier power hitter.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        151
+      ],
+      "source": "試合中に必ずあるであろう、一発長打を求められる場面で結果を残せてこそ@t選手をスラッガーと呼ぶにふさわしいのではないでしょうか。",
+      "english": "A true slugger delivers when one big hit is needed. Look for @t to seize that chance.",
+      "deepl_comparison": "Isn’t it only when Player @t delivers in those moments during a game—when a big hit is absolutely needed—that he truly deserves to be called a slugger?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        152
+      ],
+      "source": "打撃とは極論すれば「ボールをバットで正しい形で捉え力を加える」ということになります。@t選手は真の打撃を追求し始めました。",
+      "english": "Great hitting comes down to squaring up the ball and driving it. @t is working to master that skill.",
+      "deepl_comparison": "In the most basic terms, batting means “hitting the ball with the bat in the correct manner and applying force.” Player @t has begun pursuing the true art of batting.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        153
+      ],
+      "source": "ボールを捉えられても、安打にならなければ出塁できません。@t選手は安打性の打球を打つことを目標とします。",
+      "english": "Even solid contact is only useful if it gets you on base. @t will focus on hitting balls that can fall for hits.",
+      "deepl_comparison": "Even if you make contact with the ball, you won’t reach base unless it results in a hit. Player @t aims to hit the ball in a way that results in a hit.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        154
+      ],
+      "source": "安打の確率を上げていくためには、ボールの見極めも必要です。@t選手は甘いボールを待つ意識を高め次の試合に臨みます。",
+      "english": "A good eye helps you get more hits. In the next game, @t will look for a pitch to drive.",
+      "deepl_comparison": "To increase your batting average, you also need to learn how to read the ball. Player @t will go into the next game with a stronger focus on waiting for pitches in the strike zone.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        155
+      ],
+      "source": "きわどいボールへの見極めができれば、あとは甘いボールを確実に打つ技術が必要です。@t選手はその技術を磨きます。",
+      "english": "Once you can lay off borderline pitches, you have to punish mistakes. @t will work on doing that consistently.",
+      "deepl_comparison": "Once you can identify borderline pitches, you’ll need the skill to consistently hit the good ones. Player @t is working on honing that skill.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        156
+      ],
+      "source": "ボールを芯で捉えることができれば、安打の確率も上がります。@t選手はで確実にボールを捉えるバットコントロールを追求します。",
+      "english": "Squaring up the ball leads to more hits. @t is working on the bat control to do it consistently.",
+      "deepl_comparison": "If you can make solid contact with the ball, your chances of getting a hit increase. Player @t strives to develop the bat control needed to make solid contact with the ball.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        157
+      ],
+      "source": "ボールの見極め、的確なバットコントロールで安打を量産する。@t選手は相手チームにとって脅威の存在となるだろう。",
+      "english": "With a good eye and precise bat control, @t can pile up hits and give opposing pitchers trouble.",
+      "deepl_comparison": "By reading the ball and exercising precise bat control, he racks up hits. Player @t will be a threat to opposing teams.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        158
+      ],
+      "source": "足が速いというのは、チームにとって大きな武器となるでしょう。@t選手はまず足で相手チームをかく乱します。",
+      "english": "Speed is an asset. @t will use it to disrupt the opponent on the bases.",
+      "deepl_comparison": "Having speed is a major asset for any team. Player @t first uses his speed to disrupt the opposing team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        159
+      ],
+      "source": "足が速いだけでは相手の脅威とはなりません。まずはどんな形であれ出塁することが@t選手にとって重要ではないでしょうか。",
+      "english": "Speed only matters if you get on base. The first priority for @t is finding a way aboard.",
+      "deepl_comparison": "Being fast on your feet alone isn’t enough to pose a threat to the opponent. Isn’t it important for Player @t to get on base in any way possible?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        160
+      ],
+      "source": "塁に出せばいつ走ってくるかわからない。それくらい@t選手が警戒されるようになれば、チームにとって大きな武器となるでしょう。",
+      "english": "If opponents worry that @t could take off at any moment, that speed becomes a real weapon.",
+      "deepl_comparison": "Once he’s on base, you never know when he’ll start running. If Player @t becomes that much of a threat, he’ll be a major asset to the team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        161
+      ],
+      "source": "出塁率を上げることができれば、その分足を活かす機会も増えます。@t選手は理想のリードオフマンをめざします。",
+      "english": "Getting on base more often creates more chances to use speed. @t is working to become the ideal leadoff hitter.",
+      "deepl_comparison": "If you can increase your on-base percentage, you’ll have more opportunities to use your speed. Player @t aims to be the ideal leadoff hitter.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        162
+      ],
+      "source": "時には相手チームのウラをついた作戦で、走力を活かすことも必要だと思います。@t選手は次の試合で意表をつく作戦を実行します。",
+      "english": "Sometimes you have to surprise the defense to use your speed. @t will try that in the next game.",
+      "deepl_comparison": "I think it’s sometimes necessary to use strategies that catch the opposing team off guard and take advantage of a player’s speed. Player @t will execute a surprise strategy in the next game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        163
+      ],
+      "source": "多くの出塁機会が得られれば、あとはそのチャンスを活かし、@t選手の自慢の足で相手をかく乱させましょう。",
+      "english": "Once you get on base more often, make those chances count. Let @t's speed put pressure on the defense.",
+      "deepl_comparison": "If you can create plenty of opportunities to get on base, make the most of those chances and use Player @t’s speed to throw the opponent off balance.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        164
+      ],
+      "source": "コースによって広角に打ち分けないと強い打球を飛ばすことができません。あえて流し打ちを徹底させ、アウトコースのボールの対応を練習させます。",
+      "english": "Use the whole field to drive pitches in different locations. Practice hitting outside pitches the other way.",
+      "deepl_comparison": "Depending on the pitch, players cannot hit the ball hard unless they adjust their swing to hit to different parts of the field. We deliberately focus on teaching players to hit the ball to the opposite field and have them practice handling pitches on the outside corner.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        165
+      ],
+      "source": "打球を強く叩かせるために、引っ張りを意識させた早い始動を身につけさせます。内角の速球にも差し込まれない力強いスイングをめざします。",
+      "english": "Start the swing earlier and work on pulling the ball. A strong swing can turn on a fastball inside.",
+      "deepl_comparison": "To help players hit the ball with more power, we’ll teach them to initiate their swing early while focusing on pulling the ball. The goal is to develop a powerful swing that won’t be overpowered even by fastballs on the inside corner.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        166
+      ],
+      "source": "どうしても点の欲しい場面ではバントも消極的な作戦ではありません。普段の反復練習を徹底させ、どんな場面でも動じない技術を身につけさせます。",
+      "english": "When a run is vital, a bunt can be the right call. Repeat the drill until you can execute it under pressure.",
+      "deepl_comparison": "In situations where you absolutely need to score, a bunt is not a passive strategy. We emphasize thorough, repetitive practice to ensure players develop the skills to remain composed in any situation.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        167,
+        168
+      ],
+      "source": "今月の@t選手はまさに絶好調で、今月のＭＶＰを狙える位置にきています。チャンスですし獲得して勢いにしてほしいですね。",
+      "english": "@t is on a tear this month and could win Monthly MVP. Take the opportunity and keep that momentum going.",
+      "deepl_comparison": "@t is in top form this month and is in a position to win the MVP award. This is a great opportunity, so I hope he wins it and uses that momentum to his advantage.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        169
+      ],
+      "source": "@t選手ですが、相手打者をかわしにいったところを痛打される場面がめだちます。時には思い切った投球も重要だと思うのですが。",
+      "english": "@t has been getting hit hard while trying to pitch around hitters. Sometimes the best move is to challenge them.",
+      "deepl_comparison": "@t stands out for those moments when he tries to avoid the opposing batter only to get hit hard. I think it’s important to take risks with his pitching sometimes, though.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        170
+      ],
+      "source": "@t選手ですが、序盤から飛ばしすぎているためか、中盤以降の粘りがありません。スタミナ配分を考えた投球を心がけさせようと思います。",
+      "english": "@t may be going too hard early and fading from the middle innings on. Work on pacing to make that stamina last.",
+      "deepl_comparison": "@Player T seems to be pushing too hard from the start, which may be why he lacks stamina in the middle and late innings. I’m going to have him focus on pitching in a way that conserves his stamina.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        171
+      ],
+      "source": "@t選手は自分で限界を決めるクセがあるのか、疲労がたまると腕が下がりがちになるようです。あえて彼を酷使してみてはいかかでしょう。",
+      "english": "@t tends to drop the arm slot when tired. Try extending an outing to help that pitcher push past that point.",
+      "deepl_comparison": "@t Player seems to have a tendency to set his own limits; when he gets tired, his arm tends to drop. Why not try pushing him to his limits on purpose?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        172
+      ],
+      "source": "失点のほとんどは投球ミスから生まれるものです。狙った位置に最高のボールを投げる。投手としての永遠のテーマに挑ませます。",
+      "english": "Mistakes on the mound lead to runs. Work on throwing a well-executed pitch to the spot you picked.",
+      "deepl_comparison": "Most runs scored result from pitching errors. Throw the perfect pitch to the exact spot you aim for. Take on this eternal challenge for every pitcher.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        173
+      ],
+      "source": "救援登板ではほんの１球の失投が命取りです。ミスを少なくすること、すなわち制球の重要性を@t選手に充分説くことにします。",
+      "english": "One missed spot can cost a reliever the game. We'll work with @t on the command needed to limit those mistakes.",
+      "deepl_comparison": "In relief appearances, even a single bad pitch can be fatal. I’ll make sure to thoroughly explain to Player @t the importance of minimizing mistakes—that is, the importance of control.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        174,
+        175,
+        176,
+        177
+      ],
+      "source": "ペナントレースも終盤に入り、@t選手のタイトル獲得も現実味を帯びてきました。チームとしても最大限の協力をしてやりたいものです。",
+      "english": "The season is winding down, and @t has a real chance at a title. Give that player all the support we can.",
+      "deepl_comparison": "As the pennant race enters its final stages, @t’s chances of winning a title are looking more and more realistic. As a team, we want to do everything we can to support him.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        178,
+        179
+      ],
+      "source": "最近めっきり出番の減った@t選手ですが、このまま終わる選手じゃないと思います。出場させれば結果を出してくれると思うのですが。",
+      "english": "@t hasn't played much lately but still has something to offer. Give that player another chance to produce.",
+      "deepl_comparison": "Player @t hasn’t been seeing much playing time lately, but I don’t think this is how his career will end. I believe he’ll deliver results if given the chance to play.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        180
+      ],
+      "source": "交流戦も前半を終え、かなり良い成績で折り返すことができました。これは交流戦優勝も充分手が届く位置ですのでここは是非狙ってみましょう。",
+      "english": "We're halfway through interleague play and in a strong position. The top spot is within reach, so go after it.",
+      "deepl_comparison": "We’ve finished the first half of the Interleague Play and managed to turn the season around with some pretty good results. Since we’re now well within reach of winning the Interleague Play title, let’s definitely aim for it.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        181
+      ],
+      "source": "明日からチームは長期の連戦に突入します。投手のローテーションや野手の疲労などをうまくケアし、この連戦を何とか乗り切りましょう！",
+      "english": "A long stretch of games starts tomorrow. Manage the rotation and keep the fielders fresh to get through it.",
+      "deepl_comparison": "Starting tomorrow, the team will embark on a long stretch of consecutive games. Let’s manage the pitching rotation and fielders’ fatigue carefully so we can make it through this stretch!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        182,
+        183
+      ],
+      "source": "監督の教えを受け、大きく成長しようとしている@t選手。期待に応えるためにも、監督にその成長した姿を見せつけよう！",
+      "english": "Working with the manager has helped @t grow. Put that progress on display and show what the coaching has done.",
+      "deepl_comparison": "Player @t is making great strides under the manager’s guidance. To live up to expectations, show the manager just how much you’ve improved!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        186
+      ],
+      "source": "豪腕で知られる@u選手ですが、最近@t選手にアドバイスしているみたいです。優れた技術を吸収してくれればと思います。",
+      "english": "@u is known for a powerful arm and has been giving @t advice. Let's see what that pitcher learns from it.",
+      "deepl_comparison": "Player @u is known for his powerful arm, but it seems he’s been giving advice to Player @t lately. I hope Player @t will be able to absorb these excellent techniques.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "goal_detail",
+      "events": [
+        187
+      ],
+      "source": "@u選手の衰え知らずのスタミナを学ぼうと、@t選手が調整法など熱心に話を聞いているようです。成果が楽しみです。",
+      "english": "@u has remarkable stamina, and @t has been asking about that routine. Let's see what comes of it.",
+      "deepl_comparison": "It seems that @t is listening intently to @u’s advice on training methods, hoping to learn from his seemingly inexhaustible stamina. I’m looking forward to seeing the results.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    }
+  ],
+  "review_decisions": [
+    "Playoff Showdown and Japan Series Glory are supported by the adjacent event descriptions, rather than literal ambiguous title nouns.",
+    "Out of the Cellar is supported by the explicit last-place context in event 43.",
+    "Finding Your Swing is supported by the early batting practice context in event 49.",
+    "Keep all six career milestone descriptions neutral about whether the selected athlete is the user-controlled player.",
+    "Preserve @t/@u player roles, @e team references, @x counts, and explicit @n paragraph controls.",
+    "Keep total bases distinct from hits and extra-base hits; preserve award-specific context from adjacent source titles and goals.",
+    "Keep Opening Day preparation, position practice trade-offs, starter-conditioning and fatigue-recovery effects distinct.",
+    "Preserve 3 percent food/drink discounts per consecutive win and fifth-inning bullpen handoff timing.",
+    "No change is made to event 5 goal or success-story MVP wording, which still needs native award-condition verification."
+  ],
+  "all_changed_fields_fit_original_slots": true,
+  "source_controls_and_all_unedited_member_bytes_unchanged": true,
+  "layout_estimate_scope": "Arial 16 px advances before runtime substitutions. Slot capacity is verified, but actual event widget wrapping and glyph placement remain unverified.",
+  "executable_rebuild_required": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "original_game_data_unchanged": true,
+  "native_macro_expansion_executed": false,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "no_new_service_requests": true,
+  "pending": [
+    "Live event-title/description placement and native substitutions.",
+    "All-Star event 5 award predicate and related goal/success-story wording.",
+    "Accuracy review of remaining event narrative/notices and other mode/discovery paths."
+  ],
+  "selected_member_readback_verified": true,
+  "archive_index_unchanged": true,
+  "archive_members_verified": 2223,
+  "untouched_archive_members_verified": 2112,
+  "all_940_pennant_fields_verified": true
+}
