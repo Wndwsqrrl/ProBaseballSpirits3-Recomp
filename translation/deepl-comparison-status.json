@@ -354,12 +354,24 @@
       "native_text_associations_verified": 2,
       "native_ability_logic_executed": false,
       "interactive_validation": false
+    },
+    {
+      "area": "Pennant event rewards and objectives",
+      "reward_fields_reviewed": 187,
+      "goal_fields_reviewed": 187,
+      "distinct_source_english_pairs": 191,
+      "distinct_sources_with_service_response": 190,
+      "non_language_placeholders": 1,
+      "changed_fields": 8,
+      "unresolved_wording_fields": 1,
+      "report": "pennant-objective-reward-accuracy-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 928,
+  "distinct_deepl_input_sources_context_reviewed": 1117,
   "reviewed_training_fields_not_requiring_deepl": 1,
-  "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "5535ddb5649b8ed623d52402c9e5324eaaeaa2cacc322ec74d7a1799cf7c3e15",
+  "context_reviewed_sources_with_wording_follow_up": 1,
+  "context_reviewed_input_ids_sha256": "65de8f0b1c029aa47e4c93aa7b4ebd94ef330e8f674ad59ca88674e2bc25c138",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
   "initial_service_pass_characters_used": 160731,
@@ -373,5 +385,8 @@
   "raw_cached_response_records": 9559,
   "excluded_false_fragment_inputs": 3,
   "excluded_fragment_report": "settings-fragment-accuracy-validation.json",
-  "all_active_inputs_have_cached_responses": true
+  "all_active_inputs_have_cached_responses": true,
+  "wording_follow_up_reports": [
+    "pennant-objective-reward-accuracy-validation.json"
+  ]
 }

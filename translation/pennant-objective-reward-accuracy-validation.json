@@ -1,0 +1,2873 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "58810e65149d3784b7becefa80ebc03b044f2200",
+  "reward_fields_source_reviewed": 187,
+  "objective_fields_source_reviewed": 187,
+  "distinct_source_english_pairs_reviewed": 191,
+  "distinct_sources_with_cached_deepl_response": 190,
+  "placeholder_sources_not_requiring_service_review": 1,
+  "changed_fields": 8,
+  "changes": [
+    {
+      "field": "reward",
+      "event": 9,
+      "relative_offset": 328,
+      "width": 37,
+      "source": "野手コーチの行動力強化",
+      "previous_english": "Fielder Coach Actions Up",
+      "english": "Fielding Coach Capacity Up",
+      "english_bytes": 26,
+      "previous_estimated_width_px": 183.0,
+      "estimated_width_px": 201.0
+    },
+    {
+      "field": "reward",
+      "event": 11,
+      "relative_offset": 402,
+      "width": 37,
+      "source": "「金銭トレード」を獲得します",
+      "previous_english": "Unlock Cash Trade",
+      "english": "Unlock Add Cash to Trade",
+      "english_bytes": 24,
+      "previous_estimated_width_px": 138.0,
+      "estimated_width_px": 188.0
+    },
+    {
+      "field": "reward",
+      "event": 16,
+      "relative_offset": 587,
+      "width": 37,
+      "source": "投手コーチの行動力強化",
+      "previous_english": "Pitching Coach Actions Up",
+      "english": "Pitching Coach Capacity Up",
+      "english_bytes": 26,
+      "previous_estimated_width_px": 191.0,
+      "estimated_width_px": 201.0
+    },
+    {
+      "field": "reward",
+      "event": 112,
+      "relative_offset": 4139,
+      "width": 37,
+      "source": "「選手リハビリ強化」の獲得",
+      "previous_english": "Unlock Intensive Rehab",
+      "english": "Unlock Specialist Treatment",
+      "english_bytes": 27,
+      "previous_estimated_width_px": 170.0,
+      "estimated_width_px": 200.0
+    },
+    {
+      "field": "goal",
+      "event": 122,
+      "relative_offset": 92661,
+      "width": 45,
+      "source": "期間試合中１登板以上で・８奪三振以上",
+      "previous_english": "Make at least 1 appearance with 8+ K",
+      "english": "1+ appearances and 8+ K in this stretch",
+      "english_bytes": 39,
+      "previous_estimated_width_px": 266.0,
+      "estimated_width_px": 280.0
+    },
+    {
+      "field": "goal",
+      "event": 138,
+      "relative_offset": 93381,
+      "width": 45,
+      "source": "期間中試合Ｘ０．５回以上を投げ、１失点以内",
+      "previous_english": "Average 0.5+ IP per game, allow at most 1 R",
+      "english": "0.5+ IP/game; allow at most 1 run total",
+      "english_bytes": 39,
+      "previous_estimated_width_px": 315.0,
+      "estimated_width_px": 269.0
+    },
+    {
+      "field": "goal",
+      "event": 164,
+      "relative_offset": 94551,
+      "width": 45,
+      "source": "一定回数流し方向へ打つ",
+      "previous_english": "Meet the opposite-field hits target",
+      "english": "Meet the opposite-field contact target",
+      "english_bytes": 38,
+      "previous_estimated_width_px": 234.0,
+      "estimated_width_px": 260.0
+    },
+    {
+      "field": "goal",
+      "event": 165,
+      "relative_offset": 94596,
+      "width": 45,
+      "source": "一定回数引っ張り方向へ打つ",
+      "previous_english": "Meet the pulled-ball target",
+      "english": "Meet the pull-side contact target",
+      "english_bytes": 33,
+      "previous_estimated_width_px": 184.0,
+      "estimated_width_px": 225.0
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "field": "reward",
+      "events": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        39,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        116,
+        180
+      ],
+      "source": "監督支持率の上昇",
+      "english": "Manager Approval Up",
+      "deepl_comparison": "Increase in Manager Approval Rating",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        4,
+        6
+      ],
+      "source": "選手の調子回復",
+      "english": "Player Form Restored",
+      "deepl_comparison": "Restoring Player Form",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        7,
+        38
+      ],
+      "source": "相手チームの調子下落",
+      "english": "Opponent Form Down",
+      "deepl_comparison": "Opposing Team's Form Declines",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        8
+      ],
+      "source": "「マスコミ間接口撃」の獲得",
+      "english": "Unlock Comment via Media",
+      "deepl_comparison": "Acquiring the “Media Interface Attack” ability",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        9
+      ],
+      "source": "野手コーチの行動力強化",
+      "english": "Fielding Coach Capacity Up",
+      "deepl_comparison": "Enhancing the Fielding Coach’s Initiative",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        11
+      ],
+      "source": "「金銭トレード」を獲得します",
+      "english": "Unlock Add Cash to Trade",
+      "deepl_comparison": "You will acquire a “cash trade.”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        12
+      ],
+      "source": "「外国人助っ人補強」の獲得",
+      "english": "Unlock Sign Foreign Player",
+      "deepl_comparison": "Acquiring \"Foreign Reinforcements\"",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        13
+      ],
+      "source": "「ムードメーカー指名」の獲得",
+      "english": "Unlock Pick Tone Setter",
+      "deepl_comparison": "Earning the “Mood Maker” Designation",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        14
+      ],
+      "source": "「完投宣言」の獲得",
+      "english": "Unlock Complete-game Promise",
+      "deepl_comparison": "Unlocking the “Complete Game Declaration”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        15
+      ],
+      "source": "「選手強制休暇」の獲得",
+      "english": "Unlock Enforced Rest",
+      "deepl_comparison": "Earning a “Mandatory Player Leave”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        16
+      ],
+      "source": "投手コーチの行動力強化",
+      "english": "Pitching Coach Capacity Up",
+      "deepl_comparison": "Enhancing the Pitching Coach's Initiative",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        17
+      ],
+      "source": "監督カリスマ値の獲得",
+      "english": "Gain Manager Charisma",
+      "deepl_comparison": "Acquiring the Manager's Charisma Value",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        18
+      ],
+      "source": "「チーム内先発通知」の獲得",
+      "english": "Unlock Announce Next Start",
+      "deepl_comparison": "Acquiring “Team Starting Lineup Notification”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        19
+      ],
+      "source": "「投球回制限宣言」の獲得",
+      "english": "Unlock Announce Short Start",
+      "deepl_comparison": "Acquiring the “Inning Limit Declaration”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        20
+      ],
+      "source": "「選手個別激励」の獲得",
+      "english": "Unlock Encourage Player",
+      "deepl_comparison": "Earning “Individual Player Encouragement”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        21
+      ],
+      "source": "「マスコミアピール」を獲得しまします",
+      "english": "Unlock Media Appeal",
+      "deepl_comparison": "You will earn “Media Appeal.”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        24
+      ],
+      "source": "「チーム士気向上」を獲得しまします",
+      "english": "Unlock Team Pep Talk",
+      "deepl_comparison": "You will acquire “Boost Team Morale.”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        31,
+        32
+      ],
+      "source": "調子下落の回避",
+      "english": "Prevent Form Drop",
+      "deepl_comparison": "Avoiding a Drop in Form",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        33
+      ],
+      "source": "監督支持率下落の回避",
+      "english": "Prevent Approval Drop",
+      "deepl_comparison": "Avoiding a Drop in the Manager's Approval Rating",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        34,
+        35,
+        36,
+        37,
+        40,
+        41,
+        49
+      ],
+      "source": "調子の回復",
+      "english": "Restore Form",
+      "deepl_comparison": "Recovering Form",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        48
+      ],
+      "source": "疲労の回復",
+      "english": "Reduce Fatigue",
+      "deepl_comparison": "Recovery from Fatigue",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        50,
+        184
+      ],
+      "source": "長打力の強化",
+      "english": "Power Boost",
+      "deepl_comparison": "Enhancing Power Hitting",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        51,
+        185
+      ],
+      "source": "巧打力の強化",
+      "english": "Contact Boost",
+      "deepl_comparison": "Improving Batting Skills",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        52,
+        186
+      ],
+      "source": "球速の強化",
+      "english": "Velocity Boost",
+      "deepl_comparison": "Improving Pitch Speed",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        53,
+        187
+      ],
+      "source": "投球体力の強化",
+      "english": "Pitcher Stamina Boost",
+      "deepl_comparison": "Improving Pitching Stamina",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        54,
+        55
+      ],
+      "source": "怪我の回復",
+      "english": "Recover from Injury",
+      "deepl_comparison": "Recovery from Injuries",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        178,
+        179,
+        182,
+        183
+      ],
+      "source": "覚醒ダウンの回避",
+      "english": "Prevent Awakening Loss",
+      "deepl_comparison": "Avoiding a Drop in Awakening Level",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        62,
+        63
+      ],
+      "source": "相手選手覚醒の回避",
+      "english": "Block Opponent Awakening",
+      "deepl_comparison": "Avoiding Opponent Player Awakening",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        127,
+        130,
+        133,
+        136,
+        139,
+        174,
+        175,
+        176,
+        177
+      ],
+      "source": "選手の覚醒",
+      "english": "Player Awakening",
+      "deepl_comparison": "Player Awakening",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        78,
+        89
+      ],
+      "source": "1～2MCPの獲得",
+      "english": "Gain 1-2 MCP",
+      "deepl_comparison": "Earning 1–2 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        79
+      ],
+      "source": "1～3MCPの獲得",
+      "english": "Gain 1-3 MCP",
+      "deepl_comparison": "Earning 1–3 MCPs",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        80
+      ],
+      "source": "1～8MCPの獲得",
+      "english": "Gain 1-8 MCP",
+      "deepl_comparison": "Earning 1–8 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        81,
+        82,
+        83,
+        84
+      ],
+      "source": "1～15MCPの獲得",
+      "english": "Gain 1-15 MCP",
+      "deepl_comparison": "Earning 1–15 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        85
+      ],
+      "source": "3～25MCPの獲得",
+      "english": "Gain 3-25 MCP",
+      "deepl_comparison": "Earning 3–25 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        86,
+        87,
+        91,
+        93
+      ],
+      "source": "1～30MCPの獲得",
+      "english": "Gain 1-30 MCP",
+      "deepl_comparison": "Earning 1–30 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        88,
+        97
+      ],
+      "source": "1～20MCPの獲得",
+      "english": "Gain 1-20 MCP",
+      "deepl_comparison": "Earning 1–20 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        90,
+        164,
+        165,
+        166,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "source": "1～10MCPの獲得",
+      "english": "Gain 1-10 MCP",
+      "deepl_comparison": "Earning 1–10 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        92
+      ],
+      "source": "1～5MCPの獲得",
+      "english": "Gain 1-5 MCP",
+      "deepl_comparison": "Earning 1–5 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        94,
+        95,
+        96
+      ],
+      "source": "1～60MCPの獲得",
+      "english": "Gain 1-60 MCP",
+      "deepl_comparison": "Earning 1–60 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        98,
+        106
+      ],
+      "source": "開幕での調子上昇",
+      "english": "Opening Day Form Boost",
+      "deepl_comparison": "Improved Form at the Start of the Season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        99
+      ],
+      "source": "ファースト守備力の強化",
+      "english": "Improve 1B Fielding",
+      "deepl_comparison": "Improving First Base Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        100
+      ],
+      "source": "セカンド守備力の強化",
+      "english": "Improve 2B Fielding",
+      "deepl_comparison": "Improving Second Base Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        101
+      ],
+      "source": "サード守備力の強化",
+      "english": "Improve 3B Fielding",
+      "deepl_comparison": "Strengthening Third Base Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        102
+      ],
+      "source": "ショート守備力の強化",
+      "english": "Improve SS Fielding",
+      "deepl_comparison": "Improving Shortstop Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        103
+      ],
+      "source": "レフト守備力の強化",
+      "english": "Improve LF Fielding",
+      "deepl_comparison": "Strengthening Left Field Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        104
+      ],
+      "source": "センター守備力の強化",
+      "english": "Improve CF Fielding",
+      "deepl_comparison": "Strengthening Center Field Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        105
+      ],
+      "source": "ライト守備力の強化",
+      "english": "Improve RF Fielding",
+      "deepl_comparison": "Improving Right Field Defense",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        107
+      ],
+      "source": "先発調整力の強化",
+      "english": "Improve Starter Conditioning",
+      "deepl_comparison": "Strengthening Starting Pitcher Adjustment Skills",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        108
+      ],
+      "source": "疲労回復力の強化",
+      "english": "Faster Fatigue Recovery",
+      "deepl_comparison": "Enhancing Fatigue Recovery",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        109
+      ],
+      "source": "「チームプレイ方針徹底」の獲得",
+      "english": "Unlock Emphasize Teamwork",
+      "deepl_comparison": "Unlocking “Thorough Implementation of Team Play Strategy”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        110
+      ],
+      "source": "「選手賞賛」の獲得",
+      "english": "Unlock Praise Player",
+      "deepl_comparison": "Earning “Player Praise”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        111
+      ],
+      "source": "「選手個別対談」の獲得",
+      "english": "Unlock Private Meeting",
+      "deepl_comparison": "Unlocking “Individual Player Interviews”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        112
+      ],
+      "source": "「選手リハビリ強化」の獲得",
+      "english": "Unlock Specialist Treatment",
+      "deepl_comparison": "Unlocking “Enhanced Player Rehabilitation”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        113
+      ],
+      "source": "「強化選手指定」の獲得",
+      "english": "Unlock Focus Training",
+      "deepl_comparison": "Acquiring a “Designated Training Player”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        114
+      ],
+      "source": "「ベテラン特別指導」の獲得",
+      "english": "Unlock Veteran Mentoring",
+      "deepl_comparison": "Acquiring “Veteran Special Coaching”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        115
+      ],
+      "source": "「監督直接指導」の獲得",
+      "english": "Unlock Manager Coaching",
+      "deepl_comparison": "Acquiring “Direct Coaching from the Manager”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        117,
+        118,
+        119,
+        121,
+        122,
+        123
+      ],
+      "source": "10MCP獲得＋ミッション発生",
+      "english": "10 MCP + New Mission",
+      "deepl_comparison": "Earn 10 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        120,
+        124
+      ],
+      "source": "70MCP獲得",
+      "english": "Gain 70 MCP",
+      "deepl_comparison": "Earned 70 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        125,
+        126,
+        128,
+        129,
+        131,
+        132,
+        134,
+        135,
+        137,
+        138
+      ],
+      "source": "5MCP獲得＋ミッション発生",
+      "english": "5 MCP + New Mission",
+      "deepl_comparison": "Earn 5 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        140,
+        146,
+        152,
+        158
+      ],
+      "source": "1MCP獲得＋ミッション発生",
+      "english": "1 MCP + New Mission",
+      "deepl_comparison": "Earn 1 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        141,
+        147,
+        153,
+        159
+      ],
+      "source": "2MCP獲得＋ミッション発生",
+      "english": "2 MCP + New Mission",
+      "deepl_comparison": "Earn 2 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        142,
+        148,
+        154,
+        160
+      ],
+      "source": "4MCP獲得＋ミッション発生",
+      "english": "4 MCP + New Mission",
+      "deepl_comparison": "Earn 4 MCP + Trigger a Mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        143,
+        149,
+        155,
+        161
+      ],
+      "source": "8MCP獲得＋ミッション発生",
+      "english": "8 MCP + New Mission",
+      "deepl_comparison": "Earn 8 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        144,
+        150,
+        156,
+        162
+      ],
+      "source": "16MCP獲得＋ミッション発生",
+      "english": "16 MCP + New Mission",
+      "deepl_comparison": "Earn 16 MCP + Trigger a mission",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        145,
+        151,
+        157,
+        163
+      ],
+      "source": "20MCP獲得",
+      "english": "Gain 20 MCP",
+      "deepl_comparison": "Earned 20 MCP",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        167,
+        168
+      ],
+      "source": "15MCP獲得＋疲労の回復",
+      "english": "15 MCP + Fatigue Recovery",
+      "deepl_comparison": "Gain 15 MCP + Recover from Fatigue",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "reward",
+      "events": [
+        181
+      ],
+      "source": "複数選手の疲労回復",
+      "english": "Reduce Fatigue for Several Players",
+      "deepl_comparison": "Recovering Multiple Players from Fatigue",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        1
+      ],
+      "source": "リーグ優勝",
+      "english": "Win the pennant",
+      "deepl_comparison": "League Championship",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        2
+      ],
+      "source": "プレーオフ勝利",
+      "english": "Win the playoffs",
+      "deepl_comparison": "Playoff Victory",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        3
+      ],
+      "source": "日本一",
+      "english": "Win the Japan Series",
+      "deepl_comparison": "Japan's Best",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        4
+      ],
+      "source": "勝ち越し",
+      "english": "Finish with a winning record",
+      "deepl_comparison": "Take the lead",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        5
+      ],
+      "source": "表彰台に立つ",
+      "english": "Win All-Star MVP",
+      "deepl_comparison": "Standing on the Podium",
+      "source_meaning_reviewed": true,
+      "wording_accepted": false,
+      "decision": "All-Star context is confirmed, but MVP is more specific than the source podium wording; verify the actual award condition before approving this narrower wording."
+    },
+    {
+      "field": "goal",
+      "events": [
+        6,
+        33,
+        42,
+        46
+      ],
+      "source": "勝利",
+      "english": "Win",
+      "deepl_comparison": "Victory",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        7,
+        11,
+        17,
+        23,
+        24,
+        32,
+        36,
+        38,
+        41
+      ],
+      "source": "期間中の勝率５割",
+      "english": "Play .500 ball during this stretch",
+      "deepl_comparison": "A .500 winning percentage during the season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        8,
+        12,
+        20,
+        110,
+        113,
+        114,
+        115
+      ],
+      "source": "@t選手の活躍",
+      "english": "@t plays well",
+      "deepl_comparison": "@t Player's Performance",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        9
+      ],
+      "source": "一定以上のチーム総得点",
+      "english": "Meet the team runs target",
+      "deepl_comparison": "Total team runs scored above a certain threshold",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        10,
+        21
+      ],
+      "source": "期間中の勝率１０割",
+      "english": "Win every game in this stretch",
+      "deepl_comparison": "A .100 winning percentage during the season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        13
+      ],
+      "source": "@t選手の活躍・勝利",
+      "english": "@t plays well and the team wins",
+      "deepl_comparison": "@t Player's Performance and Wins",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        14
+      ],
+      "source": "先発完投で勝利",
+      "english": "Win with a complete game",
+      "deepl_comparison": "Victory with a complete-game start",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        15
+      ],
+      "source": "@t選手を使わずに勝利",
+      "english": "Win without using @t",
+      "deepl_comparison": "Winning without using Player @t",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        16
+      ],
+      "source": "一定以下のチーム総失点",
+      "english": "Keep runs allowed within the limit",
+      "deepl_comparison": "Total team runs allowed below a certain threshold",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        18
+      ],
+      "source": "予告先発で勝利する",
+      "english": "Win with the announced starter",
+      "deepl_comparison": "Win with the announced starting pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        19
+      ],
+      "source": "継投で勝利する",
+      "english": "Win using multiple pitchers",
+      "deepl_comparison": "Winning with a Relief Pitching Strategy",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        22
+      ],
+      "source": "一定以上のチーム本塁打",
+      "english": "Meet the team home run target",
+      "deepl_comparison": "Team home runs above a certain threshold",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "source": "記録達成",
+      "english": "Reach the milestone",
+      "deepl_comparison": "Achievements",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        31,
+        39,
+        48
+      ],
+      "source": "選手の活躍",
+      "english": "Play well",
+      "deepl_comparison": "Player Performance",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        34,
+        49,
+        54,
+        83
+      ],
+      "source": "ヒットを打つ",
+      "english": "Get a hit",
+      "deepl_comparison": "Hit a base hit",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        35,
+        55,
+        72
+      ],
+      "source": "勝星・セーブ",
+      "english": "Record wins or saves",
+      "deepl_comparison": "Wins and Saves",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        37
+      ],
+      "source": "５割復帰",
+      "english": "Get back to .500",
+      "deepl_comparison": "Back to a .500 Winning Percentage",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        40
+      ],
+      "source": "相手選手より活躍",
+      "english": "Outplay the opposing player",
+      "deepl_comparison": "Outperform Opposing Players",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        43
+      ],
+      "source": "最下位脱出",
+      "english": "Climb out of last place",
+      "deepl_comparison": "Escaping Last Place",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        44
+      ],
+      "source": "初ヒット",
+      "english": "Record your first hit",
+      "deepl_comparison": "First Hit",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        45
+      ],
+      "source": "初勝利",
+      "english": "Earn your first win",
+      "deepl_comparison": "First Win",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        47
+      ],
+      "source": "先発投手の勝利",
+      "english": "Earn a win as the starter",
+      "deepl_comparison": "Starting Pitcher's Win",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        50,
+        184
+      ],
+      "source": "塁打数",
+      "english": "Total Bases",
+      "deepl_comparison": "Total Bases",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        51,
+        185
+      ],
+      "source": "打率",
+      "english": "Batting Average",
+      "deepl_comparison": "Batting Average",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        52,
+        186
+      ],
+      "source": "勝星・奪三振",
+      "english": "Wins and Strikeouts",
+      "deepl_comparison": "Wins and Strikeouts",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        53,
+        187
+      ],
+      "source": "勝星・防御率",
+      "english": "Wins and ERA",
+      "deepl_comparison": "Wins and ERA",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        56,
+        57,
+        58,
+        78
+      ],
+      "source": "試合に出る",
+      "english": "Appear in a game",
+      "deepl_comparison": "Play a Game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        59,
+        60,
+        61
+      ],
+      "source": "マウンドに上がる",
+      "english": "Take the mound",
+      "deepl_comparison": "Taking the Mound",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        62
+      ],
+      "source": "指定選手を抑える",
+      "english": "Shut down the target batter",
+      "deepl_comparison": "Shutting Down Designated Players",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        63
+      ],
+      "source": "指定選手から打つ",
+      "english": "Get a hit off the target pitcher",
+      "deepl_comparison": "Batting from a Selected Player",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        64
+      ],
+      "source": "打席に立つ",
+      "english": "Make a plate appearance",
+      "deepl_comparison": "Stepping up to bat",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        65,
+        67,
+        133
+      ],
+      "source": "打球を芯で打つ",
+      "english": "Barrel up the ball",
+      "deepl_comparison": "Hitting the ball squarely",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        66
+      ],
+      "source": "安打",
+      "english": "Get a Hit",
+      "deepl_comparison": "Hits",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        68,
+        69,
+        70
+      ],
+      "source": "一定以上の打撃成績",
+      "english": "Meet the batting target",
+      "deepl_comparison": "Batting performance above a certain level",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        71
+      ],
+      "source": "登板",
+      "english": "Pitch in a game",
+      "deepl_comparison": "Appearance",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        134
+      ],
+      "source": "一定以上の投球成績",
+      "english": "Meet the pitching target",
+      "deepl_comparison": "Pitching performance above a certain level",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        79
+      ],
+      "source": "エラーをしない",
+      "english": "Make no errors",
+      "deepl_comparison": "Make no errors",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        80
+      ],
+      "source": "出塁する",
+      "english": "Reach base",
+      "deepl_comparison": "Get on base",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        81
+      ],
+      "source": "盗塁を決める",
+      "english": "Steal a base",
+      "deepl_comparison": "Succeed in a stolen base",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        82
+      ],
+      "source": "ホームに帰る",
+      "english": "Score a run",
+      "deepl_comparison": "Return to Home",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        84
+      ],
+      "source": "打点をあげる",
+      "english": "Drive in a run",
+      "deepl_comparison": "Earn RBIs",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        85
+      ],
+      "source": "ホームランを打つ",
+      "english": "Hit a home run",
+      "deepl_comparison": "Hit a home run",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        86
+      ],
+      "source": "塁打数を稼ぐ",
+      "english": "Rack up total bases",
+      "deepl_comparison": "Earning hits",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        87
+      ],
+      "source": "連続試合安打を続ける",
+      "english": "Keep the hit streak going",
+      "deepl_comparison": "Extending a hitting streak",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        88,
+        97
+      ],
+      "source": "試合後選手評価",
+      "english": "Postgame Player Rating",
+      "deepl_comparison": "Post-Game Player Evaluations",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        89
+      ],
+      "source": "登板する",
+      "english": "Pitch in a game",
+      "deepl_comparison": "Take the mound",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        90
+      ],
+      "source": "リリーフで結果を出す",
+      "english": "Pitch well in relief",
+      "deepl_comparison": "Delivering Results as a Reliever",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        91
+      ],
+      "source": "先発で結果を出す",
+      "english": "Pitch well as the starter",
+      "deepl_comparison": "Delivering Results as a Starting Pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        92
+      ],
+      "source": "四死球を出さない",
+      "english": "Allow no walks or hit batters",
+      "deepl_comparison": "Do not issue any walks",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        93
+      ],
+      "source": "奪三振をあげる",
+      "english": "Record strikeouts",
+      "deepl_comparison": "Record a strikeout",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        94
+      ],
+      "source": "連続無失点イニングを続ける",
+      "english": "Keep the scoreless streak going",
+      "deepl_comparison": "Maintaining a streak of scoreless innings",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        95
+      ],
+      "source": "連続でセーブをあげる",
+      "english": "Record saves in consecutive games",
+      "deepl_comparison": "Record consecutive saves",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        96
+      ],
+      "source": "連続で勝ち星をあげる",
+      "english": "Earn wins in consecutive games",
+      "deepl_comparison": "Racking up consecutive wins",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "source": "－－－",
+      "english": "---",
+      "deepl_comparison": null,
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Keep the neutral dash placeholder."
+    },
+    {
+      "field": "goal",
+      "events": [
+        109
+      ],
+      "source": "@t選手が犠打を打つ",
+      "english": "@t lays down a sacrifice bunt",
+      "deepl_comparison": "@t Player executes a sacrifice bunt",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        111
+      ],
+      "source": "@t選手の活躍及び期間中の勝率５割",
+      "english": "@t plays well and the team plays .500",
+      "deepl_comparison": "@t's strong performance and a .500 winning percentage during that period",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        112
+      ],
+      "source": "@t選手の代役選手の活躍",
+      "english": "Play well in place of @t",
+      "deepl_comparison": "@t Player's Substitute Performs Well",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        116
+      ],
+      "source": "アジアＮｏ１",
+      "english": "Become Asia Series champion",
+      "deepl_comparison": "No. 1 in Asia",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        117
+      ],
+      "source": "期間中試合Ｘ３打席以上打ち、打率３割３分以上",
+      "english": "3+ PA per game and a .330+ AVG",
+      "deepl_comparison": "During the season, had at least 3 at-bats in a game and a batting average of .330 or higher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        118
+      ],
+      "source": "期間中試合Ｘ２打点以上の成績を残す",
+      "english": "Average at least 2 RBI per game",
+      "deepl_comparison": "Record at least 2 RBIs in a game during the period",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        119
+      ],
+      "source": "期間中試合Ｘ０．７本以上の成績を残す",
+      "english": "Average at least 0.7 HR per game",
+      "deepl_comparison": "Achieve a record of X 0.7 games or more during the season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        120
+      ],
+      "source": "三冠王獲得",
+      "english": "Win the batting Triple Crown",
+      "deepl_comparison": "Winning the Triple Crown",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        121
+      ],
+      "source": "期間中一定以上投げ、防御率２点台以下。",
+      "english": "Meet the IP target with an ERA under 3.00",
+      "deepl_comparison": "Pitched a certain number of innings or more during the season and maintained an ERA in the 2.00s or lower.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        122
+      ],
+      "source": "期間試合中１登板以上で・８奪三振以上",
+      "english": "1+ appearances and 8+ K in this stretch",
+      "deepl_comparison": "During the season, made at least one appearance and recorded at least 8 strikeouts.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        123,
+        136
+      ],
+      "source": "期間中２勝をあげる",
+      "english": "Earn 2 wins during this stretch",
+      "deepl_comparison": "Win two games during the season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        124
+      ],
+      "source": "投手三冠獲得",
+      "english": "Win the pitching Triple Crown",
+      "deepl_comparison": "Winning the Pitcher's Triple Crown",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        125
+      ],
+      "source": "期間中試合Ｘ３打席以上で打率.２８０以上",
+      "english": "3+ PA per game and a .280+ AVG",
+      "deepl_comparison": "During the season, a batting average of .280 or higher with at least 3 at-bats per game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        126
+      ],
+      "source": "期間中試合Ｘ０．７打点以上",
+      "english": "Average at least 0.7 RBI per game",
+      "deepl_comparison": "During the period, games with 0.7 or more RBIs",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        127
+      ],
+      "source": "期間中試合Ｘ０．３本塁打以上",
+      "english": "Average at least 0.3 HR per game",
+      "deepl_comparison": "0.3 or more home runs per game during the season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        128
+      ],
+      "source": "期間中試合Ｘ３打席以上で出塁率３割２分以上",
+      "english": "3+ PA per game and a .320+ OBP",
+      "deepl_comparison": "During the season, had at least 3 at-bats in a game and an on-base percentage of .320 or higher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        129
+      ],
+      "source": "期間中試合Ｘ０．６得点以上",
+      "english": "Average at least 0.6 runs per game",
+      "deepl_comparison": "0.6 or more runs scored per game during the period",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        130
+      ],
+      "source": "試合数Ｘ０．５個以上盗塁する",
+      "english": "Average at least 0.5 SB per game",
+      "deepl_comparison": "Steal at least X0.5 bases per game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        131
+      ],
+      "source": "期間中試合Ｘ３打席以上で打率が．３１５以上",
+      "english": "3+ PA per game and a .315+ AVG",
+      "deepl_comparison": "During the period, a batting average of .315 or higher with 3 or more at-bats in games.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        132
+      ],
+      "source": "期間中試合Ｘ０．６安打以上",
+      "english": "Average at least 0.6 hits per game",
+      "deepl_comparison": "0.6 or more hits per game during the period",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        135
+      ],
+      "source": "期間中登板し、一定以上の投球成績",
+      "english": "Pitch and meet the performance target",
+      "deepl_comparison": "Pitched during the season and achieved pitching statistics above a certain level",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        137
+      ],
+      "source": "期間中試合Ｘ０．６登板以上を投げ、負けなし",
+      "english": "Average 0.6+ appearances per game, no losses",
+      "deepl_comparison": "Pitched at least X.06 innings in games during the period and remained undefeated.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        138
+      ],
+      "source": "期間中試合Ｘ０．５回以上を投げ、１失点以内",
+      "english": "0.5+ IP/game; allow at most 1 run total",
+      "deepl_comparison": "Pitched at least X.5 innings during the season and allowed no more than 1 run",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        139
+      ],
+      "source": "期間中に勝Ｈ・Ｓを３以上あげる",
+      "english": "Record 3+ wins, holds, or saves combined",
+      "deepl_comparison": "Raise the Win H/S by 3 or more during the period.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        140
+      ],
+      "source": "次の試合で１安打を打つ",
+      "english": "Get a hit in the next game",
+      "deepl_comparison": "Get one hit in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        141
+      ],
+      "source": "次の試合で１盗塁を決める",
+      "english": "Steal a base in the next game",
+      "deepl_comparison": "Steal one base in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        142
+      ],
+      "source": "次の試合で３塁打数以上を打つ",
+      "english": "Get 3+ total bases in the next game",
+      "deepl_comparison": "Hit at least three triples in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        143
+      ],
+      "source": "次の試合で３出塁以上をする",
+      "english": "Reach base 3+ times in the next game",
+      "deepl_comparison": "Get at least three base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        144
+      ],
+      "source": "次の試合で２盗塁以上をする",
+      "english": "Steal 2+ bases in the next game",
+      "deepl_comparison": "Steal two or more bases in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        145
+      ],
+      "source": "次の試合で５塁打以上を打つ",
+      "english": "Get 5+ total bases in the next game",
+      "deepl_comparison": "Hit at least five extra-base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        146
+      ],
+      "source": "次の試合で長打を打つ",
+      "english": "Get an extra-base hit in the next game",
+      "deepl_comparison": "Hit a long ball in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        147
+      ],
+      "source": "次の試合で１打点を上げる",
+      "english": "Drive in a run in the next game",
+      "deepl_comparison": "Get 1 RBI in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        148
+      ],
+      "source": "次の試合で４塁打数以上を打つ",
+      "english": "Get 4+ total bases in the next game",
+      "deepl_comparison": "Hit four or more base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        149
+      ],
+      "source": "次の試合で１本塁打を打つ",
+      "english": "Hit a home run in the next game",
+      "deepl_comparison": "Hit a home run in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        150
+      ],
+      "source": "次の試合で３打点を上げる",
+      "english": "Drive in 3+ runs in the next game",
+      "deepl_comparison": "Get 3 RBIs in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        151
+      ],
+      "source": "次の試合で７塁打以上を打つ",
+      "english": "Get 7+ total bases in the next game",
+      "deepl_comparison": "Hit 7 or more base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        152
+      ],
+      "source": "次の試合でボールを真芯で捉える",
+      "english": "Barrel up a ball in the next game",
+      "deepl_comparison": "Hit the ball right in the sweet spot in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        153
+      ],
+      "source": "次の試合で２塁打数以上を打つ",
+      "english": "Get 2+ total bases in the next game",
+      "deepl_comparison": "Hit at least one double in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        154
+      ],
+      "source": "次の試合で３出塁以上する",
+      "english": "Reach base 3+ times in the next game",
+      "deepl_comparison": "Get at least three base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        155
+      ],
+      "source": "次の試合で３安打以上打つ",
+      "english": "Get 3+ hits in the next game",
+      "deepl_comparison": "Get at least 3 hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        156
+      ],
+      "source": "次の試合で３回以上真芯で捉える",
+      "english": "Barrel up 3+ balls in the next game",
+      "deepl_comparison": "Hit the ball squarely at least three times in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        157
+      ],
+      "source": "次の試合で５出塁以上する",
+      "english": "Reach base 5+ times in the next game",
+      "deepl_comparison": "Get 5 or more base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        158
+      ],
+      "source": "次の試合で１盗塁以上する",
+      "english": "Steal a base in the next game",
+      "deepl_comparison": "Steal at least one base in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        159
+      ],
+      "source": "次の試合で２出塁以上する",
+      "english": "Reach base 2+ times in the next game",
+      "deepl_comparison": "Get at least two base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        160
+      ],
+      "source": "次の試合で２盗塁以上する",
+      "english": "Steal 2+ bases in the next game",
+      "deepl_comparison": "Steal at least two bases in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        161
+      ],
+      "source": "次の試合で４出塁以上する",
+      "english": "Reach base 4+ times in the next game",
+      "deepl_comparison": "Get at least four base hits in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        162
+      ],
+      "source": "次の試合でバントヒットまたは内野安打を打つ",
+      "english": "Get a bunt or infield hit next game",
+      "deepl_comparison": "Hit a bunt or an infield single in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        163
+      ],
+      "source": "次の試合で３盗塁以上する",
+      "english": "Steal 3+ bases in the next game",
+      "deepl_comparison": "Steal 3 or more bases in the next game",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        164
+      ],
+      "source": "一定回数流し方向へ打つ",
+      "english": "Meet the opposite-field contact target",
+      "deepl_comparison": "Hit the ball in the intended direction a certain number of times",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        165
+      ],
+      "source": "一定回数引っ張り方向へ打つ",
+      "english": "Meet the pull-side contact target",
+      "deepl_comparison": "Hit the ball in the pull direction a certain number of times",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        166
+      ],
+      "source": "バント犠打を成功させる",
+      "english": "Lay down a sacrifice bunt",
+      "deepl_comparison": "How to Execute a Successful Sacrifice Bunt",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        167,
+        168
+      ],
+      "source": "月間ＭＶＰの獲得",
+      "english": "Win Monthly MVP",
+      "deepl_comparison": "Winning the Monthly MVP Award",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        169
+      ],
+      "source": "ストレートで三振を取る",
+      "english": "Get a strikeout with a fastball",
+      "deepl_comparison": "Strike out a batter with a fastball",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        170
+      ],
+      "source": "投球数を抑え、先発で結果を出す",
+      "english": "Pitch well as the starter on few pitches",
+      "deepl_comparison": "Keep pitch counts low and deliver results as a starting pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        171
+      ],
+      "source": "期間内に一定投球数投げる",
+      "english": "Meet the pitch count target",
+      "deepl_comparison": "Throw a certain number of pitches within the time limit",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        172
+      ],
+      "source": "先発で一定回数以上ベストピッチを投げる",
+      "english": "Throw enough Best Pitches as a starter",
+      "deepl_comparison": "Throw a certain number of best pitches or more as a starting pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        173
+      ],
+      "source": "中継ぎで一定回数以上ベストピッチを投げる",
+      "english": "Throw enough Best Pitches in relief",
+      "deepl_comparison": "Throw a certain number of best pitches or more as a relief pitcher",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        174
+      ],
+      "source": "首位打者タイトル獲得",
+      "english": "Win the batting title",
+      "deepl_comparison": "Winning the batting title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        175
+      ],
+      "source": "本塁打王タイトル獲得",
+      "english": "Win the home run title",
+      "deepl_comparison": "Winning the Home Run Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        176
+      ],
+      "source": "打点王タイトル獲得",
+      "english": "Win the RBI title",
+      "deepl_comparison": "Winning the RBI Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        177
+      ],
+      "source": "盗塁王タイトル獲得",
+      "english": "Win the stolen base title",
+      "deepl_comparison": "Winning the Stolen Base Title",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        178,
+        179
+      ],
+      "source": "期間内の起用",
+      "english": "Appear during this stretch",
+      "deepl_comparison": "Player Selection During the Season",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        180
+      ],
+      "source": "交流戦順位で首位になる",
+      "english": "Finish first in interleague play",
+      "deepl_comparison": "Finish in first place in the Interleague standings",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        181
+      ],
+      "source": "５割以上の勝ち越し",
+      "english": "Play .500 or better",
+      "deepl_comparison": "A winning percentage of over 50%",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    },
+    {
+      "field": "goal",
+      "events": [
+        182,
+        183
+      ],
+      "source": "@t選手の大活躍",
+      "english": "@t has a standout performance",
+      "deepl_comparison": "@t Player's Outstanding Performance",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true,
+      "decision": "Retain the objective/reward meaning and numeric/statistic scope."
+    }
+  ],
+  "unlock_rewards_matched_to_native_commands": [
+    {
+      "event": 8,
+      "reward": "Unlock Comment via Media",
+      "native_command_address": "0x82088244",
+      "native_command_source": "マスコミ間接口撃",
+      "english_command": "Comment via Media"
+    },
+    {
+      "event": 11,
+      "reward": "Unlock Add Cash to Trade",
+      "native_command_address": "0x820881C8",
+      "native_command_source": "金銭トレード要請",
+      "english_command": "Add Cash to Trade"
+    },
+    {
+      "event": 12,
+      "reward": "Unlock Sign Foreign Player",
+      "native_command_address": "0x820881B4",
+      "native_command_source": "外国人助っ人補強",
+      "english_command": "Sign Foreign Player"
+    },
+    {
+      "event": 13,
+      "reward": "Unlock Pick Tone Setter",
+      "native_command_address": "0x82088230",
+      "native_command_source": "ムードメーカー指名",
+      "english_command": "Pick Tone Setter"
+    },
+    {
+      "event": 14,
+      "reward": "Unlock Complete-game Promise",
+      "native_command_address": "0x82088224",
+      "native_command_source": "完投宣言",
+      "english_command": "Complete-game Promise"
+    },
+    {
+      "event": 15,
+      "reward": "Unlock Enforced Rest",
+      "native_command_address": "0x82088214",
+      "native_command_source": "選手強制休暇",
+      "english_command": "Enforced Rest"
+    },
+    {
+      "event": 18,
+      "reward": "Unlock Announce Next Start",
+      "native_command_address": "0x82088200",
+      "native_command_source": "チーム内先発通知",
+      "english_command": "Announce Next Start"
+    },
+    {
+      "event": 19,
+      "reward": "Unlock Announce Short Start",
+      "native_command_address": "0x820881F0",
+      "native_command_source": "投球回制限宣言",
+      "english_command": "Announce Short Start"
+    },
+    {
+      "event": 20,
+      "reward": "Unlock Encourage Player",
+      "native_command_address": "0x82088268",
+      "native_command_source": "選手個別激励",
+      "english_command": "Encourage Player"
+    },
+    {
+      "event": 21,
+      "reward": "Unlock Media Appeal",
+      "native_command_address": "0x820881DC",
+      "native_command_source": "マスコミアピール",
+      "english_command": "Media Appeal"
+    },
+    {
+      "event": 24,
+      "reward": "Unlock Team Pep Talk",
+      "native_command_address": "0x82088258",
+      "native_command_source": "チーム士気向上",
+      "english_command": "Team Pep Talk"
+    },
+    {
+      "event": 109,
+      "reward": "Unlock Emphasize Teamwork",
+      "native_command_address": "0x8208819C",
+      "native_command_source": "チームプレイ方針徹底",
+      "english_command": "Emphasize Teamwork"
+    },
+    {
+      "event": 110,
+      "reward": "Unlock Praise Player",
+      "native_command_address": "0x82088190",
+      "native_command_source": "選手賞賛",
+      "english_command": "Praise Player"
+    },
+    {
+      "event": 111,
+      "reward": "Unlock Private Meeting",
+      "native_command_address": "0x82088180",
+      "native_command_source": "選手個別対談",
+      "english_command": "Private Meeting"
+    },
+    {
+      "event": 112,
+      "reward": "Unlock Specialist Treatment",
+      "native_command_address": "0x8208816C",
+      "native_command_source": "有名ドクター招へい",
+      "english_command": "Specialist Treatment"
+    },
+    {
+      "event": 113,
+      "reward": "Unlock Focus Training",
+      "native_command_address": "0x8208815C",
+      "native_command_source": "強化選手指定",
+      "english_command": "Focus Training"
+    },
+    {
+      "event": 114,
+      "reward": "Unlock Veteran Mentoring",
+      "native_command_address": "0x82088148",
+      "native_command_source": "ベテラン特別指導",
+      "english_command": "Veteran Mentoring"
+    },
+    {
+      "event": 115,
+      "reward": "Unlock Manager Coaching",
+      "native_command_address": "0x82088138",
+      "native_command_source": "監督直接指導",
+      "english_command": "Manager Coaching"
+    }
+  ],
+  "adjacent_event_context": [
+    {
+      "event": 9,
+      "title_source": "改革の成果は？",
+      "english_title": "Is Reform Working?",
+      "goal_source": "一定以上のチーム総得点",
+      "english_goal": "Meet the team runs target",
+      "goal_detail_source": "野手コーチの提案で走塁の新しいトレーニングを導入することにした。果たして選手たちへの効果はどうだろうか。",
+      "english_goal_detail": "The fielding coach suggested a new baserunning drill. Let's see how much it helps the team.",
+      "deepl_goal_detail": "Based on a suggestion from the fielding coach, we decided to introduce a new baserunning training regimen. I wonder how effective it will be for the players."
+    },
+    {
+      "event": 11,
+      "title_source": "新しい血",
+      "english_title": "New Blood",
+      "goal_source": "期間中の勝率５割",
+      "english_goal": "Play .500 ball during this stretch",
+      "goal_detail_source": "投手陣の不調が問題となっている。本社は戦力を放出してのトレードも画策中のようだ。まだ優勝が狙えるチームだと証明せねば。",
+      "english_goal_detail": "Our pitchers are struggling, and ownership is considering a trade. Show them this roster can still contend.",
+      "deepl_goal_detail": "The pitching staff’s slump has become a problem. Headquarters appears to be planning trades that would involve releasing players. We must prove that this team can still contend for the championship."
+    },
+    {
+      "event": 16,
+      "title_source": "こころの中",
+      "english_title": "What's on His Mind",
+      "goal_source": "一定以下のチーム総失点",
+      "english_goal": "Keep runs allowed within the limit",
+      "goal_detail_source": "最近若い投手達が同じような冊子を持っているのに気付き、話を聞くと「コーチに貰った教材だ」と言う。良い効果が出ることを期待しよう。",
+      "english_goal_detail": "The young pitchers are studying a booklet from their coach. Let's see if the lessons show up on the field.",
+      "deepl_goal_detail": "I recently noticed that some young pitchers have similar booklets, and when I asked them about it, they said, “Our coach gave them to us as study materials.” Let’s hope this has a positive effect."
+    },
+    {
+      "event": 112,
+      "title_source": "皆は一人のために",
+      "english_title": "All for One",
+      "goal_source": "@t選手の代役選手の活躍",
+      "english_goal": "Play well in place of @t",
+      "goal_detail_source": "一時離脱せざるを得なくなった@t選手。早期復帰をめざしている彼を安心させるためにも、チーム一丸で穴を埋めねば。",
+      "english_goal_detail": "@t is working to return soon. The whole team needs to fill that player's shoes in the meantime.",
+      "deepl_goal_detail": "Player @t has been forced to take a temporary leave of absence. To reassure him as he aims for an early return, the team must pull together to fill the gap."
+    },
+    {
+      "event": 122,
+      "title_source": "奪三振王への道",
+      "english_title": "Chase the K Title",
+      "goal_source": "期間試合中１登板以上で・８奪三振以上",
+      "english_goal": "1+ appearances and 8+ K in this stretch",
+      "goal_detail_source": "@t選手ですが、ここまで力強い投球で、三振の山を築いています。力ある投手の証でもある奪三振。このタイトルも狙えるか。",
+      "english_goal_detail": "@t has racked up strikeouts with overpowering stuff. Can that arm take the league strikeout title?",
+      "deepl_goal_detail": "@t has been pitching with such power so far, racking up a mountain of strikeouts. Strikeouts are a hallmark of a powerful pitcher. Could he be in the running for this title as well?"
+    },
+    {
+      "event": 138,
+      "title_source": "信頼の土壌2",
+      "english_title": "Earning Trust 2",
+      "goal_source": "期間中試合Ｘ０．５回以上を投げ、１失点以内",
+      "english_goal": "0.5+ IP/game; allow at most 1 run total",
+      "goal_detail_source": "安定したマウンドさばきでチーム内の選手からの信頼も勝ち取りつつある@t選手。投げるほど信頼は増していくことでしょう。",
+      "english_goal_detail": "@t is earning the clubhouse's trust with steady work on the mound. Each outing is another chance to build on it.",
+      "deepl_goal_detail": "Player @t is gradually earning the trust of his teammates with his steady performance on the mound. The more he pitches, the more that trust is sure to grow."
+    },
+    {
+      "event": 164,
+      "title_source": "意識改革",
+      "english_title": "A Change in Approach",
+      "goal_source": "一定回数流し方向へ打つ",
+      "english_goal": "Meet the opposite-field contact target",
+      "goal_detail_source": "コースによって広角に打ち分けないと強い打球を飛ばすことができません。あえて流し打ちを徹底させ、アウトコースのボールの対応を練習させます。",
+      "english_goal_detail": "Use the whole field to drive pitches in different locations. Practice hitting outside pitches the other way.",
+      "deepl_goal_detail": "Depending on the pitch, players cannot hit the ball hard unless they adjust their swing to hit to different parts of the field. We deliberately focus on teaching players to hit the ball to the opposite field and have them practice handling pitches on the outside corner."
+    },
+    {
+      "event": 165,
+      "title_source": "タイミング",
+      "english_title": "Timing",
+      "goal_source": "一定回数引っ張り方向へ打つ",
+      "english_goal": "Meet the pull-side contact target",
+      "goal_detail_source": "打球を強く叩かせるために、引っ張りを意識させた早い始動を身につけさせます。内角の速球にも差し込まれない力強いスイングをめざします。",
+      "english_goal_detail": "Start the swing earlier and work on pulling the ball. A strong swing can turn on a fastball inside.",
+      "deepl_goal_detail": "To help players hit the ball with more power, we’ll teach them to initiate their swing early while focusing on pulling the ball. The goal is to develop a powerful swing that won’t be overpowered even by fastballs on the inside corner."
+    }
+  ],
+  "native_populated_field_coverage": {
+    "reward": 187,
+    "success_story": 32,
+    "goal": 187,
+    "goal_detail": 187,
+    "failure_story": 32,
+    "introduction": 32,
+    "failure_notice": 32,
+    "success_notice": 32,
+    "objective": 32,
+    "title": 187
+  },
+  "all_940_nonempty_native_fields_have_english": true,
+  "none_entries_correspond_only_to_empty_native_fields": true,
+  "review_decisions": [
+    "Use Fielding Coach and Coach Capacity consistently with the current interface and official role terminology.",
+    "Cash assistance adds money to a player trade; the unlocked command is Add Cash to Trade.",
+    "The rehabilitation unlock corresponds to the existing Specialist Treatment command.",
+    "Strikeouts and appearances in event 122 are totals across the stated event period, not an eight-strikeout requirement for every appearance.",
+    "Event 138 combines an innings-per-game threshold with no more than one total run allowed during the period.",
+    "Opposite-field and pull-side contact targets do not add an unsupported requirement for base hits.",
+    "Retain total bases rather than DeepL interpretations involving triples, extra-base-hit counts or base-hit counts.",
+    "Preserve runs versus RBI, hits versus times on base, innings versus appearances, and all decimal batting/OBP thresholds.",
+    "Preserve the inclusive 0.7/0.3/0.5/0.6 ratios and the 1/2/4/5/7/8 numeric targets.",
+    "Keep manager-command unlocks distinct from form recovery, fatigue recovery, Awakening and MCP ranges."
+  ],
+  "wording_follow_ups": [
+    {
+      "event": 5,
+      "field": "goal",
+      "source": "表彰台に立つ",
+      "english": "Win All-Star MVP",
+      "source_introduction": "まもなく迎えるスターたちの夢の競演・オールスター。@nこの晴れの舞台にわがチームからも@v@t@vが出場することとなった。出場するだけでも素晴らしいことだが、どうせならば@vチームの代表として恥ずかしくない結果も残してきてほしい。@v@f何はともあれ、怪我無くもどってきてくれることが一番大事なことではあるが…",
+      "source_success_story": "喧騒の中、表彰台に立つ@v@t@v。@n誇らしげに堂々とインタビューを受けるさまはチームの一員として見ていて嬉しくなると同時に誇らしくなる。@n今回の経験は彼にとっても大きな自信になっただろう。@fシーズン後半戦が始まったあとも、きっと彼は素晴らしい活躍をしてくれるに違いない。@n大いに期待しよう。",
+      "issue": "The native text establishes an All-Star award/podium, but does not explicitly name MVP. The actual native success predicate still needs inspection. No wording change is made in this pass.",
+      "related_success_story_wording_also_requires_condition_check": true
+    }
+  ],
+  "goal_fields_with_unresolved_wording": 1,
+  "source_controls_and_all_unedited_member_bytes_unchanged": true,
+  "all_changed_fields_fit_original_slots": true,
+  "layout_estimate_scope": "Arial 16 px summed glyph advances for the changed labels; actual event widgets and native macro expansion remain unverified.",
+  "executable_rebuild_required": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "original_game_data_unchanged": true,
+  "native_macro_expansion_executed": false,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "no_new_service_requests": true,
+  "pending": [
+    "Inspect the native All-Star success predicate for event 5 before approving MVP-specific wording.",
+    "Live event-reward/goal placement and native substitutions.",
+    "Accuracy review of the remaining event fields and other mode/discovery paths."
+  ],
+  "selected_member_readback_verified": true,
+  "archive_index_unchanged": true,
+  "fielding_coach_official_role_reference": [
+    {
+      "namespace": "Mvp",
+      "key": "mvp_friend_text_5593",
+      "japanese": "野手コーチ",
+      "english": "Fielding Coach"
+    }
+  ],
+  "distinct_input_sources_context_reviewed_after_batch": 1117,
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "localized_archive_members": 111,
+  "localized_atlases": 263,
+  "localized_texture_labels": 2098,
+  "packed_text_slots_verified": 83,
+  "pennant_event_titles_verified": 187,
+  "pennant_additional_fields_verified": 753,
+  "normal_executable_unchanged": true,
+  "normal_executable_sha256": "0f317bd9506bc0f78fc883b159a7e392c8a5c8cc2f92b65abb30e512cd49c04d",
+  "generated_header_unchanged": true,
+  "generated_header_sha256": "48951909aede3af18f966c412063e74f785d2fb43fe4b50bfc8b8f22534f1efa"
+}

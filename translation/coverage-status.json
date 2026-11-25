@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Reviewed all 187 Pennant rewards and 187 objectives (191 source/English pairs). Eight bounded corrections align coach capacity, unlocked command names, contact targets and event-period totals. All 18 unlock names match the native command menu. The original resource has exactly 940 populated fields and each has English; None references are exclusively empty slots. All 2223 archive members passed, including 2112 untouched members. Event 5 award-specific wording and live placement remain open.",
     "Traced the 14-record save-section directory and replayed native size, checksum and content-initialization routines. The 4425756-byte layout and valid checksums passed with name pointers invalid or zero; damaged data/checksum cases failed. The existing title hook reached the stubbed storage API with Pro Yakyuu Spirits 3 and unchanged Save Data key. Caller/source and descriptor-boundary checks passed. The 13 section labels remain unintegrated with no confirmed display consumer; no real saves, game assets or normal executable changed.",
     "Reviewed the remaining 254 ability editor fields, completing source/context review of 337 maintained descriptions. Corrected ten native entries, the Pull Tendency erratum fragment and three Late Flame labels. Native name/description pointer associations and the 2026 glossary resolve the two text discrepancies without changing ability logic. Passed 259 compiled lookups, 257 curation checks, erratum reproduction, the Windows build and full 2223-member archive verification; 2112 untouched members and all 2098 texture labels are verified. Live behavior and placement remain open.",
     "Reviewed the first 83 ability descriptions and 10 additional pitching/label fields. Corrected 15 native entries and 18 fragments for Pitch Power, Power Surge, Consistent, accountability and team-win wording. Passed 112 compiled lookups, 93 curation checks, 18 fragment regeneration/curation checks, the complete review merger and the Windows build. The Okawari nickname and two contradictory native source conditions are preserved; mechanics and live placement remain open.",
@@ -101,6 +102,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Inspect event 5's native All-Star award condition before approving MVP-specific goal/success wording. Verify the revised coach-capacity, command-unlock and period-total labels in game.",
     "Live ability requirements, long condition lines, Fielding Affinity, compact Power labels and Late Flame badges. Confirm CPU pull tendency and Late Flame behavior; the source-table text association is verified.",
     "Verify settings live layout and complete-paragraph hook coverage, including fallback-run widths, assisted pitch markers and automatic tactics. Confirm the older block-sign feature relative to the 2026 Decoy Sign label.",
     "Live reviewed Pennant event pages, recovery/pacing wording, bullpen handoff and actual player/team/milestone placeholder expansion",
@@ -183,7 +185,7 @@
     "some missing gameplay geometry"
   ],
   "entire_game_english": false,
-  "latest_offline_review": "save-section-routing-validation.json",
+  "latest_offline_review": "pennant-objective-reward-accuracy-validation.json",
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1024,
@@ -1136,8 +1138,9 @@
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
     "report": "deepl-comparison-status.json",
-    "distinct_input_sources_context_reviewed": 928,
-    "initial_cached_response_records": 9559
+    "distinct_input_sources_context_reviewed": 1117,
+    "initial_cached_response_records": 9559,
+    "context_reviewed_sources_with_wording_follow_up": 1
   },
   "spirits_training_accuracy_review": {
     "records_reviewed": 56,
@@ -1268,5 +1271,20 @@
     "real_save_or_display_api_executed": false,
     "normal_game_rebuild_required": false,
     "report": "save-section-routing-validation.json"
+  },
+  "pennant_objective_reward_accuracy_review": {
+    "reward_fields_reviewed": 187,
+    "goal_fields_reviewed": 187,
+    "distinct_source_english_pairs": 191,
+    "distinct_sources_with_service_response": 190,
+    "changed_fields": 8,
+    "unlock_names_verified": 18,
+    "native_populated_fields": 940,
+    "all_native_populated_fields_have_english": true,
+    "wording_follow_ups": 1,
+    "normal_game_rebuild_required": false,
+    "full_archive_verified": true,
+    "interactive_validation": false,
+    "report": "pennant-objective-reward-accuracy-validation.json"
   }
 }
