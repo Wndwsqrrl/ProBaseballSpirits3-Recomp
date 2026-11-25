@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Reviewed 18 formatting-sensitive Pennant event fields (17 unique sources), retaining player/team/milestone roles and checking award titles against adjacent native fields. Six fixed-slot wording edits clarify recovery, a bullpen handoff without an assumed lead, partial resolution, later-inning pacing and neutral career milestones. All 2223 archive members and all 940 populated event fields passed; native expansion and live placement remain unchecked.",
     "Aligned the Starter Conditioning attribute (Starter Cond. in compact labels) with its official 2026 reference, keeping Starter Prep commands distinct. Nine runtime rows and one bounded Pennant reward changed. Fifteen compiled cases, six curation checks, the Windows build and all 2223 archive members passed. Live label fit, especially the +1 bonus, remains pending.",
     "Reviewed 34 formatting-sensitive mission/camp/offseason help pages against source and DeepL examples. Corrected seven catalogue rows for Coach Capacity, Boost missions, active-roster eligibility and consistent camp/form wording. Forty compiled cases and 35 curation checks passed; control order, line counts and source metadata are unchanged. Two starter-stat terminology cases and live placement remain open.",
     "Completed the source/DeepL accuracy review of all 56 Spirits training names and 56 descriptions. Preserved level-versus-XP gains, partner requirements, three-turn limits, one-practice bonuses and the custom-player exclusion. Wording is unchanged, with Focus/Pitch Type/Defense following 2026 references. All 112 maintained overrides and 108 compiled lookups passed; display routing and placement remain open.",
@@ -67,6 +68,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
+    "Live reviewed Pennant event pages, recovery/pacing wording, bullpen handoff and actual player/team/milestone placeholder expansion",
     "Live Starter Conditioning/Starter Cond. labels, +1 bonus width, C-grade Spirits requirements, role-conversion help and the updated event reward",
     "Complete the manual DeepL accuracy review, including 76 formatting-sensitive meaning examples; service responses alone do not approve wording or placement",
     "Live Inact./Power/Basic Stamina/Starter Stamina legend readability and Bat First/Bat Last team-selection placement",
@@ -1074,5 +1076,14 @@
     "interactive_validation": false,
     "bonus_label_live_fit_pending": true,
     "report": "starter-conditioning-validation.json"
+  },
+  "pennant_event_meaning_review": {
+    "area": "Formatting-sensitive Pennant event meanings",
+    "event_fields_context_reviewed": 18,
+    "unique_source_texts_reviewed": 17,
+    "event_fields_corrected": 6,
+    "role_preserving_meaning_examples": 7,
+    "report": "pennant-event-meaning-validation.json",
+    "interactive_validation": false
   }
 }

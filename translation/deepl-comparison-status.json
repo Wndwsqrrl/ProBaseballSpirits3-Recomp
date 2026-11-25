@@ -215,7 +215,7 @@
   "initial_context_sources_reviewed": 10,
   "initial_context_label_occurrences_reviewed": 18,
   "automatic_patch_replacements": 0,
-  "account_characters_used": 160731,
+  "account_characters_used": 161159,
   "account_character_allowance": 1000000,
   "credentials_in_repository": false,
   "review_outputs_kept_local": true,
@@ -277,9 +277,22 @@
       "pennant_reward_fields_corrected": 1,
       "report": "starter-conditioning-validation.json",
       "interactive_validation": false
+    },
+    {
+      "area": "Formatting-sensitive Pennant event meanings",
+      "event_fields_context_reviewed": 18,
+      "unique_source_texts_reviewed": 17,
+      "event_fields_corrected": 6,
+      "role_preserving_meaning_examples": 7,
+      "report": "pennant-event-meaning-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 167,
+  "distinct_deepl_input_sources_context_reviewed": 184,
   "reviewed_training_fields_not_requiring_deepl": 1,
-  "context_reviewed_sources_with_wording_follow_up": 0
+  "context_reviewed_sources_with_wording_follow_up": 0,
+  "context_reviewed_input_ids_sha256": "c4bc812e324689bf34c42e7db6b32a73c42321d1801678e0e56ca40d3bb7d1ac",
+  "additional_role_preserving_meaning_examples": 7,
+  "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
+  "initial_service_pass_characters_used": 160731
 }

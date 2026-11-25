@@ -1,0 +1,425 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "d138547f7bcfa214a8ea8d0746b5b8c12cab4932",
+  "event_fields_context_reviewed": 18,
+  "unique_source_texts_reviewed": 17,
+  "event_fields_corrected": 6,
+  "changes": [
+    {
+      "event": 170,
+      "field": "goal_detail",
+      "relative_offset": 119815,
+      "width": 143,
+      "source": "@t選手ですが、序盤から飛ばしすぎているためか、中盤以降の粘りがありません。スタミナ配分を考えた投球を心がけさせようと思います。",
+      "previous_english": "@t has been going too hard early and fading in the middle innings. Work on pacing to make that stamina last.",
+      "english": "@t may be going too hard early and fading from the middle innings on. Work on pacing to make that stamina last.",
+      "previous_bytes": 108,
+      "english_bytes": 111
+    },
+    {
+      "event": 19,
+      "field": "introduction",
+      "relative_offset": 202590,
+      "width": 391,
+      "source": "どうしても落としたくない一戦というときがペナントレースではままあるが、本日の@v@e@vとの対戦はまさにそういう試合だ。@f試合前のミーティングで投手コーチは「今日は先のことを考えず先発は@v初回からガンガン飛ばしていって、５回以降は継投で乗り切る@vという作戦もアリかも知れませんね」という。@fどうしてもモノにしたいこの一戦、先発投手がしっかり後に繋いでくれるとよいのだが。",
+      "previous_english": "Some games feel too important to lose. Today's matchup with @v@e@v is one of them.@fAt the meeting, the pitching coach suggested @vletting the starter go hard from the first and using the bullpen from the fifth on.@v@fWe need this win. Let's hope the starter hands the bullpen a lead.",
+      "english": "Some games feel too important to lose. Today's matchup with @v@e@v is one of them.@fAt the meeting, the pitching coach suggested @vletting the starter go hard from the first inning and using the bullpen from the fifth on.@v@fWe need this win. Let's hope the starter puts us in a good position for the bullpen.",
+      "previous_bytes": 284,
+      "english_bytes": 309
+    },
+    {
+      "event": 112,
+      "field": "success_story",
+      "relative_offset": 54595,
+      "width": 429,
+      "source": "@v@t@v不在の状況で、選手たちは見事その代役を果たしてくれている。@n@v@t@vの回復も良好で思っていた以上に早く復帰できそうだ。@f長いペナントレース、これからもチームがこのような状況になることがあるだろう。@n多少無理をしてでも試合に出場する必要もあるかもしれないが、こういったことのできるチームこそ真に強いチームと言えるのではないだろうか。",
+      "previous_english": "The players have done a fine job filling in for @v@t@v.@n@v@t@v is healing well and may return sooner than expected.@fWe'll face situations like this again in a long season.@nSometimes a player has to push through. A strong club can also cover for someone who needs time to recover.",
+      "english": "The players have done a fine job filling in for @v@t@v.@n@v@t@v is recovering well and may return sooner than expected.@fWe'll face situations like this again in a long season.@nSometimes a player has to push through. A strong club can also cover for someone who needs time to recover.",
+      "previous_bytes": 282,
+      "english_bytes": 285
+    },
+    {
+      "event": 111,
+      "field": "failure_story",
+      "relative_offset": 165426,
+      "width": 391,
+      "source": "残念ながら、今回の起用では完全な問題の解決にはならなかった。@n試合に出場してもそうでなくても、選手個人個人にそれぞれ役割というものがある。@n彼にはそのことを意識してシーズンを乗り越えてもらいたい。",
+      "previous_english": "Getting into the lineup didn't settle the issue.@nEvery player has a part to play, whether they get into a game or sit it out.@nI hope our player keeps that in mind through the rest of the season.",
+      "english": "Getting into the lineup didn't fully settle the issue.@nEvery player has a part to play, whether they get into a game or sit it out.@nI hope our player keeps that in mind through the rest of the season.",
+      "previous_bytes": 196,
+      "english_bytes": 202
+    },
+    {
+      "event": 27,
+      "field": "goal_detail",
+      "relative_offset": 99366,
+      "width": 143,
+      "source": "積み重ねてきた数多の盗塁もついに@x個間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career stolen bases.@nGo make history!",
+      "english": "Closing in on @x career stolen bases.@nGo make history!",
+      "previous_bytes": 62,
+      "english_bytes": 55
+    },
+    {
+      "event": 30,
+      "field": "goal_detail",
+      "relative_offset": 99795,
+      "width": 143,
+      "source": "積み重ねてきた数多の奪三振もついに@x個間近。@nこの大記録達成をこの手で！",
+      "previous_english": "You're closing in on @x career strikeouts.@nGo make history!",
+      "english": "Closing in on @x career strikeouts.@nGo make history!",
+      "previous_bytes": 60,
+      "english_bytes": 53
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "event": 121,
+      "field": "goal_detail",
+      "source_id": "671530a9a18f68e9236e90cf51b3f3c1efc1c83e7ec02202a6419e8423e4eae1",
+      "source": "@t選手ですが、今シーズンはすばらしい投球をし、まさにチームの大黒柱。このまま活躍を続ければ、大きな勲章が得られるでしょう。",
+      "english": "@t has anchored the staff with excellent pitching. Keep it up and the ERA title is within reach.",
+      "deepl_meaning_example": "As for PLAYER_A, he has been pitching brilliantly this season and is truly the backbone of the team. If he continues to perform at this level, he will surely earn a major award.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 119,
+      "field": "goal_detail",
+      "source_id": "897dd96b5c83d5df6282cfdf0a1c87b1a117c2768fbf62005be02de08d509f01",
+      "source": "@t選手ですが、今シーズンはまさにチームの主砲として恥じない成績を残しています。このままいけばタイトル奪取も夢ではありません。",
+      "english": "@t has been everything we need in a power hitter. The home run title is in reach at this pace.",
+      "deepl_meaning_example": "As for PLAYER_A, he has posted stats this season that truly live up to his reputation as the team’s top slugger. If he keeps this up, winning a title is not just a dream.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 117,
+      "field": "goal_detail",
+      "source_id": "796efd211effbd98a3c8172fbf07f20df0155f989e6577485dc33c281cf86d23",
+      "source": "@t選手ですが、今シーズンは打撃好調で首位打者も夢ではありません。タイトル奪取のためにはここらで固め打ちがほしいところです。",
+      "english": "@t is hitting well enough to win the batting title. A few multi-hit games could make the difference.",
+      "deepl_meaning_example": "As for PLAYER_A, he’s been hitting well this season, and the batting title is not out of the question. To clinch the title, he’ll need to go on a hot streak around now.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 124,
+      "field": "goal_detail",
+      "source_id": "d93eaba130dbb6dd9e16a0b0bd25251e913d4cf8f67feb128f4da7ebb87567a5",
+      "source": "@t選手ですが、今季は大車輪の活躍で、主要な投手タイトルを総なめにしそうな勢いです。彼には球界に名を残してもらいたい。",
+      "english": "@t has been outstanding and could sweep the major pitching titles. That would be a season to remember.",
+      "deepl_meaning_example": "As for PLAYER_A, he’s been on a roll this season and looks poised to sweep all the major pitching titles. I hope he goes down in baseball history.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 170,
+      "field": "goal_detail",
+      "source_id": "02801bce13d7e69c4268ac55bfbb08ee12e0bc07be921481093dfd3b7cf999d2",
+      "source": "@t選手ですが、序盤から飛ばしすぎているためか、中盤以降の粘りがありません。スタミナ配分を考えた投球を心がけさせようと思います。",
+      "english": "@t may be going too hard early and fading from the middle innings on. Work on pacing to make that stamina last.",
+      "deepl_meaning_example": "As for PLAYER_A, perhaps because he’s been pushing too hard from the start, he lacks stamina in the middle and late innings. I plan to have him focus on pitching in a way that conserves his stamina.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 53,
+      "field": "goal_detail",
+      "source_id": "43d5953e3e90fc93bc42e1d31306d619dcf9e1dd0b720d5806094f3957ba7d7e",
+      "source": "@u選手の衰え知らずのスタミナを学ぼうと、@t選手が調整法など熱心に話を聞いているようです。どんな結果が出るのか私も楽しみです。",
+      "english": "@u never seems to tire, and @t has been asking about that routine. I'm looking forward to seeing whether it pays off.",
+      "deepl_meaning_example": "It seems that PLAYER_A is listening intently to PLAYER_B’s training methods in an effort to learn from his seemingly inexhaustible stamina. I’m looking forward to seeing what results this brings.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@u",
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 187,
+      "field": "goal_detail",
+      "source_id": "7c7d021c7dacb149a83002027728ba86a21be90139b172c0245db04bc15a01d7",
+      "source": "@u選手の衰え知らずのスタミナを学ぼうと、@t選手が調整法など熱心に話を聞いているようです。成果が楽しみです。",
+      "english": "@u has remarkable stamina, and @t has been asking about that routine. Let's see what comes of it.",
+      "deepl_meaning_example": "It seems that PLAYER_A is listening intently to PLAYER_B’s training methods in an effort to learn from his seemingly inexhaustible stamina. We look forward to seeing the results.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@u",
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 112,
+      "field": "success_story",
+      "source_id": "0113bddb94268fdf7e5921d4d125ac6e0a005b6a7ca52a3a3bd204c60bf3c6cc",
+      "source": "@v@t@v不在の状況で、選手たちは見事その代役を果たしてくれている。@n@v@t@vの回復も良好で思っていた以上に早く復帰できそうだ。@f長いペナントレース、これからもチームがこのような状況になることがあるだろう。@n多少無理をしてでも試合に出場する必要もあるかもしれないが、こういったことのできるチームこそ真に強いチームと言えるのではないだろうか。",
+      "english": "The players have done a fine job filling in for @v@t@v.@n@v@t@v is recovering well and may return sooner than expected.@fWe'll face situations like this again in a long season.@nSometimes a player has to push through. A strong club can also cover for someone who needs time to recover.",
+      "deepl_meaning_example": "In PLAYER_A’s absence, the other players have done a splendid job filling in for him. PLAYER_A is recovering well and looks set to return sooner than expected. With the pennant race still long ahead, the team will likely face similar situations in the future. While players may sometimes need to push themselves a bit to take the field, isn’t a team capable of handling such situations the true measure of a strong team?",
+      "sample_version": 1,
+      "control_sequence": [
+        "@v",
+        "@t",
+        "@v",
+        "@n",
+        "@v",
+        "@t",
+        "@v",
+        "@f",
+        "@n"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 19,
+      "field": "introduction",
+      "source_id": "57a46497236fe4ca1d37dd81f899547d7d707fd25969bb3ea11476e2e856bce1",
+      "source": "どうしても落としたくない一戦というときがペナントレースではままあるが、本日の@v@e@vとの対戦はまさにそういう試合だ。@f試合前のミーティングで投手コーチは「今日は先のことを考えず先発は@v初回からガンガン飛ばしていって、５回以降は継投で乗り切る@vという作戦もアリかも知れませんね」という。@fどうしてもモノにしたいこの一戦、先発投手がしっかり後に繋いでくれるとよいのだが。",
+      "english": "Some games feel too important to lose. Today's matchup with @v@e@v is one of them.@fAt the meeting, the pitching coach suggested @vletting the starter go hard from the first inning and using the bullpen from the fifth on.@v@fWe need this win. Let's hope the starter puts us in a good position for the bullpen.",
+      "deepl_meaning_example": "There are often games in the pennant race that you simply cannot afford to lose, and today’s matchup against the Tigers is exactly that kind of game. At the pre-game meeting, the pitching coach said, “Today, instead of worrying about what comes next, the starter should go all out from the first inning, and we might consider a strategy of relying on the bullpen to get us through the fifth inning and beyond.” This is a game we absolutely must win—I hope the starting pitcher can set us up well for the rest of the game.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@v",
+        "@e",
+        "@v",
+        "@f",
+        "@v",
+        "@v",
+        "@f"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 62,
+      "field": "goal_detail",
+      "source_id": "699d7be1c953f968a9fe855488e8423183d9839f70cdcd241b34d0121cff9a86",
+      "source": "今日対戦する@eの@u選手は、最近バッティングが良くなっているそうです。今日の対戦で勢いを止めることができればよいのですが。",
+      "english": "Today's opponent is @e, and @u has been swinging the bat well. Let's see if we can cool that hitter off.",
+      "deepl_meaning_example": "PLAYER_B of the Tigers, whom we’re facing today, has reportedly been hitting well lately. Hopefully, we can put a stop to that momentum in today’s game.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@e",
+        "@u"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 111,
+      "field": "failure_story",
+      "source_id": "46861fccc9c3784f5b41b642b16f0dbbc7512268cea6ef8ec7176578b5375eab",
+      "source": "残念ながら、今回の起用では完全な問題の解決にはならなかった。@n試合に出場してもそうでなくても、選手個人個人にそれぞれ役割というものがある。@n彼にはそのことを意識してシーズンを乗り越えてもらいたい。",
+      "english": "Getting into the lineup didn't fully settle the issue.@nEvery player has a part to play, whether they get into a game or sit it out.@nI hope our player keeps that in mind through the rest of the season.",
+      "deepl_meaning_example": "Unfortunately, his inclusion in this game did not fully resolve the issue. Whether they play in a game or not, each individual player has a specific role to fulfill. I want him to keep that in mind as he navigates the rest of the season.",
+      "sample_version": 1,
+      "control_sequence": [
+        "@n",
+        "@n"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 30,
+      "field": "goal_detail",
+      "source_id": "31fef2205ae5a5a29018330464049adc3052db4e3f80dff4d5dc558ba3d4bbcd",
+      "source": "積み重ねてきた数多の奪三振もついに@x個間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career strikeouts.@nGo make history!",
+      "deepl_meaning_example": "The countless strikeouts I’ve racked up are finally nearing 100. I’ll achieve this great milestone with my own two hands!",
+      "sample_version": 2,
+      "control_sequence": [
+        "@x",
+        "@n"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 27,
+      "field": "goal_detail",
+      "source_id": "b62201ac430c75ddddc3f91330160f791ab36a08b83dff28ae973449aac0af56",
+      "source": "積み重ねてきた数多の盗塁もついに@x個間近。@nこの大記録達成をこの手で！",
+      "english": "Closing in on @x career stolen bases.@nGo make history!",
+      "deepl_meaning_example": "The countless stolen bases he’s racked up are finally nearing 100. I’ll achieve this great milestone with my own two hands!",
+      "sample_version": 2,
+      "control_sequence": [
+        "@x",
+        "@n"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 186,
+      "field": "goal_detail",
+      "source_id": "772204b6ee5d3c909f2fd981b842593ebc5baa52a2dcad066ff775c9da4984ed",
+      "source": "豪腕で知られる@u選手ですが、最近@t選手にアドバイスしているみたいです。優れた技術を吸収してくれればと思います。",
+      "english": "@u is known for a powerful arm and has been giving @t advice. Let's see what that pitcher learns from it.",
+      "deepl_meaning_example": "PLAYER_B is known for his powerful arm, but it seems he’s been giving advice to PLAYER_A lately. I hope PLAYER_A will be able to absorb these excellent techniques.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@u",
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 15,
+      "field": "introduction",
+      "source_id": "0fb6457b0109a71e1d6e373e861642625591141f05b99f3bb13497f26cb4d640",
+      "source": "過酷なペナントレースを戦って行く上で、選手たちの体調は気になるところだ。@n最近練習を見ていて、その動きが気になるのが@v@t@vだ。@n体のキレが落ちてきている印象があるのだ。@fまだ過酷な闘いはこれからも続く。@n@v@t@vをここでパンクさせてしまう訳にはいかないのだ。@n@v休養をさせるべき@vか否か。",
+      "english": "Keeping players healthy matters in a long pennant race.@nI've been watching @v@t@v in practice.@nOur player looks a step slower lately.@fThere are more tough games ahead.@nWe can't afford to lose @v@t@v now.@nShould we @vgive that player some rest@v?",
+      "deepl_meaning_example": "As we battle through this grueling pennant race, the players’ physical condition is a major concern. Watching practice recently, PLAYER_A’s movements have caught my attention. I get the impression that his agility is starting to decline. The grueling battle is far from over. We can’t afford to let PLAYER_A burn out at this point. Should we give him a rest or not?",
+      "sample_version": 1,
+      "control_sequence": [
+        "@n",
+        "@v",
+        "@t",
+        "@v",
+        "@n",
+        "@f",
+        "@n",
+        "@v",
+        "@t",
+        "@v",
+        "@n",
+        "@v",
+        "@v"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 9,
+      "field": "introduction",
+      "source_id": "492dc6fb35c93b34cc73119c25013b2cc572d05b6f6b89d10957b585a980092d",
+      "source": "野手コーチの提案で走塁の新しいトレーニングを導入することにした。@nこの走塁練習はどちらかというと走塁の意識改革をさせるようなものらしく、知らず知らずに走塁の基礎が身につく効果があるらしい。@fさすがはうちのコーチといったところだが、果たして選手たちへ@vどのような影響を及ぼすのだろうか？@v",
+      "english": "The fielding coach proposed a new baserunning drill.@nThe idea is to change how players think on the bases so that the fundamentals become second nature.@fIt's a thoughtful plan. Now let's see @vhow the team responds.@v",
+      "deepl_meaning_example": "Based on a suggestion from the fielding coach, we’ve decided to introduce a new baserunning drill. This drill seems to be more about changing the players’ mindset toward baserunning, and it’s said to help them unconsciously master the fundamentals. It’s exactly the kind of idea you’d expect from our coach, but I wonder what kind of impact it will have on the players?",
+      "sample_version": 1,
+      "control_sequence": [
+        "@n",
+        "@f",
+        "@v",
+        "@v"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 50,
+      "field": "goal_detail",
+      "source_id": "fd935d1cc5ca2a5fac60f77113379bc90fa16dd2b2209b610ab0f4457710c236",
+      "source": "長打力が持ち味の@u選手のトレーニングに@t選手が入門したそうです。日々の鍛錬を学び、一皮むけてくれると思います。",
+      "english": "@u has power to spare, and @t is joining those workouts. The daily work could lead to a breakthrough.",
+      "deepl_meaning_example": "It appears that PLAYER_A has begun training under PLAYER_B, who is known for his power hitting. By learning from his daily training regimen, I believe PLAYER_A will take his game to the next level.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@u",
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    },
+    {
+      "event": 184,
+      "field": "goal_detail",
+      "source_id": "fd935d1cc5ca2a5fac60f77113379bc90fa16dd2b2209b610ab0f4457710c236",
+      "source": "長打力が持ち味の@u選手のトレーニングに@t選手が入門したそうです。日々の鍛錬を学び、一皮むけてくれると思います。",
+      "english": "@u has power to spare, and @t is joining those workouts. The daily work could lead to a breakthrough.",
+      "deepl_meaning_example": "It appears that PLAYER_A has begun training under PLAYER_B, who is known for his power hitting. By learning from his daily training regimen, I believe PLAYER_A will take his game to the next level.",
+      "sample_version": 2,
+      "control_sequence": [
+        "@u",
+        "@t"
+      ],
+      "source_meaning_reviewed": true
+    }
+  ],
+  "award_context_checks": [
+    {
+      "event": 117,
+      "native_fields": {
+        "title": "首位打者への道",
+        "goal": "期間中試合Ｘ３打席以上打ち、打率３割３分以上",
+        "goal_detail": "@t選手ですが、今シーズンは打撃好調で首位打者も夢ではありません。タイトル奪取のためにはここらで固め打ちがほしいところです。"
+      },
+      "decision": "Batting title is explicit in the source."
+    },
+    {
+      "event": 119,
+      "native_fields": {
+        "title": "本塁打王への道",
+        "goal": "期間中試合Ｘ０．７本以上の成績を残す",
+        "goal_detail": "@t選手ですが、今シーズンはまさにチームの主砲として恥じない成績を残しています。このままいけばタイトル奪取も夢ではありません。"
+      },
+      "decision": "The native title and goal establish the home-run title context."
+    },
+    {
+      "event": 121,
+      "native_fields": {
+        "title": "最優秀防御率への道",
+        "goal": "期間中一定以上投げ、防御率２点台以下。",
+        "goal_detail": "@t選手ですが、今シーズンはすばらしい投球をし、まさにチームの大黒柱。このまま活躍を続ければ、大きな勲章が得られるでしょう。"
+      },
+      "decision": "The native title and goal establish the ERA-title context."
+    },
+    {
+      "event": 124,
+      "native_fields": {
+        "title": "投手三冠への道",
+        "goal": "投手三冠獲得",
+        "goal_detail": "@t選手ですが、今季は大車輪の活躍で、主要な投手タイトルを総なめにしそうな勢いです。彼には球界に名を残してもらいたい。"
+      },
+      "decision": "The native title and goal establish the pitching Triple Crown context."
+    }
+  ],
+  "retained_coach_reference": [
+    {
+      "namespace": "Mvp",
+      "key": "mvp_friend_text_5593",
+      "japanese": "野手コーチ",
+      "english": "Fielding Coach"
+    }
+  ],
+  "meaning_decisions": [
+    "Keep the distinct learner (@t), other player (@u), opponent team (@e) and milestone count (@x) roles.",
+    "Recovering does not assume that an unspecified absence is an injury.",
+    "The starter should set up the bullpen well; the source does not require handing over a lead.",
+    "The playing-time complaint is not fully resolved, rather than necessarily making no progress.",
+    "The pacing problem applies from the middle innings onward, with a tentative cause.",
+    "Career milestones use a neutral subject rather than adding an explicit manager/player viewpoint.",
+    "Fielding Coach is retained because it matches the relevant 2026 role label."
+  ],
+  "control_order_counts_and_paragraph_breaks_preserved": true,
+  "all_six_edits_fit_original_slots": true,
+  "all_other_member_bytes_unchanged": true,
+  "original_game_data_unchanged": true,
+  "executable_rebuild_required": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "native_macro_expansion_executed": false,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": "Live event-page placement and actual native expansion using changing player names and milestone values.",
+  "archive_index_unchanged": true,
+  "only_six_fixed_fields_written": true,
+  "archive_members_verified": 2223,
+  "untouched_members_verified": 2112,
+  "pennant_field_count_verified": 753,
+  "event_titles_verified": 187,
+  "all_unchanged_fields_exact": true,
+  "role_preserving_deepl_examples": 7,
+  "role_preserving_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
+  "total_populated_fields_verified": 940
+}
