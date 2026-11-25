@@ -472,7 +472,7 @@
     "address": "0x8205FCC8",
     "source_size": 168,
     "source_hash": "55305299B934B0EA",
-    "english": "Recovery determines how quickly players<BR>recover from fatigue in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
+    "english": "Fatigue Recovery determines how fast<BR>fatigue clears in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
     "status": "reviewed"
   },
   {
@@ -18357,7 +18357,7 @@
     "address": "0x820889B0",
     "source_size": 848,
     "source_hash": "5872A18F556087B3",
-    "english": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> help determine whether a pitcher suits <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>Pitchers with high <RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> regain full starting stamina sooner when using <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
+    "english": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> determine suitability for <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>High <RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> restores Starter Stamina sooner with <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
     "status": "reviewed"
   },
   {
@@ -23502,7 +23502,7 @@
     "address": "0x8208D220",
     "source_size": 474,
     "source_hash": "CE8F47F5BFF7C0AB",
-    "english": "[<RGB 0x00785f>Pitcher Role Conversion<RGB 0x7f7f7f>]<BR>Move preparation toward a<RGB 0x7d5300> starter<RGB 0x7f7f7f> or<RGB 0x7d5300> reliever<RGB 0x7f7f7f> role in<RGB 0x7d5300><BR>small steps<RGB 0x7f7f7f>.<BR><BR><RGB 0x7d5300>Starter types have higher Starter Prep<RGB 0x7f7f7f>, while<RGB 0x7d5300> reliever<BR>types have higher Recovery<RGB 0x7f7f7f>.<BR><BR>Balance your staff to keep the<RGB 0x7d5300> rotation<RGB 0x7f7f7f> running<BR>smoothly.<BOTTOM><+LR>Switch <○>Close     5/5",
+    "english": "[<RGB 0x00785f>Pitcher Role Conversion<RGB 0x7f7f7f>]<BR>Shift conditioning toward a<RGB 0x7d5300> starter<RGB 0x7f7f7f> or<RGB 0x7d5300> reliever<RGB 0x7f7f7f> role in<RGB 0x7d5300><BR>small steps<RGB 0x7f7f7f>.<BR><BR><RGB 0x7d5300>Starters have higher Starter Conditioning<RGB 0x7f7f7f>.<BR><RGB 0x7d5300>Relievers have higher Fatigue Recovery<RGB 0x7f7f7f>.<BR><BR>Balance your staff to keep the<RGB 0x7d5300> rotation<RGB 0x7f7f7f> running<BR>smoothly.<BOTTOM><+LR>Switch <○>Close     5/5",
     "status": "reviewed"
   },
   {
@@ -36263,7 +36263,7 @@
     "address": "0x820A1260",
     "source_size": 32,
     "source_hash": "E0D0C7F1073321B6",
-    "english": "Spirits are required to raise Starter Prep to C or higher.",
+    "english": "Starter Conditioning C or higher requires Spirits.",
     "status": "reviewed"
   },
   {
@@ -36620,7 +36620,7 @@
     "address": "0x820A1888",
     "source_size": 32,
     "source_hash": "408610BBE3FDC676",
-    "english": "Spirits are required to raise Recovery to C or higher.",
+    "english": "Fatigue Recovery C or higher requires Spirits.",
     "status": "reviewed"
   },
   {
@@ -36998,7 +36998,7 @@
     "address": "0x820A1D44",
     "source_size": 14,
     "source_hash": "9C99FD5444CF7ED4",
-    "english": "Starter Prep +1",
+    "english": "Starter Cond. +1",
     "status": "reviewed"
   },
   {
@@ -89876,14 +89876,14 @@
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "3FBB3BDC6E377E34",
-    "english": "Recovery determines how quickly players",
+    "english": "Fatigue Recovery determines how fast",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "8B1ED1768C26B72A",
-    "english": "recover from fatigue in Pennant mode.",
+    "english": "fatigue clears in Pennant mode.",
     "status": "reviewed"
   },
   {
@@ -94706,7 +94706,7 @@
     "address": "0x00000000",
     "source_size": 10,
     "source_hash": "F73E09746C840642",
-    "english": "Starter Recovery",
+    "english": "Starter Cond.",
     "status": "reviewed"
   },
   {

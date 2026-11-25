@@ -261,15 +261,25 @@
     {
       "area": "Pennant mission, camp, preparation and offseason help",
       "help_pages_context_reviewed": 34,
-      "help_pages_with_stat_naming_follow_up": 2,
+      "help_pages_with_stat_naming_follow_up": 0,
       "catalogue_rows_corrected": 7,
       "compiled_cases": 40,
       "curation_reproduction_checks": 35,
       "report": "mission-help-accuracy-validation.json",
+      "interactive_validation": false,
+      "initial_help_pages_with_stat_naming_follow_up": 2,
+      "stat_naming_follow_up_report": "starter-conditioning-validation.json"
+    },
+    {
+      "area": "Starter Conditioning and Fatigue Recovery attributes versus preparation commands",
+      "runtime_rows_corrected": 9,
+      "unchanged_command_and_compact_label_cases": 6,
+      "pennant_reward_fields_corrected": 1,
+      "report": "starter-conditioning-validation.json",
       "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 153,
+  "distinct_deepl_input_sources_context_reviewed": 167,
   "reviewed_training_fields_not_requiring_deepl": 1,
-  "context_reviewed_sources_with_wording_follow_up": 2
+  "context_reviewed_sources_with_wording_follow_up": 0
 }

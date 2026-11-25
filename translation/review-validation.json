@@ -22,6 +22,7 @@
   },
   "newspaper_runtime_aliases": 52,
   "checks": [
+    "Aligned the Starter Conditioning attribute (Starter Cond. in compact labels) with its official 2026 reference, keeping Starter Prep commands distinct. Nine runtime rows and one bounded Pennant reward changed. Fifteen compiled cases, six curation checks, the Windows build and all 2223 archive members passed. Live label fit, especially the +1 bonus, remains pending.",
     "Reviewed 34 formatting-sensitive mission/camp/offseason help pages against source and DeepL examples. Corrected seven catalogue rows for Coach Capacity, Boost missions, active-roster eligibility and consistent camp/form wording. Forty compiled cases and 35 curation checks passed; control order, line counts and source metadata are unchanged. Two starter-stat terminology cases and live placement remain open.",
     "Completed the source/DeepL accuracy review of all 56 Spirits training names and 56 descriptions. Preserved level-versus-XP gains, partner requirements, three-turn limits, one-practice bonuses and the custom-player exclusion. Wording is unchanged, with Focus/Pitch Type/Defense following 2026 references. All 112 maintained overrides and 108 compiled lookups passed; display routing and placement remain open.",
     "DeepL comparison responses received for all 9559 distinct known inputs. All 25410 comparison records have source text. Fifty-four XML-control and 22 additional Pennant-control cases have separate meaning-only examples. Ten initial texture-context decisions retain verified baseball terminology; the full manual accuracy review and live placement remain pending.",
@@ -66,7 +67,7 @@
   "interactive_test_this_round": false,
   "layout_report": "layout-validation.json",
   "pending": [
-    "Finish the Starter Prep/Starter Recovery versus Starter Conditioning and Fatigue Recovery terminology review across affected labels and help pages",
+    "Live Starter Conditioning/Starter Cond. labels, +1 bonus width, C-grade Spirits requirements, role-conversion help and the updated event reward",
     "Complete the manual DeepL accuracy review, including 76 formatting-sensitive meaning examples; service responses alone do not approve wording or placement",
     "Live Inact./Power/Basic Stamina/Starter Stamina legend readability and Bat First/Bat Last team-selection placement",
     "Live contract-renewal salary amounts, including the full 万円 suffix, amount-column spacing and wrapping",
@@ -1051,11 +1052,27 @@
   "mission_help_accuracy_review": {
     "area": "Pennant mission, camp, preparation and offseason help",
     "help_pages_context_reviewed": 34,
-    "help_pages_with_stat_naming_follow_up": 2,
+    "help_pages_with_stat_naming_follow_up": 0,
     "catalogue_rows_corrected": 7,
     "compiled_cases": 40,
     "curation_reproduction_checks": 35,
     "report": "mission-help-accuracy-validation.json",
-    "interactive_validation": false
+    "interactive_validation": false,
+    "initial_help_pages_with_stat_naming_follow_up": 2,
+    "stat_naming_follow_up_report": "starter-conditioning-validation.json"
+  },
+  "starter_conditioning_review": {
+    "runtime_rows_corrected": 9,
+    "pennant_reward_fields_corrected": 1,
+    "compiled_exact_cases": 15,
+    "unchanged_command_and_compact_recovery_regressions": 6,
+    "curation_reproduction_checks": 6,
+    "windows_build_passed": true,
+    "archive_members_verified": 2223,
+    "untouched_members_verified": 2112,
+    "previous_help_naming_followups_resolved": 2,
+    "interactive_validation": false,
+    "bonus_label_live_fit_pending": true,
+    "report": "starter-conditioning-validation.json"
   }
 }

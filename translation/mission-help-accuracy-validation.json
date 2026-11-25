@@ -494,5 +494,8 @@
     "Relief preparation recovers little fatigue on game days but behaves like Rest on days without games.",
     "Pitching while assigned to Rest reduces both expected performance and fatigue recovery.",
     "Fielder conversion slightly reduces defense at the original position and improves with repeated camps."
-  ]
+  ],
+  "starter_stat_naming_follow_up_report": "starter-conditioning-validation.json",
+  "starter_stat_naming_follow_up_resolved": true,
+  "live_placement_still_pending": true
 }

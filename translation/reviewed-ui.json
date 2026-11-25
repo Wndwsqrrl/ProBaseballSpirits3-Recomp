@@ -44,7 +44,7 @@
   "0x8205F964": "Ignore Runners",
   "0x8205FB28": "Each pitch has its own Control rating.<BR>Low Control makes Direct Pitching's release<BR>timing harder to judge. A Best Pitch still<BR>improves accuracy, even with low Control.",
   "0x8205FBE8": "Each pitch has its own Stuff rating.<BR>Higher Stuff makes breaking pitches break<BR>later, closer to the batter. It also makes<BR>the Pitch Marker smaller and helps fastballs<BR>retain more of their speed.",
-  "0x8205FCC8": "Recovery determines how quickly players<BR>recover from fatigue in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
+  "0x8205FCC8": "Fatigue Recovery determines how fast<BR>fatigue clears in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
   "0x8205FD78": "A position's Fielding rating affects the<BR>fielder's first step and acceleration.<BR>For infielders, a strong Fielding rating can<BR>be more important than raw Speed.",
   "0x8205FE38": "Catching affects how reliably and quickly<BR>a fielder gets into position to field a ball.<BR>For catchers, it also helps prevent passed<BR>balls and stop pitches in the dirt.",
   "0x8205FEC0": "Throwing affects the accuracy and speed of<BR>a fielder's throws. A high rating reduces<BR>throwing errors and helps the fielder make<BR>reliable throws from awkward positions.",

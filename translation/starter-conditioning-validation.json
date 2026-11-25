@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "13257f8f166afdfc4673400c5ebc1c2b0b10d356",
+  "runtime_rows_corrected": 9,
+  "address_backed_rows_corrected": 6,
+  "fragment_rows_corrected": 3,
+  "changes": [
+    {
+      "address": "0x8205FCC8",
+      "source_hash": "55305299B934B0EA",
+      "source": "疲労回復力はペナントモードで選手を試合に出し<BR>た際に溜まる疲労を回復するスピードです。<BR>これが高い選手は一年間使い続けても安定した能<BR>力を発揮することができます。",
+      "previous_english": "Recovery determines how quickly players<BR>recover from fatigue in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
+      "english": "Fatigue Recovery determines how fast<BR>fatigue clears in Pennant mode.<BR>A high rating helps a player perform<BR>consistently throughout a full season.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 295.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 272.0
+      }
+    },
+    {
+      "address": "0x820889B0",
+      "source_hash": "5872A18F556087B3",
+      "source": "【<RGB 0x00785f>先発<RGB 0x7f7f7f>・<RGB 0x00785f>リリーフ<RGB 0x7f7f7f>の向き不向き】<BR><RGB 0x7d5300>先発調整力<RGB 0x7f7f7f>・<RGB 0x7d5300>疲労回復力<RGB 0x7f7f7f>の違いで、その選手が<RGB 0x00785f>先発<RGB 0x7f7f7f>向きか<RGB 0x00785f>リリーフ<RGB 0x7f7f7f>向きかを考えよう。<BR><BR><RGB 0x7d5300>先発調整力<RGB 0x7f7f7f>の高い投手は、<RGB 0x7d5300>先発調整<RGB 0x7f7f7f>をしたとき、先発スタミナが最大にたまるまでの日数が早いぞ。<BR>つまり<RGB 0x7d5300>短い間隔<RGB 0x7f7f7f>で<RGB 0x00785f>先発<RGB 0x7f7f7f>登板できる。<BR><BR><RGB 0x7d5300>疲労回復力<RGB 0x7f7f7f>の高い投手は、疲労の回復が早くて疲れがたまりにくい。<BR><RGB 0x00785f>リリーフ<RGB 0x7f7f7f>で<RGB 0x7d5300>過酷な連投<RGB 0x7f7f7f>をさせても耐えることができるぞ。<BR><BR>投手たちをうまく使いこなし、君の手でチームを優勝に導こう！<BR><BR><BOTTOM><+LR>切替<○>閉じる        5/5",
+      "previous_english": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> help determine whether a pitcher suits <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>Pitchers with high <RGB 0x7d5300>Starter Recovery<RGB 0x7f7f7f> regain full starting stamina sooner when using <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
+      "english": "[<RGB 0x00785f>Starting<RGB 0x7f7f7f>-<RGB 0x00785f>Relief<RGB 0x7f7f7f> suitability]<BR><RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> and <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> determine suitability for <RGB 0x00785f>starting<RGB 0x7f7f7f> or <RGB 0x00785f>relief<RGB 0x7f7f7f>.<BR><BR>High <RGB 0x7d5300>Starter Conditioning<RGB 0x7f7f7f> restores Starter Stamina sooner with <RGB 0x7d5300>Starter Preparation<RGB 0x7f7f7f>.<BR>They can <RGB 0x7d5300>recover on shorter rest<RGB 0x7f7f7f> and <RGB 0x00785f>start<RGB 0x7f7f7f> more often.<BR><BR>High <RGB 0x7d5300>Fatigue Recovery<RGB 0x7f7f7f> means fatigue clears quickly.<BR><RGB 0x00785f>Relievers<RGB 0x7f7f7f> can handle <RGB 0x7d5300>consecutive appearances<RGB 0x7f7f7f> more easily.<BR><BR>Manage your staff wisely and lead the team to a championship!<BR><BR><BOTTOM><+LR>Pages<○>Close        5/5",
+      "previous_layout_estimate": {
+        "lines": 12,
+        "widest_line_px": 720.0
+      },
+      "new_layout_estimate": {
+        "lines": 12,
+        "widest_line_px": 588.0
+      }
+    },
+    {
+      "address": "0x8208D220",
+      "source_hash": "CE8F47F5BFF7C0AB",
+      "source": "【<RGB 0x00785f>投手コンバート<RGB 0x7f7f7f>】<BR>投手の調整力を、<RGB 0x7d5300>先発タイプ<RGB 0x7f7f7f>か<RGB 0x7d5300>リリーフタイプ<RGB 0x7f7f7f>に少しだけ<RGB 0x7d5300>シフト<RGB 0x7f7f7f>させることができるぞ。<BR><BR><RGB 0x7d5300>先発タイプは先発調整力<RGB 0x7f7f7f>が高く、<RGB 0x7d5300>リリーフタイプは疲労回復力<RGB 0x7f7f7f>が高い。<BR><BR>上手く投手陣が<RGB 0x7d5300>ローテーション<RGB 0x7f7f7f>を回せるように調節していこう。<BOTTOM><+LR>切替<○>閉じる        5/5",
+      "previous_english": "[<RGB 0x00785f>Pitcher Role Conversion<RGB 0x7f7f7f>]<BR>Move preparation toward a<RGB 0x7d5300> starter<RGB 0x7f7f7f> or<RGB 0x7d5300> reliever<RGB 0x7f7f7f> role in<RGB 0x7d5300><BR>small steps<RGB 0x7f7f7f>.<BR><BR><RGB 0x7d5300>Starter types have higher Starter Prep<RGB 0x7f7f7f>, while<RGB 0x7d5300> reliever<BR>types have higher Recovery<RGB 0x7f7f7f>.<BR><BR>Balance your staff to keep the<RGB 0x7d5300> rotation<RGB 0x7f7f7f> running<BR>smoothly.<BOTTOM><+LR>Switch <○>Close     5/5",
+      "english": "[<RGB 0x00785f>Pitcher Role Conversion<RGB 0x7f7f7f>]<BR>Shift conditioning toward a<RGB 0x7d5300> starter<RGB 0x7f7f7f> or<RGB 0x7d5300> reliever<RGB 0x7f7f7f> role in<RGB 0x7d5300><BR>small steps<RGB 0x7f7f7f>.<BR><BR><RGB 0x7d5300>Starters have higher Starter Conditioning<RGB 0x7f7f7f>.<BR><RGB 0x7d5300>Relievers have higher Fatigue Recovery<RGB 0x7f7f7f>.<BR><BR>Balance your staff to keep the<RGB 0x7d5300> rotation<RGB 0x7f7f7f> running<BR>smoothly.<BOTTOM><+LR>Switch <○>Close     5/5",
+      "previous_layout_estimate": {
+        "lines": 9,
+        "widest_line_px": 369.0
+      },
+      "new_layout_estimate": {
+        "lines": 9,
+        "widest_line_px": 359.0
+      }
+    },
+    {
+      "address": "0x820A1260",
+      "source_hash": "E0D0C7F1073321B6",
+      "source": "先発調整力Ｃからスピリッツが必要",
+      "previous_english": "Spirits are required to raise Starter Prep to C or higher.",
+      "english": "Starter Conditioning C or higher requires Spirits.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 384.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 340.0
+      }
+    },
+    {
+      "address": "0x820A1888",
+      "source_hash": "408610BBE3FDC676",
+      "source": "疲労回復力Ｃからスピリッツが必要",
+      "previous_english": "Spirits are required to raise Recovery to C or higher.",
+      "english": "Fatigue Recovery C or higher requires Spirits.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 367.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 324.0
+      }
+    },
+    {
+      "address": "0x820A1D44",
+      "source_hash": "9C99FD5444CF7ED4",
+      "source": "先発調整力＋１",
+      "previous_english": "Starter Prep +1",
+      "english": "Starter Cond. +1",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 107.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 116.0
+      }
+    },
+    {
+      "address": "0x00000000",
+      "source_hash": "3FBB3BDC6E377E34",
+      "source": "疲労回復力はペナントモードで選手を試合に出し",
+      "previous_english": "Recovery determines how quickly players",
+      "english": "Fatigue Recovery determines how fast"
+    },
+    {
+      "address": "0x00000000",
+      "source_hash": "8B1ED1768C26B72A",
+      "source": "た際に溜まる疲労を回復するスピードです。",
+      "previous_english": "recover from fatigue in Pennant mode.",
+      "english": "fatigue clears in Pennant mode."
+    },
+    {
+      "address": "0x00000000",
+      "source_hash": "F73E09746C840642",
+      "source": "先発調整力",
+      "previous_english": "Starter Recovery",
+      "english": "Starter Cond."
+    }
+  ],
+  "preparation_instruction_and_compact_recovery_regressions": [
+    {
+      "address": "0x82065068",
+      "source": "先発調整",
+      "english": "Starter Prep"
+    },
+    {
+      "address": "0x820651D8",
+      "source": "先発準備",
+      "english": "Starter Prep"
+    },
+    {
+      "address": "0x82081248",
+      "source": "先発調整を指示",
+      "english": "Prepare as Starter"
+    },
+    {
+      "address": "0x82062FD4",
+      "source": "【投手調整法・先発調整】",
+      "english": "[Pitcher Preparation: Starting]"
+    },
+    {
+      "address": "0x82062CBC",
+      "source": "疲労回復力",
+      "english": "Recovery"
+    },
+    {
+      "address": "0x820A2110",
+      "source": "疲労回復力＋１",
+      "english": "Recovery +1"
+    }
+  ],
+  "official_2026_references": [
+    {
+      "namespace": "HighSchool",
+      "key": "hsch_data_player_exp_label_recover",
+      "japanese": "疲労回復",
+      "english": "Recovery"
+    },
+    {
+      "namespace": "Mvp",
+      "key": "mvp_ev_text_0025",
+      "japanese": "先発調整力",
+      "english": "Starter Conditioning"
+    },
+    {
+      "namespace": "Mvp",
+      "key": "mvp_ev_text_0010",
+      "japanese": "疲労回復力",
+      "english": "Fatigue Recovery"
+    }
+  ],
+  "context_decisions": [
+    "Starter Conditioning names the stamina-preparation attribute; Starter Cond. is its compact label.",
+    "Starter Prep and Prepare as Starter remain commands; do not globally replace them with the attribute name.",
+    "Fatigue Recovery is the full stat name; Recovery remains a compact label, also supported by the 2026 localization.",
+    "The role-conversion tooltip now distinguishes higher Starter Conditioning from higher Fatigue Recovery.",
+    "C-or-higher tooltips preserve the Spirits threshold while keeping the full stat names."
+  ],
+  "pennant_reward": {
+    "member": "PEMDFIX.CHK",
+    "archive_offset": 1099180032,
+    "size": 292544,
+    "field": "reward",
+    "event": 107,
+    "relative_offset": 3954,
+    "width": 37,
+    "previous_english": "Improve Starter Preparation",
+    "english": "Improve Starter Conditioning",
+    "english_bytes": 28,
+    "before_sha256": "589035bfa580221ea998459aecf541e5d8134e5da22f180bf137d2cd98767afb",
+    "after_sha256": "4bacdf84e036d91ba2150d545eb9e3804929b2cc1d758d86b2ec31098f208f2f",
+    "source": "先発調整力の強化"
+  },
+  "source_fields_and_statuses_unchanged": true,
+  "non_break_control_order_preserved": true,
+  "line_counts_unchanged": true,
+  "changed_prose_maximum_width_not_increased": true,
+  "bonus_label_width_change_px": 9,
+  "bonus_label_live_fit_pending": true,
+  "layout_estimate_scope": "Arial 16 px comparative estimates only; the compact bonus label increases from 107 to 116 px. Live widget width remains unverified.",
+  "curation_checks_passed": true,
+  "compiled_checks_passed": true,
+  "windows_build_passed": true,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": "Live stat-label, +1 bonus, grade-threshold, role-help and event-reward placement; source nomenclature and runtime bounds are checked separately.",
+  "archive_index_unchanged": true,
+  "only_one_37_byte_reward_field_written": true,
+  "curation_reproduction_checks": 6,
+  "compiled_exact_cases": 15,
+  "unchanged_command_and_compact_recovery_regressions": 6,
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "original_pennant_non_reward_bytes_unchanged": true,
+  "other_186_reward_fields_unchanged": true,
+  "windows_executable_sha256": "2e4ad9c2ecb269f21040c1d34ab4ab1e5a3ce0f0efa4242bf7813a202433d27a",
+  "generated_header_sha256": "5ab6ffe2812f9df240e3127d22b9e0ad6c6c1f253bd2f55a29ca7c77be884703",
+  "all_prior_source_hashes_sizes_addresses_and_review_statuses_unchanged": true
+}
