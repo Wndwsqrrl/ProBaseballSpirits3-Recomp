@@ -1,0 +1,2809 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "01c70222d15f82ceefcc2fe567b8dc0b0e8ed0b6",
+  "settings_explanations_context_reviewed": 207,
+  "option_labels_context_reviewed": 48,
+  "option_labels_with_standalone_deepl_response": 45,
+  "option_labels_reviewed_in_full_camera_paragraph_context": 3,
+  "explanation_wording_corrections": 14,
+  "fragment_wording_corrections": 12,
+  "evidence": [
+    {
+      "address": "0x82078180",
+      "source_hash": "BA16A6542E9BECA5",
+      "source": "\\c7なし<BR>コールドゲームなし。<BR>実際のプロ野球と同じルールです。",
+      "english": "\\c7Off<BR>No mercy rule. Use the same rule as professional<BR>baseball.",
+      "deepl_comparison": "\\c7 None <BR> No mercy rule. <BR> The rules are the same as in actual professional baseball.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820781C8",
+      "source_hash": "96A75E57298CA53C",
+      "source": "\\c7１５回<BR>試合終了イニング以降同点であれば１５回まで延長します。<BR>日本シリーズで採用されているルールです。",
+      "english": "\\c715 Innings<BR>If the game is tied after regulation, play up to<BR>15 innings. Used in the Japan Series.",
+      "deepl_comparison": "\\c7 If the score is tied after the 15th inning <BR>, the game will go into extra innings until the 15th inning. <BR> This rule is used in the Japan Series.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078238",
+      "source_hash": "26C0B51AD3EA659B",
+      "source": "\\c7１２回<BR>規定イニング以降同点であれば１２回まで延長します。<BR>公式戦で採用されているルールです。",
+      "english": "\\c712 Innings<BR>If the game is tied after regulation, play up to<BR>12 innings. Used in regular-season games.",
+      "deepl_comparison": "\\c712th Inning<BR>If the score is tied after the required number of innings, the game will go into extra innings up to the 12th inning.<BR>This is the rule used in official games.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820782A0",
+      "source_hash": "BC7AEA03B8DEF786",
+      "source": "\\c7なし<BR>延長戦を行ないません。<BR>規定イニングで設定した回で終了します。<BR>オープン戦やオールスター戦で採用されているルールです。",
+      "english": "\\c7No Extra Innings<BR>End the game after the regulation innings, even<BR>if tied. Used in preseason and All-Star games.",
+      "deepl_comparison": "\\c7 None <BR> No extra innings. <BR> The game ends after the set number of innings. <BR> These are the rules used in exhibition games and All-Star games.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078328",
+      "source_hash": "F148D4F8D59CBF84",
+      "source": "\\c7９回<BR>試合終了イニングを９回にします。",
+      "english": "\\c79 Innings<BR>Set regulation game length to 9 innings.",
+      "deepl_comparison": "\\c79 Innings <BR> Game Ends: Sets the number of innings to 9.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078354",
+      "source_hash": "F217DBB716EB0494",
+      "source": "\\c7５回<BR>試合終了イニングを５回にします。",
+      "english": "\\c75 Innings<BR>Set regulation game length to 5 innings.",
+      "deepl_comparison": "\\c75 Innings <BR> Game: Sets the number of innings to 5.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078380",
+      "source_hash": "B6735249B6627A14",
+      "source": "\\c7３回<BR>試合終了イニングを３回にします。",
+      "english": "\\c73 Innings<BR>Set regulation game length to 3 innings.",
+      "deepl_comparison": "\\c7 Set the number of innings per game to 3.<BR> Set the game to end after 3 innings.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820783AC",
+      "source_hash": "8F807DDDD69A6C24",
+      "source": "\\c7１回<BR>試合終了イニングを１回にします。",
+      "english": "\\c71 Inning<BR>Set regulation game length to 1 inning.",
+      "deepl_comparison": "\\c7 Set the number of innings per game to 1.<BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820783D8",
+      "source_hash": "F8880CB92B739047",
+      "source": "\\c7少なめ<BR>試合のテンポを重視した設定です。",
+      "english": "\\c7Fewer Cutscenes<BR>Keep the game moving with fewer cutscenes.",
+      "deepl_comparison": "\\c7: Low <BR>: Settings that prioritize the pace of the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078408",
+      "source_hash": "5E0380BF5A66B283",
+      "source": "\\c7普通<BR>様々な演出で試合を盛り上げます。",
+      "english": "\\c7Normal Cutscenes<BR>Show a variety of cutscenes during the game.",
+      "deepl_comparison": "\\c7 Normal <BR> Various special effects liven up the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078434",
+      "source_hash": "FCB4A24B665F767A",
+      "source": "\\c7なし<BR>リプレイは流れません。",
+      "english": "\\c7Replays: Off<BR>Do not show replays.",
+      "deepl_comparison": "\\c7 None <BR> Replays do not play.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078458",
+      "source_hash": "A8640AC95C181C88",
+      "source": "\\c7あり<BR>場面に応じて自動でリプレイが再生されます。",
+      "english": "\\c7Replays: On<BR>Automatically show replays when appropriate.",
+      "deepl_comparison": "\\c7 Available <BR> Replays play automatically depending on the situation.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078490",
+      "source_hash": "215D848DC5985FCE",
+      "source": "\\c7なし<BR>試合中にケガをしません。",
+      "english": "\\c7Injuries: Off<BR>Players cannot be injured during games.",
+      "deepl_comparison": "\\c7 None <BR> Will not get injured during a game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820784B4",
+      "source_hash": "254EE240D9D359BC",
+      "source": "\\c7あり<BR>試合中にケガが発生する設定です。",
+      "english": "\\c7Injuries: On<BR>Players can be injured during games.",
+      "deepl_comparison": "\\c7: This setting causes injuries to occur during <BR> game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820784E0",
+      "source_hash": "D0F74D9F8EA0D1E1",
+      "source": "\\c7なし<BR>野手がエラーしない設定です。",
+      "english": "\\c7Errors: Off<BR>Fielders do not commit errors.",
+      "deepl_comparison": "\\c7 None <BR> This setting prevents fielders from making errors.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078508",
+      "source_hash": "9004D08ED6CE2777",
+      "source": "\\c7あり<BR>野手がエラーする設定です。",
+      "english": "\\c7Errors: On<BR>Fielders can commit errors.",
+      "deepl_comparison": "This setting causes \\c7 out and <BR> fielder to commit errors.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078530",
+      "source_hash": "000F81833C36AA49",
+      "source": "\\c7おまかせ<BR>調子はランダムで設定されます。",
+      "english": "\\c7Random Form<BR>Assign player form at random.",
+      "deepl_comparison": "\\c7 Auto <BR> Form is set randomly.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078560",
+      "source_hash": "7FC1A1DE9E08A6F4",
+      "source": "\\c7隠す<BR>調子はランダムで設定されますが、表示を伏せてプレイします。",
+      "english": "\\c7Hidden Form<BR>Assign player form at random and hide the form<BR>icons.",
+      "deepl_comparison": "\\c7 Hide <BR> Form is set randomly, but you play with the display hidden.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820785A8",
+      "source_hash": "70E765604D76DA0A",
+      "source": "\\c7絶不調<BR>調子を絶不調にします。",
+      "english": "\\c7Very Poor Form<BR>Set all players to very poor form.",
+      "deepl_comparison": "\\c7: In a Slump <BR>: Sets the player's form to \"In a Slump.\"",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820785CC",
+      "source_hash": "84B69AB96C17311E",
+      "source": "\\c7不調<BR>調子を不調にします。",
+      "english": "\\c7Poor Form<BR>Set all players to poor form.",
+      "deepl_comparison": "\\c7 Slump <BR> Sets the player's condition to \"Slump.\"",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820785EC",
+      "source_hash": "F34D5224C8399372",
+      "source": "\\c7普通<BR>調子を普通にします。",
+      "english": "\\c7Normal Form<BR>Set all players to normal form.",
+      "deepl_comparison": "\\c7 Normal <BR> Sets form to normal.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207860C",
+      "source_hash": "8BEA93117046DBCA",
+      "source": "\\c7好調<BR>調子を好調にします。",
+      "english": "\\c7Good Form<BR>Set all players to good form.",
+      "deepl_comparison": "\\c7 In Good Form <BR> Sets the player’s form to “In Good Form.”",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207862C",
+      "source_hash": "E9103481A488E3A6",
+      "source": "\\c7絶好調<BR>調子を絶好調にします。",
+      "english": "\\c7Excellent Form<BR>Set all players to excellent form.",
+      "deepl_comparison": "\\c7 Top Form <BR> Sets the player's form to \"Top Form.\"",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078650",
+      "source_hash": "D600869BE59992C8",
+      "source": "\\c7解説者<BR>試合の解説者を選べます。",
+      "english": "\\c7Analyst<BR>Choose the game's color commentator.",
+      "deepl_comparison": "\\c7 Commentator: You can select a commentator for <BR> game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078678",
+      "source_hash": "56FB4EFF4FAF87D5",
+      "source": "\\c7使用球<BR>試合で使用するボールを選べます。",
+      "english": "\\c7Ball Type<BR>Choose the ball used in the game.",
+      "deepl_comparison": "\\c7 Ball to Use<BR> Select the ball to be used in the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820786A8",
+      "source_hash": "9386750BF43C23CA",
+      "source": "\\c7コールド<BR>コールドゲームの設定ができます。<BR>決められた点差になったイニングで試合を終了するルールです。",
+      "english": "\\c7Mercy Rule<BR>Choose the run differential that ends the game<BR>early. The game ends in the inning when that<BR>lead is reached.",
+      "deepl_comparison": "You can set up \\c7-run and <BR>-run mercy rule games. <BR>This rule ends the game in the inning when a predetermined point differential is reached.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078718",
+      "source_hash": "3D28EA125A041CFC",
+      "source": "\\c7延長戦<BR>延長イニングが選べます。",
+      "english": "\\c7Extra Innings<BR>Choose the extra-inning limit.",
+      "deepl_comparison": "You can choose between \\c7 extra innings or <BR> extra inning.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078740",
+      "source_hash": "3840E9202678CDA2",
+      "source": "\\c7規定イニング<BR>試合終了イニングを選べます。",
+      "english": "\\c7Regulation Innings<BR>Choose the regulation game length.",
+      "deepl_comparison": "You can select \\c7 regulation innings or <BR> innings to end the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078770",
+      "source_hash": "9773FEDDA6EC6091",
+      "source": "\\c7デモ<BR>試合中のデモの頻度設定です。",
+      "english": "\\c7Cutscenes<BR>Choose how often cutscenes appear<BR>during games.",
+      "deepl_comparison": "\\c7 Demo <BR> Sets the frequency of in-game demos.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078798",
+      "source_hash": "5F5C9F611000F3AC",
+      "source": "\\c7リプレイ<BR>リプレイの有無を選べます。",
+      "english": "\\c7Replays<BR>Turn replays on or off.",
+      "deepl_comparison": "\\c7 Replay <BR> You can choose whether to enable replays.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820787C4",
+      "source_hash": "729BC9982E242C86",
+      "source": "\\c7ケガ<BR>試合中のケガの有無を選べます。",
+      "english": "\\c7Injuries<BR>Allow or prevent in-game injuries.",
+      "deepl_comparison": "\\c7 Injuries <BR> Select whether injuries occur during the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820787F0",
+      "source_hash": "7F19BBD861744A43",
+      "source": "\\c7エラー<BR>エラーやパスボール、ワイルドピッチの有無を選べます。",
+      "english": "\\c7Errors<BR>Allow or prevent fielding errors, passed balls,<BR>and wild pitches.",
+      "deepl_comparison": "\\c7 errors<BR> errors: You can choose whether to include errors, passed balls, or wild pitches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078834",
+      "source_hash": "9ADC336B3339915E",
+      "source": "\\c7調子マーク<BR>調子マークのタイプを選べます。",
+      "english": "\\c7Form Icons<BR>Choose how player form is displayed.",
+      "deepl_comparison": "\\c7 Form Indicator <BR> You can select the type of form indicator.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078AC0",
+      "source_hash": "4F3E2B59A81DEFD2",
+      "source": "\\c7情報＞操作ガイド表示＞なし<BR>ゲーム中に操作ボタンガイドを表示しません。",
+      "english": "\\c7Info / Control Guide: Off<BR>Hide the on-screen button guide during games.",
+      "deepl_comparison": "\\c7 Information > Display Control Guide > None <BR> Do not display the control button guide during the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078B10",
+      "source_hash": "82C8E68BE29002D5",
+      "source": "\\c7情報＞操作ガイド表示＞あり<BR>ゲーム中に操作ボタンガイドを表示します。<BR>初心者にはおすすめです。",
+      "english": "\\c7Info / Control Guide: On<BR>Show the on-screen button guide.<BR>Recommended for beginners.",
+      "deepl_comparison": "\\c7 Information > Display Control Guide > On <BR> Displays the control button guide during the game. <BR> Recommended for beginners.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078B78",
+      "source_hash": "CCD5D75D5ADB6A60",
+      "source": "\\c7情報＞能力系表示＞なし<BR>投手のスタミナゲージ、発動中特殊能力を表示しません。<BR>２人対戦で相手に情報を知られたくないときに選びます。<BR>また、投手の持ち球情報を見せたくないときは投球設定メニューの球種表示<BR>をなしにしてみてください。",
+      "english": "\\c7Info / Ability Display: Off<BR>Hide pitcher stamina and active special<BR>abilities. Useful in two-player games to conceal<BR>information.<BR>To hide a pitcher's repertoire too, turn off<BR>Pitch Display in the pitching settings.",
+      "deepl_comparison": "\\c7 Information > Ability Display > None <BR> Do not display the pitcher’s stamina gauge or active special abilities. <BR> Select this option when playing a two-player match and you do not want your opponent to see your information. <BR> Also, if you do not want to reveal a pitcher’s pitch repertoire, try setting “Pitch Type Display” <BR> to “None” in the pitching settings menu.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078C68",
+      "source_hash": "CD373CFD8581B118",
+      "source": "\\c7情報＞能力系表示＞あり<BR>投手のスタミナゲージ、発動中特殊能力を表示します。<BR>標準の設定です。",
+      "english": "\\c7Info / Ability Display: On<BR>Show pitcher stamina and active special<BR>abilities. This is the standard setting.",
+      "deepl_comparison": "\\c7 Information > Ability Display > On <BR> Displays the pitcher’s stamina gauge and active special abilities. <BR> This is the default setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078CD0",
+      "source_hash": "5579DA18062947AA",
+      "source": "\\c7情報＞情報表示＞少なめ<BR>投打画面で選手名や成績などの情報を表示しません。<BR>投打画面の情報表示物が最小限になります。<BR>できるだけシンプルな画面でプレイしたい人向けの設定です。",
+      "english": "\\c7Info / Player Info: Minimal<BR>Hide names and statistics on the pitching and<BR>batting screens for a simpler display.",
+      "deepl_comparison": "\\c7 Information > Information Display > Minimal <BR> Player names, stats, and other information are not displayed on the batting and pitching screens. <BR> Information displayed on the batting and pitching screens is kept to a minimum. <BR> This setting is for players who want to play with as simple a screen as possible.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078D88",
+      "source_hash": "91652F93194F4EC4",
+      "source": "\\c7情報＞情報表示＞ふつう<BR>投打画面で選手名や成績などの情報を表示します。<BR>標準の設定です。",
+      "english": "\\c7Info / Player Info: Normal<BR>Show names and statistics on the pitching and<BR>batting screens. This is the standard setting.",
+      "deepl_comparison": "\\c7 Information > Display Information > Normal <BR> Displays information such as player names and statistics on the pitching and batting screens. <BR> This is the default setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078DE8",
+      "source_hash": "6F869E54696F24C6",
+      "source": "\\c7作戦＞ブロックサイン入力表示＞なし<BR>なにも表示されません。<BR>２人対戦で相手にばれずにブロックサインを使いたいときの設定です。",
+      "english": "\\c7Tactics / Sign Display: Off<BR>Hide team signs so your opponent cannot see your<BR>instructions in two-player games.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Input Display > None <BR> Nothing is displayed. <BR> This setting is for when you want to use a block sign without your opponent noticing in a two-player match.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078E70",
+      "source_hash": "10D29CA97641550D",
+      "source": "\\c7作戦＞ブロックサイン入力表示＞サイン名のみ<BR>指示されたサイン名のみ表示されます。",
+      "english": "\\c7Tactics / Sign Display: Name Only<BR>Show only the name of the selected team sign.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Input Display > Sign Name Only <BR> Only the specified sign name is displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078EC8",
+      "source_hash": "324D1745336E27CC",
+      "source": "\\c7作戦＞ブロックサイン入力表示＞ガイド画面<BR>詳細な説明画面が表示されます。",
+      "english": "\\c7Tactics / Sign Display: Guide<BR>Show a detailed explanation of the team sign.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Input Display > Guide Screen <BR> A detailed explanation screen will be displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078F18",
+      "source_hash": "1B2BA0973AE04FAA",
+      "source": "\\c7作戦＞ブロックサイン指示＞マニュアル<BR>自分でブロックサイン指示を出します。",
+      "english": "\\c7Tactics / Team Signs: Manual<BR>Give team-sign instructions yourself.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Instructions > Manual <BR> You give the block sign instructions yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078F68",
+      "source_hash": "9BD7987E4130A54F",
+      "source": "\\c7作戦＞ブロックサイン指示＞オート<BR>状況に応じてブロックサイン指示が出ます。<BR>自分で変更もできます。",
+      "english": "\\c7Tactics / Team Signs: Auto<BR>Call team signs for the situation. You can<BR>change them yourself.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Instructions > Auto <BR> Block sign instructions are issued based on the situation. <BR> You can also change them yourself.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Tactics / Team Signs: Auto<BR>Suggest team signs for the situation. You can<BR>change them yourself.",
+      "previous_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 319.0
+      },
+      "new_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 289.0
+      }
+    },
+    {
+      "address": "0x82078FD8",
+      "source_hash": "3E97709E1CF611ED",
+      "source": "\\c7作戦＞守備シフト指示＞慎重<BR>状況に応じて最低限の守備シフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "\\c7Tactics / Shifts: Cautious<BR>Call only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions > Cautious <BR> Minimum defensive shift instructions are issued based on the situation. <BR> You can also make changes yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Tactics / Shifts: Cautious<BR>Suggest only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 342.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 312.0
+      }
+    },
+    {
+      "address": "0x82079080",
+      "source_hash": "F557E4CBD475716B",
+      "source": "\\c7作戦＞守備シフト指示＞セオリー<BR>状況に応じてシフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "\\c7Tactics / Shifts: Conventional<BR>Call defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions > Theory <BR> Shift instructions are issued based on the situation. <BR> You can also change them yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Tactics / Shifts: Conventional<BR>Suggest defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 329.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 329.0
+      }
+    },
+    {
+      "address": "0x82079120",
+      "source_hash": "E75B477DF22BD80D",
+      "source": "作戦＞守備シフト指示＞積極<BR>状況と相手選手の能力に応じて守備シフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "Tactics / Shifts: Aggressive<BR>Call shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
+      "deepl_comparison": "Strategy > Defensive Shift Instructions > Aggressive <BR>: Defensive shift instructions are issued based on the situation and the opposing players’ abilities. <BR> You can also change them yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "Tactics / Shifts: Aggressive<BR>Suggest shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 347.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 347.0
+      }
+    },
+    {
+      "address": "0x820791C8",
+      "source_hash": "503FAA66DC2E2C0F",
+      "source": "\\c7作戦＞監督操作＞オート<BR>選手交代や守備シフトをＣＯＭにまかせます。<BR>チーム別に設定された方針や起用法にしたがって選手交代を行います。<BR>守備シフトも積極的に指示します。<BR>プレイヤーが守備シフトを変更したり選手交代することもできます。",
+      "english": "\\c7Tactics / Manager: Auto<BR>The CPU makes substitutions using each team's<BR>strategy and player roles, and actively calls<BR>defensive shifts. You can still make changes<BR>yourself.",
+      "deepl_comparison": "\\c7 Strategy > Manager Controls > Auto <BR> Let the COM handle player substitutions and defensive shifts. <BR> Player substitutions are made according to each team’s set policies and lineup strategies. <BR> Actively issue instructions for defensive shifts. <BR> The player can also change defensive shifts or make player substitutions.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820792C0",
+      "source_hash": "373BAE5B1B25E7EA",
+      "source": "\\c7作戦＞監督操作＞マニュアル<BR>選手交代や守備シフトを自分で操作します。<BR>プレイヤーが操作しない限り選手交代は行われません。",
+      "english": "\\c7Tactics / Manager: Manual<BR>Make substitutions and call defensive shifts<BR>yourself. No substitutions occur unless you make<BR>them.",
+      "deepl_comparison": "\\c7 Strategy > Manager Controls > Manual <BR> Manually control player substitutions and defensive shifts. <BR> Player substitutions will not occur unless the player initiates them.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079340",
+      "source_hash": "C1D7C14602F488D8",
+      "source": "\\c7守備＞カーソル切替＞オート<BR>プレイヤーの野手操作に反応してカーソルを切り替えます。<BR>プレイヤーの操作をチェックして、打球に近づこうとしている野手を自動判<BR>別します。",
+      "english": "\\c7Fielding / Switching: Auto<BR>Switch fielders in response to your inputs. The<BR>game identifies which fielder you are trying to<BR>move toward the ball.",
+      "deepl_comparison": "\\c7 Defense > Cursor Switch > Auto <BR> Switches the cursor in response to a player’s fielding controls. <BR> Monitors player controls and automatically identifies fielders who are moving toward the batted ball. <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820793F0",
+      "source_hash": "DB6E6C1C65DBA155",
+      "source": "\\c7守備＞カーソル切替＞セミオート　　　　　　　　　　　　　パワプロ準拠<BR>プレイヤーの野手操作に反応し過ぎずカーソルを切り替えます。<BR>打球に近い野手を自動判別します。",
+      "english": "\\c7Fielding / Switching: Semi-Auto<BR>Switch to the fielder nearest the ball, with<BR>less sensitivity to your inputs. Uses the Power<BR>Pros approach.",
+      "deepl_comparison": "\\c7 Defense > Cursor Switch > Semi-Auto　　　　　　　　　　　　　Power Pro-compliant<BR> Switches the cursor without overreacting to the player’s fielding controls.<BR> Automatically identifies the fielder closest to the batted ball.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820794A0",
+      "source_hash": "1A287EEB12199A49",
+      "source": "\\c7守備＞カーソル切替＞マニュアル<BR><R2>ボタンを押したときに近くの野手にカーソルを切り替えます。<BR>打球に触れると自動的に切り替わります。",
+      "english": "\\c7Fielding / Switching: Manual<BR>Press <R2> to switch to a nearby fielder.<BR>Control switches automatically when a fielder<BR>touches the ball.",
+      "deepl_comparison": "\\c7 Defense > Cursor Switch > Manual <BR> Pressing the <R2> button switches the cursor to a nearby fielder. <BR> The cursor switches automatically when it comes into contact with a batted ball.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079530",
+      "source_hash": "5466A2F6450E7672",
+      "source": "\\c7守備＞野手カーソル表示＞なし<BR>野手カーソルを表示しません。",
+      "english": "\\c7Fielding / Cursor: Off<BR>Hide the fielder cursor.",
+      "deepl_comparison": "\\c7 Defense > Fielders' Cursor Display > None <BR> Do not display the fielders' cursor.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079570",
+      "source_hash": "D7735B89ADF86998",
+      "source": "\\c7守備＞野手カーソル表示＞名前のみ<BR>名前のみ表示します。",
+      "english": "\\c7Fielding / Cursor: Name Only<BR>Show only the fielder's name.",
+      "deepl_comparison": "\\c7 Defense > Fielders Cursor Display > Name Only <BR> Displays only the name.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820795B0",
+      "source_hash": "345945276F268D03",
+      "source": "\\c7守備＞野手カーソル表示＞頭上カーソル　　　　　　　　　　パワプロ準拠<BR>頭上に▼型のカーソルを表示します。",
+      "english": "\\c7Fielding / Cursor: Overhead<BR>Show a triangular cursor above the fielder. Uses<BR>the Power Pros approach.",
+      "deepl_comparison": "\\c7 Defense > Fielders' Cursor Display > Overhead Cursor　　　　　　　　　　Power Pro-compliant<BR> Displays a ▼-shaped cursor above the player's head.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079620",
+      "source_hash": "4312ECAACE46D3CB",
+      "source": "\\c7守備＞野手カーソル表示＞足元カーソル<BR>足元に○型のカーソルを表示し、頭上に名前を表示します。",
+      "english": "\\c7Fielding / Cursor: At Feet<BR>Show a circular cursor at the fielder's feet and<BR>their name above their head.",
+      "deepl_comparison": "\\c7 Defense > Fielders' Cursor Display > Foot Cursor <BR> Displays a circle-shaped cursor at the player's feet and their name above their head.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079688",
+      "source_hash": "A832265DB5932F84",
+      "source": "\\c7守備＞落下地点表示＞なし<BR>フライの落下地点を表示しません。<BR>守備がかなり難しくなる上級者向けの設定です。",
+      "english": "\\c7Fielding / Landing Point: Off<BR>Hide the fly-ball landing marker. A challenging<BR>setting for advanced players.",
+      "deepl_comparison": "\\c7 Defense > Show Landing Spot > None <BR> Does not display the landing spot of fly balls. <BR> This setting is intended for advanced players and makes defense significantly more difficult.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820796F8",
+      "source_hash": "E1AD64E511986A10",
+      "source": "\\c7守備＞落下地点表示＞あり<BR>フライの落下地点と捕球ゾーンが表示されます。<BR>落下地点は風で移動するので風向きに注意！<BR>標準の設定です。",
+      "english": "\\c7Fielding / Landing Point: On<BR>Show the landing marker and catch zone.<BR>Wind moves the marker, so watch its direction!<BR>This is the standard setting.",
+      "deepl_comparison": "\\c7Defense > Show Landing Spot > On<BR>The landing spot of fly balls and the catch zone are displayed.<BR>The landing spot shifts with the wind, so pay attention to the wind direction!<BR>This is the default setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079788",
+      "source_hash": "AD6A1B1DC3C53DC1",
+      "source": "\\c7守備＞パワー送球＞オート<BR>選手の能力データや状況で送球の強さと正確さが決まります。",
+      "english": "\\c7Fielding / Power Throws: Auto<BR>Throw strength and accuracy depend on the<BR>player's abilities and the situation.",
+      "deepl_comparison": "\\c7 Defense > Power Throw > Auto <BR> The strength and accuracy of a throw are determined by the player's ability data and the situation.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820797E0",
+      "source_hash": "808C10F90EBCBB91",
+      "source": "\\c7守備＞パワー送球＞マニュアル<BR>送球ボタンを押し、離すまでの時間で、強さと正確さが決まります。<BR>送球ボタンを長く押すほど、強い送球になります。<BR>逆に送球ボタンを短く押すほど、正確な送球になります。",
+      "english": "\\c7Fielding / Power Throws: Manual<BR>Hold the throw button, then release it. A longer<BR>hold gives a stronger throw; a shorter hold<BR>gives a more accurate throw.",
+      "deepl_comparison": "\\c7 Defense > Power Throws > Manual <BR> The strength and accuracy of your throw are determined by how long you hold down the throw button. <BR> The longer you hold down the throw button, the harder the throw will be. <BR> Conversely, the shorter you press the throw button, the more accurate the throw will be.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820798B0",
+      "source_hash": "2BA43EC27094D531",
+      "source": "\\c7守備＞送球タイプ＞塁指定＋Ａ　（Ｂタイプ）<BR>塁指定と送球ボタンの組み合わせで送球する方式です。<BR><+>方向パッドと<×>ボタンで送球します。<BR><BR>注）守備画面をリバースに設定していると、操作が上下左右逆になります。",
+      "english": "\\c7Fielding / Throw Controls: Type B<BR>Choose a base with <+> and throw with <×>.<BR>Note: the base directions are reversed when the<BR>fielding view is set to Reverse.",
+      "deepl_comparison": "\\c7 Defense > Throwing Type > Base Selection + A (Type B) This system involves throwing by combining the <BR> base selection with the throw button. <BR> Use the <+>-direction pad and <×> button to throw. <BR><BR> Note: If the defense screen is set to \"Reverse,\" the controls will be inverted (up/down and left/right).",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079990",
+      "source_hash": "A590D01115075398",
+      "source": "\\c7守備＞送球タイプ＞ＡＢＸＹ　（Ａタイプ）<BR>ワンボタンで送球する方式です。<BR><×><○><□><△>それぞれ各塁に対応しています。<BR><BR>注）守備画面をリバースに設定していると、操作が上下左右逆になります。",
+      "english": "\\c7Fielding / Throw Controls: Type A<BR>Throw to each base with its assigned button:<BR><×><○><□><△>.<BR>Note: the base directions are reversed when the<BR>fielding view is set to Reverse.",
+      "deepl_comparison": "\\c7Defense > Throwing Type > ABXY (Type A) <BR>This is a one-button throwing system. <BR><×><○><□><△>Each button corresponds to a specific base. <BR><BR>Note: If the defense screen is set to “Reverse,” the controls will be inverted (up/down and left/right).",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079A60",
+      "source_hash": "0000E309FB2823EA",
+      "source": "\\c7守備＞フォーメーション＞プロ<BR>状況に応じて不必要なベースカバーを控え、なるべくバックアップやランダ<BR>ンプレイに野手を回す守備隊形。<BR>上級者向けの設定です。",
+      "english": "\\c7Fielding / Formation: Pro<BR>Avoid unnecessary base coverage and send more<BR>fielders to back up plays or handle rundowns.<BR>For advanced players.",
+      "deepl_comparison": "\\c7Defense > Formations > Pro <BR>A defensive formation that minimizes unnecessary base coverage depending on the situation and assigns fielders to backup and run-<BR>down plays as much as possible. <BR>This setting is intended for advanced players.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079B08",
+      "source_hash": "6E8024F423801A49",
+      "source": "\\c7守備＞フォーメーション＞ベーシック　　　　　　　　　　　パワプロ準拠<BR>ベースカバー最重視の守備隊形。<BR>初級者向けの設定です。<BR>パワプロに慣れてる人にもおすすめ。",
+      "english": "\\c7Fielding / Formation: Basic<BR>Prioritize covering the bases. Recommended for<BR>beginners and players used to Power Pros.",
+      "deepl_comparison": "\\c7Defense > Formations > Basic　　　　　　　　　　　Power Pro-compliant<BR>A defensive formation that prioritizes base coverage above all else.<BR>Settings designed for beginners.<BR>Also recommended for those familiar with Power Pro.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079BB8",
+      "source_hash": "C13015AF35981211",
+      "source": "\\c7守備＞フォーメーション＞スタンダード<BR>バックアップにも対応しつつベースカバーを重視する守備隊形。<BR>標準の設定です。",
+      "english": "\\c7Fielding / Formation: Standard<BR>Prioritize base coverage while also backing up<BR>plays. This is the standard setting.",
+      "deepl_comparison": "\\c7 Defense > Formations > Standard <BR> A defensive formation that prioritizes base coverage while also providing backup support. <BR> This is the default setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079C38",
+      "source_hash": "21899D8AF329FCF7",
+      "source": "\\c7守備＞守備操作＞オート<BR>野手の操作をすべてＣＯＭにまかせます。<BR>初級者向けの設定です。",
+      "english": "\\c7Fielding / Control: Auto<BR>The CPU controls all fielding. For beginners.",
+      "deepl_comparison": "\\c7Defense > Defense Controls > Auto <BR>Leaves all fielder controls to the COM. <BR>This setting is for beginners.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079C98",
+      "source_hash": "C8ECA870F185636C",
+      "source": "\\c7守備＞守備操作＞アシスト<BR>捕球までの操作をＣＯＭにまかせます。<BR>初級者向けの設定です。",
+      "english": "\\c7Fielding / Control: Assist<BR>The CPU handles fielding until the ball is<BR>caught. For beginners.",
+      "deepl_comparison": "\\c7Defense > Defense Controls > Assist <BR>Let the COM handle the controls up to the catch. <BR>This setting is for beginners.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079CF8",
+      "source_hash": "7859DD9BFA095A48",
+      "source": "\\c7守備＞守備操作＞マニュアル<BR>野手を自分で操作します。<BR>標準のおすすめ設定です。",
+      "english": "\\c7Fielding / Control: Manual<BR>Control the fielders yourself. This is the<BR>recommended standard setting.",
+      "deepl_comparison": "\\c7 Defense > Defense Controls > Manual <BR> Manually control the fielder. <BR> These are the standard recommended settings.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079D50",
+      "source_hash": "EE0D9D3C7C085C90",
+      "source": "\\c7ランナー＞スタート判断＞マニュアル<BR>自分で進塁・帰塁のスタートを切ります。（打った直後やパスボール時）<BR>操作しない限り基本的に待機状態になります。<BR>すばやく状況判断して進塁・帰塁の操作が必要になります。<BR>上級者向けの設定です。",
+      "english": "\\c7Running / Start Decisions: Manual<BR>Start advancing or returning yourself after<BR>contact or a passed ball. Runners generally wait<BR>for your input. Quick decisions are essential.<BR>For advanced players.",
+      "deepl_comparison": "\\c7 Runners > Start Decision > Manual <BR> You manually initiate the start to advance or return to base (immediately after hitting the ball or on a passed ball). <BR> Unless you input a command, the player will generally remain in a standby state. <BR> You must quickly assess the situation and manually control the player to advance or return to base. <BR> This setting is intended for advanced players.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079E40",
+      "source_hash": "45638CB5AFF3807F",
+      "source": "\\c7ランナー＞スタート判断＞ベーシック　　　　　　　　　　　パワプロ準拠<BR>基本的にオートで進塁スタートします。<BR>盗塁は自分で指示します。",
+      "english": "\\c7Running / Start Decisions: Basic<BR>Runners generally start advancing automatically.<BR>You call steals yourself. Uses the Power Pros<BR>approach.",
+      "deepl_comparison": "\\c7 Runners > Start Decision > Basic　　　　　　　　　　　Based on Power Pro <BR> Runners generally advance automatically. <BR> You must manually call for a stolen base.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079ED0",
+      "source_hash": "466441A5B1BC1E83",
+      "source": "\\c7ランナー＞スタート判断＞アシスト<BR>オートで進塁・帰塁のスタートを切ってくれます。<BR>盗塁は自分で指示します。",
+      "english": "\\c7Running / Start Decisions: Assist<BR>Runners start advancing or returning<BR>automatically. You call steals yourself.",
+      "deepl_comparison": "\\c7 Runners > Start Decision > Assist <BR> The game automatically initiates the start for advancing to the next base or returning to the base. <BR> You must issue the command for a stolen base yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079F48",
+      "source_hash": "78195E43813374EC",
+      "source": "\\c7ランナー＞ランナー操作＞オート<BR>走塁をＣＯＭにまかせます。<BR>ＣＯＭが操作してくれますが盗塁のみ自分で操作します。",
+      "english": "\\c7Running / Control: Auto<BR>The CPU handles baserunning. You still control<BR>steals yourself.",
+      "deepl_comparison": "\\c7 Runners > Runner Controls > Auto <BR> Let the COM handle base running. <BR> The COM controls the runners, but you control stolen bases yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82079FC0",
+      "source_hash": "EAE5E8F0E2F2E4AA",
+      "source": "\\c7ランナー＞ランナー操作＞アシスト<BR>走塁をある程度オートで操作してくれます。<BR>盗塁も自分で操作します。",
+      "english": "\\c7Running / Control: Assist<BR>Baserunning is partly automatic. You still<BR>control steals yourself.",
+      "deepl_comparison": "\\c7 Runners > Runner Controls > Assist <BR> The game handles base running to some extent automatically. <BR> You control stolen bases yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A030",
+      "source_hash": "23E34904D935C603",
+      "source": "\\c7ランナー＞ランナー操作＞マニュアル<BR>走塁を自分で操作します。",
+      "english": "\\c7Running / Control: Manual<BR>Control baserunning yourself.",
+      "deepl_comparison": "\\c7 Runners > Runner Controls > Manual <BR> Control base running yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A074",
+      "source_hash": "47A38F7426A11A96",
+      "source": "\\c7投球＞キャッチャー返球＞カット<BR>返球をカットします。",
+      "english": "\\c7Pitching / Return Throw: Skip<BR>Skip the catcher's throw back to the pitcher.",
+      "deepl_comparison": "\\c7 Pitching > Catcher's Return > Cut <BR> Cut the return throw.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A0B0",
+      "source_hash": "F9DD4A30AAFFB7E0",
+      "source": "\\c7投球＞キャッチャー返球＞あり<BR>カットしません。<BR>ボタンを押すことでカットできます。",
+      "english": "\\c7Pitching / Return Throw: Show<BR>Show the catcher's throw back to the pitcher.<BR>Press a button to skip it.",
+      "deepl_comparison": "\\c7 Pitching > Return to Catcher > Available <BR> Do not cut. <BR> You can cut by pressing the button.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A110",
+      "source_hash": "048D819E2A30F8C4",
+      "source": "\\c7投球＞投球フォーム＞クイック<BR>常にランナーがいるときのフォームで投げる設定です。",
+      "english": "\\c7Pitching / Delivery: Quick<BR>Always pitch from the delivery used with runners<BR>on base.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Form > Quick <BR> This setting configures the pitcher to throw using the form used when there are always runners on base.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A168",
+      "source_hash": "1603DD09C8E2524E",
+      "source": "\\c7投球＞投球フォーム＞リアル<BR>状況に応じたフォームで投げる設定です。",
+      "english": "\\c7Pitching / Delivery: Realistic<BR>Use a pitching delivery suited to the situation.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Form > Real <BR>: This setting allows you to pitch using a form that adapts to the situation.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A1B0",
+      "source_hash": "3812904A4DF391D4",
+      "source": "\\c7投球＞投球ポイント＞オフ<BR>投球のリリース後、打撃ポイントが表示されません。",
+      "english": "\\c7Pitching / Pitch Marker: Off<BR>Hide the pitch marker after release.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Off <BR> After releasing the pitch, the batting points are not displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A200",
+      "source_hash": "4BFD43A202E2219B",
+      "source": "\\c7投球＞投球ポイント＞リアル<BR>投球のリリース後、軌道に合わせて打撃ポイントが移動します。<BR>上級者向けの設定です。",
+      "english": "\\c7Pitching / Pitch Marker: Realistic<BR>After release, the marker follows the pitch's<BR>path. For advanced players.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Real <BR> After releasing the pitch, the batting point moves along the pitch’s trajectory. <BR> This setting is intended for advanced players.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A278",
+      "source_hash": "2C71868BB7070FB8",
+      "source": "\\c7投球＞投球ポイント＞イージー<BR>投球のリリース後、最終的な打撃ポイントが表示されます。",
+      "english": "\\c7Pitching / Pitch Marker: Easy<BR>After release, show the pitch's final location.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Easy <BR> After releasing the pitch, the final batting point is displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A2D8",
+      "source_hash": "836BF6F1B81492C4",
+      "source": "\\c7投球＞投球ポイント＞リアルサポート<BR>投球のリリース後、打撃ポイントと投球軌道を反映したポイントが表示されます。<BR>慣れてきたらリアルもおすすめです。",
+      "english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Real Support <BR> After releasing the pitch, points reflecting the batter’s stance and the pitch’s trajectory will be displayed. <BR> Once you get the hang of it, we recommend trying “Real” mode.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 307.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 310.0
+      }
+    },
+    {
+      "address": "0x8207A378",
+      "source_hash": "CDE67AFB3811A1B1",
+      "source": "\\c7投球＞投球ポイント＞ノーマル<BR>投球のリリース後、変化球に合わせて打撃ポイントが移動します。",
+      "english": "\\c7Pitching / Pitch Marker: Normal<BR>After release, the marker moves with the pitch's<BR>break.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Normal <BR> After releasing the pitch, the batting target moves to match the breaking ball.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A3D8",
+      "source_hash": "818CAE611F8A4E30",
+      "source": "\\c7投球＞球種表示＞持ち球のみ<BR>投手の持ち球パターンのみ確認できます<BR>２人対戦のときの標準設定です。",
+      "english": "\\c7Pitching / Pitch Display: Repertoire<BR>Show only the pitcher's available pitch types.<BR>Standard for two-player games.",
+      "deepl_comparison": "\\c7 Pitching > Pitch Type Display > Only Pitcher's Repertoire <BR> You can check only the pitcher's repertoire. <BR> This is the default setting for two-player matches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A440",
+      "source_hash": "D7FF13AC5A4B2015",
+      "source": "\\c7投球＞球種表示＞なし<BR>球種情報は表示されません。<BR>２人対戦で相手に情報を知られたくないときに選びます。",
+      "english": "\\c7Pitching / Pitch Display: Off<BR>Hide pitch information. Useful for concealing it<BR>from an opponent in two-player games.",
+      "deepl_comparison": "\\c7 Pitching > Pitch Type Display > None <BR> Pitch type information is not displayed. <BR> Select this option when playing a two-player match and you don’t want your opponent to see your information.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A4B0",
+      "source_hash": "6EF8F4FD844BA12A",
+      "source": "\\c7投球＞球種表示＞持ち球＋球種<BR>投手の持ち球パターンと選択中球種の球威・コントロール・変化量が表示さ<BR>れます。<BR>１人対戦のときの標準設定です。",
+      "english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire plus the selected pitch's<BR>Pitch Power, Control, and Break. Standard for<BR>single-player games.",
+      "deepl_comparison": "\\c7 Pitching > Pitch Type Display > Repertoire + Pitch Type <BR> Displays the pitcher’s repertoire and the power, control, and movement of the currently selected pitch. <BR> <BR> These are the default settings for single-player matches.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire and the selected pitch's<BR>Stuff, Control, and Break ratings. Standard for<BR>single-player games.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 320.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 322.0
+      }
+    },
+    {
+      "address": "0x8207A548",
+      "source_hash": "CB306C8BA479D429",
+      "source": "\\c7投球＞投球カーソル＞表示しない<BR>投球カーソルを表示しません。<BR>投球フォームの動きを見ながらリリースするタイミングを合わせます。<BR>高難易度の設定です。",
+      "english": "\\c7Pitching / Cursor: Hidden<BR>Hide the pitching cursor. Time the release by<BR>watching the pitcher's delivery. A difficult<BR>setting.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Cursor > Do Not Display <BR> Do not display the pitching cursor. <BR> Time your release while watching the pitching motion. <BR> This is a high-difficulty setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A5E8",
+      "source_hash": "D3623C22A3412067",
+      "source": "\\c7投球＞投球カーソル＞固定表示する<BR>投球カーソルをストライクゾーン中央に固定表示します。<BR>狙ってるコースがバレないので２人対戦のときのおすすめ設定です。<BR><BR>注）投球方法をオートに設定していると表示なしになります。",
+      "english": "\\c7Pitching / Cursor: Fixed<BR>Keep the cursor at the center of the strike zone<BR>to hide your target in two-player games.<BR>Note: Auto Pitching hides the cursor.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Cursor > Fixed Display <BR> Fixes the pitching cursor in the center of the strike zone. <BR> This setting is recommended for two-player matches because it prevents your intended pitch location from being revealed. <BR> <BR> Note: If the pitching method is set to \"Auto,\" the cursor will not be displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A6C8",
+      "source_hash": "4CAD9E12F628835C",
+      "source": "\\c7投球＞投球カーソル＞表示する<BR>狙ってるコースに投球カーソルを表示します。",
+      "english": "\\c7Pitching / Cursor: Visible<BR>Show the cursor at the location you are aiming<BR>for.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Cursor > Display <BR> Displays the pitching cursor on the target zone.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A718",
+      "source_hash": "BEF1782083F80691",
+      "source": "\\c7投球＞投球ボタン＞ホーム送球ボタン<BR>ホームに送球する操作と同じボタンを使います。<BR>守備画面をリバースにして、送球タイプをＡＢＸＹにした場合<△>ボタンで<BR>投球することになります。",
+      "english": "\\c7Pitching / Button: Throw Home<BR>Pitch with the button used to throw home. With<BR>Reverse fielding view and Type A throwing, this<BR>is <△>.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Button > Throw to Home Button <BR> Use the same button as for throwing to home plate. <BR> If you reverse the defense screen and set the throw type to ABXY, <△> you will pitch using button <BR>.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A7D8",
+      "source_hash": "444FA244EDEB9F4F",
+      "source": "\\c7投球＞投球ボタン＞Ａ固定<BR>守備画面の設定に関わらず、常にＡボタンで投球します。",
+      "english": "\\c7Pitching / Button: A<BR>Always pitch with A, regardless of the fielding<BR>view.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Button > A Locked <BR> Regardless of the settings on the defense screen, you will always pitch using the A button.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207A830",
+      "source_hash": "A5C9F89FFE75291B",
+      "source": "\\c7投球＞投球方法＞オート　　　　　　　　　　　　　　　　　パワプロ準拠<BR>投球ごとに１度投球ボタンを押す投球方法。<BR>投球開始後、コースだけを決めます。<BR>球威は選手能力で決まります。<BR>パワプロに慣れてる人向け。",
+      "english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. Choose<BR>the location after the delivery starts.<BR>Pitch Power depends on the pitcher's ability.<BR>For players used to Power Pros.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Methods > Auto　　　　　　　　　　　　　　　　　Based on Power Pro<BR> A pitching method where you press the pitch button once per pitch.<BR> After starting the pitch, you only set the location.<BR> Pitch velocity is determined by the player’s ability.<BR> For players familiar with Power Pro.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. After the<BR>delivery begins, choose only the location. Stuff<BR>depends on the pitcher's abilities. For players<BR>used to Power Pros.",
+      "previous_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 328.0
+      },
+      "new_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 321.0
+      }
+    },
+    {
+      "address": "0x8207A908",
+      "source_hash": "F23708211C159C9D",
+      "source": "\\c7投球＞投球方法＞ダイレクト<BR>投球ごとに２度投球ボタンを押す投球方法。<BR>投球のリリース時にタイミングよく投球ボタンを押すと球威のある球を投げ<BR>込めます。<BR>標準のおすすめ設定です。",
+      "english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. For<BR>greater Pitch Power, time the second press at<BR>release. This is the recommended setting.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Methods > Direct <BR> A pitching method where you press the pitch button twice for each pitch. <BR> If you press the pitch button at the right moment when releasing the pitch, you can throw a powerful pitch. <BR> <BR> This is the standard recommended setting.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. Time the<BR>second press at release to throw with better<BR>Stuff. This is the recommended standard setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 340.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 320.0
+      }
+    },
+    {
+      "address": "0x8207A9C8",
+      "source_hash": "529D38C90344215A",
+      "source": "\\c7打撃＞ＣＯＭ投球カーソル＞表示しない<BR>ＣＯＭピッチャーの投球カーソルを表示しません。",
+      "english": "\\c7Batting / CPU Cursor: Hidden<BR>Hide the CPU pitcher's cursor.",
+      "deepl_comparison": "\\c7 Batting > COM Pitching Cursor > Do Not Display <BR> Do not display the COM pitcher's pitching cursor.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AA28",
+      "source_hash": "77EC7DD321813BB1",
+      "source": "\\c7打撃＞ＣＯＭ投球カーソル＞固定表示する<BR>ＣＯＭピッチャーの投球カーソルを中央に固定表示します。",
+      "english": "\\c7Batting / CPU Cursor: Fixed<BR>Show the CPU pitcher's cursor at the center of<BR>the strike zone.",
+      "deepl_comparison": "\\c7 Batting > COM Pitching Cursor > Fixed Display <BR> Sets the COM pitcher's pitching cursor to a fixed position in the center.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AA90",
+      "source_hash": "569D7FA3D63D1B88",
+      "source": "\\c7打撃＞ＣＯＭ投球カーソル＞表示する<BR>ＣＯＭピッチャーの投球カーソルを表示します。",
+      "english": "\\c7Batting / CPU Cursor: Visible<BR>Show the CPU pitcher's cursor.",
+      "deepl_comparison": "\\c7 Batting > COM Pitching Cursor > Display <BR> Displays the COM pitcher's pitching cursor.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AAE8",
+      "source_hash": "A8F6D5D3D31A174D",
+      "source": "\\c7打撃＞ストライクゾーン＞表示しない<BR>ストライクゾーンのワクを表示しません。<BR>バッターの得意・苦手ゾーンも表示しません。<BR>ストライク、ボールの見極めが難しくなります。",
+      "english": "\\c7Batting / Strike Zone: Hidden<BR>Hide the strike-zone outline and hot/cold zones.<BR>Judging balls and strikes becomes harder.",
+      "deepl_comparison": "\\c7 Batting > Strike Zone > Do Not Display <BR> The strike zone outline will not be displayed. <BR> The batter’s preferred and weak zones will also not be displayed. <BR> It will become more difficult to distinguish between strikes and balls.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AB98",
+      "source_hash": "1A00795068D4B641",
+      "source": "\\c7打撃＞ストライクゾーン＞得意苦手のみ<BR>ストライクゾーンのワクを表示しません。<BR>バッターの得意ゾーン（赤）と苦手ゾーン（青）のみ表示されます。<BR>ストライク、ボールの見極めが難しくなります。",
+      "english": "\\c7Batting / Strike Zone: Hot/Cold Only<BR>Hide the strike-zone outline. Show only hot<BR>zones in red and cold zones in blue. Judging<BR>balls and strikes becomes harder.",
+      "deepl_comparison": "\\c7 Batting > Strike Zone > Favored and Unfavored Zones Only <BR> The strike zone outline is not displayed. <BR> Only the batter’s favored zones (red) and unfavorable zones (blue) are displayed. <BR> It becomes more difficult to distinguish between strikes and balls.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AC60",
+      "source_hash": "F5BA16E2CB1118E4",
+      "source": "\\c7打撃＞ストライクゾーン＞すべて表示<BR>ストライクゾーンのワクを表示します。<BR>バッターの得意ゾーン（赤）と苦手ゾーン（青）も表示されます。",
+      "english": "\\c7Batting / Strike Zone: Full<BR>Show the strike-zone outline, hot zones in red,<BR>and cold zones in blue.",
+      "deepl_comparison": "\\c7 Batting > Strike Zone > Show All <BR> Displays the strike zone outline. <BR> The batter’s preferred zones (red) and weak zones (blue) are also displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207ACF0",
+      "source_hash": "241FF8ED9A09DF0C",
+      "source": "\\c7打撃＞打撃ポイント＞オフ<BR>投球のリリース後、打撃ポイントが表示されません。<BR>かなり難易度の高い設定です。",
+      "english": "\\c7Batting / Pitch Marker: Off<BR>Hide the pitch marker after release. A very<BR>difficult setting.",
+      "deepl_comparison": "\\c7 Batting > Batting Points > Off <BR> Batting points are not displayed after the pitch is released. <BR> This is a fairly difficult difficulty setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AD60",
+      "source_hash": "A8A3BDC3EB630D72",
+      "source": "\\c7打撃＞打撃ポイント＞リアル<BR>投球のリリース後、軌道に合わせて打撃ポイントが移動します。<BR>難易度の高めの設定です。",
+      "english": "\\c7Batting / Pitch Marker: Realistic<BR>After release, the marker follows the pitch's<BR>path. A challenging setting.",
+      "deepl_comparison": "\\c7 Batting > Batting Hotspots > Real <BR> After the pitcher releases the ball, the batting hotspots move to match the pitch's trajectory. <BR> This is a higher difficulty setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207ADD8",
+      "source_hash": "DBA989505929F30F",
+      "source": "\\c7打撃＞打撃ポイント＞イージー<BR>投球のリリース後、最終的な打撃ポイントが表示されます。<BR>変化球打ちが苦手な人向けの設定です。",
+      "english": "\\c7Batting / Pitch Marker: Easy<BR>After release, show the pitch's final location.<BR>Helps with hitting breaking balls.",
+      "deepl_comparison": "\\c7 Batting > Batting Points > Easy <BR> After the pitch is released, the final batting points are displayed. <BR> This setting is for players who struggle with breaking balls.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AE60",
+      "source_hash": "4590065EC5AC39BC",
+      "source": "\\c7打撃＞打撃ポイント＞リアルサポート<BR>投球のリリース後、打撃ポイントと投球軌道を反映したポイントが表示されます。<BR>慣れてきたらリアルもおすすめです。",
+      "english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
+      "deepl_comparison": "\\c7 Batting > Batting Points > Real Support <BR> After the pitcher releases the ball, points reflecting the batting points and the pitch’s trajectory will be displayed. <BR> Once you get the hang of it, we recommend trying “Real” mode.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 307.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 310.0
+      }
+    },
+    {
+      "address": "0x8207AF00",
+      "source_hash": "E01D8A738D9C9DEF",
+      "source": "\\c7打撃＞打撃ポイント＞ノーマル<BR>投球のリリース後、変化球に合わせて打撃ポイントが移動します。<BR>標準のおすすめ設定です。",
+      "english": "\\c7Batting / Pitch Marker: Normal<BR>After release, the marker moves with the pitch's<BR>break. This is the recommended standard setting.",
+      "deepl_comparison": "\\c7 Batting > Batting Hotspots > Normal <BR> After the pitch is released, the batting hotspots shift to accommodate breaking balls. <BR> These are the standard recommended settings.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207AF80",
+      "source_hash": "DA8FC58840102CAE",
+      "source": "\\c7打撃＞ミートカーソル＞ゾーン打ち<BR>投球にタイミングを合わせるだけで打てます。<BR>ただしボール球は打てません。<BR>初心者向けのカンタン設定です。",
+      "english": "\\c7Batting / Cursor: Zone Hitting<BR>Just time your swing. You cannot hit pitches<BR>outside the strike zone. An easy setting for<BR>beginners.",
+      "deepl_comparison": "\\c7 Batting > Cursor Alignment > Zone Batting <BR> You can hit the ball simply by timing your swing with the pitch. <BR> However, you cannot hit balls that are out of the strike zone. <BR> This is an easy setting designed for beginners.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B018",
+      "source_hash": "47FBCC09248C45AA",
+      "source": "\\c7打撃＞ミートカーソル＞ロックオン<BR>自動でミートをアシストしてくれます。<BR>ミートカーソルを合わせるのが苦手な初級者向けの設定です。",
+      "english": "\\c7Batting / Cursor: Lock-On<BR>Automatically assist bat-to-ball contact. For<BR>beginners who struggle to aim the batting<BR>cursor.",
+      "deepl_comparison": "\\c7 Batting > Contact Cursor > Lock-On <BR> Automatically assists with making contact. <BR> This setting is intended for beginners who have difficulty aligning the contact cursor.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B0A0",
+      "source_hash": "D45E00D18B536740",
+      "source": "\\c7打撃＞ミートカーソル＞エリア打ち<BR>カーソルを打撃ポイントに合わせ、タイミングよく打ちます。<BR>ノーマルミートカーソルよりアバウトな感覚で打てる設定です。",
+      "english": "\\c7Batting / Cursor: Area Hitting<BR>Aim the cursor at the pitch marker and time your<BR>swing. Less precise aiming is needed than with<BR>the Normal cursor.",
+      "deepl_comparison": "\\c7 Batting > Contact Cursor > Area Batting <BR> Align the cursor with the batting point and swing at the right moment. <BR> This setting allows you to swing with a more relaxed feel than the Normal Contact Cursor.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B140",
+      "source_hash": "BF2FC36D54540F17",
+      "source": "\\c7打撃＞ミートカーソル＞ノーマル<BR>ミートカーソルを打撃ポイントに合わせ、タイミングよく打ちます。<BR>標準のおすすめ設定です。",
+      "english": "\\c7Batting / Cursor: Normal<BR>Aim the batting cursor at the pitch marker and<BR>time your swing. This is the recommended<BR>standard setting.",
+      "deepl_comparison": "\\c7 Batting > Contact Cursor > Normal <BR> Align the contact cursor with the batting point and swing at the right moment. <BR> This is the standard recommended setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B1C0",
+      "source_hash": "23BDE4524A7A78F0",
+      "source": "\\c7操作＞振動機能＞ＯＮ<BR>打ったときや送球をキャッチしたときなどにコントローラーが振動する設定<BR>です。<BR>臨場感あるプレイが楽しめます。",
+      "english": "\\c7Controls / Vibration: On<BR>The controller vibrates on contact, catches, and<BR>other plays for a more immersive game.",
+      "deepl_comparison": "\\c7Controls > Vibration > ON<BR>This setting (<BR>) causes the controller to vibrate when you hit the ball or catch a throw.<BR>You can enjoy gameplay with a realistic feel.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B250",
+      "source_hash": "F6509C0CE92FC766",
+      "source": "\\c7操作＞振動機能＞ＯＦＦ<BR>一切振動しない設定です。<BR>デリケートな操作をしたい方にはこちらがオススメです。",
+      "english": "\\c7Controls / Vibration: Off<BR>Disable all vibration. Recommended if you prefer<BR>undisturbed, precise control.",
+      "deepl_comparison": "\\c7 Controls > Vibration Function > OFF <BR> This setting turns off vibration completely. <BR> This setting is recommended for those who prefer precise control.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B2C0",
+      "source_hash": "40DF7C9224D01D32",
+      "source": "\\c7操作＞操作タイプ＞デジタル<BR>ミートカーソルや投球カーソルの位置を移動させる方式です。<BR>落ち着いたカーソル移動になりますが、操作反応が少し鈍くなります。<BR><+>方向パッドでも<L-STICK>左スティックでも操作できます。",
+      "english": "\\c7Controls / Cursor Input: Digital<BR>Move the batting or pitching cursor<BR>incrementally. Movement is steady, but responds<BR>a little more slowly. Use <+> or <L-STICK>.",
+      "deepl_comparison": "\\c7 Controls > Control Type > Digital <BR> A method for moving the batting cursor or pitching cursor. <BR> Cursor movement is smoother, but the response is slightly slower. <BR> You can control the game using either the <+>-way pad or <L-STICK> the left stick.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B3A0",
+      "source_hash": "BC3562BB20A369E7",
+      "source": "\\c7操作＞操作タイプ＞アナログ<BR>ミートカーソルや投球カーソルの位置を直接指定する方式です。<BR>すばやいカーソル移動が可能になります。<BR><L-STICK>左スティックを使います。",
+      "english": "\\c7Controls / Cursor Input: Analog<BR>Set the batting or pitching cursor position<BR>directly with <L-STICK>. Allows quick cursor<BR>movement.",
+      "deepl_comparison": "\\c7Controls > Control Type > Analog <BR>A method for directly specifying the position of the batting or pitching cursor. <BR>Allows for quick cursor movement. <BR><L-STICK>Uses the left stick.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B450",
+      "source_hash": "78A1DDD5C3A04538",
+      "source": "\\c7カメラ＞カメラ操作（左右）＞リバース<BR>右スティックを右に倒すと左を向くカメラになります。",
+      "english": "\\c7Camera / Horizontal: Inverted<BR>Tilt the right stick right to look left.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Left/Right) > Reverse <BR>Tilting the right stick to the right turns the camera to face left.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B4B0",
+      "source_hash": "BD58F1D8541FD4B7",
+      "source": "\\c7カメラ＞カメラ操作（左右）＞ノーマル<BR>右スティックを右に倒すと右を向くカメラになります。",
+      "english": "\\c7Camera / Horizontal: Normal<BR>Tilt the right stick right to look right.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Left/Right) > Normal <BR>Tilting the right stick to the right turns the camera to the right.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B510",
+      "source_hash": "69AE9639D9DCB260",
+      "source": "\\c7カメラ＞カメラ操作（上下）＞リバース<BR>右スティックを上に倒すと見下ろすカメラになります。",
+      "english": "\\c7Camera / Vertical: Inverted<BR>Tilt the right stick up to look down.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Up/Down) > Reverse <BR>Tilting the right stick upward switches the camera to a top-down view.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B570",
+      "source_hash": "96E64CCC3DBDC268",
+      "source": "\\c7カメラ＞カメラ操作（上下）＞ノーマル<BR>右スティックを上に倒すと見上げるカメラになります。",
+      "english": "\\c7Camera / Vertical: Normal<BR>Tilt the right stick up to look up.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Up/Down) > Normal <BR>Tilting the right stick upward switches the camera to a looking-up view.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B5D0",
+      "source_hash": "1EAF4C39CEA454D2",
+      "source": "\\c7カメラ＞走塁画面＞リバース<BR>走塁時、バックネット側を見下ろす画面になります。",
+      "english": "\\c7Camera / Running: Reverse<BR>Look down toward the backstop while running the<BR>bases.",
+      "deepl_comparison": "\\c7 Camera > Base-running Screen > Reverse <BR> When running the bases, the view shifts to a top-down perspective looking toward the backstop.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B628",
+      "source_hash": "335159AB72A8DDAC",
+      "source": "\\c7カメラ＞走塁画面＞ノーマル（ロング）<BR>走塁時、センター側を見下ろす画面になります。<BR>より広い範囲が見渡せる設定です。<BR><BR>試合中<R-STICK>クリックでノーマルに切り替えることもできます。",
+      "english": "\\c7Camera / Running: Normal (Wide)<BR>Look down toward center field with a wider view.<BR>Press <R-STICK> during a game to switch to<BR>Normal.",
+      "deepl_comparison": "\\c7 Camera > Base-running Screen > Normal (Long) <BR> When running the bases, the view looks down toward center field. <BR> This setting provides a wider field of view. <BR> <BR> During the game <R-STICK> You can also switch back to Normal by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B6F0",
+      "source_hash": "0BB92A869AAEFA91",
+      "source": "\\c7カメラ＞走塁画面＞ノーマル<BR>走塁時、センター側を見下ろす画面になります。<BR><BR><BR>試合中<R-STICK>クリックでノーマル（ロング）に切り替えることもできます。",
+      "english": "\\c7Camera / Running: Normal<BR>Look down toward center field. Press <R-STICK><BR>during a game to switch to Normal (Wide).",
+      "deepl_comparison": "\\c7Camera > Base-running View > Normal <BR>When running the bases, the view looks down toward center field. <BR><BR><BR>During the game <R-STICK>You can also switch to Normal (Long) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B798",
+      "source_hash": "D87D784D0C6B3154",
+      "source": "\\c7カメラ＞打撃画面＞ＴＶ（固定）<BR>打つとき、センター側から見たＴＶ中継風の画面になります。<BR>ストライクゾーンが見やすい視点になります。<BR><BR>試合中<R-STICK>クリックでＴＶ（球場別）に切り替えることもできます。",
+      "english": "\\c7Camera / Batting: TV (Fixed)<BR>Use a broadcast-style view from center field.<BR>Makes the strike zone easier to see. Press<BR><R-STICK> during a game to switch to TV (By<BR>Stadium).",
+      "deepl_comparison": "\\c7Camera > Batting Screen > TV (Fixed) <BR>When batting, the screen displays a TV broadcast-style view from the center field perspective. <BR>This perspective makes it easy to see the strike zone. <BR><BR>During the game <R-STICK>You can also switch to TV (by stadium) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82077F9C",
+      "source_hash": "50FAEA11E83F1A43",
+      "source": "\\c7１０点<BR>１０点差でコールドゲームとなります。",
+      "english": "\\c710-Run Lead<BR>End the game when a team leads by 10 runs.",
+      "deepl_comparison": "\\c710 points<BR>A 10-point lead results in a mercy rule victory.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82077FD0",
+      "source_hash": "26E5100FDD9198C7",
+      "source": "\\c7９点<BR>９点差でコールドゲームとなります。",
+      "english": "\\c79-Run Lead<BR>End the game when a team leads by 9 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c79 to <BR>9.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078000",
+      "source_hash": "F5A777D4C2ED279B",
+      "source": "\\c7８点<BR>８点差でコールドゲームとなります。",
+      "english": "\\c78-Run Lead<BR>End the game when a team leads by 8 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c78 to <BR>8.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078030",
+      "source_hash": "C47DDA290EE621E3",
+      "source": "\\c7７点<BR>７点差でコールドゲームとなります。",
+      "english": "\\c77-Run Lead<BR>End the game when a team leads by 7 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c77 to <BR>7.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078060",
+      "source_hash": "6EF2C7E221BCE20F",
+      "source": "\\c7６点<BR>６点差でコールドゲームとなります。",
+      "english": "\\c76-Run Lead<BR>End the game when a team leads by 6 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c76 points<BR>6 points.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078090",
+      "source_hash": "6A3988C5EF903D07",
+      "source": "\\c7５点<BR>５点差でコールドゲームとなります。",
+      "english": "\\c75-Run Lead<BR>End the game when a team leads by 5 runs.",
+      "deepl_comparison": "A game is called early if the score difference is \\c75 points or <BR>5 points.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820780C0",
+      "source_hash": "8A69538E113AB4F3",
+      "source": "\\c7４点<BR>４点差でコールドゲームとなります。",
+      "english": "\\c74-Run Lead<BR>End the game when a team leads by 4 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c74 points<BR>4 points.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x820780F0",
+      "source_hash": "57E25EF024011CFB",
+      "source": "\\c7３点<BR>３点差でコールドゲームとなります。",
+      "english": "\\c73-Run Lead<BR>End the game when a team leads by 3 runs.",
+      "deepl_comparison": "A game is called early when the score difference reaches \\c73 points<BR>3 points.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078120",
+      "source_hash": "14647A10AF27F86F",
+      "source": "\\c7２点<BR>２点差でコールドゲームとなります。",
+      "english": "\\c72-Run Lead<BR>End the game when a team leads by 2 runs.",
+      "deepl_comparison": "\\c72 points<BR>2-point lead results in a mercy rule victory.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078150",
+      "source_hash": "8A162F710043E147",
+      "source": "\\c7１点<BR>１点差でコールドゲームとなります。",
+      "english": "\\c71-Run Lead<BR>End the game when a team leads by 1 run.",
+      "deepl_comparison": "\\c71 points<BR>1-point lead results in a mercy rule victory.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B870",
+      "source_hash": "6044E69EB18D949F",
+      "source": "\\c7カメラ＞打撃画面＞ＴＶ（球場別）<BR>打つとき、センター側から見たＴＶ中継風の画面になります。<BR>球場ごとに違った視点になります。<BR><BR>試合中<R-STICK>クリックでＴＶ（固定）に切り替えることもできます。",
+      "english": "\\c7Camera / Batting: TV (By Stadium)<BR>Use a broadcast view from center field, with an<BR>angle unique to each stadium. Press <R-STICK><BR>during a game to switch to TV (Fixed).",
+      "deepl_comparison": "\\c7 Camera > Batting Screen > TV (By Stadium) <BR> When batting, the screen displays a TV broadcast-style view from the center field side. <BR> The viewpoint differs for each stadium. <BR> <BR> During the game <R-STICK> You can also switch to TV (Fixed) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207B940",
+      "source_hash": "A5FAE98312FD328F",
+      "source": "\\c7カメラ＞打撃画面＞ノーマル（中央）<BR>打つとき、バッター側から見た画面になります。<BR>打席に関わらず中央固定の視点になります。<BR><BR>試合中<R-STICK>クリックでノーマル（打席）に切り替えることもできます。",
+      "english": "\\c7Camera / Batting: Normal (Center)<BR>View from the batter's side, centered regardless<BR>of which batter's box is used. Press <R-STICK><BR>during a game to switch to Normal (Batter).",
+      "deepl_comparison": "\\c7Camera > Batting Screen > Normal (Center) <BR>When batting, the view is from the batter’s perspective. <BR>The viewpoint remains fixed in the center regardless of the batter’s position in the lineup. <BR><BR>During the game <R-STICK>You can also switch to Normal (Batting) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BA10",
+      "source_hash": "24B667DBEF75D874",
+      "source": "\\c7カメラ＞打撃画面＞ノーマル（打席）<BR>打つとき、バッター側から見た画面になります。<BR>打席の左右によって視点が変わります。<BR><BR>試合中<R-STICK>クリックでノーマル（中央）に切り替えることもできます。",
+      "english": "\\c7Camera / Batting: Normal (Batter)<BR>View from the batter's side. The angle changes<BR>for left- and right-handed hitters. Press<BR><R-STICK> during a game to switch to Normal<BR>(Center).",
+      "deepl_comparison": "\\c7Camera > Batting Screen > Normal (At-Bat) <BR>When batting, the view is from the batter’s perspective. <BR>The viewpoint changes depending on whether the batter is batting from the left or right side. <BR><BR>During the game <R-STICK>You can also switch to Normal (Center) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BAE0",
+      "source_hash": "5DDE7FDF22585269",
+      "source": "\\c7カメラ＞守備画面＞リバース<BR>守備のとき、バックネット側を見た画面になります。<BR>このとき、送球操作が上下左右逆になります。",
+      "english": "\\c7Camera / Fielding: Reverse<BR>Look toward the backstop while fielding.<BR>Throwing directions are reversed.",
+      "deepl_comparison": "\\c7Camera > Defense Screen > Reverse <BR>This screen shows the view toward the backstop during defense. <BR>At this time, the throwing controls are reversed in all directions (up, down, left, right).",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BB60",
+      "source_hash": "9D90FF6F738AA5D7",
+      "source": "\\c7カメラ＞守備画面＞ノーマル（ロング）<BR>守備のとき、センター側を見下ろす画面になります。<BR>より広い範囲が見渡せる設定です。<BR><BR>試合中<R-STICK>クリックでノーマルに切り替えることもできます。",
+      "english": "\\c7Camera / Fielding: Normal (Wide)<BR>Look down toward center field with a wider view.<BR>Press <R-STICK> during a game to switch to<BR>Normal.",
+      "deepl_comparison": "\\c7Camera > Defense Screen > Normal (Long) <BR>During defense, the view looks down toward center field. <BR>This setting provides a wider field of view. <BR><BR>During the game <R-STICK>You can also switch back to Normal by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BC28",
+      "source_hash": "AF128B743C72C71A",
+      "source": "\\c7カメラ＞守備画面＞ノーマル<BR>守備のとき、センター側を見下ろす画面になります。<BR><BR><BR>試合中<R-STICK>クリックでノーマル（ロング）に切り替えることもできます。",
+      "english": "\\c7Camera / Fielding: Normal<BR>Look down toward center field. Press <R-STICK><BR>during a game to switch to Normal (Wide).",
+      "deepl_comparison": "\\c7Camera > Defense Screen > Normal <BR>During defense, the view looks down toward center field. <BR><BR><BR>During the game <R-STICK>You can also switch to Normal (Long) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BCD0",
+      "source_hash": "B6B648625E94523B",
+      "source": "\\c7カメラ＞投球画面＞ノーマル（中央）<BR>投球するとき、バッター側から見た画面になります。<BR>打席に関わらず中央固定の視点になります。<BR><BR>試合中<R-STICK>クリックでノーマル（打席）に切り替えることもできます。",
+      "english": "\\c7Camera / Pitching: Normal (Center)<BR>View from the batter's side, centered regardless<BR>of which batter's box is used. Press <R-STICK><BR>during a game to switch to Normal (Batter).",
+      "deepl_comparison": "\\c7Camera > Pitching View > Normal (Center) <BR>When pitching, the view is from the batter’s perspective. <BR>The viewpoint remains fixed in the center regardless of the batter’s position in the batting order. <BR><BR>During the game <R-STICK>You can also switch to Normal (Batter’s Box) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BDA8",
+      "source_hash": "75A269F5CAF9D6B8",
+      "source": "\\c7カメラ＞投球画面＞ノーマル（打席）<BR>投球するとき、バッター側から見た画面になります。<BR>打席の左右によって視点が変わります。<BR><BR>試合中<R-STICK>クリックでノーマル（中央）に切り替えることもできます。",
+      "english": "\\c7Camera / Pitching: Normal (Batter)<BR>View from the batter's side. The angle changes<BR>for left- and right-handed hitters. Press<BR><R-STICK> during a game to switch to Normal<BR>(Center).",
+      "deepl_comparison": "\\c7Camera > Pitching Screen > Normal (Batter's Box) <BR>When pitching, the view is from the batter's perspective. <BR>The viewpoint changes depending on whether the batter is in the left or right batter's box. <BR><BR>During the game <R-STICK>You can also click to switch to Normal (Center).",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BE78",
+      "source_hash": "42D396B242787538",
+      "source": "\\c7カメラ＞投球画面＞ＴＶ（固定）<BR>投球するとき、センター側から見たＴＶ中継風の画面になります。<BR>ストライクゾーンが見やすい視点になります。<BR><BR>試合中<R-STICK>クリックでＴＶ（球場別）に切り替えることもできます。",
+      "english": "\\c7Camera / Pitching: TV (Fixed)<BR>Use a broadcast view from center field for a<BR>clear view of the strike zone. Press <R-STICK><BR>during a game to switch to TV (By Stadium).",
+      "deepl_comparison": "\\c7 Camera > Pitching Screen > TV (Fixed) <BR> When pitching, the screen displays a TV broadcast-style view from the center field perspective. <BR> This perspective makes it easy to see the strike zone. <BR> <BR> During the game <R-STICK> You can also switch to TV (by stadium) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207BF58",
+      "source_hash": "D7244F02EDB06A37",
+      "source": "\\c7カメラ＞投球画面＞ＴＶ（球場別）<BR>投球するとき、センター側から見たＴＶ中継風の画面になります。<BR>球場ごとに違った視点になります。<BR><BR>試合中<R-STICK>クリックでＴＶ（固定）に切り替えることもできます。",
+      "english": "\\c7Camera / Pitching: TV (By Stadium)<BR>Use a broadcast view from center field, with an<BR>angle unique to each stadium. Press <R-STICK><BR>during a game to switch to TV (Fixed).",
+      "deepl_comparison": "\\c7 Camera > Pitching Screen > TV (By Stadium) <BR> When pitching, the screen displays a TV broadcast-style view from the center field side. <BR> The viewpoint differs for each stadium. <BR> <BR> During the game <R-STICK> You can also switch to TV (Fixed) by clicking.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C030",
+      "source_hash": "79D1536AE9757205",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞カスタム<BR>コンピュータの強さを投・打・走・守、個別に設定できます。",
+      "english": "\\c7Difficulty / CPU: Custom<BR>Set pitching, batting, baserunning, and fielding<BR>difficulty separately.",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength > Custom <BR> You can set the CPU’s strength individually for pitching, batting, running, and fielding.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C090",
+      "source_hash": "C3C826E71738455D",
+      "source": "難しさ＞ＣＯＭの強さ＞スピリッツ　　　　　　　　　　　　　　　要ＶＰ<BR>",
+      "english": "Difficulty / CPU: Spirits (Requires VP)",
+      "deepl_comparison": "Difficulty > COM Strength > Spirits                                Requires VP <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C0DC",
+      "source_hash": "5778AE3C0EC3D8E6",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞パーフェクト<BR>",
+      "english": "\\c7Difficulty / CPU: Perfect",
+      "deepl_comparison": "\\c7 Difficulty > COM Strength > Perfect <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C108",
+      "source_hash": "19B021943E102C6C",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞強い<BR>",
+      "english": "\\c7Difficulty / CPU: Strong",
+      "deepl_comparison": "\\c7 Difficulty > COM Strength > Strong <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C12C",
+      "source_hash": "1B04D0139EDFAB0D",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞ふつう<BR>",
+      "english": "\\c7Difficulty / CPU: Normal",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength > Normal <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C150",
+      "source_hash": "FBB8858EC37E1107",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞弱い<BR>",
+      "english": "\\c7Difficulty / CPU: Weak",
+      "deepl_comparison": "\\c7 Difficulty > COM Strength > Weak <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C174",
+      "source_hash": "6A37110545D28B81",
+      "source": "\\c7難しさ＞ＣＯＭの強さ＞最弱<BR>",
+      "english": "\\c7Difficulty / CPU: Weakest",
+      "deepl_comparison": "\\c7 Difficulty > COM Strength > Weakest <BR>",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C198",
+      "source_hash": "E16BA0AEDA69BBDD",
+      "source": "\\c7難しさ＞球速レベル＞リアルスピード<BR>現実に近い投球スピードになります。",
+      "english": "\\c7Difficulty / Pitch Speed: Real<BR>Use a pitch speed close to real life.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Real Speed <BR> Pitch speeds will be close to those in real life.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C1E8",
+      "source_hash": "FEA9DD8205895515",
+      "source": "\\c7難しさ＞球速レベル＞ミドルスピード＋<BR>やや速めのプロスピおすすめの設定です。",
+      "english": "\\c7Difficulty / Pitch Speed: Medium+<BR>A slightly faster recommended setting.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Medium Speed + <BR>: These are the recommended settings for a slightly faster Pro Yakyuu Spirits game.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Difficulty / Pitch Speed: Middle+<BR>A slightly faster recommended setting.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 269.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 269.0
+      }
+    },
+    {
+      "address": "0x8207C240",
+      "source_hash": "B50BE63109E7B691",
+      "source": "\\c7難しさ＞球速レベル＞ミドルスピード<BR>プロスピおすすめの設定です。",
+      "english": "\\c7Difficulty / Pitch Speed: Medium<BR>The recommended Pro Spirits pitch speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Medium Speed <BR> These are the recommended settings for Pro Yakyuu Spirits.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Difficulty / Pitch Speed: Middle<BR>The recommended Pro Spirits pitch speed.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 302.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 302.0
+      }
+    },
+    {
+      "address": "0x8207C288",
+      "source_hash": "4A9A78D278BD3144",
+      "source": "\\c7難しさ＞球速レベル＞ベーシックスピード＋<BR>ふつうの投球スピードよりやや速くなります。",
+      "english": "\\c7Difficulty / Pitch Speed: Basic+<BR>Slightly faster than Basic speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Base Speed + <BR>: This results in a pitch speed that is slightly faster than normal.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C2E8",
+      "source_hash": "5A25F08DA971CC63",
+      "source": "\\c7難しさ＞球速レベル＞ベーシックスピード<BR>ふつうの投球スピードになります。",
+      "english": "\\c7Difficulty / Pitch Speed: Basic<BR>Use the normal pitch speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Base Speed <BR> This is the standard pitching speed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C338",
+      "source_hash": "C44FFCD5A2E62387",
+      "source": "\\c7難しさ＞球速レベル＞スロースピード＋<BR>やや速めの打ちやすい投球スピードになります。",
+      "english": "\\c7Difficulty / Pitch Speed: Slow+<BR>Easy-to-hit pitches, slightly faster than Slow.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Slow Speed + <BR>: This results in a slightly faster pitch speed that is easy to hit.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C390",
+      "source_hash": "FCC4CCB3082BCA6B",
+      "source": "\\c7難しさ＞球速レベル＞スロースピード<BR>打ちやすい投球スピードになります。",
+      "english": "\\c7Difficulty / Pitch Speed: Slow<BR>Use a slower, easier-to-hit pitch speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Slow Speed <BR> This results in a pitch speed that is easy to hit.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C3E0",
+      "source_hash": "03E84559B5106C34",
+      "source": "\\c7操作ガイド表示<BR>ゲーム中の操作ボタンガイドの表示を選べます。",
+      "english": "\\c7Control Guide<BR>Choose whether to show the in-game button guide.",
+      "deepl_comparison": "\\c7 Display Control Guide<BR> You can choose whether to display the in-game control button guide.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C424",
+      "source_hash": "F1933E07F4CDBAAE",
+      "source": "\\c7情報＞能力系表示<BR>投打画面での能力関係の表示を選べます。",
+      "english": "\\c7Info / Ability Display<BR>Choose which ability information appears on the<BR>pitching and batting screens.",
+      "deepl_comparison": "\\c7 Information > Ability Display <BR> You can select how abilities are displayed on the pitching and batting screens.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C468",
+      "source_hash": "D08DB18E7068BDD0",
+      "source": "\\c7情報＞情報表示<BR>ゲーム中の投打画面に表示される情報の設定ができます。",
+      "english": "\\c7Info / Player Info<BR>Choose the information shown on the pitching and<BR>batting screens.",
+      "deepl_comparison": "\\c7 Information > Information Display <BR> You can configure the information displayed on the pitching and batting screens during the game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C4B8",
+      "source_hash": "27BAC8EE7B843470",
+      "source": "\\c7作戦＞ブロックサイン入力表示<BR>ブロックサインを入力するときの表示を選べます。",
+      "english": "\\c7Tactics / Sign Display<BR>Choose what appears when entering team signs.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Input Display <BR> You can select the display when entering a block sign.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C510",
+      "source_hash": "47A6E3767F103464",
+      "source": "\\c7作戦＞ブロックサイン指示<BR>ブロックサイン指示のレベルを選べます。<BR>どれを選んでも自分の操作で変更できます。<BR><BR>ブロックサイン指示：<L2>ボタン",
+      "english": "\\c7Tactics / Team Signs<BR>Choose how team signs are called. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Instructions <BR> You can select the level of block sign instructions. <BR> Whichever you choose, you can change it manually. <BR> <BR> Block Sign Instructions: <L2> Button",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Tactics / Team Signs<BR>Choose how team signs are suggested. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 343.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 312.0
+      }
+    },
+    {
+      "address": "0x8207C5A8",
+      "source_hash": "3E630CB321A33D54",
+      "source": "\\c7作戦＞守備シフト指示<BR>守備シフト指示のレベルを選べます。<BR>どれを選んでも自分の操作で変更できます。<BR><BR>守備シフト選択：<L1>ボタン",
+      "english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are called. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions <BR> You can select the level of defensive shift instructions. <BR> Whichever you choose, you can change it manually. <BR> <BR> Defensive Shift Selection: <L1> Button",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are suggested. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 346.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 315.0
+      }
+    },
+    {
+      "address": "0x8207C638",
+      "source_hash": "75E8CB4EC164C738",
+      "source": "\\c7作戦＞監督操作<BR>選手交代や守備シフト、ブロックサインの指示出しを自分でするか、ＣＯＭ<BR>に任せるかを選べます。",
+      "english": "\\c7Tactics / Manager Control<BR>Choose whether you or the CPU handles<BR>substitutions, defensive shifts, and team signs.",
+      "deepl_comparison": "\\c7 Strategy > Manager Controls <BR> You can choose whether to issue instructions for player substitutions, defensive shifts, and blocking signs yourself, or leave them to the COM<BR>.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C6AC",
+      "source_hash": "9236469365358A55",
+      "source": "\\c7守備＞カーソル切替<BR>野手カーソルの切替方式を選べます。",
+      "english": "\\c7Fielding / Cursor Switching<BR>Choose how control switches between fielders.",
+      "deepl_comparison": "\\c7 Defense > Cursor Switch <BR> Select the fielding cursor switching method.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C790",
+      "source_hash": "3C80BA8CAE9D0ACE",
+      "source": "\\c7守備＞落下地点表示<BR>フライの落下地点表示方法を選べます。",
+      "english": "\\c7Fielding / Landing Point<BR>Choose how fly-ball landing points are shown.",
+      "deepl_comparison": "\\c7 Defense > Display Landing Spot <BR> Select how to display the landing spot for fly balls.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C7D0",
+      "source_hash": "0CB54C5A2328DB15",
+      "source": "\\c7守備＞パワー送球<BR>送球の強さと正確さを自分でコントロールするかどうかを選べます。<BR><BR><BR>注）フィールドプレイでは常に自分でコントロールする設定です。",
+      "english": "\\c7Fielding / Power Throws<BR>Choose whether to control throw strength and<BR>accuracy yourself.<BR>Note: this is always manual in Field Play.",
+      "deepl_comparison": "\\c7 Defense > Power Throw <BR> You can choose whether to control the strength and accuracy of your throws yourself. <BR> <BR> <BR> Note: In fielding situations, the setting is always set to \"Control Yourself.\"",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C870",
+      "source_hash": "20CC70ACEC086E61",
+      "source": "\\c7守備＞送球タイプ<BR>送球塁をワンボタンで指定する方式か、塁指定操作と組み合わせて指定する<BR>方式かを選べます。<BR><BR>注）パワプロシリーズではＡタイプ・Ｂタイプと呼ばれている設定です。",
+      "english": "\\c7Fielding / Throw Controls<BR>Choose between one button per base or a base<BR>direction plus the throw button.<BR>These are called Type A and Type B in Power<BR>Pros.",
+      "deepl_comparison": "\\c7 Defense > Throwing Type <BR> You can choose between a one-button system for selecting the target base or a <BR>-button system that combines base selection with throwing controls. <BR> <BR> Note: In the Power Pro series, these settings are referred to as Type A and Type B.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C930",
+      "source_hash": "2C1656EF5A44F529",
+      "source": "\\c7守備＞フォーメーション<BR>守備フォーメーションの傾向を選べます。",
+      "english": "\\c7Fielding / Formation<BR>Choose how fielders position themselves to cover<BR>bases and back up plays.",
+      "deepl_comparison": "\\c7 Defense > Formations <BR> You can select the defensive formation style.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C978",
+      "source_hash": "985411EC490FBD0D",
+      "source": "\\c7守備＞守備操作<BR>腕前やお好みに合わせて操作をサポートする設定が選べます。",
+      "english": "\\c7Fielding / Control<BR>Choose fielding assistance to suit your ability<BR>and preferences.",
+      "deepl_comparison": "\\c7 Defense > Defense Controls <BR> You can choose settings that support your controls based on your skill level and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207C9C8",
+      "source_hash": "1E4648814EE0903E",
+      "source": "\\c7ランナー＞スタート判断<BR>打った直後の進塁か帰塁かのスタート判断をサポートする設定が選べます。",
+      "english": "\\c7Running / Start Decisions<BR>Choose assistance for deciding when to advance<BR>or return after contact.",
+      "deepl_comparison": "\\c7 Runner > Start Decision <BR> You can select a setting that assists in deciding whether to advance or return to the base immediately after a hit.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CA30",
+      "source_hash": "D134E3D127919221",
+      "source": "\\c7ランナー＞ランナー操作<BR>腕前やお好みに合わせて操作をサポートする設定が選べます。",
+      "english": "\\c7Running / Control<BR>Choose baserunning assistance to suit your<BR>ability and preferences.",
+      "deepl_comparison": "\\c7 Runners > Runner Controls <BR> You can choose settings that support your controls based on your skill level and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CA88",
+      "source_hash": "D0CFB51E28E4CD8D",
+      "source": "\\c7投球＞キャッチャー返球<BR>投球後のキャッチャーからの返球をカットするかどうか選べます。",
+      "english": "\\c7Pitching / Return Throw<BR>Choose whether to skip the catcher's throw back<BR>to the pitcher.",
+      "deepl_comparison": "\\c7 Pitching > Catcher's Return Throw <BR> You can choose whether to cut off the catcher's return throw after a pitch.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CAE4",
+      "source_hash": "7A457B9103C589A3",
+      "source": "\\c7投球＞投球フォーム<BR>投球フォームの使い分けを選べます。",
+      "english": "\\c7Pitching / Delivery<BR>Choose how pitching deliveries are used.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Form <BR> You can choose how to vary your pitching form.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CB20",
+      "source_hash": "4046906817B4D1D7",
+      "source": "\\c7投球＞投球ポイント<BR>投球の腕前やお好みに合わせて投球ポイントの表示方法を選べます。",
+      "english": "\\c7Pitching / Pitch Marker<BR>Choose how the pitch marker is displayed to suit<BR>your ability and preferences.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points <BR> You can choose how pitching points are displayed based on your pitching skill and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CB78",
+      "source_hash": "164513E7A7C9D43A",
+      "source": "\\c7投球＞球種表示<BR>持ち球情報や選択中球種の情報表示の設定です。",
+      "english": "\\c7Pitching / Pitch Display<BR>Choose what to show about the repertoire and the<BR>selected pitch.",
+      "deepl_comparison": "\\c7 Pitching > Pitch Type Display <BR> Settings for displaying information on a player’s repertoire and the currently selected pitch type.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CBC0",
+      "source_hash": "C740236CF3B09E4F",
+      "source": "\\c7投球＞投球カーソル<BR>投球の腕前やお好みに合わせて投球カーソルの表示方法を選べます。",
+      "english": "\\c7Pitching / Cursor<BR>Choose how the pitching cursor is displayed to<BR>suit your ability and preferences.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Cursor <BR> You can choose how the pitching cursor is displayed based on your pitching skill and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CC18",
+      "source_hash": "312745895FFE35B8",
+      "source": "\\c7投球＞投球ボタン<BR>カメラ設定メニューの守備画面をリバースに設定したときの投球ボタンの設<BR>定です。",
+      "english": "\\c7Pitching / Pitch Button<BR>Choose the pitching button used when the<BR>fielding camera is set to Reverse.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Button <BR> These are the pitching button set<BR>s when the defense screen in the camera settings menu is set to “Reverse.”",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CC80",
+      "source_hash": "161449761C87451B",
+      "source": "\\c7投球＞投球方法<BR>投球の腕前やお好みに合わせて投球システムが選べます。",
+      "english": "\\c7Pitching / Method<BR>Choose a pitching system to suit your ability<BR>and preferences.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Methods <BR> You can choose a pitching system based on your pitching skill and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CCD0",
+      "source_hash": "747A23746529EE4F",
+      "source": "\\c7打撃＞ＣＯＭ投球カーソル<BR>コンピュータ側のピッチャーの投球カーソルの表示方法を選べます。",
+      "english": "\\c7Batting / CPU Pitching Cursor<BR>Choose how the CPU pitcher's cursor is<BR>displayed.",
+      "deepl_comparison": "\\c7 Batting > COM Pitching Cursor <BR> Select how the computer pitcher's pitching cursor is displayed.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CD30",
+      "source_hash": "10DA5019660EDC48",
+      "source": "\\c7打撃＞ストライクゾーン<BR>ストライクゾーン表示と得意・苦手ゾーンの表示方法を選べます。",
+      "english": "\\c7Batting / Strike Zone<BR>Choose how the strike-zone outline and hot/cold<BR>zones are displayed.",
+      "deepl_comparison": "\\c7 Batting > Strike Zone <BR> You can choose how to display the strike zone and your preferred and weak zones.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CD90",
+      "source_hash": "B56987C47B5098A7",
+      "source": "\\c7打撃＞打撃ポイント<BR>打撃の腕前やお好みに合わせて打撃ポイントの表示方法を選べます。",
+      "english": "\\c7Batting / Pitch Marker<BR>Choose how the pitch marker is displayed to suit<BR>your ability and preferences.",
+      "deepl_comparison": "\\c7 Batting > Batting Points <BR> You can choose how batting points are displayed based on your batting skills and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CDE8",
+      "source_hash": "5F341DEF70E1B31F",
+      "source": "\\c7打撃＞ミートカーソル<BR>打撃の腕前やお好みに合わせて打撃方法を選べます。",
+      "english": "\\c7Batting / Batting Cursor<BR>Choose a hitting method to suit your ability and<BR>preferences.",
+      "deepl_comparison": "\\c7 Batting > Contact Cursor <BR> You can choose a batting method based on your skill level and preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CE34",
+      "source_hash": "2461D4254CC622B8",
+      "source": "\\c7操作＞振動機能<BR>コントローラーの振動機能を選べます。",
+      "english": "\\c7Controls / Vibration<BR>Turn controller vibration on or off.",
+      "deepl_comparison": "\\c7 Controls > Vibration Function <BR> Select the controller's vibration function.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CE70",
+      "source_hash": "DE3ADA429226915A",
+      "source": "\\c7操作＞操作タイプ<BR>ミートカーソルや投球カーソルの移動方式を選べます。",
+      "english": "\\c7Controls / Cursor Input<BR>Choose how the batting and pitching cursors<BR>move.",
+      "deepl_comparison": "\\c7 Controls > Control Type <BR> You can select how the batting cursor and pitching cursor move.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CEC0",
+      "source_hash": "EEDC63DCDFB71262",
+      "source": "\\c7カメラ＞カメラ操作（左右）　　　　　　　　　　　フィールドプレイ専用<BR>フィールドプレイのランナーや野手のときのカメラ操作の設定です。",
+      "english": "\\c7Camera / Horizontal Control<BR>Choose camera controls while running or fielding<BR>in Field Play.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Left/Right)　　　　　　　　　　　For Field Play Only<BR>These settings control the camera during field play when you are a runner or a fielder.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CF50",
+      "source_hash": "67EADD8D6DA9C37A",
+      "source": "\\c7カメラ＞カメラ操作（上下）　　　　　　　　　　　フィールドプレイ専用<BR>フィールドプレイのランナーや野手のときのカメラ操作の設定です。",
+      "english": "\\c7Camera / Vertical Control<BR>Choose camera controls while running or fielding<BR>in Field Play.",
+      "deepl_comparison": "\\c7Camera > Camera Controls (Up/Down)　　　　　　　　　　　For Field Play Only<BR>Settings for camera controls when playing as a runner or fielder during field play.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207CFE0",
+      "source_hash": "7852B24102C3560A",
+      "source": "\\c7カメラ＞走塁画面<BR>打ったあとなどの、ランナーを操作するときのカメラ（視点）設定です。",
+      "english": "\\c7Camera / Baserunning View<BR>Choose the view used when controlling runners<BR>after contact and during other plays.",
+      "deepl_comparison": "\\c7Camera > Base-Running Screen<BR>These are the camera (viewpoint) settings for controlling runners, such as after a hit.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D040",
+      "source_hash": "D3653258A66E52F4",
+      "source": "\\c7カメラ＞打撃画面<BR>自分が打つときのカメラ（視点）設定です。",
+      "english": "\\c7Camera / Batting View<BR>Choose the view used when batting.",
+      "deepl_comparison": "\\c7Camera > Batting Screen <BR>These are the camera (viewpoint) settings for when you are batting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D080",
+      "source_hash": "E13D6D7F3E54EAB1",
+      "source": "\\c7カメラ＞守備画面<BR>打たれたあとなどの、野手を操作するときのカメラ（視点）設定です。",
+      "english": "\\c7Camera / Fielding View<BR>Choose the view used when controlling fielders<BR>after contact and during other plays.",
+      "deepl_comparison": "\\c7Camera > Defense Screen<BR>These are the camera (viewpoint) settings for controlling fielders, such as after a hit.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D0D8",
+      "source_hash": "95122200ED726370",
+      "source": "\\c7カメラ＞投球画面<BR>自分が投球するときのカメラ（視点）設定です。",
+      "english": "\\c7Camera / Pitching View<BR>Choose the view used when pitching.",
+      "deepl_comparison": "\\c7Camera > Pitching View <BR>These are the camera (viewpoint) settings for when you pitch.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D120",
+      "source_hash": "5974E18F67DA324A",
+      "source": "\\c7難しさ＞ＣＯＭの強さ（守）<BR>コンピュータの守備のレベルを変更できます。",
+      "english": "\\c7Difficulty / CPU Fielding<BR>Change the CPU's fielding ability.",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength (Defense) <BR> You can adjust the CPU's defensive level.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D170",
+      "source_hash": "C2F2AF42B2254F8C",
+      "source": "\\c7難しさ＞ＣＯＭの強さ（走）<BR>コンピュータのランナーのレベルを変更できます。",
+      "english": "\\c7Difficulty / CPU Baserunning<BR>Change the CPU's baserunning ability.",
+      "deepl_comparison": "\\c7 Difficulty > COM Strength (Running) <BR> You can adjust the level of the computer-controlled runners.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D1C0",
+      "source_hash": "556A509171B925E3",
+      "source": "\\c7難しさ＞ＣＯＭの強さ（打）<BR>コンピュータの打撃のレベルを変更できます。",
+      "english": "\\c7Difficulty / CPU Batting<BR>Change the CPU's batting ability.",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength (Batting) <BR> You can adjust the CPU's batting level.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D210",
+      "source_hash": "E1EC139200ECE539",
+      "source": "\\c7難しさ＞ＣＯＭの強さ（投）<BR>コンピュータの投球のレベルを変更できます。",
+      "english": "\\c7Difficulty / CPU Pitching<BR>Change the CPU's pitching ability.",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength (Pitching) <BR> You can adjust the difficulty level of the computer's pitching.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D270",
+      "source_hash": "8D2E8A65AEE525DB",
+      "source": "\\c7難しさ＞ＣＯＭの強さ<BR>コンピュータの強さを変更できます。<BR>カスタムを選ぶと、投・打・走・守のレベルを個別に設定できます。",
+      "english": "\\c7Difficulty > CPU Difficulty<BR>Choose CPU difficulty. Custom lets you set<BR>pitching, batting, baserunning, and fielding<BR>separately.",
+      "deepl_comparison": "\\c7 Difficulty > CPU Strength <BR> You can adjust the CPU’s strength. <BR> If you select “Custom,” you can set the pitching, hitting, running, and fielding levels individually.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D2F0",
+      "source_hash": "236C615FAB9770E7",
+      "source": "\\c7難しさ＞球速レベル<BR>投打の画面がバッター側視点のときの投球スピードを選べます。<BR>ＶＰショップで「球速レベル拡張」を購入すればさらに段階が増えます。<BR><BR>注）カメラ設定がＴＶのときは設定に関わらずリアルスピードになります。",
+      "english": "\\c7Difficulty / Pitch Speed<BR>Choose pitch speed for the batter-side view. Buy<BR>Pitch Speed Expansion in the VP Shop to unlock<BR>more levels.<BR>Note: TV cameras always use Real Speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level <BR> You can select the pitch speed when the batting/pitching screen is from the batter’s perspective. <BR> Purchasing “Pitch Speed Level Expansion” at the VP Shop unlocks additional levels. <BR> <BR> Note: When the camera setting is set to “TV,” the pitch speed defaults to “Real Speed” regardless of your settings.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D3D8",
+      "source_hash": "844BC089D38767D5",
+      "source": "\\c7情報表示設定メニュー<BR>ゲーム中に表示される各種情報を、ユーザーの好みに応じて変更できます。",
+      "english": "\\c7Information Settings<BR>Customize the information displayed during<BR>games.",
+      "deepl_comparison": "\\c7 Information Display Settings Menu <BR> You can customize the various types of information displayed during the game according to your preferences.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D438",
+      "source_hash": "C8072643DCAD55EE",
+      "source": "\\c7作戦設定メニュー<BR>各種作戦の指示出しなどに関する設定ができます。",
+      "english": "\\c7Tactics Settings<BR>Choose how tactical instructions are given.",
+      "deepl_comparison": "\\c7 Strategy Settings Menu <BR> Allows you to configure settings related to issuing various strategy instructions.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D480",
+      "source_hash": "606575C757A3AF6E",
+      "source": "\\c7守備設定メニュー<BR>守備の難しさを調節できます。<BR>また、操作方法などユーザーの好みに応じて変更できる項目もあります。",
+      "english": "\\c7Fielding Settings<BR>Adjust fielding difficulty and customize the<BR>controls to your liking.",
+      "deepl_comparison": "\\c7 Defense Settings Menu <BR> You can adjust the difficulty of defense. <BR> There are also options that can be customized according to your preferences, such as control settings.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D500",
+      "source_hash": "F9B55B2E0353D40A",
+      "source": "\\c7ランナー設定メニュー<BR>ランナー操作の難しさを調節できます。",
+      "english": "\\c7Baserunning Settings<BR>Adjust baserunning assistance and difficulty.",
+      "deepl_comparison": "\\c7 Runner Settings Menu: You can adjust the difficulty of controlling <BR> runner.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D540",
+      "source_hash": "13BCFFEBA88A4C02",
+      "source": "\\c7投球設定メニュー<BR>投球の難しさを調節できます。<BR>また、操作方法やゲームのテンポアップに関する設定も変更できます。",
+      "english": "\\c7Pitching Settings<BR>Adjust pitching difficulty, controls, and<BR>options that speed up game flow.",
+      "deepl_comparison": "\\c7 Pitching Settings Menu <BR> You can adjust the difficulty of pitching. <BR> You can also change settings related to controls and game pace.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D5B8",
+      "source_hash": "10DA0FB252EA8BD6",
+      "source": "\\c7打撃設定メニュー<BR>打撃の難しさを調節できます。",
+      "english": "\\c7Batting Settings<BR>Adjust batting difficulty.",
+      "deepl_comparison": "\\c7 Batting Settings Menu <BR> You can adjust the difficulty of batting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D5F0",
+      "source_hash": "79D095946DEFBDC1",
+      "source": "\\c7操作設定メニュー<BR>投球カーソルとミートカーソルの移動方式を決めたり、コントローラーの振動機能を設定できます。",
+      "english": "\\c7Control Settings<BR>Choose how the pitching and batting cursors<BR>move, and set controller vibration.",
+      "deepl_comparison": "\\c7 Control Settings Menu <BR> You can set the movement methods for the pitching and batting cursors, as well as configure the controller’s vibration function.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D668",
+      "source_hash": "E35EE30CB7EBFB56",
+      "source": "\\c7カメラ設定メニュー<BR>プレイ中のカメラ（視点）を変更できます。",
+      "english": "\\c7Camera Settings<BR>Change the views used during play.",
+      "deepl_comparison": "\\c7 Camera Settings Menu <BR> You can change the camera (viewpoint) during gameplay.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D6B0",
+      "source_hash": "E43B7FA1824462C9",
+      "source": "\\c7難しさ設定メニュー<BR>球速レベルを変更すると打撃の難しさを調節できます。<BR>また、腕前に合わせてコンピュータの強さを変更することもできます。",
+      "english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed.<BR>Choose CPU difficulty to suit your ability.",
+      "deepl_comparison": "\\c7 Difficulty Settings Menu <BR> You can adjust the difficulty of batting by changing the pitch speed level. <BR> You can also adjust the computer’s difficulty level to match your skill level.",
+      "meaning_example": null,
+      "decision": "Clarify the native meaning or align the established settings terminology; preserve non-break controls and line count.",
+      "previous_english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed, and<BR>choose CPU strength to suit your ability.",
+      "previous_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 313.0
+      },
+      "new_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 288.0
+      }
+    },
+    {
+      "address": "0x8207D740",
+      "source_hash": "0AD37071600AB602",
+      "source": "\\c7シンプル設定メニュー<BR>設定メニューすべての中から、とくに重要な項目を抜き出した簡易メニューです。",
+      "english": "\\c7Quick Settings<BR>A simplified menu of the most important options<BR>from all settings categories.",
+      "deepl_comparison": "\\c7 Simple Settings Menu <BR> This is a simplified menu that highlights the most important items from the full settings menu.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078864",
+      "source_hash": "9586DA37F7AB0199",
+      "source": "\\C777777リセット",
+      "english": "\\C777777Reset",
+      "deepl_comparison": "\\C777777 Reset",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x82078878",
+      "source_hash": "53F5F7B7F5634F84",
+      "source": "\\C777777決定",
+      "english": "\\C777777OK",
+      "deepl_comparison": "\\C777777 Confirmed",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    },
+    {
+      "address": "0x8207D25C",
+      "source_hash": "545E14E2CA576157",
+      "source": "\\c7敵の強さ(監)",
+      "english": "\\c7CPU Manager",
+      "deepl_comparison": "\\c7 Enemy Strength (Manager)",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison."
+    }
+  ],
+  "changes": [
+    {
+      "address": "0x82078F68",
+      "source_hash": "9BD7987E4130A54F",
+      "source": "\\c7作戦＞ブロックサイン指示＞オート<BR>状況に応じてブロックサイン指示が出ます。<BR>自分で変更もできます。",
+      "english": "\\c7Tactics / Team Signs: Auto<BR>Call team signs for the situation. You can<BR>change them yourself.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Instructions > Auto <BR> Block sign instructions are issued based on the situation. <BR> You can also change them yourself.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Tactics / Team Signs: Auto<BR>Suggest team signs for the situation. You can<BR>change them yourself.",
+      "previous_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 319.0
+      },
+      "new_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 289.0
+      }
+    },
+    {
+      "address": "0x82078FD8",
+      "source_hash": "3E97709E1CF611ED",
+      "source": "\\c7作戦＞守備シフト指示＞慎重<BR>状況に応じて最低限の守備シフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "\\c7Tactics / Shifts: Cautious<BR>Call only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions > Cautious <BR> Minimum defensive shift instructions are issued based on the situation. <BR> You can also make changes yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Tactics / Shifts: Cautious<BR>Suggest only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 342.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 312.0
+      }
+    },
+    {
+      "address": "0x82079080",
+      "source_hash": "F557E4CBD475716B",
+      "source": "\\c7作戦＞守備シフト指示＞セオリー<BR>状況に応じてシフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "\\c7Tactics / Shifts: Conventional<BR>Call defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions > Theory <BR> Shift instructions are issued based on the situation. <BR> You can also change them yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Tactics / Shifts: Conventional<BR>Suggest defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 329.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 329.0
+      }
+    },
+    {
+      "address": "0x82079120",
+      "source_hash": "E75B477DF22BD80D",
+      "source": "作戦＞守備シフト指示＞積極<BR>状況と相手選手の能力に応じて守備シフト指示が出ます。<BR>自分で変更もできます。（※）<BR><BR>※Ｘｂｏｘ　Ｌｉｖｅ対戦中は変更できません。",
+      "english": "Tactics / Shifts: Aggressive<BR>Call shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
+      "deepl_comparison": "Strategy > Defensive Shift Instructions > Aggressive <BR>: Defensive shift instructions are issued based on the situation and the opposing players’ abilities. <BR> You can also change them yourself. (*) <BR> <BR> *Cannot be changed during Xbox Live matches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "Tactics / Shifts: Aggressive<BR>Suggest shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 347.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 347.0
+      }
+    },
+    {
+      "address": "0x8207A2D8",
+      "source_hash": "836BF6F1B81492C4",
+      "source": "\\c7投球＞投球ポイント＞リアルサポート<BR>投球のリリース後、打撃ポイントと投球軌道を反映したポイントが表示されます。<BR>慣れてきたらリアルもおすすめです。",
+      "english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Points > Real Support <BR> After releasing the pitch, points reflecting the batter’s stance and the pitch’s trajectory will be displayed. <BR> Once you get the hang of it, we recommend trying “Real” mode.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 307.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 310.0
+      }
+    },
+    {
+      "address": "0x8207A4B0",
+      "source_hash": "6EF8F4FD844BA12A",
+      "source": "\\c7投球＞球種表示＞持ち球＋球種<BR>投手の持ち球パターンと選択中球種の球威・コントロール・変化量が表示さ<BR>れます。<BR>１人対戦のときの標準設定です。",
+      "english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire plus the selected pitch's<BR>Pitch Power, Control, and Break. Standard for<BR>single-player games.",
+      "deepl_comparison": "\\c7 Pitching > Pitch Type Display > Repertoire + Pitch Type <BR> Displays the pitcher’s repertoire and the power, control, and movement of the currently selected pitch. <BR> <BR> These are the default settings for single-player matches.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire and the selected pitch's<BR>Stuff, Control, and Break ratings. Standard for<BR>single-player games.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 320.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 322.0
+      }
+    },
+    {
+      "address": "0x8207A830",
+      "source_hash": "A5C9F89FFE75291B",
+      "source": "\\c7投球＞投球方法＞オート　　　　　　　　　　　　　　　　　パワプロ準拠<BR>投球ごとに１度投球ボタンを押す投球方法。<BR>投球開始後、コースだけを決めます。<BR>球威は選手能力で決まります。<BR>パワプロに慣れてる人向け。",
+      "english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. Choose<BR>the location after the delivery starts.<BR>Pitch Power depends on the pitcher's ability.<BR>For players used to Power Pros.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Methods > Auto　　　　　　　　　　　　　　　　　Based on Power Pro<BR> A pitching method where you press the pitch button once per pitch.<BR> After starting the pitch, you only set the location.<BR> Pitch velocity is determined by the player’s ability.<BR> For players familiar with Power Pro.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. After the<BR>delivery begins, choose only the location. Stuff<BR>depends on the pitcher's abilities. For players<BR>used to Power Pros.",
+      "previous_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 328.0
+      },
+      "new_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 321.0
+      }
+    },
+    {
+      "address": "0x8207A908",
+      "source_hash": "F23708211C159C9D",
+      "source": "\\c7投球＞投球方法＞ダイレクト<BR>投球ごとに２度投球ボタンを押す投球方法。<BR>投球のリリース時にタイミングよく投球ボタンを押すと球威のある球を投げ<BR>込めます。<BR>標準のおすすめ設定です。",
+      "english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. For<BR>greater Pitch Power, time the second press at<BR>release. This is the recommended setting.",
+      "deepl_comparison": "\\c7 Pitching > Pitching Methods > Direct <BR> A pitching method where you press the pitch button twice for each pitch. <BR> If you press the pitch button at the right moment when releasing the pitch, you can throw a powerful pitch. <BR> <BR> This is the standard recommended setting.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. Time the<BR>second press at release to throw with better<BR>Stuff. This is the recommended standard setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 340.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 320.0
+      }
+    },
+    {
+      "address": "0x8207AE60",
+      "source_hash": "4590065EC5AC39BC",
+      "source": "\\c7打撃＞打撃ポイント＞リアルサポート<BR>投球のリリース後、打撃ポイントと投球軌道を反映したポイントが表示されます。<BR>慣れてきたらリアルもおすすめです。",
+      "english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
+      "deepl_comparison": "\\c7 Batting > Batting Points > Real Support <BR> After the pitcher releases the ball, points reflecting the batting points and the pitch’s trajectory will be displayed. <BR> Once you get the hang of it, we recommend trying “Real” mode.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 307.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 310.0
+      }
+    },
+    {
+      "address": "0x8207C1E8",
+      "source_hash": "FEA9DD8205895515",
+      "source": "\\c7難しさ＞球速レベル＞ミドルスピード＋<BR>やや速めのプロスピおすすめの設定です。",
+      "english": "\\c7Difficulty / Pitch Speed: Medium+<BR>A slightly faster recommended setting.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Medium Speed + <BR>: These are the recommended settings for a slightly faster Pro Yakyuu Spirits game.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Difficulty / Pitch Speed: Middle+<BR>A slightly faster recommended setting.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 269.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 269.0
+      }
+    },
+    {
+      "address": "0x8207C240",
+      "source_hash": "B50BE63109E7B691",
+      "source": "\\c7難しさ＞球速レベル＞ミドルスピード<BR>プロスピおすすめの設定です。",
+      "english": "\\c7Difficulty / Pitch Speed: Medium<BR>The recommended Pro Spirits pitch speed.",
+      "deepl_comparison": "\\c7 Difficulty > Pitch Speed Level > Medium Speed <BR> These are the recommended settings for Pro Yakyuu Spirits.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Difficulty / Pitch Speed: Middle<BR>The recommended Pro Spirits pitch speed.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 302.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 302.0
+      }
+    },
+    {
+      "address": "0x8207C510",
+      "source_hash": "47A6E3767F103464",
+      "source": "\\c7作戦＞ブロックサイン指示<BR>ブロックサイン指示のレベルを選べます。<BR>どれを選んでも自分の操作で変更できます。<BR><BR>ブロックサイン指示：<L2>ボタン",
+      "english": "\\c7Tactics / Team Signs<BR>Choose how team signs are called. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
+      "deepl_comparison": "\\c7 Strategy > Block Sign Instructions <BR> You can select the level of block sign instructions. <BR> Whichever you choose, you can change it manually. <BR> <BR> Block Sign Instructions: <L2> Button",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Tactics / Team Signs<BR>Choose how team signs are suggested. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 343.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 312.0
+      }
+    },
+    {
+      "address": "0x8207C5A8",
+      "source_hash": "3E630CB321A33D54",
+      "source": "\\c7作戦＞守備シフト指示<BR>守備シフト指示のレベルを選べます。<BR>どれを選んでも自分の操作で変更できます。<BR><BR>守備シフト選択：<L1>ボタン",
+      "english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are called. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
+      "deepl_comparison": "\\c7 Strategy > Defensive Shift Instructions <BR> You can select the level of defensive shift instructions. <BR> Whichever you choose, you can change it manually. <BR> <BR> Defensive Shift Selection: <L1> Button",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are suggested. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 346.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 315.0
+      }
+    },
+    {
+      "address": "0x8207D6B0",
+      "source_hash": "E43B7FA1824462C9",
+      "source": "\\c7難しさ設定メニュー<BR>球速レベルを変更すると打撃の難しさを調節できます。<BR>また、腕前に合わせてコンピュータの強さを変更することもできます。",
+      "english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed.<BR>Choose CPU difficulty to suit your ability.",
+      "deepl_comparison": "\\c7 Difficulty Settings Menu <BR> You can adjust the difficulty of batting by changing the pitch speed level. <BR> You can also adjust the computer’s difficulty level to match your skill level.",
+      "meaning_example": null,
+      "decision": "Retain the native setting, effects, exceptions and control instructions after source/context comparison.",
+      "previous_english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed, and<BR>choose CPU strength to suit your ability.",
+      "previous_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 313.0
+      },
+      "new_layout_estimate": {
+        "lines": 3,
+        "widest_line_px": 288.0
+      }
+    }
+  ],
+  "fragment_changes": [
+    {
+      "source": "状況に応じてブロックサイン指示が出ます。",
+      "source_hash": "B17B0254C08CC697",
+      "previous_english": "Suggest team signs for the situation. You can",
+      "english": "Call team signs for the situation.",
+      "deepl_comparison": "Blocking signals are issued depending on the situation.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 226.0
+      }
+    },
+    {
+      "source": "自分で変更もできます。",
+      "source_hash": "4CEB8AD5B86C18C9",
+      "previous_english": "change them yourself.",
+      "english": "You can change them yourself.",
+      "deepl_comparison": "You can also make your own changes.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 219.0
+      }
+    },
+    {
+      "source": "１人対戦のときの標準設定です。",
+      "source_hash": "1D7BE20B04C0B4FF",
+      "previous_english": "single-player games.",
+      "english": "Standard for single-player games.",
+      "deepl_comparison": "These are the default settings for single-player mode.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 239.0
+      }
+    },
+    {
+      "source": "投球ごとに１度投球ボタンを押す投球方法。",
+      "source_hash": "687E6756EEBAEA8D",
+      "previous_english": "Press the pitch button once per pitch. After the",
+      "english": "Press the pitch button once per pitch.",
+      "deepl_comparison": "A pitching method where you press the pitch button once for each pitch.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 261.0
+      }
+    },
+    {
+      "source": "投球開始後、コースだけを決めます。",
+      "source_hash": "40B49C42921D5F9D",
+      "previous_english": "delivery begins, choose only the location. Stuff",
+      "english": "Choose only the location after starting.",
+      "deepl_comparison": "After the pitch begins, you only need to decide the location.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 271.0
+      }
+    },
+    {
+      "source": "球威は選手能力で決まります。",
+      "source_hash": "D7A548F7939E102B",
+      "previous_english": "depends on the pitcher's abilities. For players",
+      "english": "Pitch Power depends on the player's ability.",
+      "deepl_comparison": "Pitching power is determined by a player's abilities.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 309.0
+      }
+    },
+    {
+      "source": "パワプロに慣れてる人向け。",
+      "source_hash": "FC6371E8148F2FA2",
+      "previous_english": "used to Power Pros.",
+      "english": "For players used to Power Pros.",
+      "deepl_comparison": "Intended for those familiar with Power Pro.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 227.0
+      }
+    },
+    {
+      "source": "標準のおすすめ設定です。",
+      "source_hash": "1987627A5AB0BCAD",
+      "previous_english": "recommended standard setting.",
+      "english": "This is the recommended setting.",
+      "deepl_comparison": "These are the standard recommended settings.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 234.0
+      }
+    },
+    {
+      "source": "難しさ＞球速レベル＞ミドルスピード＋",
+      "source_hash": "127DF9A40EF750D4",
+      "previous_english": "Difficulty / Pitch Speed: Middle+",
+      "english": "Difficulty / Pitch Speed: Medium+",
+      "deepl_comparison": "Difficulty > Pitch Speed Level > Medium Speed+",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 234.0
+      }
+    },
+    {
+      "source": "難しさ＞球速レベル＞ミドルスピード",
+      "source_hash": "4304E77E3AB0E6BC",
+      "previous_english": "Difficulty / Pitch Speed: Middle",
+      "english": "Difficulty / Pitch Speed: Medium",
+      "deepl_comparison": "Difficulty > Pitch Speed Level > Medium Speed",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 225.0
+      }
+    },
+    {
+      "source": "球速レベルを変更すると打撃の難しさを調節できます。",
+      "source_hash": "6A5AF0A2D14A1E6A",
+      "previous_english": "Adjust batting difficulty with pitch speed, and",
+      "english": "Adjust batting difficulty with pitch speed.",
+      "deepl_comparison": "You can adjust the difficulty of batting by changing the pitch speed level.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 282.0
+      }
+    },
+    {
+      "source": "また、腕前に合わせてコンピュータの強さを変更することもできます。",
+      "source_hash": "DBCC963BB9C9894E",
+      "previous_english": "choose CPU strength to suit your ability.",
+      "english": "Choose CPU difficulty to suit your ability.",
+      "deepl_comparison": "You can also adjust the computer's difficulty level to match your skill level.",
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 288.0
+      }
+    }
+  ],
+  "label_reviews": [
+    {
+      "source": "サイン名のみ",
+      "english": "Sign Name Only",
+      "deepl_comparison": "Pitch names only",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ガイド画面",
+      "english": "Guide",
+      "deepl_comparison": "Guide Screen",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "慎重",
+      "english": "Cautious",
+      "deepl_comparison": "Cautious",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "セオリー",
+      "english": "Conventional",
+      "deepl_comparison": "Theory",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "積極",
+      "english": "Aggressive",
+      "deepl_comparison": "Aggressive",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "セミオート",
+      "english": "Semi-Auto",
+      "deepl_comparison": "Semi-Auto",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "名前のみ",
+      "english": "Name Only",
+      "deepl_comparison": "Names only",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "頭上カーソル",
+      "english": "Overhead Cursor",
+      "deepl_comparison": "Hover Cursor",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "足元カーソル",
+      "english": "Cursor at Feet",
+      "deepl_comparison": "On-screen cursor",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "塁指定＋Ａ",
+      "english": "Direction + A",
+      "deepl_comparison": "Base Assignment + A",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "持ち球のみ",
+      "english": "Repertoire Only",
+      "deepl_comparison": "Pitch repertoire only",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "持ち球＋球種",
+      "english": "Full Pitch Info",
+      "deepl_comparison": "Pitch Repertoire + Pitch Types",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "固定表示する",
+      "english": "Fixed",
+      "deepl_comparison": "Show permanently",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "表示する",
+      "english": "Visible",
+      "deepl_comparison": "Show",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ホーム送球ボタン",
+      "english": "Throw Home Button",
+      "deepl_comparison": "Home Plate Throw Button",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "Ａ固定",
+      "english": "Always A",
+      "deepl_comparison": "A Fixed",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ダイレクト",
+      "english": "Direct",
+      "deepl_comparison": "Direct",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "表示しない",
+      "english": "Hidden",
+      "deepl_comparison": "Hide",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "すべて表示",
+      "english": "Show All",
+      "deepl_comparison": "Show All",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "オフ",
+      "english": "Off",
+      "deepl_comparison": "Off",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "イージー",
+      "english": "Easy",
+      "deepl_comparison": "Easy",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "リアルサポート",
+      "english": "Assisted",
+      "deepl_comparison": "Real Support",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "アシスト",
+      "english": "Assist",
+      "deepl_comparison": "Assist",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "リアル",
+      "english": "Realistic",
+      "deepl_comparison": "Realistic",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "クイック",
+      "english": "Quick Delivery",
+      "deepl_comparison": "Quick",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ノーマル（ロング）",
+      "english": "Normal (Wide)",
+      "deepl_comparison": "Normal (Long)",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ノーマル（中央）",
+      "english": "Normal (Center)",
+      "deepl_comparison": null,
+      "standalone_deepl_input_available": false,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ノーマル（打席）",
+      "english": "Normal (Batter)",
+      "deepl_comparison": "Normal (At-Bat)",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ＴＶ（固定）",
+      "english": "TV (Fixed)",
+      "deepl_comparison": null,
+      "standalone_deepl_input_available": false,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ＴＶ（球場別）",
+      "english": "TV (By Stadium)",
+      "deepl_comparison": null,
+      "standalone_deepl_input_available": false,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "リバース",
+      "english": "Reverse",
+      "deepl_comparison": "Reverse",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "低反発ボール",
+      "english": "Low-rebound Ball",
+      "deepl_comparison": "Low-bounce ball",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "高反発ボール",
+      "english": "High-rebound Ball",
+      "deepl_comparison": "High-bounce ball",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "超高反発ボール",
+      "english": "Super-rebound Ball",
+      "deepl_comparison": "Ultra-High-Rebound Ball",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "球団別",
+      "english": "By Team",
+      "deepl_comparison": "By Team",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "少なめ",
+      "english": "Fewer",
+      "deepl_comparison": "A small amount",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "隠す",
+      "english": "Hidden",
+      "deepl_comparison": "Hide",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "リアルスピード",
+      "english": "Real Speed",
+      "deepl_comparison": "Real Speed",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ミドルスピード＋",
+      "english": "Medium Speed+",
+      "deepl_comparison": "Medium Speed+",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ミドルスピード",
+      "english": "Medium Speed",
+      "deepl_comparison": "Medium Speed",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ベーシックスピード＋",
+      "english": "Basic Speed+",
+      "deepl_comparison": "Base Speed+",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "ベーシックスピード",
+      "english": "Basic Speed",
+      "deepl_comparison": "Base Speed",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "スロースピード＋",
+      "english": "Slow Speed+",
+      "deepl_comparison": "Slow Speed+",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "スロースピード",
+      "english": "Slow Speed",
+      "deepl_comparison": "Slow Speed",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "最弱",
+      "english": "Weakest",
+      "deepl_comparison": "Weakest",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "弱い",
+      "english": "Weak",
+      "deepl_comparison": "Weak",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "強い",
+      "english": "Strong",
+      "deepl_comparison": "Strong",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    },
+    {
+      "source": "パーフェクト",
+      "english": "Perfect",
+      "deepl_comparison": "Perfect",
+      "standalone_deepl_input_available": true,
+      "decision": "Retain the compact option name in its corresponding settings context."
+    }
+  ],
+  "official_2026_references": [
+    {
+      "namespace": "Common",
+      "key": "common_ui_or_ball_power",
+      "japanese": "球威",
+      "english": "Pitch Power"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_ui_gm_block_sign",
+      "japanese": "ブロックサイン",
+      "english": "Decoy Sign"
+    },
+    {
+      "namespace": "Settings",
+      "key": "settings_user_pitching_level_msg_04",
+      "japanese": "ミドルスピード",
+      "english": "Medium Speed"
+    },
+    {
+      "namespace": "Settings",
+      "key": "settings_user_pitching_level_msg_05",
+      "japanese": "ミドルスピード＋",
+      "english": "Medium Speed+"
+    }
+  ],
+  "review_checks": [
+    "Keep the original 15-/12-inning historical rules and each 1-to-10-run mercy threshold; do not replace them with rules from the 2026 game.",
+    "Keep the difference between injury prevention, fielding errors, passed balls and wild pitches.",
+    "Player form may be random, hidden, or fixed at each of five levels.",
+    "Ability Display and Pitch Display conceal different information in two-player games.",
+    "Automatic tactics issue instructions; they are not merely an informational suggestion. Manual override and Xbox Live restrictions remain intact.",
+    "Manual fielder switching still switches automatically on touching the ball; Auto and Semi-Auto choose fielders differently.",
+    "Power Throw duration trades stronger throws against more accurate throws.",
+    "Type A uses the four face buttons; Type B combines a direction and throw button. Reverse fielding view reverses directions.",
+    "Pro/Standard/Basic formations differ in base coverage versus backup/rundown priorities.",
+    "Automatic and assisted baserunning still leave steals to the user.",
+    "Assisted pitch-marker settings show a pitch marker and a marker reflecting trajectory; do not collapse them into one indicator.",
+    "Pitch Display names Pitch Power, Control and Break; Auto/Direct pitching distinguish one press from two release-timed presses.",
+    "Hidden/Fixed/Visible pitch cursors and all five marker types retain their separate behavior.",
+    "Zone Hitting cannot hit balls outside the strike zone; Area Hitting relaxes aiming; Lock-On assists contact.",
+    "Digital input moves a cursor incrementally, while Analog directly specifies its position.",
+    "Horizontal and vertical inversion, left/right batter viewpoints, camera toggles and reverse throw directions are retained.",
+    "TV views always use Real Speed; speed-level expansion requires a VP Shop purchase.",
+    "All controller tags retain source order, including R-STICK camera switches, L1 shifts, L2 signs and the four base buttons."
+  ],
+  "contextual_terminology_follow_up": "The 2026 label for block signs is Decoy Sign. Retain Team Signs consistently in this build pending direct feature-equivalence confirmation for the older game.",
+  "non_break_controls_printf_arguments_and_source_metadata_unchanged": true,
+  "changed_explanation_line_counts_unchanged": true,
+  "all_changed_explanation_width_estimates_below_360_px": true,
+  "layout_estimate_scope": "Arial 16 px summed glyph advances and a two-M icon allowance; actual game font and widget fit remain unverified.",
+  "explicit_fragment_reproduction_checks_passed": 12,
+  "remaining_legacy_fragment_follow_up": [
+    {
+      "source_hash": "1446E0BBB72BB7EF",
+      "source": "れます。",
+      "current_english": "Stuff, Control, and Break ratings. Standard for",
+      "reason": "This context-dependent grammatical tail inherited a full rating line from positional line pairing. Do not globally assign a replacement without establishing the full-paragraph versus fragment route and other consumers."
+    }
+  ],
+  "compiled_unique_lookup_cases": 264,
+  "compiled_checks_passed": true,
+  "curation_reproduction_checks": 207,
+  "curation_checks_passed": true,
+  "windows_build_passed": true,
+  "cache_only_review": true,
+  "no_new_service_requests": true,
+  "catalogue_status_counts": {
+    "reviewed": 10073,
+    "draft": 3408,
+    "game-roster-family": 5650
+  },
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Live settings page placement, icon alignment and all affected control paths.",
+    "Legacy partial-sentence fallback context, including the generic grammatical tail recorded above.",
+    "Older-game block-sign feature equivalence with the official 2026 Decoy Sign label."
+  ],
+  "windows_executable_sha256": "4f8bcd56a50a98419a478932f6f462f2b38fd1d159ed8069c6e6831137799388",
+  "generated_header_sha256": "b0b4480bd8c2563bd945fb820eb4d906655b3252145cf60424cd1abf27347b0f",
+  "full_review_merger_reproduces_curation_unchanged": true
+}

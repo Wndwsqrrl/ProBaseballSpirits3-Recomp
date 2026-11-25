@@ -11959,28 +11959,28 @@
     "address": "0x82078F68",
     "source_size": 105,
     "source_hash": "9BD7987E4130A54F",
-    "english": "\\c7Tactics / Team Signs: Auto<BR>Suggest team signs for the situation. You can<BR>change them yourself.",
+    "english": "\\c7Tactics / Team Signs: Auto<BR>Call team signs for the situation. You can<BR>change them yourself.",
     "status": "reviewed"
   },
   {
     "address": "0x82078FD8",
     "source_size": 161,
     "source_hash": "3E97709E1CF611ED",
-    "english": "\\c7Tactics / Shifts: Cautious<BR>Suggest only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
+    "english": "\\c7Tactics / Shifts: Cautious<BR>Call only essential defensive shifts. You can<BR>change them yourself, except in Xbox Live<BR>matches.",
     "status": "reviewed"
   },
   {
     "address": "0x82079080",
     "source_size": 153,
     "source_hash": "F557E4CBD475716B",
-    "english": "\\c7Tactics / Shifts: Conventional<BR>Suggest defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
+    "english": "\\c7Tactics / Shifts: Conventional<BR>Call defensive shifts for the situation. You<BR>can change them yourself, except in Xbox Live<BR>matches.",
     "status": "reviewed"
   },
   {
     "address": "0x82079120",
     "source_size": 166,
     "source_hash": "E75B477DF22BD80D",
-    "english": "Tactics / Shifts: Aggressive<BR>Suggest shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
+    "english": "Tactics / Shifts: Aggressive<BR>Call shifts based on the situation and<BR>opposing players' abilities. You can change them<BR>yourself, except in Xbox Live matches.",
     "status": "reviewed"
   },
   {
@@ -12225,7 +12225,7 @@
     "address": "0x8207A2D8",
     "source_size": 153,
     "source_hash": "836BF6F1B81492C4",
-    "english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+    "english": "\\c7Pitching / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
     "status": "reviewed"
   },
   {
@@ -12253,7 +12253,7 @@
     "address": "0x8207A4B0",
     "source_size": 149,
     "source_hash": "6EF8F4FD844BA12A",
-    "english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire and the selected pitch's<BR>Stuff, Control, and Break ratings. Standard for<BR>single-player games.",
+    "english": "\\c7Pitching / Pitch Display: Full<BR>Show the repertoire plus the selected pitch's<BR>Pitch Power, Control, and Break. Standard for<BR>single-player games.",
     "status": "reviewed"
   },
   {
@@ -12295,14 +12295,14 @@
     "address": "0x8207A830",
     "source_size": 215,
     "source_hash": "A5C9F89FFE75291B",
-    "english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. After the<BR>delivery begins, choose only the location. Stuff<BR>depends on the pitcher's abilities. For players<BR>used to Power Pros.",
+    "english": "\\c7Pitching / Method: Auto<BR>Press the pitch button once per pitch. Choose<BR>the location after the delivery starts.<BR>Pitch Power depends on the pitcher's ability.<BR>For players used to Power Pros.",
     "status": "reviewed"
   },
   {
     "address": "0x8207A908",
     "source_size": 187,
     "source_hash": "F23708211C159C9D",
-    "english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. Time the<BR>second press at release to throw with better<BR>Stuff. This is the recommended standard setting.",
+    "english": "\\c7Pitching / Method: Direct<BR>Press the pitch button twice per pitch. For<BR>greater Pitch Power, time the second press at<BR>release. This is the recommended setting.",
     "status": "reviewed"
   },
   {
@@ -12372,7 +12372,7 @@
     "address": "0x8207AE60",
     "source_size": 153,
     "source_hash": "4590065EC5AC39BC",
-    "english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show a marker reflecting the<BR>pitch's location and path. Try Realistic once<BR>you are used to this setting.",
+    "english": "\\c7Batting / Pitch Marker: Assisted<BR>After release, show the pitch marker and a<BR>marker based on its path. Try Realistic once<BR>you are used to this setting.",
     "status": "reviewed"
   },
   {
@@ -12624,14 +12624,14 @@
     "address": "0x8207C1E8",
     "source_size": 81,
     "source_hash": "FEA9DD8205895515",
-    "english": "\\c7Difficulty / Pitch Speed: Middle+<BR>A slightly faster recommended setting.",
+    "english": "\\c7Difficulty / Pitch Speed: Medium+<BR>A slightly faster recommended setting.",
     "status": "reviewed"
   },
   {
     "address": "0x8207C240",
     "source_size": 69,
     "source_hash": "B50BE63109E7B691",
-    "english": "\\c7Difficulty / Pitch Speed: Middle<BR>The recommended Pro Spirits pitch speed.",
+    "english": "\\c7Difficulty / Pitch Speed: Medium<BR>The recommended Pro Spirits pitch speed.",
     "status": "reviewed"
   },
   {
@@ -12694,14 +12694,14 @@
     "address": "0x8207C510",
     "source_size": 151,
     "source_hash": "47A6E3767F103464",
-    "english": "\\c7Tactics / Team Signs<BR>Choose how team signs are suggested. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
+    "english": "\\c7Tactics / Team Signs<BR>Choose how team signs are called. You can<BR>change them yourself at any level.<BR>Give team signs: <L2>.",
     "status": "reviewed"
   },
   {
     "address": "0x8207C5A8",
     "source_size": 139,
     "source_hash": "3E630CB321A33D54",
-    "english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are suggested. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
+    "english": "\\c7Tactics / Defensive Shifts<BR>Choose how defensive shifts are called. You<BR>can change them yourself at any level.<BR>Select a defensive shift: <L1>.",
     "status": "reviewed"
   },
   {
@@ -13016,7 +13016,7 @@
     "address": "0x8207D6B0",
     "source_size": 143,
     "source_hash": "E43B7FA1824462C9",
-    "english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed, and<BR>choose CPU strength to suit your ability.",
+    "english": "\\c7Difficulty Settings<BR>Adjust batting difficulty with pitch speed.<BR>Choose CPU difficulty to suit your ability.",
     "status": "reviewed"
   },
   {
@@ -92200,14 +92200,14 @@
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "B17B0254C08CC697",
-    "english": "Suggest team signs for the situation. You can",
+    "english": "Call team signs for the situation.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "4CEB8AD5B86C18C9",
-    "english": "change them yourself.",
+    "english": "You can change them yourself.",
     "status": "reviewed"
   },
   {
@@ -92480,7 +92480,7 @@
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "1987627A5AB0BCAD",
-    "english": "recommended standard setting.",
+    "english": "This is the recommended setting.",
     "status": "reviewed"
   },
   {
@@ -92746,7 +92746,7 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "1D7BE20B04C0B4FF",
-    "english": "single-player games.",
+    "english": "Standard for single-player games.",
     "status": "reviewed"
   },
   {
@@ -92788,28 +92788,28 @@
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "687E6756EEBAEA8D",
-    "english": "Press the pitch button once per pitch. After the",
+    "english": "Press the pitch button once per pitch.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "40B49C42921D5F9D",
-    "english": "delivery begins, choose only the location. Stuff",
+    "english": "Choose only the location after starting.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "D7A548F7939E102B",
-    "english": "depends on the pitcher's abilities. For players",
+    "english": "Pitch Power depends on the player's ability.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "FC6371E8148F2FA2",
-    "english": "used to Power Pros.",
+    "english": "For players used to Power Pros.",
     "status": "reviewed"
   },
   {
@@ -93124,7 +93124,7 @@
     "address": "0x00000000",
     "source_size": 36,
     "source_hash": "127DF9A40EF750D4",
-    "english": "Difficulty / Pitch Speed: Middle+",
+    "english": "Difficulty / Pitch Speed: Medium+",
     "status": "reviewed"
   },
   {
@@ -93138,7 +93138,7 @@
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "4304E77E3AB0E6BC",
-    "english": "Difficulty / Pitch Speed: Middle",
+    "english": "Difficulty / Pitch Speed: Medium",
     "status": "reviewed"
   },
   {
@@ -93607,14 +93607,14 @@
     "address": "0x00000000",
     "source_size": 50,
     "source_hash": "6A5AF0A2D14A1E6A",
-    "english": "Adjust batting difficulty with pitch speed, and",
+    "english": "Adjust batting difficulty with pitch speed.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "DBCC963BB9C9894E",
-    "english": "choose CPU strength to suit your ability.",
+    "english": "Choose CPU difficulty to suit your ability.",
     "status": "reviewed"
   },
   {

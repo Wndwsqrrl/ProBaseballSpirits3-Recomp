@@ -1,0 +1,98 @@
+[
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "B17B0254C08CC697",
+    "english": "Call team signs for the situation.",
+    "status": "reviewed",
+    "source": "状況に応じてブロックサイン指示が出ます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "4CEB8AD5B86C18C9",
+    "english": "You can change them yourself.",
+    "status": "reviewed",
+    "source": "自分で変更もできます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "1D7BE20B04C0B4FF",
+    "english": "Standard for single-player games.",
+    "status": "reviewed",
+    "source": "１人対戦のときの標準設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "687E6756EEBAEA8D",
+    "english": "Press the pitch button once per pitch.",
+    "status": "reviewed",
+    "source": "投球ごとに１度投球ボタンを押す投球方法。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "40B49C42921D5F9D",
+    "english": "Choose only the location after starting.",
+    "status": "reviewed",
+    "source": "投球開始後、コースだけを決めます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "D7A548F7939E102B",
+    "english": "Pitch Power depends on the player's ability.",
+    "status": "reviewed",
+    "source": "球威は選手能力で決まります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "FC6371E8148F2FA2",
+    "english": "For players used to Power Pros.",
+    "status": "reviewed",
+    "source": "パワプロに慣れてる人向け。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "1987627A5AB0BCAD",
+    "english": "This is the recommended setting.",
+    "status": "reviewed",
+    "source": "標準のおすすめ設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "127DF9A40EF750D4",
+    "english": "Difficulty / Pitch Speed: Medium+",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞ミドルスピード＋"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "4304E77E3AB0E6BC",
+    "english": "Difficulty / Pitch Speed: Medium",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞ミドルスピード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "6A5AF0A2D14A1E6A",
+    "english": "Adjust batting difficulty with pitch speed.",
+    "status": "reviewed",
+    "source": "球速レベルを変更すると打撃の難しさを調節できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "DBCC963BB9C9894E",
+    "english": "Choose CPU difficulty to suit your ability.",
+    "status": "reviewed",
+    "source": "また、腕前に合わせてコンピュータの強さを変更することもできます。"
+  }
+]
