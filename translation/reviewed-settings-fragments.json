@@ -1,6 +1,430 @@
 [
   {
     "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "6FCF28243AB38D46",
+    "english": "No mercy rule.",
+    "status": "reviewed",
+    "source": "コールドゲームなし。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "780A677E0EA54495",
+    "english": "Use professional baseball rules.",
+    "status": "reviewed",
+    "source": "実際のプロ野球と同じルールです。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "FF30213E3A381316",
+    "english": "Play up to 15 innings if regulation ends tied.",
+    "status": "reviewed",
+    "source": "試合終了イニング以降同点であれば１５回まで延長します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "FDBF56161DFB3FD9",
+    "english": "Used in the Japan Series.",
+    "status": "reviewed",
+    "source": "日本シリーズで採用されているルールです。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "9A09AB8A18A94C6D",
+    "english": "Play up to 12 innings if regulation ends tied.",
+    "status": "reviewed",
+    "source": "規定イニング以降同点であれば１２回まで延長します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "70A2D0FF674FD2BE",
+    "english": "Used in regular-season games.",
+    "status": "reviewed",
+    "source": "公式戦で採用されているルールです。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "864547E0F051C422",
+    "english": "Set regulation game length to 9 innings.",
+    "status": "reviewed",
+    "source": "試合終了イニングを９回にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "8F54979252D0C79E",
+    "english": "Set regulation game length to 5 innings.",
+    "status": "reviewed",
+    "source": "試合終了イニングを５回にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "38B70F9D420F903C",
+    "english": "Set regulation game length to 3 innings.",
+    "status": "reviewed",
+    "source": "試合終了イニングを３回にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "88DD717EF27A1AEA",
+    "english": "Set regulation game length to 1 inning.",
+    "status": "reviewed",
+    "source": "試合終了イニングを１回にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "CF34F0ED47D0C3AC",
+    "english": "Keep the game moving with fewer cutscenes.",
+    "status": "reviewed",
+    "source": "試合のテンポを重視した設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "C9A51A335AF81957",
+    "english": "Show a variety of cutscenes during the game.",
+    "status": "reviewed",
+    "source": "様々な演出で試合を盛り上げます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "1300DE3D177CB0CF",
+    "english": "Do not show replays.",
+    "status": "reviewed",
+    "source": "リプレイは流れません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "6D89D10A19ED161A",
+    "english": "Automatically show replays when appropriate.",
+    "status": "reviewed",
+    "source": "場面に応じて自動でリプレイが再生されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "44EC91AA6CC2B6D3",
+    "english": "Players cannot be injured during games.",
+    "status": "reviewed",
+    "source": "試合中にケガをしません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "105CEF522625A4D2",
+    "english": "Players can be injured during games.",
+    "status": "reviewed",
+    "source": "試合中にケガが発生する設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "456945E7D336A95C",
+    "english": "Fielders do not commit errors.",
+    "status": "reviewed",
+    "source": "野手がエラーしない設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "E384354C7D7FE9AD",
+    "english": "Fielders can commit errors.",
+    "status": "reviewed",
+    "source": "野手がエラーする設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "410DACAE73BE81BF",
+    "english": "Assign player form at random.",
+    "status": "reviewed",
+    "source": "調子はランダムで設定されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "B3FE54E8BFB71B12",
+    "english": "Set all players to very poor form.",
+    "status": "reviewed",
+    "source": "調子を絶不調にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "1C695A90FAB7603C",
+    "english": "Set all players to poor form.",
+    "status": "reviewed",
+    "source": "調子を不調にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "16D16D4ABDDB3206",
+    "english": "Set all players to normal form.",
+    "status": "reviewed",
+    "source": "調子を普通にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "82F9F6DF6D7F0E65",
+    "english": "Set all players to good form.",
+    "status": "reviewed",
+    "source": "調子を好調にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "7BF81C940F4215A7",
+    "english": "Set all players to excellent form.",
+    "status": "reviewed",
+    "source": "調子を絶好調にします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "E9CABC80877545CB",
+    "english": "Choose the game's color commentator.",
+    "status": "reviewed",
+    "source": "試合の解説者を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "D4AC290E979F777B",
+    "english": "Choose the ball used in the game.",
+    "status": "reviewed",
+    "source": "試合で使用するボールを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "BBB088C4A545BAEB",
+    "english": "Choose the extra-inning limit.",
+    "status": "reviewed",
+    "source": "延長イニングが選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "4F6A0493EDEC4C9F",
+    "english": "Choose the regulation game length.",
+    "status": "reviewed",
+    "source": "試合終了イニングを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "1CC116FB31294047",
+    "english": "Turn replays on or off.",
+    "status": "reviewed",
+    "source": "リプレイの有無を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "1F0BC50C691DDC2D",
+    "english": "Allow or prevent in-game injuries.",
+    "status": "reviewed",
+    "source": "試合中のケガの有無を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 10,
+    "source_hash": "9119AE688DAFE7F1",
+    "english": "Form Icons",
+    "status": "reviewed",
+    "source": "調子マーク"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "3039DCA8F1A35ADC",
+    "english": "Choose how player form is displayed.",
+    "status": "reviewed",
+    "source": "調子マークのタイプを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "87CA4C5568396503",
+    "english": "Info / Control Guide: Off",
+    "status": "reviewed",
+    "source": "情報＞操作ガイド表示＞なし"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "6A77EF1EE50860A6",
+    "english": "Hide the on-screen button guide during games.",
+    "status": "reviewed",
+    "source": "ゲーム中に操作ボタンガイドを表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "85723F571ADB885C",
+    "english": "Info / Control Guide: On",
+    "status": "reviewed",
+    "source": "情報＞操作ガイド表示＞あり"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "BB600B9ED2D7C0FD",
+    "english": "Show the on-screen button guide.",
+    "status": "reviewed",
+    "source": "ゲーム中に操作ボタンガイドを表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "00FEE49C8E7958DC",
+    "english": "Recommended for beginners.",
+    "status": "reviewed",
+    "source": "初心者にはおすすめです。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "71E79425576B833B",
+    "english": "Conceal information in two-player games.",
+    "status": "reviewed",
+    "source": "２人対戦で相手に情報を知られたくないときに選びます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "C225B7ABFF12DABD",
+    "english": "Info / Ability Display: On",
+    "status": "reviewed",
+    "source": "情報＞能力系表示＞あり"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "8952DBEDE4314605",
+    "english": "Show stamina and active special abilities.",
+    "status": "reviewed",
+    "source": "投手のスタミナゲージ、発動中特殊能力を表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "C0DB849BD92AA940",
+    "english": "This is the standard setting.",
+    "status": "reviewed",
+    "source": "標準の設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "DDA00B189A305739",
+    "english": "Info / Player Info: Normal",
+    "status": "reviewed",
+    "source": "情報＞情報表示＞ふつう"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "AD1FA2EF89A46AA5",
+    "english": "Show names and stats on batting/pitching screens.",
+    "status": "reviewed",
+    "source": "投打画面で選手名や成績などの情報を表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "3DB607D0DF1A7FD1",
+    "english": "Tactics / Sign Display: Off",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン入力表示＞なし"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "E5A8CE042CB5010B",
+    "english": "Display nothing.",
+    "status": "reviewed",
+    "source": "なにも表示されません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "BEFC38F0E244D680",
+    "english": "Conceal team signs in two-player games.",
+    "status": "reviewed",
+    "source": "２人対戦で相手にばれずにブロックサインを使いたいときの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "AF237ECC6D45E270",
+    "english": "Tactics / Sign Display: Name Only",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン入力表示＞サイン名のみ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "CBDC443495FC186E",
+    "english": "Show only the name of the selected team sign.",
+    "status": "reviewed",
+    "source": "指示されたサイン名のみ表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "9B078BC61D81863E",
+    "english": "Tactics / Sign Display: Guide",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン入力表示＞ガイド画面"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "CF473033E2556A3D",
+    "english": "Show a detailed explanation of the team sign.",
+    "status": "reviewed",
+    "source": "詳細な説明画面が表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "885EE5D37272ACDC",
+    "english": "Tactics / Team Signs: Manual",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン指示＞マニュアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "DE7AD8B20F4CB1B1",
+    "english": "Give team-sign instructions yourself.",
+    "status": "reviewed",
+    "source": "自分でブロックサイン指示を出します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "CD395130BA258C09",
+    "english": "Tactics / Team Signs: Auto",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン指示＞オート"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 40,
     "source_hash": "B17B0254C08CC697",
     "english": "Call team signs for the situation.",
@@ -17,11 +441,643 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "A7830267788E0FAE",
+    "english": "Tactics / Manager: Auto",
+    "status": "reviewed",
+    "source": "作戦＞監督操作＞オート"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "307955E56E773D04",
+    "english": "Let the CPU handle substitutions and shifts.",
+    "status": "reviewed",
+    "source": "選手交代や守備シフトをＣＯＭにまかせます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "12C7193F88B5724C",
+    "english": "Use each team's substitution policy and roles.",
+    "status": "reviewed",
+    "source": "チーム別に設定された方針や起用法にしたがって選手交代を行います。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "833866E3C6C7AD83",
+    "english": "Actively call defensive shifts.",
+    "status": "reviewed",
+    "source": "守備シフトも積極的に指示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "793CDB760ABF7BB2",
+    "english": "You can still change shifts or substitute.",
+    "status": "reviewed",
+    "source": "プレイヤーが守備シフトを変更したり選手交代することもできます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "4FF16FB399C394D8",
+    "english": "Fielding / Switching: Auto",
+    "status": "reviewed",
+    "source": "守備＞カーソル切替＞オート"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "5853993C1E2F7DEB",
+    "english": "Switch fielders in response to your input.",
+    "status": "reviewed",
+    "source": "プレイヤーの野手操作に反応してカーソルを切り替えます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "CCA8C8762D0D99C1",
+    "english": "Find which fielder you are moving toward the ball.",
+    "status": "reviewed",
+    "source": "プレイヤーの操作をチェックして、打球に近づこうとしている野手を自動判"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "AE57850C84CDA08B",
+    "english": "Fielding / Cursor: Off",
+    "status": "reviewed",
+    "source": "守備＞野手カーソル表示＞なし"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "7F9DFEB06399DE4E",
+    "english": "Hide the fielder cursor.",
+    "status": "reviewed",
+    "source": "野手カーソルを表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "B091E8648670F2A9",
+    "english": "Fielding / Cursor: Name Only",
+    "status": "reviewed",
+    "source": "守備＞野手カーソル表示＞名前のみ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "E59A69C800E4D88E",
+    "english": "Show names only.",
+    "status": "reviewed",
+    "source": "名前のみ表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "849D70AC415C83AB",
+    "english": "Fielding / Landing Point: Off",
+    "status": "reviewed",
+    "source": "守備＞落下地点表示＞なし"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "8C1B64DBA0CF7351",
+    "english": "Hide the fly-ball landing marker.",
+    "status": "reviewed",
+    "source": "フライの落下地点を表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "46F2F25FD0A20D2A",
+    "english": "For advanced players; fielding is much harder.",
+    "status": "reviewed",
+    "source": "守備がかなり難しくなる上級者向けの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "DF1A03AD059E9C04",
+    "english": "Fielding / Landing Point: On",
+    "status": "reviewed",
+    "source": "守備＞落下地点表示＞あり"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "C2FB9D3F81D96248",
+    "english": "Show the landing marker and catch zone.",
+    "status": "reviewed",
+    "source": "フライの落下地点と捕球ゾーンが表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "AFA2EB9F710EB737",
+    "english": "Wind moves the marker, so watch its direction!",
+    "status": "reviewed",
+    "source": "落下地点は風で移動するので風向きに注意！"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "104036321A460A73",
+    "english": "Fielding / Power Throws: Manual",
+    "status": "reviewed",
+    "source": "守備＞パワー送球＞マニュアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "FF0919DCB171F01E",
+    "english": "Hold time controls throw strength and accuracy.",
+    "status": "reviewed",
+    "source": "送球ボタンを押し、離すまでの時間で、強さと正確さが決まります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "4E7679A9F7D7797C",
+    "english": "Hold longer for a stronger throw.",
+    "status": "reviewed",
+    "source": "送球ボタンを長く押すほど、強い送球になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "1A83CD14F7499DB3",
+    "english": "Hold briefly for a more accurate throw.",
+    "status": "reviewed",
+    "source": "逆に送球ボタンを短く押すほど、正確な送球になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "815BB0768A79160A",
+    "english": "Reverse fielding view reverses throw directions.",
+    "status": "reviewed",
+    "source": "注）守備画面をリバースに設定していると、操作が上下左右逆になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "91E8EA9D33A14329",
+    "english": "Fielding / Throw Controls: Type A",
+    "status": "reviewed",
+    "source": "守備＞送球タイプ＞ＡＢＸＹ　（Ａタイプ）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "A713E96E0FF88076",
+    "english": "Use one button per base.",
+    "status": "reviewed",
+    "source": "ワンボタンで送球する方式です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "406CE729AE9F4CCF",
+    "english": "Each button corresponds to a base.",
+    "status": "reviewed",
+    "source": "それぞれ各塁に対応しています。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "B61673E7E070F519",
+    "english": "Fielding / Formation: Pro",
+    "status": "reviewed",
+    "source": "守備＞フォーメーション＞プロ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "F0A0A0A2021D2A8D",
+    "english": "Limit base coverage; favor backup and rundowns.",
+    "status": "reviewed",
+    "source": "状況に応じて不必要なベースカバーを控え、なるべくバックアップやランダ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "959AFB9C95FCFEF7",
+    "english": "Assign fielders to rundowns.",
+    "status": "reviewed",
+    "source": "ンプレイに野手を回す守備隊形。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "79E2ADF96DA1C97A",
+    "english": "For advanced players.",
+    "status": "reviewed",
+    "source": "上級者向けの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "C96AC909475BA7E4",
+    "english": "For beginners.",
+    "status": "reviewed",
+    "source": "初級者向けの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "0B5B9AA2242CE031",
+    "english": "Fielding / Formation: Standard",
+    "status": "reviewed",
+    "source": "守備＞フォーメーション＞スタンダード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "354113FFB2B2C0D4",
+    "english": "Favor base coverage while backing up plays.",
+    "status": "reviewed",
+    "source": "バックアップにも対応しつつベースカバーを重視する守備隊形。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "AB13D8F08BF0F321",
+    "english": "Fielding / Control: Assist",
+    "status": "reviewed",
+    "source": "守備＞守備操作＞アシスト"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "6723C245F6EFD965",
+    "english": "Let the CPU field until the catch.",
+    "status": "reviewed",
+    "source": "捕球までの操作をＣＯＭにまかせます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "209A270D7A5F51C6",
+    "english": "Fielding / Control: Manual",
+    "status": "reviewed",
+    "source": "守備＞守備操作＞マニュアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "864C071D092B1683",
+    "english": "Control the fielders yourself.",
+    "status": "reviewed",
+    "source": "野手を自分で操作します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "1987627A5AB0BCAD",
+    "english": "This is the recommended setting.",
+    "status": "reviewed",
+    "source": "標準のおすすめ設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "73528195C74A4D69",
+    "english": "Running / Start Decisions: Manual",
+    "status": "reviewed",
+    "source": "ランナー＞スタート判断＞マニュアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "08B60E0E90318277",
+    "english": "Start runs or returns after contact or passed balls.",
+    "status": "reviewed",
+    "source": "自分で進塁・帰塁のスタートを切ります。（打った直後やパスボール時）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "DA7717980CDE1852",
+    "english": "Runners generally wait for your input.",
+    "status": "reviewed",
+    "source": "操作しない限り基本的に待機状態になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "4E3EBD8385DDB0FE",
+    "english": "Quickly decide when to advance or return.",
+    "status": "reviewed",
+    "source": "すばやく状況判断して進塁・帰塁の操作が必要になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "ADCB8D98204C9EB2",
+    "english": "Call steals yourself.",
+    "status": "reviewed",
+    "source": "盗塁は自分で指示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "F20A83E2BC56DDA6",
+    "english": "Running / Start Decisions: Assist",
+    "status": "reviewed",
+    "source": "ランナー＞スタート判断＞アシスト"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "D310AB12EC93DAFB",
+    "english": "Automatically start advancing or returning.",
+    "status": "reviewed",
+    "source": "オートで進塁・帰塁のスタートを切ってくれます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "16438DEADD91B9E3",
+    "english": "Running / Control: Auto",
+    "status": "reviewed",
+    "source": "ランナー＞ランナー操作＞オート"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "7871884E674C7771",
+    "english": "The CPU controls baserunning.",
+    "status": "reviewed",
+    "source": "走塁をＣＯＭにまかせます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "3F3D467AE41CC1AA",
+    "english": "The CPU runs; you control steals.",
+    "status": "reviewed",
+    "source": "ＣＯＭが操作してくれますが盗塁のみ自分で操作します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "1E8F26995576B7CD",
+    "english": "Running / Control: Assist",
+    "status": "reviewed",
+    "source": "ランナー＞ランナー操作＞アシスト"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "8A81F57709BC1285",
+    "english": "Partly automate baserunning.",
+    "status": "reviewed",
+    "source": "走塁をある程度オートで操作してくれます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "B5131142F0C2DD66",
+    "english": "Control steals yourself.",
+    "status": "reviewed",
+    "source": "盗塁も自分で操作します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "D23F98797AA08BD2",
+    "english": "Running / Control: Manual",
+    "status": "reviewed",
+    "source": "ランナー＞ランナー操作＞マニュアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "77E9B7F6488B56EE",
+    "english": "Control baserunning yourself.",
+    "status": "reviewed",
+    "source": "走塁を自分で操作します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "BE3A55D0F33FB9D6",
+    "english": "Pitching / Return Throw: Skip",
+    "status": "reviewed",
+    "source": "投球＞キャッチャー返球＞カット"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "C12D2342896EB0CB",
+    "english": "Skip return throws.",
+    "status": "reviewed",
+    "source": "返球をカットします。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "5DF384C5E69705C8",
+    "english": "Pitching / Return Throw: Show",
+    "status": "reviewed",
+    "source": "投球＞キャッチャー返球＞あり"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "64E54B0FE17E8483",
+    "english": "Do not skip.",
+    "status": "reviewed",
+    "source": "カットしません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "60BC7889AE7BFD93",
+    "english": "Press a button to skip it.",
+    "status": "reviewed",
+    "source": "ボタンを押すことでカットできます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "A1B7ABADB61157A9",
+    "english": "Pitching / Delivery: Realistic",
+    "status": "reviewed",
+    "source": "投球＞投球フォーム＞リアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "EB1EA4BA693D9938",
+    "english": "Use a pitching delivery suited to the situation.",
+    "status": "reviewed",
+    "source": "状況に応じたフォームで投げる設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "21656B15E63C23A7",
+    "english": "Pitching / Pitch Marker: Off",
+    "status": "reviewed",
+    "source": "投球＞投球ポイント＞オフ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "FD12E7371B41F234",
+    "english": "Hide the pitch marker after release.",
+    "status": "reviewed",
+    "source": "投球のリリース後、打撃ポイントが表示されません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "847A756FBCDC3653",
+    "english": "Pitching / Pitch Marker: Realistic",
+    "status": "reviewed",
+    "source": "投球＞投球ポイント＞リアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "1C70D14B63DCE34E",
+    "english": "After release, the marker follows the pitch's path.",
+    "status": "reviewed",
+    "source": "投球のリリース後、軌道に合わせて打撃ポイントが移動します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "1E93DF7B54D67354",
+    "english": "Pitching / Pitch Marker: Easy",
+    "status": "reviewed",
+    "source": "投球＞投球ポイント＞イージー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 54,
+    "source_hash": "1E07983CAC5C732F",
+    "english": "After release, show the pitch's final location.",
+    "status": "reviewed",
+    "source": "投球のリリース後、最終的な打撃ポイントが表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "3B7DBFAED0D687C0",
+    "english": "After release, the marker moves with the break.",
+    "status": "reviewed",
+    "source": "投球のリリース後、変化球に合わせて打撃ポイントが移動します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "D83A25FC2EAE5B9D",
+    "english": "Pitching / Pitch Display: Repertoire",
+    "status": "reviewed",
+    "source": "投球＞球種表示＞持ち球のみ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "205A915E0346B859",
+    "english": "Show only the pitcher's available pitch types.",
+    "status": "reviewed",
+    "source": "投手の持ち球パターンのみ確認できます"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "5CBEA28916292B34",
+    "english": "Standard for two-player games.",
+    "status": "reviewed",
+    "source": "２人対戦のときの標準設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "7FE99764F0DDA3D3",
+    "english": "Pitching / Pitch Display: Off",
+    "status": "reviewed",
+    "source": "投球＞球種表示＞なし"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "BA7F8465D9139DE5",
+    "english": "Hide pitch information.",
+    "status": "reviewed",
+    "source": "球種情報は表示されません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "D762D0888C8C6FBF",
+    "english": "Pitching / Pitch Display: Full",
+    "status": "reviewed",
+    "source": "投球＞球種表示＞持ち球＋球種"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "E3B0DF02503BB21A",
+    "english": "Selected pitch Power/Control/Break + repertoire",
+    "status": "reviewed",
+    "source": "投手の持ち球パターンと選択中球種の球威・コントロール・変化量が表示さ"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 30,
     "source_hash": "1D7BE20B04C0B4FF",
     "english": "Standard for single-player games.",
     "status": "reviewed",
     "source": "１人対戦のときの標準設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "06CA94581D6C6037",
+    "english": "Pitching / Cursor: Hidden",
+    "status": "reviewed",
+    "source": "投球＞投球カーソル＞表示しない"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "7A96899215E0D73B",
+    "english": "Hide the pitching cursor.",
+    "status": "reviewed",
+    "source": "投球カーソルを表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "461C720BB5B798D0",
+    "english": "Time release by watching the pitcher's delivery.",
+    "status": "reviewed",
+    "source": "投球フォームの動きを見ながらリリースするタイミングを合わせます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "2541E2695B874142",
+    "english": "A difficult setting.",
+    "status": "reviewed",
+    "source": "高難易度の設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "1E240EF04A26C246",
+    "english": "Pitching / Method: Auto",
+    "status": "reviewed",
+    "source": "投球＞投球方法＞オート　　　　　　　　　　　　　　　　　パワプロ準拠"
   },
   {
     "address": "0x00000000",
@@ -57,11 +1113,427 @@
   },
   {
     "address": "0x00000000",
-    "source_size": 24,
-    "source_hash": "1987627A5AB0BCAD",
-    "english": "This is the recommended setting.",
+    "source_size": 36,
+    "source_hash": "529A5FD4D4DAD6A4",
+    "english": "Batting / CPU Cursor: Hidden",
     "status": "reviewed",
-    "source": "標準のおすすめ設定です。"
+    "source": "打撃＞ＣＯＭ投球カーソル＞表示しない"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "C97484F5DE9E88A9",
+    "english": "Hide the CPU pitcher's cursor.",
+    "status": "reviewed",
+    "source": "ＣＯＭピッチャーの投球カーソルを表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "2D8C8C3EDC649349",
+    "english": "Batting / CPU Cursor: Visible",
+    "status": "reviewed",
+    "source": "打撃＞ＣＯＭ投球カーソル＞表示する"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "6514E891B2C1D7EE",
+    "english": "Show the CPU pitcher's cursor.",
+    "status": "reviewed",
+    "source": "ＣＯＭピッチャーの投球カーソルを表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "54219F7B560B75D3",
+    "english": "Hide the strike-zone outline.",
+    "status": "reviewed",
+    "source": "ストライクゾーンのワクを表示しません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "4C5FAB5CB41D5B37",
+    "english": "Judging balls and strikes becomes harder.",
+    "status": "reviewed",
+    "source": "ストライク、ボールの見極めが難しくなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "1C31C84D76AB62F9",
+    "english": "Batting / Strike Zone: Hot/Cold Only",
+    "status": "reviewed",
+    "source": "打撃＞ストライクゾーン＞得意苦手のみ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 62,
+    "source_hash": "BFE21093619D2293",
+    "english": "Show only hot zones (red) and cold zones (blue).",
+    "status": "reviewed",
+    "source": "バッターの得意ゾーン（赤）と苦手ゾーン（青）のみ表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "E239E70B940D2C6A",
+    "english": "Batting / Strike Zone: Full",
+    "status": "reviewed",
+    "source": "打撃＞ストライクゾーン＞すべて表示"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "F8D74FB08285A7C0",
+    "english": "Show the strike-zone outline.",
+    "status": "reviewed",
+    "source": "ストライクゾーンのワクを表示します。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 60,
+    "source_hash": "521F1359052D3E36",
+    "english": "Also show hot zones (red) and cold zones (blue).",
+    "status": "reviewed",
+    "source": "バッターの得意ゾーン（赤）と苦手ゾーン（青）も表示されます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "9069664E60DFEBAF",
+    "english": "Batting / Pitch Marker: Off",
+    "status": "reviewed",
+    "source": "打撃＞打撃ポイント＞オフ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "460C0C3F0CE526A3",
+    "english": "A very difficult setting.",
+    "status": "reviewed",
+    "source": "かなり難易度の高い設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "DF989106161BBA8B",
+    "english": "Batting / Pitch Marker: Realistic",
+    "status": "reviewed",
+    "source": "打撃＞打撃ポイント＞リアル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "522AC2A50E60C9CB",
+    "english": "A challenging setting.",
+    "status": "reviewed",
+    "source": "難易度の高めの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "FAC42A25FA98CF0C",
+    "english": "Batting / Pitch Marker: Easy",
+    "status": "reviewed",
+    "source": "打撃＞打撃ポイント＞イージー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "636EA010E5C65D20",
+    "english": "Helps with hitting breaking balls.",
+    "status": "reviewed",
+    "source": "変化球打ちが苦手な人向けの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "CBD57B9E42C88FB6",
+    "english": "Batting / Pitch Marker: Normal",
+    "status": "reviewed",
+    "source": "打撃＞打撃ポイント＞ノーマル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "C41E93FB54476B91",
+    "english": "Batting / Cursor: Zone Hitting",
+    "status": "reviewed",
+    "source": "打撃＞ミートカーソル＞ゾーン打ち"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "505B21424E519DA0",
+    "english": "Only time your swing to hit the ball.",
+    "status": "reviewed",
+    "source": "投球にタイミングを合わせるだけで打てます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "B0963DB982962FF1",
+    "english": "You cannot hit balls outside the strike zone.",
+    "status": "reviewed",
+    "source": "ただしボール球は打てません。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "187A6FDD5B31C835",
+    "english": "An easy setting for beginners.",
+    "status": "reviewed",
+    "source": "初心者向けのカンタン設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "67250494380C1A04",
+    "english": "Controls / Vibration: Off",
+    "status": "reviewed",
+    "source": "操作＞振動機能＞ＯＦＦ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 24,
+    "source_hash": "AB3839193DA16B2E",
+    "english": "Disable all vibration.",
+    "status": "reviewed",
+    "source": "一切振動しない設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 52,
+    "source_hash": "B85512C31F24B608",
+    "english": "Recommended for precise control.",
+    "status": "reviewed",
+    "source": "デリケートな操作をしたい方にはこちらがオススメです。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "BC2CF58065FA13F3",
+    "english": "Controls / Cursor Input: Digital",
+    "status": "reviewed",
+    "source": "操作＞操作タイプ＞デジタル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 56,
+    "source_hash": "303B0E5836916599",
+    "english": "Move the batting and pitching cursors.",
+    "status": "reviewed",
+    "source": "ミートカーソルや投球カーソルの位置を移動させる方式です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "1BED4ABC2385F7C0",
+    "english": "Steady cursor movement with slower response.",
+    "status": "reviewed",
+    "source": "落ち着いたカーソル移動になりますが、操作反応が少し鈍くなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "6C1BD524FB74940B",
+    "english": "direction pad or",
+    "status": "reviewed",
+    "source": "方向パッドでも"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 30,
+    "source_hash": "92C2C8BE882D2E7F",
+    "english": "left stick can be used.",
+    "status": "reviewed",
+    "source": "左スティックでも操作できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "B13F2EBDB369F6B9",
+    "english": "Camera / Horizontal: Inverted",
+    "status": "reviewed",
+    "source": "カメラ＞カメラ操作（左右）＞リバース"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "BA64DF48708D77F6",
+    "english": "Tilt the right stick right to look left.",
+    "status": "reviewed",
+    "source": "右スティックを右に倒すと左を向くカメラになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "8D65B5795F2EE5EF",
+    "english": "Camera / Horizontal: Normal",
+    "status": "reviewed",
+    "source": "カメラ＞カメラ操作（左右）＞ノーマル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "028FAC9A1F8034EF",
+    "english": "Tilt the right stick right to look right.",
+    "status": "reviewed",
+    "source": "右スティックを右に倒すと右を向くカメラになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "D1188F2B16E29341",
+    "english": "Camera / Vertical: Inverted",
+    "status": "reviewed",
+    "source": "カメラ＞カメラ操作（上下）＞リバース"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "41722BEE27FC27FE",
+    "english": "Tilt the right stick up to look down.",
+    "status": "reviewed",
+    "source": "右スティックを上に倒すと見下ろすカメラになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "46721654A5D615B7",
+    "english": "Camera / Vertical: Normal",
+    "status": "reviewed",
+    "source": "カメラ＞カメラ操作（上下）＞ノーマル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 50,
+    "source_hash": "2312C5D88D973D88",
+    "english": "Tilt the right stick up to look up.",
+    "status": "reviewed",
+    "source": "右スティックを上に倒すと見上げるカメラになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "2B58745DBA78B582",
+    "english": "End the game when a team leads by 10 runs.",
+    "status": "reviewed",
+    "source": "１０点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "837DF06C1A102861",
+    "english": "End the game when a team leads by 9 runs.",
+    "status": "reviewed",
+    "source": "９点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "79351D077EDCF7A4",
+    "english": "End the game when a team leads by 8 runs.",
+    "status": "reviewed",
+    "source": "８点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "A7DFEDE75212A487",
+    "english": "End the game when a team leads by 7 runs.",
+    "status": "reviewed",
+    "source": "７点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "F08B89306DBA1EBA",
+    "english": "End the game when a team leads by 6 runs.",
+    "status": "reviewed",
+    "source": "６点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "51E077CE4441B7B5",
+    "english": "End the game when a team leads by 5 runs.",
+    "status": "reviewed",
+    "source": "５点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "CAD6F4A211C33548",
+    "english": "End the game when a team leads by 4 runs.",
+    "status": "reviewed",
+    "source": "４点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "3022954FD1F6C89B",
+    "english": "End the game when a team leads by 3 runs.",
+    "status": "reviewed",
+    "source": "３点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "AB257FC712D26C2E",
+    "english": "End the game when a team leads by 2 runs.",
+    "status": "reviewed",
+    "source": "２点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "B652DA3BEB645E39",
+    "english": "End the game when a team leads by 1 run.",
+    "status": "reviewed",
+    "source": "１点差でコールドゲームとなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "19D73C2C5A410E0B",
+    "english": "Camera / Fielding: Reverse",
+    "status": "reviewed",
+    "source": "カメラ＞守備画面＞リバース"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 48,
+    "source_hash": "2444CB290221821D",
+    "english": "Look toward the backstop while fielding.",
+    "status": "reviewed",
+    "source": "守備のとき、バックネット側を見た画面になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "D49A279FC602C5CB",
+    "english": "Throwing directions are reversed.",
+    "status": "reviewed",
+    "source": "このとき、送球操作が上下左右逆になります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "1ACF2D5E4A1EB417",
+    "english": "Difficulty / Pitch Speed: Real",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞リアルスピード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "20B7EF90AFB55CFD",
+    "english": "Use a pitch speed close to real life.",
+    "status": "reviewed",
+    "source": "現実に近い投球スピードになります。"
   },
   {
     "address": "0x00000000",
@@ -73,11 +1545,499 @@
   },
   {
     "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "FC3E6FC711873016",
+    "english": "A slightly faster recommended setting.",
+    "status": "reviewed",
+    "source": "やや速めのプロスピおすすめの設定です。"
+  },
+  {
+    "address": "0x00000000",
     "source_size": 34,
     "source_hash": "4304E77E3AB0E6BC",
     "english": "Difficulty / Pitch Speed: Medium",
     "status": "reviewed",
     "source": "難しさ＞球速レベル＞ミドルスピード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "DBC9FC99E67DF196",
+    "english": "The recommended Pro Spirits pitch speed.",
+    "status": "reviewed",
+    "source": "プロスピおすすめの設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "CD0FFFF77D1AE16A",
+    "english": "Difficulty / Pitch Speed: Basic+",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞ベーシックスピード＋"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "42C6AEE8FB2A0961",
+    "english": "Slightly faster than Basic speed.",
+    "status": "reviewed",
+    "source": "ふつうの投球スピードよりやや速くなります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 38,
+    "source_hash": "0197EFF8BE928516",
+    "english": "Difficulty / Pitch Speed: Basic",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞ベーシックスピード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 32,
+    "source_hash": "4463AF6BADAC8DBE",
+    "english": "Use the normal pitch speed.",
+    "status": "reviewed",
+    "source": "ふつうの投球スピードになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "299D231BEDDE90CB",
+    "english": "Difficulty / Pitch Speed: Slow+",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞スロースピード＋"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "F23DF11215C79FEB",
+    "english": "Easy-to-hit pitches, slightly faster than Slow.",
+    "status": "reviewed",
+    "source": "やや速めの打ちやすい投球スピードになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "433706035BA6B6C7",
+    "english": "Difficulty / Pitch Speed: Slow",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル＞スロースピード"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "1375C7C4F740546B",
+    "english": "Use a slower, easier-to-hit pitch speed.",
+    "status": "reviewed",
+    "source": "打ちやすい投球スピードになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "022E003C1157EB60",
+    "english": "Choose whether to show the in-game button guide.",
+    "status": "reviewed",
+    "source": "ゲーム中の操作ボタンガイドの表示を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "5B51F33106515997",
+    "english": "Tactics / Sign Display",
+    "status": "reviewed",
+    "source": "作戦＞ブロックサイン入力表示"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "EADD18088BAC0850",
+    "english": "Choose what appears when entering team signs.",
+    "status": "reviewed",
+    "source": "ブロックサインを入力するときの表示を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "D3B5FA32C2D7C799",
+    "english": "Tactics / Manager Control",
+    "status": "reviewed",
+    "source": "作戦＞監督操作"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "82A61FACB92CEECC",
+    "english": "Handle substitutions, shifts and signs yourself,",
+    "status": "reviewed",
+    "source": "選手交代や守備シフト、ブロックサインの指示出しを自分でするか、ＣＯＭ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 22,
+    "source_hash": "2EC6916970BE72F9",
+    "english": "or let the CPU handle them.",
+    "status": "reviewed",
+    "source": "に任せるかを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "F23F36116374DDD3",
+    "english": "Fielding / Cursor Switching",
+    "status": "reviewed",
+    "source": "守備＞カーソル切替"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "54FBC8E8D88F0F99",
+    "english": "Choose how control switches between fielders.",
+    "status": "reviewed",
+    "source": "野手カーソルの切替方式を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "6F416474961E58D1",
+    "english": "Fielding / Landing Point",
+    "status": "reviewed",
+    "source": "守備＞落下地点表示"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "FAF0D588F74F740C",
+    "english": "Choose how fly-ball landing points are shown.",
+    "status": "reviewed",
+    "source": "フライの落下地点表示方法を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "BA5FCB754A0470DA",
+    "english": "Fielding / Throw Controls",
+    "status": "reviewed",
+    "source": "守備＞送球タイプ"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "9060D9537824D782",
+    "english": "Choose one button per base or direction + throw.",
+    "status": "reviewed",
+    "source": "送球塁をワンボタンで指定する方式か、塁指定操作と組み合わせて指定する"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "6031828238BF4DE5",
+    "english": "Choose a control method.",
+    "status": "reviewed",
+    "source": "方式かを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "0B7FD668EAA98679",
+    "english": "Power Pros calls these Type A and Type B.",
+    "status": "reviewed",
+    "source": "注）パワプロシリーズではＡタイプ・Ｂタイプと呼ばれている設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "3D4F4D222877A727",
+    "english": "Pitching / Delivery",
+    "status": "reviewed",
+    "source": "投球＞投球フォーム"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 34,
+    "source_hash": "24C68E6EEB00A2C3",
+    "english": "Choose how pitching deliveries are used.",
+    "status": "reviewed",
+    "source": "投球フォームの使い分けを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "4D16C60476697F91",
+    "english": "Pitching / Pitch Button",
+    "status": "reviewed",
+    "source": "投球＞投球ボタン"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "CE40DAACBD89478B",
+    "english": "Set the pitch button for Reverse fielding view.",
+    "status": "reviewed",
+    "source": "カメラ設定メニューの守備画面をリバースに設定したときの投球ボタンの設"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 14,
+    "source_hash": "D2F1AE915142E64D",
+    "english": "Controls / Vibration",
+    "status": "reviewed",
+    "source": "操作＞振動機能"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "079C215AD67B3CF2",
+    "english": "Turn controller vibration on or off.",
+    "status": "reviewed",
+    "source": "コントローラーの振動機能を選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "E512E4CD800AADCE",
+    "english": "Camera / Batting View",
+    "status": "reviewed",
+    "source": "カメラ＞打撃画面"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "959E47513DB14D2D",
+    "english": "Choose the view used when batting.",
+    "status": "reviewed",
+    "source": "自分が打つときのカメラ（視点）設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "B9A4E404376808CF",
+    "english": "Camera / Pitching View",
+    "status": "reviewed",
+    "source": "カメラ＞投球画面"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 44,
+    "source_hash": "8649F506AAC05748",
+    "english": "Choose the view used when pitching.",
+    "status": "reviewed",
+    "source": "自分が投球するときのカメラ（視点）設定です。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "7DF2625451480875",
+    "english": "Difficulty / CPU Fielding",
+    "status": "reviewed",
+    "source": "難しさ＞ＣＯＭの強さ（守）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "508DE5EC9436CCB4",
+    "english": "Change the CPU's fielding ability.",
+    "status": "reviewed",
+    "source": "コンピュータの守備のレベルを変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "1D72D15E59422579",
+    "english": "Difficulty / CPU Baserunning",
+    "status": "reviewed",
+    "source": "難しさ＞ＣＯＭの強さ（走）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "2894E40CE2CBA276",
+    "english": "Change the CPU's baserunning ability.",
+    "status": "reviewed",
+    "source": "コンピュータのランナーのレベルを変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "C9B9765FDCD4C8A0",
+    "english": "Difficulty / CPU Batting",
+    "status": "reviewed",
+    "source": "難しさ＞ＣＯＭの強さ（打）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "D9F42289066029C0",
+    "english": "Change the CPU's batting ability.",
+    "status": "reviewed",
+    "source": "コンピュータの打撃のレベルを変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 26,
+    "source_hash": "94E115743F0FC33F",
+    "english": "Difficulty / CPU Pitching",
+    "status": "reviewed",
+    "source": "難しさ＞ＣＯＭの強さ（投）"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 42,
+    "source_hash": "1F14AD9D36CEC671",
+    "english": "Change the CPU's pitching ability.",
+    "status": "reviewed",
+    "source": "コンピュータの投球のレベルを変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "9BAE04A2CA0E5E6B",
+    "english": "Difficulty / Pitch Speed",
+    "status": "reviewed",
+    "source": "難しさ＞球速レベル"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 58,
+    "source_hash": "31973461F635BF5C",
+    "english": "Choose pitch speed for the batter-side view.",
+    "status": "reviewed",
+    "source": "投打の画面がバッター側視点のときの投球スピードを選べます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "6C39661AC4C81A02",
+    "english": "More speeds: VP Shop > Pitch Speed Expansion",
+    "status": "reviewed",
+    "source": "ＶＰショップで「球速レベル拡張」を購入すればさらに段階が増えます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 68,
+    "source_hash": "F414EF52FCE9068F",
+    "english": "Note: TV cameras always use Real Speed.",
+    "status": "reviewed",
+    "source": "注）カメラ設定がＴＶのときは設定に関わらずリアルスピードになります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "AC9955C2413DD5BB",
+    "english": "Tactics Settings",
+    "status": "reviewed",
+    "source": "作戦設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 46,
+    "source_hash": "C32B622CE9E58F42",
+    "english": "Choose how tactical instructions are given.",
+    "status": "reviewed",
+    "source": "各種作戦の指示出しなどに関する設定ができます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "11519C5946FA7D4D",
+    "english": "Fielding Settings",
+    "status": "reviewed",
+    "source": "守備設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "B7F213D9EB5CE934",
+    "english": "Adjust fielding difficulty.",
+    "status": "reviewed",
+    "source": "守備の難しさを調節できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 66,
+    "source_hash": "5450734E580446FB",
+    "english": "Customize controls and other options.",
+    "status": "reviewed",
+    "source": "また、操作方法などユーザーの好みに応じて変更できる項目もあります。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 20,
+    "source_hash": "9D800D708D3912CB",
+    "english": "Baserunning Settings",
+    "status": "reviewed",
+    "source": "ランナー設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 36,
+    "source_hash": "6659D0A2D512DABE",
+    "english": "Adjust baserunning assistance and difficulty.",
+    "status": "reviewed",
+    "source": "ランナー操作の難しさを調節できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "2B97241B64385194",
+    "english": "Pitching Settings",
+    "status": "reviewed",
+    "source": "投球設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "DD78C7153C6085FD",
+    "english": "Adjust pitching difficulty.",
+    "status": "reviewed",
+    "source": "投球の難しさを調節できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 64,
+    "source_hash": "9DF31B78D96BE51B",
+    "english": "Also change controls and game-pace options.",
+    "status": "reviewed",
+    "source": "また、操作方法やゲームのテンポアップに関する設定も変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 16,
+    "source_hash": "8B138E7A7CE4602D",
+    "english": "Batting Settings",
+    "status": "reviewed",
+    "source": "打撃設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 28,
+    "source_hash": "38712D9FC34016D4",
+    "english": "Adjust batting difficulty.",
+    "status": "reviewed",
+    "source": "打撃の難しさを調節できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "DC713A176FE73CD0",
+    "english": "Camera Settings",
+    "status": "reviewed",
+    "source": "カメラ設定メニュー"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 40,
+    "source_hash": "4B1E02C83799BA25",
+    "english": "Change the views used during play.",
+    "status": "reviewed",
+    "source": "プレイ中のカメラ（視点）を変更できます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 18,
+    "source_hash": "71CC95AE3C67C7CD",
+    "english": "Difficulty Settings",
+    "status": "reviewed",
+    "source": "難しさ設定メニュー"
   },
   {
     "address": "0x00000000",
@@ -94,5 +2054,13 @@
     "english": "Choose CPU difficulty to suit your ability.",
     "status": "reviewed",
     "source": "また、腕前に合わせてコンピュータの強さを変更することもできます。"
+  },
+  {
+    "address": "0x00000000",
+    "source_size": 12,
+    "source_hash": "3CBE5FEA5062A48F",
+    "english": "CPU Manager",
+    "status": "reviewed",
+    "source": "敵の強さ(監)"
   }
 ]

@@ -2776,14 +2776,6 @@
   "all_changed_explanation_width_estimates_below_360_px": true,
   "layout_estimate_scope": "Arial 16 px summed glyph advances and a two-M icon allowance; actual game font and widget fit remain unverified.",
   "explicit_fragment_reproduction_checks_passed": 12,
-  "remaining_legacy_fragment_follow_up": [
-    {
-      "source_hash": "1446E0BBB72BB7EF",
-      "source": "れます。",
-      "current_english": "Stuff, Control, and Break ratings. Standard for",
-      "reason": "This context-dependent grammatical tail inherited a full rating line from positional line pairing. Do not globally assign a replacement without establishing the full-paragraph versus fragment route and other consumers."
-    }
-  ],
   "compiled_unique_lookup_cases": 264,
   "compiled_checks_passed": true,
   "curation_reproduction_checks": 207,
@@ -2800,10 +2792,20 @@
   "entire_game_english": false,
   "pending": [
     "Live settings page placement, icon alignment and all affected control paths.",
-    "Legacy partial-sentence fallback context, including the generic grammatical tail recorded above.",
+    "Live full-paragraph hook coverage and fallback-run placement; explicit semantic mappings are checked separately.",
     "Older-game block-sign feature equivalence with the official 2026 Decoy Sign label."
   ],
   "windows_executable_sha256": "4f8bcd56a50a98419a478932f6f462f2b38fd1d159ed8069c6e6831137799388",
   "generated_header_sha256": "b0b4480bd8c2563bd945fb820eb4d906655b3252145cf60424cd1abf27347b0f",
-  "full_review_merger_reproduces_curation_unchanged": true
+  "full_review_merger_reproduces_curation_unchanged": true,
+  "initial_legacy_fragment_follow_up": [
+    {
+      "source_hash": "1446E0BBB72BB7EF",
+      "source": "れます。",
+      "current_english": "Stuff, Control, and Break ratings. Standard for",
+      "reason": "This context-dependent grammatical tail inherited a full rating line from positional line pairing. Do not globally assign a replacement without establishing the full-paragraph versus fragment route and other consumers."
+    }
+  ],
+  "fragment_follow_up_report": "settings-fragment-accuracy-validation.json",
+  "invalid_inferred_tail_lookup_removed": true
 }

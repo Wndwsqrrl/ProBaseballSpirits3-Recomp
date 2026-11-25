@@ -91836,42 +91836,42 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "6FCF28243AB38D46",
-    "english": "No mercy rule. Use the same rule as professional",
+    "english": "No mercy rule.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 32,
     "source_hash": "780A677E0EA54495",
-    "english": "baseball.",
+    "english": "Use professional baseball rules.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 54,
     "source_hash": "FF30213E3A381316",
-    "english": "If the game is tied after regulation, play up to",
+    "english": "Play up to 15 innings if regulation ends tied.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "FDBF56161DFB3FD9",
-    "english": "15 innings. Used in the Japan Series.",
+    "english": "Used in the Japan Series.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 50,
     "source_hash": "9A09AB8A18A94C6D",
-    "english": "If the game is tied after regulation, play up to",
+    "english": "Play up to 12 innings if regulation ends tied.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 34,
     "source_hash": "70A2D0FF674FD2BE",
-    "english": "12 innings. Used in regular-season games.",
+    "english": "Used in regular-season games.",
     "status": "reviewed"
   },
   {
@@ -92102,14 +92102,14 @@
     "address": "0x00000000",
     "source_size": 50,
     "source_hash": "8952DBEDE4314605",
-    "english": "Show pitcher stamina and active special",
+    "english": "Show stamina and active special abilities.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "C0DB849BD92AA940",
-    "english": "abilities. This is the standard setting.",
+    "english": "This is the standard setting.",
     "status": "reviewed"
   },
   {
@@ -92123,7 +92123,7 @@
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "AD1FA2EF89A46AA5",
-    "english": "Show names and statistics on the pitching and",
+    "english": "Show names and stats on batting/pitching screens.",
     "status": "reviewed"
   },
   {
@@ -92137,14 +92137,14 @@
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "E5A8CE042CB5010B",
-    "english": "Hide team signs so your opponent cannot see your",
+    "english": "Display nothing.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "BEFC38F0E244D680",
-    "english": "instructions in two-player games.",
+    "english": "Conceal team signs in two-player games.",
     "status": "reviewed"
   },
   {
@@ -92221,28 +92221,28 @@
     "address": "0x00000000",
     "source_size": 42,
     "source_hash": "307955E56E773D04",
-    "english": "The CPU makes substitutions using each team's",
+    "english": "Let the CPU handle substitutions and shifts.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "12C7193F88B5724C",
-    "english": "strategy and player roles, and actively calls",
+    "english": "Use each team's substitution policy and roles.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 32,
     "source_hash": "833866E3C6C7AD83",
-    "english": "defensive shifts. You can still make changes",
+    "english": "Actively call defensive shifts.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 62,
     "source_hash": "793CDB760ABF7BB2",
-    "english": "yourself.",
+    "english": "You can still change shifts or substitute.",
     "status": "reviewed"
   },
   {
@@ -92256,21 +92256,14 @@
     "address": "0x00000000",
     "source_size": 54,
     "source_hash": "5853993C1E2F7DEB",
-    "english": "Switch fielders in response to your inputs. The",
+    "english": "Switch fielders in response to your input.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "CCA8C8762D0D99C1",
-    "english": "game identifies which fielder you are trying to",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 10,
-    "source_hash": "EC7782C9DC263CED",
-    "english": "move toward the ball.",
+    "english": "Find which fielder you are moving toward the ball.",
     "status": "reviewed"
   },
   {
@@ -92298,7 +92291,7 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "E59A69C800E4D88E",
-    "english": "Show only the fielder's name.",
+    "english": "Show names only.",
     "status": "reviewed"
   },
   {
@@ -92312,14 +92305,14 @@
     "address": "0x00000000",
     "source_size": 32,
     "source_hash": "8C1B64DBA0CF7351",
-    "english": "Hide the fly-ball landing marker. A challenging",
+    "english": "Hide the fly-ball landing marker.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "46F2F25FD0A20D2A",
-    "english": "setting for advanced players.",
+    "english": "For advanced players; fielding is much harder.",
     "status": "reviewed"
   },
   {
@@ -92354,21 +92347,21 @@
     "address": "0x00000000",
     "source_size": 62,
     "source_hash": "FF0919DCB171F01E",
-    "english": "Hold the throw button, then release it. A longer",
+    "english": "Hold time controls throw strength and accuracy.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "4E7679A9F7D7797C",
-    "english": "hold gives a stronger throw; a shorter hold",
+    "english": "Hold longer for a stronger throw.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 52,
     "source_hash": "1A83CD14F7499DB3",
-    "english": "gives a more accurate throw.",
+    "english": "Hold briefly for a more accurate throw.",
     "status": "reviewed"
   },
   {
@@ -92382,21 +92375,21 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "A713E96E0FF88076",
-    "english": "Throw to each base with its assigned button:",
+    "english": "Use one button per base.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "406CE729AE9F4CCF",
-    "english": ".",
+    "english": "Each button corresponds to a base.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "815BB0768A79160A",
-    "english": "fielding view is set to Reverse.",
+    "english": "Reverse fielding view reverses throw directions.",
     "status": "reviewed"
   },
   {
@@ -92410,14 +92403,14 @@
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "F0A0A0A2021D2A8D",
-    "english": "Avoid unnecessary base coverage and send more",
+    "english": "Limit base coverage; favor backup and rundowns.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "959AFB9C95FCFEF7",
-    "english": "fielders to back up plays or handle rundowns.",
+    "english": "Assign fielders to rundowns.",
     "status": "reviewed"
   },
   {
@@ -92438,7 +92431,7 @@
     "address": "0x00000000",
     "source_size": 58,
     "source_hash": "354113FFB2B2C0D4",
-    "english": "Prioritize base coverage while also backing up",
+    "english": "Favor base coverage while backing up plays.",
     "status": "reviewed"
   },
   {
@@ -92452,14 +92445,14 @@
     "address": "0x00000000",
     "source_size": 36,
     "source_hash": "6723C245F6EFD965",
-    "english": "The CPU handles fielding until the ball is",
+    "english": "Let the CPU field until the catch.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "C96AC909475BA7E4",
-    "english": "caught. For beginners.",
+    "english": "For beginners.",
     "status": "reviewed"
   },
   {
@@ -92473,7 +92466,7 @@
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "864C071D092B1683",
-    "english": "Control the fielders yourself. This is the",
+    "english": "Control the fielders yourself.",
     "status": "reviewed"
   },
   {
@@ -92494,21 +92487,21 @@
     "address": "0x00000000",
     "source_size": 66,
     "source_hash": "08B60E0E90318277",
-    "english": "Start advancing or returning yourself after",
+    "english": "Start runs or returns after contact or passed balls.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 42,
     "source_hash": "DA7717980CDE1852",
-    "english": "contact or a passed ball. Runners generally wait",
+    "english": "Runners generally wait for your input.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 54,
     "source_hash": "4E3EBD8385DDB0FE",
-    "english": "for your input. Quick decisions are essential.",
+    "english": "Quickly decide when to advance or return.",
     "status": "reviewed"
   },
   {
@@ -92522,14 +92515,14 @@
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "D310AB12EC93DAFB",
-    "english": "Runners start advancing or returning",
+    "english": "Automatically start advancing or returning.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "ADCB8D98204C9EB2",
-    "english": "automatically. You call steals yourself.",
+    "english": "Call steals yourself.",
     "status": "reviewed"
   },
   {
@@ -92543,14 +92536,14 @@
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "7871884E674C7771",
-    "english": "The CPU handles baserunning. You still control",
+    "english": "The CPU controls baserunning.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 52,
     "source_hash": "3F3D467AE41CC1AA",
-    "english": "steals yourself.",
+    "english": "The CPU runs; you control steals.",
     "status": "reviewed"
   },
   {
@@ -92564,14 +92557,14 @@
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "8A81F57709BC1285",
-    "english": "Baserunning is partly automatic. You still",
+    "english": "Partly automate baserunning.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "B5131142F0C2DD66",
-    "english": "control steals yourself.",
+    "english": "Control steals yourself.",
     "status": "reviewed"
   },
   {
@@ -92599,7 +92592,7 @@
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "C12D2342896EB0CB",
-    "english": "Skip the catcher's throw back to the pitcher.",
+    "english": "Skip return throws.",
     "status": "reviewed"
   },
   {
@@ -92613,7 +92606,7 @@
     "address": "0x00000000",
     "source_size": 16,
     "source_hash": "64E54B0FE17E8483",
-    "english": "Show the catcher's throw back to the pitcher.",
+    "english": "Do not skip.",
     "status": "reviewed"
   },
   {
@@ -92662,7 +92655,7 @@
     "address": "0x00000000",
     "source_size": 58,
     "source_hash": "1C70D14B63DCE34E",
-    "english": "After release, the marker follows the pitch's",
+    "english": "After release, the marker follows the pitch's path.",
     "status": "reviewed"
   },
   {
@@ -92711,14 +92704,14 @@
     "address": "0x00000000",
     "source_size": 26,
     "source_hash": "BA7F8465D9139DE5",
-    "english": "Hide pitch information. Useful for concealing it",
+    "english": "Hide pitch information.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 52,
     "source_hash": "71E79425576B833B",
-    "english": "from an opponent in two-player games.",
+    "english": "Conceal information in two-player games.",
     "status": "reviewed"
   },
   {
@@ -92732,14 +92725,7 @@
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "E3B0DF02503BB21A",
-    "english": "Show the repertoire and the selected pitch's",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "1446E0BBB72BB7EF",
-    "english": "Stuff, Control, and Break ratings. Standard for",
+    "english": "Selected pitch Power/Control/Break + repertoire",
     "status": "reviewed"
   },
   {
@@ -92760,21 +92746,21 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "7A96899215E0D73B",
-    "english": "Hide the pitching cursor. Time the release by",
+    "english": "Hide the pitching cursor.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "461C720BB5B798D0",
-    "english": "watching the pitcher's delivery. A difficult",
+    "english": "Time release by watching the pitcher's delivery.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 20,
     "source_hash": "2541E2695B874142",
-    "english": "setting.",
+    "english": "A difficult setting.",
     "status": "reviewed"
   },
   {
@@ -92851,21 +92837,21 @@
     "address": "0x00000000",
     "source_size": 38,
     "source_hash": "54219F7B560B75D3",
-    "english": "Hide the strike-zone outline. Show only hot",
+    "english": "Hide the strike-zone outline.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 62,
     "source_hash": "BFE21093619D2293",
-    "english": "zones in red and cold zones in blue. Judging",
+    "english": "Show only hot zones (red) and cold zones (blue).",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "4C5FAB5CB41D5B37",
-    "english": "balls and strikes becomes harder.",
+    "english": "Judging balls and strikes becomes harder.",
     "status": "reviewed"
   },
   {
@@ -92879,14 +92865,14 @@
     "address": "0x00000000",
     "source_size": 36,
     "source_hash": "F8D74FB08285A7C0",
-    "english": "Show the strike-zone outline, hot zones in red,",
+    "english": "Show the strike-zone outline.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 60,
     "source_hash": "521F1359052D3E36",
-    "english": "and cold zones in blue.",
+    "english": "Also show hot zones (red) and cold zones (blue).",
     "status": "reviewed"
   },
   {
@@ -92900,7 +92886,7 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "460C0C3F0CE526A3",
-    "english": "difficult setting.",
+    "english": "A very difficult setting.",
     "status": "reviewed"
   },
   {
@@ -92914,7 +92900,7 @@
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "522AC2A50E60C9CB",
-    "english": "path. A challenging setting.",
+    "english": "A challenging setting.",
     "status": "reviewed"
   },
   {
@@ -92942,7 +92928,7 @@
     "address": "0x00000000",
     "source_size": 60,
     "source_hash": "3B7DBFAED0D687C0",
-    "english": "After release, the marker moves with the pitch's",
+    "english": "After release, the marker moves with the break.",
     "status": "reviewed"
   },
   {
@@ -92956,21 +92942,21 @@
     "address": "0x00000000",
     "source_size": 42,
     "source_hash": "505B21424E519DA0",
-    "english": "Just time your swing. You cannot hit pitches",
+    "english": "Only time your swing to hit the ball.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "B0963DB982962FF1",
-    "english": "outside the strike zone. An easy setting for",
+    "english": "You cannot hit balls outside the strike zone.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "187A6FDD5B31C835",
-    "english": "beginners.",
+    "english": "An easy setting for beginners.",
     "status": "reviewed"
   },
   {
@@ -92984,14 +92970,14 @@
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "AB3839193DA16B2E",
-    "english": "Disable all vibration. Recommended if you prefer",
+    "english": "Disable all vibration.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 52,
     "source_hash": "B85512C31F24B608",
-    "english": "undisturbed, precise control.",
+    "english": "Recommended for precise control.",
     "status": "reviewed"
   },
   {
@@ -93005,28 +92991,28 @@
     "address": "0x00000000",
     "source_size": 56,
     "source_hash": "303B0E5836916599",
-    "english": "Move the batting or pitching cursor",
+    "english": "Move the batting and pitching cursors.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "1BED4ABC2385F7C0",
-    "english": "incrementally. Movement is steady, but responds",
+    "english": "Steady cursor movement with slower response.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 14,
     "source_hash": "6C1BD524FB74940B",
-    "english": "or",
+    "english": "direction pad or",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "92C2C8BE882D2E7F",
-    "english": ".",
+    "english": "left stick can be used.",
     "status": "reviewed"
   },
   {
@@ -93236,14 +93222,14 @@
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "82A61FACB92CEECC",
-    "english": "Choose whether you or the CPU handles",
+    "english": "Handle substitutions, shifts and signs yourself,",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 22,
     "source_hash": "2EC6916970BE72F9",
-    "english": "substitutions, defensive shifts, and team signs.",
+    "english": "or let the CPU handle them.",
     "status": "reviewed"
   },
   {
@@ -93313,21 +93299,21 @@
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "9060D9537824D782",
-    "english": "Choose between one button per base or a base",
+    "english": "Choose one button per base or direction + throw.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 18,
     "source_hash": "6031828238BF4DE5",
-    "english": "direction plus the throw button.",
+    "english": "Choose a control method.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 66,
     "source_hash": "0B7FD668EAA98679",
-    "english": "Pros.",
+    "english": "Power Pros calls these Type A and Type B.",
     "status": "reviewed"
   },
   {
@@ -93355,14 +93341,7 @@
     "address": "0x00000000",
     "source_size": 68,
     "source_hash": "CE40DAACBD89478B",
-    "english": "Choose the pitching button used when the",
-    "status": "reviewed"
-  },
-  {
-    "address": "0x00000000",
-    "source_size": 8,
-    "source_hash": "D428B25A58EA53AE",
-    "english": "fielding camera is set to Reverse.",
+    "english": "Set the pitch button for Reverse fielding view.",
     "status": "reviewed"
   },
   {
@@ -93481,14 +93460,14 @@
     "address": "0x00000000",
     "source_size": 58,
     "source_hash": "31973461F635BF5C",
-    "english": "Choose pitch speed for the batter-side view. Buy",
+    "english": "Choose pitch speed for the batter-side view.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 66,
     "source_hash": "6C39661AC4C81A02",
-    "english": "Pitch Speed Expansion in the VP Shop to unlock",
+    "english": "More speeds: VP Shop > Pitch Speed Expansion",
     "status": "reviewed"
   },
   {
@@ -93523,14 +93502,14 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "B7F213D9EB5CE934",
-    "english": "Adjust fielding difficulty and customize the",
+    "english": "Adjust fielding difficulty.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 66,
     "source_hash": "5450734E580446FB",
-    "english": "controls to your liking.",
+    "english": "Customize controls and other options.",
     "status": "reviewed"
   },
   {
@@ -93558,14 +93537,14 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "DD78C7153C6085FD",
-    "english": "Adjust pitching difficulty, controls, and",
+    "english": "Adjust pitching difficulty.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 64,
     "source_hash": "9DF31B78D96BE51B",
-    "english": "options that speed up game flow.",
+    "english": "Also change controls and game-pace options.",
     "status": "reviewed"
   },
   {

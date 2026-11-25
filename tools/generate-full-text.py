@@ -19,7 +19,12 @@ def main():
     parser.add_argument('--catalogue', type=Path, help='Export English plus source addresses/hashes only')
     parser.add_argument('--image', type=Path)
     parser.add_argument('--extra-catalogue',type=Path,action='append',default=[])
+    parser.add_argument('--fragment-policy', type=Path,
+                        default=Path(__file__).resolve().parent.parent/'translation/fragment-policy.json')
     args = parser.parse_args()
+    policy = json.loads(args.fragment_policy.read_text(encoding='utf-8'))
+    excluded_fragments = {int(row['source_hash'],16) for row in policy['excluded_fragments']}
+    explicit_fragment_addresses = {int(address,0) for address in policy['explicit_fragment_sources']}
     source = json.loads(args.input.read_text(encoding='utf-8'))
     for extra in args.extra_catalogue:
         source.extend(json.loads(extra.read_text(encoding='utf-8')))
@@ -29,6 +34,8 @@ def main():
     fragments = {}
     def add_fragment(original, translated, status):
         fingerprint = fnv64(original.encode('cp932'))
+        if fingerprint in excluded_fragments:
+            return
         rank = lambda value: 3 if value == 'reviewed' else 2 if value == 'game-roster-family' else 1
         previous = fragments.get(fingerprint)
         if previous is None or rank(status) > rank(previous[2]):
@@ -53,6 +60,11 @@ def main():
             size, fingerprint = len(original), fnv64(original)
         else:
             size, fingerprint = item['source_size'], int(item['source_hash'], 16)
+        # These are incomplete grammatical tails, not independent UI labels.
+        # Full source paragraphs retain their reviewed translation. Never let
+        # a legacy address-zero row recreate an unrelated sentence lookup.
+        if not address and fingerprint in excluded_fragments:
+            continue
         encoded = item['english'].encode('cp932')
         if b'\0' in encoded or len(encoded) > 8192:
             raise ValueError('Invalid translated string')
@@ -84,7 +96,7 @@ def main():
             rows[-1]['format_source']=pattern
         # The markup parser passes individual prose runs to the font renderer.
         # Add content-only lookups for those runs without relocating address 0.
-        if 'source' in item:
+        if 'source' in item and address not in explicit_fragment_addresses:
             tag = r'<[^>]*>|\\(?:c[0-9a-fA-F]|C[0-9a-fA-F]{6})'
             if re.findall(tag,item['source']) == re.findall(tag,item['english']):
                 originals=re.split(tag,item['source'])

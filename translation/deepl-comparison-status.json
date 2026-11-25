@@ -1,12 +1,12 @@
 {
   "date": "2026-11-24",
   "comparison_commit": "108119c8d4144a39eaa4dec8df4caa6f3c3fbc71",
-  "inventory_records": 25410,
-  "inventory_records_with_source": 25410,
+  "inventory_records": 25407,
+  "inventory_records_with_source": 25407,
   "localized_texture_source_records": 2098,
-  "distinct_deepl_inputs": 9559,
-  "source_characters_before_control_protection": 170493,
-  "responses_received": 9559,
+  "distinct_deepl_inputs": 9556,
+  "source_characters_before_control_protection": 170480,
+  "responses_received": 9556,
   "protected_xml_control_flags": 54,
   "additional_pennant_control_flags": 22,
   "meaning_only_fallback_examples": 76,
@@ -220,7 +220,7 @@
   "credentials_in_repository": false,
   "review_outputs_kept_local": true,
   "raw_result_sha256": "6c5a61b66ff1e44c1183adc3d785621a33b084d0ca57a5fa5ec66e0a7058df5c",
-  "input_queue_sha256": "08628bceafbc27aefddbb7c8d1c4342e545304b2be2b395db74d7fca0e330ae6",
+  "input_queue_sha256": "7fd0797f5a3570bfef488f142534cf02013ba997ebde51db394bbbb760f6ac4c",
   "meaning_example_sha256": "9cb059489d7d2c0465e15df10e19f7a83ff9c3a7f5bcb2c1ffd021eaa8e9666a",
   "proper_name_aliases_not_submitted_as_separate_inputs": true,
   "proper_name_scope": "Generated aliases, roster aliases/fields and announcer-name labels are excluded from standalone requests. Names incidentally sharing runtime sources may still occur. Readings remain checked against native and player references.",
@@ -312,13 +312,38 @@
       "report": "settings-accuracy-validation.json",
       "legacy_fragment_context_follow_up": true,
       "interactive_validation": false
+    },
+    {
+      "area": "Settings renderer fragments and positional-pairing safeguards",
+      "fragment_sources_reviewed": 261,
+      "explicit_fragment_mappings": 258,
+      "wording_corrections": 79,
+      "invalid_inferred_word_endings_excluded": 3,
+      "native_ui_fields_removed": 0,
+      "changed_deepl_sources_reviewed": 79,
+      "compiled_exact_cases": 465,
+      "fragment_regeneration_checks": 258,
+      "fragment_curation_checks": 258,
+      "report": "settings-fragment-accuracy-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 487,
+  "distinct_deepl_input_sources_context_reviewed": 566,
   "reviewed_training_fields_not_requiring_deepl": 1,
   "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "4aa7687acb35a1dd9e12669ddd90fe52676aa2f21d5eb2ce98d45c946a5817c2",
+  "context_reviewed_input_ids_sha256": "455ebe7a0591d98cc5fa62b7e2b7597d36240b4ff15e83a188a2a3964c9e5264",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
-  "initial_service_pass_characters_used": 160731
+  "initial_service_pass_characters_used": 160731,
+  "initial_service_inventory": {
+    "inventory_records": 25410,
+    "distinct_deepl_inputs": 9559,
+    "responses_received": 9559,
+    "source_characters_before_control_protection": 170493,
+    "input_queue_sha256": "08628bceafbc27aefddbb7c8d1c4342e545304b2be2b395db74d7fca0e330ae6"
+  },
+  "raw_cached_response_records": 9559,
+  "excluded_false_fragment_inputs": 3,
+  "excluded_fragment_report": "settings-fragment-accuracy-validation.json",
+  "all_active_inputs_have_cached_responses": true
 }
