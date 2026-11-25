@@ -465,7 +465,7 @@
     "address": "0x8205FBE8",
     "source_size": 218,
     "source_hash": "D5AA829C14FB2B17",
-    "english": "Each pitch has its own Stuff rating.<BR>Higher Stuff makes breaking pitches break<BR>later, closer to the batter. It also makes<BR>the Pitch Marker smaller and helps fastballs<BR>retain more of their speed.",
+    "english": "Each pitch has its own Pitch Power rating.<BR>Higher ratings make breaking pitches break<BR>later, closer to the batter. They also make<BR>the Pitch Marker smaller and help fastballs<BR>retain more speed.",
     "status": "reviewed"
   },
   {
@@ -514,7 +514,7 @@
     "address": "0x820600A8",
     "source_size": 232,
     "source_hash": "F1E54DA239FE1B8B",
-    "english": "Pitch type, handedness, delivery, and location<BR>all affect how the ball looks to the batter.<BR>Hitting your spot improves Stuff; missing<BR>it reduces Stuff. Experiment to develop<BR>your own pitching style.",
+    "english": "Pitch type, both players' handedness, delivery<BR>and location affect how the ball looks.<BR>Accurate location improves Pitch Power;<BR>missing lowers it. Experiment to find<BR>your own pitching style.",
     "status": "reviewed"
   },
   {
@@ -654,7 +654,7 @@
     "address": "0x82060F70",
     "source_size": 208,
     "source_hash": "D6110DEF373AE495",
-    "english": "The Pitch Marker represents the incoming<BR>ball within the strike zone. Its movement<BR>depends on pitch type, and its size changes<BR>with Stuff, affecting how hard it is to hit.",
+    "english": "The Pitch Marker represents the incoming<BR>ball within the strike zone. Its movement<BR>depends on pitch type; Pitch Power changes<BR>its size and how hard the pitch is to hit.",
     "status": "reviewed"
   },
   {
@@ -682,14 +682,14 @@
     "address": "0x82061260",
     "source_size": 162,
     "source_hash": "13C4FB0F3002B361",
-    "english": "The pitching cursor shows your target and<BR>release timing. Release when it shrinks to<BR>its smallest point for a Best Pitch,<BR>which gives Stuff a large boost.",
+    "english": "The pitching cursor shows your target and<BR>release timing. Release when it reaches<BR>its smallest size for a Best Pitch,<BR>which greatly boosts Pitch Power.",
     "status": "reviewed"
   },
   {
     "address": "0x82061308",
     "source_size": 190,
     "source_hash": "969B927464D5B594",
-    "english": "Press <×> twice to pitch.<BR>First press: start the delivery.<BR>Second press: release the ball.<BR>Good release timing produces better Stuff.",
+    "english": "Press <×> twice to pitch.<BR>First press: start the delivery.<BR>Second press: release the ball.<BR>Good timing increases Pitch Power.",
     "status": "reviewed"
   },
   {
@@ -899,7 +899,7 @@
     "address": "0x820627C0",
     "source_size": 208,
     "source_hash": "C98A9E80B0488326",
-    "english": "Keep holding the pitch-start button as the<BR>delivery begins. The cursor grows and turns<BR>red, charging a Power Pitch. It adds Stuff<BR>at the cost of Stamina and accuracy.",
+    "english": "Hold the pitch-start button as the delivery<BR>begins. The cursor grows and turns red.<BR>This Power Pitch increases Pitch Power<BR>at the cost of Stamina and Control.",
     "status": "reviewed"
   },
   {
@@ -1060,7 +1060,7 @@
     "address": "0x82062CB4",
     "source_size": 4,
     "source_hash": "BF0F8DF363907B8D",
-    "english": "Stuff",
+    "english": "Power",
     "status": "reviewed"
   },
   {
@@ -3412,7 +3412,7 @@
     "address": "0x820659C8",
     "source_size": 35,
     "source_hash": "E8A7D37285909AF6",
-    "english": "Accountability\nRaises his game with runners he put on base aboard.",
+    "english": "Accountability\nRaises his game with his own runners on base.",
     "status": "reviewed"
   },
   {
@@ -3440,14 +3440,14 @@
     "address": "0x82065A64",
     "source_size": 37,
     "source_hash": "F18D4DCC253BCFBC",
-    "english": "Hard Luck\nLess likely to earn a win when pitching.",
+    "english": "Hard Luck\nTeam wins less often when he pitches.",
     "status": "reviewed"
   },
   {
     "address": "0x82065A8C",
     "source_size": 37,
     "source_hash": "FDC9B93FB8B903AE",
-    "english": "Win Luck\nMore likely to earn a win when pitching.",
+    "english": "Win Luck\nTeam wins more often when he pitches.",
     "status": "reviewed"
   },
   {
@@ -3825,7 +3825,7 @@
     "address": "0x82066464",
     "source_size": 47,
     "source_hash": "C6F7D39B12C8C928",
-    "english": "Second Helping\nHits better after already homering in the game.",
+    "english": "Power Surge\nHits better after already homering in the game.",
     "status": "reviewed"
   },
   {
@@ -3881,7 +3881,7 @@
     "address": "0x82066608",
     "source_size": 45,
     "source_hash": "1B81B475845F5503",
-    "english": "Contact Hitter\nProduces batted balls more likely to become hits.",
+    "english": "Consistent\nProduces batted balls more likely to become hits.",
     "status": "reviewed"
   },
   {
@@ -4560,7 +4560,7 @@
     "address": "0x82066BE0",
     "source_size": 8,
     "source_hash": "8993C6A8D4407695",
-    "english": "Second Helping",
+    "english": "Power Surge",
     "status": "reviewed"
   },
   {
@@ -4609,7 +4609,7 @@
     "address": "0x82066C44",
     "source_size": 18,
     "source_hash": "574DF62F31305753",
-    "english": "Contact Hitter",
+    "english": "Consistent",
     "status": "reviewed"
   },
   {
@@ -36942,7 +36942,7 @@
     "address": "0x820A1CE0",
     "source_size": 8,
     "source_hash": "40718797ACBA8797",
-    "english": "Stuff +1",
+    "english": "Power +1",
     "status": "reviewed"
   },
   {
@@ -89841,35 +89841,35 @@
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "14172EAA966B161D",
-    "english": "Each pitch has its own Stuff rating.",
+    "english": "Each pitch has its own Pitch Power rating.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 38,
     "source_hash": "AE416F26E680B45E",
-    "english": "Higher Stuff makes breaking pitches break",
+    "english": "High Pitch Power has these effects:",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 42,
     "source_hash": "5F09D62947B30E59",
-    "english": "later, closer to the batter. It also makes",
+    "english": "1: Break occurs closer to the batter.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 38,
     "source_hash": "D7D2FC3DFE74D4A8",
-    "english": "the Pitch Marker smaller and helps fastballs",
+    "english": "2: The Pitch Marker becomes smaller.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "078B836ED6B3B019",
-    "english": "retain more of their speed.",
+    "english": "3: Fastballs retain more speed.",
     "status": "reviewed"
   },
   {
@@ -89988,35 +89988,35 @@
     "address": "0x00000000",
     "source_size": 40,
     "source_hash": "A0098B8E3E58AE31",
-    "english": "Pitch type, handedness, delivery, and location",
+    "english": "Type, pitcher/batter handedness, delivery, location",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "5501A0606C431896",
-    "english": "all affect how the ball looks to the batter.",
+    "english": "These combinations change the ball's behavior.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "30CEAE8C11F4F007",
-    "english": "Hitting your spot improves Stuff; missing",
+    "english": "Precise location increases Pitch Power.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "24A242094E1AE6CC",
-    "english": "it reduces Stuff. Experiment to develop",
+    "english": "Missing lowers Pitch Power. Experiment",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "28710445E06A895F",
-    "english": "your own pitching style.",
+    "english": "to develop your own pitching style.",
     "status": "reviewed"
   },
   {
@@ -90107,7 +90107,7 @@
     "address": "0x00000000",
     "source_size": 12,
     "source_hash": "E9F5E23E8DA64755",
-    "english": "You can swing with either",
+    "english": "In Pro Spirits,",
     "status": "reviewed"
   },
   {
@@ -90156,28 +90156,28 @@
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "6F13D4C06B42C8F8",
-    "english": "The pitching cursor shows your target and",
+    "english": "Shows the pitch target and release timing.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 24,
     "source_hash": "1D009B16F0180E11",
-    "english": "release timing. Release when it shrinks to",
+    "english": "The pitching cursor.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 44,
     "source_hash": "756758B0DE83B6B2",
-    "english": "its smallest point for a Best Pitch,",
+    "english": "Release at its smallest size for a Best Pitch.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 38,
     "source_hash": "0F0137D3E466E8FD",
-    "english": "which gives Stuff a large boost.",
+    "english": "A Best Pitch greatly boosts Pitch Power.",
     "status": "reviewed"
   },
   {
@@ -90870,7 +90870,7 @@
     "address": "0x00000000",
     "source_size": 28,
     "source_hash": "BF8A7C4554753ED4",
-    "english": "Raises his game with runners he put on base aboard.",
+    "english": "Raises his game with his own runners on base.",
     "status": "reviewed"
   },
   {
@@ -90898,14 +90898,14 @@
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "3BBB566B3C94752E",
-    "english": "Less likely to earn a win when pitching.",
+    "english": "Team wins less often when he pitches.",
     "status": "reviewed"
   },
   {
     "address": "0x00000000",
     "source_size": 30,
     "source_hash": "DCE8D358F0F02E38",
-    "english": "More likely to earn a win when pitching.",
+    "english": "Team wins more often when he pitches.",
     "status": "reviewed"
   },
   {

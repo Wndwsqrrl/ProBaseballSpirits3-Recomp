@@ -1,7 +1,13 @@
 {
   "version": 1,
-  "scope": "Settings paragraphs use explicit reviewed renderer runs instead of positional line pairing. Exclusions apply to address-zero inferred fragments only; actual native fields remain eligible.",
+  "scope": "Reviewed settings and pitching tutorial paragraphs use explicit renderer runs instead of positional line pairing. Exclusions apply only to address-zero inferred fragments; actual native fields remain eligible.",
   "explicit_fragment_sources": [
+    "0x8205FBE8",
+    "0x820600A8",
+    "0x82060F70",
+    "0x82061260",
+    "0x82061308",
+    "0x820627C0",
     "0x82077F9C",
     "0x82077FD0",
     "0x82078000",

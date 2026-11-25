@@ -326,12 +326,25 @@
       "fragment_curation_checks": 258,
       "report": "settings-fragment-accuracy-validation.json",
       "interactive_validation": false
+    },
+    {
+      "area": "Pitch Power tutorials and the first 83 ability descriptions",
+      "ability_descriptions_reviewed": 83,
+      "additional_tutorial_and_label_fields": 10,
+      "native_wording_corrections": 15,
+      "fragment_corrections": 18,
+      "compiled_exact_cases": 112,
+      "curation_reproduction_checks": 93,
+      "fragment_regeneration_and_curation_checks": 18,
+      "report": "pitch-ability-accuracy-validation.json",
+      "source_label_description_discrepancies_pending": 2,
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 566,
+  "distinct_deepl_input_sources_context_reviewed": 674,
   "reviewed_training_fields_not_requiring_deepl": 1,
   "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "455ebe7a0591d98cc5fa62b7e2b7597d36240b4ff15e83a188a2a3964c9e5264",
+  "context_reviewed_input_ids_sha256": "4770d00a2d397601f69d3d9edaa55b623c416ae949d370ecb35ce2451b84daf4",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
   "initial_service_pass_characters_used": 160731,

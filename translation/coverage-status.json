@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Reviewed the first 83 ability descriptions and 10 additional pitching/label fields. Corrected 15 native entries and 18 fragments for Pitch Power, Power Surge, Consistent, accountability and team-win wording. Passed 112 compiled lookups, 93 curation checks, 18 fragment regeneration/curation checks, the complete review merger and the Windows build. The Okawari nickname and two contradictory native source conditions are preserved; mechanics and live placement remain open.",
     "Reviewed 261 settings fragment sources and corrected 79 source-meaning mappings. The 258 explicit runs replace positional inference for all 207 settings paragraphs. Three incomplete word endings are excluded only from inferred address-zero lookups. All 6297 native fields and full formatted paragraphs are unchanged. Passed 465 compiled lookups, 258 regeneration/curation checks, native-field/exclusion regressions, the full review merger and the Windows build.",
     "Reviewed all 207 settings explanations and 48 option labels. Fourteen paragraph and 12 fragment corrections preserve controls and paragraph line counts; 264 compiled lookups, 207 curation checks, 12 explicit fragment-regeneration checks, the full review merger and the Windows build passed. Live placement and the generic legacy sentence-ending context remain open.",
     "Reviewed 39 integrated native UI fields against source and cached DeepL results. Promoted 37 CP932 fields, clarified two historical 2005 assignments, and passed 74 compiled cases, 37 curation reproductions, 45 native offseason replays and the Windows build. Live placement and broader year-duration context remain open.",
@@ -98,6 +99,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
+    "Confirm ability/tutorial layout and compact Power / Power +1 fit. Audit native mechanics for Pull Tendency with a team-tactics description and Close Games with an explicit not-close condition.",
     "Verify settings live layout and complete-paragraph hook coverage, including fallback-run widths, assisted pitch markers and automatic tactics. Confirm the older block-sign feature relative to the 2026 Decoy Sign label.",
     "Live reviewed Pennant event pages, recovery/pacing wording, bullpen handoff and actual player/team/milestone placeholder expansion",
     "Live Starter Conditioning/Starter Cond. labels, +1 bonus width, C-grade Spirits requirements, role-conversion help and the updated event reward",
@@ -179,7 +181,7 @@
     "some missing gameplay geometry"
   ],
   "entire_game_english": false,
-  "latest_offline_review": "settings-fragment-accuracy-validation.json",
+  "latest_offline_review": "pitch-ability-accuracy-validation.json",
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1024,
@@ -953,7 +955,7 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "settings-fragment-accuracy-validation.json",
+  "latest_windows_build_report": "pitch-ability-accuracy-validation.json",
   "motion_settings_wording_review": {
     "english_records_updated": 20,
     "submarine_labels_and_compounds": 16,
@@ -1132,7 +1134,7 @@
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
     "report": "deepl-comparison-status.json",
-    "distinct_input_sources_context_reviewed": 566,
+    "distinct_input_sources_context_reviewed": 674,
     "initial_cached_response_records": 9559
   },
   "spirits_training_accuracy_review": {
@@ -1220,5 +1222,19 @@
     "windows_build_passed": true,
     "live_screen_placement_checked": false,
     "report": "settings-fragment-accuracy-validation.json"
+  },
+  "pitch_ability_accuracy_review": {
+    "ability_descriptions_reviewed": 83,
+    "additional_tutorial_and_label_fields": 10,
+    "native_wording_corrections": 15,
+    "fragment_corrections": 18,
+    "compiled_exact_cases": 112,
+    "curation_reproduction_checks": 93,
+    "fragment_regeneration_and_curation_checks": 18,
+    "windows_build_passed": true,
+    "source_label_description_discrepancies_pending": 2,
+    "compact_power_labels_width_increase_px": 14,
+    "live_screen_placement_checked": false,
+    "report": "pitch-ability-accuracy-validation.json"
   }
 }

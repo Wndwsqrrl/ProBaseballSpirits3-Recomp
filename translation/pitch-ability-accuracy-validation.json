@@ -1,0 +1,1057 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "36c739cce1897a8b4783216f43d9196314490945",
+  "ability_descriptions_source_reviewed": 83,
+  "additional_pitch_tutorial_and_label_fields_reviewed": 10,
+  "native_wording_corrections": 15,
+  "fragment_wording_corrections": 18,
+  "changes": [
+    {
+      "address": "0x8205FBE8",
+      "source": "投手の球種にはそれぞれ球威が設定されています<BR>球威が高いと次のような効果があります。<BR>１：変化するポイントがより打者寄りになる。<BR>２：打撃ポイントのサイズが小さくなる。<BR>３：ストレート系があまり減速しなくなる。",
+      "source_hash": "D5AA829C14FB2B17",
+      "previous_english": "Each pitch has its own Stuff rating.<BR>Higher Stuff makes breaking pitches break<BR>later, closer to the batter. It also makes<BR>the Pitch Marker smaller and helps fastballs<BR>retain more of their speed.",
+      "english": "Each pitch has its own Pitch Power rating.<BR>Higher ratings make breaking pitches break<BR>later, closer to the batter. They also make<BR>the Pitch Marker smaller and help fastballs<BR>retain more speed.",
+      "previous_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 308.0
+      },
+      "new_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 308.0
+      }
+    },
+    {
+      "address": "0x820600A8",
+      "source": "球種・投手と打者の利き腕・投法・コース。<BR>この組み合わせでボールは色々な姿を見せます。<BR>キッチリとコースに決めると球威が上がるのが、<BR>コースミスすると下がるのが見えるので色々試し<BR>て自分だけの投球スタイルを作ってみて下さい。",
+      "source_hash": "F1E54DA239FE1B8B",
+      "previous_english": "Pitch type, handedness, delivery, and location<BR>all affect how the ball looks to the batter.<BR>Hitting your spot improves Stuff; missing<BR>it reduces Stuff. Experiment to develop<BR>your own pitching style.",
+      "english": "Pitch type, both players' handedness, delivery<BR>and location affect how the ball looks.<BR>Accurate location improves Pitch Power;<BR>missing lowers it. Experiment to find<BR>your own pitching style.",
+      "previous_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 325.0
+      },
+      "new_layout_estimate": {
+        "lines": 5,
+        "widest_line_px": 324.0
+      }
+    },
+    {
+      "address": "0x82060F70",
+      "source": "打撃（投球）ポイントとはストライクゾーン上に<BR>表示されるボールをイメージしたポイントです。<BR>このポイントは球種ごとに動きが異なります。<BR>また、球威によって大きさが変わり、打ちやすさ<BR>が変わってきます。",
+      "source_hash": "D6110DEF373AE495",
+      "previous_english": "The Pitch Marker represents the incoming<BR>ball within the strike zone. Its movement<BR>depends on pitch type, and its size changes<BR>with Stuff, affecting how hard it is to hit.",
+      "english": "The Pitch Marker represents the incoming<BR>ball within the strike zone. Its movement<BR>depends on pitch type; Pitch Power changes<BR>its size and how hard the pitch is to hit.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 309.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 315.0
+      }
+    },
+    {
+      "address": "0x82061260",
+      "source": "投球しようとする目標とリリースタイミングを教<BR>えてくれる投球カーソル。<BR>これが小さくなった瞬間にリリースすれば、ベス<BR>トピッチとなって球威が大幅に上がるぞ。",
+      "source_hash": "13C4FB0F3002B361",
+      "previous_english": "The pitching cursor shows your target and<BR>release timing. Release when it shrinks to<BR>its smallest point for a Best Pitch,<BR>which gives Stuff a large boost.",
+      "english": "The pitching cursor shows your target and<BR>release timing. Release when it reaches<BR>its smallest size for a Best Pitch,<BR>which greatly boosts Pitch Power.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 296.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 296.0
+      }
+    },
+    {
+      "address": "0x82061308",
+      "source": "プロスピでは<×>を２回押して投球します。<BR>１回目：押すと投球を開始します。<BR>２回目：リリースのタイミングに押します。<BR>この時、タイミングがよいと球威のある球を投げ<BR>ることができます。",
+      "source_hash": "969B927464D5B594",
+      "previous_english": "Press <×> twice to pitch.<BR>First press: start the delivery.<BR>Second press: release the ball.<BR>Good release timing produces better Stuff.",
+      "english": "Press <×> twice to pitch.<BR>First press: start the delivery.<BR>Second press: release the ball.<BR>Good timing increases Pitch Power.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 297.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 253.0
+      }
+    },
+    {
+      "address": "0x820627C0",
+      "source": "投球をはじめた時、そのまま投球開始ボタンを押<BR>したままにしてみて下さい。<BR>投球カーソルが段々大きくなり赤くなります。<BR>この全力ピッチをすると、スタミナと制球を失う<BR>代わりに球威の高い球を投げられます。",
+      "source_hash": "C98A9E80B0488326",
+      "previous_english": "Keep holding the pitch-start button as the<BR>delivery begins. The cursor grows and turns<BR>red, charging a Power Pitch. It adds Stuff<BR>at the cost of Stamina and accuracy.",
+      "english": "Hold the pitch-start button as the delivery<BR>begins. The cursor grows and turns red.<BR>This Power Pitch increases Pitch Power<BR>at the cost of Stamina and Control.",
+      "previous_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 309.0
+      },
+      "new_layout_estimate": {
+        "lines": 4,
+        "widest_line_px": 288.0
+      }
+    },
+    {
+      "address": "0x82062CB4",
+      "source": "球威",
+      "source_hash": "BF0F8DF363907B8D",
+      "previous_english": "Stuff",
+      "english": "Power",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 32.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 46.0
+      }
+    },
+    {
+      "address": "0x820A1CE0",
+      "source": "球威＋１",
+      "source_hash": "40718797ACBA8797",
+      "previous_english": "Stuff +1",
+      "english": "Power +1",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 54.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 68.0
+      }
+    },
+    {
+      "address": "0x82066464",
+      "source": "おかわり\n１本ホームランを打っていると打力アップ",
+      "source_hash": "C6F7D39B12C8C928",
+      "previous_english": "Second Helping\nHits better after already homering in the game.",
+      "english": "Power Surge\nHits better after already homering in the game.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 326.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 326.0
+      }
+    },
+    {
+      "address": "0x82066608",
+      "source": "アベレージヒッター\nヒット性の打球になりやすい",
+      "source_hash": "1B81B475845F5503",
+      "previous_english": "Contact Hitter\nProduces batted balls more likely to become hits.",
+      "english": "Consistent\nProduces batted balls more likely to become hits.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 346.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 346.0
+      }
+    },
+    {
+      "address": "0x82066BE0",
+      "source": "おかわり",
+      "source_hash": "8993C6A8D4407695",
+      "previous_english": "Second Helping",
+      "english": "Power Surge",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 115.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 93.0
+      }
+    },
+    {
+      "address": "0x82066C44",
+      "source": "アベレージヒッター",
+      "source_hash": "574DF62F31305753",
+      "previous_english": "Contact Hitter",
+      "english": "Consistent",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 97.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 76.0
+      }
+    },
+    {
+      "address": "0x820659C8",
+      "source": "責任感\n責任ランナーには力を発揮する",
+      "source_hash": "E8A7D37285909AF6",
+      "previous_english": "Accountability\nRaises his game with runners he put on base aboard.",
+      "english": "Accountability\nRaises his game with his own runners on base.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 377.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 334.0
+      }
+    },
+    {
+      "address": "0x82065A64",
+      "source": "負け運\n登板すると勝ちにめぐまれにくい",
+      "source_hash": "F18D4DCC253BCFBC",
+      "previous_english": "Hard Luck\nLess likely to earn a win when pitching.",
+      "english": "Hard Luck\nTeam wins less often when he pitches.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 277.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 274.0
+      }
+    },
+    {
+      "address": "0x82065A8C",
+      "source": "勝ち運\n登板すると勝ちを呼び込みやすい",
+      "source_hash": "FDC9B93FB8B903AE",
+      "previous_english": "Win Luck\nMore likely to earn a win when pitching.",
+      "english": "Win Luck\nTeam wins more often when he pitches.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 279.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 281.0
+      }
+    }
+  ],
+  "ability_reviews": [
+    {
+      "address": "0x8206582C",
+      "source": "積極スイング\nＣＯＭが操作したとき早いカウントから打ちにいく",
+      "english": "Aggressive Approach\nThe CPU swings early in the count.",
+      "deepl_comparison": "Aggressive Swing \n: When controlled by the computer, the player will look to swing early in the count.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065868",
+      "source": "ミート多用\nＣＯＭが操作したときよくミート打ちする",
+      "english": "Contact Preference\nThe CPU favors Contact Swings.",
+      "deepl_comparison": "Frequent Contact Hitting: When controlled by \nCOM, the player often hits for contact.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206589C",
+      "source": "強振多用\nＣＯＭが操作したときよく強振する",
+      "english": "Power Preference\nThe CPU favors Power Swings.",
+      "deepl_comparison": "Frequent Power Swings: The \nCOM character often uses power swings when controlled by the player.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820658C8",
+      "source": "流し打ち傾向\nＣＯＭが操作したとき流し打つことが多い",
+      "english": "Opposite-field Tendency\nThe CPU often hits to the opposite field.",
+      "deepl_comparison": "Tendency to hit to the opposite field: When controlled by \nCOM, the player often hits to the opposite field.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820658FC",
+      "source": "引っ張り傾向\nＣＯＭが操作したときチームプレイは特に考えない",
+      "english": "Pull Tendency\nThe CPU gives little consideration to team tactics.",
+      "deepl_comparison": "Tendency to pull the ball: \n. When controlled by the computer, the team does not particularly focus on team play.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065938",
+      "source": "チームプレイ\nＣＯＭが操作したときチームプレイに徹しようとする",
+      "english": "Team Player\nThe CPU prioritizes team tactics.",
+      "deepl_comparison": "Team Play: When controlled by \nCOM, the team will focus on team play.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065978",
+      "source": "人気\nファンからの人気が高い",
+      "english": "Fan Favorite\nPopular with the fans.",
+      "deepl_comparison": "Popularity: \n—Highly popular among fans",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065994",
+      "source": "シュート回転\n投球がシュート回転し打たれやすくなる",
+      "english": "Unwanted Arm-side Run\nPitches can run arm-side and become easier to hit.",
+      "deepl_comparison": "A pitch with a \n curve spin will curve sharply, making it easier to hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820659C8",
+      "source": "責任感\n責任ランナーには力を発揮する",
+      "english": "Accountability\nRaises his game with his own runners on base.",
+      "deepl_comparison": "Sense of Responsibility \n: Excels when running the bases",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820659EC",
+      "source": "接戦\n試合終盤、接戦でなければ力を発揮する",
+      "english": "Close Games\nPerforms better late when the score is not close.",
+      "deepl_comparison": "Close Games \n: Performs well in the late innings, provided the game isn’t a close one.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065A18",
+      "source": "ポーカーフェイス\n苦しくなっても表情に出さない",
+      "english": "Poker Face\nDoes not show strain in his facial expression.",
+      "deepl_comparison": "Poker Face \n: Even when things get tough, don’t let it show on your face.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065A48",
+      "source": "短気\n打ち込まれるとキレる",
+      "english": "Short Temper\nLoses his temper when hit hard.",
+      "deepl_comparison": "Short-Tempered \n: Loses his temper when he gets hit",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065A64",
+      "source": "負け運\n登板すると勝ちにめぐまれにくい",
+      "english": "Hard Luck\nTeam wins less often when he pitches.",
+      "deepl_comparison": "Bad Luck: If you make \n appearances, you’re unlikely to get a win.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065A8C",
+      "source": "勝ち運\n登板すると勝ちを呼び込みやすい",
+      "english": "Win Luck\nTeam wins more often when he pitches.",
+      "deepl_comparison": "Luck of Victory: Making \n appearances makes it easier to secure a win.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065AB4",
+      "source": "スロースターター\n登板直後の立ちあがりが悪い",
+      "english": "Slow Starter\nStruggles at the start of an outing.",
+      "deepl_comparison": "Slow Starter: \n—Struggles to get going right after taking the mound",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065AE0",
+      "source": "尻上がり\n試合中盤以降、調子が良くなっていく",
+      "english": "Strong Finisher\nImproves from the middle innings onward.",
+      "deepl_comparison": "Upward Trend: \n games—form improves as the game progresses",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065B0C",
+      "source": "四球\nフォアボールを出しやすい",
+      "english": "Walks\nProne to issuing walks.",
+      "deepl_comparison": "\n walks: Prone to issuing walks",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065B2C",
+      "source": "寸前\n勝利を目前にすると力を発揮できなくなる",
+      "english": "Finish-line Nerves\nStruggles when a win is within reach.",
+      "deepl_comparison": "On the Brink: \n—When a victory is within reach, players lose their ability to perform.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065B58",
+      "source": "球速安定\n安定して高いレベルの球速を出せるか",
+      "english": "Consistent Velocity\nHow consistently the pitcher maintains high velocity.",
+      "deepl_comparison": "Consistent Pitch Speed \n: Can the pitcher consistently maintain a high pitch speed?",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065B84",
+      "source": "打たれ強さ\n連打を浴びてもどれだけ動揺せずにいられるか",
+      "english": "Composure\nAbility to stay composed after consecutive hits.",
+      "deepl_comparison": "Resilience: \n—How composed can a player remain even after giving up consecutive hits?",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065BBC",
+      "source": "存在感\n圧倒的な存在感で相手打者にプレッシャーを与える",
+      "english": "Presence\nPuts pressure on opposing batters through sheer presence.",
+      "deepl_comparison": "Presence \n: Puts pressure on opposing batters with an overwhelming presence.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065BF4",
+      "source": "威圧感\n相手打者に威圧感を与え、力を発揮させない",
+      "english": "Intimidation\nIntimidates opposing batters and limits their performance.",
+      "deepl_comparison": "Intimidation \n: Intimidates the opposing batter, preventing them from performing at their best.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065C24",
+      "source": "牽制○\n牽制がうまい",
+      "english": "Pickoff +\nSkilled at picking off runners.",
+      "deepl_comparison": "Pickoff \n: Good at pickoffs",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065C38",
+      "source": "一発\nホームランを打たれやすい失投をしてしまうことがある",
+      "english": "HR Prone\nMistake pitches can become easy home-run chances.",
+      "deepl_comparison": "Sometimes, a pitcher will make a poor pitch that is prone to resulting in a \n-run home run.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065C70",
+      "source": "逃げ球\n失投がど真ん中にいきにくい",
+      "english": "Safe Misses\nMistake pitches are less likely to end up down the middle.",
+      "deepl_comparison": "It’s hard for a pitch intended to be a “run-away ball” \n to end up right down the middle.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065C94",
+      "source": "力配分\n強打者に対すると全力で勝負にいく",
+      "english": "Saves His Best\nGives maximum effort against dangerous hitters.",
+      "deepl_comparison": "Power Allocation \n: Go all out against power hitters",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065CC0",
+      "source": "対ランナー４\nランナーを背負ったときのコントロールを乱さない度合い",
+      "english": "With Runners 4\nAbility to maintain Control with runners on base.",
+      "deepl_comparison": "Against Runners 4\n: The degree to which control is maintained when facing a runner on base",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065D04",
+      "source": "リリース○\n変化球でも直球でもモーションが同じ",
+      "english": "Consistent Delivery\nUses the same delivery for fastballs and breaking pitches.",
+      "deepl_comparison": "Release \n: The pitching motion is the same for both breaking balls and fastballs.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065D38",
+      "source": "ジャイロボール\n伸びのあるストレート「ジャイロボール」を投げられる",
+      "english": "Gyroball\nCan throw a lively fastball known as the Gyroball.",
+      "deepl_comparison": "Gyro Ball \n: Can throw a fastball with good movement, the “Gyro Ball”",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065D7C",
+      "source": "クイック\n盗塁のされにくさ",
+      "english": "Quick Delivery\nAbility to prevent stolen bases.",
+      "deepl_comparison": "Quick \n: Resistance to Stolen Bases",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065D98",
+      "source": "対左打者\n左バッターに対する相性のよさ",
+      "english": "vs LHB\nEffectiveness against left-handed batters.",
+      "deepl_comparison": "Vs. Left-Handed Hitters \n: Strong performance against left-handed batters",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065DC0",
+      "source": "対ピンチ\nスコアリングポジションにランナーを背負ったの勝負強さ",
+      "english": "Clutch Pitching\nEffectiveness with runners in scoring position.",
+      "deepl_comparison": "\"Handling Pressure Situations \n\": The ability to perform under pressure when there are runners in scoring position.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065E00",
+      "source": "打球反応\n投手ライナーへの反応のよさ",
+      "english": "Pitcher Reflexes\nReaction speed against line drives back to the pitcher.",
+      "deepl_comparison": "Batted Ball Reaction \n: Pitcher’s responsiveness to line drives",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065E24",
+      "source": "秋口ピーク\nペナントレース中、秋に調子がいい",
+      "english": "Autumn Peak\nTends to be in good form in autumn during Pennant.",
+      "deepl_comparison": "Peaks in early fall; performs well during the \n Pennant Race in the fall",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065E50",
+      "source": "夏男\nペナントレース中、夏に調子がいい",
+      "english": "Summer Form\nTends to be in good form in summer during Pennant.",
+      "deepl_comparison": "Summer Man \n: During the pennant race, he’s in top form during the summer.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065E78",
+      "source": "開幕ダッシュ\nペナントレース中、開幕後の調子がいい",
+      "english": "Hot Start\nTends to be in good form after Opening Day.",
+      "deepl_comparison": "Off to a Flying Start \n: During the pennant race, the team is performing well after the season opener.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065EAC",
+      "source": "目切り背走\n野手の後方目きりダッシュテクニック",
+      "english": "Fly-ball Tracking\nTechnique for turning and sprinting after a deep fly.",
+      "deepl_comparison": "Backward Dash \n: Outfielders’ Backward Dash Technique",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065EDC",
+      "source": "ショートバウンド\n捕手のワンバウンド捕球テクニック",
+      "english": "Short-hop Catching\nCatcher technique for handling a ball on a bounce.",
+      "deepl_comparison": "Short Bounce \n: Catcher’s One-Bounce Catching Technique",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065F10",
+      "source": "逆シングル\n内野手の反転スローイングテクニック",
+      "english": "Backhand Play\nInfield technique for turning to make a throw.",
+      "deepl_comparison": "Reverse Single \n: Infielders’ Reverse Throwing Technique",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065F40",
+      "source": "中継プレイ\n二塁・遊撃手の中継テクニック",
+      "english": "Relay Play\nCutoff and relay technique for second basemen and shortstops.",
+      "deepl_comparison": "Relay Plays \n: Relay Techniques for Second Basemen and Shortstops",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065F68",
+      "source": "バックハンドトス\n二塁手の併殺プレイテクニック",
+      "english": "Backhand Toss\nSecond-base technique for turning double plays.",
+      "deepl_comparison": "Backhand Toss \n: Double-Play Technique for the Second Baseman",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065F98",
+      "source": "すくい捕り\n一塁手の送球捕球のテクニック",
+      "english": "Scooping Throws\nFirst-base technique for fielding throws.",
+      "deepl_comparison": "Scoop Catch \n: First Baseman’s Throwing and Catching Technique",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065FC0",
+      "source": "座り送球\n捕手の盗塁されたときの送球スタイル",
+      "english": "Crouch Throw\nCatcher throwing style against stealing runners.",
+      "deepl_comparison": "Seated Throw \n: The catcher’s throwing style when a stolen base occurs",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82065FEC",
+      "source": "バントダッシュ\n一・三塁手のバントに対するダッシュ力",
+      "english": "Bunt Charge\nSpeed at which corner infielders charge a bunt.",
+      "deepl_comparison": "Bunt Dash \n: The ability of first and third basemen to dash toward a bunt",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066020",
+      "source": "ベースカバー\n投手の一塁ベースカバーの速さ",
+      "english": "Cover First\nPitcher's speed when covering first base.",
+      "deepl_comparison": "Base Coverage \n: Pitcher's Speed in Covering First Base",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206604C",
+      "source": "レーザービーム\n遠投が低い軌道になる",
+      "english": "Laser Beam\nKeeps long throws on a low trajectory.",
+      "deepl_comparison": "Laser Beam \n: Long throws follow a low trajectory.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066070",
+      "source": "ムードメーカー\n打撃結果がチームのムードを左右する",
+      "english": "Tone Setter\nBatting results affect the team's morale.",
+      "deepl_comparison": "Mood Maker \n: Batting results influence the team’s mood.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820660A4",
+      "source": "存在感\n圧倒的な存在感で相手投手にプレッシャーを与える",
+      "english": "Presence\nPuts pressure on opposing pitchers through sheer presence.",
+      "deepl_comparison": "Presence \n: Puts pressure on the opposing pitcher with an overwhelming presence.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820660DC",
+      "source": "威圧感\n相手投手に威圧感を与え、力を発揮させない",
+      "english": "Intimidation\nIntimidates opposing pitchers and limits their performance.",
+      "deepl_comparison": "Intimidation \n: Intimidates the opposing pitcher, preventing them from performing at their best.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206610C",
+      "source": "ブロック○\nホームクロスプレイのランナーをはねかえす",
+      "english": "Plate Blocking\nHolds off runners in collisions at home.",
+      "deepl_comparison": "Block \n: Deflects a runner attempting a home-plate cross-play",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066140",
+      "source": "エラー\nスコアリングポジションにランナーがいるときエラーしやすくなる",
+      "english": "Error Prone\nMore likely to make errors with runners in scoring position.",
+      "deepl_comparison": "Error \n: Players are more likely to make errors when there are runners in scoring position.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066184",
+      "source": "守備職人\n守備のとき熟練の技が光る",
+      "english": "Fielding Specialist\nDisplays expert technique in the field.",
+      "deepl_comparison": "Defensive Master \n: Their expert skills shine during defense",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820661A8",
+      "source": "初回先頭打者ホームラン男\n初回の先頭打者のとき打力アップ",
+      "english": "Leadoff Power\nHits better when leading off the first inning.",
+      "deepl_comparison": "\"First-Inning Leadoff Home Run Man\" \n: Increases batting power when batting as the leadoff hitter in the first inning.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820661E0",
+      "source": "盗塁ヘッドスライディング\n盗塁するときヘッドスライディングする",
+      "english": "Headfirst Steals\nSlides headfirst when stealing a base.",
+      "deepl_comparison": "Stolen Base Head Slide \n: Performs a head slide when stealing a base",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066220",
+      "source": "ヘッドスライディング\nタイミングが際どいとき１塁にヘッドスライディングする",
+      "english": "Headfirst Slide\nDives into first base on close plays.",
+      "deepl_comparison": "Head Slide \n: When the timing is tight, perform a head slide into first base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206626C",
+      "source": "体当り\nホームクロスプレイでキャッチャーを跳ね飛ばす",
+      "english": "Plate Collision\nCan knock the catcher aside in a collision at home.",
+      "deepl_comparison": "Body Check \n: Knock the catcher off his feet with a home plate collision.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820662A0",
+      "source": "代打○\n代打のとき打力アップ",
+      "english": "Pinch Hitter\nHits better when pinch hitting.",
+      "deepl_comparison": "Pinch Hitter \n: Batting power increases when pinch hitting",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820662BC",
+      "source": "逆境○\n試合終盤に負けてるとき打力アップ",
+      "english": "Comeback Hitter\nHits better when trailing late in the game.",
+      "deepl_comparison": "Adversity \n: Boosts batting power when trailing in the late innings",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820662E4",
+      "source": "サヨナラ男\nサヨナラのチャンスのとき打力アップ",
+      "english": "Walk-off Hitter\nHits better with a chance for a walk-off win.",
+      "deepl_comparison": "Walk-off Man \n: Batting power increases when there’s a chance for a walk-off hit",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066314",
+      "source": "満塁男\n満塁のとき打力アップ",
+      "english": "Bases-loaded Hitter\nHits better with the bases loaded.",
+      "deepl_comparison": "\"Bases-Loaded Man\" \n: Batting power increases when the bases are loaded",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066330",
+      "source": "チャンスメーカー\nランナーがいないとき打力アップ",
+      "english": "Table Setter\nHits better with the bases empty.",
+      "deepl_comparison": "Chance Maker \n: Increases batting power when there are no runners on base",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066360",
+      "source": "三振\n追い込まれたとき三振しやすくなる",
+      "english": "Strikeout Prone\nMore likely to strike out with two strikes.",
+      "deepl_comparison": "Strikeouts: \n. Players are more likely to strike out when they’re in a 2-strike count.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066388",
+      "source": "初球○\nノーストライクのとき打力アップ",
+      "english": "Early-count Hitter\nHits better before the first strike.",
+      "deepl_comparison": "First pitch 0—Batting power increases when there are \n no strikes",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820663B0",
+      "source": "内野安打○\n打ったあとの走り出しが速い",
+      "english": "Infield Hits\nGets out of the batter's box quickly.",
+      "deepl_comparison": "Infield hit: \n. Runs quickly after hitting.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820663D8",
+      "source": "バント\nバントを転がすうまさ",
+      "english": "Bunting\nSkill at placing a bunt.",
+      "deepl_comparison": "Bunt \n Skill at rolling a bunt",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820663F8",
+      "source": "粘り打ち\n追い込まれたときギリギリまでバットコントロールができる",
+      "english": "Two-strike Battler\nKeeps better bat control with two strikes.",
+      "deepl_comparison": "Persistent Hitting \n: Allows for precise bat control right up to the last moment when facing a 2-strike count",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066438",
+      "source": "連発\n１本ホームランを打っていると打力アップ",
+      "english": "Repeat Power\nHits better after already homering in the game.",
+      "deepl_comparison": "Hitting \n1 consecutive home runs boosts your batting power.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066464",
+      "source": "おかわり\n１本ホームランを打っていると打力アップ",
+      "english": "Power Surge\nHits better after already homering in the game.",
+      "deepl_comparison": "If you hit \n1 home runs, your batting power increases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066494",
+      "source": "固め打ち\n２安打していると打力アップ",
+      "english": "Multi-hit Momentum\nHits better after collecting two hits in the game.",
+      "deepl_comparison": "Consistent Hitting: If you get \n2 hits, your batting power increases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820664B8",
+      "source": "プルヒッター\n引っ張ったときの打球が切れにくく、流したとき切れやすい",
+      "english": "Pull Hitter\nPulled balls stay fair more often; opposite-field hits foul more.",
+      "deepl_comparison": "Pull Hitter \n: The ball tends to lose its sharpness when pulled, but gains sharpness when hit to the opposite field.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820664FC",
+      "source": "流し打ち\n流した打球が切れにくい",
+      "english": "Opposite-field Control\nOpposite-field contact is less likely to go foul.",
+      "deepl_comparison": "Flat Hit \n: The ball tends to stay on a flat trajectory.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206651C",
+      "source": "広角打法\n流し打ちでもパワーが落ちにくい",
+      "english": "All-fields Power\nRetains more power when hitting to the opposite field.",
+      "deepl_comparison": "Wide-Angle Swing \n: Power doesn't drop much even with a pull-and-run swing",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066548",
+      "source": "ラインドライブ\n芯でとらえたとき低角度高速度低スピンの当たりが出やすい",
+      "english": "Line Drive\nSweet-spot contact tends to have a low angle, high speed, and low spin.",
+      "deepl_comparison": "Line Drive: When hitting the ball squarely on the sweet spot \n, it’s more likely to result in a low-angle, high-speed, low-spin hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066590",
+      "source": "アーティスト\n芯でとらえたとき高スピンの当たりが出やすい",
+      "english": "Artist\nSweet-spot contact tends to produce high spin.",
+      "deepl_comparison": "Artist: When hitting with \n-core, it’s easier to produce high-spin hits.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820665C8",
+      "source": "パワーヒッター\n芯でとらえたとき高角度低スピンの当たりが出やすい",
+      "english": "Power Hitter\nSweet-spot contact tends to have a high angle and low spin.",
+      "deepl_comparison": "Power Hitter \n: When hitting the ball squarely, it’s more likely to result in a high-angle, low-spin hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066608",
+      "source": "アベレージヒッター\nヒット性の打球になりやすい",
+      "english": "Consistent\nProduces batted balls more likely to become hits.",
+      "deepl_comparison": "Average Hitter: Tends to hit balls that result in \n hits",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066638",
+      "source": "調子安定\nペナントレース中の調子が安定しやすい",
+      "english": "Steady Form\nForm tends to remain consistent during Pennant.",
+      "deepl_comparison": "Stable Form \n: Form tends to remain stable during the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066668",
+      "source": "調子短期変動\nペナントレース中の調子が変動しやすい",
+      "english": "Rapid Form Changes\nForm tends to change frequently during Pennant.",
+      "deepl_comparison": "Short-Term Form Fluctuations \n: Form is prone to fluctuate during the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206669C",
+      "source": "調子長期変動\nペナントレース中の調子が長期的に変動しやすい",
+      "english": "Long Form Cycles\nForm tends to change over longer periods during Pennant.",
+      "deepl_comparison": "Long-Term Form Fluctuations \n: Form tends to fluctuate significantly over the long term during the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820666D8",
+      "source": "走塁\nベースランニングのうまさ",
+      "english": "Baserunning\nSkill at running the bases.",
+      "deepl_comparison": "Base Running \n Base Running Skill",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820666F8",
+      "source": "盗塁\n盗塁のうまさ",
+      "english": "Stealing\nSkill at stealing bases.",
+      "deepl_comparison": "Stolen Bases: \n—Stolen Base Skill",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8206670C",
+      "source": "ケガしにくさ\nペナントレース中の故障のしにくさ",
+      "english": "Durability\nResistance to injuries during Pennant.",
+      "deepl_comparison": "Resistance to Injury \n: Resistance to injury during the pennant race",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x82066740",
+      "source": "チャンス\nスコアリングポジションにランナーがいる打席での勝負強さ",
+      "english": "Clutch Hitting\nEffectiveness with runners in scoring position.",
+      "deepl_comparison": "Chance \n: Clutch performance at the plate when there are runners in scoring position",
+      "meaning_reviewed": true
+    }
+  ],
+  "fragment_changes": [
+    {
+      "source": "投手の球種にはそれぞれ球威が設定されています",
+      "source_hash": "14172EAA966B161D",
+      "previous_english": "Each pitch has its own Stuff rating.",
+      "english": "Each pitch has its own Pitch Power rating.",
+      "deepl_comparison": "Each pitcher’s pitch type has a set power rating.",
+      "estimated_width_px": 297.0
+    },
+    {
+      "source": "球威が高いと次のような効果があります。",
+      "source_hash": "AE416F26E680B45E",
+      "previous_english": "Higher Stuff makes breaking pitches break",
+      "english": "High Pitch Power has these effects:",
+      "deepl_comparison": "High pitch velocity has the following effects:",
+      "estimated_width_px": 251.0
+    },
+    {
+      "source": "１：変化するポイントがより打者寄りになる。",
+      "source_hash": "5F09D62947B30E59",
+      "previous_english": "later, closer to the batter. It also makes",
+      "english": "1: Break occurs closer to the batter.",
+      "deepl_comparison": "1: The point at which the pitch breaks shifts more toward the batter.",
+      "estimated_width_px": 248.0
+    },
+    {
+      "source": "２：打撃ポイントのサイズが小さくなる。",
+      "source_hash": "D7D2FC3DFE74D4A8",
+      "previous_english": "the Pitch Marker smaller and helps fastballs",
+      "english": "2: The Pitch Marker becomes smaller.",
+      "deepl_comparison": "2: The size of the batting target becomes smaller.",
+      "estimated_width_px": 267.0
+    },
+    {
+      "source": "３：ストレート系があまり減速しなくなる。",
+      "source_hash": "078B836ED6B3B019",
+      "previous_english": "retain more of their speed.",
+      "english": "3: Fastballs retain more speed.",
+      "deepl_comparison": "3: Fastballs don't lose as much speed.",
+      "estimated_width_px": 218.0
+    },
+    {
+      "source": "球種・投手と打者の利き腕・投法・コース。",
+      "source_hash": "A0098B8E3E58AE31",
+      "previous_english": "Pitch type, handedness, delivery, and location",
+      "english": "Type, pitcher/batter handedness, delivery, location",
+      "deepl_comparison": "Pitch types, pitchers’ and batters’ dominant hands, pitching styles, and pitch locations.",
+      "estimated_width_px": 356.0
+    },
+    {
+      "source": "この組み合わせでボールは色々な姿を見せます。",
+      "source_hash": "5501A0606C431896",
+      "previous_english": "all affect how the ball looks to the batter.",
+      "english": "These combinations change the ball's behavior.",
+      "deepl_comparison": "With this combination, the ball takes on various forms.",
+      "estimated_width_px": 338.0
+    },
+    {
+      "source": "キッチリとコースに決めると球威が上がるのが、",
+      "source_hash": "30CEAE8C11F4F007",
+      "previous_english": "Hitting your spot improves Stuff; missing",
+      "english": "Precise location increases Pitch Power.",
+      "deepl_comparison": "When you throw the ball precisely on the target, its power increases,",
+      "estimated_width_px": 281.0
+    },
+    {
+      "source": "コースミスすると下がるのが見えるので色々試し",
+      "source_hash": "24A242094E1AE6CC",
+      "previous_english": "it reduces Stuff. Experiment to develop",
+      "english": "Missing lowers Pitch Power. Experiment",
+      "deepl_comparison": "Since you can see the ball drop when you miss the target, I tried various things",
+      "estimated_width_px": 285.0
+    },
+    {
+      "source": "て自分だけの投球スタイルを作ってみて下さい。",
+      "source_hash": "28710445E06A895F",
+      "previous_english": "your own pitching style.",
+      "english": "to develop your own pitching style.",
+      "deepl_comparison": "Try creating your very own pitching style.",
+      "estimated_width_px": 244.0
+    },
+    {
+      "source": "投球しようとする目標とリリースタイミングを教",
+      "source_hash": "6F13D4C06B42C8F8",
+      "previous_english": "The pitching cursor shows your target and",
+      "english": "Shows the pitch target and release timing.",
+      "deepl_comparison": "Teach the target and release timing for pitching",
+      "estimated_width_px": 296.0
+    },
+    {
+      "source": "えてくれる投球カーソル。",
+      "source_hash": "1D009B16F0180E11",
+      "previous_english": "release timing. Release when it shrinks to",
+      "english": "The pitching cursor.",
+      "deepl_comparison": "A pitching cursor that helps you.",
+      "estimated_width_px": 140.0
+    },
+    {
+      "source": "これが小さくなった瞬間にリリースすれば、ベス",
+      "source_hash": "756758B0DE83B6B2",
+      "previous_english": "its smallest point for a Best Pitch,",
+      "english": "Release at its smallest size for a Best Pitch.",
+      "deepl_comparison": "If you release it the moment it gets smaller, Beth...",
+      "estimated_width_px": 308.0
+    },
+    {
+      "source": "トピッチとなって球威が大幅に上がるぞ。",
+      "source_hash": "0F0137D3E466E8FD",
+      "previous_english": "which gives Stuff a large boost.",
+      "english": "A Best Pitch greatly boosts Pitch Power.",
+      "deepl_comparison": "When you throw a top pitch, your pitching power increases significantly.",
+      "estimated_width_px": 284.0
+    },
+    {
+      "source": "プロスピでは",
+      "source_hash": "E9F5E23E8DA64755",
+      "previous_english": "You can swing with either",
+      "english": "In Pro Spirits,",
+      "deepl_comparison": "In Pro Yakyuu Spirits,",
+      "estimated_width_px": 95.0
+    },
+    {
+      "source": "責任ランナーには力を発揮する",
+      "source_hash": "BF8A7C4554753ED4",
+      "previous_english": "Raises his game with runners he put on base aboard.",
+      "english": "Raises his game with his own runners on base.",
+      "deepl_comparison": "He excels as a designated runner.",
+      "estimated_width_px": 334.0
+    },
+    {
+      "source": "登板すると勝ちにめぐまれにくい",
+      "source_hash": "3BBB566B3C94752E",
+      "previous_english": "Less likely to earn a win when pitching.",
+      "english": "Team wins less often when he pitches.",
+      "deepl_comparison": "When he takes the mound, he tends not to get the win.",
+      "estimated_width_px": 274.0
+    },
+    {
+      "source": "登板すると勝ちを呼び込みやすい",
+      "source_hash": "DCE8D358F0F02E38",
+      "previous_english": "More likely to earn a win when pitching.",
+      "english": "Team wins more often when he pitches.",
+      "deepl_comparison": "When he takes the mound, he tends to lead the team to victory.",
+      "estimated_width_px": 281.0
+    }
+  ],
+  "official_2026_references": [
+    {
+      "namespace": "Common",
+      "key": "common_ui_com_okawari",
+      "japanese": "おかわり",
+      "english": "Power Surge"
+    },
+    {
+      "namespace": "Common",
+      "key": "common_ui_or_ball_power",
+      "japanese": "球威",
+      "english": "Pitch Power"
+    },
+    {
+      "namespace": "Spirits",
+      "key": "spirits_abi_name_average_hitter",
+      "japanese": "アベレージヒッター",
+      "english": "Consistent"
+    }
+  ],
+  "regressions": [
+    {
+      "address": "0x820658FC",
+      "source": "引っ張り傾向\nＣＯＭが操作したときチームプレイは特に考えない",
+      "english": "Pull Tendency\nThe CPU gives little consideration to team tactics."
+    },
+    {
+      "address": "0x820659EC",
+      "source": "接戦\n試合終盤、接戦でなければ力を発揮する",
+      "english": "Close Games\nPerforms better late when the score is not close."
+    },
+    {
+      "address": "0x8208E8D8",
+      "source": "長した帆足、交流戦で大ブレイクした『おかわり君』",
+      "english": "Nakamura, nicknamed Okawari, broke out in"
+    }
+  ],
+  "mechanic_reviews": [
+    "CPU swing preferences remain conditional on CPU control.",
+    "Pickoffs, reflexes, catcher blocks, bunt charging, first-base coverage and headfirst slides keep their specific positions/actions.",
+    "Clutch pitching/hitting use runners in scoring position, while Table Setter uses the bases empty.",
+    "Early-count Hitter applies before the first strike, not only the first pitch.",
+    "Two-strike Battler and Strikeout Prone apply with two strikes.",
+    "First-inning leadoff, pinch-hit, comeback, walk-off and bases-loaded effects preserve their distinct triggers.",
+    "Power Surge and Repeat Power trigger after a home run; Multi-hit Momentum triggers after two hits.",
+    "Pull Hitter and opposite-field control concern foul-ball tendency; All-fields Power concerns retained power.",
+    "Line Drive, Artist and Power Hitter retain the native angle/speed/spin distinctions.",
+    "Durability applies to Pennant injuries; seasonal form traits retain their different periods.",
+    "Pitch Power changes break timing, pitch-marker size and fastball deceleration; it is not just velocity.",
+    "Both pitcher and batter handedness affect the displayed pitch.",
+    "A Power Pitch increases Pitch Power at a cost to Stamina and Control.",
+    "Luck descriptions refer broadly to the team winning; do not assume the pitcher must receive the individual win credit.",
+    "Okawari as a player nickname is not the Power Surge ability."
+  ],
+  "source_label_description_discrepancies": [
+    {
+      "address": "0x820658FC",
+      "issue": "The native Pull Tendency label is paired with a description about disregarding team tactics. Keep the literal native description pending a mechanic audit."
+    },
+    {
+      "address": "0x820659EC",
+      "issue": "The native Close Games label explicitly says performs better late when the game is NOT close. Do not reverse the source condition without native-mechanic evidence."
+    }
+  ],
+  "source_metadata_statuses_and_all_unrelated_rows_unchanged": true,
+  "all_changed_field_line_counts_unchanged": true,
+  "changed_prose_estimates_below_360_px": true,
+  "compact_power_labels_width_increase_px": 14,
+  "compact_power_label_live_fit_pending": true,
+  "layout_estimate_scope": "Arial 16 px summed glyph advances with a one-M control icon allowance; actual screen fit remains unverified.",
+  "explicit_fragment_reproduction_checks_passed": 18,
+  "compiled_expected_exact_cases": 112,
+  "compiled_checks_passed": true,
+  "curation_reproduction_checks": 93,
+  "curation_checks_passed": true,
+  "review_merger_check_passed": true,
+  "windows_build_passed": true,
+  "texture_assets_unchanged": true,
+  "cache_only_comparison": true,
+  "no_new_service_requests": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Live ability tooltip, tutorial, Power and Power +1 placement.",
+    "Native mechanic/context checks for the two source label-description discrepancies.",
+    "Remaining ability descriptions, renderer fragments and other modes."
+  ],
+  "fragment_curation_reproduction_checks_passed": 18,
+  "windows_executable_sha256": "21cac52416a276bff36a12d13662da5c327774e88bff7a37a3afcdc6bfd11388",
+  "generated_header_sha256": "959cddca9f29737cbba78eef62e1629828711c7b5237925c8261f963ac244358",
+  "existing_slot_artwork_names_match_native_ability_names": true,
+  "no_legacy_stuff_stat_or_second_helping_values_remaining": true,
+  "all_source_hashes_sizes_addresses_and_statuses_unchanged": true
+}

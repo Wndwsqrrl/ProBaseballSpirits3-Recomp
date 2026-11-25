@@ -1,0 +1,146 @@
+[
+  {
+    "address": "0x00000000",
+    "source": "投手の球種にはそれぞれ球威が設定されています",
+    "source_size": 44,
+    "source_hash": "14172EAA966B161D",
+    "english": "Each pitch has its own Pitch Power rating.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "球威が高いと次のような効果があります。",
+    "source_size": 38,
+    "source_hash": "AE416F26E680B45E",
+    "english": "High Pitch Power has these effects:",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "１：変化するポイントがより打者寄りになる。",
+    "source_size": 42,
+    "source_hash": "5F09D62947B30E59",
+    "english": "1: Break occurs closer to the batter.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "２：打撃ポイントのサイズが小さくなる。",
+    "source_size": 38,
+    "source_hash": "D7D2FC3DFE74D4A8",
+    "english": "2: The Pitch Marker becomes smaller.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "３：ストレート系があまり減速しなくなる。",
+    "source_size": 40,
+    "source_hash": "078B836ED6B3B019",
+    "english": "3: Fastballs retain more speed.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "球種・投手と打者の利き腕・投法・コース。",
+    "source_size": 40,
+    "source_hash": "A0098B8E3E58AE31",
+    "english": "Type, pitcher/batter handedness, delivery, location",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "この組み合わせでボールは色々な姿を見せます。",
+    "source_size": 44,
+    "source_hash": "5501A0606C431896",
+    "english": "These combinations change the ball's behavior.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "キッチリとコースに決めると球威が上がるのが、",
+    "source_size": 44,
+    "source_hash": "30CEAE8C11F4F007",
+    "english": "Precise location increases Pitch Power.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "コースミスすると下がるのが見えるので色々試し",
+    "source_size": 44,
+    "source_hash": "24A242094E1AE6CC",
+    "english": "Missing lowers Pitch Power. Experiment",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "て自分だけの投球スタイルを作ってみて下さい。",
+    "source_size": 44,
+    "source_hash": "28710445E06A895F",
+    "english": "to develop your own pitching style.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "投球しようとする目標とリリースタイミングを教",
+    "source_size": 44,
+    "source_hash": "6F13D4C06B42C8F8",
+    "english": "Shows the pitch target and release timing.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "えてくれる投球カーソル。",
+    "source_size": 24,
+    "source_hash": "1D009B16F0180E11",
+    "english": "The pitching cursor.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "これが小さくなった瞬間にリリースすれば、ベス",
+    "source_size": 44,
+    "source_hash": "756758B0DE83B6B2",
+    "english": "Release at its smallest size for a Best Pitch.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "トピッチとなって球威が大幅に上がるぞ。",
+    "source_size": 38,
+    "source_hash": "0F0137D3E466E8FD",
+    "english": "A Best Pitch greatly boosts Pitch Power.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "プロスピでは",
+    "source_size": 12,
+    "source_hash": "E9F5E23E8DA64755",
+    "english": "In Pro Spirits,",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "責任ランナーには力を発揮する",
+    "source_size": 28,
+    "source_hash": "BF8A7C4554753ED4",
+    "english": "Raises his game with his own runners on base.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "登板すると勝ちにめぐまれにくい",
+    "source_size": 30,
+    "source_hash": "3BBB566B3C94752E",
+    "english": "Team wins less often when he pitches.",
+    "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "登板すると勝ちを呼び込みやすい",
+    "source_size": 30,
+    "source_hash": "DCE8D358F0F02E38",
+    "english": "Team wins more often when he pitches.",
+    "status": "reviewed"
+  }
+]
