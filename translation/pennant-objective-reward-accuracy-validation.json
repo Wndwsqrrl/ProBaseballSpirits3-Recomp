@@ -1087,8 +1087,8 @@
       "english": "Win All-Star MVP",
       "deepl_comparison": "Standing on the Podium",
       "source_meaning_reviewed": true,
-      "wording_accepted": false,
-      "decision": "All-Star context is confirmed, but MVP is more specific than the source podium wording; verify the actual award condition before approving this narrower wording."
+      "wording_accepted": true,
+      "decision": "Retain All-Star MVP, corroborated by the explicit original objective reviewed in pennant-narrative-notice-accuracy-validation.json."
     },
     {
       "field": "goal",
@@ -2827,10 +2827,13 @@
       "source_introduction": "まもなく迎えるスターたちの夢の競演・オールスター。@nこの晴れの舞台にわがチームからも@v@t@vが出場することとなった。出場するだけでも素晴らしいことだが、どうせならば@vチームの代表として恥ずかしくない結果も残してきてほしい。@v@f何はともあれ、怪我無くもどってきてくれることが一番大事なことではあるが…",
       "source_success_story": "喧騒の中、表彰台に立つ@v@t@v。@n誇らしげに堂々とインタビューを受けるさまはチームの一員として見ていて嬉しくなると同時に誇らしくなる。@n今回の経験は彼にとっても大きな自信になっただろう。@fシーズン後半戦が始まったあとも、きっと彼は素晴らしい活躍をしてくれるに違いない。@n大いに期待しよう。",
       "issue": "The native text establishes an All-Star award/podium, but does not explicitly name MVP. The actual native success predicate still needs inspection. No wording change is made in this pass.",
-      "related_success_story_wording_also_requires_condition_check": true
+      "related_success_story_wording_also_requires_condition_check": true,
+      "resolved": true,
+      "resolution_report": "pennant-narrative-notice-accuracy-validation.json",
+      "resolution": "The original event 5 objective explicitly says to win All-Star MVP; current goal and award-story wording are corroborated."
     }
   ],
-  "goal_fields_with_unresolved_wording": 1,
+  "goal_fields_with_unresolved_wording": 0,
   "source_controls_and_all_unedited_member_bytes_unchanged": true,
   "all_changed_fields_fit_original_slots": true,
   "layout_estimate_scope": "Arial 16 px summed glyph advances for the changed labels; actual event widgets and native macro expansion remain unverified.",
@@ -2843,9 +2846,8 @@
   "entire_game_english": false,
   "no_new_service_requests": true,
   "pending": [
-    "Inspect the native All-Star success predicate for event 5 before approving MVP-specific wording.",
     "Live event-reward/goal placement and native substitutions.",
-    "Accuracy review of the remaining event fields and other mode/discovery paths."
+    "Other mode/discovery paths and remaining catalogue accuracy review."
   ],
   "selected_member_readback_verified": true,
   "archive_index_unchanged": true,

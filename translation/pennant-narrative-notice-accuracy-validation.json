@@ -1,0 +1,2131 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "0ae609744b7abe98845b4535feed7fb9f657ec8f",
+  "populated_fields_reviewed": {
+    "failure_notice": 32,
+    "success_notice": 32,
+    "objective": 32,
+    "introduction": 32,
+    "success_story": 32,
+    "failure_story": 32
+  },
+  "field_occurrences_source_reviewed": 192,
+  "distinct_source_english_pairs_reviewed": 151,
+  "distinct_sources_with_cached_deepl_response": 151,
+  "newly_context_reviewed_deepl_inputs": 146,
+  "total_context_reviewed_deepl_inputs": 1606,
+  "changed_fields": 13,
+  "changes": [
+    {
+      "field": "success_notice",
+      "event": 9,
+      "relative_offset": 273720,
+      "width": 41,
+      "source": "野手コーチの行動力が増えました！",
+      "previous_english": "Fielder coach actions increased!",
+      "english": "Fielding Coach Capacity increased!",
+      "reason": "Use the established Fielding Coach and Coach Capacity terms.",
+      "english_bytes": 34,
+      "previous_estimated_paragraph_widths_px": [
+        230.0
+      ],
+      "estimated_paragraph_widths_px": [
+        254.0
+      ]
+    },
+    {
+      "field": "success_notice",
+      "event": 11,
+      "relative_offset": 273802,
+      "width": 41,
+      "source": "「金銭トレード」を獲得しました！",
+      "previous_english": "Unlocked Cash Trade!",
+      "english": "Unlocked Add Cash to Trade!",
+      "reason": "Match the actual unlocked command and reviewed reward.",
+      "english_bytes": 27,
+      "previous_estimated_paragraph_widths_px": [
+        160.0
+      ],
+      "estimated_paragraph_widths_px": [
+        210.0
+      ]
+    },
+    {
+      "field": "success_notice",
+      "event": 16,
+      "relative_offset": 274007,
+      "width": 41,
+      "source": "投手コーチの行動力が増えました！",
+      "previous_english": "Pitching coach actions increased!",
+      "english": "Pitching Coach Capacity increased!",
+      "reason": "Use the established Pitching Coach and Coach Capacity terms.",
+      "english_bytes": 34,
+      "previous_estimated_paragraph_widths_px": [
+        238.0
+      ],
+      "estimated_paragraph_widths_px": [
+        254.0
+      ]
+    },
+    {
+      "field": "success_notice",
+      "event": 17,
+      "relative_offset": 274048,
+      "width": 41,
+      "source": "監督カリスマ値を大量にゲットしました！",
+      "previous_english": "Manager charisma rose sharply!",
+      "english": "Earned a large MCP bonus!",
+      "reason": "Make the award of Manager Charisma Points explicit using the existing MCP abbreviation.",
+      "english_bytes": 25,
+      "previous_estimated_paragraph_widths_px": [
+        227.0
+      ],
+      "estimated_paragraph_widths_px": [
+        197.0
+      ]
+    },
+    {
+      "field": "success_notice",
+      "event": 112,
+      "relative_offset": 277943,
+      "width": 41,
+      "source": "「選手リハビリ強化」を獲得しました！",
+      "previous_english": "Unlocked Intensive Rehab!",
+      "english": "Unlocked Specialist Treatment!",
+      "reason": "Match the actual unlocked command and reviewed reward.",
+      "english_bytes": 30,
+      "previous_estimated_paragraph_widths_px": [
+        192.0
+      ],
+      "estimated_paragraph_widths_px": [
+        222.0
+      ]
+    },
+    {
+      "field": "objective",
+      "event": 21,
+      "relative_offset": 281828,
+      "width": 37,
+      "source": "連勝でファンの期待に応えろ！",
+      "previous_english": "Go on a run for the fans!",
+      "english": "Build a win streak for the fans!",
+      "reason": "State consecutive wins explicitly rather than the broader run idiom.",
+      "english_bytes": 32,
+      "previous_estimated_paragraph_widths_px": [
+        169.0
+      ],
+      "estimated_paragraph_widths_px": [
+        212.0
+      ]
+    },
+    {
+      "field": "introduction",
+      "event": 2,
+      "relative_offset": 195943,
+      "width": 391,
+      "source": "異様な雰囲気につつまれるスタンド。@nついに迎えたプレーオフ。@n周囲の注目度もシーズン中とは比較にならないようで、伝わる緊張感もいつもの倍だ。@fシーズン中闘ったチームと言っても短期決戦になれば、戦略もまったく異なるだろう。@n言えることは間違いなく総力戦になるであろうということ。@fすべてのプレイにわずかな隙も許されない。@n@v今こそリーグの王者をかけての頂上決戦！@v",
+      "previous_english": "The stands feel different tonight.@nThe playoffs are finally here.@nEvery eye is on us, and the tension feels twice as high.@fWe know this opponent from the season, but a short series changes everything.@nBoth clubs will use everything they have.@fEvery play counts.@n@vIt's time to fight for the league title!@v",
+      "english": "The stands have a different feel.@nThe playoffs are finally here.@nEvery eye is on us, and the tension feels twice as high.@fWe know this opponent from the season, but a short series changes everything.@nBoth clubs will use everything they have.@fEvery play counts.@n@vIt's time to fight for the league title!@v",
+      "reason": "Do not add an unsupported night-game setting.",
+      "english_bytes": 311,
+      "previous_estimated_paragraph_widths_px": [
+        226.0,
+        200.0,
+        965.0,
+        438.0,
+        286.0
+      ],
+      "estimated_paragraph_widths_px": [
+        226.0,
+        200.0,
+        965.0,
+        438.0,
+        286.0
+      ]
+    },
+    {
+      "field": "introduction",
+      "event": 113,
+      "relative_offset": 239344,
+      "width": 391,
+      "source": "最近@v@t@vの成長には目を見張るものがある。@n彼の潜在能力はまだまだこんなものではない。@n将来はわがチームの中心選手として活躍するためには、もう一つ上をめざしてもらいたい。@fそのためにはやはり@v@t@vにはそれ相応の役割を与えることによって良い効果があらわれるのではないだろうか。",
+      "previous_english": "@v@t@v has improved by leaps and bounds lately.@nThere is still a lot of potential there.@nTo become a core player, this one needs to aim higher.@fMaybe giving @v@t@v a role with more responsibility would help.",
+      "english": "@v@t@v has improved by leaps and bounds lately.@nThere is still a lot of potential there.@nTo become a core player, he needs to aim higher.@fMaybe giving @v@t@v a role with more responsibility would help.",
+      "reason": "Use natural English for the selected player.",
+      "english_bytes": 204,
+      "previous_estimated_paragraph_widths_px": [
+        366.0,
+        246.0,
+        876.0
+      ],
+      "estimated_paragraph_widths_px": [
+        366.0,
+        246.0,
+        838.0
+      ]
+    },
+    {
+      "field": "success_story",
+      "event": 14,
+      "relative_offset": 12553,
+      "width": 429,
+      "source": "「今日は@v@t@vにすべてを任せる」@nその言葉に@v@t@vは見事に応えてくれた。@n見事に一人で試合を投げ切ることで、過酷を強いていたリリーフ投手にひとときの休息を与えてくれたのだ。@f「リリーフ陣に助けられることも多い。お互い助け合うのは当然のこと」頼もしい言葉だ。@nチームの結束をより高めることができた結果に満足しながらも、先発完投投手の偉大さを改めて思い知った。",
+      "previous_english": "\"I'm leaving it all to @v@t@v today.\"@n@v@t@v made good on my trust.@nA complete game gave our overworked bullpen a night off.@f\"The relievers have bailed me out plenty. It was my turn to help them,\" our starter said.@nThe team came away closer, and I was reminded just how much a complete game can mean.",
+      "english": "\"I'm leaving it all to @v@t@v today.\"@n@v@t@v made good on my trust.@nA complete game gave our overworked bullpen a game off.@f\"The relievers have bailed me out plenty. It was my turn to help them,\" our starter said.@nThe team came away closer, and I was reminded just how much a complete game can mean.",
+      "reason": "Avoid an unsupported night-game assumption.",
+      "english_bytes": 303,
+      "previous_estimated_paragraph_widths_px": [
+        257.0,
+        237.0,
+        1035.0,
+        656.0
+      ],
+      "estimated_paragraph_widths_px": [
+        257.0,
+        237.0,
+        1040.0,
+        656.0
+      ]
+    },
+    {
+      "field": "success_story",
+      "event": 110,
+      "relative_offset": 53737,
+      "width": 429,
+      "source": "@v@t@vは声を上げ積極的に練習に参加している。@n試合に出場し結果を残すことで、プロとしての誇りを取り戻してくれたようだ。周囲の心配をよそに、結果を残し続けた。@f結果は元より、真面目な性格でチームになじもうと努力する様子が好感を持て、選手の間での評判も上々だ。@n球団フロントは胸を張りながら「まだまだ優良助っ人を探索中でリストアップしてある」と微笑む。@f優勝に向け一丸となって闘い続けているのは現場だけではないことを改めて実感した。",
+      "previous_english": "@v@t@v is speaking up and throwing more energy into practice.@nGame time and good results brought back that professional pride.@fThe clubhouse appreciates the way our player has worked to fit in and kept producing.@nThe front office says it has more players on its shortlist.@fEveryone is doing their part to build a contender.",
+      "english": "@v@t@v is speaking up and throwing more energy into practice.@nGame time and good results brought back that professional pride.@fThe clubhouse appreciates the way our player has worked to fit in and kept producing.@nThe front office is still scouting foreign players and has a shortlist.@fEveryone is doing their part to build a contender.",
+      "reason": "Retain the explicit foreign-recruitment detail even though this source story repeats material from another event.",
+      "english_bytes": 339,
+      "previous_estimated_paragraph_widths_px": [
+        458.0,
+        1087.0,
+        747.0
+      ],
+      "estimated_paragraph_widths_px": [
+        458.0,
+        1087.0,
+        821.0
+      ]
+    },
+    {
+      "field": "failure_story",
+      "event": 11,
+      "relative_offset": 126326,
+      "width": 391,
+      "source": "ふがいない試合結果が続いたためか、本社からは「もう少し何とかならんのかね」と、援助に消極的な旨が伝えられた。@f正直ピッチャーの台所事情が苦しいからこその、フロント判断の補強提案なのだが、本社のお偉方には「優勝の狙えないチームへの投資は無駄」という判断になっているようだ。@f結果が出ていないこちらとしては言い返す言葉もないが、悔しいことに変わりはない。@n今に見ていろと心に誓う…！",
+      "previous_english": "After a string of poor games, ownership made it clear they weren't eager to help. \"Can't you do a little better?\"@fThe front office wants help for an overworked staff, but ownership doesn't see a contender worth investing in.@fIt's hard to argue with our results. It still stings.@nWe'll show them.",
+      "english": "After a string of poor games, ownership made it clear they weren't eager to help. \"Can't you do a little better?\"@fThe front office wants help for a struggling pitching staff, but ownership doesn't see a contender worth investing in.@fIt's hard to argue with our results. It still stings.@nWe'll show them.",
+      "reason": "Do not substitute a workload problem for the source pitching-staff difficulties.",
+      "english_bytes": 306,
+      "previous_estimated_paragraph_widths_px": [
+        1890.0,
+        120.0
+      ],
+      "estimated_paragraph_widths_px": [
+        1928.0,
+        120.0
+      ]
+    },
+    {
+      "field": "failure_story",
+      "event": 15,
+      "relative_offset": 127890,
+      "width": 391,
+      "source": "@v@t@vは今日も動きの鈍くなった体にムチ打って出場を続けている。@nやはり彼の存在は今のチームには欠かせないのだ。@fとはいえ疲労の色濃い彼のパンクは時間の問題かもしれない。@n戦況を考えた上でいずれは休ませてやりたいものだが。",
+      "previous_english": "@v@t@v is playing through heavy legs again today.@nWe need that player right now.@fAt this level of fatigue, something may give before long.@nI want to find a chance to rest our player when the schedule allows it.",
+      "english": "@v@t@v is playing through heavy legs again today.@nWe need that player right now.@fAt this level of fatigue, something may give before long.@nI want to find a chance to rest our player when the game situation allows it.",
+      "reason": "Preserve tactical game circumstances rather than inventing a scheduling condition.",
+      "english_bytes": 219,
+      "previous_estimated_paragraph_widths_px": [
+        370.0,
+        624.0,
+        484.0
+      ],
+      "estimated_paragraph_widths_px": [
+        370.0,
+        624.0,
+        523.0
+      ]
+    },
+    {
+      "field": "failure_story",
+      "event": 16,
+      "relative_offset": 128281,
+      "width": 391,
+      "source": "結局のところなんでも詰め込みすぎというのはあまりよくないのだろうか。@n少々考えすぎなのか、投手たちがマウンドで首をかしげる場面が増えた印象がある。@n決して成果が上がっていない訳ではないとは思うのだが。@fともあれ結果を急ぎすぎても、身につくものも身につかなくなる。@n長い目で結果がでることを期待しよう。",
+      "previous_english": "Maybe we've given the pitchers too much to think about.@nI've seen more of them shake their heads on the mound lately.@nThat doesn't mean the work has been wasted.@fRushing for results can get in the way of learning.@nWe'll give it time.",
+      "english": "Maybe we've given the pitchers too much to think about.@nI've seen more of them look puzzled on the mound lately.@nThat doesn't mean the work has been wasted.@fRushing for results can get in the way of learning.@nWe'll give it time.",
+      "reason": "Describe confusion rather than suggesting pitchers are shaking off signs.",
+      "english_bytes": 232,
+      "previous_estimated_paragraph_widths_px": [
+        394.0,
+        436.0,
+        692.0,
+        119.0
+      ],
+      "estimated_paragraph_widths_px": [
+        394.0,
+        400.0,
+        692.0,
+        119.0
+      ]
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "field": "failure_notice",
+      "events": [
+        1,
+        2,
+        3,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        116
+      ],
+      "source": "無し",
+      "english": "None",
+      "deepl_comparison": "None",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_notice",
+      "events": [
+        4,
+        6,
+        8,
+        10,
+        17,
+        21,
+        22,
+        115
+      ],
+      "source": "監督支持率が下がりました",
+      "english": "Manager approval fell.",
+      "deepl_comparison": "The manager's approval rating has dropped.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_notice",
+      "events": [
+        7,
+        9,
+        16,
+        24
+      ],
+      "source": "選手の調子が下がりました",
+      "english": "Player form dropped.",
+      "deepl_comparison": "A player's performance has declined.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        22,
+        23,
+        116
+      ],
+      "source": "監督支持率が上昇しました！",
+      "english": "Manager approval rose!",
+      "deepl_comparison": "The manager's approval rating has gone up!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        4,
+        6
+      ],
+      "source": "選手の調子が上がりました！",
+      "english": "Player form improved!",
+      "deepl_comparison": "The player's performance has improved!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        7
+      ],
+      "source": "敵チームの調子が下がりました",
+      "english": "Opponent form dropped.",
+      "deepl_comparison": "The opposing team's performance has declined.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        8
+      ],
+      "source": "「マスコミ間接口撃」を獲得しました！",
+      "english": "Unlocked Comment via Media!",
+      "deepl_comparison": "You have acquired “Media Interface Attack”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        9
+      ],
+      "source": "野手コーチの行動力が増えました！",
+      "english": "Fielding Coach Capacity increased!",
+      "deepl_comparison": "The fielding coach’s initiative has increased!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        11
+      ],
+      "source": "「金銭トレード」を獲得しました！",
+      "english": "Unlocked Add Cash to Trade!",
+      "deepl_comparison": "You have acquired a “cash trade”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        12
+      ],
+      "source": "「外国人助っ人補強」を獲得しました！",
+      "english": "Unlocked Sign Foreign Player!",
+      "deepl_comparison": "You have acquired a “foreign reinforcement”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        13
+      ],
+      "source": "「ムードメーカー指名」を獲得しました！",
+      "english": "Unlocked Pick Tone Setter!",
+      "deepl_comparison": "You’ve earned the “Mood Maker” designation!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        14
+      ],
+      "source": "「完投宣言」を獲得しました！",
+      "english": "Unlocked Complete-game Promise!",
+      "deepl_comparison": "You’ve earned the “Complete Game Declaration”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        15
+      ],
+      "source": "「選手強制休暇」を獲得しました！",
+      "english": "Unlocked Enforced Rest!",
+      "deepl_comparison": "You have earned “Mandatory Player Leave”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        16
+      ],
+      "source": "投手コーチの行動力が増えました！",
+      "english": "Pitching Coach Capacity increased!",
+      "deepl_comparison": "The pitching coach’s initiative has increased!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        17
+      ],
+      "source": "監督カリスマ値を大量にゲットしました！",
+      "english": "Earned a large MCP bonus!",
+      "deepl_comparison": "I’ve earned a ton of manager charisma points!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        18
+      ],
+      "source": "「チーム内先発通知」を獲得しました！",
+      "english": "Unlocked Announce Next Start!",
+      "deepl_comparison": "You have acquired “Team Starting Lineup Notification”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        19
+      ],
+      "source": "「投球回制限宣言」を獲得しました！",
+      "english": "Unlocked Announce Short Start!",
+      "deepl_comparison": "I’ve earned the “Inning Limit Declaration”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        20
+      ],
+      "source": "「選手個別激励」を獲得しました！",
+      "english": "Unlocked Encourage Player!",
+      "deepl_comparison": "You have unlocked “Individual Player Encouragement”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        21
+      ],
+      "source": "「マスコミアピール」を獲得しました！",
+      "english": "Unlocked Media Appeal!",
+      "deepl_comparison": "You’ve earned “Media Appeal”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        24
+      ],
+      "source": "「チーム士気向上」を獲得しました！",
+      "english": "Unlocked Team Pep Talk!",
+      "deepl_comparison": "You’ve earned “Boost Team Morale”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        109
+      ],
+      "source": "「チームプレイ方針徹底」を獲得しました！",
+      "english": "Unlocked Emphasize Teamwork!",
+      "deepl_comparison": "You have unlocked “Thorough Implementation of Team Play Strategy”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        110
+      ],
+      "source": "「選手賞賛」を獲得しました！",
+      "english": "Unlocked Praise Player!",
+      "deepl_comparison": "You’ve earned the “Player Praise” award!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        111
+      ],
+      "source": "「選手個別対談」を獲得しました！",
+      "english": "Unlocked Private Meeting!",
+      "deepl_comparison": "I’ve unlocked the “Individual Player Interviews”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        112
+      ],
+      "source": "「選手リハビリ強化」を獲得しました！",
+      "english": "Unlocked Specialist Treatment!",
+      "deepl_comparison": "You have unlocked “Enhanced Player Rehabilitation”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        113
+      ],
+      "source": "「強化選手指定」を獲得しました！",
+      "english": "Unlocked Focus Training!",
+      "deepl_comparison": "You have earned the “Designated Training Player” title!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        114
+      ],
+      "source": "「ベテラン特別指導」を獲得しました！",
+      "english": "Unlocked Veteran Mentoring!",
+      "deepl_comparison": "You have acquired “Veteran Special Coaching”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_notice",
+      "events": [
+        115
+      ],
+      "source": "「監督直接指導」を獲得しました！",
+      "english": "Unlocked Manager Coaching!",
+      "deepl_comparison": "You’ve earned “Direct Coaching from the Manager”!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        1
+      ],
+      "source": "リーグ優勝せよ！",
+      "english": "Win the pennant!",
+      "deepl_comparison": "Win the league championship!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        2
+      ],
+      "source": "プレーオフを勝ち抜け！",
+      "english": "Win the playoffs!",
+      "deepl_comparison": "Make it through the playoffs!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        3
+      ],
+      "source": "日本一を決めろ！",
+      "english": "Win the Japan Series!",
+      "deepl_comparison": "Decide who’s the best in Japan!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        4
+      ],
+      "source": "勝ち越しで前半戦を折り返せ！",
+      "english": "Reach the break with a winning mark!",
+      "deepl_comparison": "Finish the first half of the season with a winning record!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        5
+      ],
+      "source": "オールスターＭＶＰをゲットせよ！",
+      "english": "Win the All-Star MVP!",
+      "deepl_comparison": "Win the All-Star MVP!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        6
+      ],
+      "source": "開幕戦で勝利せよ！",
+      "english": "Win on Opening Day!",
+      "deepl_comparison": "Win the season opener!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        7
+      ],
+      "source": "@eに勝ち越せ！",
+      "english": "Take the series vs. @e!",
+      "deepl_comparison": "Beat @e!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        8,
+        113,
+        114,
+        115
+      ],
+      "source": "@t選手を活躍させよ！",
+      "english": "Get @t going!",
+      "deepl_comparison": "@t—Make Player T shine!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        9
+      ],
+      "source": "チーム得点力をアップさせよ！",
+      "english": "Score more runs!",
+      "deepl_comparison": "Boost your team's scoring power!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        10
+      ],
+      "source": "集まったファンが納得する試合をせよ！",
+      "english": "Give the fans a game to cheer!",
+      "deepl_comparison": "Play a game that will satisfy the fans who have gathered!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        11
+      ],
+      "source": "経営陣にアピールせよ！",
+      "english": "Impress the front office!",
+      "deepl_comparison": "Make a case to the front office!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        12
+      ],
+      "source": "新外国人を活躍させよ！",
+      "english": "Help the new signing produce!",
+      "deepl_comparison": "Make the new foreign players shine!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        13
+      ],
+      "source": "@t選手の活躍で連敗脱出せよ！",
+      "english": "End the skid with help from @t!",
+      "deepl_comparison": "@t—Break the losing streak with Player T’s stellar performance!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        14
+      ],
+      "source": "先発完投で勝利せよ！",
+      "english": "Win with a complete game!",
+      "deepl_comparison": "Win by pitching a complete game as the starting pitcher!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        15
+      ],
+      "source": "@t選手抜きで勝利せよ！",
+      "english": "Win without @t!",
+      "deepl_comparison": "@t: Win without Player T!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        16
+      ],
+      "source": "失点を抑えろ！",
+      "english": "Keep runs allowed down!",
+      "deepl_comparison": "Keep the runs down!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        17
+      ],
+      "source": "敵地で勝ち越せ！",
+      "english": "Win the series on the road!",
+      "deepl_comparison": "Win on the road!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        18
+      ],
+      "source": "予告先発で勝利せよ！",
+      "english": "Win with the announced starter!",
+      "deepl_comparison": "Win with your announced starting pitcher!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        19
+      ],
+      "source": "継投で勝利せよ！",
+      "english": "Win using multiple pitchers!",
+      "deepl_comparison": "Win with a pitching rotation!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        20
+      ],
+      "source": "波に乗れない@tを活躍させよ！",
+      "english": "Help @t break out of the slump!",
+      "deepl_comparison": "Get @t, who’s been struggling, back on track!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        21
+      ],
+      "source": "連勝でファンの期待に応えろ！",
+      "english": "Build a win streak for the fans!",
+      "deepl_comparison": "Live up to the fans’ expectations with a winning streak!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        22
+      ],
+      "source": "ホームランを打て！",
+      "english": "Hit home runs!",
+      "deepl_comparison": "Hit a home run!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        23
+      ],
+      "source": "ファンの心を掴め！",
+      "english": "Win over the fans!",
+      "deepl_comparison": "Win over the fans!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        24
+      ],
+      "source": "泥沼の連敗から脱出せよ！",
+      "english": "Snap the losing streak!",
+      "deepl_comparison": "Break out of this losing streak!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        109
+      ],
+      "source": "@t選手にチームプレイを徹底させよ！",
+      "english": "Get @t to play for the team!",
+      "deepl_comparison": "@t: Make sure Player T plays as a team!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        110
+      ],
+      "source": "@tを活躍させよ！",
+      "english": "Get @t going!",
+      "deepl_comparison": "Let @t shine!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        111
+      ],
+      "source": "@t選手の不満を解消せよ！",
+      "english": "Resolve @t's concerns!",
+      "deepl_comparison": "@t: Resolve Player T’s Complaints!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        112
+      ],
+      "source": "@t不在の代役を果たせ！",
+      "english": "Fill in for @t!",
+      "deepl_comparison": "@t Step up and fill in for the absent player!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "objective",
+      "events": [
+        116
+      ],
+      "source": "アジアの頂点に立て！",
+      "english": "Win the Asia Series!",
+      "deepl_comparison": "Reach the top of Asia!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        1
+      ],
+      "source": "ピリピリとした緊張感がチーム内にある。@n最終局面を迎えたペナントレース、ここにきて大魚を逸するわけにはいかない。選手たちは意外な程リラックスした様子で、余分な力みは感じられない。@nむしろコーチ陣の方が浮き足立っている印象すら受ける。@fここまで戦い抜いたチームの皆の疲れもピークに達しているだろう。@nだが！@v今こそ最後の力を振り絞るときだ！@v",
+      "english": "There's an edge in the clubhouse.@nWe're down to the last stretch of the pennant race. We can't let it slip now. The players look surprisingly loose.@nThe coaches may be the nervous ones.@fEveryone has to be feeling the fatigue after coming this far.@nEven so, @vnow is the time to give it everything we have left!@v",
+      "deepl_comparison": "There’s a palpable sense of tension within the team. @nWith the pennant race entering its final stages, we can’t afford to let the big fish slip away at this point. The players seem surprisingly relaxed, showing no signs of unnecessary tension.@nIf anything, the coaching staff seems to be the ones getting nervous.@fThe fatigue of everyone on the team who has fought this hard to get here must be at its peak.@nBut!@vNow is the time to muster every last ounce of strength!@v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        2
+      ],
+      "source": "異様な雰囲気につつまれるスタンド。@nついに迎えたプレーオフ。@n周囲の注目度もシーズン中とは比較にならないようで、伝わる緊張感もいつもの倍だ。@fシーズン中闘ったチームと言っても短期決戦になれば、戦略もまったく異なるだろう。@n言えることは間違いなく総力戦になるであろうということ。@fすべてのプレイにわずかな隙も許されない。@n@v今こそリーグの王者をかけての頂上決戦！@v",
+      "english": "The stands have a different feel.@nThe playoffs are finally here.@nEvery eye is on us, and the tension feels twice as high.@fWe know this opponent from the season, but a short series changes everything.@nBoth clubs will use everything they have.@fEvery play counts.@n@vIt's time to fight for the league title!@v",
+      "deepl_comparison": "The stands are shrouded in an eerie atmosphere. @nThe playoffs have finally arrived. @nThe level of attention from the public seems incomparable to that during the regular season, and the tension in the air is twice as intense as usual. @fEven though these are the same teams that battled each other during the season, their strategies will likely be completely different in this short, decisive series.@nOne thing is certain: this will undoubtedly be an all-out battle.@f Not even the slightest opening can be allowed in any play.@n@vNow is the time for the championship showdown to determine the league champion!@v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        3
+      ],
+      "source": "それぞれのリーグの頂点にたった王者。@nどちらも激戦を勝ち抜いた誇るべきチーム。@nあえてこの２チームに優劣をつける必要などあるのだろうか、とすら思ってしまう。@fだが過酷にも「日本一」の称号をえることができる真の王者はただ１チームだけなのだ。@n@v@e@vはさすがに王者の風格を備えた相手だ。@fだが、相手にはこちらもそう見えているはず。@n@v最終決戦、頂に立つのはわがチームだ！@v",
+      "english": "Two league champions meet at last.@nBoth earned the right to be here.@nI almost wonder why we have to choose between them.@fOnly one team can be Japan Series champion.@n@v@e@v looks every bit like a champion.@fThey must see the same thing in us.@n@vIn this final series, we'll be the team left standing!@v",
+      "deepl_comparison": "The champions who have risen to the top of their respective leagues. @n Both are teams to be proud of, having emerged victorious from fierce battles. @n I even find myself wondering if there’s really any need to rank these two teams. @f But, as harsh as it may be, there can only be one true champion who earns the title of “Japan’s Best.”@n@v@e@v is, as expected, an opponent with the poise of a champion. @f But our opponent must surely see us in the same light. @n@v In this final showdown, it’s our team that will stand at the top! @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        4
+      ],
+      "source": "ついに前半戦もこの@eとの対決を最後に終了ということになる。@n選手の疲れもピークに達しつつあるが、ここを乗り切れば、僅かな時間とはいえ休ませることもできる。@nチームを立て直すにはもってこいだ。@fともあれ前半戦を悔いなく終わらせ、後半戦を気持ちよく滑り出すためにもこの対決はなんとかモノにしたい。@nこの対決、@v全力で勝ちにいく！@v",
+      "english": "The first half ends with this series against @e.@nThe players are tired. Get through this and they'll have a short break to recover.@nIt's a good chance to regroup.@fWin this series and we can carry that momentum into the second half.@nFor now, @vlet's do everything we can to win!@v",
+      "deepl_comparison": "The first half of the season will finally come to a close with this matchup against @e. @n’s fatigue is reaching its peak, but if we can get through this, we’ll be able to give him a break—even if only for a short time. @n It’s the perfect opportunity to get the team back on track. @f In any case, to end the first half with no regrets and get off to a strong start in the second half, we absolutely have to win this game.@n In this match, @v is going all out for the win! @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        5
+      ],
+      "source": "まもなく迎えるスターたちの夢の競演・オールスター。@nこの晴れの舞台にわがチームからも@v@t@vが出場することとなった。出場するだけでも素晴らしいことだが、どうせならば@vチームの代表として恥ずかしくない結果も残してきてほしい。@v@f何はともあれ、怪我無くもどってきてくれることが一番大事なことではあるが…",
+      "english": "The All-Star Game is almost here.@n@v@t@v will represent our club. Just making the team is an achievement, and @vI'd love to see our player shine on that stage.@v@fAbove all, let's hope everyone comes back healthy.",
+      "deepl_comparison": "The All-Star Game—a dream showdown of the stars—is just around the corner. @n It has been decided that @v@t@v from our team will be participating in this grand event. Just being selected is a wonderful achievement, but since they’re going anyway, I hope they’ll come back with results that do our @v team proud.@v@f Above all else, the most important thing is that they come back safe and sound…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        6
+      ],
+      "source": "ついに開幕するペナントレース。@n@v「開幕の１勝はただの１勝ではない」@v@nということはよく言われる。@f開幕戦の持つ意味が「@x分の１」でないことはプロとしてこの日を迎えた者ならばだれもが知っているはずだ。@n何としてもこの一戦は@v勝利@vをつかみ取る！",
+      "english": "Opening Day is here.@n@v\"An Opening Day win is worth more than one game,\"@v@npeople always say.@fEvery pro knows the opener means more than one of @x games on the schedule.@nWe need to @vwin@v this one however we can!",
+      "deepl_comparison": "The pennant race is finally kicking off. @n@v “A win in the season opener isn’t just any win,” @v@n as the saying goes. @f Anyone who has reached this day as a professional knows full well that the significance of the opening game is far more than just “@x/1.” @n No matter what, we’re going to @vseize victory@v in this game!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        7
+      ],
+      "source": "開幕から数試合をこなし、そろそろエンジンも掛かりだし、士気上がるチームの面々。@nだがそれは敵チームも同様のこと。@n今シーズン初対決を迎える@v@e@v。@f出鼻をくじいて苦手意識をうえ付けるためにも、ここは良い結果を残しておきたい。@n@nこの初対決、引く訳にはいかない！",
+      "english": "A few games in, we're finding our rhythm and morale is rising.@nThe same is true for our opponents.@nThis is our first series of the season against @v@e@v.@fA strong start could put some doubt in their minds.@n@nWe can't back down from this first matchup!",
+      "deepl_comparison": "After playing a few games since the season opener, the team is finally hitting its stride, and morale is on the rise. @n But the same goes for the opposing team. @n This marks their first matchup of the season @v@e@v. @f To knock the wind out of their sails and instill a sense of fear in them, we need to secure a strong result here.@n@nWe can’t back down in this first matchup!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        8
+      ],
+      "source": "なに気なく目を通した新聞記事。@nそこには「足を引っ張る@v@t@v、監督も見限り」といった見出しが躍っていた。@fかなり辛らつな語り口で書かれており、記事中にはなぜか「監督談」として、語ってもいない内容の批判が書かれていた。@n彼もこれを見れば面白くはあるまい。@n確かに調子を崩してはいるようだが…@fせめて@vこの記事を発奮材料に奮起してくれればよい@vのだが。",
+      "english": "I happened to glance at the paper.@nThe headline read, \"Slumping @v@t@v has lost the manager's trust.\"@fIt was a harsh piece. They even attributed criticism to me that I'd never said.@nOur player won't be happy to read it.@nThe slump is real, though.@fI hope @vthe article lights a fire.@v",
+      "deepl_comparison": "I casually skimmed through a newspaper article. @n The headline read, “Holding the team back @v@t@v—even the manager has given up on him.”@f It was written in a rather harsh tone, and for some reason, the article included criticism attributed to the manager—criticism he hadn’t even voiced. @n He probably wouldn’t find this very amusing if he saw it. @n It’s true that he seems to have lost his form… @f But I hope that, at the very least, @v he’ll use this article as motivation to pull himself together @v.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        9
+      ],
+      "source": "野手コーチの提案で走塁の新しいトレーニングを導入することにした。@nこの走塁練習はどちらかというと走塁の意識改革をさせるようなものらしく、知らず知らずに走塁の基礎が身につく効果があるらしい。@fさすがはうちのコーチといったところだが、果たして選手たちへ@vどのような影響を及ぼすのだろうか？@v",
+      "english": "The fielding coach proposed a new baserunning drill.@nThe idea is to change how players think on the bases so that the fundamentals become second nature.@fIt's a thoughtful plan. Now let's see @vhow the team responds.@v",
+      "deepl_comparison": "Based on a suggestion from the fielding coach, we decided to introduce a new baserunning training regimen. @n This baserunning drill seems to be more about changing the players’ mindset toward baserunning, and it’s said to help them unconsciously master the fundamentals. @f It really shows what a great coach we have, but I wonder what kind of impact it will have on the players? @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        10
+      ],
+      "source": "桜の木の葉もすっかり緑色に。@n世間はＧＷに突入し、野球帽を被った子供たちが球場に増えてきた。@nさまざまな事件を経て野球人気の低迷が叫ばれる昨今、こういう子供たちに夢を与えていくことができるのならば、そんな心配もなくなるはずなのだが。@fわれわれのできることはプロとして恥ずかしくないプレイを。@nそして@vチームのファンには勝利で@v応えたい！",
+      "english": "The cherry trees have turned green.@nIt's Golden Week, and more kids in baseball caps are coming to the park.@nPeople say the sport is losing its appeal. Give these kids something to dream about and that might change.@fAll we can do is play the way professionals should.@nAnd @vgive our fans a win@v to cheer for!",
+      "deepl_comparison": "The leaves on the cherry trees have turned completely green. @n As Golden Week begins, more and more children wearing baseball caps are showing up at the ballpark.@nThese days, with the popularity of baseball said to be in decline following various scandals, if we can continue to give these children dreams, such worries should disappear. @fWhat we can do is play in a way that does justice to our status as professionals. @nAnd @vwe want to repay our team’s fans with victories!@v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        11
+      ],
+      "source": "先日球団フロントとの会議の場で、最近の投手陣のふがいない成績が議題にあげられた。この状況の打開のため、野手を放出してのトレードも画策しているという。@fどうせなら本社からの援助も加えて、こちらは野手＋金銭という条件で他球団の有力投手を得たいという考えのようだ。@nただ本社としても今のチーム状況を見て検討中のようで、援助にはまだ迷いがあるようだ。@f@vまだ優勝を狙えるという気概を見せねば。@v",
+      "english": "We met with the front office about the staff's poor results. They may trade a position player for pitching help.@fWith money from ownership, they could offer a player and cash for a stronger arm.@nOwnership is still weighing whether to help, given how we've played.@f@vShow them this team can still win a title.@v",
+      "deepl_comparison": "At a recent meeting with team management, the pitching staff’s recent poor performance was brought up as an agenda item. To turn this situation around, they are reportedly planning a trade that would involve trading away position players. @f Since they’re doing this anyway, they seem to be hoping to secure a top pitcher from another team by offering position players plus cash, with additional support from headquarters.@n However, headquarters is still reviewing the team’s current situation and seems hesitant to provide financial support. @f@v We need to show the determination that we can still aim for the championship. @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        12
+      ],
+      "source": "今ひとつ波に乗り切れないチーム。@nそんな状況にテコ入れを…ということか、フロントは新外国人の獲得を通知してきた。@fこの選手に関する情報はほとんど判らないが球団いわく、「優勝を狙うにあたり貴重な戦力になりえる」という。@n少なくとも新戦力の加入は悪いことではないのだが、果たしてこの時期に緊急来日した助っ人は@vどこまで力を発揮してくれるだろうか@v。",
+      "english": "We haven't found our rhythm.@nThe front office has signed a player from overseas to give us a lift.@fWe know little about this player, but the club thinks the signing can help us contend.@nA new signing could help. The question is @vhow much this late arrival can give us.@v",
+      "deepl_comparison": "The team just can’t seem to get on a roll. @n Perhaps to turn things around in this situation… the front office has announced the signing of a new foreign player.@f We know almost nothing about this player, but according to the team, “he could be a valuable asset in our quest for the championship.” @n At the very least, adding a new player isn’t a bad thing, but just how much of an impact will this reinforcement—who arrived in Japan on short notice at this stage of the season—@v actually have? @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        13
+      ],
+      "source": "厳しい状態だ。@nチームは連敗が続き選手たちの動きにも多少疲れとは別の、何か精神的な重しのようなものを感じる。@fそんなチーム状況の中、沈んだムードを変えようというのか、ひと際大きな声を出している@v@t@vがいた。@n@v彼の奮起@vがチームの皆に勇気を与えると良いのだが。",
+      "english": "It's a tough stretch.@nThe losing streak seems to be weighing on the players as much as fatigue.@fOne voice stood out in the quiet dugout. @v@t@v was trying to lift the mood.@nLet's hope @vthat effort@v gives the rest of the team some courage.",
+      "deepl_comparison": "Things are looking grim. @n The team is on a losing streak, and you can sense something in the players’ movements—not just fatigue, but a kind of mental weight. @f Amid this team situation, as if trying to lift the gloomy mood, there was one player, @v@t@v, shouting particularly loudly.@n@v Hopefully, his rallying cry @v will give the whole team a boost.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        14
+      ],
+      "source": "熱戦が続くペナントレース。@nわがチームも例外ではないが、昨今厳しいゲームが多く、どうしてもリリーフ陣を大量につぎ込まざるを得ない状況が続いていた。@nその為彼らもかなり疲労の色が濃く出ていた。@fペナントレースはまだ続く。@nこのままでは彼らがパンクするのも時間の問題だろう。@nなんとかここは先発投手に踏ん張ってもらい、@v救援投手陣を休ませて欲しい@vのだが。",
+      "english": "The pennant race has been a grind.@nWe've had one tough game after another and needed a lot of help from the bullpen.@nThe strain is beginning to show.@fThere's a long way to go.@nOur relievers won't hold up at this pace.@nWe need our starter to go deep and @vgive the bullpen a break.@v",
+      "deepl_comparison": "The pennant race continues to heat up. @nMy team is no exception, but we’ve had a lot of tough games lately, and we’ve been forced to rely heavily on our relief pitchers. @nAs a result, they’re showing clear signs of fatigue. @fThe pennant race isn’t over yet.@nAt this rate, it’s only a matter of time before they burn out.@nI really hope the starting pitchers can hold the line here,@vso the relief pitchers can get some rest@v.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        15
+      ],
+      "source": "過酷なペナントレースを戦って行く上で、選手たちの体調は気になるところだ。@n最近練習を見ていて、その動きが気になるのが@v@t@vだ。@n体のキレが落ちてきている印象があるのだ。@fまだ過酷な闘いはこれからも続く。@n@v@t@vをここでパンクさせてしまう訳にはいかないのだ。@n@v休養をさせるべき@vか否か。",
+      "english": "Keeping players healthy matters in a long pennant race.@nI've been watching @v@t@v in practice.@nOur player looks a step slower lately.@fThere are more tough games ahead.@nWe can't afford to lose @v@t@v now.@nShould we @vgive that player some rest@v?",
+      "deepl_comparison": "As we battle through this grueling pennant race, the players’ physical condition is a major concern. @n Lately, while watching practice, I’ve been worried about @v@t@v’s movements. @n I get the impression that his agility is starting to decline. @f The grueling battle is far from over.@nWe can’t afford to let @v@t@v burn out right now. @nShould @v we give him a rest or not?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        16
+      ],
+      "source": "最近若い投手たちが同じような冊子を持っているのに気付き、何事かと思い話を聞いてみると「投手コーチに貰った教材だ」という。@fピンチのときの心構え、自分がパニックに陥りかけた時の回避方法、果ては打者心理を逆手に取った効果的な投球術など、かなり幅広い教授を行なっているようだ。@nなるほど特に若い選手は経験不足からこういう面がまだまだ弱い。@f@v良い効果が出ることを期待しよう。@v",
+      "english": "The young pitchers have all been carrying the same booklet. They say it came from their coach.@fIt covers staying calm in a jam, recovering from panic, and using a hitter's expectations against them.@nThat's the kind of experience a young pitcher often lacks.@f@vLet's see whether the lessons pay off.@v",
+      "deepl_comparison": "I recently noticed that young pitchers were carrying similar booklets, and when I asked them what it was all about, they told me, “It’s a training manual we got from our pitching coach.” @f It seems the coach is providing quite a wide range of instruction—from the right mindset to adopt in tight situations and how to avoid panicking when you’re on the verge of losing control, to effective pitching techniques that exploit the batter’s psychology.@n I see. Young players, in particular, tend to be weak in these areas due to a lack of experience. @f@v Let’s hope this has a positive effect. @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        17
+      ],
+      "source": "ホームを離れての試合というのはやはり自球団のファンも減り心許ないものだ。@nチームはこれからしばらく敵地での試合が続くことになる。@nだが逆に言えば、相手チームにとってのホームゲームでの敗北というのは相当な痛手にも繋がるのも事実。@f@v敵地のファンを黙らせるようなゲームをしてチームに勢いをつけたいものだが。@v",
+      "english": "It's harder to feel at home with fewer of our fans in the stands.@nWe'll be on the road for a while.@nStill, losing at home can really sting for the other club.@f@vSilence the home crowd and use it to build some momentum.@v",
+      "deepl_comparison": "Playing away from home is always a bit unsettling, as there are fewer fans cheering for your team. @n Our team will be playing a series of away games for a while now. @n But on the flip side, it’s also true that a loss in a home game can be a significant blow to the opposing team.@f@v We’d like to play a game that silences the opposing fans and builds momentum for the team.@v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        18
+      ],
+      "source": "ますます過酷さを増すペナントレース。@nその中でも先発投手は疲れが抜けきらないのか、調整に苦しむことが多くなってきた。@fそこで投手コーチより、せめて調整しやすくすることを考え、@v@t@vには@v次回先発日を早めにはっきりと通知しておく@vのはどうかという提案があった。@f確かにこの苦しい時期、僅かでも@v@t@vの調整がしやすくなるというなら考慮してやったほうがよいかもしれないが…",
+      "english": "The pennant race is getting tougher.@nOur starters are having trouble recovering between turns.@fThe pitching coach suggests giving @v@t@v @van early, definite date for the next start.@v@fIf it helps @v@t@v prepare even a little in this stretch, it's worth a look.",
+      "deepl_comparison": "The pennant race is becoming increasingly grueling. @nAmid all this, starting pitchers—perhaps unable to fully shake off their fatigue—are finding it harder and harder to get into form.@fSo, the pitching coach—thinking about at least making it easier for them to prepare—@v@t@v suggested @vnotifying them clearly and well in advance of their next start date@v. @fAdmittedly, during this difficult period, if it would make @v@t@v’s preparation even slightly easier, it might be worth considering…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        19
+      ],
+      "source": "どうしても落としたくない一戦というときがペナントレースではままあるが、本日の@v@e@vとの対戦はまさにそういう試合だ。@f試合前のミーティングで投手コーチは「今日は先のことを考えず先発は@v初回からガンガン飛ばしていって、５回以降は継投で乗り切る@vという作戦もアリかも知れませんね」という。@fどうしてもモノにしたいこの一戦、先発投手がしっかり後に繋いでくれるとよいのだが。",
+      "english": "Some games feel too important to lose. Today's matchup with @v@e@v is one of them.@fAt the meeting, the pitching coach suggested @vletting the starter go hard from the first inning and using the bullpen from the fifth on.@v@fWe need this win. Let's hope the starter puts us in a good position for the bullpen.",
+      "deepl_comparison": "There are often games in the pennant race that you simply can’t afford to lose, and today’s matchup against @v@e@v is exactly that kind of game.@f During the pre-game meeting, the pitching coach said, “Today, instead of thinking too far ahead, maybe our starting pitcher should go all out from the very first inning, and we’ll rely on the bullpen to get us through the fifth inning and beyond.” @f This is a game we absolutely must win—I just hope our starting pitcher can hold the lead and set us up for the rest of the game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        20
+      ],
+      "source": "連勝で勢いにのるチーム。@nその状況を示すかのように最近は試合前の選手たちの表情もやわらかい。@nだがそんな中、唯一思い悩んだ顔をする@v@t@vがいた。@n思い返せばチーム内で彼だけが最近打撃の調子が上がっていないようだった。@fそのことが彼の表情を暗くしているのだろう。@n迷いを断ち切るかの如く空を切り裂く素振り。@n@vいち早い復活が待たれる@vのだが…",
+      "english": "The winning streak has given us momentum.@nThe players look more relaxed before games now.@nExcept @v@t@v, who still looks worried.@nOur player is the only one who hasn't started hitting.@fThe slump is clearly weighing on that player.@nThose practice swings look like an effort to shake it off.@n@vWe could use a turnaround soon.@v",
+      "deepl_comparison": "The team is riding a winning streak and full of momentum. @n As if to reflect that, the players’ expressions have been relaxed lately before games. @n But even so, there was one player, @v@t@v, who looked troubled. @n Come to think of it, he seemed to be the only one on the team whose batting form hadn’t improved recently.@fThat must be what’s casting a shadow over his expression. @nHis batting practice swings slice through the air as if to cut through his doubts. @n@vWe’re hoping for a quick comeback from @v, but…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        21
+      ],
+      "source": "今年はチームが優勝を狙える位置にきているせいか、観客動員も上々らしい。@n球団側はさらなるファンサービスの向上ということで、チームの連勝につき、球場内で販売する飲食品の価格を、３％ずつ引いていくというキャンペーンを始めたようだ。@fマスコミにもこのことは割と大きな記事で扱われ、ちょっとしたニュースとなった。@n@v連勝@vと言われてもそう簡単なことではないがせめてファンのためにも全力を尽くしたい。",
+      "english": "Attendance is strong now that we're in contention.@nThe club will cut food and drink prices by 3 percent for every win in a streak as a thank-you to the fans.@fIt even made the papers.@nPutting together @va winning streak@v is easier said than done. Let's give the fans our best.",
+      "deepl_comparison": "Perhaps because the team is in a position to contend for the championship this year, attendance seems to be going quite well. @n The team has apparently launched a campaign to further improve fan service: for every consecutive win the team achieves, they will reduce the prices of food and beverages sold at the stadium by 3%. @f The media covered this fairly extensively, and it became a minor news story.@n@vA winning streak@v is easier said than done, but I want to do my absolute best—if only for the fans.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        22
+      ],
+      "source": "夏真っ盛り、子供たちは夏休みに入ったのかスタジアムには真っ黒に日焼けした子供たちが足を運ぶようになってきた。@n選手たちもスタンドに混じる子供の声が気になるようで、@v「～さんがんばれ～！ホームランだぁ！」@vといった甲高い声に大いに気合が入っているようだ。@f「ホームランは狙って打つもの」と大打者はいうモノだが、実際そう簡単なことではない。@nせめて全力プレイを見せてやってほしいが。",
+      "english": "It's midsummer, and kids on break are filling the stands.@nThe players hear those high voices calling @v\"Come on! Hit a home run!\"@v and it fires them up.@fSluggers talk about hitting one on command, but it isn't that easy.@nAt least give those kids a game played all out.",
+      "deepl_comparison": "It’s the height of summer, and perhaps because school is out, kids with deep tans have started flocking to the stadium. @n The players seem to take notice of the children’s voices mingling in the stands, and @v high-pitched shouts like “Go, [Player’s Name]! Home run!” @v seem to really fire them up.@f “You aim to hit home runs,” as the great slugger says, but in reality, it’s not that simple. @n I just hope they’ll at least give it their all.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        23
+      ],
+      "source": "球団首脳から景気の良い話が飛び込んできた。@nここまで昨年度の観客動員を上回るペースできており、まもなく上回る見込みとのことだ。@nファンの支持を得ているということは本当に望ましいことだ。@f更なる観客動員増をめざすため、球団は新たなサービスとして子供向けアトラクションを増やすなど、さらに営業努力を行なうようだ。@nならば、現場も@v勝利という形でバックアップしたい@vものだ。",
+      "english": "Good news from the front office.@nWe're on pace to top last year's attendance soon.@nIt's good to know the fans are behind us.@fThe club is adding more for kids to do at the park and looking for ways to draw bigger crowds.@nOn the field, let's @vback them up with wins.@v",
+      "deepl_comparison": "Encouraging news has come in from team executives. @n They report that attendance is currently on pace to exceed last year’s figures and is expected to surpass them shortly.@nIt’s truly wonderful to have the support of the fans.@fTo aim for further increases in attendance, the team seems to be stepping up its marketing efforts, such as adding more attractions for children as a new service.@nIf that’s the case, we on the field @vwant to back them up with victories@v.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        24
+      ],
+      "source": "重く沈むチームの雰囲気に、危機感がつのる。@nだが連敗に沈んでいる暇はない。@nここからいかに立て直すかだ。@f緊急に開いたチームミーティングでは、チームの置かれている状況について厳しい話が相次ぎ、選手たちの元気のなさが気になるとのコーチの意見があった。@n疲労もあるのだろうが、ここでずるずる後退していくわけにはいかない。@f@vまずは連敗脱出・そしてチーム浮上だ！@v",
+      "english": "The mood in the clubhouse is getting heavy.@nWe can't spend more time dwelling on the losses.@nWe need to find a way out.@fAt an emergency meeting, the coaches spoke bluntly about the slump and the players' lack of energy.@nFatigue may be part of it. We can't let ourselves slide further.@f@vFirst end the streak, then climb the standings!@v",
+      "deepl_comparison": "A sense of crisis is mounting amid the team’s heavy, gloomy atmosphere. @n But there’s no time to wallow in this losing streak. @n The question is how to turn things around from here.@fAt an emergency team meeting, there was a series of harsh remarks about the team’s current situation, and the coach expressed concern about the players’ lack of energy.@nFatigue may be a factor, but we can’t just keep slipping backward from here.@f@vFirst, we need to break this losing streak—and then get the team back on track!@v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        109
+      ],
+      "source": "シーズンも中盤に差し掛かっているが、チームは今ひとつ低迷気味。そういった状況下で、@v@t@vはここまで好成績を挙げている。@nただ、自分の成績のことを重要視するせいか、彼にはチームプレイというものがあまり見受けられない。@f彼には今一度@vチームプレイの重要性@vについて考えてもらい、もうひと皮むけてもらいたい。",
+      "english": "We're around midseason and the team is treading water. @v@t@v has still put up strong numbers.@nOur player seems focused on personal stats and rarely puts the team first.@fI want that player to think about @vwhat it means to play for the team@v and take another step forward.",
+      "deepl_comparison": "We’re now approaching the midpoint of the season, but the team is still struggling a bit. Despite these circumstances, @v@t@v has been performing well so far. @n However, perhaps because he prioritizes his own stats, he doesn’t seem to be playing much as part of a team.@fI’d like him to reflect once more on @vthe importance of teamwork@v and take his game to the next level.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        110
+      ],
+      "source": "最近選手の練習する姿を見ていると、@v@t@v選手の練習に取り組む姿勢に今まであった積極性がなくなっている印象がある。@n試合に出場しない日が続いているので、試合勘はもちろん、精神的にも自信をなくしてしまっているのではないか。@f自信を取り戻してもらうためにも、@v彼を起用する機会@vを増やしてみてもよいかもしれない。",
+      "english": "Watching practice, I can see @v@t@v has lost some of that old spark.@nAfter so long out of the lineup, our player may be losing both rhythm and confidence.@fMaybe @vsome more playing time@v would help bring it back.",
+      "deepl_comparison": "Lately, when I watch the players practice, I get the impression that @v@t@v has lost the enthusiasm he used to show toward training. Since he hasn’t played in @n consecutive games, I wonder if he’s lost not only his game sense but also his mental confidence. @f To help him regain his confidence, it might be a good idea to @v give him more playing time@v.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        111
+      ],
+      "source": "先日ある選手からあまりよくない噂を聞きつけた。@n@v@t@vが不満をチームメイトに漏らしているらしい。@nどうも自分に対する起用に関して不満があるようだ。@fこのままではチームに対しても決してよくない影響が出るかもしれない。@n彼の不満を解消できればよいのだが。",
+      "english": "A player passed along some troubling news.@n@v@t@v has been complaining to teammates.@nIt seems to be about playing time.@fIf it keeps going, it could hurt the whole clubhouse.@nLet's find a way to address those concerns.",
+      "deepl_comparison": "The other day, I heard some not-so-good rumors about a certain player. It seems @n@v@t@v has been venting his frustrations to his teammates. @n It appears he’s unhappy with how he’s being used on the team. @f If this continues, it could have a negative impact on the team as a whole. @n I hope we can find a way to resolve his concerns.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        112
+      ],
+      "source": "故障の状態が思いのほか悪く、長期戦線離脱はやむを得ない@v@t@v。@n少しでも早く復帰しようと、彼は多少の無理はしてしまうかもしれない。しかしそれは、チームにとって必ずしもプラスになるとは限らない。@nここは@v@t@vが安心してケガの治療に専念できるような成果が必要ではないだろうか。",
+      "english": "The injury is worse than expected, and @v@t@v will be out for a while.@nOur player may try to hurry back, but that could do more harm than good.@nWe need to cover for @v@t@v so there is time to heal.",
+      "deepl_comparison": "His injury is worse than expected, so a long-term absence from the lineup is unavoidable @v@t@v. @nIn an effort to return as soon as possible, he might push himself a little too hard. However, that won’t necessarily be a positive for the team. @nAt this point, shouldn’t we be focusing on results that allow @v@t@v to concentrate on recovering from his injury with peace of mind?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        113
+      ],
+      "source": "最近@v@t@vの成長には目を見張るものがある。@n彼の潜在能力はまだまだこんなものではない。@n将来はわがチームの中心選手として活躍するためには、もう一つ上をめざしてもらいたい。@fそのためにはやはり@v@t@vにはそれ相応の役割を与えることによって良い効果があらわれるのではないだろうか。",
+      "english": "@v@t@v has improved by leaps and bounds lately.@nThere is still a lot of potential there.@nTo become a core player, he needs to aim higher.@fMaybe giving @v@t@v a role with more responsibility would help.",
+      "deepl_comparison": "@v@t@v’s recent growth has been truly remarkable. @n His potential is far from being fully realized yet. @n In order for him to thrive as a key player on our team in the future, I want him to aim even higher. @f To that end, I believe assigning @v@t@v a role commensurate with his abilities would yield positive results.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        114
+      ],
+      "source": "円熟期を迎えた@tだが、いまだ年齢を感じさせないすばらしい活躍を続けている。@n彼の持つ技術を若手に伝えることができれば、間違いなくチーム戦力の底上げができるだろう。@fここは@tに、若手の手本となる素晴らしいを技術を見せてもらいたい。",
+      "english": "@t is a seasoned player who still performs like someone much younger.@nThe whole team would benefit if that experience rubbed off on the younger players.@fLet's have @t show them what that kind of skill looks like.",
+      "deepl_comparison": "Although @t has reached his prime, he continues to perform at a remarkable level that shows no signs of his age. @n If he can pass on his skills to the younger players, it will undoubtedly boost the team’s overall strength. @f Here, we want @t to demonstrate his outstanding skills and serve as a role model for the younger players.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        115
+      ],
+      "source": "選手として大きな飛躍を遂げようとしている@v@t@v。@n彼がチームの中心として活躍する力を身に付けることができれば、チームを優勝に近づけることができるのではないか。@n@v@t@vにはそれだけの進化を望みたい。@fこの選手を育て上げることが私の使命だ。",
+      "english": "@v@t@v is on the verge of a big step forward.@nIf our player can grow into a leader, it could bring the team closer to a title.@nI want to see @v@t@v take that step.@fIt's my job to help this player get there.",
+      "deepl_comparison": "@v@t@v is on the verge of making a major breakthrough as a player. @nIf he can develop the skills to become a key player for the team, perhaps he can help lead the team to a championship. @nI hope @v@t@v can evolve to that level. @fIt is my mission to develop this player.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "introduction",
+      "events": [
+        116
+      ],
+      "source": "数々の強敵を打ち破り、わがチームは見事日本一の称号を手にした。@nだが日本の外にも強敵はいる。@nわれわれと同じようにライバルを打ち破ってきたアジアの猛者。@n一筋縄ではいかない相手だ。@fだが、われわれも日本最強のチーム。@nこれまで戦ってきたライバル達の為にも負けるわけにはいかない。@n@vアジアの頂点に立つのはわがチームだ！@v",
+      "english": "We beat some fine clubs to become champions of Japan.@nThere are strong clubs outside Japan too.@nThe best teams in Asia have each fought their way here.@nNone will be easy to beat.@fWe are the strongest team in Japan.@nFor the rivals we played to get here, we have to give it everything.@n@vWe'll be the team on top of Asia!@v",
+      "deepl_comparison": "After defeating numerous formidable opponents, our team successfully claimed the title of Japan’s best. @nBut there are strong rivals outside of Japan as well.@nFierce Asian contenders who, just like us, have defeated their rivals. @nThey won’t be easy opponents. @fBut we, too, are Japan’s strongest team. @nFor the sake of the rivals we’ve faced so far, we simply cannot lose. @n@vOur team will stand at the pinnacle of Asia! @v",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        1
+      ],
+      "source": "祝賀会、ビール掛けの余韻が残る会場後。@n若い選手たちは「二次会だ！」とばかりに街にくりだし、主軸選手はテレビ局に引っ張られて行くところだ。@nこれでは明日はきっと皆何もできまい。@fだがまだセ・リーグの頂に立ったにすぎない。@nそう、真の頂点に立った訳ではないのだ。@nだが今日くらいはほろ酔い気分にひたらせてもらってもかまわないだろう。@fともあれ、皆には「ありがとう」と言いたい。",
+      "english": "The beer shower is over, but the celebration rolls on.@nThe younger players headed into town for round two, while our stars were whisked away for TV interviews.@nI doubt anyone will get much done tomorrow.@fWe've won the Central League, and the Japan Series still lies ahead.@nThat's the title we're after.@nStill, we've earned the right to enjoy tonight.@fTo everyone who got us here, thank you.",
+      "deepl_comparison": "The venue, still echoing with the afterglow of the celebration and the beer shower. @n The young players are heading out into the city, shouting, “Let’s go to the after-party!” while the star players are being whisked away by TV crews.@nAt this rate, I’m sure none of us will be able to do anything tomorrow.@fBut we’ve only just reached the top of the Central League.@nThat’s right—we haven’t reached the true pinnacle yet.@nBut for today, at least, it’s okay to let ourselves enjoy a little buzz.@fIn any case, I want to say “thank you” to everyone.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        2
+      ],
+      "source": "祝賀会、ビール掛けの余韻が残る会場後。@n若い選手たちは「二次会だ！」とばかりに街にくりだし、主軸選手はテレビ局に引っ張られて行くところだ。@nこれでは明日はきっと皆何もできまい。@fだがまだパ・リーグの頂に立ったにすぎない。@nそう、真の頂点に立った訳ではないのだ。@nだが今日くらいはほろ酔い気分にひたらせてもらってもかまわないだろう。@fともあれ、皆には「ありがとう」と言いたい。",
+      "english": "The beer shower is over, but the celebration rolls on.@nThe younger players headed into town for round two, while our stars were whisked away for TV interviews.@nI doubt anyone will get much done tomorrow.@fWe've won the Pacific League, and the Japan Series still lies ahead.@nThat's the title we're after.@nStill, we've earned the right to enjoy tonight.@fTo everyone who got us here, thank you.",
+      "deepl_comparison": "The venue, still echoing with the afterglow of the celebration and the beer shower. @n The young players are heading out into the city, shouting, “Let’s go to the after-party!” while the star players are being whisked away by TV crews.@nAt this rate, I’m sure none of us will be able to do anything tomorrow.@fBut we’ve only just reached the top of the Pacific League.@nThat’s right—we haven’t reached the true pinnacle yet.@nBut for today, at least, it’s okay to let ourselves get a little tipsy.@fIn any case, I want to say “thank you” to everyone.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        3
+      ],
+      "source": "みな心の底から笑っていた。@n選手たちも、チームのフロントの事務方も、そして何より見守ったファンの方たちも。なし遂げたことの大きさにやっと実感がわく。@nわがチームこそ「日本最高のチーム」なのだ。@fこれ以上はない最高の結果が出せたこと、その達成感を今はただかみ締めた。@n「来年も日本一だ～！」気の早いファンの声。@nこれからも常勝チームと呼ばれる日をめざしていく。",
+      "english": "Everyone was smiling.@nThe players, the front office, and above all the fans. It was finally sinking in.@nWe were the best team in Japan.@fFor now, I'm taking a moment to enjoy what we achieved.@n\"We'll win it again next year!\" one fan called out. It was a little early for that.@nStill, this is the kind of team we want to be every year.",
+      "deepl_comparison": "Everyone was laughing from the bottom of their hearts. @n The players, the team’s front office staff, and above all, the fans who had been cheering them on. The magnitude of what they had accomplished was finally sinking in. @n Our team is truly “the best team in Japan.” @f Having achieved the best possible result, they were simply savoring that sense of accomplishment.@n “We’ll be Japan’s champions again next year!” shouted an eager fan. @n We’ll continue striving for the day when we’re known as the “unbeatable team.”",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        4
+      ],
+      "source": "前半戦を終え、ひとまずチームはひとときの休みに入ることとなった。@n前半最終対決も負け越すことなく終え、後半戦に向け勢いをつける最終戦とすることができた。@nこの点は選手たちに大いに感謝したいところだ。@f選手たちにはしばらく体を休めてもらい、後半戦に備えて欲しいものだ。@nもっとも、本当のスターたちには休みなどないのだが。",
+      "english": "The first half is over, and the team can finally take a breath.@nWe held our own in the last series and built momentum for the second half.@nThe players deserve a lot of credit for that.@fThey should use the break to rest up for what's ahead.@nOf course, the real stars don't get much of a break.",
+      "deepl_comparison": "With the first half of the season over, the team is taking a brief break for now. @n We managed to finish the final series of the first half without a losing record, making it a strong finale that builds momentum for the second half. @n I’d like to express my deep gratitude to the players for this.@f I hope the players will take some time to rest and get ready for the second half of the season.@n Though, of course, true stars never really get a break.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        5
+      ],
+      "source": "喧騒の中、表彰台に立つ@v@t@v。@n誇らしげに堂々とインタビューを受けるさまはチームの一員として見ていて嬉しくなると同時に誇らしくなる。@n今回の経験は彼にとっても大きな自信になっただろう。@fシーズン後半戦が始まったあとも、きっと彼は素晴らしい活躍をしてくれるに違いない。@n大いに期待しよう。",
+      "english": "The crowd roared as @v@t@v accepted the All-Star MVP award.@nWatching the interview, I was proud to see our player up there.@nThat moment will give him a real lift.@fI can't wait to see what he does in the second half.@nThere's a lot to look forward to.",
+      "deepl_comparison": "Amid the commotion, @v@t@v stands on the podium. @n Seeing him give an interview with such pride and poise makes me happy as a member of the team—and fills me with pride as well.@nThis experience must have given him a huge boost of confidence. @fI have no doubt he’ll continue to perform brilliantly as the second half of the season gets underway. @nLet’s look forward to it with great anticipation.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        6
+      ],
+      "source": "試合終了と同時にベンチを和やかな雰囲気が覆った。@n開幕を飾る見事な勝利。@n大きな目標へ向けての第一歩を無事に踏み出すことができた。@f今日は良い仕事をしてくれた選手たちに感謝をしつつ、ささやかな祝杯をあげるとしよう。",
+      "english": "The final out brought smiles to the dugout.@nIt was a fine Opening Day win.@nWe took the first step toward a much bigger goal.@fTonight, let's thank the players for a job well done and raise a small toast.",
+      "deepl_comparison": "As soon as the game ended, a cheerful atmosphere filled the dugout. @n A splendid victory to kick off the season. @n We’ve successfully taken the first step toward our big goal. @f Let’s raise a small toast to thank the players who did such a great job today.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        7
+      ],
+      "source": "盛り上がるチーム。@n@v@e@vに苦手意識をうえ付けられたかは定かではないが、少なくとも選手たちは@v@e@v何するものぞとばかりの様子だ。@nまさに今球場の外で舞う桜の花が如く相手の士気は散ったと言えよう。@f今年のペナント奪取に向けてチームはますます加速していく！",
+      "english": "The clubhouse is buzzing.@nI don't know if we've made @v@e@v doubt themselves, but our players certainly aren't worried about @v@e@v anymore.@nThe other team's morale scattered like the cherry blossoms outside the ballpark.@fWe're building speed in the race for this year's pennant!",
+      "deepl_comparison": "The team is on a roll. It’s unclear whether @n@v@e@v has instilled a sense of inferiority in them, but at the very least, the players seem determined to show @v@e@v what they’re made of. @n Just like the cherry blossoms dancing outside the stadium right now, the opponent’s morale has certainly been shattered.@f The team is picking up even more speed as it aims to win this year’s pennant!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        8
+      ],
+      "source": "よほど悔しかったのだろう。@v@t@vは試合が終わるとすぐにケージにこもり、特打を続けていた。@n真に努力し続けるものを野球の神は決して見放したりはしないようだ。@f@v@t@vの成績は見る間に上昇気流を描き、彼を賞賛する記事が増えだした。@n結果論ではあるが、あの記事は彼にとっては良い発奮材料となったに違いないだろう。誰もが同じ結果を生むとは限らないだろうが。",
+      "english": "@v@t@v must have taken that article hard. As soon as the game ended, our player went straight to the cage for extra work.@nBaseball has a way of rewarding that kind of effort.@f@v@t@v got hot in a hurry, and the papers started singing a different tune.@nThe criticism seems to have helped this time. It won't motivate everyone the same way.",
+      "deepl_comparison": "He must have been really frustrated. As soon as the game ended, @v@t@v locked himself in the batting cage and kept taking extra batting practice. @n It seems the baseball gods never abandon those who truly keep striving.@f@v@t@v’s performance began to soar before our very eyes, and articles praising him started to appear. @n In hindsight, those articles must have served as a great source of motivation for him. Of course, that doesn’t mean everyone would achieve the same results.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        9
+      ],
+      "source": "意識の改革というものはなかなか難しいものだが、どうも選手たちの反応を見ると今回行なったトレーニング方法はかなり好評なようだ。@nどうも走塁時の状況判断での迷いが減る効果があるようで、日に日に成果が出ているという声が多い。@f成果が出ていることも望ましいことだが、なにより選手たちがコーチに対する信頼をより高めたのが個人的にはより嬉しいところだ。@nチームのこれからに良い影響がありそうだ。",
+      "english": "The players have taken well to the new training routine. Changing habits is rarely easy.@nThey say they're making quicker decisions on the bases and seeing results every day.@fThe progress is good, and I'm even happier to see how much more they trust the coach.@nThat should help us well beyond this drill.",
+      "deepl_comparison": "Changing mindsets is no easy task, but judging by the players’ reactions, the training methods we implemented this time seem to be quite well-received. @n It appears to be helping reduce hesitation in making situational judgments on the bases, and many are saying we’re seeing results day by day. @f While it’s certainly encouraging to see results, what pleases me most personally is that the players’ trust in the coaches has grown even stronger.@n This looks like it will have a positive impact on the team’s future.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        10
+      ],
+      "source": "すべてが全力プレー。@n選手たちの手抜きのないプレーは、見る子供たちの目を輝かせたに違いない。@nＧＷ中、選手たちは素晴らしいゲームをした。@f昨今の野球人気の低迷はこのスタジアムでは少なくとも当てはまらないようだ。このプレーを見た子供たちの中からいずれ日本球界を担う選手が出てくる…受け継がれたメッセージは、いずれ次代のプロ野球を作る存在になってくれるに違いない！",
+      "english": "The players gave it everything.@nYou could see what it meant to the kids in the stands.@nWe played some terrific baseball over Golden Week.@fIf baseball is losing popularity, you'd never know it here. Some of those kids may go on to carry the game in Japan. Maybe one of them will remember what they saw this week.",
+      "deepl_comparison": "Every play was given their all. @n The players’ relentless effort surely made the children watching light up with excitement. @n During Golden Week, the players put on a fantastic game.@f The recent decline in baseball’s popularity certainly doesn’t seem to apply to this stadium. Among the children who watched this game, there will surely be players who will one day lead Japanese baseball… The message passed down to them will undoubtedly shape the next generation of professional baseball!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        11
+      ],
+      "source": "最近の試合ぶりが評価されたのか、本社からも「ぜひとも優勝を狙う為の補強が必要だ」と、援助にＧＯサインが出たようだ。@n球団フロントも、補強の仕方に関してはある程度こちらの意向を反映したい、ということで私の意見を聞くこととなった。@fまだ見ぬ新しい戦力。@n優勝を狙うためには多少の出血をしてでも血の入れ替えはやはり必要なのかもしれない。",
+      "english": "Our recent play must have impressed ownership. They've approved help to strengthen the roster for a title run.@nThe front office even asked how I'd like to use it.@fWe don't know who the new arrivals will be yet.@nBuilding a contender sometimes means parting with players you would rather keep.",
+      "deepl_comparison": "Perhaps due to our recent performance, headquarters has given the green light for support, stating, “We absolutely need to strengthen the team to aim for the championship.”@n The team’s front office also indicated that they wanted to reflect our preferences to some extent regarding how to strengthen the roster, so they decided to hear my opinion. @f New talent we haven’t seen yet. @n To aim for the championship, a shake-up of the roster—even if it means spending a bit of money—might indeed be necessary.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        12
+      ],
+      "source": "@v@t@vは周囲の心配をよそに、結果を残し続けた。@n結果は元より、真面目な性格でチームになじもうと努力をする様子には好感を持て、選手の間での評判も上々だ。@f球団フロントは胸を張りながら「まだまだ優良助っ人を探索中でリストアップしてある」と微笑む。@n優勝に向け一丸となって闘い続けているのは現場だけではないことを改めて実感した。",
+      "english": "@v@t@v put any doubts to rest by continuing to produce.@nThe results speak for themselves, and the clubhouse appreciates how hard our new player has worked to fit in.@fThe front office says it already has more potential signings on its list.@nThe people behind the scenes are pushing just as hard for a title.",
+      "deepl_comparison": "@v@t@v continued to deliver results, despite the concerns of those around him. @n Aside from his results, his earnest personality and efforts to fit in with the team have earned him a favorable impression, and his reputation among the players is excellent.@f The team’s front office smiles proudly, saying, “We’re still on the hunt for top-notch foreign players and have a list of candidates.” @n It struck me once again that it’s not just the players on the field who are fighting as one toward the championship.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        13
+      ],
+      "source": "前試合までが嘘のように明るい雰囲気。@nチームはついに連敗を脱し、大きな安堵に包まれていた。@nなんと言っても功労者は@v@t@v。@f打撃で結果を出すだけでなく、ときには沈みがちな若手に声を出させ、何より彼自身が一番大きな声を出していた。@n日替わりでヒーローが現れるチーム。@nそんなチームこそ優勝を狙えるに違いない！",
+      "english": "The clubhouse feels like a different place today.@nEveryone can finally breathe after snapping the streak.@nThe biggest reason was @v@t@v.@fOur player delivered at the plate and kept the younger players talking when they got quiet.@nA different player can be the hero every night.@nThat's what makes a team a contender.",
+      "deepl_comparison": "The atmosphere was so upbeat it was hard to believe it was the same team from the previous game. @nThe team had finally snapped its losing streak and was filled with a sense of relief. @nAbove all, the hero of the hour was @v@t@v. @fNot only did he deliver at the plate, but he also encouraged the younger players—who sometimes tend to get discouraged—to speak up, and above all, he was the one shouting the loudest.@n A team where a different hero emerges every day. @n A team like that is sure to be a contender for the championship!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        14
+      ],
+      "source": "「今日は@v@t@vにすべてを任せる」@nその言葉に@v@t@vは見事に応えてくれた。@n見事に一人で試合を投げ切ることで、過酷を強いていたリリーフ投手にひとときの休息を与えてくれたのだ。@f「リリーフ陣に助けられることも多い。お互い助け合うのは当然のこと」頼もしい言葉だ。@nチームの結束をより高めることができた結果に満足しながらも、先発完投投手の偉大さを改めて思い知った。",
+      "english": "\"I'm leaving it all to @v@t@v today.\"@n@v@t@v made good on my trust.@nA complete game gave our overworked bullpen a game off.@f\"The relievers have bailed me out plenty. It was my turn to help them,\" our starter said.@nThe team came away closer, and I was reminded just how much a complete game can mean.",
+      "deepl_comparison": "“Today, I’m leaving everything up to @v@t@v.” @n @v@t@v responded magnificently to those words. @n By pitching the entire game single-handedly, he gave the relief pitchers—who had been pushed to their limits—a moment of respite.@f “We often get help from the bullpen. It’s only natural that we help each other out.” What reassuring words. @n While satisfied with the result—which further strengthened the team’s unity—I was once again reminded of the greatness of a starting pitcher who goes the distance.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        15
+      ],
+      "source": "ベンチで大きな声を出す@v@t@v。@nそう、ベンチにいるだけでも彼はチームに力を与えているのだ。@n試合に出続けられることはもちろん素晴らしいのだが、それが原因で故障して離脱する方がチームにとってはよほど痛手になる。@fあえて休養を取る勇気も必要だろう。@nその間を支えるチームメイトもいるのだ。@nきっと次の試合からは、再び@v@t@vの元気な姿を見ることができるはずだ。",
+      "english": "@v@t@v was the loudest voice on the bench.@nEven sitting out, our player gave the team a lift.@nPlaying every day is admirable. Losing someone to an injury would hurt the club far more.@fSometimes it takes courage to take a day off.@nThat's what teammates are for.@nWe should see @v@t@v back out there with fresh legs next game.",
+      "deepl_comparison": "@v@t@v cheering loudly from the bench. @n That’s right—just by being on the bench, he’s giving the team a boost. @n Of course, it’s wonderful to keep playing in games, but if he gets injured and has to sit out because of it, that would be a far greater blow to the team.@fIt takes courage to take a break when necessary.@nAfter all, his teammates are there to support him during that time.@nI’m sure we’ll see @v@t@v back in full swing starting with the next game.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        16
+      ],
+      "source": "メンタル部分のトレーニングというのは目に見えた結果が判りにくいものではあるが、以前よりさらに若い投手たちがコーチの元を訪れるようになったのをみると、彼の指導方法が好評であったことは充分に判る。@f少なくとも彼は投手たちの信頼をさらに得たことが非常に良いことだと思う。@n投球の心構えの気持ちよりも「コーチへの信頼」という気持ちが得られたことこそ、今回のトレーニングの大きな糧に違いない。",
+      "english": "Mental training is hard to measure. Seeing the young pitchers go to the coach more often tells me the lessons were well received.@fHe's earned even more trust from the staff.@nThe mental side matters, but the pitchers' growing trust in their coach may be the biggest gain.",
+      "deepl_comparison": "While it can be difficult to see tangible results from mental training, the fact that even younger pitchers than before have started seeking out this coach makes it clear that his coaching methods have been well-received. @fAt the very least, I think it’s a very positive sign that he has further earned the pitchers’ trust.@n More than just the mental preparation for pitching, the fact that they gained a sense of “trust in the coach” is undoubtedly the greatest takeaway from this training session.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        17
+      ],
+      "source": "スタンドに投げ入れられるメガホン。@n球場を埋める相手チームファンには申し訳ないがこちらとて負けてやる義理はない。チームは敵地でも落ち着いたゲーム運びをすることができ、相手に付け入る隙を与えなかった。@fこれだけ敵地でも落ち着いた様子で各選手がのぞんでくれると采配もしやすいものだ。@nチームの成長に確かな自信を得て、今後の戦いがますます楽しみだ。",
+      "english": "Megaphones went flying in the stands.@nThe home crowd had little to cheer about. We stayed composed on the road and never gave their team an opening.@fWhen players are that calm away from home, my job gets a lot easier.@nThis club is growing, and I'm eager to see what comes next.",
+      "deepl_comparison": "A megaphone thrown into the stands. @n I’m sorry to the opposing team’s fans filling the stadium, but we have no intention of losing either. The team was able to play a composed game even on the road, giving the opponent no opening to exploit.@f It makes coaching so much easier when the players perform with such composure, even on the road. @n I’ve gained solid confidence in the team’s growth, and I’m looking forward to our future games even more.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        18
+      ],
+      "source": "どんなに万全を期してもきちっと役割を果たすということは決して容易なことではない。@nだが@v@t@vはその期待にこたえて堂々たるピッチングをしてくれた。@fどんな過程であれ、「勝つこと」こそが最大の成果。@nそれができる選手だからこそかれはわがチームの「柱」足りえる投手なのだと言えるのではないだろうか。@n次も頼んだ、@v@t@v！",
+      "english": "Even with perfect preparation, carrying out a game plan takes poise.@n@v@t@v gave us exactly the outing we needed.@fHowever you get there, the win is what matters most.@nThat's why we count on that pitcher to anchor our staff.@nWe'll be counting on you next time, @v@t@v!",
+      "deepl_comparison": "No matter how thoroughly you prepare, fulfilling your role to the letter is never an easy task. @n But @v@t@v lived up to those expectations and delivered a commanding pitching performance. @f No matter the process, “winning” is the ultimate achievement. @n Isn’t it precisely because he is a player capable of doing that that he can be called the pitcher who serves as the “pillar” of our team?@n Count on you next time too, @v@t@v!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        19
+      ],
+      "source": "「よしっ！」試合終了と同時にベンチに笑みがこぼれた。@n初回から全力で投げきることで相手に気迫で勝っていた。@n「後ろが抑えてくれるという信頼があるからこそペースを考えず全力で投げることができた」という。@f投手陣の信頼関係がしっかりと気付かれていると再確認した。@nともあれ、この一戦をものにしたのは大きい！",
+      "english": "\"That's it!\" The dugout erupted at the final out.@nOur starter went all out from the first inning and set the tone.@n\"I could pitch that way because I knew the bullpen had my back.\"@fThat tells me how much trust there is among our pitchers.@nThis was a big game to win.",
+      "deepl_comparison": "“All right!” Smiles broke out on the bench the moment the game ended. @n By pitching at full force from the very first inning, they had outmatched the opponent with sheer determination.@n “It’s precisely because I trust the guys behind me to hold them down that I was able to pitch at full force without worrying about my pace,” he said. @f It reaffirmed that the bond of trust within the pitching staff is firmly established. @n In any case, winning this game is a huge deal!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        20
+      ],
+      "source": "気持ちが前に出ていた。今までの思いを振り切るかのように。@n@v@t@vのバットがやっと火を噴いた。@n私もつい彼の様子を見かね、試合前に激励がてら声を掛けていたのだが、見事にスランプ脱出だ。@f「監督の言葉で大分楽になった」と言ってくれるが、結局のところ乗り越えるのは自分自身なのだ。@n彼の復活でチームはますます加速してゆく！",
+      "english": "You could see the frustration turning into determination.@n@v@t@v finally got hot at the plate.@nI'd offered a few words before the game, and it was good to see that slump end.@f\"The manager's words took some pressure off,\" our player said. Ultimately, the work was theirs.@nNow the team has even more momentum.",
+      "deepl_comparison": "He was playing with a renewed sense of determination, as if shaking off all his past frustrations. @n@v@t@v’s bat finally came alive. @nI, too, couldn’t help but notice his struggles, so I spoke to him before the game to offer some encouragement—and he’s made a spectacular comeback from his slump.@f “The manager’s words really helped me relax,” he told me, but in the end, it’s up to him to overcome it. @n With his comeback, the team is gaining even more momentum!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        21
+      ],
+      "source": "チームの快勝に微笑むファンたち。@n次のホームゲームの飲食品は相当安くなりそうで、観客動員も期待できそうだ。それも嬉しいことだが、選手たちにとっても今回のキャンペーンは励みになったようで、連勝のきっかけになったとまでいうものもいた。@fマスコミは「新たなファンサービスの形」と取り上げ、球団も鼻が高いようだ。ともあれ、勢いにのるチームの面々には、もはや優勝の二文字しか見えていないようだ。",
+      "english": "The fans went home happy after a big win.@nFood and drinks should be cheap at our next home game, and a big crowd is expected. Some players say the promotion helped spark the streak.@fThe press praised the idea, and the front office is pleased. The players can only see one thing ahead now: a title.",
+      "deepl_comparison": "Fans are smiling at their team’s resounding victory. @n Food and drinks at the next home game are likely to be significantly cheaper, and attendance is expected to be high. While that’s certainly good news, this campaign also seems to have been a source of encouragement for the players—some even say it sparked their winning streak.@f The media has highlighted this as “a new form of fan service,” and the team seems quite proud of it. In any case, with the team riding this wave of momentum, it seems the players have their sights set solely on the championship.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        22
+      ],
+      "source": "子供たちの張り上げる声に、選手たちはやはり勇気付けられるものらしい。@n彼らの夢を乗せた打球はスタンドへアーチを掛けた。@nその瞬間、歓喜の声に包まれるスタンド。@nホームランはやはり野球の醍醐味の一つだ。@f彼らの打ち上げた大きな花火は少年たちの目を大いに楽しませたに違いない。@nこのホームランを目撃した子供たちの中から明日のホームラン王が生まれるかもしれない。",
+      "english": "The kids' cheers gave the players a lift.@nThe ball arced into the stands carrying their hopes with it.@nThe crowd erupted.@nThere's nothing quite like a home run.@fThe fireworks made their day.@nMaybe one of those kids will grow up to win a home run title of their own.",
+      "deepl_comparison": "It seems the players are indeed encouraged by the children’s cheers. @n The ball, carrying their dreams, arced into the stands. @n At that moment, the stands were filled with cries of joy. @n A home run is truly one of the greatest thrills of baseball.@f The huge fireworks they set off must have been a real treat for the boys’ eyes.@n Perhaps tomorrow’s home run king will emerge from among the children who witnessed this home run.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        23
+      ],
+      "source": "派手なセレモニー。@n本日をもって昨季の観客動員をついに突破。@n球団は盛大なセレモニーでこれを祝った。@nチームもそれに恥じない成績を残せ、チームの面々もほっとしているようだ。@f素晴らしいファンに囲まれて幸せなチーム。@nならば次は我々が日本一になることでファンたちの気持ちに報いたいと思う。@nチームの気持ちを一つに、そして狙うは頂点だ！",
+      "english": "The club put on quite a ceremony.@nToday we passed last season's attendance total.@nThe front office marked it in style.@nThe players were glad to give those fans results worth celebrating.@fWe're lucky to have this kind of support.@nNow let's repay it by winning the Japan Series.@nThe whole team is aiming for the top.",
+      "deepl_comparison": "A spectacular ceremony. @nAs of today, we’ve finally surpassed last season’s attendance figures. @nThe team celebrated this with a grand ceremony.@nThe team has performed well enough to live up to the occasion, and the players seem relieved. @fA happy team surrounded by wonderful fans. @nSo next, we want to repay our fans’ support by becoming the champions of Japan. @nWith the team united as one, we’re aiming for the top!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        24
+      ],
+      "source": "急に視界がパッと開けたかのようだ。@n選手たちの表情に笑顔が浮かんだ。@fここ数日は試合前に、選手たち一人一人に声を掛けることを心がけ、わずかでも負担を取ることができればと配慮してきたが、結果が実を結ぶとこれほど嬉しいことはない。@f「ベンチに一体感が出てきた気がしますよ」とはヘッドコーチの談。@nチームに勢いがついてきたのを感じる。@nめざすはさらに上！",
+      "english": "It felt as if the clouds had lifted.@nThe players were smiling again.@fI've tried to check in with each player before games over the past few days. It's good to see some of that pressure come off.@f\"The dugout feels more united,\" the bench coach said.@nThe team is building momentum.@nLet's aim higher.",
+      "deepl_comparison": "It was as if my vision had suddenly cleared. @n Smiles appeared on the players’ faces. @f Over the past few days, I’ve made a point of speaking with each player before games, hoping to ease their burden even just a little—and there’s nothing more rewarding than seeing those efforts pay off.@f “I feel like there’s a real sense of unity on the bench now,” said the head coach. @n I can feel the team gaining momentum. @n We’re aiming even higher!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        109
+      ],
+      "source": "個人個人が団結心を持ち合わせているチームであれば、相乗効果も生まれる。@n団体競技において１＋１は２ではないということを私も改めて感じさせられた。@v@t@vはチームのためにできることを考えてくれている。元々個人としても素晴らしい選手であるだけに、この意識改革は大きい。@f彼は周りからの信頼の厚い素晴らしい選手となるだろう。",
+      "english": "Good teammates make one another better.@nThis was a reminder that a team can be more than the sum of its parts. @v@t@v is thinking about how to help the club. That's a big step for an already talented player.@fThat kind of attitude earns the trust of everyone in the dugout.",
+      "deepl_comparison": "If every individual on a team possesses a sense of unity, it creates a synergistic effect. @n I was reminded once again that in team sports, 1 + 1 does not equal 2.@v@t@v is thinking about what he can do for the team. Given that he’s already a fantastic player in his own right, this shift in mindset is significant. @f He’s sure to become a wonderful player who commands the deep trust of those around him.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        110
+      ],
+      "source": "@v@t@vは声を上げ積極的に練習に参加している。@n試合に出場し結果を残すことで、プロとしての誇りを取り戻してくれたようだ。周囲の心配をよそに、結果を残し続けた。@f結果は元より、真面目な性格でチームになじもうと努力する様子が好感を持て、選手の間での評判も上々だ。@n球団フロントは胸を張りながら「まだまだ優良助っ人を探索中でリストアップしてある」と微笑む。@f優勝に向け一丸となって闘い続けているのは現場だけではないことを改めて実感した。",
+      "english": "@v@t@v is speaking up and throwing more energy into practice.@nGame time and good results brought back that professional pride.@fThe clubhouse appreciates the way our player has worked to fit in and kept producing.@nThe front office is still scouting foreign players and has a shortlist.@fEveryone is doing their part to build a contender.",
+      "deepl_comparison": "@v@t@v is speaking up and actively participating in practice. @n By playing in games and delivering results, he seems to have regained his pride as a professional. Despite the concerns of those around him, he continued to produce results.@f Aside from his results, his earnest personality and efforts to fit in with the team have earned him a favorable impression, and his reputation among the players is excellent. @n The team’s front office smiles with pride, saying, “We’re still on the lookout for top-notch foreign players and have a list of candidates.”@f It has once again become clear that it’s not just the players on the field who are fighting as one toward the championship.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        111
+      ],
+      "source": "ここのところは特に悪い噂を聞くこともなくチームもうまく回っている。@n@v@t@vも試合に出場し、チームのために貢献できたことで不満は解消されたようだ。@n起用されようとされまいと、選手個人にある役割というものがある。@f今回のことで、それを伝える難しさを再認識させられた。@nこれからはこちらからも積極的に選手と話し合いの場を設けていきたいと思う。",
+      "english": "Things have settled down in the clubhouse.@n@v@t@v got into a game, helped the team, and seems satisfied again.@nEvery player has a role, even when they're out of the lineup.@fThis reminded me how hard it can be to communicate that.@nI'll make more time to talk with the players.",
+      "deepl_comparison": "Lately, there haven’t been any particularly bad rumors, and the team has been running smoothly.@n@v@t@v also played in the game, and it seems his dissatisfaction has been resolved now that he was able to contribute to the team. @n Whether a player is selected to play or not, each player has a specific role to fulfill. @f This incident has made me realize once again how difficult it is to convey that. @n From now on, I want to take the initiative in creating opportunities for dialogue with the players.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        112
+      ],
+      "source": "@v@t@v不在の状況で、選手たちは見事その代役を果たしてくれている。@n@v@t@vの回復も良好で思っていた以上に早く復帰できそうだ。@f長いペナントレース、これからもチームがこのような状況になることがあるだろう。@n多少無理をしてでも試合に出場する必要もあるかもしれないが、こういったことのできるチームこそ真に強いチームと言えるのではないだろうか。",
+      "english": "The players have done a fine job filling in for @v@t@v.@n@v@t@v is recovering well and may return sooner than expected.@fWe'll face situations like this again in a long season.@nSometimes a player has to push through. A strong club can also cover for someone who needs time to recover.",
+      "deepl_comparison": "@v@t@v While @v@t@v is out, the players are doing a great job filling in for him. @n@v@t@v is recovering well and looks set to return sooner than expected.@f With the pennant race still long ahead, the team will likely face situations like this again. @n There may be times when players need to push themselves a bit to play, but isn’t a team capable of handling such situations the true measure of a strong team?",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        113
+      ],
+      "source": "最近の@v@t@vの成長ぶりには驚かされるばかりだ。@nここ数日の試合でも、こちらが期待していた以上の結果を出してくれた。@n彼は間違いなく、近い将来わがチームの主力として活躍してくれることだろう。いや、もうすでに主力級の評価は与えてもよいかもしれない。",
+      "english": "@v@t@v has been improving at a remarkable pace.@nThe last few games have gone even better than I'd hoped.@nThis player will be a big part of our team soon. In fact, that time might already be here.",
+      "deepl_comparison": "I’m constantly amazed by @v@t@v’s recent growth. @nEven in the games over the past few days, he’s delivered results that exceeded our expectations. @nHe will undoubtedly play a key role on our team in the near future. In fact, it might already be fair to consider him a key player.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        114
+      ],
+      "source": "スタメンであれ、途中出場であったとしてもきちんと仕事を果たす。@nこれぞまさにベテランの技。@n若手にとってこれほど良い教材はないだろう。@nこれからも多くのことを彼から学んでいってもらいたいと思う。",
+      "english": "A start or a chance off the bench makes no difference. The job gets done either way.@nThat's what a veteran brings to a team.@nThe younger players couldn't ask for a better example.@nI hope they keep paying attention.",
+      "deepl_comparison": "Whether he’s in the starting lineup or comes off the bench, he always gets the job done. @n That’s exactly what you’d expect from a veteran. @n There’s probably no better example for the younger players to learn from. @n I hope they continue to learn a lot from him.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        115
+      ],
+      "source": "@v@t@vは、私が教えたことを自分なりにアレンジしながらうまく吸収してくれている。@n私の教えなどなくとも彼は大成していたのではないかとも思ったが、「あの教えがあったから自分は成長できたのだ」と彼は言う。@fやはり私の目に狂いはなかった。@n今後も微力ながら次代の中心選手達に私のこれまで培ってきた技術や経験を伝えていきたいと思う。",
+      "english": "@v@t@v has made my advice work in their own way.@nI thought this player would have made it without me, but they insist those lessons made a difference.@fI guess my eye for talent still serves me.@nI'll keep passing on what I've learned to the next generation.",
+      "deepl_comparison": "@v@t@v has successfully absorbed what I taught him, adapting it to his own style. @n I wondered if he might have achieved great success even without my guidance, but he says, “It was because of that guidance that I was able to grow.” @f It seems my judgment was correct after all.@nGoing forward, I hope to continue passing on the skills and experience I’ve cultivated over the years to the next generation of star players, even if only in a small way.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "success_story",
+      "events": [
+        116
+      ],
+      "source": "日本を飛び越えアジア最強へ。@nアジアの強豪が集まったレベルの高い大会で、わがチームは日本代表として立派にその大役を果たしたといえよう。@nこの大会は今後のわがチームにとって大きな経験になった。@f来シーズンも再びこの舞台に立ち、やがては世界から注目されるチームとなる。@n新たな目標に向けての一歩を踏み出すことにしよう。",
+      "english": "From the best in Japan to the best in Asia.@nWe represented Japan well in a tournament full of strong teams.@nThis experience will stay with the club.@fNext year we'll try to get back here and make a name for ourselves around the world.@nThat's our next goal.",
+      "deepl_comparison": "Beyond Japan, toward becoming the strongest in Asia. @nIn this high-level tournament featuring Asia’s top teams, our team can be said to have admirably fulfilled its important role as the Japanese national team. @nThis tournament was a valuable experience for our team moving forward.@f We’ll return to this stage next season and eventually become a team that attracts global attention.@n Let’s take the first step toward our new goal.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        1,
+        2
+      ],
+      "source": "「お疲れさま。」沈痛な表情でうつむくナインにねぎらいの言葉をかける。@n選手たちは年間を通じて本当によくやってくれたと思う。@n年間を通じて闘う力は充分にあった。@n夢をつかむにはほんのあと僅かのところ。@f来年に向けて大きな宿題を残したが、彼らのプレイに恥じるところは決してなかった。@n@nこの悔しさは来年こそ必ず晴らす…！",
+      "english": "\"You gave it everything,\" I told the players as they stared at the floor.@nThey had done a fine job all year.@nThey proved they could contend over a full season.@nWe came so close to what we'd dreamed of.@fThere's work to do for next year, and every player can be proud of the way we played.@n@nNext year we'll make this hurt count.",
+      "deepl_comparison": "“Good job.” I offer words of encouragement to the team, who are looking down with somber expressions. @n I think the players really did a great job throughout the year. @n They had more than enough fighting spirit to last the entire season. @n They were just a hair’s breadth away from grabbing their dream. @f Although we’ve been left with a major challenge to tackle for next year, there was absolutely nothing to be ashamed of in their play.@n@nWe will definitely make up for this disappointment next year…!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        3
+      ],
+      "source": "何一つ恥じるところはない。@nリーグの王者として堂々とした闘いぶりだったと胸をはれる。@nただ相手も同じ実力をもった王者、僅かな差での敗北としかいいようがない。@f「よくやったぞ～！」というファンの声を決して卑屈にならずにかみ締めながら聞き入っていた。@n振り返る暇は無い、明日からすぐにだ。@n真の王者の称号をつかむための再スタートは。",
+      "english": "We can hold our heads high.@nWe played like league champions.@nSo did they, and the margin was small.@f\"Great season!\" the fans called. I took a moment to listen and let it sink in.@nTomorrow we start again.@nWe'll work to earn the title that eluded us.",
+      "deepl_comparison": "There’s nothing to be ashamed of. @n As the league champions, we can hold our heads high knowing we fought with dignity. @n However, our opponent was a champion of equal caliber—there’s no other way to describe it than a narrow defeat.@f I listened intently to the fans’ cheers of “Great job!” without ever letting it make me feel inferior.@n There’s no time to look back—it starts right away tomorrow.@n A fresh start to claim the title of true champion.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        4
+      ],
+      "source": "前半戦を終え、ひとまずチームはひとときの休みに入ることとなった。@n前半最終対決は残念ながら負け越してしまったが、選手たちの奮起は決して恥じることのないものだっただろう。@f選手たちにはしばらく体を休めてもらい、後半戦に備えて欲しいものだ。@nもっとも、本当のスターたちには休みなどないのだが。",
+      "english": "The first half is over, and the team gets a short break.@nWe lost the last series, but the players can be proud of the way they fought.@fThey should take some time to rest before the second half.@nOf course, the stars don't get much of a break.",
+      "deepl_comparison": "With the first half of the season over, the team is now taking a brief break. @n Unfortunately, we ended up with more losses than wins in the final series of the first half, but the players’ fighting spirit was certainly nothing to be ashamed of. @f I hope the players will take some time to rest and prepare for the second half of the season. @n Of course, true stars never really get a break.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        5
+      ],
+      "source": "夢舞台を終え@v@t@vは満足げな笑顔を見せていた。@nレギュラーシーズンと違った中でのプレイは、彼にとってもいい刺激になっただろう。@nともあれ怪我なく終えてくれて何よりだ。@f後半戦がまもなく始まる。@nまた過酷な日々は続くだろうが、@v@t@vをはじめとしたメンバーがチームを引っ張っていくことで、大きな目標をつかめるに違いないだろう。",
+      "english": "When the All-Star Game ended, @v@t@v looked pleased.@nPlaying outside the regular-season routine was a good experience.@nI'm just glad our player came through healthy.@fThe second half is almost here.@nIt'll be a grind, but with players like @v@t@v leading the way, the goal is still in reach.",
+      "deepl_comparison": "After the big game, @v@t@v had a satisfied smile on his face. @n Playing in a different environment than the regular season must have been a good challenge for him. @n In any case, it’s a relief that he finished the game without any injuries.@f The second half of the season is about to begin.@n Although the grueling days will continue, with @v@t@v and the rest of the team leading the way, there’s no doubt they’ll be able to achieve their big goals.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        6
+      ],
+      "source": "試合終了と同時にため息の漏れるベンチ。@n「まだ始まったばかりだ」と自分に言い聞かせるように、そしてベンチの重い空気を吹き飛ばすように言う。@fそう、今日のつまづきは決して無駄なものでは無かったはずだ。悪い面は早く出たほうが良い。@n何のことはない。@n借りを返すチャンスはまだまだあるのだから。",
+      "english": "The dugout let out a long sigh at the final out.@n\"It's only one game,\" I said, as much for myself as for the players.@fThere was something to learn from today's loss. Better to see what needs work now.@nThe season is just beginning.@nWe'll have plenty of chances to even the score.",
+      "deepl_comparison": "As the game ended, sighs escaped from the bench.@n “It’s only just begun,” he says, as if to convince himself—and to dispel the heavy atmosphere on the bench. @f That’s right; today’s setback certainly wasn’t a waste. It’s better to get the bad stuff out of the way early. @n It’s no big deal. @n There are still plenty of chances to make it up.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        7
+      ],
+      "source": "負け越しはした。しかしウチのメンバーはそんなことで苦手意識をもつほどヤワではなかったようだ。@nチームの雰囲気は依然明るく、決して沈んだ様子は見られない。@n負け越したことで多少の疲労感はあるが…。@f外に出ると舞い散る桜。@nもう春も終わりを告げようとしている。@n桜と共に悪いゲンは散ってほしいものだ。",
+      "english": "We lost the series, and our players aren't the sort to let that get into their heads.@nThe clubhouse is still upbeat.@nIt took something out of us, though.@fOutside, the cherry blossoms were falling.@nSpring is nearly over.@nI hope our bad luck goes with the blossoms.",
+      "deepl_comparison": "We ended up with more losses than wins. However, it seems our players weren’t so fragile that they’d let that get to them. @n The team’s atmosphere remains upbeat; there’s absolutely no sign of gloom. @n We’re feeling a bit tired from the losing streak, though…@f When I step outside, cherry blossoms are fluttering in the breeze. @n Spring is already coming to an end. @n I hope the bad luck will scatter along with the cherry blossoms.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        8
+      ],
+      "source": "周囲のプレッシャーはときとして残酷だ。@n@v@t@vはあの記事以来、度重なる特打を続け、周囲を見返そうと努力を続けていたが、残念なことにまだ評判をくつがえす結果は残せてはいない。@f彼が私に挑みかかるようなまなざしを向けていたのを思いだす。@nだがこの反骨心があれば、彼は又必ず這い上がってくるに違いない。@nまだ少しの時間はかかるかもしれないが。",
+      "english": "Outside pressure can be cruel.@nSince the article, @v@t@v has taken extra batting practice again and again. The results haven't changed the headlines yet.@fI remember the defiant look our player gave me.@nWith that kind of fight, I'm sure the turnaround will come.@nIt might take a little time.",
+      "deepl_comparison": "The pressure from those around him can be cruel at times. Since that article, @n@v@t@v has been enduring repeated extra batting practice sessions, striving to prove everyone wrong, but unfortunately, he has yet to produce results that would overturn his reputation.@f I remember how he looked at me with a defiant gaze. @n But with that fighting spirit, he’s bound to bounce back. @n It might take a little while, though.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        9
+      ],
+      "source": "意識の改革というものはなかなか難しいものだ。@nどうも選手たちの反応を見ると今回行なったトレーニング方法はいまいちピンとこないものが今のところ多いようだ。@fもっともこういったトレーニングというのはそう簡単に効果が出るものではないかとも思う。@nこれに懲りず新しいアイディアはどんどん出してほしいものだが。",
+      "english": "Changing habits is hard.@nMost of the players haven't taken to this new routine yet.@fTraining like this rarely pays off right away.@nI hope they'll keep coming to us with new ideas.",
+      "deepl_comparison": "Changing mindsets is quite a difficult task. @n Judging by the players’ reactions, it seems that many of the training methods we’ve implemented this time haven’t really clicked with them yet. @f Then again, I suspect that this kind of training isn’t the sort of thing that yields results overnight. @n I hope they won’t let this discourage them and will continue to come up with new ideas.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        10
+      ],
+      "source": "死力を尽くした両軍の選手たちのプレイ。@n間違いなくこの素晴らしいプレイを見た子供たちには何か伝わるものがあったはずだ。願わくばこのスタジアムに来た子供たちの中から次代のプロ野球を作りえるような選手たちが生まれてほしい。@fその彼らが、わがチームのユニフォームで戦ってくれるようなことになれば、チームにも光明がさすのだろうが。@nともあれわれわれは今を勝ち抜かねばならない！",
+      "english": "Both teams gave everything they had.@nI'm sure the kids who saw that game took something away from it. I hope some of them will help shape the next generation of pro baseball.@fAnd it would be even better if one day they did it in our uniform.@nFor now, we've got games to win.",
+      "deepl_comparison": "The players from both teams gave it their all. @n There’s no doubt that this spectacular play left a lasting impression on the children who witnessed it. I hope that among the children who came to this stadium, there will be players who can shape the future of professional baseball.@fIf those players were to compete in our team’s uniform, it would surely bring a ray of hope to our team. @nIn any case, we must win this game!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        11
+      ],
+      "source": "ふがいない試合結果が続いたためか、本社からは「もう少し何とかならんのかね」と、援助に消極的な旨が伝えられた。@f正直ピッチャーの台所事情が苦しいからこその、フロント判断の補強提案なのだが、本社のお偉方には「優勝の狙えないチームへの投資は無駄」という判断になっているようだ。@f結果が出ていないこちらとしては言い返す言葉もないが、悔しいことに変わりはない。@n今に見ていろと心に誓う…！",
+      "english": "After a string of poor games, ownership made it clear they weren't eager to help. \"Can't you do a little better?\"@fThe front office wants help for a struggling pitching staff, but ownership doesn't see a contender worth investing in.@fIt's hard to argue with our results. It still stings.@nWe'll show them.",
+      "deepl_comparison": "Perhaps due to a string of disappointing game results, headquarters conveyed their reluctance to provide support, asking, “Can’t you do something about this?”@f To be honest, the front office’s proposal to strengthen the team was made precisely because the pitching staff is in such dire straits, but it seems the bigwigs at headquarters have decided that “investing in a team that can’t compete for the championship is a waste.” @f Since we haven’t been producing results, I have no comeback, but that doesn’t change how frustrating it is. @n I vow to myself: Just you wait and see…!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        12
+      ],
+      "source": "異なる言葉、異なるストライクゾーン。@n@v@t@vは思うように結果が出ず、ナーバスになっているようだ。@n正直今の段階で日本の野球に適応しているとは言いがたい。@n球団フロントも補強を強行した手前、少々肩身が狭いようだ。@fともあれわれわれは与えられた戦力で結果を出すしかない…",
+      "english": "A different language and a different strike zone.@n@v@t@v is tense after struggling to produce.@nAdjusting to Japanese baseball is taking time.@nThe front office is feeling the pressure after pushing for the signing.@fWe've got to find a way to win with the players we have.",
+      "deepl_comparison": "Different language, different strike zone. @n@v@t@v isn’t getting the results he wants and seems to be getting nervous. @n Honestly, it’s hard to say he’s adapted to Japanese baseball at this stage.@nThe team’s front office also seems to be feeling a bit under pressure, having pushed through the player acquisitions. @fIn any case, we have no choice but to produce results with the roster we’ve been given…",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        13
+      ],
+      "source": "@v@t@vは全力でプレイを行なうも、その自分のプレイ結果がもろに態度に出てしまうようだ。@n自分のふがいなさに腹が立つのだろう。責任感が強いゆえだが、あまりチームに良い影響を与えているとはいいがたい。@fやはりチームを引っ張って行くには精神的に強い部分というのは必要になってくる。@n彼がチームを引っ張って行ける精神の強さを身に付けるには今少し時間が掛かりそうだ。",
+      "english": "@v@t@v gives everything, and everyone can see the frustration when things go wrong.@nThat comes from feeling responsible, but it hasn't helped the mood in the dugout.@fLeading a team takes composure under pressure.@nThat part of our player's game needs time to develop.",
+      "deepl_comparison": "@v@t@v plays with all his might, but the results of his performance seem to show directly in his attitude.@n He’s probably frustrated with his own shortcomings. While this stems from his strong sense of responsibility, it’s hard to say it’s having a positive effect on the team. @f After all, mental toughness is essential for leading a team. @n It looks like it will take him a little more time to develop the mental toughness needed to lead the team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        14
+      ],
+      "source": "何とか休ませてやりたかったリリーフ陣だが戦況を考えればやむを得ない。@n今しばらくの犠牲を彼らには強いてもらうしかあるまい。@nチームは助け合うもの。今はリリーフ陣に奮起を願うしかないが、いずれ先発が立ち直るときもくるだろう。@fその日までわがチームの鉄腕たちの休日は延びることになりそうだ。",
+      "english": "I wanted to give the bullpen a break, but the game didn't allow it.@nWe'll have to ask a little more of them for now.@nTeammates help each other. The relievers can carry us until the starters get back on track.@fUntil then, those arms will have to wait for a day off.",
+      "deepl_comparison": "I really wanted to give the relief pitchers a break, but given the state of the game, it can’t be helped. @n I suppose we’ll just have to ask them to make this sacrifice for a little while longer. @n A team is all about helping each other out. For now, all we can do is hope the relief pitchers step up, but eventually, the starters will bounce back too.@f Until that day comes, it looks like the days off for our team’s iron-armed pitchers will be put on hold.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        15
+      ],
+      "source": "@v@t@vは今日も動きの鈍くなった体にムチ打って出場を続けている。@nやはり彼の存在は今のチームには欠かせないのだ。@fとはいえ疲労の色濃い彼のパンクは時間の問題かもしれない。@n戦況を考えた上でいずれは休ませてやりたいものだが。",
+      "english": "@v@t@v is playing through heavy legs again today.@nWe need that player right now.@fAt this level of fatigue, something may give before long.@nI want to find a chance to rest our player when the game situation allows it.",
+      "deepl_comparison": "@v@t@v is still pushing himself to play today, despite his body feeling sluggish. @n His presence is indeed indispensable to the team right now. @f That said, given how exhausted he looks, it might only be a matter of time before he burns out. @n Considering the state of the game, I’d like to give him a rest eventually.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        16
+      ],
+      "source": "結局のところなんでも詰め込みすぎというのはあまりよくないのだろうか。@n少々考えすぎなのか、投手たちがマウンドで首をかしげる場面が増えた印象がある。@n決して成果が上がっていない訳ではないとは思うのだが。@fともあれ結果を急ぎすぎても、身につくものも身につかなくなる。@n長い目で結果がでることを期待しよう。",
+      "english": "Maybe we've given the pitchers too much to think about.@nI've seen more of them look puzzled on the mound lately.@nThat doesn't mean the work has been wasted.@fRushing for results can get in the way of learning.@nWe'll give it time.",
+      "deepl_comparison": "In the end, maybe trying to cram too much into everything isn’t such a good idea after all. @n Maybe I’m overthinking it, but I get the impression there have been more instances of pitchers tilting their heads in confusion on the mound. @n I don’t think it’s as if they’re not seeing any results at all, though. @f In any case, if you rush for results too much, you won’t be able to truly master what you’re learning. @n Let’s hope for results in the long run.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        17
+      ],
+      "source": "スタンドに響く相手チームの応援歌。@n悔しさを胸に秘め、そのメロディーに聞き入るチームの面々。@nそう、悔しいと思うその気持ちがあればまだ立ち上がることはできるはずだ。@fならば、今の悔しさを次の力と替えよう。@nペナントレースはまだ終わっていない！@nならば次の対決では勝利をつかむのみ！",
+      "english": "The home team's fight song rang through the stands.@nOur players listened and kept their frustration to themselves.@nAs long as it still bothers us, we can bounce back.@fUse that frustration next time.@nThe pennant race is still going.@nLet's win the next series.",
+      "deepl_comparison": "The opposing team’s cheering song echoes through the stands. @n With frustration simmering inside, the team members listen intently to the melody. @n Yes, as long as they hold onto that feeling of frustration, they should still be able to get back on their feet. @f So, let’s turn this frustration into strength for the next challenge.@nThe pennant race isn’t over yet!@nSo in the next matchup, we must seize victory!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        18
+      ],
+      "source": "どんなに万全を期してもきちっと役割を果たすと言うことは決して容易なことではない。@n今回は彼はその期待に完全に沿うことはできなかったかもしれないが、まだペナントレースは終わった訳ではない。@f悔しさは次への成長の糧となるに違いない。@n先発の柱たる彼の活躍無くして、優勝の二文字は決して見えてこない。@n次回こそは頼むぞ@v@t@v！",
+      "english": "Even with good preparation, it's hard to deliver the outing everyone expects.@nThis one didn't go as planned, and there's still plenty of season left.@fThat frustration can help the starter grow.@nWe'll need our rotation's anchor to contend.@nWe're counting on you next time, @v@t@v.",
+      "deepl_comparison": "No matter how thoroughly you prepare, it’s never easy to fulfill your role perfectly. @nHe may not have fully lived up to expectations this time, but the pennant race isn’t over yet. @fThis disappointment will surely serve as fuel for his growth moving forward.@nWithout his strong performance as a pillar of the starting rotation, the prospect of a championship will never come into view. @nI’m counting on you next time, @v@t@v!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        19
+      ],
+      "source": "大きな一戦を落とすとどっと疲れがくる。@n先発が初回から飛ばしていただけに、しっかりとゲームを作っていきたかったのだが…。@nせめて引きずらず、切り替えて次のゲームに望むしかない。@f選手たちに悲壮感はない。@n彼らの士気がくじかれない限り優勝の可能性は残されている。@nまだペナントレースは終わってはいない！",
+      "english": "Losing a big game takes the wind out of you.@nOur starter went all out from the first inning, and I wanted us to build on it.@nWe've got to put it behind us and get ready for the next one.@fThe players haven't lost heart.@nAs long as they keep fighting, we're still in contention.@nThe pennant race isn't over.",
+      "deepl_comparison": "Losing a big game really takes a toll. @nSince our starting pitcher was on fire right from the first inning, I really wanted to build a solid game around that… @nAt the very least, we can’t let this drag us down—we just have to shake it off and focus on the next game.@f The players don’t seem downhearted.@n As long as their morale remains high, we still have a chance to win the championship.@n The pennant race isn’t over yet!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        20
+      ],
+      "source": "その思い悩む様子が歯がゆい。@nプロの選手は、不調に陥ったとき、最後は自分で乗り越えなければならない。@nそうしなければ次に同じ不調に出会ったとき結局また困ることになるからだ。@fだが、彼は深く考えすぎるあまりフォームを完全に崩してしまっていた。@nこうなると回りのアドバイスも聞こえなくなり、さらに悪循環に陥るものだ。@n彼の復活には、まだ時間がかかりそうだ。",
+      "english": "It's hard to watch a player worry this much.@nA pro has to find a way through a slump.@nThat's how you learn to handle the next one.@fOverthinking has thrown the whole swing off.@nWhen that happens, advice can be hard to hear and the slump feeds itself.@nThis comeback may take a while.",
+      "deepl_comparison": "It’s frustrating to see him so troubled. @nWhen professional players hit a slump, they ultimately have to overcome it on their own. @nIf they don’t, they’ll end up struggling again the next time they face the same slump. @fHowever, he had overthought things so much that his form had completely fallen apart.@nWhen this happens, they stop hearing the advice of those around them and fall into an even worse vicious cycle.@nIt looks like it will still take some time for him to bounce back.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        21
+      ],
+      "source": "そうそう結果は出続けるものではないが、球団と一丸になったキャンペーンだっただけに、ファンたちに申し訳ないという思いが選手たちにもあったようだ。@nだれからともなく、試合後ファンサービスにとペンを走らせるものが増え、いつのまにかちょっとしたサイン会のような様相となった。@fファンサービスとは結局のところ選手一人一人の意識のあらわれこそが重要なのだと思う。@nいいさ、再び連勝スタートをめざすのみ！",
+      "english": "A streak can't last forever, but the players felt they'd let fans down after taking part in the promotion.@nAfter the game, more and more players started signing autographs until it turned into an impromptu signing session.@fGiving back starts with what each player does for the fans.@nNow let's start another streak.",
+      "deepl_comparison": "That’s right—results don’t come consistently, but since this was a campaign where the team and the organization were united as one, it seems the players also felt a sense of regret toward the fans. @n Without anyone initiating it, more and more players began signing autographs as a gesture of fan service after the game, and before we knew it, it had turned into something resembling a small autograph session.@f I think that, when it comes down to it, what’s most important about fan service is the attitude of each individual player. @n That’s okay—we’ll just aim to start another winning streak!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        22
+      ],
+      "source": "「あ～…」歓喜の声がため息に。@n簡単にホームランなど打てるものではない。@nそれでも期待にこたえたい選手たち。@nだが、選手たちはいつもより余計に力が入っているのかバットが空を切った。@fだが彼らのプロとして全力を尽くしたプレイは、子供たちの心を打ったに違いない。@n選手たちには胸を張ってほしい。@nそして明日からも子供たちを感動させるプレイをしてほしいものだ。",
+      "english": "The cheering turned to a sigh.@nHome runs aren't easy to come by.@nThe players wanted to give the kids what they came for.@nMaybe they pressed too hard. Their bats kept missing.@fThose kids still saw professionals giving their all.@nThe players can be proud of that.@nGive them something to remember again tomorrow.",
+      "deepl_comparison": "“Ah…” A cry of joy turned into a sigh. @n Hitting a home run isn’t something you can just do easily. @n Still, the players wanted to live up to expectations. @n But perhaps because they were trying harder than usual, their bats swung through the air. @f Yet their play—giving it their all as professionals—must have touched the hearts of the children.@nI want the players to hold their heads high.@nAnd I hope they’ll continue to play in a way that moves the children, starting tomorrow.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        23
+      ],
+      "source": "派手なセレモニー。@n本日をもって昨季の観客動員をついに突破。@n球団は盛大なセレモニーでこれを祝った。だがチームはこの間ふるわず、ファンの暖かい声援に充分にこたえることはできなかった。@f素晴らしいファンに囲まれて幸せなチーム。@nだからこそ、それを裏切ってはなるまい。チームを建て直し、新たに出直しだ。@nそしてシーズンが終わったとき、ファンたちには歓喜の声を上げさせてあげたいものだ。",
+      "english": "The club put on quite a ceremony.@nWe passed last year's attendance total today.@nThe front office celebrated in style. Our recent play hasn't rewarded that kind of support.@fWe're lucky to have these fans.@nWe owe them better. It's time to regroup.@nLet's give them a reason to cheer when the season ends.",
+      "deepl_comparison": "A spectacular ceremony. @nAs of today, we’ve finally surpassed last season’s attendance figures. @nThe club celebrated this with a grand ceremony. However, the team has been struggling lately and hasn’t been able to fully live up to the fans’ warm support.@f A team blessed to be surrounded by wonderful fans.@n That is precisely why we must not let them down. We need to rebuild the team and start anew.@n And when the season ends, we want to make sure the fans can cheer with joy.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        24
+      ],
+      "source": "例え今は長いトンネルの中だとしても、いつかは抜けだせるはずだ。@nだが、現実はまだチームは浮上の様相が見えてこず、かなり苦しい状況が続いている。@f選手の表情が硬い。@n首脳陣のアドバイスも耳に入りにくい状態になっているようだ。@nとにかく雰囲気を変える勝ち星がほしいものだが…。@nひとまずは浮上のきっかけを探すとしよう。",
+      "english": "Even a long skid ends eventually.@nRight now, it's hard to see the team turning it around.@fThe players look tense.@nThe coaches are struggling to get through to them.@nOne win could change the mood.@nFor now, let's look for a way to get started.",
+      "deepl_comparison": "Even if we’re in the middle of a long tunnel right now, we’ll surely emerge from it someday. @n However, the reality is that the team still shows no signs of turning things around, and we continue to face a very difficult situation. @f The players look tense. @n It seems they’re having a hard time taking the coaching staff’s advice to heart. @n We really need a win to turn the tide…@n For now, let’s look for a way to turn things around.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        109
+      ],
+      "source": "「野球というスポーツは、個人個人が団結しての前にチームとして戦うものだ」すぐに意識改革を行うというのは容易ではない。@f個人としての能力も重要であることは確かだ。@nしかし団体競技である以上それだけでは越えられない壁というものもある。@n彼にもいつかそのことについて気づいてもらいたいものだ。",
+      "english": "\"Baseball takes players pulling together and competing as a team.\" That lesson takes time to sink in.@fIndividual ability matters.@nThere are still things a player can only achieve with the rest of the team.@nI hope our player comes to understand that.",
+      "deepl_comparison": "“Baseball is a sport where individuals come together to compete as a team.” It’s not easy to change one’s mindset overnight. @f It’s certainly true that individual ability is important. @n However, since it’s a team sport, there are some obstacles that can’t be overcome by individual effort alone. @n I hope he’ll come to realize that someday.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        110
+      ],
+      "source": "今回の起用では残念ながら結果を残せなかった@v@t@v。@nしかし、出番が少なくなったとしても、アピールをし続けてさえいればチャンスは必ず回ってくる。@n入団した頃の誇りに満ち溢れた顔を彼には取り戻してもらいたい。",
+      "english": "@v@t@v didn't make the most of this chance.@nPlaying time may be scarce, but someone who keeps making a case will get another opportunity.@nI want to see the pride that player had when joining this club.",
+      "deepl_comparison": "Unfortunately, @v@t@v wasn’t able to deliver results in his recent appearance. @n However, even if his playing time decreases, as long as he keeps making a strong impression, his chance will surely come around. @n I want him to regain that look of pride he had when he first joined the team.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        111
+      ],
+      "source": "残念ながら、今回の起用では完全な問題の解決にはならなかった。@n試合に出場してもそうでなくても、選手個人個人にそれぞれ役割というものがある。@n彼にはそのことを意識してシーズンを乗り越えてもらいたい。",
+      "english": "Getting into the lineup didn't fully settle the issue.@nEvery player has a part to play, whether they get into a game or sit it out.@nI hope our player keeps that in mind through the rest of the season.",
+      "deepl_comparison": "Unfortunately, his selection this time did not fully resolve the issue. @nWhether he plays in @n games or not, each player has a specific role to fulfill. @nI hope he keeps that in mind as he gets through the season.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        112
+      ],
+      "source": "@v@t@v不在中、周りの選手がバックアップに奮起したが、良い結果を残すことはできなかった。@fしかしシーズンはまだ終わったわけではない。@n@v@t@vが復帰するまでは、チームの総力を上げて戦っていかなければならない。",
+      "english": "The players worked hard to cover for @v@t@v, and the results didn't come.@fThere's still time left in the season.@nUntil @v@t@v returns, everyone will have to do a little more.",
+      "deepl_comparison": "@v@t@v was out, and while the other players stepped up to fill in, they were unable to produce good results. @f However, the season isn’t over yet. @n Until @v@t@v returns, we must fight with the team’s full strength.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        113
+      ],
+      "source": "@v@t@vにはまだ早い課題だったのかもしれない。@nだがそれでも、ここ最近の彼の成長をみれば、近い将来わがチームにとって大きな力となることは確かなはずだ。@nここは焦らずじっくりと彼の成長を見守ることにしようと思う。",
+      "english": "This challenge may have come too early for @v@t@v.@nThe recent progress still tells me this player will matter to the team soon.@nI'll be patient and give that talent time to develop.",
+      "deepl_comparison": "@v@t@v might have been a challenge he wasn’t quite ready for yet. @n But even so, judging by his recent growth, there’s no doubt he’ll become a major asset to our team in the near future. @n I think I’ll take my time and watch his growth unfold without rushing things.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        114
+      ],
+      "source": "若手であれベテランであれ、人間である以上うまくいかないこともあるだろう。@n今回はそれがたまたま出てしまっただけのこと。@nこれだけ実績のあるベテランでも、短期で結果を出すことは難しいということを若手選手達は学んでもらいたいところだ。",
+      "english": "Everyone has an off day, rookie or veteran.@nIt just happened to be today.@nI hope the younger players see that even a veteran with this record can't produce on demand.",
+      "deepl_comparison": "Whether they’re young players or veterans, as human beings, things aren’t always going to go their way. @n This time, it just so happened that things didn’t go their way. @n I’d like the young players to learn that even a veteran with such a proven track record finds it difficult to produce results in the short term.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        115
+      ],
+      "source": "@v@t@vがあまりにも良い素材を持っていたせいか、私は多くのことを一度に伝えすぎてしまったようだ。@n彼にはまだまだ長い野球人生が残っている。焦らず、急がず、また機会をみてじっくりと私の教えを伝えていこうと思う。",
+      "english": "@v@t@v has so much talent that I may have tried to teach too much at once.@nThere's a long career ahead. I'll wait for the right moment and take it one lesson at a time.",
+      "deepl_comparison": "@v@t@v must have had such great potential that I seem to have tried to teach him too much all at once. @n He still has a long baseball career ahead of him. I’ll take my time—without rushing or getting impatient—and continue to pass on my teachings to him whenever the opportunity arises.",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    },
+    {
+      "field": "failure_story",
+      "events": [
+        116
+      ],
+      "source": "われわれの前にアジアの壁がたちはだかった。@n海の向こうにも強豪はたくさんいることを実感させられた。@n敗れはしたが、日本代表として名に恥じぬ戦いだった。@fしかし相手も国の代表として選ばれた猛者たち。@nこちらの思惑通りになど簡単にはいくはずもない。@n次こそはアジアの頂点に立つ。@nそのためにも、まずは日本で連覇だ！",
+      "english": "Asia proved a tough test.@nThere are strong teams across the water, too.@nWe lost, and we can be proud of how we represented Japan.@fOur opponents were champions from their own countries.@nThey were never going to let us dictate the game.@nNext time, we'll try to win it all.@nFirst, we need to win in Japan again.",
+      "deepl_comparison": "The wall of Asia stood before us. @n It really brought home to us that there are many powerhouse teams across the ocean. @n Although we lost, we fought a battle worthy of the Japanese national team. @f However, our opponents were also fierce competitors selected to represent their country. @n Things were never going to go as easily as we had hoped.@nNext time, we’ll stand at the pinnacle of Asia. @nTo do that, we must first win back-to-back championships in Japan!",
+      "source_meaning_reviewed": true,
+      "wording_accepted": true
+    }
+  ],
+  "all_18_unlock_notices_match_native_commands": [
+    {
+      "event": 8,
+      "english_notice": "Unlocked Comment via Media!",
+      "native_command_address": "0x82088244",
+      "native_command_source": "マスコミ間接口撃"
+    },
+    {
+      "event": 11,
+      "english_notice": "Unlocked Add Cash to Trade!",
+      "native_command_address": "0x820881C8",
+      "native_command_source": "金銭トレード要請"
+    },
+    {
+      "event": 12,
+      "english_notice": "Unlocked Sign Foreign Player!",
+      "native_command_address": "0x820881B4",
+      "native_command_source": "外国人助っ人補強"
+    },
+    {
+      "event": 13,
+      "english_notice": "Unlocked Pick Tone Setter!",
+      "native_command_address": "0x82088230",
+      "native_command_source": "ムードメーカー指名"
+    },
+    {
+      "event": 14,
+      "english_notice": "Unlocked Complete-game Promise!",
+      "native_command_address": "0x82088224",
+      "native_command_source": "完投宣言"
+    },
+    {
+      "event": 15,
+      "english_notice": "Unlocked Enforced Rest!",
+      "native_command_address": "0x82088214",
+      "native_command_source": "選手強制休暇"
+    },
+    {
+      "event": 18,
+      "english_notice": "Unlocked Announce Next Start!",
+      "native_command_address": "0x82088200",
+      "native_command_source": "チーム内先発通知"
+    },
+    {
+      "event": 19,
+      "english_notice": "Unlocked Announce Short Start!",
+      "native_command_address": "0x820881F0",
+      "native_command_source": "投球回制限宣言"
+    },
+    {
+      "event": 20,
+      "english_notice": "Unlocked Encourage Player!",
+      "native_command_address": "0x82088268",
+      "native_command_source": "選手個別激励"
+    },
+    {
+      "event": 21,
+      "english_notice": "Unlocked Media Appeal!",
+      "native_command_address": "0x820881DC",
+      "native_command_source": "マスコミアピール"
+    },
+    {
+      "event": 24,
+      "english_notice": "Unlocked Team Pep Talk!",
+      "native_command_address": "0x82088258",
+      "native_command_source": "チーム士気向上"
+    },
+    {
+      "event": 109,
+      "english_notice": "Unlocked Emphasize Teamwork!",
+      "native_command_address": "0x8208819C",
+      "native_command_source": "チームプレイ方針徹底"
+    },
+    {
+      "event": 110,
+      "english_notice": "Unlocked Praise Player!",
+      "native_command_address": "0x82088190",
+      "native_command_source": "選手賞賛"
+    },
+    {
+      "event": 111,
+      "english_notice": "Unlocked Private Meeting!",
+      "native_command_address": "0x82088180",
+      "native_command_source": "選手個別対談"
+    },
+    {
+      "event": 112,
+      "english_notice": "Unlocked Specialist Treatment!",
+      "native_command_address": "0x8208816C",
+      "native_command_source": "有名ドクター招へい"
+    },
+    {
+      "event": 113,
+      "english_notice": "Unlocked Focus Training!",
+      "native_command_address": "0x8208815C",
+      "native_command_source": "強化選手指定"
+    },
+    {
+      "event": 114,
+      "english_notice": "Unlocked Veteran Mentoring!",
+      "native_command_address": "0x82088148",
+      "native_command_source": "ベテラン特別指導"
+    },
+    {
+      "event": 115,
+      "english_notice": "Unlocked Manager Coaching!",
+      "native_command_address": "0x82088138",
+      "native_command_source": "監督直接指導"
+    }
+  ],
+  "all_star_mvp_wording_resolution": {
+    "event": 5,
+    "original_explicit_objective": "オールスターＭＶＰをゲットせよ！",
+    "english_objective": "Win the All-Star MVP!",
+    "goal_english": "Win All-Star MVP",
+    "success_story_english": "The crowd roared as @v@t@v accepted the All-Star MVP award.@nWatching the interview, I was proud to see our player up there.@nThat moment will give him a real lift.@fI can't wait to see what he does in the second half.@nThere's a lot to look forward to.",
+    "decision": "The original player-facing objective explicitly requires All-Star MVP. This corroborates the current goal and successful award narrative without guessing from the podium noun alone.",
+    "native_success_predicate_executed": false
+  },
+  "all_940_nonempty_pennant_fields_now_source_context_reviewed": true,
+  "remaining_event_wording_questions_from_prior_reports": 0,
+  "review_decisions": [
+    "Keep None distinct from a success/failure penalty; retain manager approval, player form and opponent form separately.",
+    "Coach Capacity and native manager command names must agree across reward and result-notice screens.",
+    "MCP is a points award rather than an automatic change in manager approval.",
+    "The original All-Star objective explicitly names MVP; existing goal/success-story award wording is supported.",
+    "Keep Central and Pacific League championship stories distinct and do not use modern playoff-rule assumptions.",
+    "Preserve original paragraph, page, emphasis, player/team and counter control order.",
+    "Retain the recruitment paragraph in success story 110, including its foreign-player detail, rather than silently correcting the source narrative.",
+    "DeepL differences caused by formatting tokens are only meaning comparisons; no returned markup is inserted.",
+    "Keep pitcher confusion distinct from shaking off catcher signs and game circumstances distinct from fixture scheduling."
+  ],
+  "all_changed_fields_fit_original_slots": true,
+  "source_controls_and_all_unedited_member_bytes_unchanged": true,
+  "layout_estimate_scope": "Paragraph glyph advances at Arial 16 px before runtime substitutions. Actual event wrapping, pagination and emphasis positions remain unverified.",
+  "executable_rebuild_required": false,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "original_game_data_unchanged": true,
+  "native_macro_expansion_executed": false,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "no_new_service_requests": true,
+  "pending": [
+    "Live event layout, wrapping, page transitions, stat awards and native substitutions.",
+    "Other mode/discovery paths and remaining catalogue accuracy review."
+  ],
+  "selected_member_readback_verified": true,
+  "archive_index_unchanged": true,
+  "archive_members_verified": 2223,
+  "untouched_archive_members_verified": 2112,
+  "all_940_pennant_fields_verified": true
+}

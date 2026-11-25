@@ -4100,12 +4100,12 @@
   "no_new_service_requests": true,
   "pending": [
     "Live event-title/description placement and native substitutions.",
-    "All-Star event 5 award predicate and related goal/success-story wording.",
-    "Accuracy review of remaining event narrative/notices and other mode/discovery paths."
+    "Other mode/discovery paths and remaining catalogue accuracy review."
   ],
   "selected_member_readback_verified": true,
   "archive_index_unchanged": true,
   "archive_members_verified": 2223,
   "untouched_archive_members_verified": 2112,
-  "all_940_pennant_fields_verified": true
+  "all_940_pennant_fields_verified": true,
+  "subsequent_event_accuracy_review": "pennant-narrative-notice-accuracy-validation.json"
 }
