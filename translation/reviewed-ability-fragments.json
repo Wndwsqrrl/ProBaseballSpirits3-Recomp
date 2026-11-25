@@ -142,5 +142,13 @@
     "source_hash": "DCE8D358F0F02E38",
     "english": "Team wins more often when he pitches.",
     "status": "reviewed"
+  },
+  {
+    "address": "0x00000000",
+    "source": "ＣＯＭが操作したときチームプレイは特に考えない",
+    "source_size": 46,
+    "source_hash": "479BD14C2B8CF3F3",
+    "english": "The CPU tends to pull the ball.",
+    "status": "reviewed"
   }
 ]

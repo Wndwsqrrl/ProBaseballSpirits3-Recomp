@@ -3384,7 +3384,7 @@
     "address": "0x820658FC",
     "source_size": 59,
     "source_hash": "889D8F0930DBEFC3",
-    "english": "Pull Tendency\nThe CPU gives little consideration to team tactics.",
+    "english": "Pull Tendency\nThe CPU tends to pull the ball.",
     "status": "reviewed"
   },
   {
@@ -3419,7 +3419,7 @@
     "address": "0x820659EC",
     "source_size": 41,
     "source_hash": "29EE452ACA25D829",
-    "english": "Close Games\nPerforms better late when the score is not close.",
+    "english": "Late Flame\nPerforms better late when the score is not close.",
     "status": "reviewed"
   },
   {
@@ -4175,7 +4175,7 @@
     "address": "0x82066948",
     "source_size": 4,
     "source_hash": "55AA102F0118C6E0",
-    "english": "Close Games",
+    "english": "Late Flame",
     "status": "reviewed"
   },
   {
@@ -35199,7 +35199,7 @@
     "address": "0x8209FB5C",
     "source_size": 30,
     "source_hash": "E3BEA5E8F9B5EA77",
-    "english": "Raises his game with runners he put on base aboard.",
+    "english": "Raises his game with his own runners on base.",
     "status": "reviewed"
   },
   {
@@ -35381,14 +35381,14 @@
     "address": "0x8209FF40",
     "source_size": 28,
     "source_hash": "46BD93F2F03E615E",
-    "english": "Unlucky when it comes to earning wins.",
+    "english": "Team wins less often when he pitches.",
     "status": "reviewed"
   },
   {
     "address": "0x8209FF60",
     "source_size": 26,
     "source_hash": "C3ACB4A6707C1129",
-    "english": "Tends to bring wins when pitching.",
+    "english": "Team wins more often when he pitches.",
     "status": "reviewed"
   },
   {
@@ -36494,14 +36494,14 @@
     "address": "0x820A16B8",
     "source_size": 14,
     "source_hash": "9CF0EC747165AE5F",
-    "english": "Fielding D or higher.",
+    "english": "Fielding Affinity D or higher.",
     "status": "reviewed"
   },
   {
     "address": "0x820A16C8",
     "source_size": 14,
     "source_hash": "5CA112F5E136506C",
-    "english": "Fielding C or higher.",
+    "english": "Fielding Affinity C or higher.",
     "status": "reviewed"
   },
   {
@@ -36536,7 +36536,7 @@
     "address": "0x820A1744",
     "source_size": 40,
     "source_hash": "32C625A5A880E08B",
-    "english": "Spirits are required to learn this position and to raise its Fielding to C or higher.",
+    "english": "Spirits required for new positions or Fielding Affinity C or higher.",
     "status": "reviewed"
   },
   {
@@ -36550,7 +36550,7 @@
     "address": "0x820A1784",
     "source_size": 30,
     "source_hash": "7A31260F741BEA52",
-    "english": "Spirits are required to raise Fielding to C or higher.",
+    "english": "Fielding Affinity C or higher requires Spirits.",
     "status": "reviewed"
   },
   {
@@ -90842,7 +90842,7 @@
     "address": "0x00000000",
     "source_size": 46,
     "source_hash": "479BD14C2B8CF3F3",
-    "english": "The CPU gives little consideration to team tactics.",
+    "english": "The CPU tends to pull the ball.",
     "status": "reviewed"
   },
   {

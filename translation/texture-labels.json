@@ -5450,7 +5450,7 @@
           50,
           26
         ],
-        "text": "Close Game",
+        "text": "Late Flame",
         "source": "接戦",
         "padding": 2,
         "max_font_size": 24,
@@ -8242,7 +8242,7 @@
           31,
           17
         ],
-        "text": "Close",
+        "text": "Flame",
         "source": "接戦",
         "padding": 1,
         "max_font_size": 18,
@@ -46973,7 +46973,7 @@
           168,
           40
         ],
-        "text": "Close Game",
+        "text": "Late Flame",
         "source": "接戦",
         "padding": 4,
         "max_font_size": 28,

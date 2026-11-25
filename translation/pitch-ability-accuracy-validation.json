@@ -1045,13 +1045,19 @@
   "entire_game_english": false,
   "pending": [
     "Live ability tooltip, tutorial, Power and Power +1 placement.",
-    "Native mechanic/context checks for the two source label-description discrepancies.",
-    "Remaining ability descriptions, renderer fragments and other modes."
+    "Live CPU pull-tendency and Late Flame behavior; source-table associations and terminology are resolved in the editor follow-up.",
+    "Remaining mode/event discovery, names and accuracy/placement review."
   ],
   "fragment_curation_reproduction_checks_passed": 18,
   "windows_executable_sha256": "21cac52416a276bff36a12d13662da5c327774e88bff7a37a3afcdc6bfd11388",
   "generated_header_sha256": "959cddca9f29737cbba78eef62e1629828711c7b5237925c8261f963ac244358",
   "existing_slot_artwork_names_match_native_ability_names": true,
   "no_legacy_stuff_stat_or_second_helping_values_remaining": true,
-  "all_source_hashes_sizes_addresses_and_statuses_unchanged": true
+  "all_source_hashes_sizes_addresses_and_statuses_unchanged": true,
+  "source_discrepancy_follow_up_report": "ability-editor-accuracy-validation.json",
+  "pull_tendency_editor_association_verified": true,
+  "pull_tendency_source_erratum_adopted": true,
+  "late_flame_official_name_adopted": true,
+  "source_label_description_wording_follow_ups_remaining": 0,
+  "native_ability_logic_executed": false
 }

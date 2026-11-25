@@ -10,6 +10,7 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Reviewed the remaining 254 ability editor fields, completing source/context review of 337 maintained descriptions. Corrected ten native entries, the Pull Tendency erratum fragment and three Late Flame labels. Native name/description pointer associations and the 2026 glossary resolve the two text discrepancies without changing ability logic. Passed 259 compiled lookups, 257 curation checks, erratum reproduction, the Windows build and full 2223-member archive verification; 2112 untouched members and all 2098 texture labels are verified. Live behavior and placement remain open.",
     "Reviewed the first 83 ability descriptions and 10 additional pitching/label fields. Corrected 15 native entries and 18 fragments for Pitch Power, Power Surge, Consistent, accountability and team-win wording. Passed 112 compiled lookups, 93 curation checks, 18 fragment regeneration/curation checks, the complete review merger and the Windows build. The Okawari nickname and two contradictory native source conditions are preserved; mechanics and live placement remain open.",
     "Reviewed 261 settings fragment sources and corrected 79 source-meaning mappings. The 258 explicit runs replace positional inference for all 207 settings paragraphs. Three incomplete word endings are excluded only from inferred address-zero lookups. All 6297 native fields and full formatted paragraphs are unchanged. Passed 465 compiled lookups, 258 regeneration/curation checks, native-field/exclusion regressions, the full review merger and the Windows build.",
     "Reviewed all 207 settings explanations and 48 option labels. Fourteen paragraph and 12 fragment corrections preserve controls and paragraph line counts; 264 compiled lookups, 207 curation checks, 12 explicit fragment-regeneration checks, the full review merger and the Windows build passed. Live placement and the generic legacy sentence-ending context remain open.",
@@ -99,7 +100,7 @@
     "204 additional complete-name aliases and two stat fragments passed 1814 compiled lookups; all 66 Western-group name pairs have full-name mappings, and 15626 prior catalogue rows remain unchanged"
   ],
   "pending_validation": [
-    "Confirm ability/tutorial layout and compact Power / Power +1 fit. Audit native mechanics for Pull Tendency with a team-tactics description and Close Games with an explicit not-close condition.",
+    "Live ability requirements, long condition lines, Fielding Affinity, compact Power labels and Late Flame badges. Confirm CPU pull tendency and Late Flame behavior; the source-table text association is verified.",
     "Verify settings live layout and complete-paragraph hook coverage, including fallback-run widths, assisted pitch markers and automatic tactics. Confirm the older block-sign feature relative to the 2026 Decoy Sign label.",
     "Live reviewed Pennant event pages, recovery/pacing wording, bullpen handoff and actual player/team/milestone placeholder expansion",
     "Live Starter Conditioning/Starter Cond. labels, +1 bonus width, C-grade Spirits requirements, role-conversion help and the updated event reward",
@@ -181,7 +182,7 @@
     "some missing gameplay geometry"
   ],
   "entire_game_english": false,
-  "latest_offline_review": "pitch-ability-accuracy-validation.json",
+  "latest_offline_review": "ability-editor-accuracy-validation.json",
   "reviewed_newspaper_lines": 310,
   "reviewed_settings_descriptions": 207,
   "reviewed_mode_and_menu_entries": 1024,
@@ -955,7 +956,7 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "pitch-ability-accuracy-validation.json",
+  "latest_windows_build_report": "ability-editor-accuracy-validation.json",
   "motion_settings_wording_review": {
     "english_records_updated": 20,
     "submarine_labels_and_compounds": 16,
@@ -1071,7 +1072,7 @@
     "interactive_validation": false,
     "follow_up_report": "alternate-sprite-crop-validation.json"
   },
-  "latest_asset_layout_report": "texture-source-wording-validation.json",
+  "latest_asset_layout_report": "ability-editor-accuracy-validation.json",
   "alternate_sprite_crop_review": {
     "source_heading_variants": 9,
     "output_sprite_tiles": 15,
@@ -1134,7 +1135,7 @@
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
     "report": "deepl-comparison-status.json",
-    "distinct_input_sources_context_reviewed": 674,
+    "distinct_input_sources_context_reviewed": 928,
     "initial_cached_response_records": 9559
   },
   "spirits_training_accuracy_review": {
@@ -1232,9 +1233,26 @@
     "curation_reproduction_checks": 93,
     "fragment_regeneration_and_curation_checks": 18,
     "windows_build_passed": true,
-    "source_label_description_discrepancies_pending": 2,
+    "source_label_description_discrepancies_pending": 0,
     "compact_power_labels_width_increase_px": 14,
     "live_screen_placement_checked": false,
-    "report": "pitch-ability-accuracy-validation.json"
+    "report": "pitch-ability-accuracy-validation.json",
+    "source_discrepancy_follow_up_report": "ability-editor-accuracy-validation.json",
+    "native_ability_logic_executed": false
+  },
+  "ability_editor_accuracy_review": {
+    "editor_fields_reviewed": 254,
+    "maintained_ability_descriptions_reviewed_total": 337,
+    "native_wording_corrections": 10,
+    "fragment_corrections": 1,
+    "texture_labels_corrected": 3,
+    "compiled_exact_cases": 259,
+    "curation_reproduction_checks": 257,
+    "windows_build_passed": true,
+    "native_text_associations_verified": 2,
+    "native_ability_logic_executed": false,
+    "live_screen_placement_checked": false,
+    "report": "ability-editor-accuracy-validation.json",
+    "full_archive_verified": true
   }
 }

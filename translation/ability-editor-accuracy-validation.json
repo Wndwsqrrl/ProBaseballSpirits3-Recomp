@@ -1,0 +1,2411 @@
+{
+  "date": "2026-11-24",
+  "comparison_commit": "d1d78b4f5bbde8937279403ee745960b1bd71476",
+  "additional_ability_editor_fields_reviewed": 254,
+  "maintained_ability_descriptions_source_reviewed_total": 337,
+  "native_wording_corrections": 10,
+  "fragment_wording_corrections": 1,
+  "changes": [
+    {
+      "address": "0x8209FB5C",
+      "source": "責任ランナーには力を発揮する。",
+      "source_hash": "E3BEA5E8F9B5EA77",
+      "previous_english": "Raises his game with runners he put on base aboard.",
+      "english": "Raises his game with his own runners on base.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 377.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 334.0
+      }
+    },
+    {
+      "address": "0x8209FF40",
+      "source": "登板すると勝利に見放される。",
+      "source_hash": "46BD93F2F03E615E",
+      "previous_english": "Unlucky when it comes to earning wins.",
+      "english": "Team wins less often when he pitches.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 280.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 274.0
+      }
+    },
+    {
+      "address": "0x8209FF60",
+      "source": "登板すると勝利を呼び込む。",
+      "source_hash": "C3ACB4A6707C1129",
+      "previous_english": "Tends to bring wins when pitching.",
+      "english": "Team wins more often when he pitches.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 246.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 281.0
+      }
+    },
+    {
+      "address": "0x820A16B8",
+      "source": "守備適性Ｄ以上",
+      "source_hash": "9CF0EC747165AE5F",
+      "previous_english": "Fielding D or higher.",
+      "english": "Fielding Affinity D or higher.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 145.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 197.0
+      }
+    },
+    {
+      "address": "0x820A16C8",
+      "source": "守備適性Ｃ以上",
+      "source_hash": "5CA112F5E136506C",
+      "previous_english": "Fielding C or higher.",
+      "english": "Fielding Affinity C or higher.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 145.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 197.0
+      }
+    },
+    {
+      "address": "0x820A1744",
+      "source": "初回習得と守備適性Ｃからスピリッツが必要",
+      "source_hash": "32C625A5A880E08B",
+      "previous_english": "Spirits are required to learn this position and to raise its Fielding to C or higher.",
+      "english": "Spirits required for new positions or Fielding Affinity C or higher.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 554.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 451.0
+      }
+    },
+    {
+      "address": "0x820A1784",
+      "source": "守備適性Ｃからスピリッツが必要",
+      "source_hash": "7A31260F741BEA52",
+      "previous_english": "Spirits are required to raise Fielding to C or higher.",
+      "english": "Fielding Affinity C or higher requires Spirits.",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 357.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 308.0
+      }
+    },
+    {
+      "address": "0x820658FC",
+      "source": "引っ張り傾向\nＣＯＭが操作したときチームプレイは特に考えない",
+      "source_hash": "889D8F0930DBEFC3",
+      "previous_english": "Pull Tendency\nThe CPU gives little consideration to team tactics.",
+      "english": "Pull Tendency\nThe CPU tends to pull the ball.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 351.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 217.0
+      }
+    },
+    {
+      "address": "0x820659EC",
+      "source": "接戦\n試合終盤、接戦でなければ力を発揮する",
+      "source_hash": "29EE452ACA25D829",
+      "previous_english": "Close Games\nPerforms better late when the score is not close.",
+      "english": "Late Flame\nPerforms better late when the score is not close.",
+      "previous_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 338.0
+      },
+      "new_layout_estimate": {
+        "lines": 2,
+        "widest_line_px": 338.0
+      }
+    },
+    {
+      "address": "0x82066948",
+      "source": "接戦",
+      "source_hash": "55AA102F0118C6E0",
+      "previous_english": "Close Games",
+      "english": "Late Flame",
+      "previous_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 97.0
+      },
+      "new_layout_estimate": {
+        "lines": 1,
+        "widest_line_px": 80.0
+      }
+    }
+  ],
+  "editor_reviews": [
+    {
+      "address": "0x8209FA00",
+      "source_hash": "51BC88AB105D371D",
+      "source": "投球の基本となるもっとも速い球。",
+      "english": "The fastest pitch, and the foundation of a pitcher's repertoire.",
+      "deepl_comparison": "The fastest pitch, which forms the foundation of pitching.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FA24",
+      "source_hash": "334DFD2F639AF776",
+      "source": "利き腕の方向の横に変化する系の球",
+      "english": "Pitches that break horizontally toward the throwing-arm side.",
+      "deepl_comparison": "Pitches that break sideways relative to the pitcher’s dominant arm",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FA48",
+      "source_hash": "636E113B07093B46",
+      "source": "利き腕の方向の斜めに落ちる系の球",
+      "english": "Pitches that drop diagonally toward the throwing-arm side.",
+      "deepl_comparison": "A pitch that breaks diagonally away from the batter’s dominant hand",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FA6C",
+      "source_hash": "7ECEE881DEA7ADD0",
+      "source": "下方向へ変化する系の球",
+      "english": "Pitches that break downward.",
+      "deepl_comparison": "Pitches that break downward",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FA84",
+      "source_hash": "EAAB09BA434D3840",
+      "source": "利き腕のクロス方向の斜めに落ちる系の球",
+      "english": "Pitches that drop diagonally toward the glove side.",
+      "deepl_comparison": "A pitch that breaks diagonally away from the batter’s dominant hand",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FAAC",
+      "source_hash": "7D55E7AA2ABB5521",
+      "source": "４購入からスピリッツが必要",
+      "english": "Spirits are required from level 4 onward.",
+      "deepl_comparison": "4. Spirits are required after purchase",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FAC8",
+      "source_hash": "82B01F76AC01B968",
+      "source": "利き腕のクロス方向の横に変化する系の球",
+      "english": "Pitches that break horizontally toward the glove side.",
+      "deepl_comparison": "A pitch that breaks sideways in the opposite direction of the pitcher’s dominant arm",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FAF0",
+      "source_hash": "A0DB7FF391B2A9E2",
+      "source": "Ｃ購入からスピリッツが必要",
+      "english": "Spirits are required from grade C onward.",
+      "deepl_comparison": "Spirits are required after purchasing C.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FB0C",
+      "source_hash": "093082797B79D490",
+      "source": "速いまっすぐ系の球",
+      "english": "Fast, relatively straight pitches.",
+      "deepl_comparison": "Fast, straight pitches",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FB20",
+      "source_hash": "74DC01F850D3C3F0",
+      "source": "平均球速が安定しにくい。",
+      "english": "Pitch velocity tends to fluctuate.",
+      "deepl_comparison": "Average pitch speed is difficult to maintain.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FB3C",
+      "source_hash": "38E752F0E53DB595",
+      "source": "平均球速が高いレベルで安定。",
+      "english": "Consistently maintains high pitch velocity.",
+      "deepl_comparison": "His average pitch speed is consistently high.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FB5C",
+      "source_hash": "E3BEA5E8F9B5EA77",
+      "source": "責任ランナーには力を発揮する。",
+      "english": "Raises his game with his own runners on base.",
+      "deepl_comparison": "He excels as a designated runner.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FB7C",
+      "source_hash": "45D7DE99FC718701",
+      "source": "試合終盤、接戦でなければ力を発揮する。",
+      "english": "Performs better late when the score is not close.",
+      "deepl_comparison": "In the late stages of a game, he performs well unless it’s a close contest.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FBA4",
+      "source_hash": "0371EC2D02118A96",
+      "source": "苦しくなっても表情に出さない。",
+      "english": "Does not show strain in his facial expression.",
+      "deepl_comparison": "Even when things get tough, he doesn’t let it show on his face.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FBC4",
+      "source_hash": "52AB642AF15632DA",
+      "source": "打ち込まれるとキレる。",
+      "english": "Loses his temper when hit hard.",
+      "deepl_comparison": "He loses his temper when he gets hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FBDC",
+      "source_hash": "FD7C7941858AB9DB",
+      "source": "３ボールになると制球が乱れる。",
+      "english": "Control deteriorates in a three-ball count.",
+      "deepl_comparison": "When the count reaches three balls, his control falters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FBFC",
+      "source_hash": "E52F7E7A9CA65DC3",
+      "source": "勝利やセーブのかかった場面に弱い。",
+      "english": "Struggles in situations with a win or save on the line.",
+      "deepl_comparison": "He struggles in situations where a win or a save is on the line.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FC20",
+      "source_hash": "F8528675B0CC36ED",
+      "source": "失投がど真ん中に集まりやすい。",
+      "english": "Mistake pitches are more likely to end up down the middle.",
+      "deepl_comparison": "Bad pitches tend to cluster right down the middle.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FC40",
+      "source_hash": "83A14DA7F3A7CF86",
+      "source": "失投がど真ん中に集まりにくい。",
+      "english": "Mistake pitches are less likely to end up down the middle.",
+      "deepl_comparison": "Bad pitches are less likely to cluster right down the middle.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FC60",
+      "source_hash": "E2D8776BECD09487",
+      "source": "ランナーを背負ったときもコントロールを乱さない。",
+      "english": "Maintains Control with runners on base.",
+      "deepl_comparison": "He doesn't lose his control even when there are runners on base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FC94",
+      "source_hash": "AFDFBC7D7C32611F",
+      "source": "ピンチの際に投手能力が大きく下がる。",
+      "english": "Pitching ratings drop sharply with runners in scoring position.",
+      "deepl_comparison": "A pitcher's performance drops significantly in tight situations.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FCBC",
+      "source_hash": "9CAA1AE81F417ACF",
+      "source": "ピンチの際に投手能力が下がる。",
+      "english": "Pitching ratings drop with runners in scoring position.",
+      "deepl_comparison": "A pitcher's performance drops when the team is in a tight spot.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FCDC",
+      "source_hash": "4F87024B891ABB5E",
+      "source": "ピンチの際に投手能力が上がる。",
+      "english": "Pitching ratings improve with runners in scoring position.",
+      "deepl_comparison": "A pitcher's performance improves in tight situations.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FCFC",
+      "source_hash": "02F812E33984770E",
+      "source": "ピンチの際に投手能力が大きく上がる。",
+      "english": "Pitching ratings improve greatly with runners in scoring position.",
+      "deepl_comparison": "A pitcher's performance improves significantly in tight situations.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FD24",
+      "source_hash": "F8AADC1A336C0368",
+      "source": "先発登板するための調整の早さ。",
+      "english": "How quickly a pitcher prepares for a start.",
+      "deepl_comparison": "How quickly a player can get ready to start a game.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FD44",
+      "source_hash": "B41F7916AC41A0E9",
+      "source": "投球がシュート回転し打たれやすくなる。",
+      "english": "Unwanted arm-side spin can make pitches easier to hit.",
+      "deepl_comparison": "The pitch takes on a sinking spin, making it easier to hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FD6C",
+      "source_hash": "E9005B63E39F1A4A",
+      "source": "強打者に対して、より力を発揮する。",
+      "english": "Performs better against dangerous hitters.",
+      "deepl_comparison": "Performs better against power hitters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FD90",
+      "source_hash": "CD2B3EEC537DA4EC",
+      "source": "先発の際、たちあがりが悪い。",
+      "english": "Struggles in the early innings of a start.",
+      "deepl_comparison": "When starting, he has a slow start.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FDB0",
+      "source_hash": "6B5F7AB59DC9D3D1",
+      "source": "先発の際、徐々に調子が良くなっていく。",
+      "english": "Gradually improves during a start.",
+      "deepl_comparison": "When starting a game, his form gradually improves.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FDD8",
+      "source_hash": "2B55E3609538A910",
+      "source": "打たれると動揺しやすい。",
+      "english": "Easily rattled after allowing hits.",
+      "deepl_comparison": "He tends to get flustered when he gives up a hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FDF4",
+      "source_hash": "20442F8197F9F6D6",
+      "source": "打たれても動揺しにくい。",
+      "english": "Hard to rattle after allowing hits.",
+      "deepl_comparison": "He doesn't get flustered easily even when he gives up a hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FE10",
+      "source_hash": "4826D810AC7B1D4B",
+      "source": "多いほど、球数を投げられる。",
+      "english": "A higher rating allows the pitcher to throw more pitches.",
+      "deepl_comparison": "The higher this value, the more pitches a player can throw.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FE30",
+      "source_hash": "20E1E80756C92818",
+      "source": "この選手をＣＯＭが使ったときに緩急をつけた投球をする。",
+      "english": "The CPU mixes pitch speeds effectively.",
+      "deepl_comparison": "When the CPU uses this player, he pitches with a mix of fast and slow pitches.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FE68",
+      "source_hash": "085FBD3789B3D24D",
+      "source": "この選手をＣＯＭが使ったときにうまく決め球を使う。",
+      "english": "The CPU uses the pitcher's out pitch effectively.",
+      "deepl_comparison": "When the CPU uses this player, it effectively employs his signature pitch.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FE9C",
+      "source_hash": "55DB6262884D81C2",
+      "source": "この選手をＣＯＭが使ったときにテンポよく投げる。",
+      "english": "The CPU pitches at a brisk tempo.",
+      "deepl_comparison": "When the CPU uses this player, he pitches at a brisk pace.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FED0",
+      "source_hash": "5C392306CFF53204",
+      "source": "この選手をＣＯＭが使ったときに変化球中心に組み立てる。",
+      "english": "The CPU builds its approach around breaking pitches.",
+      "deepl_comparison": "When the CPU uses this player, it builds its strategy around breaking balls.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FF08",
+      "source_hash": "A01BC289C9E9B9B1",
+      "source": "この選手をＣＯＭが使ったときに速球中心に組み立てる。",
+      "english": "The CPU builds its approach around fastballs.",
+      "deepl_comparison": "When the CPU uses this player, it builds its strategy around fastballs.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FF40",
+      "source_hash": "46BD93F2F03E615E",
+      "source": "登板すると勝利に見放される。",
+      "english": "Team wins less often when he pitches.",
+      "deepl_comparison": "Whenever he takes the mound, victory eludes him.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FF60",
+      "source_hash": "C3ACB4A6707C1129",
+      "source": "登板すると勝利を呼び込む。",
+      "english": "Team wins more often when he pitches.",
+      "deepl_comparison": "When he takes the mound, he brings victory.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FF7C",
+      "source_hash": "56D954ADFDBCA670",
+      "source": "速球と変化球を同じフォームで投げられる。",
+      "english": "Uses the same delivery for fastballs and breaking pitches.",
+      "deepl_comparison": "Can throw fastballs and breaking balls using the same pitching form.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FFA8",
+      "source_hash": "0374C3B74EA0D5B0",
+      "source": "牽制がうまい。",
+      "english": "Skilled at picking off runners.",
+      "deepl_comparison": "He’s good at pickoffs.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FFB8",
+      "source_hash": "1CA5166FF8B64A71",
+      "source": "伸びのあるストレートを投げられる。",
+      "english": "Can throw a fastball with good life.",
+      "deepl_comparison": "He can throw a fastball with good movement.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x8209FFDC",
+      "source_hash": "3E3AC4CBAB05F842",
+      "source": "投球の初動が遅く盗塁されやすい。",
+      "english": "A slow delivery makes stolen bases easier.",
+      "deepl_comparison": "His initial pitching motion is slow, making him vulnerable to stolen bases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0000",
+      "source_hash": "72DC33C070136682",
+      "source": "投球の初動が速く盗塁されにくい。",
+      "english": "A quick delivery makes stolen bases harder.",
+      "deepl_comparison": "The pitcher has a quick start to his delivery, making it difficult for runners to steal bases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0024",
+      "source_hash": "06B1627A6DE48326",
+      "source": "左打者相手に投手能力が大きく下がる。",
+      "english": "Pitching ratings drop sharply against left-handed batters.",
+      "deepl_comparison": "A pitcher's performance drops significantly when facing left-handed batters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A004C",
+      "source_hash": "140154E819F556FE",
+      "source": "左打者相手に投手能力が下がる。",
+      "english": "Pitching ratings drop against left-handed batters.",
+      "deepl_comparison": "A pitcher's performance declines when facing left-handed batters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A006C",
+      "source_hash": "79351271E3753E83",
+      "source": "左打者相手に投手能力が上がる。",
+      "english": "Pitching ratings improve against left-handed batters.",
+      "deepl_comparison": "Pitching ability improves when facing left-handed batters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A008C",
+      "source_hash": "F3D8E1F2F0525D7B",
+      "source": "左打者相手に投手能力が大きく上がる。",
+      "english": "Pitching ratings improve greatly against left-handed batters.",
+      "deepl_comparison": "A pitcher’s performance improves significantly when facing left-handed batters.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A00B4",
+      "source_hash": "FB4948DBFA030533",
+      "source": "すでに持っている変化球に命名できる。",
+      "english": "Name a breaking pitch the player already has.",
+      "deepl_comparison": "You can name the breaking balls you already have.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A00DC",
+      "source_hash": "E0616B6DFAE0AC3C",
+      "source": "手もとで少し変化することもあるストレート。",
+      "english": "A fastball that can move slightly as it reaches the plate.",
+      "deepl_comparison": "A fastball that can vary slightly as it approaches the batter.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0108",
+      "source_hash": "0DF0E2600547A1BC",
+      "source": "この投手の最高球速。",
+      "english": "This pitcher's maximum velocity.",
+      "deepl_comparison": "This pitcher's top pitch speed.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0120",
+      "source_hash": "951065302C8B954F",
+      "source": "この選手をＣＯＭが使ったときに大胆な勝負をする。",
+      "english": "The CPU challenges hitters aggressively.",
+      "deepl_comparison": "When the CPU uses this player, it takes bold risks.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0154",
+      "source_hash": "64094FB91B37B9E9",
+      "source": "この選手をＣＯＭが使ったときに慎重な勝負をする。",
+      "english": "The CPU approaches hitters cautiously.",
+      "deepl_comparison": "When the CPU uses this player, it plays cautiously.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0188",
+      "source_hash": "A44E7A6BED3C3695",
+      "source": "この選手をＣＯＭが使ったときに標準的な勝負をする。",
+      "english": "The CPU uses a balanced approach against hitters.",
+      "deepl_comparison": "When the CPU uses this player, the game proceeds in a standard manner.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A01BC",
+      "source_hash": "DB6DD74D182CF768",
+      "source": "この選手をＣＯＭが使ったときに変化球重視の球種選択をする。",
+      "english": "The CPU favors breaking pitches when calling pitches.",
+      "deepl_comparison": "When the CPU uses this player, it prioritizes breaking balls in its pitch selection.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A01F8",
+      "source_hash": "997A172FFAF68282",
+      "source": "この選手をＣＯＭが使ったときに直球重視の球種選択をする。",
+      "english": "The CPU favors fastballs when calling pitches.",
+      "deepl_comparison": "When the CPU controls this player, it prioritizes fastballs in its pitch selection.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0234",
+      "source_hash": "5E7D07384DC2371F",
+      "source": "この選手をＣＯＭが使ったときにバランス重視の球種選択をする。",
+      "english": "The CPU calls a balanced mix of pitches.",
+      "deepl_comparison": "When the CPU uses this player, it prioritizes balance when selecting pitches.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0274",
+      "source_hash": "26F18566E7C0B523",
+      "source": "この選手をＣＯＭが使ったときに打者を優先したリードをする。",
+      "english": "The CPU calls pitches based on the opposing batter.",
+      "deepl_comparison": "When the CPU uses this player, it will prioritize the batter in its baserunning strategy.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A02B0",
+      "source_hash": "DF3CA3B6DF20CA47",
+      "source": "この選手をＣＯＭが使ったときに捕手を優先したリードをする。",
+      "english": "The CPU prioritizes the catcher when calling pitches.",
+      "deepl_comparison": "When the CPU uses this player, it prioritizes the catcher when calling pitches.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A02EC",
+      "source_hash": "C03759DFFCB79DD6",
+      "source": "この選手をＣＯＭが使ったときに投手を優先したリードをする。",
+      "english": "The CPU prioritizes the pitcher when calling pitches.",
+      "deepl_comparison": "When the CPU uses this player, it will prioritize the pitcher in its game calling.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0328",
+      "source_hash": "19CBC4901520C6FF",
+      "source": "この選手をＣＯＭが使ったときに慎重に捕球したり慎重な送球アウトを狙う。",
+      "english": "The CPU plays safe when fielding and trying to throw runners out.",
+      "deepl_comparison": "When the CPU controls this player, it makes careful catches and aims for outs with precise throws.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0370",
+      "source_hash": "258E40BEF665D3FA",
+      "source": "この選手をＣＯＭが使ったときに積極的に捕球を試みたり送球アウトを狙う。",
+      "english": "The CPU fields aggressively and attempts more throwing outs.",
+      "deepl_comparison": "When the CPU controls this player, it will actively attempt to make catches and aim for putouts.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A03B8",
+      "source_hash": "7BFAD04D7FD0D861",
+      "source": "ワンバウンド投球の捕球がうまくない。",
+      "english": "Struggles to handle pitches on a bounce.",
+      "deepl_comparison": "He isn't very good at catching one-bounce pitches.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A03E0",
+      "source_hash": "A7424AF99732F56E",
+      "source": "ワンバウンド投球の捕球がうまい。",
+      "english": "Handles pitches on a bounce well.",
+      "deepl_comparison": "He’s good at catching one-bounce pitches.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0404",
+      "source_hash": "364290F3CC8534D8",
+      "source": "反転スローイングを身につける。",
+      "english": "Learn the technique for turning to make a throw.",
+      "deepl_comparison": "Master the reverse throw.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0424",
+      "source_hash": "6FEBB080B6357936",
+      "source": "中継プレイがうまい。",
+      "english": "Skilled at cutoff and relay plays.",
+      "deepl_comparison": "He’s good at relay plays.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A043C",
+      "source_hash": "1EACDD30D6021A15",
+      "source": "バックハンドトスを身につける。",
+      "english": "Learn the backhand toss.",
+      "deepl_comparison": "Master the backhand toss.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A045C",
+      "source_hash": "D036FDB789AE3622",
+      "source": "すくい捕りを身につける。",
+      "english": "Learn to scoop throws.",
+      "deepl_comparison": "Master the scoop catch.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0478",
+      "source_hash": "6CE083CB0F5967E8",
+      "source": "盗塁時の送球を座ったまま行う。",
+      "english": "Throws against stealing runners without standing up.",
+      "deepl_comparison": "Makes the throw on a stolen base while seated.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0498",
+      "source_hash": "8C42047545C8D09C",
+      "source": "バントに対するダッシュが遅い。",
+      "english": "Slow to charge a bunt.",
+      "deepl_comparison": "He is slow to react to a bunt.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A04B8",
+      "source_hash": "1C1D25D08A6E9B33",
+      "source": "バントに対するダッシュが速い。",
+      "english": "Quick to charge a bunt.",
+      "deepl_comparison": "He has a fast dash when responding to a bunt.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A04D8",
+      "source_hash": "F5238DA71F2C6C24",
+      "source": "投球後守備に移るのが遅い。",
+      "english": "Slow to get into fielding position after a pitch.",
+      "deepl_comparison": "He is slow to transition to defense after pitching.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A04F4",
+      "source_hash": "500A44901B81AB7B",
+      "source": "投球後守備に移るのが速い。",
+      "english": "Quick to get into fielding position after a pitch.",
+      "deepl_comparison": "He transitions quickly from pitching to fielding.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0510",
+      "source_hash": "DBFC7460071B67B6",
+      "source": "投手の一塁ベースカバーが遅い。",
+      "english": "Slow to cover first base as pitcher.",
+      "deepl_comparison": "The pitcher is slow to cover first base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0530",
+      "source_hash": "4BC8C2E7B90414E1",
+      "source": "投手の一塁ベースカバーが速い。",
+      "english": "Quick to cover first base as pitcher.",
+      "deepl_comparison": "The pitcher covers first base quickly.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0550",
+      "source_hash": "F3DC1E92F8D34F27",
+      "source": "野手の後方目きりダッシュテクニックを身に付ける。",
+      "english": "Learn to turn and sprint after a deep fly ball.",
+      "deepl_comparison": "Master the technique of dashing backward to cover the field.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0584",
+      "source_hash": "0D33C5908279F70E",
+      "source": "遠投が低い軌道になる。",
+      "english": "Keeps long throws on a low trajectory.",
+      "deepl_comparison": "The throw takes a low trajectory.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A059C",
+      "source_hash": "2346F350655C0120",
+      "source": "ホームクロスプレイのランナーをはねかえす。",
+      "english": "Can hold off a runner in a home-plate collision.",
+      "deepl_comparison": "Bounces back a runner attempting a home cross-play.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A05C8",
+      "source_hash": "A201B88E7544B9D7",
+      "source": "得点圏にランナーがいるときエラーしやすくなる。",
+      "english": "More likely to commit an error with runners in scoring position.",
+      "deepl_comparison": "Players are more prone to errors when there are runners in scoring position.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A05F8",
+      "source_hash": "6DB2A0BE2429E63F",
+      "source": "守備のとき良い動きをする。",
+      "english": "Moves well in the field.",
+      "deepl_comparison": "He moves well on defense.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0614",
+      "source_hash": "9CDC7B0B53117212",
+      "source": "投手の能力をうまく引き出す。",
+      "english": "Brings out the best in the pitcher.",
+      "deepl_comparison": "Bring out the best in your pitchers.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0634",
+      "source_hash": "CFB695E544C1637E",
+      "source": "送球の速さ。",
+      "english": "Throwing velocity.",
+      "deepl_comparison": "Throwing speed.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0644",
+      "source_hash": "1190A60C54E8E643",
+      "source": "捕球のうまさ。",
+      "english": "Ability to field the ball cleanly.",
+      "deepl_comparison": "Skill in fielding.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0654",
+      "source_hash": "008AA28ED69F4CC7",
+      "source": "送球のうまさ。",
+      "english": "Throwing accuracy.",
+      "deepl_comparison": "Throwing accuracy.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0664",
+      "source_hash": "707AEF688DE31CE2",
+      "source": "守備範囲や守備の機敏さ。",
+      "english": "Fielding range and agility.",
+      "deepl_comparison": "Defensive range and defensive agility.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0680",
+      "source_hash": "5E0ACFA5227C8241",
+      "source": "この選手をＣＯＭが使ったときに慎重に盗塁を試みる。",
+      "english": "Attempts steals cautiously when controlled by the CPU.",
+      "deepl_comparison": "When the CPU controls this player, he will attempt to steal bases cautiously.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A06B4",
+      "source_hash": "B9154C2429CC0C9F",
+      "source": "この選手をＣＯＭが使ったときに積極的に盗塁を試みる。",
+      "english": "Attempts steals aggressively when controlled by the CPU.",
+      "deepl_comparison": "When the CPU controls this player, he will aggressively attempt to steal bases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A06EC",
+      "source_hash": "B7C2BA434DB25F2E",
+      "source": "この選手をＣＯＭが使ったときに積極的な走塁をする。",
+      "english": "Runs the bases aggressively when controlled by the CPU.",
+      "deepl_comparison": "When the CPU controls this player, he runs the bases aggressively.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0720",
+      "source_hash": "6A5662D6ED8AC641",
+      "source": "盗塁するときヘッドスライディングする。",
+      "english": "Slides headfirst when stealing a base.",
+      "deepl_comparison": "He does a headfirst slide when stealing a base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0748",
+      "source_hash": "E078A93F89433476",
+      "source": "タイミングが際どいとき１塁にヘッドスライディングする。",
+      "english": "Slides headfirst into first base on close plays.",
+      "deepl_comparison": "When the timing is tight, he makes a headfirst slide into first base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0780",
+      "source_hash": "DE24C4766D65D8EC",
+      "source": "クロスプレイでキャッチャーに体当たりする。",
+      "english": "Bowls into the catcher on plays at home plate.",
+      "deepl_comparison": "Use a cross-play move to body-check the catcher.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A07AC",
+      "source_hash": "EB8CE0F25BCF1FD3",
+      "source": "打ったあとの走り出しが速い。",
+      "english": "Gets out of the batter's box quickly.",
+      "deepl_comparison": "He has a quick start after making contact.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A07CC",
+      "source_hash": "A36A2617B722C771",
+      "source": "ベースランニングが非常に遅い。",
+      "english": "Very slow at running the bases.",
+      "deepl_comparison": "His base running is very slow.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A07EC",
+      "source_hash": "DF50110023A0820F",
+      "source": "ベースランニングが遅い。",
+      "english": "Slow at running the bases.",
+      "deepl_comparison": "He's a slow baserunner.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0808",
+      "source_hash": "F02100586BBDE150",
+      "source": "ベースランニングが速い。",
+      "english": "Fast at running the bases.",
+      "deepl_comparison": "He’s a fast baserunner.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0824",
+      "source_hash": "2B6E296BF7E01CBE",
+      "source": "ベースランニングが非常に速い。",
+      "english": "Very fast at running the bases.",
+      "deepl_comparison": "He is an extremely fast base runner.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0844",
+      "source_hash": "6843AB9018FFD22F",
+      "source": "盗塁のスタートが早い。",
+      "english": "Gets a quick jump when stealing.",
+      "deepl_comparison": "He has a quick start on stolen bases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A085C",
+      "source_hash": "2877AD4FC7C13CDD",
+      "source": "盗塁のスタートが非常に早い。",
+      "english": "Gets a very quick jump when stealing.",
+      "deepl_comparison": "He has an extremely quick start on stolen bases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A087C",
+      "source_hash": "0E5B7ED94ED93E05",
+      "source": "ケガを非常にしやすい。",
+      "english": "Very prone to injury.",
+      "deepl_comparison": "He is very prone to injuries.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0894",
+      "source_hash": "D3E56D02DC92BFCB",
+      "source": "ケガをしやすい。",
+      "english": "Prone to injury.",
+      "deepl_comparison": "Prone to injury.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A08A8",
+      "source_hash": "C4FB8B9534902824",
+      "source": "ケガをしにくい。",
+      "english": "Resistant to injury.",
+      "deepl_comparison": "Less prone to injury.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A08BC",
+      "source_hash": "78C11E4750CE8E7E",
+      "source": "ケガを非常にしにくい。",
+      "english": "Very resistant to injury.",
+      "deepl_comparison": "Very unlikely to get injured.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A08D4",
+      "source_hash": "40DF0D9B9181D4BA",
+      "source": "疲労の回復しやすさ。",
+      "english": "How quickly the player recovers from fatigue.",
+      "deepl_comparison": "Ease of recovery from fatigue.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A08EC",
+      "source_hash": "4B0FA336419C78C2",
+      "source": "足の速さ。",
+      "english": "Running speed.",
+      "deepl_comparison": "Speed.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A08F8",
+      "source_hash": "800BAC282CDD3CEE",
+      "source": "存在感がある。",
+      "english": "Has a commanding presence.",
+      "deepl_comparison": "It has a strong presence.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0908",
+      "source_hash": "1624B4A41645B865",
+      "source": "威圧感をあたえる。",
+      "english": "Intimidates opponents.",
+      "deepl_comparison": "Instills a sense of intimidation.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A091C",
+      "source_hash": "71D562CA122C11C0",
+      "source": "初回先頭打者の時に打力アップ。",
+      "english": "Hits better when leading off the first inning.",
+      "deepl_comparison": "Batting power increases when the leadoff batter comes up in the first inning.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A093C",
+      "source_hash": "43C62E8F86B7CC3D",
+      "source": "終盤戦以降負けていると打力アップ。",
+      "english": "Hits better when the team is trailing late in the game.",
+      "deepl_comparison": "If you're losing during the late season and beyond, your batting power will increase.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0960",
+      "source_hash": "9E04E99D38A5FD73",
+      "source": "サヨナラのチャンスのとき打力アップ。",
+      "english": "Hits better with a chance to win the game on a walk-off.",
+      "deepl_comparison": "Batting power increases during walk-off opportunities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0988",
+      "source_hash": "507AB3226878E427",
+      "source": "満塁のとき打力アップ。",
+      "english": "Hits better with the bases loaded.",
+      "deepl_comparison": "Batting power increases when the bases are loaded.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A09A0",
+      "source_hash": "805837F24C8B61A3",
+      "source": "１本ホームランを打っていると打力アップ。",
+      "english": "Hits better after hitting a home run in the game.",
+      "deepl_comparison": "Hitting a home run increases your batting power.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A09CC",
+      "source_hash": "57C24258B4663BE9",
+      "source": "流し方向にも強い打球が飛びやすい。",
+      "english": "Can hit the ball hard to the opposite field.",
+      "deepl_comparison": "The ball tends to fly hard even when hit to the opposite field.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A09F0",
+      "source_hash": "5322702A02EC82F1",
+      "source": "芯でとらえたとき低角度高速度低スピンの当たりが出やすい。",
+      "english": "Solid contact tends to produce fast, low-angle hits with little spin.",
+      "deepl_comparison": "When you hit the ball squarely, you’re more likely to produce a low-angle, high-speed, low-spin hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0A2C",
+      "source_hash": "24C522DD30A4704E",
+      "source": "芯でとらえたとき高スピンの当たりが出やすい。",
+      "english": "Solid contact tends to produce heavily spinning hits.",
+      "deepl_comparison": "When you hit the ball squarely, you’re more likely to generate high spin.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0A5C",
+      "source_hash": "38A95346AD0BC8A6",
+      "source": "芯でとらえたとき高角度低スピンの当たりが出やすい。",
+      "english": "Solid contact tends to produce high-angle hits with little spin.",
+      "deepl_comparison": "When you hit the ball squarely, you’re more likely to produce a high-angle, low-spin hit.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0A90",
+      "source_hash": "9FA7B9D2728267B0",
+      "source": "芯でとらえたときの弾道傾向。",
+      "english": "Typical ball trajectory on solid contact.",
+      "deepl_comparison": "Typical ball flight when hitting the sweet spot.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0AB0",
+      "source_hash": "426A9F578E8AAB25",
+      "source": "打球の強さ。",
+      "english": "How hard the player hits the ball.",
+      "deepl_comparison": "Batted ball power.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0AC0",
+      "source_hash": "9207C8BE38D0EE62",
+      "source": "この選手をＣＯＭが使ったときに流し気味に打つ。",
+      "english": "Tends to hit to the opposite field when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, he tends to swing at the ball.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0AF0",
+      "source_hash": "DEE70206C143389C",
+      "source": "この選手をＣＯＭが使ったときに引っ張り気味に打つ。",
+      "english": "Tends to pull the ball when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, he tends to pull the ball.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0B24",
+      "source_hash": "F4C3BDD40D6810E6",
+      "source": "この選手をＣＯＭが使ったときに来た球に反応して打つ。",
+      "english": "Reacts to pitches when batting under CPU control.",
+      "deepl_comparison": "When the CPU uses this player, he reacts to the incoming pitch and swings.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0B5C",
+      "source_hash": "8140C7326B90C168",
+      "source": "この選手をＣＯＭが使ったときに配球を読んで打つ。",
+      "english": "Anticipates the next pitch when batting under CPU control.",
+      "deepl_comparison": "When the CPU uses this player, read the pitch selection and swing accordingly.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0B90",
+      "source_hash": "6B4993FFE15B9633",
+      "source": "この選手をＣＯＭが使ったときに慎重に打ちにいく。",
+      "english": "Swings selectively when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, it takes a cautious approach at the plate.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0BC4",
+      "source_hash": "2FB009FF5EB78F89",
+      "source": "この選手をＣＯＭが使ったときに積極的に打ちにいく。",
+      "english": "Swings aggressively when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, it will aggressively go for hits.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0BF8",
+      "source_hash": "D952386BB661BE17",
+      "source": "この選手をＣＯＭが使ったときにミート打ちを多用する。",
+      "english": "Favors contact swings when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, it frequently uses contact hits.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0C30",
+      "source_hash": "CB6E4FDF7C2BFA2E",
+      "source": "この選手をＣＯＭが使ったときに強振を多用する。",
+      "english": "Favors power swings when controlled by the CPU.",
+      "deepl_comparison": "When the CPU uses this player, it frequently uses power swings.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0C60",
+      "source_hash": "B7BE50C66B3924CB",
+      "source": "ペナントレース中、秋に調子がいい。",
+      "english": "Tends to be in good form in the fall during a Pennant season.",
+      "deepl_comparison": "During the pennant race, he’s in good form in the fall.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0C84",
+      "source_hash": "1C34EE27FF2945D9",
+      "source": "ペナントレース中、夏に調子がいい。",
+      "english": "Tends to be in good form in the summer during a Pennant season.",
+      "deepl_comparison": "During the pennant race, the team is in good form in the summer.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0CA8",
+      "source_hash": "B6E78E35F03B0C39",
+      "source": "ペナントレース中、開幕後の調子がいい。",
+      "english": "Tends to be in good form early in a Pennant season.",
+      "deepl_comparison": "We're off to a good start in the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0CD0",
+      "source_hash": "53E3FAAE43B6418D",
+      "source": "ペナントレース中の調子が安定しやすい。",
+      "english": "Form tends to remain steady during a Pennant season.",
+      "deepl_comparison": "Performance tends to be more consistent during the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0CF8",
+      "source_hash": "119A5C6AD83CC5C6",
+      "source": "ペナントレース中の調子が変動しやすい。",
+      "english": "Form tends to fluctuate during a Pennant season.",
+      "deepl_comparison": "Form tends to fluctuate during the pennant race.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0D20",
+      "source_hash": "D2C47750B65CDEC8",
+      "source": "ペナントレース中の調子が長期的に変動しやすい。",
+      "english": "Form tends to fluctuate in long cycles during a Pennant season.",
+      "deepl_comparison": "A team's form during the pennant race tends to fluctuate over the long term.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0D50",
+      "source_hash": "28DEE8214DA9165B",
+      "source": "自分の打撃結果がチームメイトに影響する。",
+      "english": "Batting results affect teammates.",
+      "deepl_comparison": "Your batting performance affects your teammates.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0D7C",
+      "source_hash": "53F61FDB673FBC13",
+      "source": "代打時に打力アップ。",
+      "english": "Hits better as a pinch hitter.",
+      "deepl_comparison": "Batting power increases when pinch-hitting.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0D94",
+      "source_hash": "E7A80E66B8288491",
+      "source": "ランナーがいない時に打力アップ。",
+      "english": "Hits better with the bases empty.",
+      "deepl_comparison": "Batting power increases when there are no runners on base.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0DB8",
+      "source_hash": "D530D7B3BD10E81C",
+      "source": "２ストライクに追い込まれるとミート力ダウン。",
+      "english": "Contact ability drops with two strikes.",
+      "deepl_comparison": "When a batter falls behind 2-strikes, their contact ability decreases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0DE8",
+      "source_hash": "E8908BC5CAC20CEF",
+      "source": "ワンストライク取られるまで打力アップ。",
+      "english": "Hits better before the first strike.",
+      "deepl_comparison": "Improve your batting power until you get one strike.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0E10",
+      "source_hash": "A50FEF3B7D08A9F8",
+      "source": "バントがうまく転がりやすい。",
+      "english": "Lays down effective bunts.",
+      "deepl_comparison": "Bunts tend to roll well.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0E30",
+      "source_hash": "5C8B89E46BEEB5E6",
+      "source": "バントが非常にうまく転がりやすい。",
+      "english": "Lays down especially effective bunts.",
+      "deepl_comparison": "Bunts roll very smoothly.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0E54",
+      "source_hash": "D2A73877E27056D8",
+      "source": "ぎりぎりまでバットコントロールができる。",
+      "english": "Can adjust the bat until the last moment.",
+      "deepl_comparison": "You can control the bat right up to the last moment.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0E80",
+      "source_hash": "7DEAAA17289F6E0C",
+      "source": "その日に２安打していると打力アップ。",
+      "english": "Hits better after recording two hits in the game.",
+      "deepl_comparison": "If a player gets two hits on a given day, their batting power increases.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0EA8",
+      "source_hash": "7A747FF58ED3B7BE",
+      "source": "引っ張った打球が切れにくい。",
+      "english": "Pulled balls are less likely to hook foul.",
+      "deepl_comparison": "The ball doesn't lose its trajectory easily when pulled.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0EC8",
+      "source_hash": "F4FA492DE52D68A9",
+      "source": "流し打ちがフェアになりやすい。",
+      "english": "Opposite-field hits are more likely to stay fair.",
+      "deepl_comparison": "A pull hit is more likely to be a fair ball.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0EE8",
+      "source_hash": "EF8BF3FB94BB4301",
+      "source": "ヒット性の当たりが出やすい。",
+      "english": "More likely to make contact that produces a base hit.",
+      "deepl_comparison": "Hits are more likely to occur.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0F08",
+      "source_hash": "CC33DA3823E1C294",
+      "source": "得点チャンスに打力が大きく下がる。",
+      "english": "Hitting ability drops sharply with a chance to drive in a run.",
+      "deepl_comparison": "Batting performance drops significantly during scoring opportunities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0F2C",
+      "source_hash": "F33F6B2FA5DC11D8",
+      "source": "得点チャンスに打力が下がる。",
+      "english": "Hitting ability drops with a chance to drive in a run.",
+      "deepl_comparison": "Batting performance drops during scoring opportunities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0F4C",
+      "source_hash": "E94F566270BB07C9",
+      "source": "得点チャンスに打力が上がる。",
+      "english": "Hitting ability rises with a chance to drive in a run.",
+      "deepl_comparison": "Batting power increases during scoring opportunities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0F6C",
+      "source_hash": "030998414B34466D",
+      "source": "得点チャンスに打力が大きく上がる。",
+      "english": "Hitting ability rises sharply with a chance to drive in a run.",
+      "deepl_comparison": "Batting power increases significantly during scoring opportunities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0F90",
+      "source_hash": "BA24C20171037AF4",
+      "source": "左投手に対するミートのうまさ。",
+      "english": "Contact ability against left-handed pitchers.",
+      "deepl_comparison": "Ability to make solid contact against left-handed pitchers.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0FB0",
+      "source_hash": "F198332E88785575",
+      "source": "右投手に対するミートのうまさ。",
+      "english": "Contact ability against right-handed pitchers.",
+      "deepl_comparison": "Ability to make solid contact against right-handed pitchers.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0FD0",
+      "source_hash": "CE75159510516B94",
+      "source": "ストレートを１０球ベストピッチ",
+      "english": "Throw 10 fastballs with perfect release timing.",
+      "deepl_comparison": "10 fastballs—best pitch",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A0FF0",
+      "source_hash": "5386CFF8050F3F0E",
+      "source": "自責点が０点で失点３点以上（強制取得）",
+      "english": "Allow 3 or more runs with no earned runs (forced acquisition).",
+      "deepl_comparison": "0 earned runs and 3 or more runs allowed (mandatory achievement)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1018",
+      "source_hash": "E9B4600461361784",
+      "source": "登板初回から同点で来て最終イニングに失点（強制取得）",
+      "english": "Keep the score tied from the first inning of the outing, then allow a run in the final inning (forced acquisition).",
+      "deepl_comparison": "The game was tied from the first inning onward, and runs were conceded in the final inning (forced outcome).",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1050",
+      "source_hash": "F1872FACAA36E1AC",
+      "source": "動揺状態になった時に２５％の確率で条件クリア",
+      "english": "25 percent chance to meet the condition when rattled.",
+      "deepl_comparison": "There is a 25% chance of fulfilling the condition when the player is in a state of agitation.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1080",
+      "source_hash": "FF941372D6E41B1B",
+      "source": "動揺状態になった時に２５％の確率で（強制取得）",
+      "english": "25 percent chance when rattled (forced acquisition).",
+      "deepl_comparison": "When in a shaken state, there is a 25% chance of (forced acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A10B0",
+      "source_hash": "EFC8DA6D8830026F",
+      "source": "四球を出すごとに４０％の確率で（強制取得）",
+      "english": "40 percent chance per walk issued (forced acquisition).",
+      "deepl_comparison": "Every time you walk a batter, there is a 40% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A10DC",
+      "source_hash": "F28E57FA9306A3D2",
+      "source": "登板最終イニングで失点した時５０％の確率で（強制取得）",
+      "english": "50 percent chance when allowing a run in the final inning of the outing (forced acquisition).",
+      "deepl_comparison": "When a run is scored in the final inning of a pitcher’s appearance, there is a 50% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1114",
+      "source_hash": "1BACB10D863AE0B1",
+      "source": "本塁打を打たれるごとに４０％の確率で（強制取得）",
+      "english": "40 percent chance per home run allowed (forced acquisition).",
+      "deepl_comparison": "Every time you give up a home run, there is a 40% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1148",
+      "source_hash": "8AFBF036B75E09C2",
+      "source": "３イニング被本塁打数０なら３０％の確率で条件クリア",
+      "english": "30 percent chance to meet the condition after 3 innings with no home runs allowed.",
+      "deepl_comparison": "If you allow zero home runs over three innings, there is a 30% chance of clearing the condition.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A117C",
+      "source_hash": "C0BFFA35B5B6ED11",
+      "source": "併殺をとる",
+      "english": "Turn a double play.",
+      "deepl_comparison": "Make a double play",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1188",
+      "source_hash": "9384BA1353C68EA4",
+      "source": "得点圏での対戦打数が３打席以上あり、被打率が７割以上",
+      "english": "Allow a .700 average or higher over at least 3 at-bats with runners in scoring position.",
+      "deepl_comparison": "Has had at least three at-bats with runners in scoring position and a batting average against of 70 percent or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A11C0",
+      "source_hash": "1B1EAC52A7E3D982",
+      "source": "得点圏での対戦打数が２打席以上あり、被打率が４割以上",
+      "english": "Allow a .400 average or higher over at least 2 at-bats with runners in scoring position.",
+      "deepl_comparison": "Has had at least two at-bats with runners in scoring position and a batting average of .400 or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A11F8",
+      "source_hash": "316363ADB3B67596",
+      "source": "得点圏での対戦打数が４打席以上あり、被打率が０割",
+      "english": "Allow no hits over at least 4 at-bats with runners in scoring position.",
+      "deepl_comparison": "Has had at least four at-bats with runners in scoring position and a batting average of 0割",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A122C",
+      "source_hash": "F8C0DD9B0C193B50",
+      "source": "得点圏での対戦打数が６打席以上あり、被打率が０割",
+      "english": "Allow no hits over at least 6 at-bats with runners in scoring position.",
+      "deepl_comparison": "Has had 6 or more at-bats with runners in scoring position and a batting average of 0割",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1260",
+      "source_hash": "E0D0C7F1073321B6",
+      "source": "先発調整力Ｃからスピリッツが必要",
+      "english": "Starter Conditioning C or higher requires Spirits.",
+      "deepl_comparison": "Requires \"Spirits\" to improve Starting Pitcher Adjustment Ability from C",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1284",
+      "source_hash": "F8CE8280F8AF0E37",
+      "source": "ストレートを本塁打される（強制取得）",
+      "english": "Allow a home run on a fastball (forced acquisition).",
+      "deepl_comparison": "Get hit for a home run on a fastball (mandatory event)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A12AC",
+      "source_hash": "8DF7AF6DF16791AD",
+      "source": "クリーンナップはノーヒットで被安打４以上（強制取得）",
+      "english": "Allow at least 4 hits, but none to the middle of the order (forced acquisition).",
+      "deepl_comparison": "The cleanup hitters went hitless and allowed 4 or more hits (mandatory achievement)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A12E4",
+      "source_hash": "6C929C3E6F3C7849",
+      "source": "登板初回に失点した時５０％の確率で（強制取得）",
+      "english": "50 percent chance when allowing a run in the first inning of the outing (forced acquisition).",
+      "deepl_comparison": "When a run is allowed in the first inning of a start, there is a 50% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1314",
+      "source_hash": "18D8A1CE97DF8FA8",
+      "source": "イニングごとに被安打が減れば条件クリア",
+      "english": "Meet the condition by allowing fewer hits in each successive inning.",
+      "deepl_comparison": "If the number of hits allowed decreases in each inning, the condition is met.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A133C",
+      "source_hash": "746A13DAD0CAEF23",
+      "source": "５連続被安打、または４失点以上（強制取得）",
+      "english": "Allow 5 consecutive hits or at least 4 runs (forced acquisition).",
+      "deepl_comparison": "5 consecutive hits allowed, or 4 or more runs allowed (mandatory achievement)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1368",
+      "source_hash": "5F3D42B503BC99E7",
+      "source": "被安打４以上で無失点",
+      "english": "Allow at least 4 hits without allowing a run.",
+      "deepl_comparison": "Allowed 4 or more hits but no runs",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1380",
+      "source_hash": "B3E8AB48D11068AD",
+      "source": "スタミナＤから３上がる毎にスピリッツが必要",
+      "english": "From Stamina D, Spirits are required for each increase of 3.",
+      "deepl_comparison": "Spirits are required for every 3-point increase in Stamina starting from D.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A13AC",
+      "source_hash": "F93CC61268C42DAB",
+      "source": "３イニング投げ、ノーヒット無失点",
+      "english": "Pitch 3 innings without allowing a hit or a run.",
+      "deepl_comparison": "Pitched three innings, no hits, no runs allowed",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A13D0",
+      "source_hash": "C6025CCBA40F2276",
+      "source": "存在感を持って３イニング投げ、パーフェクト",
+      "english": "With Presence, pitch 3 perfect innings.",
+      "deepl_comparison": "He pitched three innings with a commanding presence, throwing a perfect game.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A13FC",
+      "source_hash": "0753CED3D9BA2BBE",
+      "source": "失点が自責点より多く、試合にも負ける（強制取得）",
+      "english": "Allow more runs than earned runs and lose the game (forced acquisition).",
+      "deepl_comparison": "You give up more runs than earned runs and lose the game (mandatory outcome)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1430",
+      "source_hash": "0B3BA7A15781B016",
+      "source": "失点が３点以上で勝利投手",
+      "english": "Earn the win while allowing at least 3 runs.",
+      "deepl_comparison": "Winning pitcher when three or more runs are allowed",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A144C",
+      "source_hash": "BDB86EE51BC431EF",
+      "source": "ベストピッチを２０球",
+      "english": "Throw 20 pitches with perfect release timing.",
+      "deepl_comparison": "20 best pitches",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1464",
+      "source_hash": "5421843714A12AE7",
+      "source": "牽制をする",
+      "english": "Make a pickoff throw.",
+      "deepl_comparison": "To throw a pickoff",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1470",
+      "source_hash": "32986F844493867E",
+      "source": "６奪三振",
+      "english": "Record 6 strikeouts.",
+      "deepl_comparison": "6 strikeouts",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A147C",
+      "source_hash": "A7AA09B5804FBB6C",
+      "source": "盗塁されるごとに５０％の確率で（強制取得）",
+      "english": "50 percent chance per stolen base allowed (forced acquisition).",
+      "deepl_comparison": "Each time a stolen base is allowed, there is a 50% chance of (forced acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A14A8",
+      "source_hash": "4C129F2D9315EFC8",
+      "source": "３イニング被盗塁数０なら３０％の確率で条件クリア",
+      "english": "30 percent chance to meet the condition after 3 innings with no stolen bases allowed.",
+      "deepl_comparison": "If there are 0 stolen bases allowed over 3 innings, there is a 30% chance of clearing the condition.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A14DC",
+      "source_hash": "3710A236EB4B3CE2",
+      "source": "左打者との対戦打数が３打席以上あり、被打率が７割以上",
+      "english": "Allow a .700 average or higher over at least 3 at-bats against left-handed hitters.",
+      "deepl_comparison": "Has faced left-handed batters in at least three at-bats and has a batting average against of 70 percent or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1514",
+      "source_hash": "E706EA3DAE977BBC",
+      "source": "（強制取得）",
+      "english": "(forced acquisition)",
+      "deepl_comparison": "(Required)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1524",
+      "source_hash": "662F2BAEEA61F3A4",
+      "source": "左打者との対戦打数が２打席以上あり、被打率が４割以上",
+      "english": "Allow a .400 average or higher over at least 2 at-bats against left-handed hitters.",
+      "deepl_comparison": "Has faced left-handed batters in at least two at-bats and has a batting average against of .400 or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A155C",
+      "source_hash": "E75D730D20B39F8C",
+      "source": "左打者との対戦打数が４打席以上あり、被打率が０割",
+      "english": "Allow no hits over at least 4 at-bats against left-handed hitters.",
+      "deepl_comparison": "Has faced left-handed batters in at least four at-bats, with a batting average against of 0.000",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1590",
+      "source_hash": "FD1DC6616F8D775A",
+      "source": "左打者との対戦打数が６打席以上あり、被打率が０割",
+      "english": "Allow no hits over at least 6 at-bats against left-handed hitters.",
+      "deepl_comparison": "Has faced left-handed batters in at least 6 at-bats, with a batting average against of 0割",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A15C4",
+      "source_hash": "48B8AECB0094CAB8",
+      "source": "球速１５０ｋｍ／ｈからスピリッツが必要",
+      "english": "Spirits are required to raise velocity to 150 km/h or higher.",
+      "deepl_comparison": "You need \"Spirits\" for pitches faster than 150 km/h.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A15EC",
+      "source_hash": "A87D370EBAC8AB55",
+      "source": "内野手であること",
+      "english": "Must be an infielder.",
+      "deepl_comparison": "Being an infielder",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1600",
+      "source_hash": "40895018E4B278B6",
+      "source": "二塁手か遊撃手であること",
+      "english": "Must be a second baseman or shortstop.",
+      "deepl_comparison": "Must be a second baseman or shortstop",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A161C",
+      "source_hash": "F110C13A71E97306",
+      "source": "スローイングＣ以上",
+      "english": "Throwing Accuracy C or higher.",
+      "deepl_comparison": "Throwing C or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1630",
+      "source_hash": "DECB24F35DFE7BDE",
+      "source": "二塁手であること",
+      "english": "Must be a second baseman.",
+      "deepl_comparison": "Being a second baseman",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1644",
+      "source_hash": "C28184310AC1996C",
+      "source": "捕球Ｄ以上",
+      "english": "Catching D or higher.",
+      "deepl_comparison": "Catching D or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1650",
+      "source_hash": "96024C0D92BFEFF8",
+      "source": "一塁手であること",
+      "english": "Must be a first baseman.",
+      "deepl_comparison": "Being a first baseman",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1664",
+      "source_hash": "6BC17AC232339559",
+      "source": "スローイングＤ以上",
+      "english": "Throwing Accuracy D or higher.",
+      "deepl_comparison": "Throwing D or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1678",
+      "source_hash": "3C84879EA9CE97C8",
+      "source": "投手か一塁手か三塁手であること",
+      "english": "Must be a pitcher, first baseman, or third baseman.",
+      "deepl_comparison": "Must be a pitcher, first baseman, or third baseman",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1698",
+      "source_hash": "0E1BD8213DCD451F",
+      "source": "肩力Ｃ以上",
+      "english": "Arm Strength C or higher.",
+      "deepl_comparison": "Arm Strength C or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A16A4",
+      "source_hash": "4513F48C722C1965",
+      "source": "外野手であること",
+      "english": "Must be an outfielder.",
+      "deepl_comparison": "Being an outfielder",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A16B8",
+      "source_hash": "9CF0EC747165AE5F",
+      "source": "守備適性Ｄ以上",
+      "english": "Fielding Affinity D or higher.",
+      "deepl_comparison": "Defensive Ability D or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A16C8",
+      "source_hash": "5CA112F5E136506C",
+      "source": "守備適性Ｃ以上",
+      "english": "Fielding Affinity C or higher.",
+      "deepl_comparison": "Defensive Aptitude C or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A16D8",
+      "source_hash": "E20BC23D632815BC",
+      "source": "捕手であること",
+      "english": "Must be a catcher.",
+      "deepl_comparison": "Being a Catcher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A16E8",
+      "source_hash": "61B1067376BFB245",
+      "source": "肩力Ｃからスピリッツが必要",
+      "english": "Spirits are required to raise Arm Strength to C or higher.",
+      "deepl_comparison": "Requires \"Spirits\" starting from Shoulder Strength C",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1704",
+      "source_hash": "B0DD1E9D7F74E105",
+      "source": "捕球Ｃからスピリッツが必要",
+      "english": "Spirits are required to raise Catching to C or higher.",
+      "deepl_comparison": "Spirits are required for Fielding C.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1720",
+      "source_hash": "A675FDDC284731C0",
+      "source": "スローイングＣからスピリッツが必要",
+      "english": "Spirits are required to raise Throwing Accuracy to C or higher.",
+      "deepl_comparison": "You need Spirits to advance from Throwing C.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1744",
+      "source_hash": "32C625A5A880E08B",
+      "source": "初回習得と守備適性Ｃからスピリッツが必要",
+      "english": "Spirits required for new positions or Fielding Affinity C or higher.",
+      "deepl_comparison": "Requires Spirits to acquire this ability for the first time and for defensive aptitude C.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1770",
+      "source_hash": "9E1F6D72352DB48A",
+      "source": "投手以外であること",
+      "english": "Must be a position player.",
+      "deepl_comparison": "Not a pitcher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1784",
+      "source_hash": "7A31260F741BEA52",
+      "source": "守備適性Ｃからスピリッツが必要",
+      "english": "Fielding Affinity C or higher requires Spirits.",
+      "deepl_comparison": "Requires \"Spirits\" for Defense Aptitude C",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17A4",
+      "source_hash": "07CF6E541251B771",
+      "source": "投手であること",
+      "english": "Must be a pitcher.",
+      "deepl_comparison": "Being a Pitcher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17B4",
+      "source_hash": "2CDC05822F20A22E",
+      "source": "内野安打２本打つ",
+      "english": "Record 2 infield hits.",
+      "deepl_comparison": "Hit two infield singles",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17C8",
+      "source_hash": "A047B85ECA2BA0EB",
+      "source": "走力Ｄ以上",
+      "english": "Speed D or higher.",
+      "deepl_comparison": "Speed D or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17D4",
+      "source_hash": "0A76DF6328F9C4E8",
+      "source": "走力Ｃ以上",
+      "english": "Speed C or higher.",
+      "deepl_comparison": "Speed C or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17E0",
+      "source_hash": "8BA3B638FCF098CD",
+      "source": "走力Ｂ以上",
+      "english": "Speed B or higher.",
+      "deepl_comparison": "Speed B or higher",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A17EC",
+      "source_hash": "1706C246A67EE5A6",
+      "source": "（ケガしにくさ２を持ってること）",
+      "english": "(Requires Durability 2.)",
+      "deepl_comparison": "(Must have Injury Resistance Level 2)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1810",
+      "source_hash": "200A3DF203A91C9D",
+      "source": "死球を受けると２５％の確率で（強制取得）",
+      "english": "25 percent chance when hit by a pitch (forced acquisition).",
+      "deepl_comparison": "When hit by a pitch, there is a 25% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A183C",
+      "source_hash": "8A6B496A156CEEF4",
+      "source": "（ケガしにくさ４を持ってること）",
+      "english": "(Requires Durability 4.)",
+      "deepl_comparison": "(Having an Injury Resistance rating of 4)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1860",
+      "source_hash": "81AEA5D86F22EED6",
+      "source": "死球を受けると２５％の確率で条件クリア",
+      "english": "25 percent chance to meet the condition when hit by a pitch.",
+      "deepl_comparison": "If a player is hit by a pitch, there is a 25% chance that the condition will be met.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1888",
+      "source_hash": "408610BBE3FDC676",
+      "source": "疲労回復力Ｃからスピリッツが必要",
+      "english": "Fatigue Recovery C or higher requires Spirits.",
+      "deepl_comparison": "You need Spirits to increase Fatigue Recovery to C.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A18AC",
+      "source_hash": "BDD2784097510626",
+      "source": "走力Ｃからスピリッツが必要",
+      "english": "Spirits are required to raise Speed to C or higher.",
+      "deepl_comparison": "Spirits are required for Speed C and above",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A18C8",
+      "source_hash": "68F7EF28069A29D1",
+      "source": "８塁打で勝つと５０％の確率で条件クリア",
+      "english": "50 percent chance to meet the condition by winning with 8 total bases.",
+      "deepl_comparison": "If you win with an 8-base hit, there is a 50% chance of clearing the condition.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A18F0",
+      "source_hash": "024C32F6C3CF40D4",
+      "source": "存在感を持って１０塁打で勝つと５０％の確率で条件クリア",
+      "english": "With Presence, a 50 percent chance to meet the condition by winning with 10 total bases.",
+      "deepl_comparison": "If you win with 10 hits while making a strong impression, there is a 50% chance of clearing the condition.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1928",
+      "source_hash": "D7D050D237A546BA",
+      "source": "初回先頭打者ホームランを打つ",
+      "english": "Hit a home run leading off the first inning.",
+      "deepl_comparison": "Hit a leadoff home run in the first inning",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1948",
+      "source_hash": "CB00443DCEFF49B3",
+      "source": "７回以降、負けている状態で１本塁打か２打点",
+      "english": "Hit a home run or drive in 2 runs while trailing in the seventh inning or later.",
+      "deepl_comparison": "In the 7th inning or later, while trailing, hit one home run or drive in two runs",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1974",
+      "source_hash": "1F64D7FCAA956E84",
+      "source": "サヨナラの状態で１本塁打",
+      "english": "Hit a walk-off home run.",
+      "deepl_comparison": "A walk-off home run",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1990",
+      "source_hash": "7726CBCC37D9AA3E",
+      "source": "満塁の状態で１本塁打",
+      "english": "Hit a grand slam.",
+      "deepl_comparison": "A home run with the bases loaded",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A19A8",
+      "source_hash": "54F5AB69AF3CE547",
+      "source": "２本塁打",
+      "english": "Hit 2 home runs.",
+      "deepl_comparison": "2 home runs",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A19B4",
+      "source_hash": "E766B034F6BC57B7",
+      "source": "連発を持って２本塁打",
+      "english": "With Repeat Power, hit 2 home runs.",
+      "deepl_comparison": "Hit two home runs in quick succession",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A19CC",
+      "source_hash": "B6F297344BCB341F",
+      "source": "流し方向に１本塁打",
+      "english": "Hit an opposite-field home run.",
+      "deepl_comparison": "One home run to the opposite field",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A19E0",
+      "source_hash": "BBE0C2371325759D",
+      "source": "９塁打打つ",
+      "english": "Record 9 total bases.",
+      "deepl_comparison": "Hit a 9-base hit",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A19EC",
+      "source_hash": "8858C8A0B8513FFB",
+      "source": "スピリッツが必要",
+      "english": "Requires Spirits.",
+      "deepl_comparison": "You need Spirits",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1A00",
+      "source_hash": "4F009B163C962AD9",
+      "source": "パワーＣから１０上がる毎にスピリッツが必要",
+      "english": "From Power C, Spirits are required for each increase of 10.",
+      "deepl_comparison": "For every 10-point increase in Power C, Spirits are required.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1A2C",
+      "source_hash": "528DADA56427F7D8",
+      "source": "３安打で勝つ、または無安打で負ける",
+      "english": "Win with 3 hits, or lose without a hit.",
+      "deepl_comparison": "Win with three hits, or lose without a single hit",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1A50",
+      "source_hash": "08F088EC20E5747D",
+      "source": "走者がいない状態で２安打",
+      "english": "Record 2 hits with the bases empty.",
+      "deepl_comparison": "Two hits with no runners on base",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1A6C",
+      "source_hash": "8A2AEADEA03BA5A9",
+      "source": "三振すると４０％の確率で（強制取得）",
+      "english": "40 percent chance per strikeout (forced acquisition).",
+      "deepl_comparison": "If you strike out, there is a 40% chance of (mandatory acquisition)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1A94",
+      "source_hash": "A6F38C24565D3734",
+      "source": "初球をヒット",
+      "english": "Get a hit on the first pitch.",
+      "deepl_comparison": "Hit the first pitch",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AA4",
+      "source_hash": "CF0374519E0F8840",
+      "source": "条件なし",
+      "english": "No requirements.",
+      "deepl_comparison": "No conditions",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AB0",
+      "source_hash": "27A5CAECAB76EC2A",
+      "source": "犠打１本",
+      "english": "Record 1 sacrifice bunt.",
+      "deepl_comparison": "1 sacrifice bunt",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1ABC",
+      "source_hash": "1B6D99ECA3893D29",
+      "source": "犠打２本",
+      "english": "Record 2 sacrifice bunts.",
+      "deepl_comparison": "2 sacrifice bunts",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AC8",
+      "source_hash": "127278EC9E5BCD44",
+      "source": "犠打３本",
+      "english": "Record 3 sacrifice bunts.",
+      "deepl_comparison": "3 sacrifice bunts",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AD4",
+      "source_hash": "4128B1941DEC1AAE",
+      "source": "一打席の被投球数１０球以上",
+      "english": "See at least 10 pitches in one plate appearance.",
+      "deepl_comparison": "10 or more pitches faced in a single at-bat",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AF0",
+      "source_hash": "96A07F64538AF436",
+      "source": "連続３安打",
+      "english": "Record 3 consecutive hits.",
+      "deepl_comparison": "Three consecutive hits",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1AFC",
+      "source_hash": "FE3AFF94DDB82CE7",
+      "source": "引っ張り方向に２安打",
+      "english": "Record 2 hits to the pull side.",
+      "deepl_comparison": "Two hits to the pull side",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1B14",
+      "source_hash": "45E0256CFE213EC5",
+      "source": "流し方向に２安打",
+      "english": "Record 2 opposite-field hits.",
+      "deepl_comparison": "Two hits to the opposite field",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1B28",
+      "source_hash": "E865942A530334D2",
+      "source": "４安打する",
+      "english": "Record 4 hits.",
+      "deepl_comparison": "Get 4 hits",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1B34",
+      "source_hash": "29044A7A6E772C98",
+      "source": "得点圏に走者がいるときに３凡打（強制取得）",
+      "english": "Make 3 outs with runners in scoring position (forced acquisition).",
+      "deepl_comparison": "Three outs with a runner in scoring position (mandatory)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1B60",
+      "source_hash": "051700FAFB358BA1",
+      "source": "得点圏に走者がいるときに２凡打（強制取得）",
+      "english": "Make 2 outs with runners in scoring position (forced acquisition).",
+      "deepl_comparison": "Two outs with a runner in scoring position (mandatory)",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1B8C",
+      "source_hash": "3A09F2975F84B15D",
+      "source": "得点圏に走者がいるときに２安打",
+      "english": "Record 2 hits with runners in scoring position.",
+      "deepl_comparison": "Two hits with runners in scoring position",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1BAC",
+      "source_hash": "49F657F866763DBC",
+      "source": "得点圏に走者がいるときに３安打",
+      "english": "Record 3 hits with runners in scoring position.",
+      "deepl_comparison": "Three hits with runners in scoring position",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1BCC",
+      "source_hash": "8E0DF753FAD15142",
+      "source": "対左ミートＣからスピリッツが必要",
+      "english": "Spirits are required to raise Contact vs LHP to C or higher.",
+      "deepl_comparison": "Requires \"Spirits\" to improve \"C\" in hitting against left-handed pitchers",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A1BF0",
+      "source_hash": "79D90104B604E1CB",
+      "source": "対右ミートＣからスピリッツが必要",
+      "english": "Spirits are required to raise Contact vs RHP to C or higher.",
+      "deepl_comparison": "Requires \"Spirits\" to hit against right-handed pitchers with a \"C\" contact rating",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A22C8",
+      "source_hash": "F979F17AE5EE2948",
+      "source": "能力アップを終了します。よろしいですか？",
+      "english": "Finish upgrading abilities?",
+      "deepl_comparison": "You are about to finish the ability upgrade. Are you sure?",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A22FC",
+      "source_hash": "7DFFEE28988E6043",
+      "source": "今、購入した内容を元に戻します。",
+      "english": "Undo your most recent purchase.",
+      "deepl_comparison": "I will now revert my recent purchase.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A2320",
+      "source_hash": "C6DBCB671A24D771",
+      "source": "購入した能力をすべてキャンセルします。",
+      "english": "Cancel all ability purchases.",
+      "deepl_comparison": "Cancel all purchased abilities.",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A24DC",
+      "source_hash": "2D29F7029F8A265E",
+      "source": "起用予定　　スタメン",
+      "english": "Planned Role: Starting Lineup",
+      "deepl_comparison": "Scheduled Lineup　　Starting Lineup",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A24F4",
+      "source_hash": "5A05BC966C060DD0",
+      "source": "起用予定　先発で３イニング",
+      "english": "Planned Role: Start, Pitch 3 Innings",
+      "deepl_comparison": "Scheduled to start: 3 innings",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A2510",
+      "source_hash": "F2A999993797C27B",
+      "source": "起用予定　４回から３イニング",
+      "english": "Planned Role: Pitch Innings 4-6",
+      "deepl_comparison": "Scheduled to pitch: 3 innings starting in the 4th inning",
+      "meaning_reviewed": true
+    },
+    {
+      "address": "0x820A2530",
+      "source_hash": "24AE9A3F3CDA46A4",
+      "source": "起用予定　７回から３イニング",
+      "english": "Planned Role: Pitch Innings 7-9",
+      "deepl_comparison": "Scheduled to pitch: 3 innings starting in the 7th inning",
+      "meaning_reviewed": true
+    }
+  ],
+  "native_text_associations": [
+    {
+      "english_ability": "Pull Tendency",
+      "tooltip_name_pointer": "0x82854228",
+      "tooltip_description_pointer": "0x828543D8",
+      "editor_name_pointer": "0x827DC960",
+      "editor_description_pointer": "0x827DD3A8",
+      "native_label_address": "0x82066908",
+      "native_label": "引っ張り傾向",
+      "native_tooltip": "引っ張り傾向\nＣＯＭが操作したときチームプレイは特に考えない",
+      "native_editor_description": "この選手をＣＯＭが使ったときに引っ張り気味に打つ。"
+    },
+    {
+      "english_ability": "Late Flame",
+      "tooltip_name_pointer": "0x82854214",
+      "tooltip_description_pointer": "0x828543C4",
+      "editor_name_pointer": "0x827DCB48",
+      "editor_description_pointer": "0x827DD590",
+      "native_label_address": "0x82066948",
+      "native_label": "接戦",
+      "native_tooltip": "接戦\n試合終盤、接戦でなければ力を発揮する",
+      "native_editor_description": "試合終盤、接戦でなければ力を発揮する。"
+    }
+  ],
+  "neighboring_tooltip_table_pairs_verified": [
+    {
+      "name": "シュート回転",
+      "description": "シュート回転\n投球がシュート回転し打たれやすくなる"
+    },
+    {
+      "name": "人気",
+      "description": "人気\nファンからの人気が高い"
+    },
+    {
+      "name": "チームプレイ",
+      "description": "チームプレイ\nＣＯＭが操作したときチームプレイに徹しようとする"
+    },
+    {
+      "name": "引っ張り傾向",
+      "description": "引っ張り傾向\nＣＯＭが操作したときチームプレイは特に考えない"
+    },
+    {
+      "name": "流し打ち傾向",
+      "description": "流し打ち傾向\nＣＯＭが操作したとき流し打つことが多い"
+    },
+    {
+      "name": "強振多用",
+      "description": "強振多用\nＣＯＭが操作したときよく強振する"
+    },
+    {
+      "name": "ミート多用",
+      "description": "ミート多用\nＣＯＭが操作したときよくミート打ちする"
+    }
+  ],
+  "pull_tendency_source_erratum": {
+    "native_tooltip_address": "0x820658FC",
+    "native_editor_description_address": "0x820A0AF0",
+    "decision": "Use the pull-hitting effect from the editor entry paired with the same native ability name. The original tooltip wrongly describes disregarding team tactics.",
+    "fragment_source": "ＣＯＭが操作したときチームプレイは特に考えない",
+    "fragment_source_hash": "479BD14C2B8CF3F3",
+    "previous_fragment_english": "The CPU gives little consideration to team tactics.",
+    "english": "The CPU tends to pull the ball.",
+    "independent_native_occurrences_of_erroneous_sentence": 1
+  },
+  "official_2026_references": [
+    {
+      "namespace": "Common",
+      "key": "common_ui_com_aptitude",
+      "japanese": "守備適性",
+      "english": "FLD Affinity"
+    },
+    {
+      "namespace": "Common",
+      "key": "common_ui_com_sessen",
+      "japanese": "接戦",
+      "english": "Late Flame"
+    },
+    {
+      "namespace": "EditShare",
+      "key": "eds_conditionspecified_item_text_0013",
+      "japanese": "守備適性",
+      "english": "Fielding Affinity"
+    },
+    {
+      "namespace": "Spirits",
+      "key": "spirits_abi_name_crossgame",
+      "japanese": "接戦",
+      "english": "Late Flame"
+    }
+  ],
+  "texture_changes": [
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_COM_rai.tsr",
+      "index": 70,
+      "source": "接戦",
+      "previous_english": "Close Game",
+      "english": "Late Flame",
+      "rect": [
+        200,
+        260,
+        50,
+        26
+      ]
+    },
+    {
+      "member": "GAME2D.CHK",
+      "texture": "GAME_MAT_toku00.tsr",
+      "index": 70,
+      "source": "接戦",
+      "previous_english": "Close",
+      "english": "Flame",
+      "rect": [
+        211,
+        232,
+        31,
+        17
+      ]
+    },
+    {
+      "member": "SLOT.CHK",
+      "texture": "SLOT_RKslot_tk_c.tsr",
+      "index": 35,
+      "source": "接戦",
+      "previous_english": "Close Game",
+      "english": "Late Flame",
+      "rect": [
+        340,
+        440,
+        168,
+        40
+      ]
+    }
+  ],
+  "staged_members": [
+    {
+      "member": "GAME2D.CHK",
+      "offset": 970651648,
+      "size": 2327728,
+      "before_sha256": "e2e2cc1f4b784ae13ee4c3ff53bf955477b1620b312d2c07c96cf8c5a1347422",
+      "after_sha256": "c3abe6336c3270ed08577bafb040edae6cf480e50645848fed265d18a34f8c78",
+      "revised_atlases": [
+        "GAME_COM_rai.tsr",
+        "GAME_MAT_toku00.tsr"
+      ],
+      "other_surface_payloads_unchanged": 68
+    },
+    {
+      "member": "SLOT.CHK",
+      "offset": 1330083840,
+      "size": 645136,
+      "before_sha256": "8d3bd2864bb434100bef1577a3c0a6fe3066e7d320e8e4c9ecf9a9796c5e16a8",
+      "after_sha256": "f548b04ce67fa39ef4d26d4158ab70b48fd1db4e4e5623e9da861f5f452c17a8",
+      "revised_atlases": [
+        "SLOT_RKslot_tk_c.tsr"
+      ],
+      "other_surface_payloads_unchanged": 14
+    }
+  ],
+  "review_checks": [
+    "Arm-side and glove-side pitch categories use the pitcher, not the batter, as the reference.",
+    "Level 4, grade C and 150 km/h thresholds include the named boundary; the source does not mean strictly after it.",
+    "Pitching crisis and left-handed-batter modifiers preserve large/small increases and decreases.",
+    "CPU batting/pitch-selection preferences remain conditional on CPU control.",
+    "Catcher fielding, throw speed, throw accuracy, range, baserunning jumps and Durability remain distinct.",
+    "RISP batting outcomes, left-handed matchups, bases-empty hits and first-pitch hits retain separate conditions.",
+    "Keep 25/30/40/50 percent probabilities and forced acquisition distinct from meeting a condition.",
+    "Hits, runs, earned runs, innings, at-bats and total bases remain different measures.",
+    "Keep 3 perfect innings distinct from no hits/no runs, which does not rule out walks.",
+    "Acquisition bonuses preserve Presence, Repeat Power and Durability 2/4 prerequisites.",
+    "Comeback acquisition requires seventh inning or later; leading off means the first inning.",
+    "Fielding Affinity is the full stat term in position-grade requirements; existing compact Fielding labels are retained.",
+    "New position acquisition and grade-C affinity improvement both require Spirits.",
+    "Planned three-inning relief assignments remain innings 4-6 and 7-9.",
+    "The not-close condition is retained in both native descriptions. Late Flame follows the official name without changing the condition."
+  ],
+  "all_source_hashes_sizes_addresses_and_statuses_unchanged": true,
+  "all_unrelated_catalogue_rows_unchanged": true,
+  "all_changed_native_line_counts_unchanged": true,
+  "layout_estimate_scope": "Arial 16 px summed glyph advances. Most revised prose is shorter; affinity threshold labels grow to 197 px, and the long new-position requirement shrinks from 554 to 451 px. Actual fit remains pending.",
+  "compiled_expected_exact_cases": 259,
+  "compiled_checks_passed": true,
+  "curation_reproduction_checks": 257,
+  "curation_checks_passed": true,
+  "fragment_curation_check_passed": true,
+  "review_merger_check_passed": true,
+  "windows_build_passed": true,
+  "decoded_texture_previews_visually_inspected": true,
+  "english_archive_installed": true,
+  "full_archive_verified": true,
+  "all_bytes_outside_three_label_regions_unchanged": true,
+  "all_other_surface_payloads_unchanged": true,
+  "original_game_data_unchanged": true,
+  "protected_stadium_ads_credits_and_logos_unchanged": true,
+  "native_text_association_verified": true,
+  "native_ability_logic_executed": false,
+  "cache_only_comparison": true,
+  "no_new_service_requests": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "pending": [
+    "Live ability editor requirements, long condition lines, Fielding Affinity labels and Late Flame badge placement.",
+    "Live CPU pull tendency and Late Flame behavior; the static evidence above establishes text association, not executed ability logic.",
+    "Remaining mode/event discovery, names and accuracy/placement review."
+  ],
+  "archive_index_unchanged": true,
+  "selected_member_readback_verified": true,
+  "windows_executable_sha256": "0f317bd9506bc0f78fc883b159a7e392c8a5c8cc2f92b65abb30e512cd49c04d",
+  "generated_header_sha256": "48951909aede3af18f966c412063e74f785d2fb43fe4b50bfc8b8f22534f1efa",
+  "verified_archive_members": 2223,
+  "untouched_archive_members_verified": 2112,
+  "localized_archive_members": 111,
+  "localized_atlases": 263,
+  "localized_texture_labels": 2098,
+  "packed_text_slots_verified": 83,
+  "pennant_event_titles_verified": 187,
+  "pennant_additional_fields_verified": 753
+}
