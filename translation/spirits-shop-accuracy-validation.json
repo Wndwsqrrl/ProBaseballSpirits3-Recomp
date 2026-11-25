@@ -1,0 +1,1537 @@
+{
+  "date": "2026-11-25",
+  "comparison_commit": "a7fa4159a0ed3ec2421fa6ff20841af175775489",
+  "native_fields_source_context_reviewed": 195,
+  "distinct_sources_with_cached_deepl_response": 195,
+  "newly_context_reviewed_deepl_inputs": 195,
+  "total_context_reviewed_deepl_inputs": 1801,
+  "native_wording_corrections": 12,
+  "changes": [
+    {
+      "address": "0x820A37A4",
+      "source": "「高校・大学・社会人・同学年」の連携マ",
+      "previous_english": "Look for links: school, university, company, or age.",
+      "english": "Link marks: high school, college, company, or age.",
+      "reason": "Specify the high-school link separately from college; preserve the four original link categories.",
+      "previous_estimated_width_px": 355.0,
+      "estimated_width_px": 357.0
+    },
+    {
+      "address": "0x820A3E14",
+      "source": "対戦モード→ジャイアンツ→後攻で使用可能。",
+      "previous_english": "Exhibition / Giants / Home.",
+      "english": "Exhibition / Giants / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 188.0,
+      "estimated_width_px": 203.0
+    },
+    {
+      "address": "0x820A3E40",
+      "source": "対戦モード→マリーンズ→後攻で使用可能。",
+      "previous_english": "Exhibition / Marines / Home.",
+      "english": "Exhibition / Marines / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 199.0,
+      "estimated_width_px": 214.0
+    },
+    {
+      "address": "0x820A3E6C",
+      "source": "対戦モード→ライオンズ→先攻で使用可能。",
+      "previous_english": "Exhibition / Lions / Away.",
+      "english": "Exhibition / Lions / Bat First.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 178.0,
+      "estimated_width_px": 197.0
+    },
+    {
+      "address": "0x820A3E98",
+      "source": "対戦モード→ライオンズ→後攻で使用可能。",
+      "previous_english": "Exhibition / Lions / Home.",
+      "english": "Exhibition / Lions / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 181.0,
+      "estimated_width_px": 196.0
+    },
+    {
+      "address": "0x820A3EC4",
+      "source": "対戦モード→ベイスターズ→先攻で使用可能。",
+      "previous_english": "Exhibition / BayStars / Away.",
+      "english": "Exhibition / BayStars / Bat First.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 204.0,
+      "estimated_width_px": 223.0
+    },
+    {
+      "address": "0x820A3EF0",
+      "source": "対戦モード→ベイスターズ→後攻で使用可能。",
+      "previous_english": "Exhibition / BayStars / Home.",
+      "english": "Exhibition / BayStars / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 207.0,
+      "estimated_width_px": 222.0
+    },
+    {
+      "address": "0x820A3F1C",
+      "source": "対戦モード→バファローズ→先攻で使用可能。",
+      "previous_english": "Exhibition / Buffaloes / Away.",
+      "english": "Exhibition / Buffaloes / Bat First.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 206.0,
+      "estimated_width_px": 225.0
+    },
+    {
+      "address": "0x820A3F5C",
+      "source": "対戦モード→バファローズ→後攻で使用可能。",
+      "previous_english": "Exhibition / Buffaloes / Home.",
+      "english": "Exhibition / Buffaloes / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 209.0,
+      "estimated_width_px": 224.0
+    },
+    {
+      "address": "0x820A3F88",
+      "source": "対戦モード→ファイターズ→先攻で使用可能。",
+      "previous_english": "Exhibition / Fighters / Away.",
+      "english": "Exhibition / Fighters / Bat First.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 197.0,
+      "estimated_width_px": 216.0
+    },
+    {
+      "address": "0x820A3FCC",
+      "source": "対戦モード→ファイターズ→後攻で使用可能。",
+      "previous_english": "Exhibition / Fighters / Home.",
+      "english": "Exhibition / Fighters / Bat Last.",
+      "reason": "Name the original bat-order selection and agree with the reviewed 2006 team selectors.",
+      "previous_estimated_width_px": 200.0,
+      "estimated_width_px": 215.0
+    },
+    {
+      "address": "0x820A4D78",
+      "source": "壁紙／市民球場・Ａ",
+      "previous_english": "Wallpaper: Hiroshima Municipal A",
+      "english": "Wallpaper: Municipal Stadium A",
+      "reason": "The original generic municipal-stadium title does not name Hiroshima. Keep it distinct from the explicit Hiroshima Municipal source.",
+      "previous_estimated_width_px": 242.0,
+      "estimated_width_px": 228.0
+    }
+  ],
+  "reviewed_cases": [
+    {
+      "address": "0x820A3030",
+      "source": "ゲームセット！",
+      "english": "Ballgame!",
+      "deepl_comparison": "Game over!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3040",
+      "source": "勝つことも大切。チームを勝利に導くプレイを心掛けましょう！",
+      "english": "so try to make plays that help your team win!",
+      "deepl_comparison": "Winning is important. Aim to play in a way that leads your team to victory!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A307C",
+      "source": "評価はプレイヤーの個人成績が重要ですが、オープン戦とはいえ",
+      "english": "Individual stats matter, but winning does too,",
+      "deepl_comparison": "While player performance is a key factor in evaluations, even though these are just exhibition games,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A30B8",
+      "source": "が評価対象です。少ないチャンスを確実にモノにしてください。",
+      "english": "are evaluated. Make every opportunity count!",
+      "deepl_comparison": "These are the areas being evaluated. Make sure to capitalize on every opportunity.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A30F4",
+      "source": "投手なら登板からの<RGB 0x7c5400>３イニング<RGB 0x7f7f7f>",
+      "english": "Pitchers: the first <RGB 0x7c5400>3 innings of each outing<RGB 0x7f7f7f>",
+      "deepl_comparison": "For pitchers: <RGB 0x7c5400>3 innings from the start of the game<RGB 0x7f7f7f>",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3130",
+      "source": "野手なら<RGB 0x7c5400>スタメン打席<RGB 0x7f7f7f>、",
+      "english": "Batters: <RGB 0x7c5400>plate appearances as a starter<RGB 0x7f7f7f>.",
+      "deepl_comparison": "For position players: <RGB 0x7c5400> starting at-bats <RGB 0x7f7f7f>,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3164",
+      "source": "出場機会は<RGB 0x7c5400>３試合<RGB 0x7f7f7f>。",
+      "english": "You have <RGB 0x7c5400>3 games<RGB 0x7f7f7f> to make your mark.",
+      "deepl_comparison": "Appearances: <RGB 0x7c5400>3 games and <RGB 0x7f7f7f>.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3194",
+      "source": "さらなるレベルアップをはかりましょう。",
+      "english": "and take your player to the next level!",
+      "deepl_comparison": "Let's aim to level up even further.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A31BC",
+      "source": "大活躍してポイント獲得、そして特殊能力の条件をクリア、",
+      "english": "Play well, earn points, meet ability requirements,",
+      "deepl_comparison": "Perform exceptionally well to earn points and fulfill the requirements for special abilities,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A31F4",
+      "source": "キャンプの成果を見せるときがやってきました。",
+      "english": "Show what all that training has achieved.",
+      "deepl_comparison": "The time has come to show the results of spring training.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3224",
+      "source": "シーズン開幕も近付き、いよいよオープン戦。",
+      "english": "Opening Day nears. It's time for preseason games!",
+      "deepl_comparison": "With the season opener fast approaching, it’s finally time for the exhibition games.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3250",
+      "source": "ります。なかには滅多に見られないレアカードも？",
+      "english": "and you might even find a rare card!",
+      "deepl_comparison": "There are some rare cards that you hardly ever see?",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3280",
+      "source": "のでタイミングが重要です。ターンを消費しないお得なカードもあ",
+      "english": "so timing matters. Some cost no turns,",
+      "deepl_comparison": "So timing is crucial. There are also cards that don’t consume a turn, which are a great deal.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A32C0",
+      "source": "よく考えて有効に使いましょう。次のターンで入れ替わってしまう",
+      "english": "Use them wisely. They change next turn,",
+      "deepl_comparison": "Think carefully and use them wisely. They’ll be replaced next turn.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3300",
+      "source": "毎ターン一枚配られる特殊なカード。いろいろな効果があるので、",
+      "english": "Get one each turn, with a variety of effects.",
+      "deepl_comparison": "A special card dealt once per turn. Since it has various effects,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3340",
+      "source": "<RGB 0x7c5400>スペシャルカード<RGB 0x7f7f7f>",
+      "english": "<RGB 0x7c5400>Special Cards<RGB 0x7f7f7f>",
+      "deepl_comparison": "<RGB 0x7c5400> Special Card <RGB 0x7f7f7f>",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3370",
+      "source": "やボーナスをゲットできます。",
+      "english": "the matching ability or a bonus.",
+      "deepl_comparison": "and earn bonuses.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3390",
+      "source": "相手から特殊能力を盗みます。スロットマシンで揃えた絵柄の能力",
+      "english": "Steal a player's ability. Match slot symbols to earn",
+      "deepl_comparison": "Steals special abilities from opponents. Abilities corresponding to the symbols lined up on the slot machine",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A33D0",
+      "source": "<RGB 0x7c5400>盗技カード<RGB 0x7f7f7f>",
+      "english": "<RGB 0x7c5400>Ability Steal Cards<RGB 0x7f7f7f>",
+      "deepl_comparison": "<RGB 0x7c5400> Steal Technique Card <RGB 0x7f7f7f>",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A33F8",
+      "source": "きます。さらに連携が成立すればスピリッツボーナスをゲット！",
+      "english": "Trigger a link for a Spirits bonus, too!",
+      "deepl_comparison": "It’s coming. Plus, if you pull off a combo, you’ll get a Spirits Bonus!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3434",
+      "source": "全員で行うことで一度に複数カテゴリのポイントを少しずつ取得で",
+      "english": "Train together for small gains in several categories.",
+      "deepl_comparison": "By having everyone participate, you can gradually earn points in multiple categories at once.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3474",
+      "source": "<RGB 0x7c5400>合同練習カード<RGB 0x7f7f7f>",
+      "english": "<RGB 0x7c5400>Group Training Cards<RGB 0x7f7f7f>",
+      "deepl_comparison": "<RGB 0x7c5400> Joint Practice Card <RGB 0x7f7f7f>",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A34A0",
+      "source": "「＋」のついたラッキーカードは通常よりも効果が高くなります。",
+      "english": "Lucky cards marked with + are more effective.",
+      "deepl_comparison": "Lucky cards marked with a “+” have a greater effect than usual.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A34E0",
+      "source": "それぞれ該当するカテゴリのポイントを取得できる基本練習です。",
+      "english": "Basic training earns points in the matching category.",
+      "deepl_comparison": "These are basic drills that allow you to earn points in their respective categories.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3520",
+      "source": "<RGB 0x7c5400>基礎練習カード（打撃・守備走塁・投球・変化球）<RGB 0x7f7f7f>",
+      "english": "<RGB 0x7c5400>Basic Training: Batting, Fielding/Running, Pitching, Breaking Balls<RGB 0x7f7f7f>",
+      "deepl_comparison": "<RGB 0x7c5400> Basic Practice Cards (Batting, Fielding and Base Running, Pitching, Breaking Balls) <RGB 0x7f7f7f>",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A356C",
+      "source": "替わります。",
+      "english": "and are replaced every turn.",
+      "deepl_comparison": "I'll take over.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A357C",
+      "source": "チームメイトであるゲスト選手はレベルアップせず、毎ターン入れ",
+      "english": "Guest teammates do not gain partner levels",
+      "deepl_comparison": "Guest players, who are teammates, do not level up and are substituted in every turn.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A35BC",
+      "source": "き、効果や盗技難易度に影響します。",
+      "english": "affecting training gains and ability-steal difficulty.",
+      "deepl_comparison": "This affects effectiveness and the difficulty of stealing skills.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A35E0",
+      "source": "<RGB 0x7c5400>パートナー<RGB 0x7f7f7f>と一緒に練習することで<RGB 0x7c5400>パートナーレベル<RGB 0x7f7f7f>が上がってい",
+      "english": "Train with a <RGB 0x7c5400>partner<RGB 0x7f7f7f> to raise their <RGB 0x7c5400>Partner Level<RGB 0x7f7f7f>,",
+      "deepl_comparison": "<RGB 0x7c5400> By practicing with Partner <RGB 0x7f7f7f>, Partner Level <RGB 0x7c5400><RGB 0x7f7f7f> will increase",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3658",
+      "source": "ますので誰とどんな練習をするのかが重要です。",
+      "english": "so choose your partner and training carefully.",
+      "deepl_comparison": "Therefore, it is important to decide who to practice with and what kind of practice to do.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3688",
+      "source": "練習は相手選手の能力、そのときの練習内容が効果に大きく影響し",
+      "english": "The partner's abilities and training type affect gains,",
+      "deepl_comparison": "The effectiveness of practice is greatly influenced by the opposing players' abilities and the specific practice content at that time,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A36C8",
+      "source": "ちの練習カードを選んで実行することで成立となります。",
+      "english": "on the players shown above to begin training.",
+      "deepl_comparison": "You can complete this by selecting and executing the practice card.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3700",
+      "source": "練習はカード形式で行われます。上に並ぶ選手カードに対して手持",
+      "english": "Training uses cards. Play a card from your hand",
+      "deepl_comparison": "Practice takes place in a card-based format. For the player cards lined up at the top, you use the cards in your hand",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3740",
+      "source": "良い組み合わせを探し出しましょう！",
+      "english": "Find the best combinations!",
+      "deepl_comparison": "Let's find the perfect combination!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3764",
+      "source": "ナス効果があります。",
+      "english": "bonuses in group training.",
+      "deepl_comparison": "It has the \"Eggplant Effect.\"",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A377C",
+      "source": "ークが揃っていると合同練習のときにボー",
+      "english": "Links with matching marks give",
+      "deepl_comparison": "—When all the players are present, during joint practice, the ball...",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A37A4",
+      "source": "「高校・大学・社会人・同学年」の連携マ",
+      "english": "Link marks: high school, college, company, or age.",
+      "deepl_comparison": "Coordination between “high school, college, corporate teams, and peers of the same age”",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A37CC",
+      "source": "すので注意してください。",
+      "english": "so choose carefully.",
+      "deepl_comparison": "Please be aware of this.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A37E8",
+      "source": "おり、優れた選手ほど高いコストが必要で",
+      "english": "and better players have higher costs,",
+      "deepl_comparison": "In this game, the better the player, the higher the cost required, and",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3810",
+      "source": "ただし選手にはコスト（★）が設定されて",
+      "english": "Each player has a star cost,",
+      "deepl_comparison": "However, each player has a cost (★) assigned to them,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3838",
+      "source": "大切な相手になります。",
+      "english": "and role models throughout camp.",
+      "deepl_comparison": "They will become important opponents.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3850",
+      "source": "練習相手であり、プレイヤーの手本となる",
+      "english": "They are valuable training companions",
+      "deepl_comparison": "A practice partner and role model for players",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3878",
+      "source": "<RGB 0x7c5400>パートナー<RGB 0x7f7f7f>はキャンプ中、常にプレイヤーのそばにいてくれる",
+      "english": "<RGB 0x7c5400>Partners<RGB 0x7f7f7f> stay by your side throughout camp.",
+      "deepl_comparison": "Partner <RGB 0x7c5400><RGB 0x7f7f7f> stays by the player’s side at all times during training camp.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A38D0",
+      "source": "まずは<RGB 0x7c5400>パートナー<RGB 0x7f7f7f>になってもらう選手を最大５人まで選びます。",
+      "english": "First, choose up to five players as your <RGB 0x7c5400>partners<RGB 0x7f7f7f>.",
+      "deepl_comparison": "First, select up to five players to become your <RGB 0x7c5400> Partner <RGB 0x7f7f7f>.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3928",
+      "source": "一流のプロ野球選手を目指し、練習に励みましょう！",
+      "english": "Train hard and aim to become a top professional!",
+      "deepl_comparison": "Let’s work hard at practice to become top-tier professional baseball players!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A395C",
+      "source": "いよいよキャンプイン。",
+      "english": "It's time for training camp.",
+      "deepl_comparison": "It’s finally time for spring training.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3974",
+      "source": "の選手を育成してください。",
+      "english": "the player you want to become.",
+      "deepl_comparison": "Please train the players.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3990",
+      "source": "どんな選手になるかはプレイヤー次第。うまくプレイして思い通り",
+      "english": "Your future is in your hands. Play well to create",
+      "deepl_comparison": "It’s up to the player to decide what kind of player they’ll become. Play well and make it happen just the way you want.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A39D0",
+      "source": "特殊能力を身に付けることができます。",
+      "english": "and acquire special abilities.",
+      "deepl_comparison": "You can acquire special abilities.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A39F8",
+      "source": "練習や試合で獲得したポイントを消費することで基礎能力を高め、",
+      "english": "Spend points from training and games to improve skills",
+      "deepl_comparison": "By spending points earned during practice and games, you can improve your basic abilities, and",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3A38",
+      "source": "プン戦を経て選手を育成することができます。",
+      "english": "through training camp and preseason games.",
+      "deepl_comparison": "You can develop your players through practice games.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3A64",
+      "source": "このモードではひとりのプロ野球選手になりきり、キャンプ、オー",
+      "english": "Become a professional player and develop your skills",
+      "deepl_comparison": "In this mode, you take on the role of a professional baseball player and experience training camp, the season, and more.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3BC8",
+      "source": "選手覚醒<RIGHT><+>選択<□>覚醒切替<SELECT>一括切替<○>覚醒<×>戻る",
+      "english": "Player Awakening<RIGHT><+>Select<□>Toggle Awakening<SELECT>Switch All<○>Awakening<×>Back",
+      "deepl_comparison": "Player Awakening <RIGHT> <+> Select <□> Switch Awakening <SELECT> Switch All <○> Awakening <×> Back",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3D10",
+      "source": "覚醒可",
+      "english": "Can Awaken",
+      "deepl_comparison": "Can be awakened",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3D18",
+      "source": "覚醒不可",
+      "english": "Cannot Awaken",
+      "deepl_comparison": "Cannot be awakened",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3D7C",
+      "source": "コーチをオリジナル選手として登録する。",
+      "english": "Register the coach as a custom player.",
+      "deepl_comparison": "Register the coach as an original player.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3DA4",
+      "source": "オリジナル投手保存枠に空きが必要。",
+      "english": "Requires an empty custom pitcher slot.",
+      "deepl_comparison": "You must have space available in the original pitcher storage slot.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3DC8",
+      "source": "オリジナル野手保存枠に空きが必要。",
+      "english": "Requires an empty custom position-player slot.",
+      "deepl_comparison": "Space must be available in the original position player save slots.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3DEC",
+      "source": "監督をオリジナル選手として登録する。",
+      "english": "Register the manager as a custom player.",
+      "deepl_comparison": "Register the manager as an original player.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3E14",
+      "source": "対戦モード→ジャイアンツ→後攻で使用可能。",
+      "english": "Exhibition / Giants / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → Giants → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3E40",
+      "source": "対戦モード→マリーンズ→後攻で使用可能。",
+      "english": "Exhibition / Marines / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → Marines → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3E6C",
+      "source": "対戦モード→ライオンズ→先攻で使用可能。",
+      "english": "Exhibition / Lions / Bat First.",
+      "deepl_comparison": "Available in Versus Mode → Lions → When batting first.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3E98",
+      "source": "対戦モード→ライオンズ→後攻で使用可能。",
+      "english": "Exhibition / Lions / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → Lions → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3EC4",
+      "source": "対戦モード→ベイスターズ→先攻で使用可能。",
+      "english": "Exhibition / BayStars / Bat First.",
+      "deepl_comparison": "Available in Versus Mode → BayStars → when batting first.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3EF0",
+      "source": "対戦モード→ベイスターズ→後攻で使用可能。",
+      "english": "Exhibition / BayStars / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → BayStars → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3F1C",
+      "source": "対戦モード→バファローズ→先攻で使用可能。",
+      "english": "Exhibition / Buffaloes / Bat First.",
+      "deepl_comparison": "Available in Versus Mode → Buffaloes → when batting first.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3F48",
+      "source": "大阪ドーム戦専用",
+      "english": "Only for games at Osaka Dome.",
+      "deepl_comparison": "Exclusively for games at Osaka Dome",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3F5C",
+      "source": "対戦モード→バファローズ→後攻で使用可能。",
+      "english": "Exhibition / Buffaloes / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → Buffaloes → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3F88",
+      "source": "対戦モード→ファイターズ→先攻で使用可能。",
+      "english": "Exhibition / Fighters / Bat First.",
+      "deepl_comparison": "Available in Versus Mode → Fighters → Batting First.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3FB4",
+      "source": "ＯＮにすることで使用。",
+      "english": "Turn this on to use it.",
+      "deepl_comparison": "Turn it ON to use it.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3FCC",
+      "source": "対戦モード→ファイターズ→後攻で使用可能。",
+      "english": "Exhibition / Fighters / Bat Last.",
+      "deepl_comparison": "Available in Versus Mode → Fighters → when batting second.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3FF8",
+      "source": "マジペナントで優遇されます。",
+      "english": "Receive benefits in Pennant mode.",
+      "deepl_comparison": "You’ll receive special benefits in Maji Pennant.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4018",
+      "source": "監督カリスマ値がプラスされるなど、",
+      "english": "Includes a bonus to Manager Charisma.",
+      "deepl_comparison": "For example, the manager’s charisma rating is increased,",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A403C",
+      "source": "オリジナル選手で覚醒チャレンジ！",
+      "english": "Try Awakening Challenge with custom players!",
+      "deepl_comparison": "Take on the Awakening Challenge with original players!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4060",
+      "source": "オリジナル選手をパートナーに選択可能。",
+      "english": "Select custom players as partners.",
+      "deepl_comparison": "You can select an original player as your partner.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4088",
+      "source": "スピリッツモードで使用。",
+      "english": "Use in Spirits mode.",
+      "deepl_comparison": "Used in Spirits Mode.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A40A4",
+      "source": "他球団の選手をパートナーに選択可能。",
+      "english": "Select players from other teams as partners.",
+      "deepl_comparison": "You can select players from other teams as partners.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A40CC",
+      "source": "一つだけＯＮ可能。",
+      "english": "Only one may be active at a time.",
+      "deepl_comparison": "Only one option can be enabled.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A40E0",
+      "source": "タイトル画面の壁紙を変更します。",
+      "english": "Change the title-screen wallpaper.",
+      "deepl_comparison": "Change the title screen background.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4104",
+      "source": "飛びにくいボール。",
+      "english": "A ball that does not travel as far.",
+      "deepl_comparison": "A ball that’s hard to hit.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4118",
+      "source": "さらに飛びやすいボール。",
+      "english": "A ball that travels even farther.",
+      "deepl_comparison": "A ball that’s even easier to hit.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4134",
+      "source": "試合設定→使用球で選択。",
+      "english": "Select under Game Settings / Ball Type.",
+      "deepl_comparison": "Select under \"Game Settings\" → \"Ball Type.\"",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4150",
+      "source": "飛びやすいボール。",
+      "english": "A ball that travels farther.",
+      "deepl_comparison": "A ball that tends to fly.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4164",
+      "source": "条件が整えば対戦での試合が優勝決定戦に！",
+      "english": "Turn Exhibition into a title-deciding game when conditions are met!",
+      "deepl_comparison": "If the conditions are right, a head-to-head match could become the championship decider!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4190",
+      "source": "選んだ試合はいつでも最高潮ＣＬＩＭＡＸ！",
+      "english": "Every selected game becomes a CLIMAX showdown!",
+      "deepl_comparison": "Every game you choose is always a CLIMAX!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A41BC",
+      "source": "選択可能な球速レベルが増加します。",
+      "english": "Unlock more pitch speed levels.",
+      "deepl_comparison": "The number of selectable pitch speed levels will increase.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A41E0",
+      "source": "その名も「ＳＰＩＲＩＴＳ」！！",
+      "english": "Its name: SPIRITS!",
+      "deepl_comparison": "Its name is “SPIRITS”!!",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4200",
+      "source": "パーフェクトを凌駕する最強難易度。",
+      "english": "The strongest difficulty, beyond Perfect.",
+      "deepl_comparison": "The ultimate difficulty level, surpassing even \"Perfect.\"",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4224",
+      "source": "対戦・ホームラン競争モードで選択可能。",
+      "english": "Available in Exhibition and Home Run Derby.",
+      "deepl_comparison": "Available for selection in Match and Home Run Derby modes.",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A424C",
+      "source": "オリジナル選手ＯＰ登場権",
+      "english": "Custom Player Opening Movie",
+      "deepl_comparison": "Right to Create an Original Player",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A43F8",
+      "source": "Ｇホリデー",
+      "english": "G Holiday",
+      "deepl_comparison": "G Holiday",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4404",
+      "source": "Ｍホーム３ＲＤ",
+      "english": "M Home Alt. 3",
+      "deepl_comparison": "M Home 3rd",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4414",
+      "source": "Ｍホーム２ＮＤ",
+      "english": "M Home Alt. 2",
+      "deepl_comparison": "M Home 2nd",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4424",
+      "source": "Ｌファームビジター",
+      "english": "L Reserves Away",
+      "deepl_comparison": "L-Farm Visitors",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4438",
+      "source": "Ｌファームホーム",
+      "english": "L Reserves Home",
+      "deepl_comparison": "L Farm Home",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A444C",
+      "source": "ＹＢファームビジター",
+      "english": "YB Reserves Away",
+      "deepl_comparison": "YB Farm Visitors",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4464",
+      "source": "ＹＢファームホーム",
+      "english": "YB Reserves Home",
+      "deepl_comparison": "YB Farm Home",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4478",
+      "source": "ＢＳファームビジター",
+      "english": "Bs Reserves Away",
+      "deepl_comparison": "BS Farm Visitors",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4490",
+      "source": "ＢＳファームホーム",
+      "english": "Bs Reserves Home",
+      "deepl_comparison": "BS Farm Home",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A44A4",
+      "source": "ＢＳ大阪ドーム",
+      "english": "Bs Osaka Dome",
+      "deepl_comparison": "BS Osaka Dome",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A44B4",
+      "source": "Ｆ練習用ビジター",
+      "english": "F Practice Away",
+      "deepl_comparison": "F: Practice Visitor",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A44C8",
+      "source": "Ｆ練習用ホーム",
+      "english": "F Practice Home",
+      "deepl_comparison": "F Practice Home",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A44D8",
+      "source": "マジペナント優待券",
+      "english": "Pennant Bonus Pass",
+      "deepl_comparison": "Maji Pennant Discount Coupon",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A44EC",
+      "source": "オリジナル選手パートナー権",
+      "english": "Custom Player Partners",
+      "deepl_comparison": "Original Player Partnership Rights",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4508",
+      "source": "他球団選手パートナー権",
+      "english": "Other-team Partners",
+      "deepl_comparison": "Rights to Partner with Players from Other Teams",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4520",
+      "source": "壁紙／地方・Ｂ",
+      "english": "Wallpaper: Regional Park B",
+      "deepl_comparison": "Wallpapers / Regions · B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4530",
+      "source": "壁紙／地方・Ａ",
+      "english": "Wallpaper: Regional Park A",
+      "deepl_comparison": "Wallpaper / Regional · A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4540",
+      "source": "壁紙／フルスタ・Ｂ",
+      "english": "Wallpaper: Fullcast Miyagi B",
+      "deepl_comparison": "Wallpaper / Fullsta B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4554",
+      "source": "壁紙／フルスタ・Ａ",
+      "english": "Wallpaper: Fullcast Miyagi A",
+      "deepl_comparison": "Wallpaper / Fullsta A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4568",
+      "source": "壁紙／四国・Ｂ",
+      "english": "Wallpaper: Shikoku B",
+      "deepl_comparison": "Wallpaper / Shikoku・B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4578",
+      "source": "壁紙／四国・Ａ",
+      "english": "Wallpaper: Shikoku A",
+      "deepl_comparison": "Wallpaper / Shikoku・A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4588",
+      "source": "壁紙／山陽・Ｂ",
+      "english": "Wallpaper: Sanyo B",
+      "deepl_comparison": "Wallpaper / Sanyo・B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4598",
+      "source": "壁紙／山陽・Ａ",
+      "english": "Wallpaper: Sanyo A",
+      "deepl_comparison": "Wallpaper / Sanyo・A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A45A8",
+      "source": "壁紙／ＵＳＡ・Ｂ",
+      "english": "Wallpaper: USA B",
+      "deepl_comparison": "Wallpapers / USA・B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A45BC",
+      "source": "壁紙／ＵＳＡ・Ａ",
+      "english": "Wallpaper: USA A",
+      "deepl_comparison": "Wallpapers / USA・A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A45D0",
+      "source": "壁紙／市民・Ｂ",
+      "english": "Wallpaper: Municipal Stadium B",
+      "deepl_comparison": "Wallpaper / Citizen B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A45E0",
+      "source": "壁紙／市民・Ａ",
+      "english": "Wallpaper: Municipal Stadium A",
+      "deepl_comparison": "Wallpaper / Citizen A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A45F0",
+      "source": "壁紙／ヤフードーム・Ｂ",
+      "english": "Wallpaper: Yahoo Dome B",
+      "deepl_comparison": "Wallpaper / Yahoo! Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4608",
+      "source": "壁紙／ヤフードーム・Ａ",
+      "english": "Wallpaper: Yahoo Dome A",
+      "deepl_comparison": "Wallpaper / Yahoo! Dome A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4620",
+      "source": "壁紙／千葉マリン・Ｂ",
+      "english": "Wallpaper: Chiba Marine B",
+      "deepl_comparison": "Wallpaper / Chiba Marine B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4638",
+      "source": "壁紙／千葉マリン・Ａ",
+      "english": "Wallpaper: Chiba Marine A",
+      "deepl_comparison": "Wallpaper / Chiba Marine A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4650",
+      "source": "壁紙／大阪ドーム・Ｂ",
+      "english": "Wallpaper: Osaka Dome B",
+      "deepl_comparison": "Wallpaper / Osaka Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4668",
+      "source": "壁紙／大阪ドーム・Ａ",
+      "english": "Wallpaper: Osaka Dome A",
+      "deepl_comparison": "Wallpaper / Osaka Dome A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4680",
+      "source": "壁紙／インボイス・Ｂ",
+      "english": "Wallpaper: Invoice Seibu Dome B",
+      "deepl_comparison": "Wallpaper / Invoice B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4698",
+      "source": "壁紙／インボイス・Ａ",
+      "english": "Wallpaper: Invoice Seibu Dome A",
+      "deepl_comparison": "Wallpaper / Invoice A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A46B0",
+      "source": "壁紙／札幌ドーム・Ｂ",
+      "english": "Wallpaper: Sapporo Dome B",
+      "deepl_comparison": "Wallpaper / Sapporo Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A46C8",
+      "source": "壁紙／札幌ドーム・Ａ",
+      "english": "Wallpaper: Sapporo Dome A",
+      "deepl_comparison": "Wallpaper / Sapporo Dome, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A46E0",
+      "source": "壁紙／スカイマーク・Ｂ",
+      "english": "Wallpaper: Skymark B",
+      "deepl_comparison": "Wallpaper / Skymark B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A46F8",
+      "source": "壁紙／スカイマーク・Ａ",
+      "english": "Wallpaper: Skymark A",
+      "deepl_comparison": "Wallpaper / Skymark A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4710",
+      "source": "壁紙／甲子園・Ｂ",
+      "english": "Wallpaper: Koshien B",
+      "deepl_comparison": "Wallpaper / Koshien B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4724",
+      "source": "壁紙／甲子園・Ａ",
+      "english": "Wallpaper: Koshien A",
+      "deepl_comparison": "Wallpaper / Koshien A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4738",
+      "source": "壁紙／横浜・Ｂ",
+      "english": "Wallpaper: Yokohama B",
+      "deepl_comparison": "Wallpaper / Yokohama B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4748",
+      "source": "壁紙／横浜・Ａ",
+      "english": "Wallpaper: Yokohama A",
+      "deepl_comparison": "Wallpaper / Yokohama A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4758",
+      "source": "壁紙／明治神宮・Ｂ",
+      "english": "Wallpaper: Meiji Jingu B",
+      "deepl_comparison": "Wallpaper / Meiji Jingu Stadium, Section B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A476C",
+      "source": "壁紙／明治神宮・Ａ",
+      "english": "Wallpaper: Meiji Jingu A",
+      "deepl_comparison": "Wallpaper / Meiji Jingu Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4780",
+      "source": "壁紙／広島市民・Ｂ",
+      "english": "Wallpaper: Hiroshima Municipal B",
+      "deepl_comparison": "Wallpaper / Hiroshima Citizens · B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4794",
+      "source": "壁紙／広島市民・Ａ",
+      "english": "Wallpaper: Hiroshima Municipal A",
+      "deepl_comparison": "Wallpaper / Hiroshima Citizens · A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A47A8",
+      "source": "壁紙／ナゴヤドーム・Ｂ",
+      "english": "Wallpaper: Nagoya Dome B",
+      "deepl_comparison": "Wallpaper / Nagoya Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A47C0",
+      "source": "壁紙／ナゴヤドーム・Ａ",
+      "english": "Wallpaper: Nagoya Dome A",
+      "deepl_comparison": "Wallpaper / Nagoya Dome A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A47D8",
+      "source": "壁紙／東京ドーム・Ｂ",
+      "english": "Wallpaper: Tokyo Dome B",
+      "deepl_comparison": "Wallpaper / Tokyo Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A47F0",
+      "source": "壁紙／東京ドーム・Ａ",
+      "english": "Wallpaper: Tokyo Dome A",
+      "deepl_comparison": "Wallpaper / Tokyo Dome A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4808",
+      "source": "いつでもＣＬＩＭＡＸ",
+      "english": "Always CLIMAX",
+      "deepl_comparison": "CLIMAX Anytime",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4820",
+      "source": "球速レベル拡張",
+      "english": "Pitch Speed Expansion",
+      "deepl_comparison": "Pitch Speed Level Expansion",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4830",
+      "source": "難易度「ＳＰＩＲＩＴＳ」",
+      "english": "SPIRITS Difficulty",
+      "deepl_comparison": "Difficulty Level: “SPIRITS”",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A484C",
+      "source": "四国スタジアム",
+      "english": "Shikoku Stadium",
+      "deepl_comparison": "Shikoku Stadium",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A485C",
+      "source": "山陽スタジアム",
+      "english": "Sanyo Stadium",
+      "deepl_comparison": "Sanyo Stadium",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A486C",
+      "source": "ＵＳＡスタジアム",
+      "english": "USA Stadium",
+      "deepl_comparison": "USA Stadium",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4880",
+      "source": "市民球場",
+      "english": "Municipal Stadium",
+      "deepl_comparison": "Municipal Stadium",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A490C",
+      "source": "アイテム購入<RIGHT><+>選択<○>決定<×>戻る<L1><R1>切替",
+      "english": "Buy Items<RIGHT><+>Select<○>OK<×>Back<L1><R1>Switch",
+      "deepl_comparison": "Purchase Items <RIGHT> <+> Select <○> Confirm <×> Back <L1> <R1> Toggle",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4944",
+      "source": "拡張アイテム",
+      "english": "Extra Items",
+      "deepl_comparison": "Expansion Items",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4954",
+      "source": "ユニフォーム",
+      "english": "Uniforms",
+      "deepl_comparison": "Uniforms",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4964",
+      "source": "監督",
+      "english": "Manager",
+      "deepl_comparison": "Manager",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A496C",
+      "source": "コーチ",
+      "english": "Coach",
+      "deepl_comparison": "Coach",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4974",
+      "source": "壁紙",
+      "english": "Wallpaper",
+      "deepl_comparison": "Wallpapers",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A497C",
+      "source": "ファイターズ・練習用ホームユニフォーム",
+      "english": "Fighters Practice Home",
+      "deepl_comparison": "Fighters Practice Home Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A49A4",
+      "source": "ファイターズ・練習用ビジターユニフォーム",
+      "english": "Fighters Practice Away",
+      "deepl_comparison": "Fighters Practice Away Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A49D0",
+      "source": "バファローズ・大阪ドームユニフォーム",
+      "english": "Buffaloes Osaka Dome",
+      "deepl_comparison": "Buffaloes Osaka Dome Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A49F8",
+      "source": "バファローズ・ファームホームユニフォーム",
+      "english": "Buffaloes Reserves Home",
+      "deepl_comparison": "Buffaloes Farm Team Home Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4A24",
+      "source": "バファローズ・ファームビジターユニフォーム",
+      "english": "Buffaloes Reserves Away",
+      "deepl_comparison": "Buffaloes Farm Team Away Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4A50",
+      "source": "ベイスターズ・ファームホームユニフォーム",
+      "english": "BayStars Reserves Home",
+      "deepl_comparison": "BayStars Farm Team Home Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4A7C",
+      "source": "ベイスターズ・ファームビジターユニフォーム",
+      "english": "BayStars Reserves Away",
+      "deepl_comparison": "BayStars Farm Team Away Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4AA8",
+      "source": "ライオンズ・ファームホームユニフォーム",
+      "english": "Lions Reserves Home",
+      "deepl_comparison": "Lions Farm Home Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4AD0",
+      "source": "ライオンズ・ファームビジターユニフォーム",
+      "english": "Lions Reserves Away",
+      "deepl_comparison": "Lions Farm Visitor Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4AFC",
+      "source": "マリーンズ・ホーム２ＮＤユニフォーム",
+      "english": "Marines Home Alt. 2",
+      "deepl_comparison": "Marines Home 2nd Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4B24",
+      "source": "マリーンズ・ホーム３ＲＤユニフォーム",
+      "english": "Marines Home Alt. 3",
+      "deepl_comparison": "Marines Home 3rd Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4B4C",
+      "source": "ジャイアンツ・ホリデーユニフォーム",
+      "english": "Giants Holiday Uniform",
+      "deepl_comparison": "Giants Holiday Uniform",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4B70",
+      "source": "壁紙／広島市民球場・Ａ",
+      "english": "Wallpaper: Hiroshima Municipal A",
+      "deepl_comparison": "Wallpaper / Hiroshima Municipal Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4B88",
+      "source": "壁紙／広島市民球場・Ｂ",
+      "english": "Wallpaper: Hiroshima Municipal B",
+      "deepl_comparison": "Wallpaper / Hiroshima Municipal Stadium, Section B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4BA0",
+      "source": "壁紙／明治神宮野球場・Ａ",
+      "english": "Wallpaper: Meiji Jingu A",
+      "deepl_comparison": "Wallpaper / Meiji Jingu Baseball Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4BBC",
+      "source": "壁紙／明治神宮野球場・Ｂ",
+      "english": "Wallpaper: Meiji Jingu B",
+      "deepl_comparison": "Wallpaper / Meiji Jingu Baseball Stadium, Section B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4BD8",
+      "source": "壁紙／横浜スタジアム・Ａ",
+      "english": "Wallpaper: Yokohama A",
+      "deepl_comparison": "Wallpaper / Yokohama Stadium A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4BF4",
+      "source": "壁紙／横浜スタジアム・Ｂ",
+      "english": "Wallpaper: Yokohama B",
+      "deepl_comparison": "Wallpaper / Yokohama Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4C10",
+      "source": "壁紙／阪神甲子園球場・Ａ",
+      "english": "Wallpaper: Koshien A",
+      "deepl_comparison": "Wallpaper / Hanshin Koshien Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4C2C",
+      "source": "壁紙／阪神甲子園球場・Ｂ",
+      "english": "Wallpaper: Koshien B",
+      "deepl_comparison": "Wallpaper / Hanshin Koshien Stadium, Section B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4C48",
+      "source": "壁紙／スカイマークスタジアム・Ａ",
+      "english": "Wallpaper: Skymark A",
+      "deepl_comparison": "Wallpaper / Skymark Stadium A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4C6C",
+      "source": "壁紙／スカイマークスタジアム・Ｂ",
+      "english": "Wallpaper: Skymark B",
+      "deepl_comparison": "Wallpaper / Skymark Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4C90",
+      "source": "壁紙／インボイスＳＥＩＢＵドーム・Ａ",
+      "english": "Wallpaper: Invoice Seibu Dome A",
+      "deepl_comparison": "Wallpaper / Invoice: SEIBU Dome A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4CB8",
+      "source": "壁紙／インボイスＳＥＩＢＵドーム・Ｂ",
+      "english": "Wallpaper: Invoice Seibu Dome B",
+      "deepl_comparison": "Wallpaper / Invoice: SEIBU Dome B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4CE0",
+      "source": "壁紙／千葉マリンスタジアム・Ａ",
+      "english": "Wallpaper: Chiba Marine A",
+      "deepl_comparison": "Wallpaper / Chiba Marine Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4D00",
+      "source": "壁紙／千葉マリンスタジアム・Ｂ",
+      "english": "Wallpaper: Chiba Marine B",
+      "deepl_comparison": "Wallpaper / Chiba Marine Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4D20",
+      "source": "壁紙／福岡Ｙａｈｏｏ！ＪＡＰＡＮドーム・Ａ",
+      "english": "Wallpaper: Yahoo Dome A",
+      "deepl_comparison": "Wallpaper / Fukuoka Yahoo! JAPAN Dome, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4D4C",
+      "source": "壁紙／福岡Ｙａｈｏｏ！ＪＡＰＡＮドーム・Ｂ",
+      "english": "Wallpaper: Yahoo Dome B",
+      "deepl_comparison": "Wallpaper / Fukuoka Yahoo! JAPAN Dome, Section B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4D78",
+      "source": "壁紙／市民球場・Ａ",
+      "english": "Wallpaper: Municipal Stadium A",
+      "deepl_comparison": "Wallpaper / Municipal Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4D8C",
+      "source": "壁紙／市民球場・Ｂ",
+      "english": "Wallpaper: Hiroshima Municipal B",
+      "deepl_comparison": "Wallpaper / Municipal Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4DA0",
+      "source": "壁紙／ＵＳＡスタジアム・Ａ",
+      "english": "Wallpaper: USA Stadium A",
+      "deepl_comparison": "Wallpaper / USA Stadium A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4DBC",
+      "source": "壁紙／ＵＳＡスタジアム・Ｂ",
+      "english": "Wallpaper: USA Stadium B",
+      "deepl_comparison": "Wallpaper / USA Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4DD8",
+      "source": "壁紙／山陽スタジアム・Ａ",
+      "english": "Wallpaper: Sanyo Stadium A",
+      "deepl_comparison": "Wallpaper / Sanyo Stadium, Section A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4DF4",
+      "source": "壁紙／山陽スタジアム・Ｂ",
+      "english": "Wallpaper: Sanyo Stadium B",
+      "deepl_comparison": "Wallpaper / Sanyo Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4E10",
+      "source": "壁紙／四国スタジアム・Ａ",
+      "english": "Wallpaper: Shikoku Stadium A",
+      "deepl_comparison": "Wallpaper / Shikoku Stadium A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4E2C",
+      "source": "壁紙／四国スタジアム・Ｂ",
+      "english": "Wallpaper: Shikoku Stadium B",
+      "deepl_comparison": "Wallpaper / Shikoku Stadium B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4E48",
+      "source": "壁紙／フルキャストスタジアム宮城・Ａ",
+      "english": "Wallpaper: Fullcast Stadium Miyagi A",
+      "deepl_comparison": "Wallpaper / Fullcast Stadium Miyagi, A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4E70",
+      "source": "壁紙／フルキャストスタジアム宮城・Ｂ",
+      "english": "Wallpaper: Fullcast Stadium Miyagi B",
+      "deepl_comparison": "Wallpaper / Fullcast Stadium Miyagi・B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4E98",
+      "source": "壁紙／地方球場・Ａ",
+      "english": "Wallpaper: Local Ballpark A",
+      "deepl_comparison": "Wallpapers / Regional Stadiums · A",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A4EAC",
+      "source": "壁紙／地方球場・Ｂ",
+      "english": "Wallpaper: Local Ballpark B",
+      "deepl_comparison": "Wallpapers / Regional Stadiums · B",
+      "source_meaning_reviewed": true
+    },
+    {
+      "address": "0x820A3D54",
+      "source": "オリジナル選手がオープニングに登場。",
+      "english": "Your custom player appears in the opening movie.",
+      "deepl_comparison": "Original players appear in the opening sequence.",
+      "source_meaning_reviewed": true
+    }
+  ],
+  "official_2026_references": [
+    {
+      "namespace": "Common",
+      "key": "common_match_play_first",
+      "japanese": "先攻",
+      "english": "Away"
+    },
+    {
+      "namespace": "Common",
+      "key": "common_match_play_second",
+      "japanese": "後攻",
+      "english": "Home"
+    },
+    {
+      "namespace": "Match",
+      "key": "match_telop_open_match_text",
+      "japanese": "オープン戦",
+      "english": "Preseason Game"
+    }
+  ],
+  "review_decisions": [
+    "Use the original 2006 bat-order wording in unlock instructions, consistent with current team-selection labels; the 2026 Home/Away terms are contextual references rather than an automatic replacement.",
+    "Keep original-period venue and uniform names, including generic Municipal Stadium separately from Hiroshima Municipal.",
+    "Preseason evaluations concern starter plate appearances and the first three innings after a pitcher enters; do not turn this into three innings from the start of the game.",
+    "Preserve three preseason games, up to five partners, star costs, per-turn guest replacement and special-card turnover.",
+    "Preserve partner levels, ability-steal difficulty, group-training links and training-card bonuses as separate effects.",
+    "Keep the original Breaking Balls category for the source 変化球; the official Pitch Type references use 球種 and do not alone prove this category should be renamed.",
+    "Wallpaper A/B variants remain distinct and the original ballpark artwork, signs and ads are unchanged."
+  ],
+  "proper_name_fields_not_in_this_accuracy_batch": 49,
+  "source_addresses_sizes_hashes_and_statuses_unchanged": true,
+  "markup_and_line_counts_unchanged": true,
+  "texture_assets_unchanged": true,
+  "original_game_data_unchanged": true,
+  "compiled_expected_exact_cases": 195,
+  "compiled_checks_passed": true,
+  "curation_reproduction_checks": 195,
+  "curation_checks_passed": true,
+  "review_merger_check_passed": true,
+  "windows_build_passed": true,
+  "cache_only_comparison": true,
+  "no_new_service_requests": true,
+  "interactive_validation": false,
+  "entire_game_english": false,
+  "layout_estimate_scope": "Arial 16 px advances; original renderer strings remain relocated through the existing lookup. Actual shop widgets and assembled tutorial rows still need live layout checks.",
+  "pending": [
+    "Live Spirits tutorial row placement, transitions and shop unlock-description fit.",
+    "Separate historical coach/manager name-reading review and remaining mode/catalogue accuracy work."
+  ],
+  "windows_executable_sha256": "4f7d19bfbbab97f6eab65ce6e7e410e1123d104e8f616d025ce3c26de59cba88",
+  "generated_header_sha256": "778800f2f9464af60f56fa3aacfde1a31cd11531d2f8f7b46a55fc407a3f902e"
+}

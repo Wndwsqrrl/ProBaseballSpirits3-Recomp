@@ -10,7 +10,9 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
-    "Reviewed all 187 Pennant rewards and 187 objectives (191 source/English pairs). Eight bounded corrections align coach capacity, unlocked command names, contact targets and event-period totals. All 18 unlock names match the native command menu. The original resource has exactly 940 populated fields and each has English; None references are exclusively empty slots. All 2223 archive members passed, including 2112 untouched members. Event 5 award-specific wording and live placement remain open.",
+    "Reviewed 195 Spirits tutorial and VP Shop fields against original source and cached DeepL comparisons. Twelve corrections specify high-school links, match Bat First/Bat Last selectors and distinguish generic Municipal Stadium from Hiroshima. All 195 compiled lookups, 195 curation checks, the complete review merger and the Windows build passed. Source metadata and texture assets are unchanged; live tutorial/shop placement remains open.",
+    "Completed source/context review of all 940 populated Pennant event fields. The title/description and narrative/notice follow-ups correct 23 fields and resolve the All-Star MVP question using the original explicit objective. All 2223 archive members and 2112 untouched members passed verification after each asset batch. Live event wrapping, pagination and native placeholder expansion remain open.",
+    "Reviewed all 187 Pennant rewards and 187 objectives (191 source/English pairs). Eight bounded corrections align coach capacity, unlocked command names, contact targets and event-period totals. All 18 unlock names match the native command menu. The original resource has exactly 940 populated fields and each has English; None references are exclusively empty slots. All 2223 archive members passed, including 2112 untouched members. The later narrative review resolves event 5 MVP wording against the explicit original objective; live placement remains open.",
     "Traced the 14-record save-section directory and replayed native size, checksum and content-initialization routines. The 4425756-byte layout and valid checksums passed with name pointers invalid or zero; damaged data/checksum cases failed. The existing title hook reached the stubbed storage API with Pro Yakyuu Spirits 3 and unchanged Save Data key. Caller/source and descriptor-boundary checks passed. The 13 section labels remain unintegrated with no confirmed display consumer; no real saves, game assets or normal executable changed.",
     "Reviewed the remaining 254 ability editor fields, completing source/context review of 337 maintained descriptions. Corrected ten native entries, the Pull Tendency erratum fragment and three Late Flame labels. Native name/description pointer associations and the 2026 glossary resolve the two text discrepancies without changing ability logic. Passed 259 compiled lookups, 257 curation checks, erratum reproduction, the Windows build and full 2223-member archive verification; 2112 untouched members and all 2098 texture labels are verified. Live behavior and placement remain open.",
     "Reviewed the first 83 ability descriptions and 10 additional pitching/label fields. Corrected 15 native entries and 18 fragments for Pitch Power, Power Surge, Consistent, accountability and team-win wording. Passed 112 compiled lookups, 93 curation checks, 18 fragment regeneration/curation checks, the complete review merger and the Windows build. The Okawari nickname and two contradictory native source conditions are preserved; mechanics and live placement remain open.",
@@ -238,7 +240,13 @@
       "failure_story": 32,
       "introduction": 32
     },
-    "interactive_validation": false
+    "interactive_validation": false,
+    "all_populated_fields_source_context_reviewed": true,
+    "accuracy_review_reports": [
+      "pennant-objective-reward-accuracy-validation.json",
+      "pennant-title-detail-accuracy-validation.json",
+      "pennant-narrative-notice-accuracy-validation.json"
+    ]
   },
   "official_2026_reference_review": {
     "exact_japanese_matches": 1275,
@@ -1138,9 +1146,9 @@
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
     "report": "deepl-comparison-status.json",
-    "distinct_input_sources_context_reviewed": 1117,
+    "distinct_input_sources_context_reviewed": 1801,
     "initial_cached_response_records": 9559,
-    "context_reviewed_sources_with_wording_follow_up": 1
+    "context_reviewed_sources_with_wording_follow_up": 0
   },
   "spirits_training_accuracy_review": {
     "records_reviewed": 56,
@@ -1281,10 +1289,38 @@
     "unlock_names_verified": 18,
     "native_populated_fields": 940,
     "all_native_populated_fields_have_english": true,
-    "wording_follow_ups": 1,
+    "wording_follow_ups": 0,
     "normal_game_rebuild_required": false,
     "full_archive_verified": true,
     "interactive_validation": false,
-    "report": "pennant-objective-reward-accuracy-validation.json"
+    "report": "pennant-objective-reward-accuracy-validation.json",
+    "wording_resolution_report": "pennant-narrative-notice-accuracy-validation.json"
+  },
+  "pennant_title_description_accuracy_review": {
+    "title_fields": 187,
+    "description_fields": 187,
+    "source_english_pairs": 356,
+    "changed_fields": 10,
+    "full_archive_verified": true,
+    "interactive_validation": false,
+    "report": "pennant-title-detail-accuracy-validation.json"
+  },
+  "pennant_narrative_notice_accuracy_review": {
+    "populated_fields": 192,
+    "source_english_pairs": 151,
+    "changed_fields": 13,
+    "all_star_mvp_wording_resolved": true,
+    "full_archive_verified": true,
+    "interactive_validation": false,
+    "report": "pennant-narrative-notice-accuracy-validation.json"
+  },
+  "spirits_shop_accuracy_review": {
+    "native_fields_source_context_reviewed": 195,
+    "wording_corrections": 12,
+    "compiled_cases": 195,
+    "curation_checks": 195,
+    "windows_build_passed": true,
+    "interactive_validation": false,
+    "report": "spirits-shop-accuracy-validation.json"
   }
 }

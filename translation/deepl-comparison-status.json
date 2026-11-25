@@ -388,12 +388,21 @@
       "all_940_pennant_fields_source_context_reviewed": true,
       "all_star_mvp_wording_resolved": true,
       "interactive_validation": false
+    },
+    {
+      "area": "Spirits tutorials and VP Shop descriptions",
+      "native_fields_source_reviewed": 195,
+      "native_wording_corrections": 12,
+      "compiled_exact_cases": 195,
+      "curation_reproduction_checks": 195,
+      "report": "spirits-shop-accuracy-validation.json",
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 1606,
+  "distinct_deepl_input_sources_context_reviewed": 1801,
   "reviewed_training_fields_not_requiring_deepl": 1,
   "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "02cb6cf72f6c851a038ccf4df8dbd57b0863d6424d13582eaf3fdec72741feb4",
+  "context_reviewed_input_ids_sha256": "9322066cbdf8a3e7894a21622708aab10bea959cf73f2a173ad2ea9d3d140380",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
   "initial_service_pass_characters_used": 160731,

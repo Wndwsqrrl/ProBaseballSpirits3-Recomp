@@ -38195,7 +38195,7 @@
     "address": "0x820A37A4",
     "source_size": 38,
     "source_hash": "52DC0D4611EFACFE",
-    "english": "Look for links: school, university, company, or age.",
+    "english": "Link marks: high school, college, company, or age.",
     "status": "reviewed"
   },
   {
@@ -38440,49 +38440,49 @@
     "address": "0x820A3E14",
     "source_size": 42,
     "source_hash": "D9451C180FFF4E93",
-    "english": "Exhibition / Giants / Home.",
+    "english": "Exhibition / Giants / Bat Last.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3E40",
     "source_size": 40,
     "source_hash": "D124C4A5974FA3EE",
-    "english": "Exhibition / Marines / Home.",
+    "english": "Exhibition / Marines / Bat Last.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3E6C",
     "source_size": 40,
     "source_hash": "97ED0AC62457F322",
-    "english": "Exhibition / Lions / Away.",
+    "english": "Exhibition / Lions / Bat First.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3E98",
     "source_size": 40,
     "source_hash": "0A5CC998C6BA5F81",
-    "english": "Exhibition / Lions / Home.",
+    "english": "Exhibition / Lions / Bat Last.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3EC4",
     "source_size": 42,
     "source_hash": "D921A2D423637579",
-    "english": "Exhibition / BayStars / Away.",
+    "english": "Exhibition / BayStars / Bat First.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3EF0",
     "source_size": 42,
     "source_hash": "A3F67EE927BECE5A",
-    "english": "Exhibition / BayStars / Home.",
+    "english": "Exhibition / BayStars / Bat Last.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3F1C",
     "source_size": 42,
     "source_hash": "B86B0FF73C6B2574",
-    "english": "Exhibition / Buffaloes / Away.",
+    "english": "Exhibition / Buffaloes / Bat First.",
     "status": "reviewed"
   },
   {
@@ -38496,14 +38496,14 @@
     "address": "0x820A3F5C",
     "source_size": 42,
     "source_hash": "1BFA106352CFCA0B",
-    "english": "Exhibition / Buffaloes / Home.",
+    "english": "Exhibition / Buffaloes / Bat Last.",
     "status": "reviewed"
   },
   {
     "address": "0x820A3F88",
     "source_size": 42,
     "source_hash": "4F4FF3D4207269C9",
-    "english": "Exhibition / Fighters / Away.",
+    "english": "Exhibition / Fighters / Bat First.",
     "status": "reviewed"
   },
   {
@@ -38517,7 +38517,7 @@
     "address": "0x820A3FCC",
     "source_size": 42,
     "source_hash": "0D2934627355DCCA",
-    "english": "Exhibition / Fighters / Home.",
+    "english": "Exhibition / Fighters / Bat Last.",
     "status": "reviewed"
   },
   {
@@ -39469,7 +39469,7 @@
     "address": "0x820A4D78",
     "source_size": 18,
     "source_hash": "ACBE005A120F980B",
-    "english": "Wallpaper: Hiroshima Municipal A",
+    "english": "Wallpaper: Municipal Stadium A",
     "status": "reviewed"
   },
   {
