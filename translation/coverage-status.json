@@ -10,9 +10,10 @@
   "texture_labels": 2098,
   "localized_archive_members": 111,
   "validation": [
+    "Reviewed 39 integrated native UI fields against source and cached DeepL results. Promoted 37 CP932 fields, clarified two historical 2005 assignments, and passed 74 compiled cases, 37 curation reproductions, 45 native offseason replays and the Windows build. Live placement and broader year-duration context remain open.",
     "Reviewed 18 formatting-sensitive Pennant event fields (17 unique sources), retaining player/team/milestone roles and checking award titles against adjacent native fields. Six fixed-slot wording edits clarify recovery, a bullpen handoff without an assumed lead, partial resolution, later-inning pacing and neutral career milestones. All 2223 archive members and all 940 populated event fields passed; native expansion and live placement remain unchecked.",
     "Aligned the Starter Conditioning attribute (Starter Cond. in compact labels) with its official 2026 reference, keeping Starter Prep commands distinct. Nine runtime rows and one bounded Pennant reward changed. Fifteen compiled cases, six curation checks, the Windows build and all 2223 archive members passed. Live label fit, especially the +1 bonus, remains pending.",
-    "Reviewed 34 formatting-sensitive mission/camp/offseason help pages against source and DeepL examples. Corrected seven catalogue rows for Coach Capacity, Boost missions, active-roster eligibility and consistent camp/form wording. Forty compiled cases and 35 curation checks passed; control order, line counts and source metadata are unchanged. Two starter-stat terminology cases and live placement remain open.",
+    "Reviewed 34 formatting-sensitive mission/camp/offseason help pages against source and DeepL examples. Corrected seven catalogue rows for Coach Capacity, Boost missions, active-roster eligibility and consistent camp/form wording. Forty compiled cases and 35 curation checks passed; control order, line counts and source metadata are unchanged. Starter-stat terminology was resolved in the conditioning follow-up; live placement remains open.",
     "Completed the source/DeepL accuracy review of all 56 Spirits training names and 56 descriptions. Preserved level-versus-XP gains, partner requirements, three-turn limits, one-practice bonuses and the custom-player exclusion. Wording is unchanged, with Focus/Pitch Type/Defense following 2026 references. All 112 maintained overrides and 108 compiled lookups passed; display routing and placement remain open.",
     "DeepL comparison responses received for all 9559 distinct known inputs. All 25410 comparison records have source text. Fifty-four XML-control and 22 additional Pennant-control cases have separate meaning-only examples. Ten initial texture-context decisions retain verified baseball terminology; the full manual accuracy review and live placement remain pending.",
     "Corrected the lineup inactive-status legend (previously Tired), clarified Power and both stamina bars using 2026 terminology, and changed batting-order labels to Bat First/Bat Last. All 57 missing original texture sources were transcribed from decoded crops. All 2098 localized texture occurrences now have source metadata; all 2223 archive members passed verification.",
@@ -161,7 +162,7 @@
     "higher-resolution gameplay performance"
   ],
   "remaining": [
-    "All 36 confirmed gaps and three full headers are integrated as drafts. The 112 Spirits training fields and 14 context-dependent labels have draft English and still need display-route confirmation.",
+    "All 39 confirmed UI fields are integrated and context-reviewed; 37 CP932 fields have reviewed status, while the shared numeric year pattern retains draft status pending duration-context coverage. The 112 Spirits training fields have reviewed wording but unconfirmed display routing. Fourteen other context-dependent metadata/startup labels remain unintegrated.",
     "The earlier broader texture candidate queue is classified; this does not establish complete game-wide discovery",
     "Announced-name spelling accuracy and live selector verification",
     "Validate which other UTF-16BE save labels are player-facing",
@@ -182,11 +183,11 @@
   "reviewed_management_entries": 426,
   "main_extracted_text": {
     "entries": 6297,
-    "reviewed": 5870,
-    "draft": 427,
+    "reviewed": 5907,
+    "draft": 390,
     "scope": "Current address-backed entries from english-full.json, including the training data table; this is not a whole-game denominator."
   },
-  "reviewed_ui_addresses": 1998,
+  "reviewed_ui_addresses": 2035,
   "packed_ui_inventory": {
     "archive_members": 2223,
     "resources_scanned": 227,
@@ -949,7 +950,7 @@
     "interactive_validation": false,
     "report": "pitcher-usage-wording-validation.json"
   },
-  "latest_windows_build_report": "headless-formatting-validation.json",
+  "latest_windows_build_report": "native-ui-accuracy-validation.json",
   "motion_settings_wording_review": {
     "english_records_updated": 20,
     "submarine_labels_and_compounds": 16,
@@ -1046,7 +1047,10 @@
     "report": "headless-formatting-validation.json",
     "integrated_spirits_training_lookup_fields": 112,
     "spirits_training_display_route_verified": false,
-    "spirits_training_report": "spirits-training-integration-validation.json"
+    "spirits_training_report": "spirits-training-integration-validation.json",
+    "cp932_fields_accuracy_reviewed": 37,
+    "numeric_year_pattern_retains_draft_status": true,
+    "accuracy_report": "native-ui-accuracy-validation.json"
   },
   "static_sprite_crop_review": {
     "labels_refitted": 12,
@@ -1124,7 +1128,8 @@
     "full_manual_accuracy_review_complete": false,
     "automatic_patch_replacements": 0,
     "initial_context_sources_reviewed": 10,
-    "report": "deepl-comparison-status.json"
+    "report": "deepl-comparison-status.json",
+    "distinct_input_sources_context_reviewed": 223
   },
   "spirits_training_accuracy_review": {
     "records_reviewed": 56,
@@ -1173,5 +1178,16 @@
     "role_preserving_meaning_examples": 7,
     "report": "pennant-event-meaning-validation.json",
     "interactive_validation": false
+  },
+  "native_ui_accuracy_review": {
+    "integrated_fields_context_reviewed": 39,
+    "cp932_fields_promoted_to_reviewed": 37,
+    "wording_corrections": 2,
+    "compiled_cases": 74,
+    "curation_reproduction_checks": 37,
+    "native_offseason_replays": 45,
+    "windows_build_passed": true,
+    "live_screen_placement_checked": false,
+    "report": "native-ui-accuracy-validation.json"
   }
 }

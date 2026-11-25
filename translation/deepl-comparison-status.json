@@ -286,12 +286,24 @@
       "role_preserving_meaning_examples": 7,
       "report": "pennant-event-meaning-validation.json",
       "interactive_validation": false
+    },
+    {
+      "area": "Native menu headers, controller prompts and draft/free-agency messages",
+      "cp932_fields_context_reviewed": 38,
+      "utf16_fields_context_reviewed": 1,
+      "cp932_fields_promoted_to_reviewed": 37,
+      "wording_corrections": 2,
+      "compiled_cases": 74,
+      "native_splitter_cases": 45,
+      "report": "native-ui-accuracy-validation.json",
+      "year_duration_context_review_pending": true,
+      "interactive_validation": false
     }
   ],
-  "distinct_deepl_input_sources_context_reviewed": 184,
+  "distinct_deepl_input_sources_context_reviewed": 223,
   "reviewed_training_fields_not_requiring_deepl": 1,
   "context_reviewed_sources_with_wording_follow_up": 0,
-  "context_reviewed_input_ids_sha256": "c4bc812e324689bf34c42e7db6b32a73c42321d1801678e0e56ca40d3bb7d1ac",
+  "context_reviewed_input_ids_sha256": "35763dabfd353dee515cbd0edc3049900c9a45349b0977122354d49d51601fca",
   "additional_role_preserving_meaning_examples": 7,
   "role_preserving_meaning_example_sha256": "b136ceee85466422f0e6b45281444092847e1da610be95ff714d63d95b4bedc2",
   "initial_service_pass_characters_used": 160731

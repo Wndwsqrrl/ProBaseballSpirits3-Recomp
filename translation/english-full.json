@@ -133078,84 +133078,84 @@
     "source_size": 6,
     "source_hash": "FB20605A428324AB",
     "english": "Player Name",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82065020",
     "source_size": 10,
     "source_hash": "DB17621EA1FC1B77",
     "english": "Contact vs RHP",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82068400",
     "source_size": 67,
     "source_hash": "E9AE0F8EE37E4232",
     "english": "Reconnect the controller and press A to continue.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82076280",
     "source_size": 16,
     "source_hash": "BFDE2E916EF9EDA1",
     "english": "Get one out!",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8207E320",
     "source_size": 50,
     "source_hash": "74925A6D64D6C3D3",
     "english": "Arrange Menu<RIGHT><+UD>Select <○>Confirm <×>Back",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820852FC",
     "source_size": 46,
     "source_hash": "594C20E5A838EDE7",
     "english": "Match Conditions<RIGHT> <+>Select <○>Confirm <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820857AC",
     "source_size": 48,
     "source_hash": "D104D6D679BF1C4A",
     "english": "Search Filters<RIGHT> <+>Select <○>Confirm <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82085EB4",
     "source_size": 50,
     "source_hash": "B9D6B4979825EB99",
     "english": "Select Search Type<RIGHT> <+>Select <○>Confirm <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82085EF8",
     "source_size": 66,
     "source_hash": "89591CD181C66F6A",
     "english": "Team Rankings (Stats Service Discontinued)<RIGHT> <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820860E8",
     "source_size": 49,
     "source_hash": "7922AC5E7A8BE6BD",
     "english": "Xbox Live Mode<RIGHT> <+>Select <○>Confirm <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820864D8",
     "source_size": 12,
     "source_hash": "43C1153FE6EC562C",
     "english": "Ranked Match",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82091070",
     "source_size": 6,
     "source_hash": "B7381D3D8FBCFB22",
     "english": "All Teams",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82091A28",
@@ -133169,175 +133169,175 @@
     "source_size": 60,
     "source_hash": "22E9B38145C26732",
     "english": "%s\nPassed. (\u000bRounds left: %d\u000b)\nProceed to the next pick.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094770",
     "source_size": 97,
     "source_hash": "15EA7F0674829426",
     "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094820",
     "source_size": 65,
     "source_hash": "ABA6ED8FE92D91E7",
     "english": "\u000b%s\u000b\ndrafted \u000b%s\u000b.\nNext pick. (\u000bRounds left: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094868",
     "source_size": 102,
     "source_hash": "DE400E64930645B2",
     "english": "Picks follow \u000bwaiver order\u000b.\n\u000b%s\u000b\nPicking. (\u000bRounds left: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820948D0",
     "source_size": 69,
     "source_hash": "D6AD88A1163E0485",
     "english": "Draft in \u000bwaiver order\u000b.\nSelect a player.\n(\u000bRounds left: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094918",
     "source_size": 67,
     "source_hash": "1A627C57BCBDFAA2",
     "english": "Another team is making its\n\u000bFree Acquisition Slot pick\u000b.\nPlease wait.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209495C",
     "source_size": 53,
     "source_hash": "52FBD8254F89FA3D",
     "english": "This pick uses the\n\u000bFree Acquisition Slot\u000b.\nSelect a player.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820949E0",
     "source_size": 86,
     "source_hash": "AEE657E05D3AB1A1",
     "english": "Add \u000bfictional players\u000b to the\ndraft. Choose the \u000bfictional\nplayers\u000b you want to enter.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094A38",
     "source_size": 132,
     "source_hash": "EE5C521A52344D93",
-    "english": "Replay the \u000b2005 draft\u000b \u000bpicks\u000b.\n\u000bAll\u000b real rookies skip the draft\nand join their \u000boriginal clubs\u000b.",
-    "status": "draft"
+    "english": "The \u000b2005 draft\u000b is \u000brecreated\u000b.\n\u000bAll\u000b real rookies skip the draft\nand join their \u000bhistorical clubs\u000b.",
+    "status": "reviewed"
   },
   {
     "address": "0x82094AC0",
     "source_size": 116,
     "source_hash": "20E8B9727A02B3DE",
     "english": "Enter the \u000breal 2005 rookies\u000b\nas a group. You cannot\npick them individually.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82094B38",
     "source_size": 124,
     "source_hash": "732B45DAE9437C60",
     "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in the draft. Choose\nwhich \u000bcustom players\u000b to enter.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820954BC",
     "source_size": 48,
     "source_hash": "DBF535BF6E70F087",
     "english": "%s\nPassed. (\u000bPicks left: %d\u000b)\nProceed to the next selection.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82095560",
     "source_size": 59,
     "source_hash": "07545F141901A5ED",
     "english": "\u000b%s\u000b\nsigned \u000b%s\u000b.\nNext selection. (\u000bLeft: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820955A0",
     "source_size": 70,
     "source_hash": "3B51B23B29AFC069",
     "english": "\u000b%s\u000b\nSelecting a player. Please wait.\n(\u000bPicks left: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820955E8",
     "source_size": 44,
     "source_hash": "3D4C15723C333945",
     "english": "Select a player to sign.\n(\u000bPicks left: %d\u000b)",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82095618",
     "source_size": 61,
     "source_hash": "7B720EAB525E4F21",
     "english": "Another team is choosing\na \u000bplayer to sign\u000b.\nPlease wait.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82095678",
     "source_size": 162,
     "source_hash": "F9A5D2D56A94F1A5",
-    "english": "\u000bReplay\u000b the \u000b2005 signings\u000b.\n\u000bAll\u000b real free agents skip FA\nand join their \u000boriginal clubs\u000b.",
-    "status": "draft"
+    "english": "\u000b2005 free agency\u000b is \u000brecreated\u000b.\n\u000bAll\u000b real free agents skip FA\nand join their \u000bhistorical clubs\u000b.",
+    "status": "reviewed"
   },
   {
     "address": "0x82095720",
     "source_size": 138,
     "source_hash": "15D63F84C5E46775",
     "english": "Enter the \u000breal 2005 free\nagents\u000b as a group. You cannot\npick them individually.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820957B0",
     "source_size": 144,
     "source_hash": "59EDC4DA385777D4",
     "english": "Enter \u000bSpirits Mode\u000b \u000bcustom\nplayers\u000b in free agency. Choose\nwhich \u000bcustom players\u000b to enter.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82096968",
     "source_size": 99,
     "source_hash": "839DFDBDC028A597",
     "english": "Review your team's \u000broster\u000b.\nHighlight a player to see\ntheir \u000babilities\u000b.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820969CC",
     "source_size": 57,
     "source_hash": "9D16004B02B3567A",
     "english": "Another team is selecting a\n\u000bplayer\u000b. Please wait.",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x820A2810",
     "source_size": 17,
     "source_hash": "EFCF6B96334CAC52",
     "english": "Custom Player 1",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8207F210",
     "source_size": 40,
     "source_hash": "830403FC6FAC8B9F",
     "english": "Game Settings<RIGHT><+>Select <○>Confirm <×>Back",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x82085C60",
     "source_size": 64,
     "source_hash": "D3DDB87CC7DEB57B",
     "english": "Ranked Match Lobby<RIGHT> <+>Select <□>Search Again <○>Confirm <×>Back ",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x8209F10C",
     "source_size": 29,
     "source_hash": "DE6E8836E8D10829",
     "english": "Preseason Results<RIGHT><○>Confirm",
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "address": "0x827D8914",
