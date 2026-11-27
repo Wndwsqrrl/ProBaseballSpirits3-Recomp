@@ -1,6 +1,6 @@
 # Pro Yakyuu Spirits 3 Recomp
 
-[![License: Not specified](https://img.shields.io/badge/License-Not%20specified-68758A?style=for-the-badge&labelColor=0B2038)](NOTICES.md) [![Total downloads](https://img.shields.io/github/downloads/Wndwsqrrl/ProBaseballSpirits3-Recomp/total?style=for-the-badge&color=E0B14F&labelColor=0B2038)](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/releases) [![Platform: Windows x64](https://img.shields.io/badge/Platform-Windows%20x64-245A91?style=for-the-badge&labelColor=0B2038)](docs/getting-started.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-3A8763?style=for-the-badge&labelColor=0B2038)](LICENSE) [![Total downloads](https://img.shields.io/github/downloads/Wndwsqrrl/ProBaseballSpirits3-Recomp/total?style=for-the-badge&color=E0B14F&labelColor=0B2038)](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/releases) [![Platform: Windows x64](https://img.shields.io/badge/Platform-Windows%20x64-245A91?style=for-the-badge&labelColor=0B2038)](docs/getting-started.md)
 
 A Windows port of **Pro Yakyuu Spirits 3** for Xbox 360, built with [ReXGlue](https://github.com/rexglue/rexglue-sdk), with an English localization and the original Japanese mode.
 

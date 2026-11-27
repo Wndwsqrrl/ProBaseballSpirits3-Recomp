@@ -2,6 +2,8 @@
 
 Pro Yakyuu Spirits 3 Recomp is an unofficial fan project. It is not affiliated with or endorsed by KONAMI or the game's rights holders.
 
+Original contributions to this project are licensed under the [MIT License](LICENSE), copyright 2026 Wndwsqrrl. Third-party code and original game artwork retain their respective licenses and ownership, as detailed below.
+
 The original game executable and data archive are required locally and are not included in the preview package. The original game logo is used to identify the game; its artwork and trademarks remain the property of their respective rights holders. See [the artwork notice](licenses/game-logo-NOTICE.txt).
 
 The screenshot gallery contains game captures from development. The game artwork and trademarks shown in these images remain the property of their respective rights holders.

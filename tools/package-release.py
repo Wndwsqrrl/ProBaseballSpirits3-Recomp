@@ -30,7 +30,7 @@ def main():
         if not path.is_file():
             parser.error(f'Required release file is missing: {name}')
         files[name] = path
-    for name in ['README.md', 'CHANGELOG.md', 'NOTICES.md']:
+    for name in ['README.md', 'CHANGELOG.md', 'NOTICES.md', 'LICENSE']:
         files[name] = root / name
     files['README.md'] = root / 'docs/release-README.md'
     for name in ['getting-started.md', 'known-issues.md', 'screenshots.md']:
