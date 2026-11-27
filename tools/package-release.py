@@ -36,7 +36,8 @@ def main():
     for name in ['getting-started.md', 'known-issues.md', 'screenshots.md']:
         files['docs/' + name] = root / 'docs' / name
     files['docs/images/launcher.png'] = root / 'docs/images/launcher.png'
-    for name in ['hanshin-introduction.png', 'main-menu.png', 'lineup.png']:
+    for name in ['hanshin-introduction.jpg', 'main-menu.jpg', 'lineup.jpg', 'live-pitching.jpg',
+                 'koshien-selection.jpg', 'koshien-matchup.jpg', 'marines-introduction.jpg', 'pause-menu.jpg', 'captures.json']:
         files['docs/images/' + name] = root / 'docs/images' / name
     files['licenses/game-logo-NOTICE.txt'] = root / 'launcher/assets/NOTICE.txt'
     for path in sorted((root / 'licenses').rglob('*')):

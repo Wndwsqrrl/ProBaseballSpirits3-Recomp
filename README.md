@@ -4,9 +4,9 @@ A Windows port of **Pro Yakyuu Spirits 3** for Xbox 360, built with [ReXGlue](ht
 
 **Windows x64 · Direct3D 12 · Playable preview · English / 日本語**
 
-![Hanshin Tigers pitcher Kei Igawa during a player introduction](docs/images/hanshin-introduction.png)
+![Kei Igawa pitching for Hanshin against Chiba Lotte at Koshien](docs/images/live-pitching.jpg)
 
-*Hanshin at the ballpark. Actual development capture, November 4, 2026; translation work has continued since this image.*
+*Hanshin vs. Chiba Lotte at Koshien. Captured from the English Windows preview on November 27, 2026.*
 
 [Releases](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/releases) · [Getting started](docs/getting-started.md) · [Known issues](docs/known-issues.md) · [Build from source](docs/building.md) · [Report an issue](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/issues)
 
@@ -14,10 +14,10 @@ A Windows port of **Pro Yakyuu Spirits 3** for Xbox 360, built with [ReXGlue](ht
 
 | Choose your mode | Set your lineup |
 | :---: | :---: |
-| [![English mode buttons on the main menu](docs/images/main-menu.png)](docs/images/main-menu.png) | [![Lineup editor with English controls and player names](docs/images/lineup.png)](docs/images/lineup.png) |
+| [![English main menu, descriptions and button prompts](docs/images/main-menu.jpg)](docs/images/main-menu.jpg) | [![Hanshin lineup with English names, positions and condition labels](docs/images/lineup.jpg)](docs/images/lineup.jpg) |
 | Pennant, Exhibition, Spirits and more | Batting order, bench and pitching staff |
 
-Unedited development captures from November 3–4, 2026, showing an earlier translation build. [View the gallery and capture details](docs/screenshots.md).
+Fresh captures from the English preview, November 27, 2026. [View more gameplay, menus and capture details](docs/screenshots.md).
 
 ## What this project includes
 

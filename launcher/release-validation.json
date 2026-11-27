@@ -49,12 +49,23 @@
   ],
   "fidelityfx_enabled": false,
   "high_resolution_gameplay_verified": false,
-  "new_launcher_to_live_gameplay_verified": false,
+  "new_launcher_to_live_gameplay_verified": true,
   "game_launched_during_background_checks": false,
   "user_gameplay_feedback": "The user reports that the game runs pretty good; this is not a measured frame-rate or full-match claim.",
   "remaining": [
-    "An interactive launch through the packaged launcher has not been tested during this background-only work.",
     "Localization accuracy, generated names, live placement, rare modes and long-match/season coverage remain unfinished.",
     "Higher rendering scales are experimental; no DLSS/FSR or high-frame-rate guarantee is included."
-  ]
+  ],
+  "live_validation": {
+    "date": "2026-11-27",
+    "language": "English",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "resolution": "720p",
+    "render_scale": 1,
+    "launcher_started_game": true,
+    "exhibition_match_loaded": true,
+    "live_pitch_completed": true,
+    "complete_match_tested": false,
+    "capture_details": "docs/images/captures.json"
+  }
 }

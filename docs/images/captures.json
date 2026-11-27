@@ -1,0 +1,74 @@
+{
+  "capture_date": "2026-11-27",
+  "timezone": "America/Chicago",
+  "source_commit_at_capture": "fc31e3565f69b29cec7332aca0c9cb203b1b2039",
+  "language": "English",
+  "launch_method": "ProSpi3 Launcher.exe",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "output_resolution_setting": "720p",
+  "internal_render_scale": 1,
+  "capture_format": "JPEG window captures",
+  "post_capture_edits": false,
+  "native_executable_sha256": "f2805039496ca0b54e4882e2343e66964e830dbf0c8b2330f285d1f458ba7c9b",
+  "launcher_sha256": "36ece1d3d166e9ab2558234a5e5f455178255bffe7cb1814ef015dd6281bf050",
+  "english_patch_sha256": "90dcfd8ab5e6c55b30b17992315610a1d09459f4b69de54457798184cc7e8eeb",
+  "scope": "Menus, team and stadium selection, both lineups, match introductions, warmup, one live pitch and pause menu. No complete-match or frame-rate certification.",
+  "files": {
+    "main-menu.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "989cf2aaac846b4b49f8814e4d2e0a76d9680516a47a11c4a5a2e4da627831f0"
+    },
+    "lineup.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "09ede8f0c2c0debe2200fe01e93cc018ad4ca0e525b05d6d71c4ef3ef50a80fd"
+    },
+    "hanshin-introduction.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "f7bef288ceb5bea498190513ade4797c83971ae3578f4e11bd03a99ae6e50f0a"
+    },
+    "live-pitching.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "9aeb12d93d240a393ed74eb7a7368ce6dc4eab1fcf0222e8316869754d1b0e62"
+    },
+    "koshien-selection.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "b6473c23badb7f0dd8e76d8cbc5f13f6a89e0259d53a0d2570c9a8f8076920ab"
+    },
+    "koshien-matchup.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "b8ee09c9647b4d07d0db2b537000174b910454e306ecdebb59d532c304ca6fca"
+    },
+    "marines-introduction.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "ac063d2d14b819583a0c205a2e3f77ab5bf212962ebec0d413c384352a613d61"
+    },
+    "pause-menu.jpg": {
+      "dimensions": [
+        1536,
+        864
+      ],
+      "sha256": "6ffcb8f69469236daa0f1f8991bb5f1f747c42b2d57c5e8ce428c09202c17eb3"
+    }
+  }
+}

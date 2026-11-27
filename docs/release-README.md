@@ -2,9 +2,9 @@
 
 Windows x64 preview with English and original Japanese modes.
 
-![Hanshin Tigers player introduction](images/hanshin-introduction.png)
+![Hanshin versus Chiba Lotte at Koshien](images/live-pitching.jpg)
 
-*Actual development capture from November 4, 2026. The current preview includes later translation changes.*
+*Live pitching in the English Windows preview, captured November 27, 2026.*
 
 [View more screenshots](screenshots.md)
 
