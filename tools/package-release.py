@@ -33,9 +33,11 @@ def main():
     for name in ['README.md', 'CHANGELOG.md', 'NOTICES.md']:
         files[name] = root / name
     files['README.md'] = root / 'docs/release-README.md'
-    for name in ['getting-started.md', 'known-issues.md']:
+    for name in ['getting-started.md', 'known-issues.md', 'screenshots.md']:
         files['docs/' + name] = root / 'docs' / name
     files['docs/images/launcher.png'] = root / 'docs/images/launcher.png'
+    for name in ['hanshin-introduction.png', 'main-menu.png', 'lineup.png']:
+        files['docs/images/' + name] = root / 'docs/images' / name
     files['licenses/game-logo-NOTICE.txt'] = root / 'launcher/assets/NOTICE.txt'
     for path in sorted((root / 'licenses').rglob('*')):
         if path.is_file():
@@ -43,7 +45,7 @@ def main():
     for name, path in files.items():
         if not path.is_file() or any(part.lower() in ['local', '.git', 'userdata', 'cache'] for part in Path(name).parts) or path.suffix.lower() in ['.xex', '.fbd', '.chk', '.iso']:
             raise ValueError(f'Unsafe or missing package input: {name}')
-    readme = files['README.md'].read_bytes().replace(b'(getting-started.md)', b'(docs/getting-started.md)').replace(b'(known-issues.md)', b'(docs/known-issues.md)').replace(b'(../NOTICES.md)', b'(NOTICES.md)')
+    readme = files['README.md'].read_bytes().replace(b'(getting-started.md)', b'(docs/getting-started.md)').replace(b'(known-issues.md)', b'(docs/known-issues.md)').replace(b'(screenshots.md)', b'(docs/screenshots.md)').replace(b'(images/', b'(docs/images/').replace(b'(../NOTICES.md)', b'(NOTICES.md)')
     source_commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip()
     metadata = dict(version=args.version, source_commit=source_commit, platform='Windows x64', language_default='English',
                     languages=['English', 'Japanese'], original_game_required=True,

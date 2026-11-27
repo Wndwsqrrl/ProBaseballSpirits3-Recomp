@@ -2,6 +2,12 @@
 
 Windows x64 preview with English and original Japanese modes.
 
+![Hanshin Tigers player introduction](images/hanshin-introduction.png)
+
+*Actual development capture from November 4, 2026. The current preview includes later translation changes.*
+
+[View more screenshots](screenshots.md)
+
 ## Start playing
 
 1. Extract the complete ZIP to a writable folder.

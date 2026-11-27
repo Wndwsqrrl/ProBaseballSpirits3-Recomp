@@ -4,9 +4,20 @@ A Windows port of **Pro Yakyuu Spirits 3** for Xbox 360, built with [ReXGlue](ht
 
 **Windows x64 · Direct3D 12 · Playable preview · English / 日本語**
 
-![Launcher preview](docs/images/launcher.png)
+![Hanshin Tigers pitcher Kei Igawa during a player introduction](docs/images/hanshin-introduction.png)
+
+*Hanshin at the ballpark. Actual development capture, November 4, 2026; translation work has continued since this image.*
 
 [Releases](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/releases) · [Getting started](docs/getting-started.md) · [Known issues](docs/known-issues.md) · [Build from source](docs/building.md) · [Report an issue](https://github.com/Wndwsqrrl/ProBaseballSpirits3-Recomp/issues)
+
+## A look inside
+
+| Choose your mode | Set your lineup |
+| :---: | :---: |
+| [![English mode buttons on the main menu](docs/images/main-menu.png)](docs/images/main-menu.png) | [![Lineup editor with English controls and player names](docs/images/lineup.png)](docs/images/lineup.png) |
+| Pennant, Exhibition, Spirits and more | Batting order, bench and pitching staff |
+
+Unedited development captures from November 3–4, 2026, showing an earlier translation build. [View the gallery and capture details](docs/screenshots.md).
 
 ## What this project includes
 
@@ -17,6 +28,19 @@ A Windows port of **Pro Yakyuu Spirits 3** for Xbox 360, built with [ReXGlue](ht
 - Separate save folders for each language.
 
 The localization is **unfinished**. Some wording, name readings, text placement and less-visited game paths still need review. This preview is not a claim of 100% translation or full-game stability.
+
+| Pick your language | Keep the NPB atmosphere | Adjust your graphics |
+| :--- | :--- | :--- |
+| English by default, with original Japanese available and separate saves | Original stadium signs, sponsor ads, ballpark artwork, logos and credits | 720p through 4K output; experimental 2× and 3× internal rendering |
+
+<details>
+<summary><strong>See the launcher</strong></summary>
+
+![Launcher preview](docs/images/launcher.png)
+
+Select your extracted game folder, language, output resolution and rendering scale in one place.
+
+</details>
 
 ## Play the preview
 
