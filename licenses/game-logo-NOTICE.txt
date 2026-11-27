@@ -1,0 +1,6 @@
+The title wordmark and numeral are from Pro Yakyuu Spirits 3.
+Original artwork and trademarks belong to KONAMI and their respective rights holders.
+The launcher uses the original title atlas without redrawing or translating the logo.
+
+Source resource: BB06TIT.CHK / MENU_OPtitle_a.tsr
+Decoded PNG SHA-256: 90d0edc74d063faa349666d2a354999d469d67afef47a5146865cf19b1dff0d0

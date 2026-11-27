@@ -31,4 +31,4 @@ if ($NoVSync) { $graphicsArgs+='--vsync=false' }
 & (Join-Path $portDir 'prospi3.exe') "--game_data_root=$gameRoot" `
     "--user_data_root=$(Join-Path $workspace 'local\userdata')" `
     "--cache_root=$(Join-Path $workspace 'local\cache')" `
-    '--gpu_backend=d3d12' '--d3d12_adapter=1' '--render_target_path_d3d12=rov' '--mnk_mode=true' @graphicsArgs
+    '--gpu_backend=d3d12' '--render_target_path_d3d12=rov' '--mnk_mode=true' @graphicsArgs

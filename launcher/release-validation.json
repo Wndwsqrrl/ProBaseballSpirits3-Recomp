@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-26",
+  "version": "v0.1.0-preview.1",
+  "source_base_commit": "aa6a8e7083ce38b5e57f8ab55b2155a9c0e7e615",
+  "languages": [
+    "English",
+    "Japanese"
+  ],
+  "default_language": "English",
+  "separate_language_save_profiles": true,
+  "launcher_self_tests": {
+    "defaults_verified": true,
+    "both_languages_verified": true,
+    "separate_profiles_verified": true,
+    "arguments_verified": true,
+    "invalid_settings_rejected": true,
+    "runtime_check_verified": true,
+    "drive_root_rejected": true,
+    "game_launched": false
+  },
+  "english_archive_reconstruction_verified": true,
+  "english_installation_verified": true,
+  "english_cache_reuse_verified": true,
+  "synthetic_cancellation_check": {
+    "cancellation_verified": true,
+    "temporary_output_removed": true,
+    "game_launched": false
+  },
+  "unsupported_archive_rejected": true,
+  "original_archive_sha256": "dd985cafae037120109ba9ff9d4fe6bc6c84d86e83680bc65ce92995f8ed4b3a",
+  "english_archive_sha256": "c626feaaaaa7415d64ddcf8a38ed6ba235f923630ffcc423aeb9e82aa93f0770",
+  "compact_patch_sha256": "90dcfd8ab5e6c55b30b17992315610a1d09459f4b69de54457798184cc7e8eeb",
+  "compact_patch_size": 3833700,
+  "archive_members": 2223,
+  "patched_members": 111,
+  "copied_members": 2112,
+  "logo_source": "BB06TIT.CHK/MENU_OPtitle_a.tsr",
+  "logo_atlas_sha256": "90d0edc74d063faa349666d2a354999d469d67afef47a5146865cf19b1dff0d0",
+  "logo_pixels_unchanged": true,
+  "native_windows_build_passed": true,
+  "native_executable_sha256": "f2805039496ca0b54e4882e2343e66964e830dbf0c8b2330f285d1f458ba7c9b",
+  "launcher_sha256": "36ece1d3d166e9ab2558234a5e5f455178255bffe7cb1814ef015dd6281bf050",
+  "documentation_relative_links_checked": true,
+  "source_attribution_scan_passed": true,
+  "rendering_scales_exposed": [
+    1,
+    2,
+    3
+  ],
+  "fidelityfx_enabled": false,
+  "high_resolution_gameplay_verified": false,
+  "new_launcher_to_live_gameplay_verified": false,
+  "game_launched_during_background_checks": false,
+  "user_gameplay_feedback": "The user reports that the game runs pretty good; this is not a measured frame-rate or full-match claim.",
+  "remaining": [
+    "An interactive launch through the packaged launcher has not been tested during this background-only work.",
+    "Localization accuracy, generated names, live placement, rare modes and long-match/season coverage remain unfinished.",
+    "Higher rendering scales are experimental; no DLSS/FSR or high-frame-rate guarantee is included."
+  ]
+}

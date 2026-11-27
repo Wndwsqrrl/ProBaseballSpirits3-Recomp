@@ -1,0 +1,27 @@
+name: Translation or layout issue
+description: Report untranslated text, an incorrect translation or text that does not fit.
+title: "[Translation] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Release version
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Where does the text appear?
+      description: Include the mode, menu path and a screenshot if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs changing?
+      description: Include the current text and a suggested translation if you have one.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Original Japanese stadium signs, sponsor ads, ballpark artwork, logos and credits are intentionally preserved.
